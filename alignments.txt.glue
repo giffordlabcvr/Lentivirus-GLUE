@@ -1,0 +1,17 @@
+  #  Derive segments commands
+  
+  alignment AL_Retroviridae
+    derive segments AL_Retroviridae_RT --recursive --existingMembersOnly --allMembers --mergeStrategy MERGE_PREFER_EXISTING
+    exit
+
+  alignment AL_Spumavirinae
+    derive segments AL_UNC_Spumavirinae_pol --recursive --existingMembersOnly --allMembers --mergeStrategy MERGE_PREFER_EXISTING
+    exit
+
+  alignment AL_Lentivirus
+    derive segments AL_UNC_Lentivirus-Pro-Pol --recursive --existingMembersOnly --allMembers --mergeStrategy MERGE_PREFER_EXISTING
+    exit
+
+  alignment AL_Deltaretrovirus
+    derive segments AL_UNC_Deltaretrovirus --recursive --existingMembersOnly --allMembers --mergeStrategy MERGE_PREFER_EXISTING
+    exit
