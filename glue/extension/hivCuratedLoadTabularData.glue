@@ -1,4 +1,0 @@
-module hivTextFilePopulatorLanlSequences
-  populate -w "source.name = 'ncbi-curated-subtype-b'"  -f tabular/extension/lanl_subtypeB_completegenomes.csv
-  populate -w "source.name = 'ncbi-curated-subtype-c'"  -f tabular/extension/lanl_subtypeC_completegenomes.csv
-  exit 

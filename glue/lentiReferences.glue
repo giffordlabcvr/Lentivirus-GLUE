@@ -1,3 +1,4 @@
+  ## Reference sequence declarations
 
   ## HIV-2 
   create reference REF_HIV2A	        ncbi-refseqs M30502
@@ -7,8 +8,6 @@
   create reference REF_SIVgsn           ncbi-refseqs AF468659
   create reference REF_SIVden           ncbi-refseqs AJ580407
   create reference REF_SIVdrl1          ncbi-refseqs AY159321
-  create reference REF_SIVcol           ncbi-refseqs AF301156
-  #create reference REF_SIVcpz           ncbi-refseqs AY169968
   create reference REF_SIVcol           ncbi-refseqs AF301156
   create reference REF_SIVlhoest        ncbi-refseqs AF075269
   create reference REF_SIVmac           ncbi-refseqs M33262

@@ -1,0 +1,12 @@
+
+#~# Import unconstrained reference alignments
+
+module unconstrainedAlignmentImporter
+  import AL_REF_LENTI_UNCONSTRAINED -f alignments/root/lentivirus.aln.fna
+  exit
+
+#~# Derive constrained alignment segments from unconstrained alignments
+
+alignment AL_REF_LENTI_MASTER
+  derive segments AL_REF_LENTI_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit
