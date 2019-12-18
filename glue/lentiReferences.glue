@@ -1,25 +1,39 @@
   ## Reference sequence declarations
 
+  # HIV-1 non-M 
+  create reference REF_HIV-1N	        ncbi-refseqs-lenti DQ017382
+  create reference REF_HIV-1O	        ncbi-refseqs-lenti L20571
+  create reference REF_HIV-1P	        ncbi-refseqs-lenti HQ179987
+
   ## HIV-2 
-  create reference REF_HIV2A	        ncbi-refseqs M30502
-  create reference REF_HIV2B	        ncbi-refseqs X61240
+  create reference REF_HIV2A	        ncbi-refseqs-lenti M30502
+  create reference REF_HIV2B	        ncbi-refseqs-lenti X61240
 
   ## Simian lentiviruses
-  create reference REF_SIVgsn           ncbi-refseqs AF468659
-  create reference REF_SIVden           ncbi-refseqs AJ580407
-  create reference REF_SIVdrl1          ncbi-refseqs AY159321
-  create reference REF_SIVcol           ncbi-refseqs AF301156
-  create reference REF_SIVlhoest        ncbi-refseqs AF075269
-  create reference REF_SIVmac           ncbi-refseqs M33262
-  create reference REF_SIVmnd           ncbi-refseqs AF328295
-  create reference REF_SIVmus           ncbi-refseqs KF304707
-  create reference REF_SIVocm           ncbi-refseqs FM165200
-  create reference REF_SIVrcm           ncbi-refseqs AF382829
-  create reference REF_SIVrtg           ncbi-refseqs KJ461716
-  create reference REF_SIVsab           ncbi-refseqs U04005
-  create reference REF_SIVsmm           ncbi-refseqs JX860430
-  create reference REF_SIVsun           ncbi-refseqs AF131870
-  create reference REF_SIVsyk           ncbi-refseqs AY523867
-  create reference REF_SIVtal           ncbi-refseqs AY655744
-  create reference REF_SIVwrc           ncbi-refseqs AM713177
+  create reference REF_SIVgsn           ncbi-refseqs-lenti AF468659
+  create reference REF_SIVden           ncbi-refseqs-lenti AJ580407
+  create reference REF_SIVdrl1          ncbi-refseqs-lenti AY159321
+  create reference REF_SIVcol           ncbi-refseqs-lenti AF301156
+  create reference REF_SIVlhoest        ncbi-refseqs-lenti AF075269
+  create reference REF_SIVmac           ncbi-refseqs-lenti M33262
+  create reference REF_SIVmnd           ncbi-refseqs-lenti AF328295
+  create reference REF_SIVmus           ncbi-refseqs-lenti KF304707
+  create reference REF_SIVocm           ncbi-refseqs-lenti FM165200
+  create reference REF_SIVrcm           ncbi-refseqs-lenti AF382829
+  create reference REF_SIVrtg           ncbi-refseqs-lenti KJ461716
+  create reference REF_SIVsab           ncbi-refseqs-lenti U04005
+  create reference REF_SIVsmm           ncbi-refseqs-lenti JX860430
+  create reference REF_SIVsun           ncbi-refseqs-lenti AF131870
+  create reference REF_SIVsyk           ncbi-refseqs-lenti AY523867
+  create reference REF_SIVtal           ncbi-refseqs-lenti AY655744
+  create reference REF_SIVwrc           ncbi-refseqs-lenti AM713177
   
+  ## Non-primate lentivirus reference sequence declarations
+  create reference REF_BIV              ncbi-refseqs-lenti M32690
+  create reference REF_JDV              ncbi-refseqs-lenti U21603
+  create reference REF_EIAV             ncbi-refseqs-lenti M16575
+  create reference REF_FIV              ncbi-refseqs-lenti M25381
+  create reference REF_SRLV-A           ncbi-refseqs-lenti M60610
+  create reference REF_SRLV-B           ncbi-refseqs-lenti M33677
+
+ 

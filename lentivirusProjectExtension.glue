@@ -1,0 +1,31 @@
+
+  # Clean up previous extension build if it exists
+  run file glue/lentiDeletePreviousBuild.glue  
+
+  project retroviridae
+
+	#~#  Build the project extension with 'curated' sequences
+
+	# Create lentivirus project extension-specific modules 
+	run file glue/lentiModules.glue  
+
+	# Import reference sequences from GenBank XML files 
+	run file glue/lentiImportSources.glue  
+
+	# Create lentivirus references
+	run file glue/lentiReferences.glue  
+
+	# Set links to isolate table for lentivirus curated sequences
+	run script glue/lentiLoadIsolateData.js
+
+	# Populate fields using GenBank file data
+	#module lentiGenbankXmlPopulator populate
+
+	# Import alignments & created constrained alignment tree
+	run file glue/lentiAlignments.glue
+
+	# Import alignments & created constrained alignment tree
+	run file glue/lentiAlignmentTree.glue
+
+	validate
+

@@ -2,7 +2,7 @@
 #~# Import unconstrained reference alignments
 
 module unconstrainedAlignmentImporter
-  import AL_REF_LENTI_UNCONSTRAINED -f alignments/root/lentivirus.aln.fna
+  import AL_REF_LENTI_UNCONSTRAINED -f alignments/internal/lentivirus.aln.fna
   exit
 
 #~# Derive constrained alignment segments from unconstrained alignments

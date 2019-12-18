@@ -1,0 +1,44 @@
+project retroviridae
+
+  # Delete references
+  delete reference REF_HIV-1N
+  delete reference REF_HIV-1P
+  delete reference REF_HIV-1O
+  delete reference REF_HIV2A
+  delete reference REF_HIV2B
+  delete reference REF_SIVgsn
+  delete reference REF_SIVden
+  delete reference REF_SIVdrl1
+  delete reference REF_SIVcol
+  delete reference REF_SIVlhoest
+  delete reference REF_SIVmac
+  delete reference REF_SIVmnd
+  delete reference REF_SIVmus
+  delete reference REF_SIVocm
+  delete reference REF_SIVrcm
+  delete reference REF_SIVrtg
+  delete reference REF_SIVsab
+  delete reference REF_SIVsmm
+  delete reference REF_SIVsun
+  delete reference REF_SIVsyk
+  delete reference REF_SIVtal
+  delete reference REF_SIVwrc
+  delete reference REF_BIV
+  delete reference REF_JDV
+  delete reference REF_EIAV
+  delete reference REF_FIV
+  delete reference REF_SRLV-A
+  delete reference REF_SRLV-B
+
+  # Delete sources
+  delete source ncbi-refseqs-lenti
+  delete source ncbi-curated-lenti-biv
+  delete source ncbi-curated-lenti-fiv
+  delete source ncbi-curated-lenti-eiav
+  delete source ncbi-curated-lenti-srlv
+  delete source ncbi-curated-lenti-siv
+
+  # Delete modules
+  delete module --whereClause "name like 'lenti%'"
+   
+  exit
