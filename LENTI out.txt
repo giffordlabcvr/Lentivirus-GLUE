@@ -1,0 +1,36 @@
+  create reference REF_HIV2B	        ncbi-refseqs-xrv X61240
+  create reference REF_HIV2B	        ncbi-refseqs-xrv X61240
+  create reference REF_SIVgsn           ncbi-refseqs-xrv AF468659
+  create reference REF_SIVden           ncbi-refseqs-xrv AJ580407
+  create reference REF_SIVdrl1          ncbi-refseqs-xrv AY159321
+  create reference REF_SIVcol           ncbi-refseqs-xrv AF301156
+  create reference REF_SIVlhoest        ncbi-refseqs-xrv AF075269
+  create reference REF_SIVmac           ncbi-refseqs-xrv M33262
+  create reference REF_SIVmnd           ncbi-refseqs-xrv AF328295
+  create reference REF_SIVmus           ncbi-refseqs-xrv KF304707
+  create reference REF_SIVocm           ncbi-refseqs-xrv FM165200
+  create reference REF_SIVrcm           ncbi-refseqs-xrv AF382829
+  create reference REF_SIVrtg           ncbi-refseqs-xrv KJ461716
+  create reference REF_SIVsab           ncbi-refseqs-xrv U04005
+  create reference REF_SIVsmm           ncbi-refseqs-xrv JX860430
+  create reference REF_SIVsun           ncbi-refseqs-xrv AF131870
+  create reference REF_SIVsyk           ncbi-refseqs-xrv AY523867
+  create reference REF_SIVtal           ncbi-refseqs-xrv AY655744
+  create reference REF_SIVwrc           ncbi-refseqs-xrv AM713177
+
+
+
+  create reference REF_FIV              ncbi-refseqs-xrv M25381
+  
+  
+  
+REF_FIV	Clade II	Lentivirus	gag	633	1985
+REF_FIV	Clade II	Lentivirus	pol	1874	5428
+REF_FIV	Clade II	Lentivirus	env	6271	8841
+
+
+
+U56928	FIV.Oma 	Feline immunodeficiency virus 	Orthoretrovirinae	Clade II	Lentivirus	Non-primate	Otocolobus manul	Pallas's cat
+X57002	FIV.P 	Feline immunodeficiency virus (Petaluma)	Orthoretrovirinae	Clade II	Lentivirus	Non-primate	Felis catus	Domestic cat
+AY169816	HIV-1O 	Human immunodeficiency virus 1 (Outlier)	Orthoretrovirinae	Clade II	Lentivirus	Primate	Homo sapiens	Human
+M30502	HIV-2 	Human immunodeficiency virus 2	Orthoretrovirinae	Clade II	Lentivirus	Primate	Homo sapiens	Human
