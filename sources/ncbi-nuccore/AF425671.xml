@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF425671</GBSeq_locus>
+    <GBSeq_length>292</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-OCT-2001</GBSeq_update-date>
+    <GBSeq_create-date>30-OCT-2001</GBSeq_create-date>
+    <GBSeq_definition>Maedi-Visna virus LTR amplicon, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>AF425671</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF425671.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF425671.1|</GBSeqid>
+      <GBSeqid>gi|16518419</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Visna/maedi virus</GBSeq_source>
+    <GBSeq_organism>Visna/maedi virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Ovine/caprine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..292</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Extramiana,B.</GBAuthor>
+          <GBAuthor>Gonzalez,L.</GBAuthor>
+          <GBAuthor>Cortabarria,N.</GBAuthor>
+          <GBAuthor>Garcia-Goti,M.</GBAuthor>
+          <GBAuthor>Juste,R.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Development and evaluation of a PCR technique for the detection of Maedi-Visna proviral DNA in blood, milk and tissue samples of naturally infected sheep</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..292</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Extramiana,B.</GBAuthor>
+          <GBAuthor>Gonzalez,L.</GBAuthor>
+          <GBAuthor>Cortabarria,N.</GBAuthor>
+          <GBAuthor>Garcia-Goti,M.</GBAuthor>
+          <GBAuthor>Juste,R.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-SEP-2001) Departamento de Sanidad Animal, NEIKER, Berreaga, 1, Derio, Bizkaia 48160, Spain</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..292</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>292</GBInterval_to>
+            <GBInterval_accession>AF425671.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Visna/maedi virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>sheep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11741</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from sheep milk</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>&lt;1..112</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>112</GBInterval_to>
+            <GBInterval_accession>AF425671.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>3'</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>113..286</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>113</GBInterval_from>
+            <GBInterval_to>286</GBInterval_to>
+            <GBInterval_accession>AF425671.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>5'</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>287..292</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>287</GBInterval_from>
+            <GBInterval_to>292</GBInterval_to>
+            <GBInterval_accession>AF425671.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>R</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>accaccagcaaatgtaaccgcaagttctgctttaagctgctgagccatgtaacagctgacgcttagatcataaccgcaaatgtaaacaagttgactatataaacccctgcttgtgtagtgaaaggcagagtctcttggagtctcacaaggaaagagctccagagctctcctgcctgcgctgacgcttcaataaaggagttgactgagagctgagcaagcctggttattatcggggctcgttactaattccgtgcaataccggagcgggtctcgcagctggcgcccaacgtgg</GBSeq_sequence>
+  </GBSeq>

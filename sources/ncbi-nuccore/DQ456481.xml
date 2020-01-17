@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DQ456481</GBSeq_locus>
+    <GBSeq_length>513</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>18-OCT-2007</GBSeq_update-date>
+    <GBSeq_create-date>11-APR-2006</GBSeq_create-date>
+    <GBSeq_definition>Caprine arthritis-encephalitis virus isolate 31PL gag polyprotein (gag) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>DQ456481</GBSeq_primary-accession>
+    <GBSeq_accession-version>DQ456481.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|DQ456481.1|</GBSeqid>
+      <GBSeqid>gi|91177034</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Caprine arthritis encephalitis virus</GBSeq_source>
+    <GBSeq_organism>Caprine arthritis encephalitis virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Ovine/caprine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..513</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kuzmak,J.</GBAuthor>
+          <GBAuthor>Rola,M.</GBAuthor>
+          <GBAuthor>Gallay,K.</GBAuthor>
+          <GBAuthor>Chebloune,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular characterization of lentiviruses from goats from Poland based on gag gene sequence analysis</GBReference_title>
+        <GBReference_journal>Comp. Immunol. Microbiol. Infect. Dis. 30 (4), 211-223 (2007)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.cimid.2007.01.001</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17337054</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..513</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kuzmak,J.</GBAuthor>
+          <GBAuthor>Bicka,L.</GBAuthor>
+          <GBAuthor>Rola,M.</GBAuthor>
+          <GBAuthor>Gallay,K.</GBAuthor>
+          <GBAuthor>Chebloune,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylogenic analysis of field isolates of caprine arthritis-encephalitis virus from Polish goats</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..513</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kuzmak,J.</GBAuthor>
+          <GBAuthor>Bicka,L.</GBAuthor>
+          <GBAuthor>Rola,M.</GBAuthor>
+          <GBAuthor>Gallay,K.</GBAuthor>
+          <GBAuthor>Chebloune,Y.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-MAR-2006) Department of Biochemistry, National Veterinary Research Institute, Partyzantow 57, Pulawy 24-100, Poland</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..513</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>513</GBInterval_to>
+            <GBInterval_accession>DQ456481.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Caprine arthritis encephalitis virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>31PL</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11660</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Poland</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;513</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>513</GBInterval_to>
+            <GBInterval_accession>DQ456481.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;513</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>513</GBInterval_to>
+            <GBInterval_accession>DQ456481.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ABE26874.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>DRDMARQVSGGKRDYPGLEKCIKQACKIRVRPRGEHLTEGNCIWCLKTLDYMFEDQKEEPWTIEKFKSIWCKVKNLTPEESNKQDFMSLKATLAGLMCCQMGMKPETLQDAMATVIMKDGVLEQEERKEGKKEKEESAFPIVVQAGGGRSWKAVDAVMFQQMQTVAMQHGL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gatagagacatggcgaggcaagtctccggggggaaaagggattatcctgggctcgaaaaatgcatcaagcaggcatgcaaaataagagttcggcccagaggggagcacttgacagaaggaaattgtatttggtgccttaaaacattagactacatgtttgaggaccaaaaagaggagccttggacaatagagaaatttaagagtatatggtgtaaggtgaagaatctaactcctgaggagagtaacaagcaagactttatgtctttgaaggccacattagcgggtctaatgtgttgccagatggggatgaaacctgagacattgcaggatgcaatggctacagtaatcatgaaagatggggtactggaacaagaggaaaggaaggaaggaaagaaagaaaaggaagaaagtgccttcccaatagtagtgcaagcaggaggagggagaagctggaaagcagtagacgctgtaatgttccagcaaatgcaaacagtagcaatgcagcatggcctc</GBSeq_sequence>
+  </GBSeq>

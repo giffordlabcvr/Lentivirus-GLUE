@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AM501483</GBSeq_locus>
+    <GBSeq_length>262</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>18-SEP-2008</GBSeq_update-date>
+    <GBSeq_create-date>16-MAR-2007</GBSeq_create-date>
+    <GBSeq_definition>Visna/Maedi virus partial mRNA for envelope glycoprotein (env gene), strain EV1</GBSeq_definition>
+    <GBSeq_primary-accession>AM501483</GBSeq_primary-accession>
+    <GBSeq_accession-version>AM501483.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AM501483.1|</GBSeqid>
+      <GBSeqid>gi|133740716</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>env gene</GBKeyword>
+      <GBKeyword>envelope glycoprotein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Visna/maedi virus</GBSeq_source>
+    <GBSeq_organism>Visna/maedi virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Ovine/caprine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..262</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>McNeilly,T.N.</GBAuthor>
+          <GBAuthor>Baker,A.</GBAuthor>
+          <GBAuthor>Brown,J.K.</GBAuthor>
+          <GBAuthor>Collie,D.</GBAuthor>
+          <GBAuthor>Maclachlan,G.</GBAuthor>
+          <GBAuthor>Rhind,S.M.</GBAuthor>
+          <GBAuthor>Harkiss,G.D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Role of alveolar macrophages in respiratory transmission of visna/maedi virus</GBReference_title>
+        <GBReference_journal>J. Virol. 82 (3), 1526-1536 (2008)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.02148-07</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>18045935</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..262</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>McNeilly,T.N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-MAR-2007) McNeilly T.N., Parasitology, Moredun Research Institute, Pentlands Science Park, Bush Loan, Penicuik, NR Edinburgh, EH26 OPZ, UNITED KINGDOM</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..262</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>262</GBInterval_to>
+            <GBInterval_accession>AM501483.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Visna/maedi virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>EV1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11741</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>United Kingdom</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_seq: agagaagcgacgaaaggacc, rev_seq: acctgttaccaatccctgc</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>sequence spans the major splice donor site of the env gene</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..&gt;262</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>262</GBInterval_to>
+            <GBInterval_accession>AM501483.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>125..&gt;262</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>125</GBInterval_from>
+            <GBInterval_to>262</GBInterval_to>
+            <GBInterval_accession>AM501483.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAM58449.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:A4FT53</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:A4FT53</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MASTKSKPSRVTWTDMEPPQKEKWGQVVQELVTRQQNEERQGLVTG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>agagaagcgacgaaaggacccaggaccttgttgctgtgagaaataaccagcgagcggcgaagagaacggacacggctaaagtgaaaccagaagaaagaaaacttcggggacgcctgaagtaaggatggcaagcacaaagagcaagccaagcagagtaacctggacagacatggagccaccgcaaaaggaaaaatggggtcaagtagtacaagagttggtgacaagacaacaaaacgaagaaaggcagggattggtaacaggt</GBSeq_sequence>
+  </GBSeq>

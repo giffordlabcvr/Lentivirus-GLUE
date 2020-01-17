@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF362303</GBSeq_locus>
+    <GBSeq_length>517</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>20-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>06-MAY-2001</GBSeq_create-date>
+    <GBSeq_definition>Caprine arthritis-encephalitis virus clone C24</GBSeq_definition>
+    <GBSeq_primary-accession>AF362303</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF362303.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF362303.1|</GBSeqid>
+      <GBSeqid>gi|13959752</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Caprine arthritis encephalitis virus</GBSeq_source>
+    <GBSeq_organism>Caprine arthritis encephalitis virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Ovine/caprine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..517</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Guionaud,C.T.</GBAuthor>
+          <GBAuthor>Cordano,P.</GBAuthor>
+          <GBAuthor>Peterhans,E.</GBAuthor>
+          <GBAuthor>Bertoni,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evolution of CAEV in goats experimentally infected with molecularly cloned virus</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..517</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Guionaud,C.T.</GBAuthor>
+          <GBAuthor>Cordano,P.</GBAuthor>
+          <GBAuthor>Peterhans,E.</GBAuthor>
+          <GBAuthor>Bertoni,G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (19-MAR-2001) Institute of Veterinary Virology, University of Berne, Laenggassstrasse 122, Berne CH-3012, Switzerland</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..517</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>517</GBInterval_to>
+            <GBInterval_accession>AF362303.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Caprine arthritis encephalitis virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Cork</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>goat 01</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11660</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>C24</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from goat synovial membrane (GSM) cells</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagtaacataggacaattagatggaatgttgcatcagcaaatactattgcaaaaatatcaagtaattaaggtaagagcttatacatatggggtgatagaaatgccagaaaactatgcaaaaacaagaatcataaacaggaaaaaaagagaactcagccacaagaggaagaagagaggcgttggcttggtcattatgctagttatcatggcaatagtagctgccgcaggggcttctctgggagtcgcaaacgcgattcagcagtcttacactaaggcagctgtccagacccttgctaatgcaactgctgcacagcaggatgtgttagaggcaacctatgccatggtacagcatgtggctaaaggcgtacgaatcttggaagctcgagtggctcgagtggaagctatcacagatagaataatgctataccaagaattggattgttggcactatcatcaatactgtataacctctacaaaaacagaagtagcaaaatatatcaattggacgaggtttaag</GBSeq_sequence>
+  </GBSeq>
