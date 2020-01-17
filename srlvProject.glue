@@ -1,0 +1,47 @@
+delete project srlv
+
+create project srlv "GLUE project for small ruminant lentivirus (SRLV)" --minVersion 0.1.50
+
+schema-project srlv
+
+  run file glue/srlvSchemaExtensions.glue
+  exit
+
+project srlv
+
+  run file glue/projectSettings.glue
+  
+  run file glue/srlvModules.glue
+
+  # Import sequences from source directories
+  import source sources/ncbi-refseqs     
+  import source sources/ncbi-curated 
+  import source sources/ncbi-refseq-subgenomic 
+  #import source sources/ncbi-nuccore 
+  #import source sources/concatenated-refseqs     
+
+  # Populate sequence table fields using GenBank XML, supplemented by tabular data
+  module genbankXmlPopulator populate
+  module textFilePopulator populate -f tabular/SRLV_curated.csv
+
+  # Create references
+  run file glue/srlvReferences.glue
+
+  # Define features and import reference feature locations from tabular file
+  run file glue/srlvFeatures.glue
+  run file glue/srlvFeatureLocations.glue
+
+  # Import alignment 
+  module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/AL_UNCONSTRAINED.fna
+
+  # Import alignment tree
+  run file glue/srlvAlignmentTree.glue
+ 
+  # Import phylogeny
+  run file glue/srlvImportPhylogeny.glue
+
+  # Validate
+  validate
+
+  exit
+
