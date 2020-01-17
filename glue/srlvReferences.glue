@@ -1,0 +1,55 @@
+  # SRLV reference sequence declarations
+  
+  # Create primary genotype references (genome length where possible)
+  create reference REF_MASTER_NC_001452  ncbi-refseqs NC_001452
+
+  # SRLV genotypes
+  create reference REF_A_NC_001452   ncbi-refseqs NC_001452
+  create reference REF_A_HQ848062    ncbi-refseqs HQ848062
+  create reference REF_A_M31646      ncbi-refseqs M31646
+  create reference REF_A_AY445885    ncbi-refseqs AY445885
+  create reference REF_A_S51392      ncbi-refseqs S51392
+  create reference REF_A_AF479638    ncbi-refseqs AF479638 
+  create reference REF_B_NC_001463   ncbi-refseqs NC_001463
+  create reference REF_B_HM210570    ncbi-refseqs HM210570
+  create reference REF_B_GU120138    ncbi-refseqs GU120138
+  create reference REF_B_FJ195346    ncbi-refseqs FJ195346
+  create reference REF_C_AF322109    ncbi-refseqs AF322109
+  create reference REF_D_DQ632733   ncbi-refseq-subgenomic DQ632733
+  create reference REF_E_EU293537    ncbi-refseqs EU293537
+  create reference REF_E_GQ381130    ncbi-refseqs GQ381130
+  create reference REF_F_KT898826    ncbi-refseqs KT898826
+
+  # SRLV-A subtypes
+  create reference REF_A4_AY445885   ncbi-refseqs AY445885
+  create reference REF_A2_HQ848062   ncbi-refseqs HQ848062  
+
+
+  create reference REF_A1_NC_001452  ncbi-refseqs NC_001452
+  create reference REF_A3_AY454189   ncbi-refseq-subgenomic AY454189
+  create reference REF_A5_AY454175   ncbi-refseq-subgenomic AY454175
+  create reference REF_A6_U35676     ncbi-refseq-subgenomic U35676 
+  create reference REF_A7_AY454208   ncbi-refseq-subgenomic AY454208 
+  create reference REF_A8_EU010125   ncbi-refseq-subgenomic EU010125  
+  create reference REF_A9_FR828809   ncbi-refseq-subgenomic FR828809  
+  create reference REF_A11_FR828809  ncbi-refseq-subgenomic FR693812  
+  create reference REF_A12_FJ623122  ncbi-refseq-subgenomic FJ623122
+  create reference REF_A13_FJ623120  ncbi-refseq-subgenomic FJ623120
+  create reference REF_A14_JX469607  ncbi-refseq-subgenomic JX469607
+  create reference REF_A15_JQ611029  ncbi-refseq-subgenomic JQ611029
+
+  # SRLV-B subtypes
+  create reference REF_B1_NC_001463  ncbi-refseqs NC_001463
+  create reference REF_B1_HM210570   ncbi-refseqs HM210570
+  create reference REF_B1_GU120138   ncbi-refseqs GU120138
+  create reference REF_B2_FJ195346   ncbi-refseqs FJ195346
+  create reference REF_B3_JF502416   ncbi-refseqs JF502416
+  create reference REF_B3_JF502417   ncbi-refseqs JF502417
+
+  # SRLV-E subtypes
+  create reference REF_E1_EU293537   ncbi-refseqs EU293537
+  create reference REF_E2_GQ381130   ncbi-refseqs GQ381130
+  
+
+  # SRLV concatenated references
+  #create reference REF_AB_AY101611  concatenated-refseqs AY101611_U64439

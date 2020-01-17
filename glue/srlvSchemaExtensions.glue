@@ -1,0 +1,21 @@
+  table sequence
+    create field primary_accession VARCHAR
+    create field accession_version VARCHAR
+    create field length INTEGER
+    create field genome_region VARCHAR
+    create field lab_construct BOOLEAN
+    create field genotype VARCHAR
+    create field subtype VARCHAR
+    create field isolate VARCHAR
+    create field host VARCHAR 
+    create field country VARCHAR
+    create field geo_region VARCHAR    
+    create field collection_year VARCHAR
+    create field gb_create_date VARCHAR
+    exit
+
+table alignment
+  create field phylogeny VARCHAR 10000
+  create field clade_category VARCHAR 20
+  exit 
+  
