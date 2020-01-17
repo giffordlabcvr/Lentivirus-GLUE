@@ -1,0 +1,11 @@
+  create module -f modules/srlvGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/srlvTextFilePopulator.xml textFilePopulator
+  create module -f modules/featureLocationTextToGlue.xml featureLocationTextToGlue
+  create module -f modules/unconstrainedAlignmentImporter.xml
+  create module -f modules/srlvPhylogenyImporter.xml  srlvPhyloImporter
+  create module -f modules/srlvRaxmlPhylogenyGenerator.xml
+  create module -f modules/srlvPhyloUtility.xml 
+  create module -f modules/srlvMaxLikelihoodGenotyper.xml
+  create module -f modules/srlvMaxLikelihoodPlacer.xml
+  create module -f modules/kuiken2006CodonLabeler.xml
+  create module -f modules/fastaProteinAlignmentExporter.xml

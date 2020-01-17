@@ -1,0 +1,82 @@
+<genbankXmlPopulator>
+	<gbPrimaryAccession>
+		<propertyPopulator property="primary_accession"/>
+	</gbPrimaryAccession>
+	<gbAccessionVersion>
+		<propertyPopulator property="accession_version"/>
+	</gbAccessionVersion>
+	<gbLength>
+		<propertyPopulator property="length"/>
+	</gbLength>
+	<gbCreateDate>
+		<propertyPopulator property="gb_create_date"/>
+	</gbCreateDate>
+
+	<gbDivision>
+		<propertyPopulator property="lab_construct">
+			<matchPattern>PAT</matchPattern>
+			<outputTemplate>true</outputTemplate>
+		</propertyPopulator>
+	</gbDivision>
+
+
+	<gbFeature key="source">
+		<gbQualifier name="isolate">
+			<propertyPopulator property="isolate"/>
+		</gbQualifier>
+		<gbQualifier name="country">
+			<propertyPopulator property="country">
+				<matchPattern>([A-Za-z ]+)(?::.*)?</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+		<gbQualifier name="host">
+			<propertyPopulator property="host">
+				<valueConverter>
+					<matchPattern>.*[Cc]apra [hH]ircus.*</matchPattern>
+					<outputTemplate>Capra hircus</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[Cc]arpa [hH]ircus.*</matchPattern>
+					<outputTemplate>Capra hircus</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[Gg]oat*</matchPattern>
+					<outputTemplate>Capra hircus</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[Cc]aprine.*</matchPattern>
+					<outputTemplate>Capra hircus</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*Ovis [aA]ries.*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[Ss]heep*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[Oo]vis [Aa]ries*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[Oo]vine.*</matchPattern>
+					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>
+			</propertyPopulator>
+		</gbQualifier>
+		<gbQualifier name="genotype">
+			<propertyPopulator property="genotype">
+				<matchPattern>([A-E].*)</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+		<gbQualifier name="collection_date">
+			<propertyPopulator property="collection_year">
+				<matchPattern>(\d{4})</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</propertyPopulator>
+		</gbQualifier>
+	</gbFeature>
+</genbankXmlPopulator>

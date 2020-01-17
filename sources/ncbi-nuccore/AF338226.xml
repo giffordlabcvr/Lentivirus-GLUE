@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF338226</GBSeq_locus>
+    <GBSeq_length>2996</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-NOV-2008</GBSeq_update-date>
+    <GBSeq_create-date>31-JUL-2001</GBSeq_create-date>
+    <GBSeq_definition>Ovine lentivirus strain S93 variant envelope glycoprotein precursor (env) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF338226</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF338226.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF338226.1|</GBSeqid>
+      <GBSeqid>gi|15042571</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Ovine lentivirus</GBSeq_source>
+    <GBSeq_organism>Ovine lentivirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; unclassified Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2996</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hotzel,I.</GBAuthor>
+          <GBAuthor>Cheevers,W.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Host range of small-ruminant lentivirus cytopathic variants determined with a selectable caprine arthritis- encephalitis virus pseudotype system</GBReference_title>
+        <GBReference_journal>J. Virol. 75 (16), 7384-7391 (2001)</GBReference_journal>
+        <GBReference_pubmed>11462010</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2996</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hotzel,I.</GBAuthor>
+          <GBAuthor>DeMartini,J.C.</GBAuthor>
+          <GBAuthor>Cheevers,W.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (19-JAN-2001) Department of Veterinary Microbiology and Pathology, Washington State University, Pullman, WA 99164-7040, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2996</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2996</GBInterval_to>
+            <GBInterval_accession>AF338226.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Ovine lentivirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>S93</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11663</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2996</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2996</GBInterval_to>
+            <GBInterval_accession>AF338226.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>4..2964</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4</GBInterval_from>
+            <GBInterval_to>2964</GBInterval_to>
+            <GBInterval_accession>AF338226.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>biologically active variant</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>variant envelope glycoprotein precursor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAK82340.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MASKNRPSRVTWKGMEPPLRETWNEVLNELVQKHQEGEQETLIAGKQKSWVSIDLLGTEQREDKRKINVWEPCERWFAQVIWEVLWVIQIMLWGCLLWEVNKTSGCKAEEVIALIDDPGGFQKVTQVETVPVTCTTKNFTQWGCQPEGAYPNPEVEYRNISQDILKEVYKDEWPWNTYHWPLWQMENMRQWMKENEKEYKGRTNKTKEDIDALLAGKIRGRFCVPYPYALLRCTKWCWYPANIDEESGRARKIKINCSEARAVSCTEVMPLASIHRAYWDKPDKKSMEFMNIEACKESKLRCETRPGGCTKGYPIPVGAKIIPESMKYLRGEKSQYGGIKDRNGELQLPLTVRVWVKLANSSEWVNGTPPYWENRIEGSKGVNGTLWGELKSIHHLGFALSYEGKWCNFTEQIKIGQETFPYYYKPTWNCSANWTEYPTWQVMRYLDMVEHMTGECVQRPERHNITVGNGTITGNCSVKNWDGCNCTRSGNYLYNSTEGGLLLIICRQNRTITGIMGTNTNWTTMIGILKNCSGCENATLDRTGKGALGNVANENCTLPHKNESKLWTCAPRRRGGITDSLYITGGKQFWTRVKAQYSCESNIGGLDGMMHQQILLQGYQVIKVRAYTYGVVEMPKSYMERQKRKKRSAELQLKRKKRGIGLVIVLAIMAIIAAAGAGLGVANAVQQSYTRTAVQSLANATAAQQNVLEATYAMVQHVAKGIRILEARVARVEAIIDRMMVYQELDCWHHQHFCVTSVRSEVVKYVNWTRYKDNCTWQQWEEEIEQHEANLSQLLREAALQVHIAQRDASRIPDVWTALQEAFDWSGWFSWLKYIPWIVMGIIGFICFRVVMCFLSVCLQAYKQIKEIQYTQVTVVIEQPVDLEEKARKEGDGLNGFENLEHEKRTSQRSITQIARAMWMAWKNSPWGRGWRRIHYMSLLPILIIQQWTEENGWSGENRHKNKKERVDCQDREQMPTLENDYVELG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aggatggcaagcaaaaacagaccgagccgagtgacctggaagggcatggagccaccgctcagagagacatggaatgaagtattaaatgaactggtacagaaacatcaagagggggagcaagaaaccctgatagcaggtaagcagaagtcctgggtaagtattgacctgctggggacagaacaaagagaggacaagcggaagataaatgtatgggaaccatgtgaaagatggtttgcacaggtaatatgggaggtgttatgggtaatacaaataatgctgtggggatgcctgctatgggaagtgaacaagacatcggggtgtaaggcagaggaagtaatagctttaatagatgacccaggaggatttcaaaaagtaacacaggtagaaacagtgcccgtaacgtgtacaacaaaaaattttacccaatgggggtgtcaaccggaaggagcatacccaaacccagaggtagaatataggaatatatcacaggatatcttaaaagaggtctataaagatgaatggccatggaatacttatcattggcctttatggcaaatggaaaatatgagacaatggatgaaagaaaatgaaaaagaatataaggggagaacaaacaaaacaaaggaagatatagatgctctactagcagggaaaataaggggaagattttgtgtcccatacccctatgccttattaagatgtacaaaatggtgctggtatccagcgaacatagatgaggagtcaggacgagcacgaaaaataaaaataaactgctcggaggcaagagctgtctcctgtacagaagtaatgccattagcttcaatacatagagcatattgggataagccagataaaaagagcatggagtttatgaacatagaagcctgtaaagagagcaagttaagatgtgaaacacggcctggaggatgcacgaaagggtatcctattccagtaggagcaaagatcatccccgaaagcatgaaatacttaagaggagaaaagagtcagtatgggggaataaaggatagaaatggggaattgcaattgccactaacagtaagagtgtgggtgaagctagcaaatagctcagaatgggtgaatgggacacctccgtactgggaaaataggatagaaggctctaaaggggtaaatgggacgctctggggagagcttaaaagtatacatcacttgggctttgcacttagctatgaaggaaaatggtgtaacttcacagagcaaataaagatagggcaggaaacgttcccatactattataagccaacatggaactgctcagcaaattggacagagtacccaacatggcaggtaatgagatatttagacatggtagaacacatgacaggggaatgcgtacagagaccagaaagacataatataaccgtaggaaatggaacaataacagggaactgcagtgtaaaaaattgggatggatgcaattgtaccagatcaggaaattatttatacaatagtacagaagggggactgttacttattatttgtagacaaaacaggaccataacgggaataatgggcacaaacacaaattggacaacaatgatagggatattgaaaaattgctcgggatgtgagaatgctactttagacagaaccggaaagggagcgctaggaaatgtagcaaatgaaaactgtacgctgccacataaaaatgaaagcaagttgtggacttgcgctccccgaagaagaggcggcataacagattccttatacataacagggggaaaacagttttggacacgggtaaaagcccaatacagttgtgagagtaatataggagggttagatgggatgatgcaccaacaaatattgctgcaaggatatcaagtaatcaaggtgagagcttacacatatggagttgtggagatgccaaagtcttacatggaaagacaaaaaaggaaaaagagatccgccgagctacagcttaaaagaaagaaaagagggatagggttggtcatagtgcttgctatcatggctataatagctgctgcaggagctggtctcggtgttgctaatgccgtgcagcaatcctacacaaggacagctgtccagtctcttgctaacgcaactgctgctcagcagaatgtgttagaagcaacttatgccatggtgcagcatgtggctaaaggaataagaattttggaagcaagagtagctcgggtggaagccataatagacagaatgatggtttaccaggaactggattgctggcatcaccaacacttctgtgtaacctcagtgagaagcgaggtagttaagtatgtaaattggacaagatataaagataattgtacgtggcaacaatgggaagaagaaatagaacaacatgaggcaaatttgagccagttacttagagaagcagcattgcaggtacacatagcacagagagatgctagcaggatccccgatgtatggacagcattgcaagaagcgtttgattggtcaggatggttctcatggttaaagtacataccctggatagtaatgggaataattggatttatatgttttagagttgtgatgtgctttctttctgtgtgtttacaggcatacaaacaaatcaaagagatacaatatacacaggtaacagtggtgatagaacaaccggtggacctggaggaaaaagcaagaaaagaaggggatggtttaaatggcttcgaaaacttagagcacgagaaaagaacatcccagcgcagtattacccagattgcgagagcaatgtggatggcatggaaaaactcaccttggggacgcggatggaggagaatccactatatgagtctactgcctatactaataatacagcaatggacggaggaaaatggatggagtggagagaaccgacacaaaaataaaaaagaaagggtggactgtcaggacagagaacaaatgcctaccctggagaatgactatgtggaattaggctagcagttataggaaagctaagtcattgttaccag</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF000601</GBSeq_locus>
+    <GBSeq_length>193</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-DEC-1997</GBSeq_update-date>
+    <GBSeq_create-date>31-MAY-1997</GBSeq_create-date>
+    <GBSeq_definition>Ovine lentivirus strain 93 LTR, U3 and R regions</GBSeq_definition>
+    <GBSeq_primary-accession>AF000601</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF000601.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF000601.1|AF000601</GBSeqid>
+      <GBSeqid>gi|2145073</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Ovine lentivirus</GBSeq_source>
+    <GBSeq_organism>Ovine lentivirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; unclassified Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..193</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Craig,L.E.</GBAuthor>
+          <GBAuthor>Nealen,M.L.</GBAuthor>
+          <GBAuthor>Strandberg,J.D.</GBAuthor>
+          <GBAuthor>Zink,M.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Differential replication of ovine lentivirus in endothelial cells cultured from different tissues</GBReference_title>
+        <GBReference_journal>Virology 238 (2), 316-326 (1997)</GBReference_journal>
+        <GBReference_pubmed>9400604</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..193</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Craig,L.E.</GBAuthor>
+          <GBAuthor>Zink,M.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-APR-1997) Comparative Medicine, Johns Hopkins School of Medicine, 720 Rutland Avenue, Baltimore, MD 21205, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..193</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>193</GBInterval_to>
+            <GBInterval_accession>AF000601.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Ovine lentivirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>93</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11663</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..193</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>193</GBInterval_to>
+            <GBInterval_accession>AF000601.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>U3 and R</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagttccgctttaaaacgctaactcatgtagcagctgatgcttaggtcataaccgcaattgtaaacaaggtgcctatataaactgcttgcttgctgggagaggcagagcgcttgggagtcaatcccttgcctctcctgcctgcctggagaaataaaggagtcactgtgaactgagctggcctggttattatcg</GBSeq_sequence>
+  </GBSeq>

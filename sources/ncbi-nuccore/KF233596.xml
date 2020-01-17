@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KF233596</GBSeq_locus>
+    <GBSeq_length>298</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>17-SEP-2013</GBSeq_update-date>
+    <GBSeq_create-date>17-SEP-2013</GBSeq_create-date>
+    <GBSeq_definition>Caprine arthritis encephalitis virus isolate CAEV-ovine-MS LTR, partial sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KF233596</GBSeq_primary-accession>
+    <GBSeq_accession-version>KF233596.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KF233596.1|</GBSeqid>
+      <GBSeqid>gi|542372805</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Caprine arthritis encephalitis virus</GBSeq_source>
+    <GBSeq_organism>Caprine arthritis encephalitis virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Ovine/caprine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..298</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Adedeji,A.O.</GBAuthor>
+          <GBAuthor>Barr,B.</GBAuthor>
+          <GBAuthor>Gomez-Lucia,E.</GBAuthor>
+          <GBAuthor>Murphy,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A polytropic caprine arthritis encephalitis virus promoter isolated from multiple tissues from a sheep with multisystemic lentivirus-associated inflammatory disease</GBReference_title>
+        <GBReference_journal>Viruses 5 (8), 2005-2018 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3390/v5082005</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>23955501</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..298</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Adedeji,A.O.</GBAuthor>
+          <GBAuthor>Barr,B.</GBAuthor>
+          <GBAuthor>Gomez-Lucia,E.</GBAuthor>
+          <GBAuthor>Murphy,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-JUN-2013) VM:PMI, University of California, Davis, 4024 Atlantis Dr, Davis, CA 95616, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..298</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>298</GBInterval_to>
+            <GBInterval_accession>KF233596.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Caprine arthritis encephalitis virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>CAEV-ovine-MS</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Ovis aries</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11660</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>13-Feb-2001</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>PCR_primers</GBQualifier_name>
+            <GBQualifier_value>fwd_name: caev for, fwd_seq: taaatggamrgcktggagaacaccwc, rev_name: caev rev, rev_seq: ctaggagsrmstctccyagaactc</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>52..&gt;298</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>52</GBInterval_from>
+            <GBInterval_to>298</GBInterval_to>
+            <GBInterval_accession>KF233596.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>taaatggacggcgtggagaacacctcaaaaataaaaaagaaagggtggactgtgagacatggggaaaagaggactaataacagcataggccagactaggccagattcctgtaaatcacttgtggtgttaaaggaaagcaagctcactatgacaaagcaaaatgtaaccgcaagtgctgacagatgtaacagctgacgcatcagctgatgcttgctcatgctgacagggtaactctgagctgtatataagtaggagctttgctgcttgcacttcagagttctgggagactccctcctag</GBSeq_sequence>
+  </GBSeq>

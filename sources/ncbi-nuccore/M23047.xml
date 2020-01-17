@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>VLVTAPS</GBSeq_locus>
+    <GBSeq_length>288</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>30-AUG-1994</GBSeq_update-date>
+    <GBSeq_create-date>04-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Visna virus transactivating protein (tat, ORF S) mRNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>M23047</GBSeq_primary-accession>
+    <GBSeq_accession-version>M23047.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M23047.1|VLVTAPS</GBSeqid>
+      <GBSeqid>gi|533272</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>J04163</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_keywords>
+      <GBKeyword>tat protein</GBKeyword>
+      <GBKeyword>transactivating protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Visna/maedi virus</GBSeq_source>
+    <GBSeq_organism>Visna/maedi virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Ovine/caprine lentivirus group</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..288</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Davis,J.L.</GBAuthor>
+          <GBAuthor>Clements,J.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Characterization of a cDNA clone encoding the visna virus transactivating protein</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 86 (2), 414-418 (1989)</GBReference_journal>
+        <GBReference_pubmed>2536163</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Sep 9, 1994 this sequence version replaced gi:340799.; Original source text: Visna virus cDNA to mRNA.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..288</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>288</GBInterval_to>
+            <GBInterval_accession>M23047.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Visna/maedi virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Capra hircus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11741</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from goat synovial membrane</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..285</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>285</GBInterval_to>
+            <GBInterval_accession>M23047.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>ORF S</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>transactivation protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA48364.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEEVPRRQPGGLVEAEGVFQFYEDWECWDYVSQRVSDERLQRWLAMLTNNQLRRQVIREAQIWIWKHKGAAVRRNCGCRLCNPGWGSQVRNVEL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggaagaagtaccaagaagacagccaggaggcttagtagaagcagagggagtatttcaattttatgaagactgggaatgttgggactatgtaagtcaaagagtatctgacgaaagactacaacgatggctagctatgcttactaataatcagcttagaagacaagtaattagggaagcacagatttggatatggaaacataagggagctgcagttagaagaaattgtggttgcaggctatgtaaccccggctggggaagccaagtaagaaatgttgaactgtgataa</GBSeq_sequence>
+  </GBSeq>
