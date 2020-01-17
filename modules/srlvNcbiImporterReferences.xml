@@ -1,0 +1,37 @@
+<!-- SRLV reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseq</sourceName>
+  <specificPrimaryAccessions>
+
+   <!-- COMPLETE GENOMES -->
+   <!-- SRLV-A -->
+   <primaryAccession>NC_001452</primaryAccession>
+   <primaryAccession>HQ848062</primaryAccession>
+   <primaryAccession>AY445885</primaryAccession>
+   <primaryAccession>M31646</primaryAccession>
+   <primaryAccession>AF479638</primaryAccession>
+   <primaryAccession>M60609</primaryAccession>
+   <!-- SRLV-B1 -->
+   <primaryAccession>NC_001463</primaryAccession>
+   <primaryAccession>HM210570</primaryAccession>
+   <primaryAccession>GU120138</primaryAccession>
+   <primaryAccession>M33677</primaryAccession>
+   <!-- SRLV-B2 -->
+   <primaryAccession>FJ195346</primaryAccession>
+   <!-- SRLV-B3 -->
+   <primaryAccession>JF502416</primaryAccession>    
+   <primaryAccession>JF502417</primaryAccession>
+   <!-- SRLV-C -->
+   <primaryAccession>AF322109</primaryAccession>    
+   <!-- SRLV-E1 -->
+   <primaryAccession>EU293537</primaryAccession>    
+   <!-- SRLV-E2 -->
+   <primaryAccession>GQ381130</primaryAccession>    
+   <!-- SRLV-F -->
+   <primaryAccession>KT898826</primaryAccession>
+   
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
