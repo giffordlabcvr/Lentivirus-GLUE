@@ -1,0 +1,102 @@
+Begin Metadata;
+name = SIVsmm;
+full_name = Simian immunodeficiency virus;
+virus_group   = Lentivirus;
+virus_subgroup   = Primates;
+virus_class      = II;
+accession = X14307.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	1049	2572
+ORF 	polymerase	pol	2368	4554
+ORF	viral protein r	vpr	6140	6409
+ORF	viral protein x	vpx	5800	6138
+ORF	viral infectivity factor	vif	5328	5972
+ORF	envelope	env	6551	9208
+ORF	nef	nef	9042	9971
+Endblock;
+
+
+
+Begin Metadata;
+name = SIVsyk;
+full_name = Simian immunodeficiency virus (SIVsyk);
+virus_group      = Lentivirus;
+virus_subgroup   = Primate;
+virus_class      = II;
+accession = L06042.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	795	2459
+ORF	polymerase	pol	2198	5293
+ORF	viral infectivity factor	vif	5238	5903
+ORF	vpr protein	vpr	5701	6042
+ORF	transactivator	tat	5988	6213	8352	8524
+ORF	regulator of expression	rev	6154	6214	8352	8524
+ORF	envelope	env	6225	8723
+ORF	nef protein	nef	8557	9279
+Endblock;
+
+
+
+Begin Metadata;
+name             = HIV-2;
+full_name        = Human immunodeficiency virus 2;
+virus_family     = Retroviridae;
+virus_subfamily  = Orthoretrovirinae;
+virus_supertribe = Mintakaretrovirinae;
+virus_tribe      = Lenti;
+virus_genus      = Lentivirus;
+virus_subgroup   = Primate;
+genome_coverage  = complete;
+genome_state     = exogenous;
+sequence_type    = locus;
+host_sci_name    = Homo_sapiens;
+host_common_name = Human;
+accession        = M30502.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	1103	2668
+ORF	polymerase	pol	2863	5754
+ORF	transactivator	tat	6402	6697	8861	8957
+ORF	viral infectivity factor	vif	5423	6070
+ORF	regulator of expression	rev	6628	6697	8861	9102
+ORF	viral protein x	vpx	5898	6239
+ORF	viral protein r	vpr	6239	6502
+ORF	envelope	env	6704	9286
+ORF	nef	nef	9120	9893
+Endblock;
+
+
+
+REF_SIVsmm	Clade II	Lentivirus	env	6550	9208
+REF_SIVsmm	Clade II	Lentivirus	gag	1048	2572
+REF_SIVsmm	Clade II	Lentivirus	nef	9041	9971
+REF_SIVsmm	Clade II	Lentivirus	vif	5327	5972
+REF_SIVsmm	Clade II	Lentivirus	vpr	6139	6409
+REF_SIVsmm	Clade II	Lentivirus	vpx	5799	6138
+REF_SIVsykes 	Clade II	Lentivirus	env	6224	8723
+REF_SIVsykes 	Clade II	Lentivirus	gag	794	2459
+REF_SIVsykes 	Clade II	Lentivirus	nef	8556	9279
+REF_SIVsykes 	Clade II	Lentivirus	pol	2197	5293
+REF_SIVsykes 	Clade II	Lentivirus	rev	6153	8524
+REF_SIVsykes 	Clade II	Lentivirus	tat	5987	8524
+REF_SIVsykes 	Clade II	Lentivirus	vif	5237	5903
+REF_SIVsykes 	Clade II	Lentivirus	vpr	5700	6042
+REF_SIVsmm	Clade II	Lentivirus	gag	1048	2571
+REF_SIVsmm	Clade II	Lentivirus	vif	5327	5972
+REF_SIVsmm	Clade II	Lentivirus	vpx	5799	6138
+REF_SIVsmm	Clade II	Lentivirus	vpr	6139	6409
+REF_SIVsmm	Clade II	Lentivirus	env	6550	9207
+REF_SIVsmm	Clade II	Lentivirus	nef	9041	9971
+REF_SIVsykes 	Clade II	Lentivirus	gag	794	2458
+REF_SIVsykes 	Clade II	Lentivirus	pol	2197	5292
+REF_SIVsykes 	Clade II	Lentivirus	vif	5237	5903
+REF_SIVsykes 	Clade II	Lentivirus	vpr	5700	6042
+REF_SIVsykes 	Clade II	Lentivirus	tat	5987	8524
+REF_SIVsykes 	Clade II	Lentivirus	rev	6153	8524
+REF_SIVsykes 	Clade II	Lentivirus	env	6224	8722
+REF_SIVsykes 	Clade II	Lentivirus	nef	8556	9279
