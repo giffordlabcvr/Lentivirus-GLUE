@@ -1,13 +1,25 @@
+  # Delete previously built Lentivirus project if it exists
+  delete project lentivirus
 
-  # Clean up previous extension build if it exists
-  run file glue/lentiDeletePreviousBuild.glue  
+  # Build Lentivirus project
+  create project lentivirus "A GLUE project for lentiviruses" --minVersion 0.1.66
 
-  project retroviridae
+  # Create DB schema
+  schema-project lentivirus
+	run file glue/lentiSchemaExtensions.glue
+	exit
+
+
+  project lentivirus
 
 	#~#  Build the project extension with 'curated' sequences
 
 	# Create lentivirus project extension-specific modules 
+	run file glue/rv/rvProjectSettings.glue
 	run file glue/lentiModules.glue  
+
+	# Define features 
+	run file glue/rv/rvFeatures.glue
 
 	# Import reference sequences from GenBank XML files 
 	run file glue/lentiImportSources.glue  
@@ -19,7 +31,7 @@
 	run script glue/lentiLoadIsolateData.js
 
 	# Populate fields using GenBank file data
-	#module lentiGenbankXmlPopulator populate
+	module lentiGenbankXmlPopulator populate
 
 	# Import alignments & created constrained alignment tree
 	run file glue/lentiAlignments.glue
@@ -28,4 +40,5 @@
 	run file glue/lentiAlignmentTree.glue
 
 	validate
+	exit
 
