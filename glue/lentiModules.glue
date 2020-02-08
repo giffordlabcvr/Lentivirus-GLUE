@@ -1,13 +1,20 @@
   # Create modules
-  create module -f modules/lentiGenbankXmlPopulator.xml
-  create module -f modules/srlvGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/srlvTextFilePopulator.xml textFilePopulator
-  create module -f modules/featureLocationTextToGlue.xml featureLocationTextToGlue
-  create module -f modules/unconstrainedAlignmentImporter.xml
-  create module -f modules/srlvPhylogenyImporter.xml  srlvPhyloImporter
-  create module -f modules/srlvRaxmlPhylogenyGenerator.xml
-  create module -f modules/srlvPhyloUtility.xml 
-  create module -f modules/srlvMaxLikelihoodGenotyper.xml
-  create module -f modules/srlvMaxLikelihoodPlacer.xml
-  create module -f modules/kuiken2006CodonLabeler.xml
-  create module -f modules/fastaProteinAlignmentExporter.xml
+  
+  # Core project
+  create module -f modules/core/lentiGenbankXmlPopulator.xml
+  create module -f modules/core/featureLocationTextToGlue.xml  
+  #create module -f modules/core/kuiken2006CodonLabeler.xml
+
+  # Importers 
+  create module -f modules/importer/unconstrainedAlignmentImporter.xml
+
+  # Extension project
+  #create module -f modules/extension/srlvPhylogenyImporter.xml  srlvPhyloImporter
+  #create module -f modules/extension/srlvRaxmlPhylogenyGenerator.xml
+  #create module -f modules/extension/srlvPhyloUtility.xml 
+  #create module -f modules/extension/srlvMaxLikelihoodGenotyper.xml
+  #create module -f modules/extension/srlvMaxLikelihoodPlacer.xml
+  #create module -f modules/extension/srlvGenbankXmlPopulator.xml genbankXmlPopulator
+  #create module -f modules/extension/srlvTextFilePopulator.xml textFilePopulator
+  
+  
