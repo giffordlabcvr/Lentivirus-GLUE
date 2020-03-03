@@ -6,7 +6,7 @@
 
   # Create DB schema
   schema-project lentivirus
-	run file glue/lentiSchemaExtensions.glue
+	run file glue/core/lentiSchemaExtensions.glue
 	exit
 
 
@@ -15,29 +15,30 @@
 	#~#  Build the project extension with 'curated' sequences
 
 	# Create lentivirus project extension-specific modules 
-	run file glue/projectSettings.glue
-	run file glue/lentiModules.glue  
+	run file glue/core/projectSettings.glue
+	run file glue/core/lentiModules.glue  
 
 	# Define features 
-	run file glue/lentiFeatures.glue
+	run file glue/core/lentiFeatures.glue
 
 	# Import reference sequences from GenBank XML files 
-	run file glue/lentiImportSources.glue  
-
+    import source sources/ncbi-refseqs/
+    import source sources/fasta-refseqs/
+ 
+ 	# Populate fields using GenBank file data
+	module lentiGenbankXmlPopulator populate
+ 
 	# Create lentivirus references
-	#run file glue/lentiReferences.glue  
+	run file glue/core/lentiMasterReferences.glue  
 
-	# Set links to isolate table for lentivirus curated sequences
-	#run script glue/lentiLoadIsolateData.js
-
-	# Populate fields using GenBank file data
-	#module lentiGenbankXmlPopulator populate
+	# Attach feature lcoations to lentivirus references
+	run file glue/core/lentiMasterReferenceFeatureLocations.glue  
 
 	# Import alignments & created constrained alignment tree
-	#run file glue/lentiAlignments.glue
+	#run file glue/core/lentiAlignments.glue
 
 	# Import alignments & created constrained alignment tree
-	#run file glue/lentiAlignmentTree.glue
+	#run file glue/core/lentiAlignmentTree.glue
 
 	validate
 	exit

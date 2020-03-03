@@ -1,8 +1,0 @@
-delete module lentiNcbiImporterReferences
-
-create module -f modules/lentiNcbiImporterReferences.xml lentiNcbiImporterReferences
-
-# Download NCBI sequences 
-module lentiNcbiImporterReferences import
-
-export source ncbi-refseqs-lenti

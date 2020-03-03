@@ -1,0 +1,17 @@
+  ## Reference sequence declarations
+
+  # Primate
+  create reference REF_HIV-1M	        ncbi-refseqs AF033819
+  
+  # Caprine-ovine
+  create reference REF_SRLV-A           ncbi-refseqs NC_001452
+    
+  # Bovine
+  create reference REF_BIV              ncbi-refseqs M32690
+
+  # Equine
+  create reference REF_EIAV             ncbi-refseqs M16575
+
+  # Feline
+  create reference REF_FIV              ncbi-refseqs M25381
+

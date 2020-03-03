@@ -1,0 +1,18 @@
+<ncbiImporter>
+
+  <sourceName>ncbi-refseqs</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+	
+	<!-- Lentivirus main group references -->
+	<primaryAccession>AF033819</primaryAccession>
+	<primaryAccession>NC_001452</primaryAccession>
+	<primaryAccession>M32690</primaryAccession>
+	<primaryAccession>M16575</primaryAccession>
+	<primaryAccession>M25381</primaryAccession>
+
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  
+</ncbiImporter>
