@@ -20,17 +20,17 @@ alignment AL_REF_LENTI_MASTER
   extract child AL_REF_EIAV     --refName REF_EIAV
   demote member AL_REF_EIAV     --whereClause "sequence.species = 'EIAV'"
 
-  #extract child AL_REF_RELIK    --refName REF_RELIK
-  #demote member AL_REF_RELIK    --whereClause "sequence.species = 'RELIK'"
+  extract child AL_REF_RELIK    --refName REF_RELIK
+  demote member AL_REF_RELIK    --whereClause "sequence.species = 'RELIK'"
 
-  #extract child AL_REF_pSIVgml  --refName REF_pSIVgml
-  #demote member AL_REF_pSIVgml  --whereClause "sequence.species = 'pSIVgml'"
+  extract child AL_REF_pSIVgml  --refName REF_pSIVgml
+  demote member AL_REF_pSIVgml  --whereClause "sequence.species = 'pSIVgml'"
 
-  #extract child AL_REF_MELVmpf  --refName REF_MELVmpf
-  #demote member AL_REF_MELVmpf  --whereClause "sequence.species = 'MELVmpf'"
+  extract child AL_REF_MELVmpf  --refName REF_MELVmpf
+  demote member AL_REF_MELVmpf  --whereClause "sequence.species = 'MELVmpf'"
 
-  #extract child AL_REF_ELVgv    --refName REF_ELVgv
-  #demote member AL_REF_ELVgv    --whereClause "sequence.species = 'ELVgv'"
+  extract child AL_REF_ELVgv    --refName REF_ELVgv
+  demote member AL_REF_ELVgv    --whereClause "sequence.species = 'ELVgv'"
 
   extract child AL_REF_PLV      --refName REF_HIV-1M
   demote member AL_REF_PLV      --whereClause "sequence.subgroup = 'PLV'"

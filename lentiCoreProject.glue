@@ -38,7 +38,7 @@
 	#run file glue/core/lentiAlignments.glue
 
 	# Import alignments & created constrained alignment tree
-	#run file glue/core/lentiAlignmentTree.glue
+	run file glue/core/lentiAlignmentTree.glue
 
 	validate
 	exit

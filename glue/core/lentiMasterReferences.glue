@@ -15,3 +15,8 @@
   # Feline
   create reference REF_FIV              ncbi-refseqs M25381
 
+  ## Endogenous lentiviruses
+  create reference REF_ELVgv            fasta-refseqs ELVgv
+  create reference REF_MELVmpf          fasta-refseqs MELVmpf
+  create reference REF_pSIVgml          fasta-refseqs pSIVgml
+  create reference REF_RELIK            fasta-refseqs RELIK

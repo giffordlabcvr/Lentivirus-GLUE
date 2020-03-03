@@ -1,16 +1,9 @@
-  create feature whole_genome "Whole HIV-1 genome"
-
+  create feature whole_genome "Whole genome"
   feature whole_genome set field displayName "Whole genome"
   feature whole_genome set metatag INCLUDE_IN_SUMMARY true
 
-
   # Non-coding features
-
-  create feature 5UTR -p whole_genome "5' Untranslated region"
-  feature 5UTR set field displayName "5' UTR"
-  feature 5UTR set metatag INCLUDE_IN_SUMMARY true
-
-  create feature 5LTR -p 5UTR "5' long terminal repeat"
+  create feature 5LTR -p whole_genome "5' long terminal repeat"
   feature 5LTR set field displayName "5' LTR"
   feature 5LTR set metatag INCLUDE_IN_SUMMARY true
 
@@ -26,6 +19,14 @@
   feature 5U3 set field displayName "5' U5"
   feature 5U3 set metatag INCLUDE_IN_SUMMARY true
 
+  create feature 5UTR -p whole_genome "5' Untranslated region"
+  feature 5UTR set field displayName "5' UTR"
+  feature 5UTR set metatag INCLUDE_IN_SUMMARY true
+
+  create feature TSS -p whole_genome "Transcription start site"
+  feature TSS set field displayName "Transcription start site"
+  feature TSS set metatag INCLUDE_IN_SUMMARY true
+
   create feature TAR -p 5LTR "Trans-activation response element"
   feature TAR set field displayName "TAR"
   feature TAR set metatag INCLUDE_IN_SUMMARY true
@@ -34,17 +35,13 @@
   feature PolyA set field displayName "PolyA"
   feature PolyA set metatag INCLUDE_IN_SUMMARY true
 
-  create feature PBS -p whole_genome "Primer-binding site"
-  feature PBS set field displayName "PBS"
-  feature PBS set metatag INCLUDE_IN_SUMMARY true
-  
-  create feature GSL3 -p whole_genome "gag stem loop 3"
-  feature GSL3 set field displayName "GSL3"
-  feature GSL3 set metatag INCLUDE_IN_SUMMARY true
-  
-  create feature PSL1 -p whole_genome "pol stem loop 1"
-  feature PSL1 set field displayName "PSL1"
-  feature PSL1 set metatag INCLUDE_IN_SUMMARY true
+  create feature SL3 -p whole_genome "stem loop 3"
+  feature SL3 set field displayName "SL3"
+  feature SL3 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature SL4 -p whole_genome "stem loop 4"
+  feature SL4 set field displayName "SL4"
+  feature SL4 set metatag INCLUDE_IN_SUMMARY true
 
   create feature DIS -p whole_genome "Dimerisation initiation site"
   feature DIS set field displayName "DIS"
@@ -74,15 +71,19 @@
   feature RRE set field displayName "RRE"
   feature RRE set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 3UTR -p whole_genome "3' Untranslated region"
-  feature 3UTR set field displayName "3' UTR"
-  feature 3UTR set metatag INCLUDE_IN_SUMMARY true
+  create feature PPT -p whole_genome "Polypurine tract"
+  feature PPT set field displayName "PPT"
+  feature PPT set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 3LTR -p 3UTR "3' long terminal repeat"
+  create feature PBS -p whole_genome "Primer-binding site"
+  feature PBS set field displayName "PBS"
+  feature PBS set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3LTR -p whole_genome "3' long terminal repeat"
   feature 3LTR set field displayName "3' LTR"
   feature 3LTR set metatag INCLUDE_IN_SUMMARY true
 
-  create feature 3U3 -p 5LTR "3' LTR unique 3' region"
+  create feature 3U3 -p 3LTR "3' LTR unique 3' region"
   feature 3U3 set field displayName "3' U3"
   feature 3U3 set metatag INCLUDE_IN_SUMMARY true
 
@@ -90,37 +91,35 @@
   feature 3R set field displayName "3' R"
   feature 3R set metatag INCLUDE_IN_SUMMARY true
 
+  create feature 3TSS -p 3LTR "3' Transcription start site"
+  feature 3TSS set field displayName "3' Transcription start site"
+  feature 3TSS set metatag INCLUDE_IN_SUMMARY true
+
   create feature 3U5 -p 3LTR "3' LTR unique 5' region"
   feature 3U3 set field displayName "3' U5"
   feature 3U3 set metatag INCLUDE_IN_SUMMARY true
 
   # Coding features
-
   create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
   feature internal_region set field displayName "internal region"
-  feature internal_region set metatag OWN_CODON_NUMBERING true
-  feature internal_region set metatag INCLUDE_IN_SUMMARY true
 
   create feature gag-pol -p whole_genome "gag-pol"
   feature gag-pol set field displayName "gag-pol"
   feature gag-pol set metatag OWN_CODON_NUMBERING true
   feature gag-pol set metatag INCLUDE_IN_SUMMARY true
   feature gag-pol set metatag CODES_AMINO_ACIDS true
-#   feature gag-pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
   
   create feature gag -p whole_genome "gag"
   feature gag set field displayName "gag"
   feature gag set metatag OWN_CODON_NUMBERING true
   feature gag set metatag INCLUDE_IN_SUMMARY true
   feature gag set metatag CODES_AMINO_ACIDS true
-#   feature gag set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
   
   create feature matrix -p gag "matrix"
   feature matrix set field displayName "matrix"
   feature matrix set metatag OWN_CODON_NUMBERING true
   feature matrix set metatag INCLUDE_IN_SUMMARY true
   feature matrix set metatag CODES_AMINO_ACIDS true
-#   feature matrix set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 	
   create feature capsid -p gag "capsid"
   feature capsid set field displayName "CA"
@@ -134,18 +133,18 @@
   feature p2 set metatag INCLUDE_IN_SUMMARY true
   feature p2 set metatag CODES_AMINO_ACIDS true
 
-  create feature p7 -p gag "p7"
-  feature p7 set field displayName "p7"
-  feature p7 set metatag OWN_CODON_NUMBERING true
-  feature p7 set metatag INCLUDE_IN_SUMMARY true
-  feature p7 set metatag CODES_AMINO_ACIDS true
+  create feature nucleocapsid -p gag "nucleocapsid"
+  feature nucleocapsid set field displayName "nucleocapsid"
+  feature nucleocapsid set metatag OWN_CODON_NUMBERING true
+  feature nucleocapsid set metatag INCLUDE_IN_SUMMARY true
+  feature nucleocapsid set metatag CODES_AMINO_ACIDS true
 
   create feature p1 -p gag "p1"
   feature p1 set field displayName "p1"
   feature p1 set metatag OWN_CODON_NUMBERING true
   feature p1 set metatag INCLUDE_IN_SUMMARY true
   feature p1 set metatag CODES_AMINO_ACIDS true
-
+  
   create feature p6 -p gag "p6"
   feature p6 set field displayName "p6"
   feature p6 set metatag OWN_CODON_NUMBERING true
@@ -163,31 +162,31 @@
   feature pro-pol set metatag OWN_CODON_NUMBERING true
   feature pro-pol set metatag INCLUDE_IN_SUMMARY true
   feature pro-pol set metatag CODES_AMINO_ACIDS true
-
-  create feature pro -p pro-pol "prot"
-  feature pro set field displayName "prot"
+  
+  create feature pro -p pro-pol "protease"
+  feature pro set field displayName "protease"
   feature pro set metatag OWN_CODON_NUMBERING true
   feature pro set metatag INCLUDE_IN_SUMMARY true
   feature pro set metatag CODES_AMINO_ACIDS true
-
+  
   create feature RT -p pol "RT"
   feature RT set field displayName "RT"
   feature RT set metatag OWN_CODON_NUMBERING true
   feature RT set metatag INCLUDE_IN_SUMMARY true
   feature RT set metatag CODES_AMINO_ACIDS true
 
-  create feature integrase -p pol "integrase"
-  feature integrase set field displayName "integrase"
-  feature integrase set metatag OWN_CODON_NUMBERING true
-  feature integrase set metatag INCLUDE_IN_SUMMARY true
-  feature integrase set metatag CODES_AMINO_ACIDS true
+  create feature IN -p pol "IN"
+  feature IN set field displayName "IN"
+  feature IN set metatag OWN_CODON_NUMBERING true
+  feature IN set metatag INCLUDE_IN_SUMMARY true
+  feature IN set metatag CODES_AMINO_ACIDS true
   
   create feature vif -p whole_genome "vif"
   feature vif set field displayName "vif"
   feature vif set metatag OWN_CODON_NUMBERING true
   feature vif set metatag INCLUDE_IN_SUMMARY true
   feature vif set metatag CODES_AMINO_ACIDS true
-
+  
   create feature vpr -p whole_genome "vpr"
   feature vpr set field displayName "vpr"
   feature vpr set metatag OWN_CODON_NUMBERING true
@@ -205,7 +204,7 @@
   feature rev set metatag OWN_CODON_NUMBERING true
   feature rev set metatag INCLUDE_IN_SUMMARY true
   feature rev set metatag CODES_AMINO_ACIDS true
-
+  
   create feature vpu -p whole_genome "vpu"
   feature vpu set field displayName "vpu"
   feature vpu set metatag OWN_CODON_NUMBERING true
@@ -229,6 +228,36 @@
   feature transmembrane set metatag OWN_CODON_NUMBERING true
   feature transmembrane set metatag INCLUDE_IN_SUMMARY true
   feature transmembrane set metatag CODES_AMINO_ACIDS true
+
+  create feature V1 -p env "V1"
+  feature V1 set field displayName "V1"
+  feature V1 set metatag OWN_CODON_NUMBERING true
+  feature V1 set metatag INCLUDE_IN_SUMMARY true
+  feature V1 set metatag CODES_AMINO_ACIDS true
+  
+  create feature V2 -p env "V2"
+  feature V2 set field displayName "V2"
+  feature V2 set metatag OWN_CODON_NUMBERING true
+  feature V2 set metatag INCLUDE_IN_SUMMARY true
+  feature V2 set metatag CODES_AMINO_ACIDS true
+  
+  create feature V3 -p env "V3"
+  feature V3 set field displayName "V3"
+  feature V3 set metatag OWN_CODON_NUMBERING true
+  feature V3 set metatag INCLUDE_IN_SUMMARY true
+  feature V3 set metatag CODES_AMINO_ACIDS true
+  
+  create feature V4 -p env "V4"
+  feature V4 set field displayName "V4"
+  feature V4 set metatag OWN_CODON_NUMBERING true
+  feature V4 set metatag INCLUDE_IN_SUMMARY true
+  feature V4 set metatag CODES_AMINO_ACIDS true  
+  
+  create feature V5 -p env "V5"
+  feature V5 set field displayName "V5"
+  feature V5 set metatag OWN_CODON_NUMBERING true
+  feature V5 set metatag INCLUDE_IN_SUMMARY true
+  feature V5 set metatag CODES_AMINO_ACIDS true 
 
   create feature nef -p whole_genome "nef"
   feature nef set field displayName "nef"

@@ -1,6 +1,7 @@
   # Create modules
   create module -f modules/core/lentiGenbankXmlPopulator.xml
-
+  create module -f modules/core/lentiGagPolTranslationModifier.xml
+  
   # Importers 
   create module -f modules/importer/unconstrainedAlignmentImporter.xml
 
