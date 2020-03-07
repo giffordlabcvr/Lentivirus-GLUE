@@ -277,14 +277,14 @@
       add segment 465 1925
       exit
 
-    add feature-location pol
-    feature-location pol
+    add feature-location pro-pol
+    feature-location pro-pol
       add segment 1706 5122
       exit
            
     add feature-location env
     feature-location env
-      add segment 5311 7891
+      add segment 5311 7890
       exit
 
     add feature-location 3LTR
@@ -311,8 +311,8 @@
       add segment 316 1746
       exit
 
-    add feature-location pol
-    feature-location pol
+    add feature-location pro-pol
+    feature-location pro-pol
       add segment 1572 4742
       exit
            
@@ -341,8 +341,8 @@
       add segment 489 1817
       exit
 
-    add feature-location pol
-    feature-location pol
+    add feature-location pro-pol
+    feature-location pro-pol
       add segment 1572 4742
       exit
            
@@ -377,9 +377,9 @@
       add segment 628 1980
       exit
 
-    add feature-location pol
-    feature-location pol
-      add segment 2251 5243
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2251 5241
       exit
       
     add feature-location vif

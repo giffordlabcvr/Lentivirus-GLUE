@@ -6,7 +6,7 @@ alignment AL_ROOT
   add member -a
 
   extract child AL_REF_PLV      --refName REF_HIV-1M
-  demote member AL_REF_PLV      --whereClause "sequence.subgroup = 'PLV'"
+  demote member AL_REF_PLV      --whereClause "sequence.subgenus = 'Primate'"
  
   extract child AL_REF_FIV      --refName REF_FIV
   demote member AL_REF_FIV      --whereClause "sequence.species = 'FIV'"

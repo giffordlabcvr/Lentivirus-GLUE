@@ -29,7 +29,8 @@
 	module lentiGenbankXmlPopulator populate
  
  	# Load sequence-associated data
- 
+	run script glue/core/lentiLoadRefseqsIsolateData1.js
+	run script glue/core/lentiLoadRefseqsIsolateData2.js
  
 	# Create lentivirus references
 	run file glue/core/lentiMasterReferences.glue  

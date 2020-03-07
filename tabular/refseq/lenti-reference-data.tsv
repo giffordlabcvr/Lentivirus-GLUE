@@ -1,0 +1,6 @@
+sequenceID	full_name	name	species	subgenus	clade	subtype	host_common_name	host_sci_name	isolate	year	country
+AF033819	Human immunodeficiency virus 1	HIV-1M 	HIV-1 	Primate	M	B	Human	Homo sapiens	HXB2		
+M32690	Bovine immunodeficiency virus	BIV 	BIV	Bovine	Main	Main	Domestic cow	Bos taurus			
+M16575	Equine infectious anemia virus	EIAV 	EIAV	Equine	American	American	Domestic horse	Equus caballus			
+M25381	Feline immunodeficiency virus	FIV 	FIV	Feline	Main	Main	Domestic cat	Felis catus			
+NC_001452	Small ruminant lentivirus genotype A	SRLV-A 	SRLV-A	Caprine-Ovine	A	A	Sheep	Ovis aries			
