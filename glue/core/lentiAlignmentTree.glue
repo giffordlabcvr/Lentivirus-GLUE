@@ -1,3 +1,5 @@
+#~# Define constrained alignment tree
+create alignment AL_ROOT -r REF_HIV-1M
 alignment AL_ROOT
 
   set field displayName "Lentivirus"
@@ -32,4 +34,10 @@ alignment AL_ROOT
   extract child AL_REF_ELVgv    --refName REF_ELVgv
   demote member AL_REF_ELVgv    --whereClause "sequence.species = 'ELVgv'"
   
+  exit
+
+
+#~# Derive constrained alignment segments from unconstrained alignments
+alignment AL_ROOT
+  derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
   exit

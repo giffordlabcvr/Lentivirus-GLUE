@@ -4,9 +4,3 @@ module unconstrainedAlignmentImporter
   import AL_UNC_ROOT -f alignments/root/lentivirus-root-gagpol.fna
   exit
 
-#~# Derive constrained alignment segments from unconstrained alignments
-
-create alignment AL_ROOT -r REF_HIV-1M
-alignment AL_ROOT
-  derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
-  exit
