@@ -364,22 +364,37 @@
 
     add feature-location 5LTR
     feature-location 5LTR
-      add segment 1 321
+      add segment 1 355
       exit
+         
+    add feature-location PBS
+    feature-location PBS
+      add segment 357 377
+      exit   
          
     add feature-location gag
     feature-location gag
-      add segment 489 1817
+      add segment 628 1980
       exit
 
     add feature-location pol
     feature-location pol
-      add segment 1572 4742
+      add segment 2251 5243
       exit
-           
+      
+    add feature-location vif
+    feature-location vif
+      add segment 5236 5991
+      exit
+
     add feature-location env
     feature-location env
-      add segment 5415 8129
+      add segment 6266 8836
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 9120 9474
       exit
        
   exit 

@@ -1,12 +1,15 @@
+<!-- Lentivirus main group references -->
 <ncbiImporter>
 
   <sourceName>ncbi-refseqs</sourceName>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
 	
-	<!-- Lentivirus main group references -->
+	<!-- HIV-1 -->
 	<primaryAccession>AF033819</primaryAccession>
+	<!-- SRLV-A -->
 	<primaryAccession>NC_001452</primaryAccession>
+	<!-- BIV -->	
 	<primaryAccession>M32690</primaryAccession>
 	<primaryAccession>M16575</primaryAccession>
 	<primaryAccession>M25381</primaryAccession>
@@ -16,3 +19,4 @@
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   
 </ncbiImporter>
+

@@ -1,12 +1,12 @@
-
 #~# Import unconstrained reference alignments
 
 module unconstrainedAlignmentImporter
-  import AL_REF_LENTI_UNCONSTRAINED -f alignments/internal/lentivirus.aln.fna
+  import AL_UNC_ROOT -f alignments/root/lentivirus-root-gagpol.fna
   exit
 
 #~# Derive constrained alignment segments from unconstrained alignments
 
-alignment AL_REF_LENTI_MASTER
-  derive segments AL_REF_LENTI_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+create alignment AL_ROOT -r REF_HIV-1M
+alignment AL_ROOT
+  derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
   exit

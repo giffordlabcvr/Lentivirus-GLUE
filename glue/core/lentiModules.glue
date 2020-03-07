@@ -3,6 +3,6 @@
   create module -f modules/core/lentiGagPolTranslationModifier.xml
   
   # Importers 
-  create module -f modules/importer/unconstrainedAlignmentImporter.xml
+  create module -f modules/core/unconstrainedAlignmentImporter.xml
 
  

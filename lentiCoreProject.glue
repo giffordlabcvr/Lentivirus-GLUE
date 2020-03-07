@@ -28,6 +28,9 @@
  	# Populate fields using GenBank file data
 	module lentiGenbankXmlPopulator populate
  
+ 	# Load sequence-associated data
+ 
+ 
 	# Create lentivirus references
 	run file glue/core/lentiMasterReferences.glue  
 
@@ -35,7 +38,7 @@
 	run file glue/core/lentiMasterReferenceFeatureLocations.glue  
 
 	# Import alignments & created constrained alignment tree
-	#run file glue/core/lentiAlignments.glue
+	run file glue/core/lentiAlignments.glue
 
 	# Import alignments & created constrained alignment tree
 	run file glue/core/lentiAlignmentTree.glue

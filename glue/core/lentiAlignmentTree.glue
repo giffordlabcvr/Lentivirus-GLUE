@@ -1,9 +1,12 @@
-alignment AL_REF_LENTI_MASTER
+alignment AL_ROOT
 
   set field displayName "Lentivirus"
 
   # Add all members
   add member -a
+
+  extract child AL_REF_PLV      --refName REF_HIV-1M
+  demote member AL_REF_PLV      --whereClause "sequence.subgroup = 'PLV'"
  
   extract child AL_REF_FIV      --refName REF_FIV
   demote member AL_REF_FIV      --whereClause "sequence.species = 'FIV'"
@@ -13,9 +16,6 @@ alignment AL_REF_LENTI_MASTER
 
   extract child AL_REF_BIV      --refName REF_BIV
   demote member AL_REF_BIV      --whereClause "sequence.species = 'BIV'"
-
-  extract child AL_REF_JDV      --refName REF_JDV
-  demote member AL_REF_JDV      --whereClause "sequence.species = 'JDV'"
 
   extract child AL_REF_EIAV     --refName REF_EIAV
   demote member AL_REF_EIAV     --whereClause "sequence.species = 'EIAV'"
@@ -31,8 +31,5 @@ alignment AL_REF_LENTI_MASTER
 
   extract child AL_REF_ELVgv    --refName REF_ELVgv
   demote member AL_REF_ELVgv    --whereClause "sequence.species = 'ELVgv'"
-
-  extract child AL_REF_PLV      --refName REF_HIV-1M
-  demote member AL_REF_PLV      --whereClause "sequence.subgroup = 'PLV'"
+  
   exit
-
