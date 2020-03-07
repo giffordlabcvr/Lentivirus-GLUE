@@ -354,3 +354,34 @@
   exit 
     
 
+
+  reference REF_FIV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9474
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 321
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 489 1817
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 1572 4742
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 5415 8129
+      exit
+       
+  exit 
+    
+
