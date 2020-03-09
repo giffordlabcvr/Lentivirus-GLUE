@@ -1,7 +1,7 @@
-# SRLV-GLUE
+# Lentivirus-GLUE
 
-SRLV-GLUE, a GLUE project for small ruminant Lentiviruses (SRLVs).
-SRLV-GLUE enables standardized analysis of SRLV sequences across the complete range of viral genotypes and subtypes. 
+Lentivirus-GLUE, a GLUE project for small ruminant Lentiviruses (Lentiviruss).
+Lentivirus-GLUE enables standardized analysis of Lentivirus sequences across the complete range of viral genotypes and subtypes. 
 
 ## Installation of GLUE projects
 
