@@ -1,44 +1,26 @@
-  # Delete previously built Lentivirus project if it exists
-  delete project lentivirus
+project lentivirus
 
-  # Build Lentivirus project
-  create project lentivirus "A GLUE project for lentiviruses" --minVersion 0.1.66
+  # Import NCBI reference sequences 
+  import source sources/ncbi-curated-biv
+  import source sources/ncbi-curated-fiv
+  import source sources/ncbi-curated-eiav
+  import source sources/ncbi-curated-srlv
 
-  # Create DB schema
-  schema-project lentivirus
-	run file glue/core/lentiSchemaExtensions.glue
-	exit
+  # Link references to isolate data
+  run script glue/extension/lentiLoadCuratedIsolateData1.js
 
-
-  project lentivirus
-
-	#~#  Build the project extension with 'curated' sequences
-
-	# Create lentivirus project extension-specific modules 
-	run file glue/core/projectSettings.glue
-	run file glue/core/lentiModules.glue  
-
-	# Define features 
-	run file glue/core/lentiFeatures.glue
-
-	# Import reference sequences from GenBank XML files 
-    import source sources/ncbi-refseqs/
+  # Extract data from the XML files
+  module lentiGenbankXmlPopulator populate
   
-	# Create lentivirus references
-	run file glue/core/lentiReferences.glue  
+  # Import metadata for exogenous reference sequences from tabular
+  #module lentivirusSideDataImporter 
+  #  populate -f tabular/curated/hhv-ncbi-curated-side-data.tsv
+  #  exit
 
-	# Set links to isolate table for lentivirus curated sequences
-	#run script glue/core/lentiLoadIsolateData.js
+  # Import alignments and build constrained alignment tree
+  #run file glue/extension/lentivirusCreateAlignments.glue
 
-	# Populate fields using GenBank file data
-	#module lentiGenbankXmlPopulator populate
+  # Validate
+  validate
 
-	# Import alignments & created constrained alignment tree
-	#run file glue/core/lentiAlignments.glue
-
-	# Import alignments & created constrained alignment tree
-	#run file glue/core/lentiAlignmentTree.glue
-
-	validate
-	exit
-
+  exit

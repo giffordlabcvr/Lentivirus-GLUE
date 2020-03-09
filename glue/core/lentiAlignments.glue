@@ -1,6 +1,6 @@
 #~# Import unconstrained reference alignments
 
 module unconstrainedAlignmentImporter
-  import AL_UNC_ROOT -f alignments/root/lentivirus-root-gagpol.fna
+  import AL_UNC_ROOT -f alignment/root/lentivirus-root-gagpol.fna
   exit
 
