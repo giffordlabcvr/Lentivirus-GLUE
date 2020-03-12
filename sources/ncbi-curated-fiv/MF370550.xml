@@ -7,7 +7,7 @@
     <GBSeq_moltype>DNA</GBSeq_moltype>
     <GBSeq_topology>linear</GBSeq_topology>
     <GBSeq_division>VRL</GBSeq_division>
-    <GBSeq_update-date>12-SEP-2017</GBSeq_update-date>
+    <GBSeq_update-date>31-OCT-2019</GBSeq_update-date>
     <GBSeq_create-date>21-AUG-2017</GBSeq_create-date>
     <GBSeq_definition>Feline immunodeficiency virus isolate cat/Brazil/Pequeno_2013, partial genome</GBSeq_definition>
     <GBSeq_primary-accession>MF370550</GBSeq_primary-accession>
@@ -18,7 +18,7 @@
     </GBSeq_other-seqids>
     <GBSeq_source>Feline immunodeficiency virus</GBSeq_source>
     <GBSeq_organism>Feline immunodeficiency virus</GBSeq_organism>
-    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Retroviridae; Orthoretrovirinae; Lentivirus; Feline lentivirus group</GBSeq_taxonomy>
+    <GBSeq_taxonomy>Viruses; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
     <GBSeq_references>
       <GBReference>
         <GBReference_reference>1</GBReference_reference>
@@ -28,8 +28,16 @@
           <GBAuthor>Araujo,J.P. Jr.</GBAuthor>
           <GBAuthor>Brandao,P.E.</GBAuthor>
         </GBReference_authors>
-        <GBReference_title>First nearly complete genome sequence of Feline Immunodeficiency Virus from Brazil</GBReference_title>
-        <GBReference_journal>Unpublished</GBReference_journal>
+        <GBReference_title>First Nearly Complete Genome Sequence of Feline immunodeficiency virus from Brazil</GBReference_title>
+        <GBReference_journal>Genome Announc 5 (39), e00947-17 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/genomeA.00947-17</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28963205</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
       </GBReference>
       <GBReference>
         <GBReference_reference>2</GBReference_reference>
