@@ -1,14 +1,3 @@
-  # Delete previously built Lentivirus project if it exists
-  delete project lentivirus
-
-  # Build Lentivirus project
-  create project lentivirus "A GLUE project for lentiviruses" --minVersion 0.1.66
-
-  # Create DB schema
-  schema-project lentivirus
-	run file glue/core/lentiSchemaExtensions.glue
-	exit
-
 
   project lentivirus
 
