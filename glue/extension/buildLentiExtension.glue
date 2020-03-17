@@ -1,5 +1,7 @@
   project lentivirus
 
+    run file glue/extension/lentiDeleteExtensionBuild.glue
+
 	# Import NCBI reference sequences 
 	import source sources/ncbi-curated-biv
 	import source sources/ncbi-curated-fiv
@@ -19,7 +21,7 @@
       exit
 
 	# Import alignments and build constrained alignment tree
-	#run file glue/extension/lentivirusCreateAlignments.glue
+	run file glue/extension/lentivirusCreateAlignments.glue
 
 	# Validate
 	validate
