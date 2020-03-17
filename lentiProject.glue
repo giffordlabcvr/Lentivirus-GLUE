@@ -9,8 +9,10 @@
 	run file glue/core/lentiSchemaExtensions.glue
 	exit
 
-  # Run lentivirus 
+  # Build core project (reference sequences only)
   run file glue/core/buildLentiCore.glue
+
+  # Build core project (reference sequences only)  
   run file glue/extension/buildLentiExtension.glue
   
   
