@@ -1,7 +1,6 @@
 Number,Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype,Strain/clone,Length,Genomic region,Region
 26,HM212792,Capra,Mexico,2008,2010,B,B1,FESC-7,564,Env,N. America
 27,HM212793,Capra,Mexico,2008,2008,B,B1,FESC-12,561,Env,N. America
-48,M60855,Capra,United States,1980,1993,B,B1,CAEV-63,2892,Env,N. America
 50,U64439,Ovis,United States,1985,1996,B,B1,OvLV85/34,1664,Env,N. America
 67,GU903321,Capra,Taiwan,2009,2010,B,B1,GCTWP 98/01,913,Env,E. Asia
 68,HM237197,Capra,Taiwan,2010,2010,B,B1,GCTWP 99/01,912,Env,E. Asia

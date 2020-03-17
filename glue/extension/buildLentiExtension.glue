@@ -13,9 +13,10 @@
 	module lentiGenbankXmlPopulator populate
   
 	# Import metadata for exogenous reference sequences from tabular
-	#module lentivirusSideDataImporter 
-	#  populate -f tabular/curated/hhv-ncbi-curated-side-data.tsv
-	#  exit
+	create module -f modules/extension/srlvSideDataImporter.xml srlvSideDataImporter
+	module srlvSideDataImporter 
+	  populate -f tabular/curated/srlv-curated.csv
+      exit
 
 	# Import alignments and build constrained alignment tree
 	#run file glue/extension/lentivirusCreateAlignments.glue

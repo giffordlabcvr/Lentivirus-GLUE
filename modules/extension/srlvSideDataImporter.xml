@@ -6,45 +6,41 @@
 		<header>Accession</header>
 		<property>sequenceID</property>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Species</header>
-		<property>host</property>
+		<property>isolate_data.host_sci_name</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>		
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Country</header>
-		<property>country</property>
+		<property>isolate_data.country</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Isolation Year</header>
-		<property>collection_year</property>
+		<property>isolate_data.collection_year</property>
 		<nullRegex>NK</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Genotype</header>
-		<property>genotype</property>
+		<property>clade</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Subtype</header>
 		<property>subtype</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
+	
 	<textFileColumn>
 		<header>Strain/clone</header>
-		<property>isolate</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
-	</textFileColumn>
-	<textFileColumn>
-		<header>Region</header>
-		<property>geo_region</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
-	</textFileColumn>
-	<textFileColumn>
-		<header>Genomic region</header>
-		<property>genome_region</property>
+		<property>isolate_data.isolate</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	
