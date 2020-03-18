@@ -20,7 +20,10 @@
 	  populate -f tabular/curated/srlv-curated.csv
       exit
 
-	# Import alignments and build constrained alignment tree
+	# Add curated sequences constrained alignment tree
+	run file glue/extension/lentiExtensionAlignmentTree.glue
+	
+	# Create alignments
 	run file glue/extension/lentivirusCreateAlignments.glue
 
 	# Validate

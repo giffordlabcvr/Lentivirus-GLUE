@@ -279,7 +279,17 @@
 
     add feature-location pro-pol
     feature-location pro-pol
-      add segment 1706 5122
+      add segment 1682 5122
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1682 2266
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2267 5122
       exit
            
     add feature-location env
@@ -315,6 +325,16 @@
     feature-location pro-pol
       add segment 1572 4742
       exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1572 2036
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2037 4742
+      exit
            
     add feature-location env
     feature-location env
@@ -343,7 +363,17 @@
 
     add feature-location pro-pol
     feature-location pro-pol
-      add segment 1572 4742
+      add segment 1703 5005
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1703 2131
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2132 5005
       exit
            
     add feature-location env
@@ -379,7 +409,17 @@
 
     add feature-location pro-pol
     feature-location pro-pol
-      add segment 2251 5241
+      add segment 2055 5240
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 2055 2300
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2301 5240
       exit
       
     add feature-location vif

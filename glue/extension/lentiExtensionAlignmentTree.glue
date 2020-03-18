@@ -1,9 +1,10 @@
 alignment AL_ROOT
  
-  demote member AL_REF_FIV  -w "sequence.species = 'FIV'  and sequence.source.name = 'ncbi-curated-fiv'"
-  demote member AL_REF_SRLV -w "sequence.species = 'SRLV' and sequence.source.name = 'ncbi-curated-srlv'"
-  demote member AL_REF_BIV  -w "sequence.species = 'BIV'  and sequence.source.name = 'ncbi-curated-biv'"
-  demote member AL_REF_EIAV -w "sequence.species = 'EIAV' and sequence.source.name = 'ncbi-curated-eiav'"
+  add member -w "source.name like 'ncbi-curated-%'"
+  demote member AL_FIV  -w "sequence.source.name = 'ncbi-curated-fiv'"
+  demote member AL_SRLV -w "sequence.source.name = 'ncbi-curated-srlv'"
+  demote member AL_BIV  -w "sequence.source.name = 'ncbi-curated-biv'"
+  demote member AL_EIAV -w "sequence.source.name = 'ncbi-curated-eiav'"
 
   exit
 
