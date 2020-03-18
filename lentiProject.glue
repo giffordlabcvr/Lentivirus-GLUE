@@ -12,7 +12,10 @@
   # Build core project (reference sequences only)
   run file glue/core/buildLentiCore.glue
 
-  # Build core project (reference sequences only)  
+  # Build extension project  
   run file glue/extension/buildLentiExtension.glue
+  
+  # Build EVE project
+  run file glue/eve/buildLentiEveExtension.glue
   
   
