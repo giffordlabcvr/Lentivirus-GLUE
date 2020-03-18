@@ -1,0 +1,13 @@
+  project lentivirus
+
+	# Import NCBI reference sequences 
+	import source sources/fasta-digs-eve
+
+	# Link references to isolate data
+	run script glue/extension/lentiLoadCuratedIsolateData1.js
+	run script glue/extension/lentiLoadCuratedIsolateData2.js
+
+	# Validate
+	validate
+
+	exit
