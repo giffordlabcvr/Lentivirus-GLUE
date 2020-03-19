@@ -4,8 +4,8 @@
 	import source sources/fasta-digs-eve
 
 	# Link references to isolate data
-	run script glue/extension/lentiLoadEndogenousData1.js
-	run script glue/extension/lentiLoadEndogenousData2.js
+	run script glue/eve/lentiLoadEndogenousData1.js
+	run script glue/eve/lentiLoadEndogenousData2.js
 
 	# Validate
 	validate

@@ -16,6 +16,6 @@
   run file glue/extension/buildLentiExtension.glue
   
   # Build EVE project
-  run file glue/eve/buildLentiEveExtension.glue
+  #run file glue/eve/buildLentiEveExtension.glue
   
   

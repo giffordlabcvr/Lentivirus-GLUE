@@ -26,7 +26,10 @@
 	# Create alignments
 	run file glue/extension/lentivirusCreateAlignments.glue
 
+	# Create alignments
+	run file glue/extension/lentiRecordFeaturePresence.glue
+
 	# Validate
 	validate
-
+x
 	exit
