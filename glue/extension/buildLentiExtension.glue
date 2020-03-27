@@ -1,12 +1,10 @@
   project lentivirus
 
+    # Delete previous extension build
     run file glue/extension/lentiDeleteExtensionBuild.glue
 
-	# Import NCBI reference sequences 
-	import source sources/ncbi-curated-biv
-	import source sources/ncbi-curated-fiv
-	import source sources/ncbi-curated-eiav
-	import source sources/ncbi-curated-srlv
+    # Import sources
+    run file glue/extension/lentiExtensionSources.glue
 
 	# Link references to isolate data
 	run script glue/extension/lentiLoadCuratedIsolateData1.js
