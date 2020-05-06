@@ -46,8 +46,8 @@ for(var k = 0; k < alignmentArray.length; k++) {
 		}
 		
 		// Compute the alignment
-		glue.logInfo("  Computing alignment for feature: "+featureName+" in reference "+refSeqName);
-		glue.command(["compute", "alignment", alignmentName, "lentiCompoundAligner"]);
+		//glue.logInfo("  Computing alignment for feature: "+featureName+" in reference "+refSeqName);
+		//glue.command(["compute", "alignment", alignmentName, "lentiCompoundAligner"]);
 	    
    }
    
