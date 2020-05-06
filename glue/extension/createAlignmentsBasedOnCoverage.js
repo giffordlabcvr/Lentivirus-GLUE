@@ -9,7 +9,7 @@ for(var k = 0; k < alignmentArray.length; k++) {
 
 	// Get the reference sequence
 	var alignmentData = alignmentArray[k];
-	glue.logInfo("Processing alignmentData: "+alignmentData);
+	//glue.logInfo("Processing alignmentData: "+alignmentData);
 	var refSeqName = alignmentData["refSequence.name"];
 	var alignmentName = alignmentData["name"];
 	glue.logInfo("Processing reference seq: "+refSeqName);
@@ -86,7 +86,7 @@ function get_alignments(where_clause) {
 	
 		myArray.push(myMap);
 	}
-	glue.logInfo("Alignment result: "+myArray);
+	//glue.logInfo("Alignment result: "+myArray);
 
 	return myArray;
 }
@@ -118,7 +118,10 @@ function get_refseq_feature_locations(refSeqName) {
 			var name = columns[j];
 			var rowValue = rowArray[j]		
 			//glue.logInfo("Processing value: "+name+": "+rowValue);
-			if (name == 'feature.name' && rowValue != 'whole_genome') {
+			if (name == 'feature.name' && rowValue == 'gag'
+			 || name == 'feature.name' && rowValue == 'pro-pol'
+			 || name == 'feature.name' && rowValue == 'env'
+			) {
 				myArray.push(rowValue);
 			}
 		}	
