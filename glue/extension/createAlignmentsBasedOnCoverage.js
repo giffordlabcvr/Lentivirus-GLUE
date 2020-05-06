@@ -9,7 +9,7 @@ for(var k = 0; k < alignmentArray.length; k++) {
 
 	// Get the reference sequence
 	var alignmentData = alignmentArray[k];
-	//glue.logInfo("Processing alignmentData: "+alignmentData);
+	glue.logInfo("Processing alignmentData: "+alignmentData);
 	var refSeqName = alignmentData["refSequence.name"];
 	var alignmentName = alignmentData["name"];
 	glue.logInfo("Processing reference seq: "+refSeqName);
@@ -26,7 +26,7 @@ for(var k = 0; k < alignmentArray.length; k++) {
 		// Get the members with sufficient coverage for this feature
 		var sufficientCoverageMembers;
 		glue.inMode("alignment/"+alignmentName+"/", function(){			
-			sufficientCoverageMembers = glue.getTableColumn(glue.command(["list", "member", "-w", "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= "+threshold]), "sequence.sequenceID");
+			sufficientCoverageMembers = glue.getTableColumn(glue.command(["list", "member", "-w", "fLocNotes.featureLoc.feature.name = '"+featureName+"' and fLocNotes.ref_nt_coverage_pct >= "+threshold]), "sequence.sequenceID");
 		});		   
 	   
 		// Create the alignment name
@@ -38,8 +38,9 @@ for(var k = 0; k < alignmentArray.length; k++) {
 		// Create the alignment in GLUE and add the members
 		glue.command(["create", "alignment", geneAlignmentName, "-r", refSeqName]);
 		for(var i = 0; i < sufficientCoverageMembers.length; i++) {			
+			glue.logInfo("     Adding: "+seqID+"to: "+geneAlignmentName);
 			var seqID = sufficientCoverageMembers[i];			
-			glue.inMode("alignment/"+alignmentName+"/", function(){			
+			glue.inMode("alignment/"+alignmentName+"/", function(){
 				glue.command(["add", "member", "-w", "sequenceID = '"+seqID+"'"]);
 			});		   
 		}
@@ -59,7 +60,7 @@ function get_alignments(where_clause) {
 	var listAlignmentResult = glue.command(["list", "alignment", "-w", where_clause]);
 
 	var listResult = listAlignmentResult["listResult"];
-	glue.logInfo("Processing result: "+listResult);
+	//glue.logInfo("Processing result: "+listResult);
 	var rows = listResult["row"];
 	var columns = listResult["column"];
 	//glue.logInfo("Processing columns: "+columns);
@@ -79,14 +80,14 @@ function get_alignments(where_clause) {
 			var columnName = columns[j];
 			var rowValue = rowArray[j]
 		
-			glue.logInfo("Processing value: "+columnName+": "+rowValue);
+			//glue.logInfo("Processing value: "+columnName+": "+rowValue);
 			myMap[columnName] = rowValue;
 
 		}
 	
 		myArray.push(myMap);
 	}
-	//glue.logInfo("Alignment result: "+myArray);
+	// glue.logInfo("Alignment result: "+myArray);
 
 	return myArray;
 }
@@ -120,8 +121,7 @@ function get_refseq_feature_locations(refSeqName) {
 			//glue.logInfo("Processing value: "+name+": "+rowValue);
 			if (name == 'feature.name' && rowValue == 'gag'
 			 || name == 'feature.name' && rowValue == 'pro-pol'
-			 || name == 'feature.name' && rowValue == 'env'
-			) {
+			 || name == 'feature.name' && rowValue == 'env' ) {
 				myArray.push(rowValue);
 			}
 		}	
