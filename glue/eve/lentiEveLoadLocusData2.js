@@ -10,13 +10,23 @@ _.each(loadResult, function(eveObj) {
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 	
 		glue.command(["set", "field", "scaffold", eveObj.scaffold]);
-		glue.command(["set", "field", "start", eveObj.start]);
-		glue.command(["set", "field", "end", eveObj.end]);
+		glue.command(["set", "field", "start", eveObj.extract_start]);
+		glue.command(["set", "field", "end", eveObj.extract_end]);
 		glue.command(["set", "field", "orientation", eveObj.orientation]);
-		glue.command(["set", "field", "length", eveObj.length]);
-		glue.command(["set", "field", "integration", eveObj.integration]);
-		glue.command(["set", "field", "fragment", eveObj.fragment]);
-		glue.command(["set", "field", "duplicate", eveObj.duplicate]);
 
 	});
+
+	glue.inMode("sequence/fasta-digs-eve/"+eveObj.sequenceID, function() {
+	
+		glue.command(["set", "field", "name", eveObj.sequenceID]);
+		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
+		glue.command(["set", "field", "species", eveObj.organism]);
+	
+		glue.command(["set", "field", "subgenus", eveObj.virus_subgenus]);
+		glue.command(["set", "field", "clade", eveObj.virus_clade]);
+
+		glue.command(["set", "field", "length", eveObj.sequence_length]);
+	});
+	
+
 });

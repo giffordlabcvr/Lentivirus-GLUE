@@ -8,7 +8,7 @@ glue.inMode("module/lentiTabularUtility", function() {
 
 _.each(loadResult, function(refSeqObj) {
 
-    glue.log("INFO", "refSeqObj was:", refSeqObj);
+    //glue.log("INFO", "refSeqObj was:", refSeqObj);
 	glue.inMode("custom-table-row/isolate_data/"+refSeqObj.sequenceID, function() {
 	
 		glue.command(["set", "field", "host_sci_name", refSeqObj.host_sci_name]);
