@@ -193,7 +193,6 @@ Lepus_timidus_24754	24754	Lepus_timidus	low_coverage	GCA_009760805	GCA_009760805
 Lepus_timidus_24312	24312	Lepus_timidus	low_coverage	GCA_009760805	GCA_009760805.1_CIBIO-ISEM_LeTim_1.1_genomic.fna	CM019680.1	-	0	60812455	60816808	env[RELIK(-)]-pol[RELIK(-)]-LTR[RELIK(-)]	4354
 Lepus_timidus_24315	24315	Lepus_timidus	low_coverage	GCA_009760805	GCA_009760805.1_CIBIO-ISEM_LeTim_1.1_genomic.fna	CM019680.1	-	0	105336720	105341269	env[RELIK(-)]-env[RELIK(-)]-env[RELIK(-)]-gag[RELIK(-)]-LTR[RELIK(-)]	4550
 Lepus_timidus_24619	24619	Lepus_timidus	low_coverage	GCA_009760805	GCA_009760805.1_CIBIO-ISEM_LeTim_1.1_genomic.fna	VUAX01000176.1	-	0	297538	302251	env[RELIK(-)]-pol[RELIK(-)]-pol[RELIK(-)]	4714
-Lepus_timidus_24059	24059	Lepus_timidus	low_coverage	GCA_009760805	GCA_009760805.1_CIBIO-ISEM_LeTim_1.1_genomic.fna	CM019685.1	+	0	29967409	29972819	env[RELIK(+)]-rev[RELIK(+)]-gag[RELIK(+)]	5411
 Lepus_timidus_24771	24771	Lepus_timidus	low_coverage	GCA_009760805	GCA_009760805.1_CIBIO-ISEM_LeTim_1.1_genomic.fna	CM019669.1	+	0	175992223	175997669	LTR[RELIK(+)]-gag[RELIK(+)]-pol[RELIK(+)]-env[RELIK(+)]-LTR[RELIK(+)]	5447
 Lepus_timidus_24777	24777	Lepus_timidus	low_coverage	GCA_009760805	GCA_009760805.1_CIBIO-ISEM_LeTim_1.1_genomic.fna	VUAX01000113.1	+	0	274573	281320	gag[RELIK(+)]-env[RELIK(+)]-env[RELIK(+)]	6748
 Lepus_timidus_24772	24772	Lepus_timidus	low_coverage	GCA_009760805	GCA_009760805.1_CIBIO-ISEM_LeTim_1.1_genomic.fna	CM019676.1	+	0	47640458	47647261	LTR[RELIK(+)]-LTR[RELIK(+)]-gag[RELIK(+)]-rev[RELIK(+)]-LTR[RELIK(+)]	6804
