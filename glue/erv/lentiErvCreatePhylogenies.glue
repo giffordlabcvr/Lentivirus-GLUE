@@ -37,11 +37,11 @@
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator
-    #generate nucleotide phylogeny AL_UNC_RELIK_5LTR -a -o trees/lentiErv-vif.export_nucs.tre NEWICK_BOOTSTRAPS 
+    #generate nucleotide phylogeny AL_UNC_RELIK_5LTR -a -o trees/lentiErv-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_RELIK_Gag -a -o trees/lentiErv-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_RELIK_Pol -a -o trees/lentiErv-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_RELIK_Env -a -o trees/lentiErv-env.export_nucs.tre NEWICK_BOOTSTRAPS 
-    #generate nucleotide phylogeny AL_UNC_RELIK_3LTR -a -o trees/lentiErv-nef.export_nucs.tre NEWICK_BOOTSTRAPS 
+    #generate nucleotide phylogeny AL_UNC_RELIK_3LTR -a -o trees/lentiErv-3ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
