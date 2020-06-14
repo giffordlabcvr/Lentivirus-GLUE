@@ -1,7 +1,42 @@
   ## Endogenous lentivirus reference sequence declarations
 
   ## Endogenous lentiviruses
-  create reference REF_ELVgv    fasta-refseqs-erv ELVgv-con
-  create reference REF_MELVmpf  fasta-refseqs-erv MELVmpf-con
-  create reference REF_pSIVgml  fasta-refseqs-erv pSIVgml-con
-  create reference REF_RELIK    fasta-refseqs-erv RELIK-con
+  create reference REF_RELIK      fasta-refseqs-erv RELIK-con
+  reference REF_RELIK
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1	8912
+	  exit
+  
+	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1	496
+	  exit
+  
+	add feature-location Gag
+	feature-location Gag
+	  add segment 597	2030
+	  exit
+
+	add feature-location Pol
+	feature-location Pol
+	  add segment 2336	5212
+	  exit
+
+	add feature-location Env
+	feature-location Env
+	  add segment 5777	8386
+	  exit
+
+	add feature-location 3LTR
+	feature-location 3LTR
+	  add segment 1	8416 8912
+	  exit
+    
+	exit 
+
+  create reference REF_pSIVgml    fasta-refseqs-erv pSIVgml-con
+  create reference REF_ELVgv      fasta-refseqs-erv ELVgv-con
+  create reference REF_MELVmpf    fasta-refseqs-erv MELVmpf-con
+  create reference REF_Springhare fasta-refseqs-erv Springhare-con

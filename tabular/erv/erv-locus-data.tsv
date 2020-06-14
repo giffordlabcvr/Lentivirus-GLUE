@@ -1,10 +1,4 @@
 sequenceID	record_id	organism	target_datatype	target_version	target_name	scaffold	orientation	assigned_name	extract_start	extract_end	locus_structure	sequence_length
-Crocidura_indochinensis_24310	24310	Crocidura_indochinensis	low_coverage	CroInd_v1_BIUU	GCA_004027635.1_CroInd_v1_BIUU_genomic.fna	PVKC010373061.1	-	0	997	1515	gag[RELIK(-)]	519
-Crocidura_indochinensis_24273	24273	Crocidura_indochinensis	low_coverage	CroInd_v1_BIUU	GCA_004027635.1_CroInd_v1_BIUU_genomic.fna	PVKC010494106.1	-	0	567	1106	gag[SIVsmm(-)]	540
-Crocidura_indochinensis_24558	24558	Crocidura_indochinensis	low_coverage	CroInd_v1_BIUU	GCA_004027635.1_CroInd_v1_BIUU_genomic.fna	PVKC010677653.1	-	0	162	704	gag[MELVmpf(-)]	543
-Crocidura_indochinensis_24545	24545	Crocidura_indochinensis	low_coverage	CroInd_v1_BIUU	GCA_004027635.1_CroInd_v1_BIUU_genomic.fna	PVKC010142434.1	-	0	2937	3485	gag[MELVmpf(-)]	549
-Crocidura_indochinensis_24532	24532	Crocidura_indochinensis	low_coverage	CroInd_v1_BIUU	GCA_004027635.1_CroInd_v1_BIUU_genomic.fna	PVKC010247235.1	+	0	1673	2272	gag[RELIK(+)]	600
-Crocidura_indochinensis_24651	24651	Crocidura_indochinensis	low_coverage	CroInd_v1_BIUU	GCA_004027635.1_CroInd_v1_BIUU_genomic.fna	PVKC010304285.1	+	0	670	1272	gag[RELIK(+)]	603
 Galeopterus_variegatus_24435	24435	Galeopterus_variegatus	low_coverage	G-variegatus_3.0.2_apr_2015	unplaced.scaf.fa	JMZW01485036.1	-	0	22	564	gag[MELVmpf(-)]	543
 Galeopterus_variegatus_24150	24150	Galeopterus_variegatus	low_coverage	G-variegatus_3.0.2_apr_2015	unplaced.scaf.fa	KL144934.1	-	0	34738	36665	pol[FIVfca(-)]	1928
 Galeopterus_variegatus_24596	24596	Galeopterus_variegatus	low_coverage	G-variegatus_3.0.2_apr_2015	unplaced.scaf.fa	KL152857.1	+	0	63515	65489	gag[MELVmpf(+)]-pol[MELVmpf(+)]	1975
@@ -491,3 +485,13 @@ Oryctolagus_cuniculus_24260	24260	Oryctolagus_cuniculus	complete	goldenpath_oryC
 Oryctolagus_cuniculus_24184	24184	Oryctolagus_cuniculus	complete	goldenpath_oryCun2	oryCun2.fa	chr13	+	0	39080385	39089073	LTR[RELIK(+)]-gag[RELIK(+)]-pol[RELIK(+)]-pol[RELIK(+)]-env[RELIK(+)]-rev[RELIK(+)]-LTR[RELIK(+)]	8689
 Oryctolagus_cuniculus_24738	24738	Oryctolagus_cuniculus	complete	goldenpath_oryCun2	oryCun2.fa	chr7	-	0	42946755	42955513	env[RELIK(-)]-pol[RELIK(-)]-pol[RELIK(-)]-gag[RELIK(-)]-LTR[RELIK(-)]	8759
 Oryctolagus_cuniculus_24506	24506	Oryctolagus_cuniculus	complete	goldenpath_oryCun2	oryCun2.fa	chrX	-	0	30935943	30944918	LTR[RELIK(-)]-env[RELIK(-)]-tat[RELIK(-)]-Vif[RELIK(-)]-pol[RELIK(-)]-gag[RELIK(-)]-LTR[RELIK(-)]	8976
+Pedetes_capensis_24143	24143	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01039670.1	-	0	2790	3284	gag[SIVsyk(-)]	495
+Pedetes_capensis_24033	24033	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01025864.1	-	0	9743	10240	gag[FIVfca(-)]	498
+Pedetes_capensis_24093	24093	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01028960.1	-	0	17273	17776	gag[FIVpco(-)]	504
+Pedetes_capensis_24036	24036	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01000479.1	-	0	169924	170457	gag[HIV-1-CRF02(-)]	534
+Pedetes_capensis_24074	24074	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01006855.1	+	0	48257	48793	gag[FIVpco(+)]	537
+Pedetes_capensis_24078	24078	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01015836.1	+	0	48754	49299	gag[HIV-1-CRF02(+)]	546
+Pedetes_capensis_24395	24395	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01088624.1	-	0	445	1155	gag[FIVpco(-)]	711
+Pedetes_capensis_24768	24768	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01082106.1	-	0	284	997	gag[RELIK(-)]	714
+Pedetes_capensis_24454	24454	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01050306.1	+	0	3154	3978	gag[FIVpco(+)]	825
+Pedetes_capensis_24117	24117	Pedetes_capensis	low_coverage	PedCap_v1_BIUU	GCA_007922755.1_PedCap_v1_BIUU_genomic.fna	VMDO01011022.1	+	0	64952	68252	gag[FIVple(+)]-pol[SIVsyk(+)]	3301

@@ -4,29 +4,26 @@ alignment AL_ROOT
   # Add all ERV members
   add member -w "source.name = 'fasta-digs-erv'"
 
-  extract child AL_RELIK     --refName REF_RELIK
-  demote member AL_RELIK     --whereClause "sequence.species = 'Oryctolagus_cuniculus'"
-  demote member AL_RELIK     --whereClause "sequence.species = 'Lepus_timidus'"
-  demote member AL_RELIK     --whereClause "sequence.species = 'Lepus_americanus'"
+  extract child AL_RELIK      --refName REF_RELIK
+  demote member AL_RELIK      --whereClause "sequence.species = 'Oryctolagus_cuniculus'"
+  demote member AL_RELIK      --whereClause "sequence.species = 'Lepus_timidus'"
+  demote member AL_RELIK      --whereClause "sequence.species = 'Lepus_americanus'"
 
-  extract child AL_pSIVgml   --refName REF_pSIVgml
-  demote member AL_pSIVgml   --whereClause "sequence.species like '%Microcebus%'"
-  demote member AL_pSIVgml   --whereClause "sequence.species like '%Microcebus%'"
-  demote member AL_pSIVgml   --whereClause "sequence.species = 'Lepus_americanus'"
+  extract child AL_pSIVgml    --refName REF_pSIVgml
+  demote member AL_pSIVgml    --whereClause "sequence.species like '%Microcebus%'"
+  demote member AL_pSIVgml    --whereClause "sequence.species like '%Microcebus%'"
+  demote member AL_pSIVgml    --whereClause "sequence.species = 'Lepus_americanus'"
 
-  extract child AL_MELVmpf   --refName REF_MELVmpf
-  demote member AL_MELVmpf   --whereClause "sequence.species = 'Neovison_vison'"
-  demote member AL_MELVmpf   --whereClause "sequence.species = 'Mustela_putorius_furo'"
-  demote member AL_MELVmpf   --whereClause "sequence.species = 'Mustela_erminea'"
+  extract child AL_MELVmpf    --refName REF_MELVmpf
+  demote member AL_MELVmpf    --whereClause "sequence.species = 'Neovison_vison'"
+  demote member AL_MELVmpf    --whereClause "sequence.species = 'Mustela_putorius_furo'"
+  demote member AL_MELVmpf    --whereClause "sequence.species = 'Mustela_erminea'"
 
-  extract child AL_ELVgv     --refName REF_ELVgv
-  demote member AL_ELVgv     --whereClause "sequence.species = 'Galeopterus_variegatus'"
- 
-  #extract child AL_ShrewLV  --refName REF_ShrewLV
-  #demote member AL_ShrewLV  --whereClause "sequence.species = 'Crocidura_indochinensis'"
- 
-  #extract child AL_RodentLV --refName REF_ShrewLV
-  #demote member AL_RodentLV --whereClause "sequence.species = 'Crocidura_indochinensis'"
+  extract child AL_ELVgv      --refName REF_ELVgv
+  demote member AL_ELVgv      --whereClause "sequence.species = 'Galeopterus_variegatus'"
+
+  extract child AL_Springhare --refName REF_Springhare
+  demote member AL_Springhare --whereClause "sequence.species = 'Pedetes_capensis'"
   
   exit
 
