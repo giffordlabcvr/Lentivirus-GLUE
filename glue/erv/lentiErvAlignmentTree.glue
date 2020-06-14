@@ -1,8 +1,8 @@
 delete module lentiErvCompoundAlignerPsiv
 delete module lentiErvCompoundAlignerRELIK
 
-create module -f modules/lentiErvCompoundAlignerPsiv.xml
-create module -f modules/lentiErvCompoundAlignerRELIK.xml
+create module -f modules/erv/lentiErvCompoundAlignerPsiv.xml
+create module -f modules/erv/lentiErvCompoundAlignerRELIK.xml
 
 
 #~# Define constrained alignment tree
