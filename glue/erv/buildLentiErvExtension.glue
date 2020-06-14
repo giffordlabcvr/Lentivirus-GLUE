@@ -21,7 +21,10 @@ project lentivirus
   run file glue/erv/lentiErvAlignmentTree.glue
 
   # Record feature presence
-  #run file glue/erv/lentiErvRecordFeaturePresence.glue
+  run file glue/erv/lentiErvRecordFeaturePresence.glue
+
+  # Add lentivirus ERV alignments to constrained alignment tree 
+  #run file glue/erv/lentiErvCreatePhylogenies.glue
 
   # Validate
   validate

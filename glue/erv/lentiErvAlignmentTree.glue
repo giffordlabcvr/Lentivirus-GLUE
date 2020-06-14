@@ -1,3 +1,10 @@
+delete module lentiErvCompoundAlignerPsiv
+delete module lentiErvCompoundAlignerRELIK
+
+create module -f modules/lentiErvCompoundAlignerPsiv.xml
+create module -f modules/lentiErvCompoundAlignerRELIK.xml
+
+
 #~# Define constrained alignment tree
 alignment AL_ROOT
 
@@ -9,10 +16,9 @@ alignment AL_ROOT
   demote member AL_RELIK      --whereClause "sequence.species = 'Lepus_timidus'"
   demote member AL_RELIK      --whereClause "sequence.species = 'Lepus_americanus'"
 
-  extract child AL_pSIVgml    --refName REF_pSIVgml
-  demote member AL_pSIVgml    --whereClause "sequence.species like '%Microcebus%'"
-  demote member AL_pSIVgml    --whereClause "sequence.species like '%Microcebus%'"
-  demote member AL_pSIVgml    --whereClause "sequence.species = 'Lepus_americanus'"
+  extract child AL_PSIV       --refName REF_pSIVgml
+  demote member AL_PSIV       --whereClause "sequence.species like '%Microcebus%'"
+  demote member AL_PSIV       --whereClause "sequence.species like '%Mirza%'"
 
   extract child AL_MELVmpf    --refName REF_MELVmpf
   demote member AL_MELVmpf    --whereClause "sequence.species = 'Neovison_vison'"
@@ -26,4 +32,9 @@ alignment AL_ROOT
   demote member AL_Springhare --whereClause "sequence.species = 'Pedetes_capensis'"
   
   exit
+
+#~# Compute alignments
+
+compute alignment AL_PSIV  lentiErvCompoundAlignerPsiv
+compute alignment AL_RELIK lentiErvCompoundAlignerRELIK
 
