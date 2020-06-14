@@ -1,0 +1,92 @@
+
+  # Clean up from any previous run of this file
+  delete alignment AL_UNC_FeLV_MA
+  delete alignment AL_UNC_FeLV_CA
+  delete alignment AL_UNC_FeLV_NC
+  delete alignment AL_UNC_FeLV_MA
+  delete alignment AL_UNC_FeLV_CA
+  delete alignment AL_UNC_FeLV_NC
+ 
+  delete module fastaAlignmentExporter
+  delete module felvTreeAlignmentImporterNucs
+  delete module raxmlPhylogenyGenerator
+  delete module felvPhyloUtility
+  delete module felvFigTreeAnnotationExporter
+  
+  
+  # Create all the modules we need
+  create module -f modules/fastaAlignmentExporter.xml
+  create module -f modules/felvTreeAlignmentImporterNucs.xml
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/felvPhyloUtility.xml
+  create module -f modules/felvFigTreeAnnotationExporter.xml
+
+ module fastaAlignmentExporter
+
+ 	export AL_FeLV_MASTER -r  REF_MASTER_FeLV-A -f MA -w "fLocNotes.featureLoc.feature.name = 'MA' and fLocNotes.ref_nt_coverage_pct >= 70" -e -o alignments/tree/felv-ma.aln.fna
+ 	export AL_FeLV_MASTER -r  REF_MASTER_FeLV-A -f CA -w "fLocNotes.featureLoc.feature.name = 'CA' and fLocNotes.ref_nt_coverage_pct >= 70" -e -o alignments/tree/felv-ca.aln.fna
+ 	export AL_FeLV_MASTER -r  REF_MASTER_FeLV-A -f NC -w "fLocNotes.featureLoc.feature.name = 'NC' and fLocNotes.ref_nt_coverage_pct >= 70" -e -o alignments/tree/felv-nc.aln.fna
+ 	export AL_FeLV_MASTER -r  REF_MASTER_FeLV-A -f RT -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 60" -e -o alignments/tree/felv-rt.aln.fna
+ 	export AL_FeLV_MASTER -r  REF_MASTER_FeLV-A -f IN -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 60" -e -o alignments/tree/felv-in.aln.fna
+ 	export AL_FeLV_MASTER -r  REF_MASTER_FeLV-A -f SU -w "fLocNotes.featureLoc.feature.name = 'SU' and fLocNotes.ref_nt_coverage_pct >= 60" -e -o alignments/tree/felv-su.aln.fna
+ 	export AL_FeLV_MASTER -r  REF_MASTER_FeLV-A -f TM -w "fLocNotes.featureLoc.feature.name = 'TM' and fLocNotes.ref_nt_coverage_pct >= 60" -e -o alignments/tree/felv-tm.aln.fna
+	exit
+
+  # Import the alignments to GLUE
+  module felvTreeAlignmentImporterNucs import AL_UNC_FeLV_MA -f alignments/tree/felv-ma.aln.fna
+  module felvTreeAlignmentImporterNucs import AL_UNC_FeLV_CA -f alignments/tree/felv-ca.aln.fna
+  module felvTreeAlignmentImporterNucs import AL_UNC_FeLV_NC -f alignments/tree/felv-nc.aln.fna
+  module felvTreeAlignmentImporterNucs import AL_UNC_FeLV_RT -f alignments/tree/felv-rt.aln.fna
+  module felvTreeAlignmentImporterNucs import AL_UNC_FeLV_IN -f alignments/tree/felv-in.aln.fna
+  module felvTreeAlignmentImporterNucs import AL_UNC_FeLV_SU -f alignments/tree/felv-su.aln.fna
+  module felvTreeAlignmentImporterNucs import AL_UNC_FeLV_TM -f alignments/tree/felv-tm.aln.fna
+
+  # Create the phylogeny
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_UNC_FeLV_MA -a -o trees/felv-ma.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_FeLV_CA -a -o trees/felv-ca.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_FeLV_NC -a -o trees/felv-nc.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_FeLV_RT -a -o trees/felv-rt.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_FeLV_IN -a -o trees/felv-in.export_nucs.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  # Re-root phylogeny 
+  module felvPhyloUtility 
+	reroot-phylogeny \
+      --inputFile trees/felv-ma.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/felv-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/felv-ca.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/felv-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/felv-nc.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/felv-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/felv-rt.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/felv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/felv-in.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/felv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+
+
+    exit
+
+  # Export annotations
+  module felvFigTreeAnnotationExporter 
+    export figtree-annotation AL_UNC_FeLV_MA -f trees/felv-ma.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_FeLV_CA -f trees/felv-ca.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_FeLV_NC -f trees/felv-nc.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_FeLV_RT -f trees/felv-rt.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_FeLV_IN -f trees/felv-in.figtree-annotations.tsv
+  exit
+
