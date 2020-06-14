@@ -1,0 +1,9 @@
+  delete module lentiFeaturePresenceRecorder
+  create module -f modules/extension/lentiFeaturePresenceRecorder.xml
+
+  module lentiFeaturePresenceRecorder 
+    record feature-presence AL_GENUS_Avi     --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Herpeto --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Meta    --recursive -f whole_genome --descendentFeatures
+    exit
+

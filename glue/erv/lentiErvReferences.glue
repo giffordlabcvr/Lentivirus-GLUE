@@ -1,0 +1,7 @@
+  ## Endogenous lentivirus reference sequence declarations
+
+  ## Endogenous lentiviruses
+  create reference REF_ELVgv    fasta-refseqs-erv ELVgv-con
+  create reference REF_MELVmpf  fasta-refseqs-erv MELVmpf-con
+  create reference REF_pSIVgml  fasta-refseqs-erv pSIVgml-con
+  create reference REF_RELIK    fasta-refseqs-erv RELIK-con
