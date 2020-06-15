@@ -1,0 +1,75 @@
+
+  # Clean up from any previous run of this file
+  delete alignment AL_UNC_RELIK_Gag
+  delete alignment AL_UNC_RELIK_Pol
+  delete alignment AL_UNC_RELIK_3LTR
+  delete alignment AL_UNC_RELIK_Env
+  delete alignment AL_UNC_RELIK_5LTR
+ 
+  delete module fastaAlignmentExporter
+  delete module lentiErvTreeAlignmentImporterNucs
+  delete module raxmlPhylogenyGenerator
+  delete module lentiErvPhyloUtility
+  delete module lentiErvFigTreeAnnotationExporter
+  
+  
+  # Create all the modules we need
+  create module -f modules/erv/fastaAlignmentExporter.xml
+  create module -f modules/erv/lentiErvTreeAlignmentImporterNucs.xml
+  create module -f modules/erv/lentiErvPhyloUtility.xml
+  create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
+  create module -t raxmlPhylogenyGenerator
+
+  module fastaAlignmentExporter
+ 	export AL_RELIK -r REF_RELIK -f 5LTR -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_5LTR.aln.fna
+ 	export AL_RELIK -r REF_RELIK -f Gag -w "fLocNotes.featureLoc.feature.name = 'Gag' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_Gag.aln.fna
+ 	export AL_RELIK -r REF_RELIK -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_Pol.aln.fna
+ 	export AL_RELIK -r REF_RELIK -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_Env.aln.fna
+ 	export AL_RELIK -r REF_RELIK -f 3LTR -w "fLocNotes.featureLoc.feature.name = '3LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_3LTR.aln.fna
+	exit
+
+  # Import the alignments to GLUE
+  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_5LTR -f alignment/tree/RELIK_5LTR.aln.fna
+  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_Gag -f alignment/tree/RELIK_Gag.aln.fna
+  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_Pol -f alignment/tree/RELIK_Pol.aln.fna
+  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_Env -f alignment/tree/RELIK_Env.aln.fna
+  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_3LTR -f alignment/tree/RELIK_3LTR.aln.fna
+
+  # Create the phylogeny
+  module raxmlPhylogenyGenerator
+    #generate nucleotide phylogeny AL_UNC_RELIK_5LTR -a -o trees/lentiErv-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_RELIK_Gag -a -o trees/lentiErv-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_RELIK_Pol -a -o trees/lentiErv-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_RELIK_Env -a -o trees/lentiErv-env.export_nucs.tre NEWICK_BOOTSTRAPS 
+    #generate nucleotide phylogeny AL_UNC_RELIK_3LTR -a -o trees/lentiErv-3ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  # Re-root phylogeny 
+  module lentiErvPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/lentiErv-gag.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/lentiErv-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/lentiErv-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/lentiErv-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/lentiErv-env.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/lentiErv-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+
+  # Export annotations
+  module lentiErvFigTreeAnnotationExporter 
+    #export figtree-annotation AL_UNC_RELIK_5LTR -f trees/lentiErv-5LTR.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_RELIK_Gag -f trees/lentiErv-gag.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_RELIK_Pol -f trees/lentiErv-pol.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_RELIK_Env -f trees/lentiErv-env.figtree-annotations.tsv
+    #export figtree-annotation AL_UNC_RELIK_3LTR -f trees/lentiErv-3LTR.figtree-annotations.tsv
+  exit
+

@@ -12,7 +12,7 @@
 
 	# Import reference sequences from GenBank XML files 
     import source sources/ncbi-refseqs/
-    import source sources/fasta-refseqs-eve/
+    import source sources/fasta-refseqs-erv/
  
  	# Populate fields using GenBank file data
 	module lentiGenbankXmlPopulator populate
