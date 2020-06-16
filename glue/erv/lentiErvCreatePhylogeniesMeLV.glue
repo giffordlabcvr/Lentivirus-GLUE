@@ -12,7 +12,6 @@
   delete module lentiErvPhyloUtility
   delete module lentiErvFigTreeAnnotationExporter
   
-  
   # Create all the modules we need
   create module -f modules/erv/fastaAlignmentExporter.xml
   create module -f modules/erv/lentiErvTreeAlignmentImporterNucs.xml
@@ -25,7 +24,6 @@
  	export AL_MELV -r REF_MELV -f Gag -w "fLocNotes.featureLoc.feature.name = 'Gag' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/MELV_Gag.aln.fna
  	export AL_MELV -r REF_MELV -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/MELV_Pol.aln.fna
  	export AL_MELV -r REF_MELV -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/MELV_Env.aln.fna
- 	export AL_MELV -r REF_MELV -f 3LTR -w "fLocNotes.featureLoc.feature.name = '3LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/MELV_3LTR.aln.fna
 	exit
 
   # Import the alignments to GLUE
@@ -33,19 +31,22 @@
   module lentiErvTreeAlignmentImporterNucs import AL_UNC_MELV_Gag -f alignment/tree/MELV_Gag.aln.fna
   module lentiErvTreeAlignmentImporterNucs import AL_UNC_MELV_Pol -f alignment/tree/MELV_Pol.aln.fna
   module lentiErvTreeAlignmentImporterNucs import AL_UNC_MELV_Env -f alignment/tree/MELV_Env.aln.fna
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_MELV_3LTR -f alignment/tree/MELV_3LTR.aln.fna
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator
-    #generate nucleotide phylogeny AL_UNC_MELV_5LTR -a -o trees/MELV-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_MELV_5LTR -a -o trees/MELV-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_MELV_Gag -a -o trees/MELV-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_MELV_Pol -a -o trees/MELV-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_MELV_Env -a -o trees/MELV-env.export_nucs.tre NEWICK_BOOTSTRAPS 
-    #generate nucleotide phylogeny AL_UNC_MELV_3LTR -a -o trees/MELV-3ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
   module lentiErvPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/MELV-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/MELV-5ltr.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/MELV-gag.export_nucs.tre NEWICK_BOOTSTRAPS \
@@ -66,10 +67,9 @@
 
   # Export annotations
   module lentiErvFigTreeAnnotationExporter 
-    #export figtree-annotation AL_UNC_MELV_5LTR -f trees/MELV-5LTR.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_MELV_5LTR -f trees/MELV-5LTR.figtree-annotations.tsv
     export figtree-annotation AL_UNC_MELV_Gag -f trees/MELV-gag.figtree-annotations.tsv
     export figtree-annotation AL_UNC_MELV_Pol -f trees/MELV-pol.figtree-annotations.tsv
     export figtree-annotation AL_UNC_MELV_Env -f trees/MELV-env.figtree-annotations.tsv
-    #export figtree-annotation AL_UNC_MELV_3LTR -f trees/MELV-3LTR.figtree-annotations.tsv
   exit
 

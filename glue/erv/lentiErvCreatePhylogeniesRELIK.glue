@@ -41,7 +41,6 @@
     generate nucleotide phylogeny AL_UNC_RELIK_Gag -a -o trees/RELIK-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_RELIK_Pol -a -o trees/RELIK-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_RELIK_Env -a -o trees/RELIK-env.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_RELIK_3LTR -a -o trees/RELIK-3ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
@@ -66,10 +65,9 @@
 
   # Export annotations
   module lentiErvFigTreeAnnotationExporter 
-    #export figtree-annotation AL_UNC_RELIK_5LTR -f trees/RELIK-5LTR.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_RELIK_5LTR -f trees/RELIK-5LTR.figtree-annotations.tsv
     export figtree-annotation AL_UNC_RELIK_Gag -f trees/RELIK-gag.figtree-annotations.tsv
     export figtree-annotation AL_UNC_RELIK_Pol -f trees/RELIK-pol.figtree-annotations.tsv
     export figtree-annotation AL_UNC_RELIK_Env -f trees/RELIK-env.figtree-annotations.tsv
-    #export figtree-annotation AL_UNC_RELIK_3LTR -f trees/RELIK-3LTR.figtree-annotations.tsv
   exit
 
