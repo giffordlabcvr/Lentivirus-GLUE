@@ -37,39 +37,39 @@
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator
-    #generate nucleotide phylogeny AL_UNC_RELIK_5LTR -a -o trees/lentiErv-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_RELIK_Gag -a -o trees/lentiErv-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_RELIK_Pol -a -o trees/lentiErv-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_RELIK_Env -a -o trees/lentiErv-env.export_nucs.tre NEWICK_BOOTSTRAPS 
-    #generate nucleotide phylogeny AL_UNC_RELIK_3LTR -a -o trees/lentiErv-3ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_RELIK_5LTR -a -o trees/RELIK-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_RELIK_Gag -a -o trees/RELIK-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_RELIK_Pol -a -o trees/RELIK-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_RELIK_Env -a -o trees/RELIK-env.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_RELIK_3LTR -a -o trees/RELIK-3ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
   module lentiErvPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/lentiErv-gag.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/RELIK-gag.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/lentiErv-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/RELIK-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/lentiErv-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/RELIK-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/lentiErv-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/RELIK-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/lentiErv-env.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/RELIK-env.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/lentiErv-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/RELIK-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
   # Export annotations
   module lentiErvFigTreeAnnotationExporter 
-    #export figtree-annotation AL_UNC_RELIK_5LTR -f trees/lentiErv-5LTR.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_RELIK_Gag -f trees/lentiErv-gag.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_RELIK_Pol -f trees/lentiErv-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_RELIK_Env -f trees/lentiErv-env.figtree-annotations.tsv
-    #export figtree-annotation AL_UNC_RELIK_3LTR -f trees/lentiErv-3LTR.figtree-annotations.tsv
+    #export figtree-annotation AL_UNC_RELIK_5LTR -f trees/RELIK-5LTR.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_RELIK_Gag -f trees/RELIK-gag.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_RELIK_Pol -f trees/RELIK-pol.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_RELIK_Env -f trees/RELIK-env.figtree-annotations.tsv
+    #export figtree-annotation AL_UNC_RELIK_3LTR -f trees/RELIK-3LTR.figtree-annotations.tsv
   exit
 

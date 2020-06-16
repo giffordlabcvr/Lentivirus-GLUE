@@ -24,10 +24,10 @@ alignment AL_ROOT
   demote member AL_PSIV       --whereClause "sequence.species like '%Microcebus%'"
   demote member AL_PSIV       --whereClause "sequence.species like '%Mirza%'"
 
-  extract child AL_MELVmpf    --refName REF_MELV
-  demote member AL_MELVmpf    --whereClause "sequence.species = 'Neovison_vison'"
-  demote member AL_MELVmpf    --whereClause "sequence.species = 'Mustela_putorius_furo'"
-  demote member AL_MELVmpf    --whereClause "sequence.species = 'Mustela_erminea'"
+  extract child AL_MELV    --refName REF_MELV
+  demote member AL_MELV    --whereClause "sequence.species = 'Neovison_vison'"
+  demote member AL_MELV    --whereClause "sequence.species = 'Mustela_putorius_furo'"
+  demote member AL_MELV    --whereClause "sequence.species = 'Mustela_erminea'"
 
   extract child AL_ELVgv      --refName REF_ELV
   demote member AL_ELVgv      --whereClause "sequence.species = 'Galeopterus_variegatus'"
@@ -41,5 +41,5 @@ alignment AL_ROOT
 
 compute alignment AL_PSIV     lentiErvCompoundAlignerPsiv
 compute alignment AL_RELIK    lentiErvCompoundAlignerRelik
-compute alignment AL_MELVmpf  lentiErvCompoundAlignerMelv
+compute alignment AL_MELV  lentiErvCompoundAlignerMelv
 
