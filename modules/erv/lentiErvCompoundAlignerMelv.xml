@@ -12,9 +12,6 @@
 		<codonAwareBlastAligner>
 			<featureName>env</featureName>
 		</codonAwareBlastAligner>
-		<codonAwareBlastAligner>
-			<featureName>orfx</featureName>
-		</codonAwareBlastAligner>
 		<blastAligner>
 			<featureName>whole_genome</featureName>
 		</blastAligner>

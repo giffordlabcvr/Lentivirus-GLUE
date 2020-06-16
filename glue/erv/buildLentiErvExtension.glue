@@ -24,7 +24,9 @@ project lentivirus
   run file glue/erv/lentiErvRecordFeaturePresence.glue
 
   # Add lentivirus ERV alignments to constrained alignment tree 
-  run file glue/erv/lentiErvCreatePhylogenies.glue
+  #run file glue/erv/lentiErvCreatePhylogeniesRELIK.glue
+  run file glue/erv/lentiErvCreatePhylogeniesMeLV.glue
+  run file glue/erv/lentiErvCreatePhylogeniesPsiv.glue
 
   # Validate
   validate

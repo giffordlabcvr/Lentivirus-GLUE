@@ -229,6 +229,12 @@
   feature transmembrane set metatag INCLUDE_IN_SUMMARY true
   feature transmembrane set metatag CODES_AMINO_ACIDS true
 
+  create feature orfx -p whole_genome "orfx"
+  feature orfx set field displayName "orfx"
+  feature orfx set metatag OWN_CODON_NUMBERING true
+  feature orfx set metatag INCLUDE_IN_SUMMARY true
+  feature orfx set metatag CODES_AMINO_ACIDS true
+
   create feature V1 -p env "V1"
   feature V1 set field displayName "V1"
   feature V1 set metatag OWN_CODON_NUMBERING true
