@@ -27,6 +27,12 @@
 	# Create alignments
 	run file glue/extension/lentiRecordFeaturePresence.glue
 
+	# Create phylogenies
+	run file glue/extension/lentiCreatePhylogeniesBiv.glue
+	run file glue/extension/lentiCreatePhylogeniesFiv.glue
+	run file glue/extension/lentiCreatePhylogeniesEiav.glue
+	run file glue/extension/lentiCreatePhylogeniesSrlv.glue
+
 	# Validate
 	validate
 
