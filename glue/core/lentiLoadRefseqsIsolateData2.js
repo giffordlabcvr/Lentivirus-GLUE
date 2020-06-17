@@ -1,7 +1,7 @@
 // Load EVE data from tab file 
 var loadResult;
 glue.inMode("module/lentiTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/refseq/lenti-reference-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/core/lenti-reference-data.tsv"]));
 	//glue.log("INFO", "load result was:", loadResult);
 });
 
