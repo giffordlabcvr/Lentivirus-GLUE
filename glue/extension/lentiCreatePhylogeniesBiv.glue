@@ -6,17 +6,17 @@
   delete alignment AL_UNC_BIV_Env
  
   delete module fastaAlignmentExporter
-  delete module lentiErvTreeAlignmentImporterNucs
+  delete module lentiTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
-  delete module lentiErvPhyloUtility
-  delete module lentiErvFigTreeAnnotationExporter
+  delete module lentiPhyloUtility
+  delete module lentiFigTreeAnnotationExporter
   
   
   # Create all the modules we need
-  create module -f modules/erv/fastaAlignmentExporter.xml
-  create module -f modules/erv/lentiErvTreeAlignmentImporterNucs.xml
-  create module -f modules/erv/lentiErvPhyloUtility.xml
-  create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
+  create module -f modules/extension/fastaAlignmentExporter.xml
+  create module -f modules/extension/lentiTreeAlignmentImporterNucs.xml
+  create module -f modules/extension/lentiPhyloUtility.xml
+  create module -f modules/extension/lentiFigTreeAnnotationExporter.xml
   create module -t raxmlPhylogenyGenerator
 
   module fastaAlignmentExporter
@@ -27,10 +27,10 @@
  	exit
 
   # Import the alignments to GLUE
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_BIV_5LTR -f alignment/tree/BIV_5LTR.aln.fna
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_BIV_Gag -f alignment/tree/BIV_Gag.aln.fna
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_BIV_Pol -f alignment/tree/BIV_Pol.aln.fna
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_BIV_Env -f alignment/tree/BIV_Env.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_BIV_5LTR -f alignment/tree/BIV_5LTR.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_BIV_Gag -f alignment/tree/BIV_Gag.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_BIV_Pol -f alignment/tree/BIV_Pol.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_BIV_Env -f alignment/tree/BIV_Env.aln.fna
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator
@@ -41,7 +41,7 @@
     exit
 
   # Re-root phylogeny 
-  module lentiErvPhyloUtility 
+  module lentiPhyloUtility 
 
 	reroot-phylogeny \
       --inputFile trees/BIV-gag.export_nucs.tre NEWICK_BOOTSTRAPS \
@@ -61,7 +61,7 @@
     exit
 
   # Export annotations
-  module lentiErvFigTreeAnnotationExporter 
+  module lentiFigTreeAnnotationExporter 
     export figtree-annotation AL_UNC_BIV_5LTR -f trees/BIV-5LTR.figtree-annotations.tsv
     export figtree-annotation AL_UNC_BIV_Gag -f trees/BIV-gag.figtree-annotations.tsv
     export figtree-annotation AL_UNC_BIV_Pol -f trees/BIV-pol.figtree-annotations.tsv
