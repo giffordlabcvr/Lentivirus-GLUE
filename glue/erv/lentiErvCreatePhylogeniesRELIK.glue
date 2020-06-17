@@ -6,16 +6,16 @@
   delete alignment AL_UNC_RELIK_5LTR
  
   delete module fastaAlignmentExporter
-  delete module lentiErvTreeAlignmentImporterNucs
+  delete module lentiTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
-  delete module lentiErvPhyloUtility
+  delete module lentiPhyloUtility
   delete module lentiErvFigTreeAnnotationExporter
   
   
   # Create all the modules we need
-  create module -f modules/erv/fastaAlignmentExporter.xml
-  create module -f modules/erv/lentiErvTreeAlignmentImporterNucs.xml
-  create module -f modules/erv/lentiErvPhyloUtility.xml
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/lentiTreeAlignmentImporterNucs.xml
+  create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
   create module -t raxmlPhylogenyGenerator
 
@@ -27,10 +27,10 @@
 	exit
 
   # Import the alignments to GLUE
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_5LTR -f alignment/tree/RELIK_5LTR.aln.fna
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_Gag -f alignment/tree/RELIK_Gag.aln.fna
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_Pol -f alignment/tree/RELIK_Pol.aln.fna
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_Env -f alignment/tree/RELIK_Env.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_RELIK_5LTR -f alignment/tree/RELIK_5LTR.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_RELIK_Gag -f alignment/tree/RELIK_Gag.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_RELIK_Pol -f alignment/tree/RELIK_Pol.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_RELIK_Env -f alignment/tree/RELIK_Env.aln.fna
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator
@@ -41,7 +41,7 @@
     exit
 
   # Re-root phylogeny 
-  module lentiErvPhyloUtility 
+  module lentiPhyloUtility 
 
 	reroot-phylogeny \
       --inputFile trees/RELIK-gag.export_nucs.tre NEWICK_BOOTSTRAPS \

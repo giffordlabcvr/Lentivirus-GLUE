@@ -10,13 +10,13 @@
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
   delete module lentiFigTreeAnnotationExporter
-  
+
   
   # Create all the modules we need
-  create module -f modules/extension/fastaAlignmentExporter.xml
-  create module -f modules/extension/lentiTreeAlignmentImporterNucs.xml
-  create module -f modules/extension/lentiPhyloUtility.xml
-  create module -f modules/extension/lentiFigTreeAnnotationExporter.xml
+  create module -f modules/core/fastaAlignmentExporter.xml
+  create module -f modules/core/lentiTreeAlignmentImporterNucs.xml
+  create module -f modules/core/lentiPhyloUtility.xml
+  create module -f modules/core/lentiFigTreeAnnotationExporter.xml
   create module -t raxmlPhylogenyGenerator
 
   module fastaAlignmentExporter
