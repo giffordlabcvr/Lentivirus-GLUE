@@ -2,9 +2,6 @@
   # Clean up from any previous run of this file
   delete alignment AL_UNC_PSIV_Gag
   delete alignment AL_UNC_PSIV_Pol
-  delete alignment AL_UNC_PSIV_3LTR
-  delete alignment AL_UNC_PSIV_Env
-  delete alignment AL_UNC_PSIV_5LTR
  
   delete module fastaAlignmentExporter
   delete module lentiErvTreeAlignmentImporterNucs
@@ -21,11 +18,9 @@
   create module -t raxmlPhylogenyGenerator
 
   module fastaAlignmentExporter
- 	export AL_PSIV -r REF_PSIV -f 5LTR -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/PSIV_5LTR.aln.fna
+ 	#export AL_PSIV -r REF_PSIV -f 5LTR -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/PSIV_5LTR.aln.fna
  	export AL_PSIV -r REF_PSIV -f Gag -w "fLocNotes.featureLoc.feature.name = 'Gag' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/PSIV_Gag.aln.fna
- 	export AL_PSIV -r REF_PSIV -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/PSIV_Pol.aln.fna
- 	export AL_PSIV -r REF_PSIV -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/PSIV_Env.aln.fna
- 	export AL_PSIV -r REF_PSIV -f 3LTR -w "fLocNotes.featureLoc.feature.name = '3LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/PSIV_3LTR.aln.fna
+ 	export AL_PSIV -r REF_PSIV -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/PSIV_Pol.aln.fna 	export AL_PSIV -r REF_PSIV -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/PSIV_Env.aln.fna
 	exit
 
   # Import the alignments to GLUE
@@ -40,8 +35,6 @@
     #generate nucleotide phylogeny AL_UNC_PSIV_5LTR -a -o trees/PSIV-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_PSIV_Gag -a -o trees/PSIV-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_PSIV_Pol -a -o trees/PSIV-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
-    #generate nucleotide phylogeny AL_UNC_PSIV_Env -a -o trees/PSIV-env.export_nucs.tre NEWICK_BOOTSTRAPS 
-    #generate nucleotide phylogeny AL_UNC_PSIV_3LTR -a -o trees/PSIV-3ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
@@ -57,7 +50,6 @@
       --midpoint \
       --outputFile trees/PSIV-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-
     exit
 
   # Export annotations
@@ -65,7 +57,5 @@
     #export figtree-annotation AL_UNC_PSIV_5LTR -f trees/PSIV-5LTR.figtree-annotations.tsv
     export figtree-annotation AL_UNC_PSIV_Gag -f trees/PSIV-gag.figtree-annotations.tsv
     export figtree-annotation AL_UNC_PSIV_Pol -f trees/PSIV-pol.figtree-annotations.tsv
-    #export figtree-annotation AL_UNC_PSIV_Env -f trees/PSIV-env.figtree-annotations.tsv
-    #export figtree-annotation AL_UNC_PSIV_3LTR -f trees/PSIV-3LTR.figtree-annotations.tsv
   exit
 

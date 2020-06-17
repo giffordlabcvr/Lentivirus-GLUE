@@ -15,7 +15,7 @@
 	# Import metadata for exogenous reference sequences from tabular
 	create module -f modules/extension/srlvSideDataImporter.xml srlvSideDataImporter
 	module srlvSideDataImporter 
-	  populate -f tabular/curated/srlv-curated.csv
+	  populate -f tabular/extension/srlv-curated.csv
       exit
 
 	# Add curated sequences constrained alignment tree

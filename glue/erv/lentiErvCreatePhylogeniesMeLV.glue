@@ -2,7 +2,6 @@
   # Clean up from any previous run of this file
   delete alignment AL_UNC_MELV_Gag
   delete alignment AL_UNC_MELV_Pol
-  delete alignment AL_UNC_MELV_3LTR
   delete alignment AL_UNC_MELV_Env
   delete alignment AL_UNC_MELV_5LTR
  

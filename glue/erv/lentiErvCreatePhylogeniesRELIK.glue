@@ -2,7 +2,6 @@
   # Clean up from any previous run of this file
   delete alignment AL_UNC_RELIK_Gag
   delete alignment AL_UNC_RELIK_Pol
-  delete alignment AL_UNC_RELIK_3LTR
   delete alignment AL_UNC_RELIK_Env
   delete alignment AL_UNC_RELIK_5LTR
  
@@ -25,7 +24,6 @@
  	export AL_RELIK -r REF_RELIK -f Gag -w "fLocNotes.featureLoc.feature.name = 'Gag' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_Gag.aln.fna
  	export AL_RELIK -r REF_RELIK -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_Pol.aln.fna
  	export AL_RELIK -r REF_RELIK -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_Env.aln.fna
- 	export AL_RELIK -r REF_RELIK -f 3LTR -w "fLocNotes.featureLoc.feature.name = '3LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_3LTR.aln.fna
 	exit
 
   # Import the alignments to GLUE
@@ -33,7 +31,6 @@
   module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_Gag -f alignment/tree/RELIK_Gag.aln.fna
   module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_Pol -f alignment/tree/RELIK_Pol.aln.fna
   module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_Env -f alignment/tree/RELIK_Env.aln.fna
-  module lentiErvTreeAlignmentImporterNucs import AL_UNC_RELIK_3LTR -f alignment/tree/RELIK_3LTR.aln.fna
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator
