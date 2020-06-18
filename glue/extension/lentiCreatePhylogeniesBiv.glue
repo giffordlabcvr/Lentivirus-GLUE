@@ -34,7 +34,7 @@
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_UNC_BIV_5LTR -a -o trees/BIV-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
+    #generate nucleotide phylogeny AL_UNC_BIV_5LTR -a -o trees/BIV-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_BIV_Gag -a -o trees/BIV-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_BIV_Pol -a -o trees/BIV-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_BIV_Env -a -o trees/BIV-env.export_nucs.tre NEWICK_BOOTSTRAPS 
@@ -62,7 +62,7 @@
 
   # Export annotations
   module lentiFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_BIV_5LTR -f trees/BIV-5LTR.figtree-annotations.tsv
+    #export figtree-annotation AL_UNC_BIV_5LTR -f trees/BIV-5LTR.figtree-annotations.tsv
     export figtree-annotation AL_UNC_BIV_Gag -f trees/BIV-gag.figtree-annotations.tsv
     export figtree-annotation AL_UNC_BIV_Pol -f trees/BIV-pol.figtree-annotations.tsv
     export figtree-annotation AL_UNC_BIV_Env -f trees/BIV-env.figtree-annotations.tsv
