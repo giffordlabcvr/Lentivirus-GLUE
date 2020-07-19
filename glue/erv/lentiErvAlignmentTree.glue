@@ -41,5 +41,5 @@ alignment AL_ROOT
 
 compute alignment AL_PSIV     lentiErvCompoundAlignerPsiv
 compute alignment AL_RELIK    lentiErvCompoundAlignerRelik
-compute alignment AL_MELV  lentiErvCompoundAlignerMelv
+compute alignment AL_MELV     lentiErvCompoundAlignerMelv
 

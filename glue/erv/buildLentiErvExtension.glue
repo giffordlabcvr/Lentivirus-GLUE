@@ -23,7 +23,10 @@ project lentivirus
   # Record feature presence
   run file glue/erv/lentiErvRecordFeaturePresence.glue
 
-  # Add lentivirus ERV alignments to constrained alignment tree 
+  # Create root phylogeny with EVEs
+  run file glue/erv/lentiErvCreateRootPhylogenies.glue
+
+  # Create phylogenies for ERV lineages
   run file glue/erv/lentiErvCreatePhylogeniesMelv.glue
   run file glue/erv/lentiErvCreatePhylogeniesPsiv.glue
   run file glue/erv/lentiErvCreatePhylogeniesRelik.glue
