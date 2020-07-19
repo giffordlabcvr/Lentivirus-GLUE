@@ -1,3 +1,6 @@
 #~# Import pre-built alignments of EVE sequences
 
+module unconstrainedAlignmentImporter
+  import AL_UNC_ROOT_ERV -f alignment/erv/root/lentivirus-root-gagpol-erv.aln.fna
+  exit
 

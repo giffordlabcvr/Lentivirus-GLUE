@@ -24,13 +24,10 @@
 	# Create lentivirus references
 	run file glue/core/lentiMasterReferences.glue  
 
-	# Attach feature lcoations to lentivirus references
-	run file glue/core/lentiMasterReferenceFeatureLocations.glue  
-
-	# Import alignments & created constrained alignment tree
+	# Import alignments
 	run file glue/core/lentiAlignments.glue
 
-	# Import alignments & created constrained alignment tree
+	# Define constrained alignment tree
 	run file glue/core/lentiAlignmentTree.glue
 
 	validate
