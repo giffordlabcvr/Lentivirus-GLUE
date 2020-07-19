@@ -1,6 +1,9 @@
 taxon	sequenceID	host	name	subgenus	isolate	orientation	country	sample_date
 alignment/AL_ROOT/member/ncbi-refseqs/AF033819	AF033819	-	HIV-1M 	Primate	-	Homo sapiens	-	-
+alignment/AL_ROOT/member/fasta-refseqs-erv/ELVgv-con	ELVgv-con	-	ELVgv	Dermoptera	-	-	-	-
 alignment/AL_ROOT/member/ncbi-refseqs/M16575	M16575	-	EIAV 	Equine	-	Equus caballus	-	-
 alignment/AL_ROOT/member/ncbi-refseqs/M25381	M25381	-	FIV 	Feline	-	Felis catus	-	-
 alignment/AL_ROOT/member/ncbi-refseqs/M32690	M32690	-	BIV 	Bovine	-	Bos taurus	-	-
+alignment/AL_ROOT/member/fasta-refseqs-erv/MELVmpf-con	MELVmpf-con	-	MELVmpf	Carnivore	-	-	-	-
 alignment/AL_ROOT/member/ncbi-refseqs/NC_001452	NC_001452	-	SRLV-A 	Caprine-Ovine	-	Ovis aries	-	-
+alignment/AL_ROOT/member/fasta-refseqs-erv/RELIK-con	RELIK-con	-	RELIK	Carnivore	-	-	-	-

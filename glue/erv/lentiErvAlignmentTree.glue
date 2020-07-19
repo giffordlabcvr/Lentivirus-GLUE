@@ -13,7 +13,7 @@ alignment AL_ROOT
 
   # Add all ERV members
   add member -w "source.name = 'fasta-digs-erv'"
-  add member -w "source.name = 'fasta-refseq-erv'"
+  add member -w "source.name = 'fasta-refseqs-erv'"
 
   extract child AL_RELIK      --refName REF_RELIK
   demote member AL_RELIK      --whereClause "sequence.species = 'Oryctolagus_cuniculus'"

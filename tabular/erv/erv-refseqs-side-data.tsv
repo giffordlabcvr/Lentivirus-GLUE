@@ -1,0 +1,6 @@
+sequenceID	full_name	name	subgenus	reftype	host_group_name	host_group_taxlevel
+ELVgv-con	ELVgv	ELVgv	Dermoptera	consensus	Dermoptera	order
+MELVmpf-con	MELVmpf	MELVmpf	Carnivore	consensus	Mustelidae	order
+pSIVgml-con	pSIVgml	pSIVgml	Carnivore	consensus	Strepsirrhini	suborder
+RELIK-con	RELIK	RELIK	Carnivore	consensus	Lagomorph	order
+Springhare-con	Springhare	Springhare	Rodent	consensus	Rodent	order

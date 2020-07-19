@@ -1,74 +1,72 @@
-
-  # Clean up from any previous run of this file
-  delete alignment AL_UNC_MELV_Gag
-  delete alignment AL_UNC_MELV_Pol
-  delete alignment AL_UNC_MELV_Env
-  delete alignment AL_UNC_MELV_5LTR
- 
-  delete module fastaAlignmentExporter
-  delete module lentiErvPhyloUtility
+  # Clean up from any previous run of this file   
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
-  delete module lentiErvFigTreeAnnotationExporter
-  
+  delete module lentiErvFigTreeAnnotationExporter 
+  delete module alignmentColumnsSelectorMelvGag
+  delete module alignmentColumnsSelectorMelvPol
+  delete module alignmentColumnsSelectorMelvEnv
+
+
   # Create all the modules we need
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/lentiTreeAlignmentImporterNucs.xml
+  create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
-  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/alignmentColumnsSelectorMelvGag.xml
+  create module -f modules/core/alignmentColumnsSelectorMelvPol.xml
+  create module -f modules/core/alignmentColumnsSelectorMelvEnv.xml
 
-  module fastaAlignmentExporter
- 	export AL_MELV -r REF_MELV -f 5LTR -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/MELV_5LTR.aln.fna
- 	export AL_MELV -r REF_MELV -f Gag -w "fLocNotes.featureLoc.feature.name = 'Gag' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/MELV_Gag.aln.fna
- 	export AL_MELV -r REF_MELV -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/MELV_Pol.aln.fna
- 	export AL_MELV -r REF_MELV -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/MELV_Env.aln.fna
-	exit
-
-  # Import the alignments to GLUE
-  module lentiErvPhyloUtility import AL_UNC_MELV_5LTR -f alignment/tree/MELV_5LTR.aln.fna
-  module lentiErvPhyloUtility import AL_UNC_MELV_Gag -f alignment/tree/MELV_Gag.aln.fna
-  module lentiErvPhyloUtility import AL_UNC_MELV_Pol -f alignment/tree/MELV_Pol.aln.fna
-  module lentiErvPhyloUtility import AL_UNC_MELV_Env -f alignment/tree/MELV_Env.aln.fna
-
-  # Create the phylogeny
+  
+  # Create the phylogenies
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_UNC_MELV_5LTR -a -o trees/MELV-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_MELV_Gag -a -o trees/MELV-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_MELV_Pol -a -o trees/MELV-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_MELV_Env -a -o trees/MELV-env.export_nucs.tre NEWICK_BOOTSTRAPS 
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorMelvGag \
+      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-lineage/melv-pol.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorMelvPol \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-lineage/melv-env.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorMelvEnv \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-lineage/melv-gag.tre NEWICK_BOOTSTRAPS
+
     exit
+
 
   # Re-root phylogeny 
-  module lentiPhyloUtility 
+  module LentiPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/MELV-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-lineage/melv-gag.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/MELV-5ltr.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/melv-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/MELV-gag.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-lineage/melv-pol.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/MELV-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/melv-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/MELV-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-lineage/melv-env.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/MELV-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/MELV-env.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/MELV-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/melv-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
+
   # Export annotations
-  module lentiErvFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_MELV_5LTR -f trees/MELV-5LTR.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_MELV_Gag -f trees/MELV-gag.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_MELV_Pol -f trees/MELV-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_MELV_Env -f trees/MELV-env.figtree-annotations.tsv
+  module lentiFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'gag'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/melv-gag.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'pol'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/melv-pol.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'env'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/melv-env.figtree-annotations.tsv
+
+
   exit
 

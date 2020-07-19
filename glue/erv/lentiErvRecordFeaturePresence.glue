@@ -1,5 +1,5 @@
   delete module lentiFeaturePresenceRecorder
-  create module -f modules/extension/lentiFeaturePresenceRecorder.xml
+  create module -f modules/core/lentiFeaturePresenceRecorder.xml
 
   module lentiFeaturePresenceRecorder 
     record feature-presence AL_ROOT        --recursive -f whole_genome --descendentFeatures

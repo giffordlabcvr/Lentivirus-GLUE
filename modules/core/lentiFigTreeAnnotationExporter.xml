@@ -29,7 +29,7 @@
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.country')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	<figTreeAnnotation>
-		<annotationName>country</annotationName>
+		<annotationName>sample_date</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.sample_date')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	

@@ -11,7 +11,7 @@
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
-  create module -f modules/core/lentiFigTreeAnnotationExporter.xml
+  create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
   create module -f modules/core/alignmentColumnsSelectorLentiCapsid.xml
   create module -f modules/core/alignmentColumnsSelectorLentiMatrix.xml
   create module -f modules/core/alignmentColumnsSelectorLentiNucleocapsid.xml

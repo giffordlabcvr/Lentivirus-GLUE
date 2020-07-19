@@ -1,4 +1,4 @@
-taxon	sequenceID	host	name	subgenus	isolate	orientation	country	country
+taxon	sequenceID	host	name	subgenus	isolate	orientation	country	sample_date
 alignment/AL_ROOT/member/ncbi-refseqs/AF033819	AF033819	-	HIV-1M 	Primate	-	Homo sapiens	-	-
 alignment/AL_ROOT/member/ncbi-refseqs/M16575	M16575	-	EIAV 	Equine	-	Equus caballus	-	-
 alignment/AL_ROOT/member/ncbi-refseqs/M25381	M25381	-	FIV 	Feline	-	Felis catus	-	-

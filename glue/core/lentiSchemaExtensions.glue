@@ -10,6 +10,8 @@
     create field clade VARCHAR 50
     create field subtype VARCHAR 50
     create field pubmed_id VARCHAR 50
+    create field host_group_name VARCHAR 100
+    create field host_group_taxlevel VARCHAR 50
   exit
 
   table alignment

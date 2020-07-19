@@ -1,0 +1,7 @@
+
+  run script glue/erv/lentiErvLoadRefConData1.js
+  run script glue/erv/lentiErvLoadRefConData2.js
+
+  run script glue/erv/lentiErvLoadLocusData1.js
+  run script glue/erv/lentiErvLoadLocusData2.js
+
