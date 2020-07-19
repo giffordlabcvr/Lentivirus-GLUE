@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_SRLV-A</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>CA</featureName>
+        <startCodon>7</startCodon>
+        <endCodon>248</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>CA</featureName>
+        <startNt>1516</startNt>
+        <endNt>2239</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>
