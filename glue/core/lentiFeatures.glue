@@ -165,7 +165,7 @@
   feature pro-pol set metatag INCLUDE_IN_SUMMARY true
   feature pro-pol set metatag CODES_AMINO_ACIDS true
   
-  create feature pro -p pro-pol "protease"
+  create feature pro -p pro-pol "protease-polymerase"
   feature pro set field displayName "protease"
   feature pro set metatag OWN_CODON_NUMBERING true
   feature pro set metatag INCLUDE_IN_SUMMARY true

@@ -4,15 +4,15 @@
     <relRefName>REF_HIV-1M</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>IN</featureName>
+        <featureName>capsid</featureName>
         <startCodon>1</startCodon>
-        <endCodon>416</endCodon>
+        <endCodon>232</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>IN</featureName>
-        <startNt>4795</startNt>
-        <endNt>6040</endNt>
+        <featureName>capsid</featureName>
+        <startNt>732</startNt>
+        <endNt>1425</endNt>
     </nucleotideRegionSelector>
-
+    
 </alignmentColumnsSelector>

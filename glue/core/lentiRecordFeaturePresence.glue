@@ -1,0 +1,10 @@
+  delete module lentiFeaturePresenceRecorder
+  create module -f modules/core/lentiFeaturePresenceRecorder.xml
+
+  module lentiFeaturePresenceRecorder 
+
+    #~# Root alignment
+     record feature-presence AL_ROOT --recursive --featureName whole_genome --descendentFeatures
+    
+    exit
+

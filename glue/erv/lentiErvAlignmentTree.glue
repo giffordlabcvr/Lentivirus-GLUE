@@ -8,12 +8,12 @@ create module -f modules/erv/lentiErvCompoundAlignerRelik.xml
 create module -f modules/erv/lentiErvCompoundAlignerMelv.xml
 
 
-
 #~# Define constrained alignment tree
 alignment AL_ROOT
 
   # Add all ERV members
   add member -w "source.name = 'fasta-digs-erv'"
+  add member -w "source.name = 'fasta-refseq-erv'"
 
   extract child AL_RELIK      --refName REF_RELIK
   demote member AL_RELIK      --whereClause "sequence.species = 'Oryctolagus_cuniculus'"
@@ -24,10 +24,10 @@ alignment AL_ROOT
   demote member AL_PSIV       --whereClause "sequence.species like '%Microcebus%'"
   demote member AL_PSIV       --whereClause "sequence.species like '%Mirza%'"
 
-  extract child AL_MELV    --refName REF_MELV
-  demote member AL_MELV    --whereClause "sequence.species = 'Neovison_vison'"
-  demote member AL_MELV    --whereClause "sequence.species = 'Mustela_putorius_furo'"
-  demote member AL_MELV    --whereClause "sequence.species = 'Mustela_erminea'"
+  extract child AL_MELV       --refName REF_MELV
+  demote member AL_MELV       --whereClause "sequence.species = 'Neovison_vison'"
+  demote member AL_MELV       --whereClause "sequence.species = 'Mustela_putorius_furo'"
+  demote member AL_MELV       --whereClause "sequence.species = 'Mustela_erminea'"
 
   extract child AL_ELVgv      --refName REF_ELV
   demote member AL_ELVgv      --whereClause "sequence.species = 'Galeopterus_variegatus'"
@@ -43,3 +43,9 @@ compute alignment AL_PSIV     lentiErvCompoundAlignerPsiv
 compute alignment AL_RELIK    lentiErvCompoundAlignerRelik
 compute alignment AL_MELV     lentiErvCompoundAlignerMelv
 
+
+#~# Derive constrained alignment segments from unconstrained alignments
+
+alignment AL_ROOT
+  derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
+  exit

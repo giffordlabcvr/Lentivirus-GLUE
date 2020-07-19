@@ -6,13 +6,13 @@
     <aminoAcidRegionSelector>
         <featureName>IN</featureName>
         <startCodon>1</startCodon>
-        <endCodon>416</endCodon>
+        <endCodon>289</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>IN</featureName>
-        <startNt>4795</startNt>
-        <endNt>6040</endNt>
+        <startNt>3776</startNt>
+        <endNt>4640</endNt>
     </nucleotideRegionSelector>
 
 </alignmentColumnsSelector>

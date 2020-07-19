@@ -12,7 +12,6 @@
 
 	# Import reference sequences from GenBank XML files 
     import source sources/ncbi-refseqs/
-    import source sources/fasta-refseqs-erv/
  
  	# Populate fields using GenBank file data
 	module lentiGenbankXmlPopulator populate
@@ -29,6 +28,12 @@
 
 	# Define constrained alignment tree
 	run file glue/core/lentiAlignmentTree.glue
+
+	# Record feature coverage in alignments
+	run file glue/core/lentiRecordFeaturePresence.glue
+
+	# Create phylogenies
+	#run file glue/core/lentiCreateRootPhylogenies.glue
 
 	validate
 	exit

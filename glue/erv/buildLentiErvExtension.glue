@@ -6,6 +6,7 @@ project lentivirus
 
   # Import NCBI reference sequences 
   import source sources/fasta-digs-erv/
+  import source sources/fasta-refseqs-erv/
 
   # Link references to isolate data
   run script glue/erv/lentiErvLoadLocusData1.js
