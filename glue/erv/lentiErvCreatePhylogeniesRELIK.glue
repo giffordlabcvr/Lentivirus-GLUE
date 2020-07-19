@@ -1,70 +1,72 @@
-
-  # Clean up from any previous run of this file
-  delete alignment AL_UNC_RELIK_Gag
-  delete alignment AL_UNC_RELIK_Pol
-  delete alignment AL_UNC_RELIK_Env
-  delete alignment AL_UNC_RELIK_5LTR
- 
-  delete module fastaAlignmentExporter
-  delete module lentiTreeAlignmentImporterNucs
+  # Clean up from any previous run of this file   
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
-  delete module lentiErvFigTreeAnnotationExporter
-  
-  
+  delete module lentiErvFigTreeAnnotationExporter 
+  delete module alignmentColumnsSelectorRelikGag
+  delete module alignmentColumnsSelectorRelikPol
+  delete module alignmentColumnsSelectorRelikEnv
+
+
   # Create all the modules we need
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/lentiTreeAlignmentImporterNucs.xml
+  create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
-  create module -t raxmlPhylogenyGenerator
+  create module -f modules/erv/alignmentColumnsSelectorRelikGag.xml
+  create module -f modules/erv/alignmentColumnsSelectorRelikPol.xml
+  create module -f modules/erv/alignmentColumnsSelectorRelikEnv.xml
 
-  module fastaAlignmentExporter
- 	export AL_RELIK -r REF_RELIK -f 5LTR -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_5LTR.aln.fna
- 	export AL_RELIK -r REF_RELIK -f Gag -w "fLocNotes.featureLoc.feature.name = 'Gag' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_Gag.aln.fna
- 	export AL_RELIK -r REF_RELIK -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_Pol.aln.fna
- 	export AL_RELIK -r REF_RELIK -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/RELIK_Env.aln.fna
-	exit
-
-  # Import the alignments to GLUE
-  module lentiTreeAlignmentImporterNucs import AL_UNC_RELIK_5LTR -f alignment/tree/RELIK_5LTR.aln.fna
-  module lentiTreeAlignmentImporterNucs import AL_UNC_RELIK_Gag -f alignment/tree/RELIK_Gag.aln.fna
-  module lentiTreeAlignmentImporterNucs import AL_UNC_RELIK_Pol -f alignment/tree/RELIK_Pol.aln.fna
-  module lentiTreeAlignmentImporterNucs import AL_UNC_RELIK_Env -f alignment/tree/RELIK_Env.aln.fna
-
-  # Create the phylogeny
+  
+  # Create the phylogenies
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_UNC_RELIK_5LTR -a -o trees/RELIK-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_RELIK_Gag -a -o trees/RELIK-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_RELIK_Pol -a -o trees/RELIK-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_RELIK_Env -a -o trees/RELIK-env.export_nucs.tre NEWICK_BOOTSTRAPS 
+
+    generate nucleotide phylogeny AL_RELIK -s alignmentColumnsSelectorRelikGag \
+      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-lineage/relik-pol.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_RELIK -s alignmentColumnsSelectorRelikPol \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-lineage/relik-env.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_RELIK -s alignmentColumnsSelectorRelikEnv \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-lineage/relik-gag.tre NEWICK_BOOTSTRAPS
+
     exit
+
 
   # Re-root phylogeny 
-  module lentiPhyloUtility 
+  module LentiPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/RELIK-gag.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-lineage/relik-gag.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/RELIK-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/relik-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/RELIK-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-lineage/relik-pol.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/RELIK-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/relik-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/RELIK-env.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-lineage/relik-env.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/RELIK-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/relik-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
+
 
   # Export annotations
   module lentiErvFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_RELIK_5LTR -f trees/RELIK-5LTR.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_RELIK_Gag -f trees/RELIK-gag.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_RELIK_Pol -f trees/RELIK-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_RELIK_Env -f trees/RELIK-env.figtree-annotations.tsv
+
+    export figtree-annotation AL_RELIK -w "fLocNotes.featureLoc.feature.name = 'gag'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/relik-gag.figtree-annotations.tsv
+
+    export figtree-annotation AL_RELIK -w "fLocNotes.featureLoc.feature.name = 'pol'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/relik-pol.figtree-annotations.tsv
+
+    export figtree-annotation AL_RELIK -w "fLocNotes.featureLoc.feature.name = 'env'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/relik-env.figtree-annotations.tsv
+
+
   exit
 

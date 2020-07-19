@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_HIV-1M</relRefName>
+    <relRefName>REF_RELIK</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>capsid</featureName>
+        <featureName>pol</featureName>
         <startCodon>1</startCodon>
-        <endCodon>232</endCodon>
+        <endCodon>959</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>capsid</featureName>
-        <startNt>732</startNt>
-        <endNt>1425</endNt>
+        <featureName>pol</featureName>
+        <startNt>2336</startNt>
+        <endNt>5210</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

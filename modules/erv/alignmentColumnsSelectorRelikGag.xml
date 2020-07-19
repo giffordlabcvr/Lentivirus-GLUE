@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_HIV-1M</relRefName>
+    <relRefName>REF_RELIK</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>nucleocapsid</featureName>
+        <featureName>gag</featureName>
         <startCodon>1</startCodon>
-        <endCodon>55</endCodon>
+        <endCodon>478</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>nucleocapsid</featureName>
-        <startNt>1467</startNt>
-        <endNt>1629</endNt>
+        <featureName>gag</featureName>
+        <startNt>597</startNt>
+        <endNt>2028</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

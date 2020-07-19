@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_HIV-1M</relRefName>
+    <relRefName>REF_RELIK</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>matrix</featureName>
+        <featureName>env</featureName>
         <startCodon>1</startCodon>
-        <endCodon>132</endCodon>
+        <endCodon>870</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>matrix</featureName>
-        <startNt>336</startNt>
-        <endNt>729</endNt>
+        <featureName>env</featureName>
+        <startNt>5777</startNt>
+        <endNt>8384</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

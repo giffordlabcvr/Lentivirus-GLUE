@@ -6,13 +6,13 @@
     <aminoAcidRegionSelector>
         <featureName>gag</featureName>
         <startCodon>1</startCodon>
-        <endCodon>390</endCodon>
+        <endCodon>351</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>gag</featureName>
-        <startNt>723</startNt>
-        <endNt>1890</endNt>
+        <startNt>492</startNt>
+        <endNt>1542</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

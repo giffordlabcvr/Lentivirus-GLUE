@@ -6,13 +6,13 @@
     <aminoAcidRegionSelector>
         <featureName>pol</featureName>
         <startCodon>1</startCodon>
-        <endCodon>1121</endCodon>
+        <endCodon>1084</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>pol</featureName>
-        <startNt>1898</startNt>
-        <endNt>5258</endNt>
+        <startNt>1457</startNt>
+        <endNt>4706</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

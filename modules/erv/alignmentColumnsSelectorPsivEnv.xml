@@ -6,13 +6,13 @@
     <aminoAcidRegionSelector>
         <featureName>env</featureName>
         <startCodon>1</startCodon>
-        <endCodon>861</endCodon>
+        <endCodon>566</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>env</featureName>
         <startNt>5279</startNt>
-        <endNt>8662</endNt>
+        <endNt>6974</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
