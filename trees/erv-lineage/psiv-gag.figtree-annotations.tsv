@@ -1,0 +1,5 @@
+taxon	sequenceID	host	name	subgenus	scaffold	orientation
+alignment/AL_PSIV/member/fasta-digs-erv/Microcebus_griseorufus_24140	Microcebus_griseorufus_24140	Microcebus_griseorufus	Microcebus_griseorufus_24140	-	VSMI01178616.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/Microcebus_griseorufus_24476	Microcebus_griseorufus_24476	Microcebus_griseorufus	Microcebus_griseorufus_24476	-	VSMI01016508.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/Microcebus_murinus_24159	Microcebus_murinus_24159	Microcebus_murinus	Microcebus_murinus_24159	-	scaffold_54450	-
+alignment/AL_PSIV/member/fasta-digs-erv/Microcebus_tavaratra_24479	Microcebus_tavaratra_24479	Microcebus_tavaratra	Microcebus_tavaratra_24479	-	VSME01059698.1	+

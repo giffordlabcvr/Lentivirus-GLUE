@@ -1,0 +1,12 @@
+taxon	sequenceID	host	name	subgenus	scaffold	orientation
+alignment/AL_MELV/member/fasta-digs-erv/Mustela_erminea_24418	Mustela_erminea_24418	Mustela_erminea	Mustela_erminea_24418	-	WNLZ01000221.1	-
+alignment/AL_MELV/member/fasta-digs-erv/Mustela_erminea_24577	Mustela_erminea_24577	Mustela_erminea	Mustela_erminea_24577	-	WNLZ01002198.1	+
+alignment/AL_MELV/member/fasta-digs-erv/Mustela_erminea_24716	Mustela_erminea_24716	Mustela_erminea	Mustela_erminea_24716	-	WNLZ01000603.1	-
+alignment/AL_MELV/member/fasta-digs-erv/Mustela_putorius_furo_24243	Mustela_putorius_furo_24243	Mustela_putorius_furo	Mustela_putorius_furo_24243	-	GL897225	-
+alignment/AL_MELV/member/fasta-digs-erv/Mustela_putorius_furo_24257	Mustela_putorius_furo_24257	Mustela_putorius_furo	Mustela_putorius_furo_24257	-	AEYP01113944	+
+alignment/AL_MELV/member/fasta-digs-erv/Mustela_putorius_furo_24446	Mustela_putorius_furo_24446	Mustela_putorius_furo	Mustela_putorius_furo_24446	-	AEYP01111284	+
+alignment/AL_MELV/member/fasta-digs-erv/Mustela_putorius_furo_24485	Mustela_putorius_furo_24485	Mustela_putorius_furo	Mustela_putorius_furo_24485	-	GL896920	+
+alignment/AL_MELV/member/fasta-digs-erv/Neovison_vison_24099	Neovison_vison_24099	Neovison_vison	Neovison_vison_24099	-	FNWR01001227.1	+
+alignment/AL_MELV/member/fasta-digs-erv/Neovison_vison_24221	Neovison_vison_24221	Neovison_vison	Neovison_vison_24221	-	FNWR01000040.1	+
+alignment/AL_MELV/member/fasta-digs-erv/Neovison_vison_24228	Neovison_vison_24228	Neovison_vison	Neovison_vison_24228	-	FNWR01000254.1	+
+alignment/AL_MELV/member/fasta-digs-erv/Neovison_vison_24527	Neovison_vison_24527	Neovison_vison	Neovison_vison_24527	-	FNWR01000502.1	-

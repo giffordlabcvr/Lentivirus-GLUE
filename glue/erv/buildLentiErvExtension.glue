@@ -24,10 +24,10 @@ project lentivirus
   run file glue/erv/lentiErvRecordFeaturePresence.glue
 
   # Create root phylogeny with EVEs
-  run file glue/erv/lentiErvCreatePhylogeniesRoot.glue
+  #run file glue/erv/lentiErvCreatePhylogeniesRoot.glue
 
   # Create phylogenies for ERV lineages
-  #run file glue/erv/lentiErvCreatePhylogeniesMelv.glue
+  run file glue/erv/lentiErvCreatePhylogeniesMelv.glue
   #run file glue/erv/lentiErvCreatePhylogeniesRelik.glue
   run file glue/erv/lentiErvCreatePhylogeniesPsiv.glue
 

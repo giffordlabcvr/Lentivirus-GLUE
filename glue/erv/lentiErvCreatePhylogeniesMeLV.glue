@@ -5,12 +5,13 @@
   delete module alignmentColumnsSelectorMelvGag
   delete module alignmentColumnsSelectorMelvPol
   delete module alignmentColumnsSelectorMelvEnv
-
+  delete module alignmentColumnsSelectorMelvLtr5
 
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
+  create module -f modules/erv/alignmentColumnsSelectorMelvLtr5.xml
   create module -f modules/erv/alignmentColumnsSelectorMelvGag.xml
   create module -f modules/erv/alignmentColumnsSelectorMelvPol.xml
   create module -f modules/erv/alignmentColumnsSelectorMelvEnv.xml
@@ -18,6 +19,10 @@
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_MELV -s alignmentColumnsSelectorMelv5LTR \
+      -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-lineage/melv-ltr.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_MELV -s alignmentColumnsSelectorMelvGag \
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 30" \
@@ -35,7 +40,12 @@
 
 
   # Re-root phylogeny 
-  module LentiPhyloUtility 
+  module LentiPhyloUtility
+  
+	reroot-phylogeny \
+      --inputFile trees/erv-lineage/melv-ltr.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/erv-lineage/melv-ltr.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/erv-lineage/melv-gag.tre NEWICK_BOOTSTRAPS \
@@ -57,6 +67,9 @@
 
   # Export annotations
   module lentiErvFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_MELV -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/melv-ltr.figtree-annotations.tsv
 
     export figtree-annotation AL_MELV -w "fLocNotes.featureLoc.feature.name = 'gag'  \
       and fLocNotes.ref_nt_coverage_pct >= 30" -f trees/erv-lineage/melv-gag.figtree-annotations.tsv

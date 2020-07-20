@@ -1,0 +1,10 @@
+taxon	sequenceID	host	name	subgenus	scaffold	orientation
+alignment/AL_ROOT/member/ncbi-refseqs/AF033819	AF033819	-	HIV-1M 	Primate	-	-
+alignment/AL_ROOT/member/fasta-refseqs-erv/ELVgv-con	ELVgv-con	-	ELVgv	Dermoptera	-	-
+alignment/AL_ROOT/member/ncbi-refseqs/M16575	M16575	-	EIAV 	Equine	-	-
+alignment/AL_ROOT/member/ncbi-refseqs/M25381	M25381	-	FIV 	Feline	-	-
+alignment/AL_ROOT/member/ncbi-refseqs/M32690	M32690	-	BIV 	Bovine	-	-
+alignment/AL_ROOT/member/fasta-refseqs-erv/MELVmpf-con	MELVmpf-con	-	MELVmpf	Carnivore	-	-
+alignment/AL_ROOT/member/ncbi-refseqs/NC_001452	NC_001452	-	SRLV-A 	Caprine-Ovine	-	-
+alignment/AL_ROOT/member/fasta-refseqs-erv/pSIVgml-con	pSIVgml-con	-	pSIVgml	Carnivore	-	-
+alignment/AL_ROOT/member/fasta-refseqs-erv/RELIK-con	RELIK-con	-	RELIK	Carnivore	-	-
