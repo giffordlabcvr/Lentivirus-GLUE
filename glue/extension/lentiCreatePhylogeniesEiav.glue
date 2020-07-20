@@ -1,70 +1,98 @@
-
-  # Clean up from any previous run of this file
-  delete alignment AL_UNC_EIAV_5LTR
-  delete alignment AL_UNC_EIAV_Gag
-  delete alignment AL_UNC_EIAV_Pol
-  delete alignment AL_UNC_EIAV_Env
- 
-  delete module fastaAlignmentExporter
-  delete module lentiTreeAlignmentImporterNucs
+  # Clean up from any previous run of this file   
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
-  delete module lentiFigTreeAnnotationExporter
-
+  delete module lentiFigTreeAnnotationExporter 
+  delete module alignmentColumnsSelectorEiavCapsid
+  delete module alignmentColumnsSelectorEiavMatrix
+  delete module alignmentColumnsSelectorEiavNucleocapsid
+  delete module alignmentColumnsSelectorEiavRt
+  delete module alignmentColumnsSelectorEiavIntegrase
   
   # Create all the modules we need
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/lentiTreeAlignmentImporterNucs.xml
+  create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/core/lentiFigTreeAnnotationExporter.xml
-  create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/alignmentColumnsSelectorEiavCapsid.xml
+  create module -f modules/core/alignmentColumnsSelectorEiavMatrix.xml
+  create module -f modules/core/alignmentColumnsSelectorEiavNucleocapsid.xml
+  create module -f modules/core/alignmentColumnsSelectorEiavRt.xml
+  create module -f modules/core/alignmentColumnsSelectorEiavIntegrase.xml
 
-  module fastaAlignmentExporter
- 	export AL_EIAV -r REF_EIAV -f 5LTR -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/EIAV_5LTR.aln.fna
- 	export AL_EIAV -r REF_EIAV -f Gag -w "fLocNotes.featureLoc.feature.name = 'Gag' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/EIAV_Gag.aln.fna
- 	export AL_EIAV -r REF_EIAV -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/EIAV_Pol.aln.fna
- 	export AL_EIAV -r REF_EIAV -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/EIAV_Env.aln.fna
- 	exit
-
-  # Import the alignments to GLUE
-  module lentiTreeAlignmentImporterNucs import AL_UNC_EIAV_5LTR -f alignment/tree/EIAV_5LTR.aln.fna
-  module lentiTreeAlignmentImporterNucs import AL_UNC_EIAV_Gag -f alignment/tree/EIAV_Gag.aln.fna
-  module lentiTreeAlignmentImporterNucs import AL_UNC_EIAV_Pol -f alignment/tree/EIAV_Pol.aln.fna
-  module lentiTreeAlignmentImporterNucs import AL_UNC_EIAV_Env -f alignment/tree/EIAV_Env.aln.fna
-
-  # Create the phylogeny
+  
+  # Create the phylogenies
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_UNC_EIAV_5LTR -a -o trees/EIAV-5ltr.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_EIAV_Gag -a -o trees/EIAV-gag.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_EIAV_Pol -a -o trees/EIAV-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_EIAV_Env -a -o trees/EIAV-env.export_nucs.tre NEWICK_BOOTSTRAPS 
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorEiavMatrix \
+      -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-eiav-ma.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorEiavCapsid \
+      -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-eiav-ca.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorEiavNucleocapsid \
+      -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-eiav-nc.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorEiavRt \
+      -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-eiav-rt.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorEiavIntegrase \
+      -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-eiav-in.tre NEWICK_BOOTSTRAPS
+
     exit
+
 
   # Re-root phylogeny 
-  module lentiPhyloUtility 
+  module EiavPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/EIAV-gag.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/lenti-eiav-ma.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/EIAV-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/lenti-eiav-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/EIAV-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/lenti-eiav-ca.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/EIAV-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/lenti-eiav-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/EIAV-env.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/lenti-eiav-nc.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/EIAV-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/lenti-eiav-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-eiav-rt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-eiav-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-eiav-in.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-eiav-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
+
 
   # Export annotations
   module lentiFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_EIAV_5LTR -f trees/EIAV-5LTR.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_EIAV_Gag -f trees/EIAV-gag.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_EIAV_Pol -f trees/EIAV-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_EIAV_Env -f trees/EIAV-env.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-ma.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-ca.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-nc.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'RT'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-rt.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'IN'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-eiav-in.figtree-annotations.tsv
+
   exit
 

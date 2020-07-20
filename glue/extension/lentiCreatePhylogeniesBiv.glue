@@ -1,77 +1,98 @@
-
-  # Clean up from any previous run of this file
-  delete alignment AL_TREE_Lentiviridae
-
+  # Clean up from any previous run of this file   
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
-  delete module lentiFigTreeAnnotationExporter
-  delete module lentiFeaturePresenceRecorder
-  delete module alignmentColumnsSelectorLentiGag
-  delete module alignmentColumnsSelectorLentiPol
-  delete module alignmentColumnsSelectorLentiEnv
-  delete module fastaAlignmentExporter
-  delete module lentiTreeAlignmentImporterNucs
+  delete module lentiFigTreeAnnotationExporter 
+  delete module alignmentColumnsSelectorBivCapsid
+  delete module alignmentColumnsSelectorBivMatrix
+  delete module alignmentColumnsSelectorBivNucleocapsid
+  delete module alignmentColumnsSelectorBivRt
+  delete module alignmentColumnsSelectorBivIntegrase
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/fastaAlignmentExporter.xml
-  create module -f modules/core/lentiTreeAlignmentImporterNucs.xml
-  create module -f modules/extension/lentiPhyloUtility.xml
-  create module -f modules/extension/lentiFigTreeAnnotationExporter.xml
-  create module -f modules/extension/lentiFeaturePresenceRecorder.xml
-  create module -f modules/extension/alignmentColumnsSelectorLentiGag.xml
-  create module -f modules/extension/alignmentColumnsSelectorLentiPol.xml
-  create module -f modules/extension/alignmentColumnsSelectorLentiEnv.xml
+  create module -f modules/core/lentiPhyloUtility.xml
+  create module -f modules/core/lentiFigTreeAnnotationExporter.xml
+  create module -f modules/core/alignmentColumnsSelectorBivCapsid.xml
+  create module -f modules/core/alignmentColumnsSelectorBivMatrix.xml
+  create module -f modules/core/alignmentColumnsSelectorBivNucleocapsid.xml
+  create module -f modules/core/alignmentColumnsSelectorBivRt.xml
+  create module -f modules/core/alignmentColumnsSelectorBivIntegrase.xml
 
- 
+  
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_TREE_Lentiviridae -s alignmentColumnsSelectorLentiGag \
-      -w "fLocNotes.featureLoc.feature.name = 'PreGag-Gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/Gag/Lenti-Gag.export_nucs.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivMatrix \
+      -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-biv-ma.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Lentiviridae -s alignmentColumnsSelectorLentiPol \
-      -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/Gag/Lenti-pol.export_nucs.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivCapsid \
+      -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-biv-ca.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Lentiviridae -s alignmentColumnsSelectorLentiEnv \
-      -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/Gag/Lenti-Env.export_nucs.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivNucleocapsid \
+      -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-biv-nc.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivRt \
+      -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-biv-rt.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivIntegrase \
+      -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-biv-in.tre NEWICK_BOOTSTRAPS
 
     exit
-  
 
-  # Re-root phylogenies 
-  module LentiPhyloUtility 
 
-	reroot-phylogeny \
-      --inputFile trees/Gag/Lenti-Gag.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/Gag/Lenti-Gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+  # Re-root phylogeny 
+  module BivPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/Gag/Lenti-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/lenti-biv-ma.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/Gag/Lenti-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/lenti-biv-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/Gag/Lenti-Env.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/lenti-biv-ca.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/Gag/Lenti-Env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/lenti-biv-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-biv-nc.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-biv-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-biv-rt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-biv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-biv-in.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-biv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
 
   # Export annotations
-  module hepadnaFigTreeAnnotationExporter
-  
-    export figtree-annotation AL_TREE_Lentiviridae -w "fLocNotes.featureLoc.feature.name = 'PreGag-Gag'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/Gag/Lenti-root-Gag.figtree-annotations.tsv
-    export figtree-annotation AL_TREE_Lentiviridae -w "fLocNotes.featureLoc.feature.name = 'Pol'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/Gag/Lenti-root-pol.figtree-annotations.tsv
-    export figtree-annotation AL_TREE_Lentiviridae -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/Gag/Lenti-root-Env.figtree-annotations.tsv
+  module lentiFigTreeAnnotationExporter 
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-ma.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-ca.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-nc.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'RT'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-rt.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'IN'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-in.figtree-annotations.tsv
 
   exit
 

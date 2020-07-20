@@ -24,23 +24,23 @@
 
     generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiMatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-ma.tre NEWICK_BOOTSTRAPS
+      -o trees/erv-root/lenti-erv-ma.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiCapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-ca.tre NEWICK_BOOTSTRAPS
+      -o trees/erv-root/lenti-erv-ca.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiNucleocapsid \
       -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-nc.tre NEWICK_BOOTSTRAPS
+      -o trees/erv-root/lenti-erv-nc.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiRt \
       -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-rt.tre NEWICK_BOOTSTRAPS
+      -o trees/erv-root/lenti-erv-rt.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiIntegrase \
       -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-in.tre NEWICK_BOOTSTRAPS
+      -o trees/erv-root/lenti-erv-in.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -49,29 +49,29 @@
   module LentiPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-ma.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-root/lenti-erv-ma.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-root/lenti-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-root/lenti-erv-ma.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-ca.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-root/lenti-erv-ca.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-root/lenti-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-root/lenti-erv-ca.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-nc.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-root/lenti-erv-nc.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-root/lenti-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-root/lenti-erv-nc.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-rt.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-root/lenti-erv-rt.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-root/lenti-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-root/lenti-erv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-in.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-root/lenti-erv-in.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-root/lenti-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-root/lenti-erv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -80,19 +80,19 @@
   module lentiFigTreeAnnotationExporter 
 
     export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/lenti-ma.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/lenti-erv-ma.figtree-annotations.tsv
 
     export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/lenti-ca.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/lenti-erv-ca.figtree-annotations.tsv
 
     export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/lenti-nc.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/lenti-erv-nc.figtree-annotations.tsv
 
     export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'RT'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/lenti-rt.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/lenti-erv-rt.figtree-annotations.tsv
 
     export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'IN'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/lenti-in.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/lenti-erv-in.figtree-annotations.tsv
 
   exit
 

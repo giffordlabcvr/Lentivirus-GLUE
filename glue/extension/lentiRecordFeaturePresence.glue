@@ -1,9 +1,9 @@
   delete module lentiFeaturePresenceRecorder
-  create module -f modules/extension/lentiFeaturePresenceRecorder.xml
+  create module -f modules/core/lentiFeaturePresenceRecorder.xml
 
   module lentiFeaturePresenceRecorder 
-    record feature-presence AL_FIV  --recursive --whereClause "sequence.source.name = 'ncbi-curated-biv'"  --featureName whole_genome --descendentFeatures
-    record feature-presence AL_BIV  --recursive --whereClause "sequence.source.name = 'ncbi-curated-fiv'"  --featureName whole_genome --descendentFeatures
+    record feature-presence AL_FIV  --recursive --whereClause "sequence.source.name = 'ncbi-curated-fiv'"  --featureName whole_genome --descendentFeatures
+    record feature-presence AL_BIV  --recursive --whereClause "sequence.source.name = 'ncbi-curated-biv'"  --featureName whole_genome --descendentFeatures
     record feature-presence AL_EIAV --recursive --whereClause "sequence.source.name = 'ncbi-curated-eiav'" --featureName whole_genome --descendentFeatures
     record feature-presence AL_SRLV --recursive --whereClause "sequence.source.name = 'ncbi-curated-srlv'" --featureName whole_genome --descendentFeatures
     exit
