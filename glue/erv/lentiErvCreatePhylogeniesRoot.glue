@@ -1,7 +1,7 @@
   # Clean up from any previous run of this file   
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
-  delete module lentiFigTreeAnnotationExporter 
+  delete module lentiErvFigTreeAnnotationExporter 
   delete module alignmentColumnsSelectorLentiCapsid
   delete module alignmentColumnsSelectorLentiMatrix
   delete module alignmentColumnsSelectorLentiNucleocapsid
@@ -77,7 +77,7 @@
 
 
   # Export annotations
-  module lentiFigTreeAnnotationExporter 
+  module lentiErvFigTreeAnnotationExporter 
 
     export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/lenti-erv-ma.figtree-annotations.tsv
