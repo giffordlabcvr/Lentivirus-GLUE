@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_SRLV-A</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>MA</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>307</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>MA</featureName>
+        <startNt>907</startNt>
+        <endNt>1825</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

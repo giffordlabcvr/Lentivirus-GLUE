@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_HIV-1M</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>IN</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>416</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>IN</featureName>
+        <startNt>4795</startNt>
+        <endNt>6040</endNt>
+    </nucleotideRegionSelector>
+
+</alignmentColumnsSelector>
