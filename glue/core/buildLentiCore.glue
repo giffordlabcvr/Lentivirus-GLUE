@@ -12,13 +12,9 @@
 
 	# Import reference sequences from GenBank XML files 
     import source sources/ncbi-refseqs/
- 
- 	# Populate fields using GenBank file data
-	module lentiGenbankXmlPopulator populate
- 
- 	# Load sequence-associated data
-	run script glue/core/lentiLoadRefseqsIsolateData1.js
-	run script glue/core/lentiLoadRefseqsIsolateData2.js
+
+	# Import side data for reference sequences
+	run file glue/core/lentiImportSideData.glue
  
 	# Create lentivirus references
 	run file glue/core/lentiMasterReferences.glue  

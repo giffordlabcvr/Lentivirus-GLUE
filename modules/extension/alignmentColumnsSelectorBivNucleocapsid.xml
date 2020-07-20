@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_SRLV-A</relRefName>
+    <relRefName>REF_BIV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>NC</featureName>
+        <featureName>nucleocapsid</featureName>
         <startCodon>1</startCodon>
-        <endCodon>57</endCodon>
+        <endCodon>50</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>NC</featureName>
-        <startNt>2242</startNt>
-        <endNt>2410</endNt>
+        <featureName>nucleocapsid</featureName>
+        <startNt>1462</startNt>
+        <endNt>1639</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

@@ -20,16 +20,12 @@
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_PSIV -s alignmentColumnsSelectorPsivGag \
-      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/erv-lineage/psiv-pol.tre NEWICK_BOOTSTRAPS
+      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 30" \
+      -o trees/erv-lineage/psiv-gag.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_PSIV -s alignmentColumnsSelectorPsivPol \
-      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/erv-lineage/psiv-env.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_PSIV -s alignmentColumnsSelectorPsivEnv \
-      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/erv-lineage/psiv-gag.tre NEWICK_BOOTSTRAPS
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 30" \
+      -o trees/erv-lineage/psiv-pol.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -47,11 +43,6 @@
       --midpoint \
       --outputFile trees/erv-lineage/psiv-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/erv-lineage/psiv-env.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/erv-lineage/psiv-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
     exit
 
 
@@ -59,13 +50,10 @@
   module lentiErvFigTreeAnnotationExporter 
 
     export figtree-annotation AL_PSIV -w "fLocNotes.featureLoc.feature.name = 'gag'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/psiv-gag.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 30" -f trees/erv-lineage/psiv-gag.figtree-annotations.tsv
 
     export figtree-annotation AL_PSIV -w "fLocNotes.featureLoc.feature.name = 'pol'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/psiv-pol.figtree-annotations.tsv
-
-    export figtree-annotation AL_PSIV -w "fLocNotes.featureLoc.feature.name = 'env'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/psiv-env.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 30" -f trees/erv-lineage/psiv-pol.figtree-annotations.tsv
 
 
   exit

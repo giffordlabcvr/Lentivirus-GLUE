@@ -12,33 +12,33 @@
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/core/lentiFigTreeAnnotationExporter.xml
-  create module -f modules/core/alignmentColumnsSelectorBivCapsid.xml
-  create module -f modules/core/alignmentColumnsSelectorBivMatrix.xml
-  create module -f modules/core/alignmentColumnsSelectorBivNucleocapsid.xml
-  create module -f modules/core/alignmentColumnsSelectorBivRt.xml
-  create module -f modules/core/alignmentColumnsSelectorBivIntegrase.xml
+  create module -f modules/extension/alignmentColumnsSelectorBivCapsid.xml
+  create module -f modules/extension/alignmentColumnsSelectorBivMatrix.xml
+  create module -f modules/extension/alignmentColumnsSelectorBivNucleocapsid.xml
+  create module -f modules/extension/alignmentColumnsSelectorBivRt.xml
+  create module -f modules/extension/alignmentColumnsSelectorBivIntegrase.xml
 
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivMatrix \
+    generate nucleotide phylogeny AL_BIV -s alignmentColumnsSelectorBivMatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-biv-ma.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivCapsid \
+    generate nucleotide phylogeny AL_BIV -s alignmentColumnsSelectorBivCapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-biv-ca.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivNucleocapsid \
+    generate nucleotide phylogeny AL_BIV -s alignmentColumnsSelectorBivNucleocapsid \
       -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-biv-nc.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivRt \
+    generate nucleotide phylogeny AL_BIV -s alignmentColumnsSelectorBivRt \
       -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-biv-rt.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorBivIntegrase \
+    generate nucleotide phylogeny AL_BIV -s alignmentColumnsSelectorBivIntegrase \
       -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-biv-in.tre NEWICK_BOOTSTRAPS
 
@@ -46,7 +46,7 @@
 
 
   # Re-root phylogeny 
-  module BivPhyloUtility 
+  module lentiPhyloUtility 
 
 	reroot-phylogeny \
       --inputFile trees/main-species/lenti-biv-ma.tre NEWICK_BOOTSTRAPS \
@@ -79,19 +79,19 @@
   # Export annotations
   module lentiFigTreeAnnotationExporter 
 
-    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
+    export figtree-annotation AL_BIV -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-ma.figtree-annotations.tsv
 
-    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
+    export figtree-annotation AL_BIV -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-ca.figtree-annotations.tsv
 
-    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
+    export figtree-annotation AL_BIV -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-nc.figtree-annotations.tsv
 
-    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'RT'  \
+    export figtree-annotation AL_BIV -w "fLocNotes.featureLoc.feature.name = 'RT'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-rt.figtree-annotations.tsv
 
-    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'IN'  \
+    export figtree-annotation AL_BIV -w "fLocNotes.featureLoc.feature.name = 'IN'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-biv-in.figtree-annotations.tsv
 
   exit

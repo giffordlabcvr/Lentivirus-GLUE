@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_SRLV-A</relRefName>
+    <relRefName>REF_EIAV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>MA</featureName>
+        <featureName>matrix</featureName>
         <startCodon>1</startCodon>
-        <endCodon>307</endCodon>
+        <endCodon>121</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>MA</featureName>
-        <startNt>907</startNt>
-        <endNt>1825</endNt>
+        <featureName>matrix</featureName>
+        <startNt>834</startNt>
+        <endNt>122</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
