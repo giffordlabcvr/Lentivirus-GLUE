@@ -6,13 +6,13 @@
     <aminoAcidRegionSelector>
         <featureName>capsid</featureName>
         <startCodon>1</startCodon>
-        <endCodon>227</endCodon>
+        <endCodon>225</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>capsid</featureName>
-        <startNt>694</startNt>
-        <endNt>1420</endNt>
+        <startNt>837</startNt>
+        <endNt>1530</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

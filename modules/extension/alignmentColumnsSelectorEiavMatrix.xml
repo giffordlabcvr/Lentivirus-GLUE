@@ -11,8 +11,8 @@
     
     <nucleotideRegionSelector>
         <featureName>matrix</featureName>
-        <startNt>316</startNt>
-        <endNt>691</endNt>
+        <startNt>834</startNt>
+        <endNt>122</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
