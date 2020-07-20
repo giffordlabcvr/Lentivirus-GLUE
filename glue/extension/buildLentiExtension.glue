@@ -31,7 +31,7 @@
 	run file glue/extension/lentiCreatePhylogeniesBiv.glue
 	run file glue/extension/lentiCreatePhylogeniesFiv.glue
 	run file glue/extension/lentiCreatePhylogeniesEiav.glue
-	run file glue/extension/lentiCreatePhylogeniesSrlv.glue
+	#run file glue/extension/lentiCreatePhylogeniesSrlv.glue
 
 	# Validate
 	validate

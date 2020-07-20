@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_HIV-1M</relRefName>
+    <relRefName>REF_FIV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>IN</featureName>
+        <featureName>integrase</featureName>
         <startCodon>1</startCodon>
-        <endCodon>416</endCodon>
+        <endCodon>280</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>IN</featureName>
-        <startNt>4795</startNt>
-        <endNt>6040</endNt>
+        <featureName>integrase</featureName>
+        <startNt>4404</startNt>
+        <endNt>5241</endNt>
     </nucleotideRegionSelector>
 
 </alignmentColumnsSelector>
