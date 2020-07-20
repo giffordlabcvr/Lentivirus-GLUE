@@ -28,11 +28,10 @@ project lentivirus
 
   # Create phylogenies for ERV lineages
   run file glue/erv/lentiErvCreatePhylogeniesMelv.glue
-  #run file glue/erv/lentiErvCreatePhylogeniesRelik.glue
+  run file glue/erv/lentiErvCreatePhylogeniesRelik.glue
   run file glue/erv/lentiErvCreatePhylogeniesPsiv.glue
 
   # Validate
   validate
 
   exit
-

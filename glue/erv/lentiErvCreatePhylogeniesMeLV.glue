@@ -21,8 +21,8 @@
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_MELV -s alignmentColumnsSelectorMelvLtr5 \
-      -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/erv-lineage/melv-ltr.tre NEWICK_BOOTSTRAPS
+       -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 30" \
+       -o trees/erv-lineage/melv-ltr.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_MELV -s alignmentColumnsSelectorMelvGag \
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 30" \
@@ -69,7 +69,7 @@
   module lentiErvFigTreeAnnotationExporter 
 
     export figtree-annotation AL_MELV -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/melv-ltr.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 30" -f trees/erv-lineage/melv-ltr.figtree-annotations.tsv
 
     export figtree-annotation AL_MELV -w "fLocNotes.featureLoc.feature.name = 'gag'  \
       and fLocNotes.ref_nt_coverage_pct >= 30" -f trees/erv-lineage/melv-gag.figtree-annotations.tsv
