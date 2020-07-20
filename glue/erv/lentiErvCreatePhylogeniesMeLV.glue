@@ -20,7 +20,7 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_MELV -s alignmentColumnsSelectorMelv5LTR \
+    generate nucleotide phylogeny AL_MELV -s alignmentColumnsSelectorMelvLtr5 \
       -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/erv-lineage/melv-ltr.tre NEWICK_BOOTSTRAPS
 

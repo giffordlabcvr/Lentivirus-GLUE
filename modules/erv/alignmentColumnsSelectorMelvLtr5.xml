@@ -4,7 +4,7 @@
     <relRefName>REF_MELV</relRefName>
     
     <nucleotideRegionSelector>
-        <featureName>gag</featureName>
+        <featureName>5LTR</featureName>
         <startNt>1</startNt>
         <endNt>573</endNt>
     </nucleotideRegionSelector>
