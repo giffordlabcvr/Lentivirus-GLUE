@@ -14,7 +14,7 @@
     import source sources/ncbi-refseqs/
 
 	# Import side data for reference sequences
-	run file glue/core/lentiImportSideData.glue
+	run file glue/core/lentiImportSideDataReferences.glue
  
 	# Create lentivirus references
 	run file glue/core/lentiMasterReferences.glue  
