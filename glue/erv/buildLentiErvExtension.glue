@@ -11,7 +11,7 @@ project lentivirus
   # Load side data
   run file glue/erv/lentiErvLoadData.glue
 
-  # Create EHBV reference sequences
+  # Create lentivirus ERV reference sequences
   run file glue/erv/lentiErvReferences.glue
 
   # Import alignments
@@ -23,8 +23,8 @@ project lentivirus
   # Record feature presence
   run file glue/erv/lentiErvRecordFeaturePresence.glue
 
-  # Create root phylogeny with EVEs
-  #run file glue/erv/lentiErvCreatePhylogeniesRoot.glue
+  # Create root phylogeny with ERVs
+  run file glue/erv/lentiErvCreatePhylogeniesRoot.glue
 
   # Create phylogenies for ERV lineages
   run file glue/erv/lentiErvCreatePhylogeniesMelv.glue
