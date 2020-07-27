@@ -6,7 +6,10 @@
     # Import sources
     run file glue/extension/lentiExtensionSources.glue
 
-	# Link references to isolate data
+    # Define extension references
+    run file glue/lentiExtensionReferences.glue
+
+	# Link curated set sequences to isolate data
 	run script glue/extension/lentiLoadCuratedIsolateData1.js
 
 	# Extract data from the XML files
