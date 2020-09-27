@@ -13,8 +13,8 @@
   run file glue/core/buildLentiCore.glue
 
   # Build EVE project
-  run file glue/erv/buildLentiErvExtension.glue
+  #run file glue/erv/buildLentiErvExtension.glue
 
   # Build extension project  
-  #run file glue/extension/buildLentiExtension.glue
+  run file glue/extension/buildLentiExtension.glue
   
