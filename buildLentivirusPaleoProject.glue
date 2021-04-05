@@ -1,0 +1,2 @@
+  # Build EVE project
+  run file glue/erv/buildLentiErvExtension.glue
