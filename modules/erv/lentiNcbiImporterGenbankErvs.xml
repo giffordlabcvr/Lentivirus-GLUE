@@ -45,6 +45,15 @@
 	<primaryAccession>FJ707358</primaryAccession>
 	<primaryAccession>FJ707359</primaryAccession>
 
+	
+	<!-- Identification of a RELIK orthologue in the European hare (Lepus europaeus)
+	reveals a minimum age of 12 million years for the lagomorph lentiviruses. -->
+	<primaryAccession>FJ493030</primaryAccession>
+	<primaryAccession>FJ493031</primaryAccession>
+	<primaryAccession>FJ493032</primaryAccession>
+	<primaryAccession>FJ493033</primaryAccession>
+	<primaryAccession>FJ493034</primaryAccession>
+
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
