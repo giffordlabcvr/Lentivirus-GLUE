@@ -1,0 +1,53 @@
+<!-- Lentivirus main group references -->
+<ncbiImporter>
+
+  <sourceName>ncbi-curated-erv</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+	
+	<!-- Parallel Germline Infiltration of a Lentivirus in Two Malagasy Lemurs -->
+	<primaryAccession>FJ707322</primaryAccession>
+	<primaryAccession>FJ707323</primaryAccession>
+	<primaryAccession>FJ707324</primaryAccession>
+	<primaryAccession>FJ707325</primaryAccession>
+	<primaryAccession>FJ707326</primaryAccession>
+	<primaryAccession>FJ707327</primaryAccession>
+	<primaryAccession>FJ707328</primaryAccession>
+	<primaryAccession>FJ707329</primaryAccession>
+	<primaryAccession>FJ707330</primaryAccession>
+	<primaryAccession>FJ707331</primaryAccession>
+	<primaryAccession>FJ707332</primaryAccession>
+	<primaryAccession>FJ707333</primaryAccession>
+	<primaryAccession>FJ707334</primaryAccession>
+	<primaryAccession>FJ707335</primaryAccession>
+	<primaryAccession>FJ707336</primaryAccession>
+	<primaryAccession>FJ707337</primaryAccession>
+	<primaryAccession>FJ707338</primaryAccession>
+	<primaryAccession>FJ707339</primaryAccession>
+	<primaryAccession>FJ707340</primaryAccession>
+	<primaryAccession>FJ707341</primaryAccession>
+	<primaryAccession>FJ707342</primaryAccession>
+	<primaryAccession>FJ707343</primaryAccession>
+	<primaryAccession>FJ707344</primaryAccession>
+	<primaryAccession>FJ707345</primaryAccession>
+	<primaryAccession>FJ707346</primaryAccession>
+	<primaryAccession>FJ707347</primaryAccession>
+	<primaryAccession>FJ707348</primaryAccession>
+	<primaryAccession>FJ707349</primaryAccession>
+	<primaryAccession>FJ707350</primaryAccession>
+	<primaryAccession>FJ707351</primaryAccession>
+	<primaryAccession>FJ707352</primaryAccession>
+	<primaryAccession>FJ707353</primaryAccession>
+	<primaryAccession>FJ707354</primaryAccession>
+	<primaryAccession>FJ707355</primaryAccession>
+	<primaryAccession>FJ707356</primaryAccession>
+	<primaryAccession>FJ707357</primaryAccession>
+	<primaryAccession>FJ707358</primaryAccession>
+	<primaryAccession>FJ707359</primaryAccession>
+
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  
+</ncbiImporter>
+
