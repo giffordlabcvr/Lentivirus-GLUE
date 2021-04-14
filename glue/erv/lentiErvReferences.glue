@@ -128,5 +128,68 @@
 	exit 
 
 
-  create reference REF_ELV fasta-refseqs-erv ELVgv-con
-  create reference REF_Springhare fasta-refseqs-erv Springhare-con
+  create reference REF_ELVgv fasta-refseqs-erv ELVgv-con
+  reference REF_ELVgv
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1	9112
+	  exit
+  
+	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1	530
+	  exit
+  
+	add feature-location gag
+	feature-location gag
+	  add segment 723 1892
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 1898 5260
+	  exit
+
+	add feature-location vif
+	feature-location vif
+	  add segment 5400 5849
+	  exit
+
+	add feature-location env
+	feature-location env
+	  add segment 6082 8664
+	  exit
+
+	add feature-location 3LTR
+	feature-location 3LTR
+	  add segment 8872 9112
+	  exit
+    
+	exit 
+
+
+  create reference REF_ELVpc fasta-refseqs-erv Springhare-con
+  reference REF_ELVpc
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1	9112
+	  exit
+  
+	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1	530
+	  exit
+  
+	add feature-location gag
+	feature-location gag
+	  add segment 723 1892
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 1898 5260
+	  exit
+    
+	exit 
