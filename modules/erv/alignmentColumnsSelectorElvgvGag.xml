@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_pSIV_microcebus</relRefName>
+    <relRefName>REF_ELVgv</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>pol</featureName>
+        <featureName>gag</featureName>
         <startCodon>1</startCodon>
-        <endCodon>1084</endCodon>
+        <endCodon>478</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>pol</featureName>
-        <startNt>1457</startNt>
-        <endNt>4706</endNt>
+        <featureName>gag</featureName>
+        <startNt>597</startNt>
+        <endNt>2028</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

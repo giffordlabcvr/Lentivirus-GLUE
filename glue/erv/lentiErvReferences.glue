@@ -36,8 +36,8 @@
     
 	exit 
 
-  create reference REF_pSIV fasta-refseqs-erv pSIVgml-con
-  reference REF_pSIV
+  create reference REF_pSIV_microcebus fasta-refseqs-erv pSIVgml-con
+  reference REF_pSIV_microcebus
 
 	add feature-location whole_genome
 	feature-location whole_genome
@@ -133,17 +133,17 @@
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	9112
+	  add segment 1	8244
 	  exit
   
 	add feature-location 5LTR
 	feature-location 5LTR
-	  add segment 1	530
+	  add segment 1	440
 	  exit
   
 	add feature-location gag
 	feature-location gag
-	  add segment 723 1892
+	  add segment 559 1320
 	  exit
 
 	add feature-location pol
@@ -151,30 +151,20 @@
 	  add segment 1898 5260
 	  exit
 
-	add feature-location vif
-	feature-location vif
-	  add segment 5400 5849
-	  exit
-
-	add feature-location env
-	feature-location env
-	  add segment 6082 8664
-	  exit
-
 	add feature-location 3LTR
 	feature-location 3LTR
-	  add segment 8872 9112
+	  add segment 7807 8244
 	  exit
     
 	exit 
 
 
-  create reference REF_ELVpc fasta-refseqs-erv Springhare-con
+  create reference REF_ELVpc fasta-refseqs-erv ELVpc-con
   reference REF_ELVpc
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	9112
+	  add segment 1	482
 	  exit
   
 	add feature-location 5LTR
@@ -182,14 +172,5 @@
 	  add segment 1	530
 	  exit
   
-	add feature-location gag
-	feature-location gag
-	  add segment 723 1892
-	  exit
-
-	add feature-location pol
-	feature-location pol
-	  add segment 1898 5260
-	  exit
     
 	exit 

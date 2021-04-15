@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_pSIV_microcebus</relRefName>
+    <relRefName>REF_RELIK</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>pol</featureName>
+        <featureName>env</featureName>
         <startCodon>1</startCodon>
-        <endCodon>1084</endCodon>
+        <endCodon>870</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>pol</featureName>
-        <startNt>1457</startNt>
-        <endNt>4706</endNt>
+        <featureName>env</featureName>
+        <startNt>5777</startNt>
+        <endNt>8384</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
