@@ -164,13 +164,24 @@
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	482
+	  add segment 1	5056
 	  exit
   
 	add feature-location 5LTR
 	feature-location 5LTR
-	  add segment 1	530
+	  add segment 1	481
 	  exit
-  
+ 
+ 	add feature-location gag
+	feature-location gag
+	  add segment 1429 2366
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 2368 5056
+	  exit
+
+ 
     
 	exit 

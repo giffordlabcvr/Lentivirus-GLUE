@@ -30,6 +30,9 @@ project lentivirus
   run file glue/erv/lentiErvCreatePhylogeniesMelv.glue
   run file glue/erv/lentiErvCreatePhylogeniesRelik.glue
   run file glue/erv/lentiErvCreatePhylogeniesPsiv.glue
+  #run file glue/erv/lentiErvCreatePhylogeniesELVgv.glue
+  #run file glue/erv/lentiErvCreatePhylogeniesELVpc.glue
+
 
   # Validate
   validate
