@@ -4,15 +4,15 @@
     <relRefName>REF_RELIK</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>env</featureName>
+        <featureName>pol</featureName>
         <startCodon>1</startCodon>
-        <endCodon>870</endCodon>
+        <endCodon>959</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>env</featureName>
-        <startNt>5777</startNt>
-        <endNt>8384</endNt>
+        <featureName>pol</featureName>
+        <startNt>2336</startNt>
+        <endNt>5210</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

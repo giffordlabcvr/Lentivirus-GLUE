@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_pSIV</relRefName>
+    <relRefName>REF_ELVpc</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>pol</featureName>
+        <featureName>gag</featureName>
         <startCodon>1</startCodon>
-        <endCodon>1084</endCodon>
+        <endCodon>312</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>pol</featureName>
-        <startNt>1457</startNt>
-        <endNt>4706</endNt>
+        <featureName>gag</featureName>
+        <startNt>1429</startNt>
+        <endNt>2362</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

@@ -1,0 +1,13 @@
+taxon	sequenceID	host	name	subgenus	scaffold	orientation
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.2-Microcebus_griseorufus-provirus	ERV-PSIV1.2-Microcebus_griseorufus-provirus	Microcebus_griseorufus	ERV-PSIV1.2-Microcebus_griseorufus-provirus	-	VSMI01016508.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.2-Microcebus_murinus-provirus	ERV-PSIV1.2-Microcebus_murinus-provirus	Microcebus_murinus	ERV-PSIV1.2-Microcebus_murinus-provirus	-	scaffold_54450	-
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.2-Microcebus_tavaratra-provirus	ERV-PSIV1.2-Microcebus_tavaratra-provirus	Microcebus_tavaratra	ERV-PSIV1.2-Microcebus_tavaratra-provirus	-	VSME01059698.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.3-Microcebus_griseorufus-LTR	ERV-PSIV1.3-Microcebus_griseorufus-LTR	Microcebus_griseorufus	ERV-PSIV1.3-Microcebus_griseorufus-LTR	-	VSMI01347163.1	-
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.3-Microcebus_mittermeieri-LTR	ERV-PSIV1.3-Microcebus_mittermeieri-LTR	Microcebus_mittermeieri	ERV-PSIV1.3-Microcebus_mittermeieri-LTR	-	VSMH01231222.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.4-Microcebus_tavaratra-LTR	ERV-PSIV1.4-Microcebus_tavaratra-LTR	Microcebus_tavaratra	ERV-PSIV1.4-Microcebus_tavaratra-LTR	-	VSME01048171.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.5-Microcebus_mittermeieri-LTR	ERV-PSIV1.5-Microcebus_mittermeieri-LTR	Microcebus_mittermeieri	ERV-PSIV1.5-Microcebus_mittermeieri-LTR	-	VSMH01214626.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.5-Microcebus_murinus-LTR	ERV-PSIV1.5-Microcebus_murinus-LTR	Microcebus_murinus	ERV-PSIV1.5-Microcebus_murinus-LTR	-	scaffold_11115	-
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.7-Microcebus_ravelobensis-LTR	ERV-PSIV1.7-Microcebus_ravelobensis-LTR	Microcebus_ravelobensis	ERV-PSIV1.7-Microcebus_ravelobensis-LTR	-	VSMG01063232.1	-
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.9-Microcebus_griseorufus-LTR	ERV-PSIV1.9-Microcebus_griseorufus-LTR	Microcebus_griseorufus	ERV-PSIV1.9-Microcebus_griseorufus-LTR	-	VSMI01132181.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.9-Microcebus_mittermeieri-LTR	ERV-PSIV1.9-Microcebus_mittermeieri-LTR	Microcebus_mittermeieri	ERV-PSIV1.9-Microcebus_mittermeieri-LTR	-	VSMH01504059.1	-
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.9-Microcebus_tavaratra-LTR	ERV-PSIV1.9-Microcebus_tavaratra-LTR	Microcebus_tavaratra	ERV-PSIV1.9-Microcebus_tavaratra-LTR	-	VSME01081323.1	+

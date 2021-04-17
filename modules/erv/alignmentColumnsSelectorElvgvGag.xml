@@ -11,7 +11,7 @@
     
     <nucleotideRegionSelector>
         <featureName>gag</featureName>
-        <startNt>597</startNt>
+        <startNt>559</startNt>
         <endNt>2028</endNt>
     </nucleotideRegionSelector>
     
