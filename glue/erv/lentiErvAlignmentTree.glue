@@ -1,13 +1,15 @@
-
-
+  
   delete module lentiErvCompoundAlignerPsiv
   delete module lentiErvCompoundAlignerRelik
   delete module lentiErvCompoundAlignerMelv
-
+  delete module lentiErvCompoundAlignerElvgv
+  delete module lentiErvCompoundAlignerElvpc
 
   create module -f modules/erv/lentiErvCompoundAlignerPsiv.xml
   create module -f modules/erv/lentiErvCompoundAlignerRelik.xml
   create module -f modules/erv/lentiErvCompoundAlignerMelv.xml
+  create module -f modules/erv/lentiErvCompoundAlignerElvgv.xml
+  create module -f modules/erv/lentiErvCompoundAlignerElvpc.xml
 
 
   #~# Define constrained alignment tree
@@ -24,18 +26,18 @@
 
 	extract child AL_PSIV       --refName REF_pSIV
 	demote member AL_PSIV       --whereClause "sequence.species like '%Microcebus%'"
-	demote member AL_PSIV       --whereClause "sequence.species like '%Mirza%'"
+	#demote member AL_PSIV       --whereClause "sequence.species like '%Mirza%'"
 
 	extract child AL_MELV       --refName REF_MELV
 	demote member AL_MELV       --whereClause "sequence.species = 'Neovison_vison'"
 	demote member AL_MELV       --whereClause "sequence.species = 'Mustela_putorius_furo'"
 	demote member AL_MELV       --whereClause "sequence.species = 'Mustela_erminea'"
 
-	extract child AL_ELVgv      --refName REF_ELV
+	extract child AL_ELVgv      --refName REF_ELVgv
 	demote member AL_ELVgv      --whereClause "sequence.species = 'Galeopterus_variegatus'"
 
-	extract child AL_Springhare --refName REF_Springhare
-	demote member AL_Springhare --whereClause "sequence.species = 'Pedetes_capensis'"
+	extract child AL_ELVpc      --refName REF_ELVpc
+	demote member AL_ELVpc      --whereClause "sequence.species = 'Pedetes_capensis'"
   
 	exit
 
@@ -44,6 +46,8 @@
   compute alignment AL_PSIV     lentiErvCompoundAlignerPsiv
   compute alignment AL_RELIK    lentiErvCompoundAlignerRelik
   compute alignment AL_MELV     lentiErvCompoundAlignerMelv
+  compute alignment AL_ELVgv    lentiErvCompoundAlignerElvGv
+  compute alignment AL_ELVpc    lentiErvCompoundAlignerElvPc
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
