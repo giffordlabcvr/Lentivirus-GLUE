@@ -21,7 +21,7 @@
   module raxmlPhylogenyGenerator
 
 
-    generate nucleotide phylogeny AL_PSIV -s alignmentColumnsSelectorPsivLtr \
+    generate nucleotide phylogeny AL_PSIV -s alignmentColumnsSelectorPsivLtr5 \
        -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
        -o trees/erv-lineage/relik-ltr.tre NEWICK_BOOTSTRAPS
 
