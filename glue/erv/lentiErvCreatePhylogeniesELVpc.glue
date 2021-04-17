@@ -27,9 +27,9 @@
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ELVpc -s alignmentColumnsSelectorElvpcPol \
-      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/erv-lineage/elvpc-env.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_ELVpc -s alignmentColumnsSelectorElvpcPol \
+    #  -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/erv-lineage/elvpc-env.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -47,10 +47,10 @@
       --midpoint \
       --outputFile trees/erv-lineage/elvpc-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/erv-lineage/elvpc-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	#reroot-phylogeny \
+    #  --inputFile trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/erv-lineage/elvpc-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -64,8 +64,8 @@
     export figtree-annotation AL_ELVpc -w "fLocNotes.featureLoc.feature.name = 'gag'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-gag.figtree-annotations.tsv
 
-    export figtree-annotation AL_ELVpc -w "fLocNotes.featureLoc.feature.name = 'pol'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-pol.figtree-annotations.tsv
+    #export figtree-annotation AL_ELVpc -w "fLocNotes.featureLoc.feature.name = 'pol'  \
+    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-pol.figtree-annotations.tsv
 
 
   exit
