@@ -1,0 +1,5 @@
+taxon	sequenceID	host	name	subgenus	scaffold	orientation
+alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.1-Pedetes_capensis-provirus	ERV-ELVpc.1-Pedetes_capensis-provirus	Pedetes_capensis	ERV-ELVpc.1-Pedetes_capensis-provirus	-	VMDO01011022.1	+
+alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.2-Pedetes_capensis-provirus	ERV-ELVpc.2-Pedetes_capensis-provirus	Pedetes_capensis	ERV-ELVpc.2-Pedetes_capensis-provirus	-	VMDO01050306.1	+
+alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.3-Pedetes_capensis-provirus	ERV-ELVpc.3-Pedetes_capensis-provirus	Pedetes_capensis	ERV-ELVpc.3-Pedetes_capensis-provirus	-	VMDO01082106.1	-
+alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.4-Pedetes_capensis-provirus	ERV-ELVpc.4-Pedetes_capensis-provirus	Pedetes_capensis	ERV-ELVpc.4-Pedetes_capensis-provirus	-	VMDO01088624.1	-

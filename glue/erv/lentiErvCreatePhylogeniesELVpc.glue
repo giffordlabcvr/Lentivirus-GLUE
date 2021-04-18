@@ -25,11 +25,11 @@
 
     generate nucleotide phylogeny AL_ELVpc -s alignmentColumnsSelectorElvpcGag \
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS
+      -o trees/erv-lineage/elvpc-gag.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_ELVpc -s alignmentColumnsSelectorElvpcPol \
     #  -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/erv-lineage/elvpc-env.tre NEWICK_BOOTSTRAPS
+    #  -o trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS
 
     exit
 
