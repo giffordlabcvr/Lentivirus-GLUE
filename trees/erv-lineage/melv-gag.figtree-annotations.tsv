@@ -1,6 +1,5 @@
 taxon	sequenceID	host	name	subgenus	scaffold	orientation
 alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_erminea-provirus	ERV-MELV.1-Mustela_erminea-provirus	Mustela_erminea	ERV-MELV.1-Mustela_erminea-provirus	-	WNLZ01000603.1	-
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_putorius_furo-provirus	ERV-MELV.1-Mustela_putorius_furo-provirus	Mustela_putorius_furo	ERV-MELV.1-Mustela_putorius_furo-provirus	-	GL896920	+
 alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Neovison_vison-provirus	ERV-MELV.1-Neovison_vison-provirus	Neovison_vison	ERV-MELV.1-Neovison_vison-provirus	-	FNWR01000040.1	+
 alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_erminea-provirus	ERV-MELV.2-Mustela_erminea-provirus	Mustela_erminea	ERV-MELV.2-Mustela_erminea-provirus	-	WNLZ01000221.1	-
 alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_putorius_furo-provirus	ERV-MELV.2-Mustela_putorius_furo-provirus	Mustela_putorius_furo	ERV-MELV.2-Mustela_putorius_furo-provirus	-	GL897225	-
