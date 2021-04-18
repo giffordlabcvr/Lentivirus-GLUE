@@ -4,15 +4,15 @@
     <relRefName>REF_ELVgv</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>gag</featureName>
+        <featureName>env</featureName>
         <startCodon>1</startCodon>
-        <endCodon>470</endCodon>
+        <endCodon>951</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>gag</featureName>
-        <startNt>557</startNt>
-        <endNt>1964</endNt>
+        <featureName>env</featureName>
+        <startNt>6425</startNt>
+        <endNt>9275</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

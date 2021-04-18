@@ -15,7 +15,7 @@
   create module -f modules/erv/alignmentColumnsSelectorElvgvLtr5.xml
   create module -f modules/erv/alignmentColumnsSelectorElvgvGag.xml
   create module -f modules/erv/alignmentColumnsSelectorElvgvPol.xml
-  #create module -f modules/erv/alignmentColumnsSelectorElvgvEnv.xml
+  create module -f modules/erv/alignmentColumnsSelectorElvgvEnv.xml
 
   
   # Create the phylogenies
@@ -33,9 +33,9 @@
       -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/erv-lineage/elvgv-env.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_ELVgv -s alignmentColumnsSelectorElvgvEnv \
-    #  -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/erv-lineage/elvgv-gag.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_ELVgv -s alignmentColumnsSelectorElvgvEnv \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-lineage/elvgv-gag.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -58,10 +58,10 @@
       --midpoint \
       --outputFile trees/erv-lineage/elvgv-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	#reroot-phylogeny \
-    #  --inputFile trees/erv-lineage/elvgv-env.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/erv-lineage/elvgv-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	reroot-phylogeny \
+      --inputFile trees/erv-lineage/elvgv-env.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/erv-lineage/elvgv-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -78,8 +78,8 @@
     export figtree-annotation AL_ELVgv -w "fLocNotes.featureLoc.feature.name = 'pol'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvgv-pol.figtree-annotations.tsv
 
-    #export figtree-annotation AL_ELVgv -w "fLocNotes.featureLoc.feature.name = 'env'  \
-    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvgv-env.figtree-annotations.tsv
+    export figtree-annotation AL_ELVgv -w "fLocNotes.featureLoc.feature.name = 'env'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvgv-env.figtree-annotations.tsv
 
 
   exit
