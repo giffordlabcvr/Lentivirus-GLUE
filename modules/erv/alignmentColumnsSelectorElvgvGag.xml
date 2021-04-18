@@ -11,8 +11,8 @@
     
     <nucleotideRegionSelector>
         <featureName>gag</featureName>
-        <startNt>559</startNt>
-        <endNt>2028</endNt>
+        <startNt>470</startNt>
+        <endNt>1964</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

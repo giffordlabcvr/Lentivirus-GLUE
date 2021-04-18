@@ -143,12 +143,27 @@
   
 	add feature-location gag
 	feature-location gag
-	  add segment 559 1320
+	  add segment 557 1966
 	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 1898 5260
+	  add segment 1783 5172
+	  exit
+  
+	add feature-location vif
+	feature-location vif
+	  add segment 5162 5980
+	  exit
+
+	add feature-location tat
+	feature-location tat
+	  add segment 5998 6309
+	  exit
+
+	add feature-location env
+	feature-location env
+	  add segment 6425 9277
 	  exit
 
 	add feature-location 3LTR
