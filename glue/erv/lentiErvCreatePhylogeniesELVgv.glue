@@ -46,22 +46,22 @@
 	reroot-phylogeny \
       --inputFile trees/erv-lineage/elvgv-ltr.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/erv-lineage/elvgv-ltr.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/elvgv-ltr.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/erv-lineage/elvgv-gag.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/erv-lineage/elvgv-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/elvgv-gag.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/erv-lineage/elvgv-pol.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/erv-lineage/elvgv-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/elvgv-pol.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/erv-lineage/elvgv-env.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/erv-lineage/elvgv-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/elvgv-env.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 

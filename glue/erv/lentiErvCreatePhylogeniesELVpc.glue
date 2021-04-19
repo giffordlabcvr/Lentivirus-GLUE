@@ -40,17 +40,17 @@
 	reroot-phylogeny \
       --inputFile trees/erv-lineage/elvpc-ltr.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/erv-lineage/elvpc-ltr.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/elvpc-ltr.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/erv-lineage/elvpc-gag.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/erv-lineage/elvpc-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/elvpc-gag.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	#reroot-phylogeny \
     #  --inputFile trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS \
     #  --midpoint \
-    #  --outputFile trees/erv-lineage/elvpc-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+    #  --outputFile trees/erv-lineage/elvpc-pol.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
