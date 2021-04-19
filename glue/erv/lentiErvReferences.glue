@@ -194,7 +194,7 @@
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2368 5056
+	  add segment 2368 5055
 	  exit
 
  
