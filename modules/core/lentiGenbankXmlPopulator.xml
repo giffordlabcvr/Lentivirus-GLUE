@@ -15,7 +15,7 @@
 	</gbReference>
 	
 	<gbDivision>
-		<propertyPopulator property="lab_construct">
+		<propertyPopulator property="isolate_data.lab_construct">
 			<matchPattern>PAT</matchPattern>
 			<outputTemplate>true</outputTemplate>
 		</propertyPopulator>
@@ -113,7 +113,7 @@
 		</gbQualifier>
 				
 		<gbQualifier name="genotype">
-			<propertyPopulator property="clade">
+			<propertyPopulator property="subtype">
 				<matchPattern>([A-E].*)</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</propertyPopulator>

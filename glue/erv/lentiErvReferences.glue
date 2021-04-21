@@ -179,7 +179,7 @@
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	5054
+	  add segment 1	4784
 	  exit
   
 	add feature-location 5LTR
@@ -194,7 +194,7 @@
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2366 5054
+	  add segment 2366 4783
 	  exit
 
  

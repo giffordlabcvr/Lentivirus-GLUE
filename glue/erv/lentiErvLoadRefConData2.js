@@ -11,6 +11,8 @@ _.each(loadResult, function(ervObj) {
 	
 		glue.log("INFO", "Entering locus data for ERV reference:", ervObj.sequenceID);
 		glue.command(["set", "field", "reftype", ervObj.reftype]);
+		glue.command(["set", "field", "host_group_name", ervObj.host_group_name]);
+		glue.command(["set", "field", "host_group_taxlevel", ervObj.host_group_taxlevel]);
 
 	});
 
@@ -21,8 +23,6 @@ _.each(loadResult, function(ervObj) {
 		glue.command(["set", "field", "name", ervObj.name]);
 		glue.command(["set", "field", "full_name", ervObj.full_name]);
 		glue.command(["set", "field", "subgenus", ervObj.subgenus]);
-		glue.command(["set", "field", "host_group_name", ervObj.host_group_name]);
-		glue.command(["set", "field", "host_group_taxlevel", ervObj.host_group_taxlevel]);
 
 
 	});
