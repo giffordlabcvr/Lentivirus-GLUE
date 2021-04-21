@@ -18,7 +18,7 @@ _.each(loadResult, function(ervObj) {
 
 	glue.inMode("sequence/fasta-digs-erv/"+ervObj.sequenceID, function() {
 	
-		glue.command(["set", "field", "name", ervObj.sequenceID]);
+		glue.command(["set", "field", "name", ervObj.name]);
 		glue.command(["set", "field", "full_name", ervObj.sequenceID]);
 		glue.command(["set", "field", "species", ervObj.organism]);
 

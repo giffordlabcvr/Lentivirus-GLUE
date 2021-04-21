@@ -20,30 +20,31 @@
 	add member -w "source.name = 'fasta-refseqs-erv'"
 
 	extract child AL_RELIK      --refName REF_RELIK
-	demote member AL_RELIK      --whereClause "sequence.species = 'Oryctolagus_cuniculus'"
-	demote member AL_RELIK      --whereClause "sequence.species = 'Lepus_timidus'"
-	demote member AL_RELIK      --whereClause "sequence.species = 'Lepus_americanus'"
+	demote member AL_RELIK      --whereClause "sequence.species like '%Oryctolagus%'"
+	demote member AL_RELIK      --whereClause "sequence.species like '%Lepus%'"
+	
+	extract child AL_PSIV1       --refName REF_pSIV1
+	demote member AL_PSIV1       --whereClause "sequence.species like '%Microcebus%'"
 
-	extract child AL_PSIV       --refName REF_pSIV
-	demote member AL_PSIV       --whereClause "sequence.species like '%Microcebus%'"
-	#demote member AL_PSIV       --whereClause "sequence.species like '%Mirza%'"
+	#extract child AL_PSIV2       --refName REF_pSIV2
+	#demote member AL_PSIV2       --whereClause "sequence.species like '%Mirza%'"
+	#demote member AL_PSIV2       --whereClause "sequence.species like '%Cheirogaleus%'"
 
 	extract child AL_MELV       --refName REF_MELV
-	demote member AL_MELV       --whereClause "sequence.species = 'Neovison_vison'"
-	demote member AL_MELV       --whereClause "sequence.species = 'Mustela_putorius_furo'"
-	demote member AL_MELV       --whereClause "sequence.species = 'Mustela_erminea'"
+	demote member AL_MELV       --whereClause "sequence.species like '%Neovison%'"
+	demote member AL_MELV       --whereClause "sequence.species like '%Mustela%'"
 
 	extract child AL_ELVgv      --refName REF_ELVgv
-	demote member AL_ELVgv      --whereClause "sequence.species = 'Galeopterus_variegatus'"
+	demote member AL_ELVgv      --whereClause "sequence.species like '%Galeopterus%'"
 
 	extract child AL_ELVpc      --refName REF_ELVpc
-	demote member AL_ELVpc      --whereClause "sequence.species = 'Pedetes_capensis'"
+	demote member AL_ELVpc      --whereClause "sequence.species like '%Pedetes%'"
   
 	exit
 
   #~# Compute alignments
 
-  compute alignment AL_PSIV     lentiErvCompoundAlignerPsiv
+  compute alignment AL_PSIV1    lentiErvCompoundAlignerPsiv
   compute alignment AL_RELIK    lentiErvCompoundAlignerRelik
   compute alignment AL_MELV     lentiErvCompoundAlignerMelv
   compute alignment AL_ELVgv    lentiErvCompoundAlignerElvGv

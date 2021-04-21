@@ -36,8 +36,8 @@
     
 	exit 
 
-  create reference REF_pSIV fasta-refseqs-erv pSIVgml-con
-  reference REF_pSIV
+  create reference REF_pSIV1 fasta-refseqs-erv pSIVgml-con
+  reference REF_pSIV1
 
 	add feature-location whole_genome
 	feature-location whole_genome

@@ -1,6 +1,6 @@
 sequenceID	full_name	name	subgenus	reftype	host_group_name	host_group_taxlevel
-ELVgv-con	ELVgv	ELVgv	Dermoptera	consensus	Dermoptera	order
-MELVmpf-con	MELVmpf	MELVmpf	Carnivore	consensus	Mustelidae	order
-pSIVgml-con	pSIVgml	pSIVgml	Carnivore	consensus	Strepsirrhini	suborder
-RELIK-con	RELIK	RELIK	Carnivore	consensus	Leporidae	family
-ELVpc-con	ELVpc-con	ELVpc-con	Rodent	consensus	Pedetes capensis	species
+ELVgv-con	Dermompteran endogenous lentivirus	ELVgv	Dermoptera	consensus	Dermoptera	order
+MELVmpf-con	Mustelid endogenous nlentvirus	MELVmpf	Carnivore	consensus	Mustelidae	order
+pSIVgml-con	Prosimian lentivirus 1	PSIV1	Carnivore	consensus	Strepsirrhini	suborder
+RELIK-con	Rabbit endogenous lentivirus type K	RELIK	Carnivore	consensus	Leporidae	family
+ELVpc-con	Springhare endogenous lentivirus	ELVpc	Rodent	consensus	Pedetes capensis	species
