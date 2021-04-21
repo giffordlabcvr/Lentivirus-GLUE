@@ -1,4 +1,4 @@
-var refconDataPath = "tabular/eve/parvovirinae/erv-refseqs-side-data";
+var refconDataPath = "tabular/erv/erv-refseqs-side-data.tsv";
 var source_name = 'ncbi-curated-erv';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
@@ -14,33 +14,34 @@ glue.inMode("module/lentiTabularUtility", function() {
 	// glue.log("INFO", "load result was:", loadResult);
 });
 
-_.each(loadResult, function(eveObj) {
+_.each(loadResult, function(ervObj) {
 
-	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
+	glue.inMode("custom-table-row/locus_data/"+ervObj.sequenceID, function() {
 	
-		glue.log("INFO", "Entering locus data for sequence:", eveObj.sequenceID);
+		glue.log("INFO", "Entering locus data for sequence:", ervObj.sequenceID);
 
-		//glue.command(["set", "field", "locus_name", eveObj.locus_name]);
-		//glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
-		//glue.command(["set", "field", "host_sci_name", eveObj.host_species]);
+		//glue.command(["set", "field", "locus_name", ervObj.locus_name]);
+		//glue.command(["set", "field", "locus_numeric_id", ervObj.locus_numeric_id]);
+		//glue.command(["set", "field", "host_sci_name", ervObj.host_species]);
 
 	});
 
 
-	if (eveObj.empty_site != 'yes') { // Skip empty sites
+	if (ervObj.empty_site != 'yes') { // Skip empty sites
 	
 		// Does an alignment exist for this locus ID
-		glue.log("INFO", "Getting taxonomic data for sequence:", eveObj.sequenceID);
+		glue.log("INFO", "Getting taxonomic data for sequence:", ervObj.sequenceID);
 
 		// Get the taxonomy 
-		var ervRefConObj = ervRefseqResultMap[eveObj.locus_numeric_id];
-		//glue.log("INFO", "LOADED REFCON INFO ", ervRefConObj);
+		var ervRefConObj = ervRefseqResultMap[ervObj.locus_numeric_id];
+		glue.log("INFO", "LOADED REFCON INFO ", ervRefConObj);
 	
 
-		glue.inMode("sequence/"+source_name+"/"+eveObj.sequenceID, function() {
+		glue.inMode("sequence/"+source_name+"/"+ervObj.sequenceID, function() {
 
-			glue.command(["set", "field", "name", eveObj.sequenceID]);
-			glue.command(["set", "field", "full_name", eveObj.name]);
+			glue.command(["set", "field", "name", ervObj.name]);
+			glue.command(["set", "field", "full_name", ervObj.name]);
+			glue.command(["set", "field", "species", ervObj.species]);
 
 		});
 				
@@ -60,11 +61,11 @@ function get_refcon_data(resultMap, refconDataPath) {
 	  // glue.log("INFO", "load result was:", loadResult);
   });
 
-  _.each(loadResult, function(eveObj) {
+  _.each(loadResult, function(ervObj) {
 
-	  var locus_numeric_id = eveObj.locus_numeric_id;
-	  //glue.log("INFO", "Setting locus data for EVE reference:", eveObj.sequenceID);
-	  resultMap[locus_numeric_id] = eveObj;
+	  var locus_numeric_id = ervObj.locus_numeric_id;
+	  //glue.log("INFO", "Setting locus data for EVE reference:", ervObj.sequenceID);
+	  resultMap[locus_numeric_id] = ervObj;
 	
   });
   
