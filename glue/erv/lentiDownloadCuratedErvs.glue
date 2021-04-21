@@ -1,6 +1,6 @@
 delete module lentiNcbiImporterGenbankErvs
 
-create module -f modules/core/lentiNcbiImporterGenbankErvs.xml lentiNcbiImporterGenbankErvs
+create module -f modules/erv/lentiNcbiImporterGenbankErvs.xml lentiNcbiImporterGenbankErvs
 
 # Download NCBI sequences 
 module lentiNcbiImporterGenbankErvs import

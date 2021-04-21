@@ -54,6 +54,19 @@
 	<primaryAccession>FJ493033</primaryAccession>
 	<primaryAccession>FJ493034</primaryAccession>
 
+	<!-- Life History of the Oldest Lentivirus: Characterization of ELVgv Integrations in
+	the Dermopteran Genome. -->
+
+	<primaryAccession>KX022581</primaryAccession>
+	<primaryAccession>KX022582</primaryAccession>
+	<primaryAccession>KX022583</primaryAccession>
+	<primaryAccession>KX022584</primaryAccession>
+	<primaryAccession>KX022585</primaryAccession>
+	<primaryAccession>KX022586</primaryAccession>
+	<primaryAccession>KX022587</primaryAccession>
+	<primaryAccession>KX022588</primaryAccession>
+	<primaryAccession>KX022589</primaryAccession>
+	
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
