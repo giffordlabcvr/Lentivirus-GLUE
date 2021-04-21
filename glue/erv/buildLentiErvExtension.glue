@@ -5,8 +5,7 @@ schema-project lentivirus
 project lentivirus
 
   # Import NCBI reference sequences 
-  import source sources/fasta-digs-erv/
-  import source sources/fasta-refseqs-erv/
+  run file glue/erv/lentiImportSources.glue
 
   # Load side data
   run file glue/erv/lentiErvLoadData.glue
@@ -27,11 +26,7 @@ project lentivirus
   run file glue/erv/lentiErvCreatePhylogeniesRoot.glue
 
   # Create phylogenies for ERV lineages
-  #run file glue/erv/lentiErvCreatePhylogeniesMelv.glue
-  #run file glue/erv/lentiErvCreatePhylogeniesRelik.glue
-  run file glue/erv/lentiErvCreatePhylogeniesPsiv.glue
-  run file glue/erv/lentiErvCreatePhylogeniesELVgv.glue
-  run file glue/erv/lentiErvCreatePhylogeniesELVpc.glue
+  #run file glue/erv/lentiErvCreatePhylogeniesLineage.glue
 
 
   # Validate

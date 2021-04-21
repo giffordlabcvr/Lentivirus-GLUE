@@ -1,4 +1,7 @@
 
+  # Populate fields using GenBank file data
+  module lentiGenbankXmlPopulator populate
+
   run script glue/erv/lentiErvLoadRefConData1.js
   run script glue/erv/lentiErvLoadRefConData2.js
 
