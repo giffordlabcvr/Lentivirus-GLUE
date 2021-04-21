@@ -18,7 +18,8 @@
 	# Add all ERV members
 	add member -w "source.name = 'fasta-digs-erv'"
 	add member -w "source.name = 'fasta-refseqs-erv'"
-
+	add member -w "source.name = 'ncbi-curated-erv'"
+	
 	extract child AL_RELIK      --refName REF_RELIK
 	demote member AL_RELIK      --whereClause "sequence.species like '%Oryctolagus%'"
 	demote member AL_RELIK      --whereClause "sequence.species like '%Lepus%'"
