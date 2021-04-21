@@ -9,4 +9,7 @@
 
   run script glue/erv/lentiErvLoadLocusData1.js
   run script glue/erv/lentiErvLoadLocusData2.js
+  
+  run script glue/erv/loadGenbankErvData1.js
+  run script glue/erv/loadGenbankErvData2.js
 
