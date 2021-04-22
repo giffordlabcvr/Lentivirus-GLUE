@@ -27,9 +27,9 @@
 	extract child AL_PSIV1       --refName REF_pSIV1
 	demote member AL_PSIV1       --whereClause "sequence.species like '%Microcebus%'"
 
-	#extract child AL_PSIV2       --refName REF_pSIV2
-	#demote member AL_PSIV2       --whereClause "sequence.species like '%Mirza%'"
-	#demote member AL_PSIV2       --whereClause "sequence.species like '%Cheirogaleus%'"
+	extract child AL_PSIV2       --refName REF_pSIV1
+	demote member AL_PSIV2       --whereClause "sequence.species like '%Mirza%'"
+	demote member AL_PSIV2       --whereClause "sequence.species like '%Cheirogaleus%'"
 
 	extract child AL_MELV       --refName REF_MELV
 	demote member AL_MELV       --whereClause "sequence.species like '%Neovison%'"
@@ -46,6 +46,7 @@
   #~# Compute alignments
 
   compute alignment AL_PSIV1    lentiErvCompoundAlignerPsiv
+  compute alignment AL_PSIV2    lentiErvCompoundAlignerPsiv
   compute alignment AL_RELIK    lentiErvCompoundAlignerRelik
   compute alignment AL_MELV     lentiErvCompoundAlignerMelv
   compute alignment AL_ELVgv    lentiErvCompoundAlignerElvGv
