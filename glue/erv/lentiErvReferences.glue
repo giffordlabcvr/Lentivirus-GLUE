@@ -37,7 +37,7 @@
 	exit 
 
 
-  create reference REF_pSIV1 fasta-refseqs-erv pSIVgml-con
+  create reference REF_pSIV1 fasta-refseqs-erv PSIV1-con
   reference REF_pSIV1
 
 	add feature-location whole_genome
@@ -88,7 +88,7 @@
 	exit 
 
 
-  create reference REF_MELV fasta-refseqs-erv MELVmpf-con
+  create reference REF_MELV fasta-refseqs-erv MELV-con
   reference REF_MELV
 
 	add feature-location whole_genome
@@ -129,7 +129,7 @@
 	exit 
 
 
-  create reference REF_ELVgv fasta-refseqs-erv ELVgv-con
+  create reference REF_ELVgv fasta-refseqs-erv DELV-con
   reference REF_ELVgv
 
 	add feature-location whole_genome
@@ -175,7 +175,7 @@
 	exit 
 
 
-  create reference REF_ELVpc fasta-refseqs-erv ELVpc-con
+  create reference REF_ELVpc fasta-refseqs-erv SpELV-con
   reference REF_ELVpc
 
 	add feature-location whole_genome
