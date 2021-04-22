@@ -21,19 +21,19 @@
   module raxmlPhylogenyGenerator
 
 
-    generate nucleotide phylogeny AL_PSIV -s alignmentColumnsSelectorPsivLtr5 \
+    generate nucleotide phylogeny AL_PSIV1 -s alignmentColumnsSelectorPsivLtr5 \
        -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
        -o trees/erv-lineage/psiv-ltr.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_PSIV -s alignmentColumnsSelectorPsivGag \
+    generate nucleotide phylogeny AL_PSIV1 -s alignmentColumnsSelectorPsivGag \
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 30" \
       -o trees/erv-lineage/psiv-gag.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_PSIV -s alignmentColumnsSelectorPsivPol \
+    generate nucleotide phylogeny AL_PSIV1 -s alignmentColumnsSelectorPsivPol \
       -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 30" \
       -o trees/erv-lineage/psiv-pol.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_PSIV -s alignmentColumnsSelectorPsivEnv \
+    #generate nucleotide phylogeny AL_PSIV1 -s alignmentColumnsSelectorPsivEnv \
     #  -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 30" \
     #  -o trees/erv-lineage/psiv-env.tre NEWICK_BOOTSTRAPS
 
@@ -72,16 +72,16 @@
   module lentiErvFigTreeAnnotationExporter 
 
 
-    export figtree-annotation AL_PSIV -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
+    export figtree-annotation AL_PSIV1 -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/psiv-ltr.figtree-annotations.tsv
 
-    export figtree-annotation AL_PSIV -w "fLocNotes.featureLoc.feature.name = 'gag'  \
+    export figtree-annotation AL_PSIV1 -w "fLocNotes.featureLoc.feature.name = 'gag'  \
       and fLocNotes.ref_nt_coverage_pct >= 30" -f trees/erv-lineage/psiv-gag.figtree-annotations.tsv
 
-    export figtree-annotation AL_PSIV -w "fLocNotes.featureLoc.feature.name = 'pol'  \
+    export figtree-annotation AL_PSIV1 -w "fLocNotes.featureLoc.feature.name = 'pol'  \
       and fLocNotes.ref_nt_coverage_pct >= 30" -f trees/erv-lineage/psiv-pol.figtree-annotations.tsv
 
-    #export figtree-annotation AL_PSIV -w "fLocNotes.featureLoc.feature.name = 'env'  \
+    #export figtree-annotation AL_PSIV1 -w "fLocNotes.featureLoc.feature.name = 'env'  \
     #  and fLocNotes.ref_nt_coverage_pct >= 30" -f trees/erv-lineage/psiv-pol.figtree-annotations.tsv
 
 

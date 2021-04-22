@@ -1,11 +1,79 @@
 taxon	sequenceID	host	name	subgenus	scaffold	orientation
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_erminea-provirus	ERV-MELV.1-Mustela_erminea-provirus	Mustela_erminea	ERV-MELV.1-Mustela_erminea-provirus	-	WNLZ01000603.1	-
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Neovison_vison-provirus	ERV-MELV.1-Neovison_vison-provirus	Neovison_vison	ERV-MELV.1-Neovison_vison-provirus	-	FNWR01000040.1	+
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_erminea-provirus	ERV-MELV.2-Mustela_erminea-provirus	Mustela_erminea	ERV-MELV.2-Mustela_erminea-provirus	-	WNLZ01000221.1	-
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_putorius_furo-provirus	ERV-MELV.2-Mustela_putorius_furo-provirus	Mustela_putorius_furo	ERV-MELV.2-Mustela_putorius_furo-provirus	-	GL897225	-
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Neovison_vison-provirus	ERV-MELV.2-Neovison_vison-provirus	Neovison_vison	ERV-MELV.2-Neovison_vison-provirus	-	FNWR01001227.1	+
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.3-Neovison_vison-provirus	ERV-MELV.3-Neovison_vison-provirus	Neovison_vison	ERV-MELV.3-Neovison_vison-provirus	-	FNWR01000502.1	-
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Neovison_vison-provirus	ERV-MELV.4-Neovison_vison-provirus	Neovison_vison	ERV-MELV.4-Neovison_vison-provirus	-	FNWR01000254.1	+
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_erminea-provirus	ERV-MELV.5-Mustela_erminea-provirus	Mustela_erminea	ERV-MELV.5-Mustela_erminea-provirus	-	WNLZ01002198.1	+
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_putorius_furo-provirus	ERV-MELV.5-Mustela_putorius_furo-provirus	Mustela_putorius_furo	ERV-MELV.5-Mustela_putorius_furo-provirus	-	AEYP01111284	+
-alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Mustela_putorius_furo-provirus	ERV-MELV.6-Mustela_putorius_furo-provirus	Mustela_putorius_furo	ERV-MELV.6-Mustela_putorius_furo-provirus	-	AEYP01113944	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_erminea-provirus	ERV-MELV.1-Mustela_erminea-provirus	Mustela_erminea	MELV	-	WNLZ01000603.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Neovison_vison-provirus	ERV-MELV.1-Neovison_vison-provirus	Neovison_vison	MELV	-	FNWR01000040.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_erminea-provirus	ERV-MELV.2-Mustela_erminea-provirus	Mustela_erminea	MELV	-	WNLZ01000221.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_putorius_furo-provirus	ERV-MELV.2-Mustela_putorius_furo-provirus	Mustela_putorius_furo	MELV	-	GL897225	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Neovison_vison-provirus	ERV-MELV.2-Neovison_vison-provirus	Neovison_vison	MELV	-	FNWR01001227.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.3-Neovison_vison-provirus	ERV-MELV.3-Neovison_vison-provirus	Neovison_vison	MELV	-	FNWR01000502.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Mustela_putorius_furo-provirus	ERV-MELV.4-Mustela_putorius_furo-provirus	Mustela_putorius_furo	MELV	-	AEYP01111284	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Neovison_vison-provirus	ERV-MELV.4-Neovison_vison-provirus	Neovison_vison	MELV	-	FNWR01000254.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_erminea-provirus	ERV-MELV.5-Mustela_erminea-provirus	Mustela_erminea	MELV	-	WNLZ01002198.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_putorius_furo-provirus	ERV-MELV.5-Mustela_putorius_furo-provirus	Mustela_putorius_furo	MELV	-	GL896920	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Mustela_putorius_furo-provirus	ERV-MELV.6-Mustela_putorius_furo-provirus	Mustela_putorius_furo	MELV	-	AEYP01113944	+
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700134	JQ700134	Mustela erminea	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700135	JQ700135	Mustela erminea	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700136	JQ700136	Mustela erminea	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700137	JQ700137	Mustela erminea	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700138	JQ700138	Mustela erminea	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700139	JQ700139	Mustela erminea	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700140	JQ700140	Mustela erminea	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700141	JQ700141	Mustela erminea	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700142	JQ700142	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700143	JQ700143	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700144	JQ700144	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700145	JQ700145	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700146	JQ700146	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700147	JQ700147	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700148	JQ700148	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700149	JQ700149	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700150	JQ700150	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700151	JQ700151	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700152	JQ700152	Mustela eversmannii	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700153	JQ700153	Mustela frenata	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700154	JQ700154	Mustela frenata	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700155	JQ700155	Mustela frenata	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700156	JQ700156	Mustela frenata	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700157	JQ700157	Mustela frenata	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700158	JQ700158	Mustela frenata	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700159	JQ700159	Mustela frenata	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700160	JQ700160	Mustela frenata	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700161	JQ700161	Mustela frenata	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700162	JQ700162	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700163	JQ700163	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700164	JQ700164	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700165	JQ700165	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700166	JQ700166	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700167	JQ700167	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700168	JQ700168	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700169	JQ700169	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700170	JQ700170	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700171	JQ700171	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700172	JQ700172	Mustela nigripes	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700173	JQ700173	Mustela nivalis	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700174	JQ700174	Mustela nivalis	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700175	JQ700175	Mustela nivalis	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700176	JQ700176	Mustela nivalis	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700177	JQ700177	Mustela nivalis	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700178	JQ700178	Mustela nivalis	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700179	JQ700179	Mustela nivalis	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700180	JQ700180	Mustela nivalis	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700181	JQ700181	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700182	JQ700182	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700183	JQ700183	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700184	JQ700184	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700185	JQ700185	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700186	JQ700186	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700187	JQ700187	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700188	JQ700188	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700189	JQ700189	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700190	JQ700190	Mustela putorius	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700191	JQ700191	Neovison vison	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700192	JQ700192	Neovison vison	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700193	JQ700193	Neovison vison	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700194	JQ700194	Neovison vison	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700195	JQ700195	Neovison vison	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700196	JQ700196	Neovison vison	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700197	JQ700197	Neovison vison	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700198	JQ700198	Neovison vison	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700199	JQ700199	Neovison vison	MELV	-	-	-
+alignment/AL_MELV/member/ncbi-curated-erv/JQ700200	JQ700200	Neovison vison	MELV	-	-	-

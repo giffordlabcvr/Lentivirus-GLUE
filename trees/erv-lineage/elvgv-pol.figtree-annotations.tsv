@@ -1,7 +1,7 @@
 taxon	sequenceID	host	name	subgenus	scaffold	orientation
-alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.1-Galeopterus_variegatus-provirus	ERV-ELVgv.1-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ERV-ELVgv.1-Galeopterus_variegatus-provirus	-	KL152857.1	+
-alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.2-Galeopterus_variegatus-provirus	ERV-ELVgv.2-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ERV-ELVgv.2-Galeopterus_variegatus-provirus	-	KL143158.1	+
-alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.3-Galeopterus_variegatus-provirus	ERV-ELVgv.3-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ERV-ELVgv.3-Galeopterus_variegatus-provirus	-	KL148477.1	+
-alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.4-Galeopterus_variegatus-provirus	ERV-ELVgv.4-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ERV-ELVgv.4-Galeopterus_variegatus-provirus	-	KL144797.1	+
-alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.5-Galeopterus_variegatus-provirus	ERV-ELVgv.5-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ERV-ELVgv.5-Galeopterus_variegatus-provirus	-	KL153624.1	+
-alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.6-Galeopterus_variegatus-provirus	ERV-ELVgv.6-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ERV-ELVgv.6-Galeopterus_variegatus-provirus	-	KL150894.1	-
+alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.1-Galeopterus_variegatus-provirus	ERV-ELVgv.1-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ELVgv	-	KL152857.1	+
+alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.2-Galeopterus_variegatus-provirus	ERV-ELVgv.2-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ELVgv	-	KL143158.1	+
+alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.3-Galeopterus_variegatus-provirus	ERV-ELVgv.3-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ELVgv	-	KL148477.1	+
+alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.4-Galeopterus_variegatus-provirus	ERV-ELVgv.4-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ELVgv	-	KL144797.1	+
+alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.5-Galeopterus_variegatus-provirus	ERV-ELVgv.5-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ELVgv	-	KL153624.1	+
+alignment/AL_ELVgv/member/fasta-digs-erv/ERV-ELVgv.6-Galeopterus_variegatus-provirus	ERV-ELVgv.6-Galeopterus_variegatus-provirus	Galeopterus_variegatus	ELVgv	-	KL150894.1	-
