@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_ELVgv</relRefName>
+    <relRefName>REF_DELV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>gag</featureName>
+        <featureName>pol</featureName>
         <startCodon>1</startCodon>
-        <endCodon>470</endCodon>
+        <endCodon>1121</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>gag</featureName>
-        <startNt>557</startNt>
-        <endNt>1964</endNt>
+        <featureName>pol</featureName>
+        <startNt>1898</startNt>
+        <endNt>5258</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

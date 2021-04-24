@@ -2,14 +2,14 @@
   delete module lentiErvCompoundAlignerPsiv
   delete module lentiErvCompoundAlignerRelik
   delete module lentiErvCompoundAlignerMelv
-  delete module lentiErvCompoundAlignerElvgv
-  delete module lentiErvCompoundAlignerElvpc
+  delete module lentiErvCompoundAlignerDelv
+  delete module lentiErvCompoundAlignerSpELV
 
   create module -f modules/erv/lentiErvCompoundAlignerPsiv.xml
   create module -f modules/erv/lentiErvCompoundAlignerRelik.xml
   create module -f modules/erv/lentiErvCompoundAlignerMelv.xml
-  create module -f modules/erv/lentiErvCompoundAlignerElvgv.xml
-  create module -f modules/erv/lentiErvCompoundAlignerElvpc.xml
+  create module -f modules/erv/lentiErvCompoundAlignerDelv.xml
+  create module -f modules/erv/lentiErvCompoundAlignerSpELV.xml
 
 
   #~# Define constrained alignment tree
@@ -31,6 +31,11 @@
 	demote member AL_PSIV2      --whereClause "sequence.species like '%Mirza%'"
 	demote member AL_PSIV2      --whereClause "sequence.species like '%Cheirogaleus%'"
 
+	extract child AL_PSIV       --refName REF_pSIV2
+	demote member AL_PSIV       --whereClause "sequence.species like '%Mirza%'"
+	demote member AL_PSIV       --whereClause "sequence.species like '%Cheirogaleus%'"
+	demote member AL_PSIV       --whereClause "sequence.species like '%Microcebus%'"
+
 	extract child AL_MELV       --refName REF_MELV
 	demote member AL_MELV       --whereClause "sequence.species like '%Neovison%'"
 	demote member AL_MELV       --whereClause "sequence.species like '%Mustela%'"
@@ -51,8 +56,8 @@
   compute alignment AL_PSIV2    lentiErvCompoundAlignerPsiv
   compute alignment AL_RELIK    lentiErvCompoundAlignerRelik
   compute alignment AL_MELV     lentiErvCompoundAlignerMelv
-  compute alignment AL_DELV    lentiErvCompoundAlignerElvGv
-  compute alignment AL_SpELV    lentiErvCompoundAlignerElvPc
+  compute alignment AL_DELV     lentiErvCompoundAlignerDelv
+  compute alignment AL_SpELV    lentiErvCompoundAlignerSpELV
 
 
   #~# Derive constrained alignment segments from unconstrained alignments

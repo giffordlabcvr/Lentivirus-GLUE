@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_ELVgv</relRefName>
+    <relRefName>REF_SpELV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>env</featureName>
+        <featureName>pol</featureName>
         <startCodon>1</startCodon>
-        <endCodon>951</endCodon>
+        <endCodon>803</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>env</featureName>
-        <startNt>6425</startNt>
-        <endNt>9275</endNt>
+        <featureName>pol</featureName>
+        <startNt>2368</startNt>
+        <endNt>5053</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

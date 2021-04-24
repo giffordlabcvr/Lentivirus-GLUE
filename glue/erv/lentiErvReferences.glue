@@ -113,7 +113,7 @@
   
 	add feature-location vif
 	feature-location vif
-	  add segment 4965 5260
+	  add segment 4965 5258
 	  exit
 
 	add feature-location env
