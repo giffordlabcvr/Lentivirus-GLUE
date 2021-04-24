@@ -16,17 +16,17 @@
   
 	add feature-location gag
 	feature-location gag
-	  add segment 597	2030
+	  add segment 597 2030
 	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2336	5212
+	  add segment 2336 5212
 	  exit
 
 	add feature-location env
 	feature-location env
-	  add segment 5777	8386
+	  add segment 5777 8386
 	  exit
 
 	add feature-location 3LTR
@@ -37,32 +37,32 @@
 	exit 
 
 
-  create reference REF_pSIV1 fasta-refseqs-erv PSIV1-con
-  reference REF_pSIV1
+  create reference REF_PSIV1 fasta-refseqs-erv PSIV1-con
+  reference REF_PSIV1
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	7380
+	  add segment 1 7380
 	  exit
   
 	add feature-location 5LTR
 	feature-location 5LTR
-	  add segment 1	424
+	  add segment 1 424
 	  exit
 
 	add feature-location TAR
 	feature-location TAR
-	  add segment 280	396
+	  add segment 280 396
 	  exit
   
 	add feature-location gag
 	feature-location gag
-	  add segment 492	1544
+	  add segment 492 1544
 	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 1457	4708
+	  add segment 1457 4708
 	  exit
 
 	add feature-location vif
@@ -72,12 +72,12 @@
 
 	add feature-location env
 	feature-location env
-	  add segment 5279	6976
+	  add segment 5279 6976
 	  exit
 
 	add feature-location orfx
 	feature-location orfx
-	  add segment 7000	7272
+	  add segment 7000 7272
 	  exit
 
 	add feature-location 3LTR
@@ -86,6 +86,53 @@
 	  exit
     
 	exit 
+
+
+  create reference REF_PSIV2 fasta-refseqs-erv PSIV2-con
+  reference REF_PSIV2
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1	7531
+	  exit
+  
+  	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1	404
+	  exit
+
+	add feature-location gag
+	feature-location gag
+	  add segment 488 1792
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 1795 4955
+	  exit
+  
+	add feature-location vif
+	feature-location vif
+	  add segment 4965 5260
+	  exit
+
+	add feature-location env
+	feature-location env
+	  add segment 5580 6916
+	  exit
+
+	add feature-location orfx
+	feature-location orfx
+	  add segment 6918 7382
+	  exit
+
+	add feature-location 3LTR
+	feature-location 3LTR
+	  add segment 6990 7531
+	  exit
+    
+	exit 
+
 
 
   create reference REF_MELV fasta-refseqs-erv MELV-con
@@ -129,8 +176,8 @@
 	exit 
 
 
-  create reference REF_ELVgv fasta-refseqs-erv DELV-con
-  reference REF_ELVgv
+  create reference REF_DELV fasta-refseqs-erv DELV-con
+  reference REF_DELV
 
 	add feature-location whole_genome
 	feature-location whole_genome
@@ -175,8 +222,8 @@
 	exit 
 
 
-  create reference REF_ELVpc fasta-refseqs-erv SpELV-con
-  reference REF_ELVpc
+  create reference REF_SpELV fasta-refseqs-erv SpELV-con
+  reference REF_SpELV
 
 	add feature-location whole_genome
 	feature-location whole_genome

@@ -24,22 +24,24 @@
 	demote member AL_RELIK      --whereClause "sequence.species like '%Oryctolagus%'"
 	demote member AL_RELIK      --whereClause "sequence.species like '%Lepus%'"
 	
-	extract child AL_PSIV1       --refName REF_pSIV1
-	demote member AL_PSIV1       --whereClause "sequence.species like '%Microcebus%'"
+	extract child AL_PSIV1      --refName REF_pSIV1
+	demote member AL_PSIV1      --whereClause "sequence.species like '%Microcebus%'"
 
-	extract child AL_PSIV2       --refName REF_pSIV1
-	demote member AL_PSIV2       --whereClause "sequence.species like '%Mirza%'"
-	demote member AL_PSIV2       --whereClause "sequence.species like '%Cheirogaleus%'"
+	extract child AL_PSIV2      --refName REF_pSIV2
+	demote member AL_PSIV2      --whereClause "sequence.species like '%Mirza%'"
+	demote member AL_PSIV2      --whereClause "sequence.species like '%Cheirogaleus%'"
 
 	extract child AL_MELV       --refName REF_MELV
 	demote member AL_MELV       --whereClause "sequence.species like '%Neovison%'"
 	demote member AL_MELV       --whereClause "sequence.species like '%Mustela%'"
+	demote member AL_MELV       --whereClause "sequence.species like '%Lontra%'"
 
-	extract child AL_ELVgv      --refName REF_ELVgv
-	demote member AL_ELVgv      --whereClause "sequence.species like '%Galeopterus%'"
+	extract child AL_DELV       --refName REF_DELV
+	demote member AL_DELV       --whereClause "sequence.species like '%Galeopterus%'"
+	demote member AL_DELV       --whereClause "sequence.species like '%Cynocephalus%'"
 
-	extract child AL_ELVpc      --refName REF_ELVpc
-	demote member AL_ELVpc      --whereClause "sequence.species like '%Pedetes%'"
+	extract child AL_SpELV      --refName REF_SpELV
+	demote member AL_SpELV      --whereClause "sequence.species like '%Pedetes%'"
   
 	exit
 
@@ -49,8 +51,8 @@
   compute alignment AL_PSIV2    lentiErvCompoundAlignerPsiv
   compute alignment AL_RELIK    lentiErvCompoundAlignerRelik
   compute alignment AL_MELV     lentiErvCompoundAlignerMelv
-  compute alignment AL_ELVgv    lentiErvCompoundAlignerElvGv
-  compute alignment AL_ELVpc    lentiErvCompoundAlignerElvPc
+  compute alignment AL_DELV    lentiErvCompoundAlignerElvGv
+  compute alignment AL_SpELV    lentiErvCompoundAlignerElvPc
 
 
   #~# Derive constrained alignment segments from unconstrained alignments
