@@ -108,7 +108,7 @@
 
 	add feature-location pol
 	feature-location pol
-	  add segment 1795 4955
+	  add segment 1795 4953
 	  exit
   
 	add feature-location vif
@@ -118,7 +118,7 @@
 
 	add feature-location env
 	feature-location env
-	  add segment 5580 6916
+	  add segment 5580 6914
 	  exit
 
 	add feature-location orfx

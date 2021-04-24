@@ -6,8 +6,8 @@
     record feature-presence AL_RELIK         --recursive -f whole_genome --descendentFeatures
     record feature-presence AL_PSIV1         --recursive -f whole_genome --descendentFeatures
     record feature-presence AL_MELV          --recursive -f whole_genome --descendentFeatures
-    record feature-presence AL_ELVgv         --recursive -f whole_genome --descendentFeatures
-    record feature-presence AL_ELVpc         --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_DELV          --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_SpELV         --recursive -f whole_genome --descendentFeatures
 
    exit
 
