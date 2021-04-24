@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_pSIV</relRefName>
+    <relRefName>REF_pSIV2</relRefName>
     
     <aminoAcidRegionSelector>
         <featureName>env</featureName>
         <startCodon>1</startCodon>
-        <endCodon>566</endCodon>
+        <endCodon>445</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>env</featureName>
-        <startNt>5279</startNt>
-        <endNt>6974</endNt>
+        <startNt>5580</startNt>
+        <endNt>6912</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

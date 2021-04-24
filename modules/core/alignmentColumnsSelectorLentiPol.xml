@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <alignmentColumnsSelector>
 
-    <relRefName>REF_pSIV2</relRefName>
+    <relRefName>REF_HIV-1M</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>gag</featureName>
+        <featureName>pol</featureName>
         <startCodon>1</startCodon>
-        <endCodon>435</endCodon>
+        <endCodon>849</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>gag</featureName>
-        <startNt>488</startNt>
-        <endNt>1790</endNt>
+        <featureName>pol</featureName>
+        <startNt>2096</startNt>
+        <endNt>4642</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

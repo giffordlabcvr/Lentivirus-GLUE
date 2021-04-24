@@ -8,7 +8,8 @@
   delete module alignmentColumnsSelectorLentiGag
   delete module alignmentColumnsSelectorLentiRt
   delete module alignmentColumnsSelectorLentiIntegrase
-  
+  delete module alignmentColumnsSelectorLentiPol
+    
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
@@ -16,6 +17,7 @@
   create module -f modules/core/alignmentColumnsSelectorLentiCapsid.xml
   create module -f modules/core/alignmentColumnsSelectorLentiMatrix.xml
   create module -f modules/core/alignmentColumnsSelectorLentiGag.xml
+  create module -f modules/core/alignmentColumnsSelectorLentiPol.xml
 
   create module -f modules/core/alignmentColumnsSelectorLentiNucleocapsid.xml
   create module -f modules/core/alignmentColumnsSelectorLentiRt.xml  
@@ -48,6 +50,10 @@
     generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiIntegrase \
       -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/erv-root/lenti-erv-in.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiPol \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/erv-root/lenti-erv-pol.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -85,6 +91,10 @@
       --midpoint \
       --outputFile trees/erv-root/lenti-erv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
+	reroot-phylogeny \
+      --inputFile trees/erv-root/lenti-erv-pol.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/erv-root/lenti-erv-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
     exit
 
 
@@ -108,6 +118,9 @@
 
     export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'IN'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/lenti-erv-in.figtree-annotations.tsv
+
+    export figtree-annotation AL_ROOT -w "fLocNotes.featureLoc.feature.name = 'pol'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-root/lenti-erv-pol.figtree-annotations.tsv
 
   exit
 

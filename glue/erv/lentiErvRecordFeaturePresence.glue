@@ -4,7 +4,7 @@
   module lentiFeaturePresenceRecorder 
     record feature-presence AL_ROOT          --recursive -f whole_genome --descendentFeatures
     record feature-presence AL_RELIK         --recursive -f whole_genome --descendentFeatures
-    record feature-presence AL_PSIV1         --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_PSIV          --recursive -f whole_genome --descendentFeatures
     record feature-presence AL_MELV          --recursive -f whole_genome --descendentFeatures
     record feature-presence AL_DELV          --recursive -f whole_genome --descendentFeatures
     record feature-presence AL_SpELV         --recursive -f whole_genome --descendentFeatures

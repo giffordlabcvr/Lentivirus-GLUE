@@ -3,31 +3,31 @@
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
   delete module lentiErvFigTreeAnnotationExporter 
-  delete module alignmentColumnsSelectorElvpcGag
-  delete module alignmentColumnsSelectorElvpcPol
-  delete module alignmentColumnsSelectorElvpcLtr5
+  delete module alignmentColumnsSelectorSpelvGag
+  delete module alignmentColumnsSelectorSpelvPol
+  delete module alignmentColumnsSelectorSpelvLtr5
 
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
-  create module -f modules/erv/alignmentColumnsSelectorElvpcLtr5.xml
-  create module -f modules/erv/alignmentColumnsSelectorElvpcGag.xml
-  create module -f modules/erv/alignmentColumnsSelectorElvpcPol.xml
+  create module -f modules/erv/alignmentColumnsSelectorSpelvLtr5.xml
+  create module -f modules/erv/alignmentColumnsSelectorSpelvGag.xml
+  create module -f modules/erv/alignmentColumnsSelectorSpelvPol.xml
 
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_ELVpc -s alignmentColumnsSelectorElvpcLtr5 \
+    generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvLtr5 \
        -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
        -o trees/erv-lineage/elvpc-ltr.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ELVpc -s alignmentColumnsSelectorElvpcGag \
+    generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvGag \
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/erv-lineage/elvpc-gag.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_ELVpc -s alignmentColumnsSelectorElvpcPol \
+    #generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvPol \
     #  -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
     #  -o trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS
 
@@ -58,13 +58,13 @@
   # Export annotations
   module lentiErvFigTreeAnnotationExporter 
 
-    export figtree-annotation AL_ELVpc -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
+    export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-ltr.figtree-annotations.tsv
 
-    export figtree-annotation AL_ELVpc -w "fLocNotes.featureLoc.feature.name = 'gag'  \
+    export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = 'gag'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-gag.figtree-annotations.tsv
 
-    #export figtree-annotation AL_ELVpc -w "fLocNotes.featureLoc.feature.name = 'pol'  \
+    #export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = 'pol'  \
     #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-pol.figtree-annotations.tsv
 
 
