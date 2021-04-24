@@ -23,9 +23,9 @@
        -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
        -o trees/erv-lineage/elvpc-ltr.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvGag \
-      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/erv-lineage/elvpc-gag.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvGag \
+    #  -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    # -o trees/erv-lineage/elvpc-gag.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvPol \
     #  -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
@@ -42,10 +42,10 @@
       --midpoint \
       --outputFile trees/erv-lineage/elvpc-ltr.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/erv-lineage/elvpc-gag.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/erv-lineage/elvpc-gag.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+	#reroot-phylogeny \
+    #  --inputFile trees/erv-lineage/elvpc-gag.tre NEWICK_BOOTSTRAPS \
+    # --midpoint \
+    #  --outputFile trees/erv-lineage/elvpc-gag.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	#reroot-phylogeny \
     #  --inputFile trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS \
@@ -61,8 +61,8 @@
     export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-ltr.figtree-annotations.tsv
 
-    export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = 'gag'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-gag.figtree-annotations.tsv
+    #export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = 'gag'  \
+    # and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-gag.figtree-annotations.tsv
 
     #export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = 'pol'  \
     #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-pol.figtree-annotations.tsv

@@ -1,8 +1,8 @@
 taxon	sequenceID	host	name	subgenus	scaffold	orientation
-alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.1-Microcebus_griseorufus-provirus	ERV-PSIV1.1-Microcebus_griseorufus-provirus	Microcebus_griseorufus	PSIV1	-	VSMI01178616.1	+
-alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.1-Microcebus_murinus-provirus	ERV-PSIV1.1-Microcebus_murinus-provirus	Microcebus_murinus	PSIV1	-	scaffold_33011	+
-alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.1-Microcebus_tavaratra-provirus	ERV-PSIV1.1-Microcebus_tavaratra-provirus	Microcebus_tavaratra	PSIV1	-	VSME01228323.1	+
-alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.3-Microcebus_tavaratra-provirus	ERV-PSIV1.3-Microcebus_tavaratra-provirus	Microcebus_tavaratra	PSIV1	-	VSME01059698.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.1-Microcebus_griseorufus-provirus	ERV-PSIV1.1-Microcebus_griseorufus-provirus	Microcebus griseorufus	PSIV1	-	VSMI01178616.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.1-Microcebus_murinus-provirus	ERV-PSIV1.1-Microcebus_murinus-provirus	Microcebus murinus	PSIV1	-	scaffold_33011	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.1-Microcebus_tavaratra-provirus	ERV-PSIV1.1-Microcebus_tavaratra-provirus	Microcebus tavaratra	PSIV1	-	VSME01228323.1	+
+alignment/AL_PSIV/member/fasta-digs-erv/ERV-PSIV1.3-Microcebus_tavaratra-provirus	ERV-PSIV1.3-Microcebus_tavaratra-provirus	Microcebus tavaratra	PSIV1	-	VSME01059698.1	+
 alignment/AL_PSIV/member/ncbi-curated-erv/FJ707348	FJ707348	Cheirogaleus medius	PSIV2	-	-	-
 alignment/AL_PSIV/member/ncbi-curated-erv/FJ707349	FJ707349	Cheirogaleus medius	PSIV2	-	-	-
 alignment/AL_PSIV/member/fasta-refseqs-erv/PSIV1-con	PSIV1-con	Microcebus	PSIV1	Prosimian	-	-

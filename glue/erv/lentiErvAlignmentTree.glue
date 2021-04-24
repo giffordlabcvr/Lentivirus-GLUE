@@ -42,6 +42,7 @@
 	demote member AL_SpELV      --whereClause "sequence.species like '%Pedetes%'"
   
 	exit
+	
 
   #~# Compute alignments
 
@@ -57,3 +58,5 @@
   alignment AL_ROOT
 	derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
 	exit
+
+

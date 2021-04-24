@@ -1,0 +1,12 @@
+taxon	sequenceID	host	name	subgenus	scaffold	orientation
+alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.1-Galeopterus_variegatus-provirus	ERV-ELVgv.1-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL152857.1	+
+alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.2-Galeopterus_variegatus-provirus	ERV-ELVgv.2-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL143158.1	+
+alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.3-Galeopterus_variegatus-provirus	ERV-ELVgv.3-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL148477.1	+
+alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.4-Galeopterus_variegatus-provirus	ERV-ELVgv.4-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL144797.1	+
+alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.5-Galeopterus_variegatus-provirus	ERV-ELVgv.5-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL153624.1	+
+alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.8-Galeopterus_variegatus-provirus	ERV-ELVgv.8-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL144934.1	-
+alignment/AL_DELV/member/ncbi-curated-erv/KX022582	KX022582	Galeopterus variegatus	ELVgv	-	-	-
+alignment/AL_DELV/member/ncbi-curated-erv/KX022583	KX022583	Cynocephalus volans	ELVgv	-	-	-
+alignment/AL_DELV/member/ncbi-curated-erv/KX022584	KX022584	Cynocephalus volans	ELVgv	-	-	-
+alignment/AL_DELV/member/ncbi-curated-erv/KX022586	KX022586	Galeopterus variegatus	ELVgv	-	-	-
+alignment/AL_DELV/member/ncbi-curated-erv/KX022587	KX022587	Cynocephalus volans	ELVgv	-	-	-

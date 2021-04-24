@@ -1,17 +1,18 @@
 taxon	sequenceID	host	name	subgenus	scaffold	orientation
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.1-Pedetes_capensis-provirus	ERV-ELVpc.1-Pedetes_capensis-provirus	Pedetes_capensis	ERV-ELVpc.1-Pedetes_capensis-provirus	-	VMDO01011022.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.14-Pedetes_capensis-LTR	ERV-ELVpc.14-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.14-Pedetes_capensis-LTR	-	VMDO01006229.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.15-Pedetes_capensis-LTR	ERV-ELVpc.15-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.15-Pedetes_capensis-LTR	-	VMDO01001857.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.16-Pedetes_capensis-LTR	ERV-ELVpc.16-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.16-Pedetes_capensis-LTR	-	VMDO01001488.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.17-Pedetes_capensis-LTR	ERV-ELVpc.17-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.17-Pedetes_capensis-LTR	-	VMDO01000902.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.18-Pedetes_capensis-LTR	ERV-ELVpc.18-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.18-Pedetes_capensis-LTR	-	VMDO01003412.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.2-Pedetes_capensis-provirus	ERV-ELVpc.2-Pedetes_capensis-provirus	Pedetes_capensis	ERV-ELVpc.2-Pedetes_capensis-provirus	-	VMDO01050306.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.21-Pedetes_capensis-LTR	ERV-ELVpc.21-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.21-Pedetes_capensis-LTR	-	VMDO01035581.1	-
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.24-Pedetes_capensis-LTR	ERV-ELVpc.24-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.24-Pedetes_capensis-LTR	-	VMDO01046849.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.25-Pedetes_capensis-LTR	ERV-ELVpc.25-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.25-Pedetes_capensis-LTR	-	VMDO01015080.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.28-Pedetes_capensis-LTR	ERV-ELVpc.28-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.28-Pedetes_capensis-LTR	-	VMDO01001033.1	-
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.32-Pedetes_capensis-LTR	ERV-ELVpc.32-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.32-Pedetes_capensis-LTR	-	VMDO01012895.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.34-Pedetes_capensis-LTR	ERV-ELVpc.34-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.34-Pedetes_capensis-LTR	-	VMDO01003146.1	-
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.35-Pedetes_capensis-LTR	ERV-ELVpc.35-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.35-Pedetes_capensis-LTR	-	VMDO01018267.1	+
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.6-Pedetes_capensis-LTR	ERV-ELVpc.6-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.6-Pedetes_capensis-LTR	-	VMDO01001729.1	-
-alignment/AL_ELVpc/member/fasta-digs-erv/ERV-ELVpc.9-Pedetes_capensis-LTR	ERV-ELVpc.9-Pedetes_capensis-LTR	Pedetes_capensis	ERV-ELVpc.9-Pedetes_capensis-LTR	-	VMDO01033064.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.1-Pedetes_capensis-provirus	ERV-ELVpc.1-Pedetes_capensis-provirus	Pedetes capensis	ELVpc	-	VMDO01011022.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.14-Pedetes_capensis-LTR	ERV-ELVpc.14-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01006229.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.15-Pedetes_capensis-LTR	ERV-ELVpc.15-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01001857.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.16-Pedetes_capensis-LTR	ERV-ELVpc.16-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01001488.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.17-Pedetes_capensis-LTR	ERV-ELVpc.17-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01000902.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.18-Pedetes_capensis-LTR	ERV-ELVpc.18-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01003412.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.2-Pedetes_capensis-provirus	ERV-ELVpc.2-Pedetes_capensis-provirus	Pedetes capensis	ELVpc	-	VMDO01050306.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.21-Pedetes_capensis-LTR	ERV-ELVpc.21-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01035581.1	-
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.24-Pedetes_capensis-LTR	ERV-ELVpc.24-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01046849.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.25-Pedetes_capensis-LTR	ERV-ELVpc.25-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01015080.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.28-Pedetes_capensis-LTR	ERV-ELVpc.28-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01001033.1	-
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.32-Pedetes_capensis-LTR	ERV-ELVpc.32-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01012895.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.34-Pedetes_capensis-LTR	ERV-ELVpc.34-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01003146.1	-
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.35-Pedetes_capensis-LTR	ERV-ELVpc.35-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01018267.1	+
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.6-Pedetes_capensis-LTR	ERV-ELVpc.6-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01001729.1	-
+alignment/AL_SpELV/member/fasta-digs-erv/ERV-ELVpc.9-Pedetes_capensis-LTR	ERV-ELVpc.9-Pedetes_capensis-LTR	Pedetes capensis	ELVpc	-	VMDO01033064.1	+
+alignment/AL_SpELV/member/fasta-refseqs-erv/SpELV-con	SpELV-con	Pedetes capensis	ELVpc	Pedetes	-	-
