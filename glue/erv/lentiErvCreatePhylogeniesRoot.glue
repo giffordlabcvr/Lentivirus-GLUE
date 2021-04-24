@@ -5,6 +5,7 @@
   delete module alignmentColumnsSelectorLentiCapsid
   delete module alignmentColumnsSelectorLentiMatrix
   delete module alignmentColumnsSelectorLentiNucleocapsid
+  delete module alignmentColumnsSelectorLentiGag
   delete module alignmentColumnsSelectorLentiRt
   delete module alignmentColumnsSelectorLentiIntegrase
   
@@ -14,8 +15,10 @@
   create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
   create module -f modules/core/alignmentColumnsSelectorLentiCapsid.xml
   create module -f modules/core/alignmentColumnsSelectorLentiMatrix.xml
+  create module -f modules/core/alignmentColumnsSelectorLentiGag.xml
+
   create module -f modules/core/alignmentColumnsSelectorLentiNucleocapsid.xml
-  create module -f modules/core/alignmentColumnsSelectorLentiRt.xml
+  create module -f modules/core/alignmentColumnsSelectorLentiRt.xml  
   create module -f modules/core/alignmentColumnsSelectorLentiIntegrase.xml
 
   
