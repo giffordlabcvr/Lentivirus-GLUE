@@ -1,275 +1,275 @@
 taxon	sequenceID	host	name	subgenus	scaffold	orientation
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.1-Lepus_timidus-provirus	ERV-RELIK.1-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	CM019673.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.1-Oryctolagus_cuniculus-provirus	ERV-RELIK.1-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr18	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.10-Lepus_americanus-provirus	ERV-RELIK.10-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010185452.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.10-Oryctolagus_cuniculus-provirus	ERV-RELIK.10-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr13	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.100-Oryctolagus_cuniculus-LTR	ERV-RELIK.100-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.101-Lepus_americanus-LTR	ERV-RELIK.101-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010062494.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.101-Lepus_timidus-LTR	ERV-RELIK.101-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019683.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.101-Oryctolagus_cuniculus-LTR	ERV-RELIK.101-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr11	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.102-Lepus_timidus-LTR	ERV-RELIK.102-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019676.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.103-Lepus_americanus-LTR	ERV-RELIK.103-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010008286.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.103-Oryctolagus_cuniculus-LTR	ERV-RELIK.103-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr12	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.105-Oryctolagus_cuniculus-LTR	ERV-RELIK.105-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr9	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.106-Oryctolagus_cuniculus-LTR	ERV-RELIK.106-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr11	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.107-Lepus_americanus-LTR	ERV-RELIK.107-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010030299.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.108-Oryctolagus_cuniculus-LTR	ERV-RELIK.108-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr8	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.109-Oryctolagus_cuniculus-LTR	ERV-RELIK.109-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr2	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.11-Lepus_americanus-provirus	ERV-RELIK.11-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010004328.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.110-Lepus_americanus-LTR	ERV-RELIK.110-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010400464.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.110-Oryctolagus_cuniculus-LTR	ERV-RELIK.110-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.111-Oryctolagus_cuniculus-LTR	ERV-RELIK.111-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.114-Oryctolagus_cuniculus-LTR	ERV-RELIK.114-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr7	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.115-Oryctolagus_cuniculus-LTR	ERV-RELIK.115-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.116-Oryctolagus_cuniculus-LTR	ERV-RELIK.116-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr12	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.118-Oryctolagus_cuniculus-LTR	ERV-RELIK.118-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr7	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.12-Lepus_americanus-LTR	ERV-RELIK.12-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010018528.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.12-Lepus_timidus-LTR	ERV-RELIK.12-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019690.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.12-Oryctolagus_cuniculus-provirus	ERV-RELIK.12-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr18	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.120-Oryctolagus_cuniculus-LTR	ERV-RELIK.120-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr13	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.121-Lepus_americanus-LTR	ERV-RELIK.121-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010326271.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.121-Oryctolagus_cuniculus-LTR	ERV-RELIK.121-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr2	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.122-Lepus_americanus-LTR	ERV-RELIK.122-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010206028.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.122-Oryctolagus_cuniculus-LTR	ERV-RELIK.122-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0178	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.123-Oryctolagus_cuniculus-LTR	ERV-RELIK.123-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr12	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.124-Lepus_americanus-LTR	ERV-RELIK.124-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010496601.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.124-Oryctolagus_cuniculus-LTR	ERV-RELIK.124-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr12	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.125-Oryctolagus_cuniculus-LTR	ERV-RELIK.125-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr3	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.126-Oryctolagus_cuniculus-LTR	ERV-RELIK.126-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr14	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.127-Lepus_americanus-LTR	ERV-RELIK.127-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010009492.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.128-Oryctolagus_cuniculus-LTR	ERV-RELIK.128-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.129-Oryctolagus_cuniculus-LTR	ERV-RELIK.129-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr18	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.130-Lepus_americanus-LTR	ERV-RELIK.130-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010558919.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.130-Oryctolagus_cuniculus-LTR	ERV-RELIK.130-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr7	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.131-Lepus_americanus-LTR	ERV-RELIK.131-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010587504.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.131-Oryctolagus_cuniculus-LTR	ERV-RELIK.131-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.132-Oryctolagus_cuniculus-LTR	ERV-RELIK.132-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0135	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.133-Lepus_americanus-LTR	ERV-RELIK.133-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010298968.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.133-Oryctolagus_cuniculus-LTR	ERV-RELIK.133-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr17	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.134-Lepus_americanus-LTR	ERV-RELIK.134-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010047977.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.134-Oryctolagus_cuniculus-LTR	ERV-RELIK.134-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr14	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.135-Oryctolagus_cuniculus-LTR	ERV-RELIK.135-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr19	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.136-Oryctolagus_cuniculus-LTR	ERV-RELIK.136-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.137-Oryctolagus_cuniculus-LTR	ERV-RELIK.137-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.139-Oryctolagus_cuniculus-LTR	ERV-RELIK.139-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr14	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.140-Lepus_americanus-LTR	ERV-RELIK.140-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010012127.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.140-Oryctolagus_cuniculus-LTR	ERV-RELIK.140-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr16	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.141-Oryctolagus_cuniculus-LTR	ERV-RELIK.141-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.142-Lepus_americanus-LTR	ERV-RELIK.142-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010004701.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.142-Oryctolagus_cuniculus-LTR	ERV-RELIK.142-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr13	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.143-Oryctolagus_cuniculus-LTR	ERV-RELIK.143-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0007	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.145-Oryctolagus_cuniculus-LTR	ERV-RELIK.145-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr19	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.146-Oryctolagus_cuniculus-LTR	ERV-RELIK.146-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0010	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.147-Lepus_americanus-LTR	ERV-RELIK.147-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010620955.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.147-Oryctolagus_cuniculus-LTR	ERV-RELIK.147-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr2	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.148-Lepus_americanus-LTR	ERV-RELIK.148-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010276532.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.148-Oryctolagus_cuniculus-LTR	ERV-RELIK.148-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr2	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.149-Oryctolagus_cuniculus-LTR	ERV-RELIK.149-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr3	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.15-Lepus_americanus-provirus	ERV-RELIK.15-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010037697.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.15-Lepus_timidus-provirus	ERV-RELIK.15-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	CM019680.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.15-Oryctolagus_cuniculus-provirus	ERV-RELIK.15-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0420	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.150-Oryctolagus_cuniculus-LTR	ERV-RELIK.150-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr2	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.151-Oryctolagus_cuniculus-LTR	ERV-RELIK.151-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr15	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.152-Lepus_americanus-LTR	ERV-RELIK.152-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010342015.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.152-Oryctolagus_cuniculus-LTR	ERV-RELIK.152-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr11	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.153-Lepus_americanus-LTR	ERV-RELIK.153-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010888181.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.153-Oryctolagus_cuniculus-LTR	ERV-RELIK.153-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr11	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.154-Oryctolagus_cuniculus-LTR	ERV-RELIK.154-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr14	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.155-Lepus_americanus-LTR	ERV-RELIK.155-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010961519.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.155-Oryctolagus_cuniculus-LTR	ERV-RELIK.155-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0129	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.156-Oryctolagus_cuniculus-LTR	ERV-RELIK.156-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr7	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.157-Oryctolagus_cuniculus-LTR	ERV-RELIK.157-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr17	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.159-Oryctolagus_cuniculus-LTR	ERV-RELIK.159-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.16-Lepus_timidus-provirus	ERV-RELIK.16-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	CM019680.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.16-Oryctolagus_cuniculus-provirus	ERV-RELIK.16-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0280	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.161-Oryctolagus_cuniculus-LTR	ERV-RELIK.161-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0106	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.162-Oryctolagus_cuniculus-LTR	ERV-RELIK.162-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr14	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.163-Oryctolagus_cuniculus-LTR	ERV-RELIK.163-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr9	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.166-Oryctolagus_cuniculus-LTR	ERV-RELIK.166-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0043	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.17-Oryctolagus_cuniculus-provirus	ERV-RELIK.17-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0514	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.170-Oryctolagus_cuniculus-LTR	ERV-RELIK.170-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr11	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.171-Oryctolagus_cuniculus-LTR	ERV-RELIK.171-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0086	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.176-Oryctolagus_cuniculus-LTR	ERV-RELIK.176-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0288	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.178-Oryctolagus_cuniculus-LTR	ERV-RELIK.178-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.18-Oryctolagus_cuniculus-provirus	ERV-RELIK.18-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.19-Lepus_timidus-provirus	ERV-RELIK.19-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	VUAX01000098.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.19-Oryctolagus_cuniculus-provirus	ERV-RELIK.19-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr21	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.2-Lepus_timidus-provirus	ERV-RELIK.2-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	CM019685.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.2-Oryctolagus_cuniculus-provirus	ERV-RELIK.2-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0420	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.20-Oryctolagus_cuniculus-provirus	ERV-RELIK.20-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.202-Oryctolagus_cuniculus-provirus	ERV-RELIK.202-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr13	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.21-Oryctolagus_cuniculus-provirus	ERV-RELIK.21-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr5	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.22-Oryctolagus_cuniculus-provirus	ERV-RELIK.22-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0227	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.221-Lepus_americanus-provirus	ERV-RELIK.221-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010058017.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.222-Lepus_americanus-provirus	ERV-RELIK.222-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010103373.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.228-Lepus_americanus-LTR	ERV-RELIK.228-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010048545.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.230-Lepus_americanus-provirus	ERV-RELIK.230-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010128007.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.231-Lepus_americanus-provirus	ERV-RELIK.231-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010238219.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.233-Lepus_americanus-provirus	ERV-RELIK.233-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010368713.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.234-Lepus_americanus-LTR	ERV-RELIK.234-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010004564.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.235-Lepus_americanus-LTR	ERV-RELIK.235-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010106238.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.236-Lepus_americanus-LTR	ERV-RELIK.236-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010264399.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.237-Lepus_americanus-LTR	ERV-RELIK.237-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010031016.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.238-Lepus_americanus-LTR	ERV-RELIK.238-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010449426.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.239-Lepus_americanus-LTR	ERV-RELIK.239-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010001896.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.240-Lepus_americanus-LTR	ERV-RELIK.240-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010301896.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.241-Lepus_americanus-LTR	ERV-RELIK.241-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010109483.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.242-Lepus_americanus-LTR	ERV-RELIK.242-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010403283.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.243-Lepus_americanus-LTR	ERV-RELIK.243-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010079287.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.244-Lepus_americanus-LTR	ERV-RELIK.244-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010043866.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.247-Lepus_americanus-LTR	ERV-RELIK.247-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010032561.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.248-Lepus_americanus-LTR	ERV-RELIK.248-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010034212.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.249-Lepus_americanus-provirus	ERV-RELIK.249-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010096262.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.251-Lepus_timidus-provirus	ERV-RELIK.251-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	VUAX01000176.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.252-Lepus_timidus-provirus	ERV-RELIK.252-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	CM019670.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.253-Lepus_timidus-provirus	ERV-RELIK.253-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	CM019669.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.254-Lepus_timidus-LTR	ERV-RELIK.254-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019681.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.26-Oryctolagus_cuniculus-provirus	ERV-RELIK.26-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0227	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.27-Lepus_timidus-LTR	ERV-RELIK.27-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019682.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.27-Oryctolagus_cuniculus-provirus	ERV-RELIK.27-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0119	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.28-Lepus_timidus-LTR	ERV-RELIK.28-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.29-Lepus_timidus-LTR	ERV-RELIK.29-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019682.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.3-Lepus_americanus-provirus	ERV-RELIK.3-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010404779.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.3-Lepus_timidus-provirus	ERV-RELIK.3-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	CM019683.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.30-Lepus_americanus-provirus	ERV-RELIK.30-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010091048.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.30-Lepus_timidus-LTR	ERV-RELIK.30-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019690.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.30-Oryctolagus_cuniculus-LTR	ERV-RELIK.30-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0016	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.31-Lepus_timidus-LTR	ERV-RELIK.31-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	VUAX01000529.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.32-Lepus_timidus-LTR	ERV-RELIK.32-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019681.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.33-Lepus_timidus-LTR	ERV-RELIK.33-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.34-Lepus_americanus-LTR	ERV-RELIK.34-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010029544.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.34-Lepus_timidus-LTR	ERV-RELIK.34-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	VUAX01003350.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.35-Lepus_americanus-provirus	ERV-RELIK.35-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010240434.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.35-Lepus_timidus-LTR	ERV-RELIK.35-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019677.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.36-Oryctolagus_cuniculus-provirus	ERV-RELIK.36-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn1247	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.38-Lepus_americanus-provirus	ERV-RELIK.38-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010266879.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.39-Lepus_americanus-provirus	ERV-RELIK.39-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010225818.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.39-Oryctolagus_cuniculus-provirus	ERV-RELIK.39-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0150	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.4-Lepus_americanus-provirus	ERV-RELIK.4-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010097211.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.40-Lepus_americanus-provirus	ERV-RELIK.40-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010301069.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.40-Lepus_timidus-LTR	ERV-RELIK.40-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019678.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.41-Lepus_americanus-LTR	ERV-RELIK.41-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010053903.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.41-Lepus_timidus-LTR	ERV-RELIK.41-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.42-Lepus_americanus-provirus	ERV-RELIK.42-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010343534.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.43-Lepus_americanus-provirus	ERV-RELIK.43-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010315435.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.43-Lepus_timidus-LTR	ERV-RELIK.43-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	VUAX01000333.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.43-Oryctolagus_cuniculus-provirus	ERV-RELIK.43-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr2	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.44-Lepus_americanus-provirus	ERV-RELIK.44-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010331894.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.45-Oryctolagus_cuniculus-provirus	ERV-RELIK.45-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn1117	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.46-Lepus_timidus-LTR	ERV-RELIK.46-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019672.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.47-Lepus_americanus-provirus	ERV-RELIK.47-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010397540.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.47-Lepus_timidus-LTR	ERV-RELIK.47-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019671.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.47-Oryctolagus_cuniculus-provirus	ERV-RELIK.47-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0218	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.48-Lepus_americanus-LTR	ERV-RELIK.48-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010054085.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.48-Lepus_timidus-LTR	ERV-RELIK.48-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019671.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.49-Lepus_americanus-provirus	ERV-RELIK.49-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010376242.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.49-Lepus_timidus-LTR	ERV-RELIK.49-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.5-Lepus_americanus-provirus	ERV-RELIK.5-Lepus_americanus-provirus	Lepus_americanus	RELIK	-	PVJM010018742.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.5-Lepus_timidus-provirus	ERV-RELIK.5-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	VUAX01000538.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.50-Oryctolagus_cuniculus-provirus	ERV-RELIK.50-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0172	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.51-Oryctolagus_cuniculus-provirus	ERV-RELIK.51-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr7	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.52-Lepus_americanus-LTR	ERV-RELIK.52-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010067592.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.52-Lepus_timidus-LTR	ERV-RELIK.52-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019679.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.52-Oryctolagus_cuniculus-provirus	ERV-RELIK.52-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr14	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.53-Lepus_americanus-LTR	ERV-RELIK.53-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010016500.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.53-Oryctolagus_cuniculus-provirus	ERV-RELIK.53-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0043	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.54-Lepus_americanus-LTR	ERV-RELIK.54-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010378083.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.54-Lepus_timidus-LTR	ERV-RELIK.54-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019683.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.54-Oryctolagus_cuniculus-provirus	ERV-RELIK.54-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr4	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.55-Lepus_americanus-LTR	ERV-RELIK.55-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010086741.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.55-Oryctolagus_cuniculus-provirus	ERV-RELIK.55-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrUn0280	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.56-Lepus_timidus-LTR	ERV-RELIK.56-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019683.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.56-Oryctolagus_cuniculus-LTR	ERV-RELIK.56-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0053	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.57-Lepus_americanus-LTR	ERV-RELIK.57-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010069504.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.57-Lepus_timidus-LTR	ERV-RELIK.57-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019676.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.58-Lepus_americanus-LTR	ERV-RELIK.58-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010324702.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.58-Lepus_timidus-LTR	ERV-RELIK.58-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.58-Oryctolagus_cuniculus-LTR	ERV-RELIK.58-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0057	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.59-Lepus_americanus-LTR	ERV-RELIK.59-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010007266.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.59-Lepus_timidus-LTR	ERV-RELIK.59-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.59-Oryctolagus_cuniculus-LTR	ERV-RELIK.59-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.6-Oryctolagus_cuniculus-provirus	ERV-RELIK.6-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr15	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.60-Lepus_americanus-LTR	ERV-RELIK.60-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010067152.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.60-Lepus_timidus-LTR	ERV-RELIK.60-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.60-Oryctolagus_cuniculus-LTR	ERV-RELIK.60-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.61-Lepus_americanus-LTR	ERV-RELIK.61-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010066416.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.61-Lepus_timidus-LTR	ERV-RELIK.61-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	VUAX01000325.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.61-Oryctolagus_cuniculus-LTR	ERV-RELIK.61-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0047	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.62-Lepus_americanus-LTR	ERV-RELIK.62-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010380196.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.62-Lepus_timidus-LTR	ERV-RELIK.62-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019679.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.62-Oryctolagus_cuniculus-LTR	ERV-RELIK.62-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr13	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.63-Lepus_americanus-LTR	ERV-RELIK.63-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010020834.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.63-Lepus_timidus-LTR	ERV-RELIK.63-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.63-Oryctolagus_cuniculus-LTR	ERV-RELIK.63-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr12	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.64-Oryctolagus_cuniculus-LTR	ERV-RELIK.64-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr15	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.65-Lepus_americanus-LTR	ERV-RELIK.65-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010014941.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.65-Lepus_timidus-LTR	ERV-RELIK.65-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019682.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.65-Oryctolagus_cuniculus-LTR	ERV-RELIK.65-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr16	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.66-Oryctolagus_cuniculus-LTR	ERV-RELIK.66-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr7	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.67-Lepus_americanus-LTR	ERV-RELIK.67-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010033849.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.67-Lepus_timidus-LTR	ERV-RELIK.67-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019682.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.67-Oryctolagus_cuniculus-LTR	ERV-RELIK.67-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.68-Lepus_americanus-LTR	ERV-RELIK.68-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010003728.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.68-Lepus_timidus-LTR	ERV-RELIK.68-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.68-Oryctolagus_cuniculus-LTR	ERV-RELIK.68-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr17	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.69-Lepus_americanus-LTR	ERV-RELIK.69-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010127727.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.69-Lepus_timidus-LTR	ERV-RELIK.69-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019672.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.69-Oryctolagus_cuniculus-LTR	ERV-RELIK.69-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0019	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.7-Lepus_americanus-LTR	ERV-RELIK.7-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010007772.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.7-Lepus_timidus-provirus	ERV-RELIK.7-Lepus_timidus-provirus	Lepus_timidus	RELIK	-	CM019676.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.70-Lepus_americanus-LTR	ERV-RELIK.70-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010035190.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.70-Lepus_timidus-LTR	ERV-RELIK.70-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019669.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.70-Oryctolagus_cuniculus-LTR	ERV-RELIK.70-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr18	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.71-Lepus_americanus-LTR	ERV-RELIK.71-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010051040.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.71-Lepus_timidus-LTR	ERV-RELIK.71-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019682.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.72-Lepus_americanus-LTR	ERV-RELIK.72-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010247098.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.72-Lepus_timidus-LTR	ERV-RELIK.72-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019681.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.72-Oryctolagus_cuniculus-LTR	ERV-RELIK.72-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr3	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.73-Lepus_americanus-LTR	ERV-RELIK.73-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010023172.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.73-Lepus_timidus-LTR	ERV-RELIK.73-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019671.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.73-Oryctolagus_cuniculus-LTR	ERV-RELIK.73-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr3	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.74-Lepus_americanus-LTR	ERV-RELIK.74-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010022642.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.74-Lepus_timidus-LTR	ERV-RELIK.74-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019681.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.74-Oryctolagus_cuniculus-LTR	ERV-RELIK.74-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr18	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.75-Lepus_americanus-LTR	ERV-RELIK.75-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010008852.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.75-Lepus_timidus-LTR	ERV-RELIK.75-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019685.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.75-Oryctolagus_cuniculus-LTR	ERV-RELIK.75-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.76-Lepus_americanus-LTR	ERV-RELIK.76-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010093631.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.76-Lepus_timidus-LTR	ERV-RELIK.76-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019676.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.76-Oryctolagus_cuniculus-LTR	ERV-RELIK.76-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr13	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.77-Lepus_americanus-LTR	ERV-RELIK.77-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010020826.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.77-Lepus_timidus-LTR	ERV-RELIK.77-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019687.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.77-Oryctolagus_cuniculus-LTR	ERV-RELIK.77-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn1697	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.78-Lepus_americanus-LTR	ERV-RELIK.78-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010053334.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.78-Lepus_timidus-LTR	ERV-RELIK.78-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019672.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.78-Oryctolagus_cuniculus-LTR	ERV-RELIK.78-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0113	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.79-Oryctolagus_cuniculus-LTR	ERV-RELIK.79-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr12	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.8-Oryctolagus_cuniculus-provirus	ERV-RELIK.8-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chrX	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.80-Oryctolagus_cuniculus-LTR	ERV-RELIK.80-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr16	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.81-Lepus_timidus-LTR	ERV-RELIK.81-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019676.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.81-Oryctolagus_cuniculus-LTR	ERV-RELIK.81-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr11	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.82-Lepus_americanus-LTR	ERV-RELIK.82-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010011234.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.82-Oryctolagus_cuniculus-LTR	ERV-RELIK.82-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr11	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.83-Lepus_timidus-LTR	ERV-RELIK.83-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019679.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.83-Oryctolagus_cuniculus-LTR	ERV-RELIK.83-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr8	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.84-Oryctolagus_cuniculus-LTR	ERV-RELIK.84-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0041	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.85-Lepus_americanus-LTR	ERV-RELIK.85-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010046232.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.86-Oryctolagus_cuniculus-LTR	ERV-RELIK.86-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr12	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.87-Oryctolagus_cuniculus-LTR	ERV-RELIK.87-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr2	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.89-Oryctolagus_cuniculus-LTR	ERV-RELIK.89-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr13	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.9-Oryctolagus_cuniculus-provirus	ERV-RELIK.9-Oryctolagus_cuniculus-provirus	Oryctolagus_cuniculus	RELIK	-	chr7	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.90-Oryctolagus_cuniculus-LTR	ERV-RELIK.90-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrX	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.91-Lepus_americanus-LTR	ERV-RELIK.91-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010447409.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.91-Lepus_timidus-LTR	ERV-RELIK.91-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019671.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.92-Lepus_americanus-LTR	ERV-RELIK.92-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010033081.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.92-Lepus_timidus-LTR	ERV-RELIK.92-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019686.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.93-Lepus_timidus-LTR	ERV-RELIK.93-Lepus_timidus-LTR	Lepus_timidus	RELIK	-	CM019670.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.93-Oryctolagus_cuniculus-LTR	ERV-RELIK.93-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr12	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.94-Lepus_americanus-LTR	ERV-RELIK.94-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010011950.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.95-Oryctolagus_cuniculus-LTR	ERV-RELIK.95-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chrUn0058	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.97-Lepus_americanus-LTR	ERV-RELIK.97-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010056499.1	+
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.97-Oryctolagus_cuniculus-LTR	ERV-RELIK.97-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr14	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.98-Lepus_americanus-LTR	ERV-RELIK.98-Lepus_americanus-LTR	Lepus_americanus	RELIK	-	PVJM010135616.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.98-Oryctolagus_cuniculus-LTR	ERV-RELIK.98-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr13	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.99-Oryctolagus_cuniculus-LTR	ERV-RELIK.99-Oryctolagus_cuniculus-LTR	Oryctolagus_cuniculus	RELIK	-	chr9	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.1-Lepus_timidus-provirus	ERV-RELIK.1-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019673.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.1-Oryctolagus_cuniculus-provirus	ERV-RELIK.1-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr18	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.10-Lepus_americanus-provirus	ERV-RELIK.10-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010185452.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.10-Oryctolagus_cuniculus-provirus	ERV-RELIK.10-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr13	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.100-Oryctolagus_cuniculus-LTR	ERV-RELIK.100-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.101-Lepus_americanus-LTR	ERV-RELIK.101-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010062494.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.101-Lepus_timidus-LTR	ERV-RELIK.101-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019683.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.101-Oryctolagus_cuniculus-LTR	ERV-RELIK.101-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr11	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.102-Lepus_timidus-LTR	ERV-RELIK.102-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019676.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.103-Lepus_americanus-LTR	ERV-RELIK.103-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010008286.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.103-Oryctolagus_cuniculus-LTR	ERV-RELIK.103-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr12	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.105-Oryctolagus_cuniculus-LTR	ERV-RELIK.105-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr9	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.106-Oryctolagus_cuniculus-LTR	ERV-RELIK.106-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr11	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.107-Lepus_americanus-LTR	ERV-RELIK.107-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010030299.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.108-Oryctolagus_cuniculus-LTR	ERV-RELIK.108-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr8	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.109-Oryctolagus_cuniculus-LTR	ERV-RELIK.109-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr2	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.11-Lepus_americanus-provirus	ERV-RELIK.11-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010004328.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.110-Lepus_americanus-LTR	ERV-RELIK.110-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010400464.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.110-Oryctolagus_cuniculus-LTR	ERV-RELIK.110-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.111-Oryctolagus_cuniculus-LTR	ERV-RELIK.111-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.114-Oryctolagus_cuniculus-LTR	ERV-RELIK.114-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr7	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.115-Oryctolagus_cuniculus-LTR	ERV-RELIK.115-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.116-Oryctolagus_cuniculus-LTR	ERV-RELIK.116-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr12	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.118-Oryctolagus_cuniculus-LTR	ERV-RELIK.118-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr7	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.12-Lepus_americanus-LTR	ERV-RELIK.12-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010018528.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.12-Lepus_timidus-LTR	ERV-RELIK.12-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019690.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.12-Oryctolagus_cuniculus-provirus	ERV-RELIK.12-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr18	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.120-Oryctolagus_cuniculus-LTR	ERV-RELIK.120-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr13	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.121-Lepus_americanus-LTR	ERV-RELIK.121-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010326271.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.121-Oryctolagus_cuniculus-LTR	ERV-RELIK.121-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr2	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.122-Lepus_americanus-LTR	ERV-RELIK.122-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010206028.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.122-Oryctolagus_cuniculus-LTR	ERV-RELIK.122-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0178	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.123-Oryctolagus_cuniculus-LTR	ERV-RELIK.123-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr12	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.124-Lepus_americanus-LTR	ERV-RELIK.124-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010496601.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.124-Oryctolagus_cuniculus-LTR	ERV-RELIK.124-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr12	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.125-Oryctolagus_cuniculus-LTR	ERV-RELIK.125-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr3	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.126-Oryctolagus_cuniculus-LTR	ERV-RELIK.126-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr14	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.127-Lepus_americanus-LTR	ERV-RELIK.127-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010009492.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.128-Oryctolagus_cuniculus-LTR	ERV-RELIK.128-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.129-Oryctolagus_cuniculus-LTR	ERV-RELIK.129-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr18	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.130-Lepus_americanus-LTR	ERV-RELIK.130-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010558919.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.130-Oryctolagus_cuniculus-LTR	ERV-RELIK.130-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr7	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.131-Lepus_americanus-LTR	ERV-RELIK.131-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010587504.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.131-Oryctolagus_cuniculus-LTR	ERV-RELIK.131-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.132-Oryctolagus_cuniculus-LTR	ERV-RELIK.132-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0135	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.133-Lepus_americanus-LTR	ERV-RELIK.133-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010298968.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.133-Oryctolagus_cuniculus-LTR	ERV-RELIK.133-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr17	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.134-Lepus_americanus-LTR	ERV-RELIK.134-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010047977.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.134-Oryctolagus_cuniculus-LTR	ERV-RELIK.134-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr14	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.135-Oryctolagus_cuniculus-LTR	ERV-RELIK.135-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr19	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.136-Oryctolagus_cuniculus-LTR	ERV-RELIK.136-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.137-Oryctolagus_cuniculus-LTR	ERV-RELIK.137-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.139-Oryctolagus_cuniculus-LTR	ERV-RELIK.139-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr14	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.140-Lepus_americanus-LTR	ERV-RELIK.140-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010012127.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.140-Oryctolagus_cuniculus-LTR	ERV-RELIK.140-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr16	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.141-Oryctolagus_cuniculus-LTR	ERV-RELIK.141-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.142-Lepus_americanus-LTR	ERV-RELIK.142-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010004701.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.142-Oryctolagus_cuniculus-LTR	ERV-RELIK.142-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr13	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.143-Oryctolagus_cuniculus-LTR	ERV-RELIK.143-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0007	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.145-Oryctolagus_cuniculus-LTR	ERV-RELIK.145-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr19	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.146-Oryctolagus_cuniculus-LTR	ERV-RELIK.146-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0010	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.147-Lepus_americanus-LTR	ERV-RELIK.147-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010620955.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.147-Oryctolagus_cuniculus-LTR	ERV-RELIK.147-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr2	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.148-Lepus_americanus-LTR	ERV-RELIK.148-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010276532.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.148-Oryctolagus_cuniculus-LTR	ERV-RELIK.148-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr2	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.149-Oryctolagus_cuniculus-LTR	ERV-RELIK.149-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr3	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.15-Lepus_americanus-provirus	ERV-RELIK.15-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010037697.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.15-Lepus_timidus-provirus	ERV-RELIK.15-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019680.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.15-Oryctolagus_cuniculus-provirus	ERV-RELIK.15-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0420	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.150-Oryctolagus_cuniculus-LTR	ERV-RELIK.150-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr2	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.151-Oryctolagus_cuniculus-LTR	ERV-RELIK.151-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr15	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.152-Lepus_americanus-LTR	ERV-RELIK.152-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010342015.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.152-Oryctolagus_cuniculus-LTR	ERV-RELIK.152-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr11	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.153-Lepus_americanus-LTR	ERV-RELIK.153-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010888181.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.153-Oryctolagus_cuniculus-LTR	ERV-RELIK.153-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr11	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.154-Oryctolagus_cuniculus-LTR	ERV-RELIK.154-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr14	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.155-Lepus_americanus-LTR	ERV-RELIK.155-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010961519.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.155-Oryctolagus_cuniculus-LTR	ERV-RELIK.155-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0129	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.156-Oryctolagus_cuniculus-LTR	ERV-RELIK.156-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr7	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.157-Oryctolagus_cuniculus-LTR	ERV-RELIK.157-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr17	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.159-Oryctolagus_cuniculus-LTR	ERV-RELIK.159-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.16-Lepus_timidus-provirus	ERV-RELIK.16-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019680.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.16-Oryctolagus_cuniculus-provirus	ERV-RELIK.16-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0280	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.161-Oryctolagus_cuniculus-LTR	ERV-RELIK.161-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0106	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.162-Oryctolagus_cuniculus-LTR	ERV-RELIK.162-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr14	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.163-Oryctolagus_cuniculus-LTR	ERV-RELIK.163-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr9	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.166-Oryctolagus_cuniculus-LTR	ERV-RELIK.166-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0043	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.17-Oryctolagus_cuniculus-provirus	ERV-RELIK.17-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0514	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.170-Oryctolagus_cuniculus-LTR	ERV-RELIK.170-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr11	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.171-Oryctolagus_cuniculus-LTR	ERV-RELIK.171-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0086	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.176-Oryctolagus_cuniculus-LTR	ERV-RELIK.176-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0288	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.178-Oryctolagus_cuniculus-LTR	ERV-RELIK.178-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.18-Oryctolagus_cuniculus-provirus	ERV-RELIK.18-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.19-Lepus_timidus-provirus	ERV-RELIK.19-Lepus_timidus-provirus	Lepus timidus	RELIK	-	VUAX01000098.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.19-Oryctolagus_cuniculus-provirus	ERV-RELIK.19-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr21	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.2-Lepus_timidus-provirus	ERV-RELIK.2-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019685.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.2-Oryctolagus_cuniculus-provirus	ERV-RELIK.2-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0420	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.20-Oryctolagus_cuniculus-provirus	ERV-RELIK.20-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.202-Oryctolagus_cuniculus-provirus	ERV-RELIK.202-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr13	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.21-Oryctolagus_cuniculus-provirus	ERV-RELIK.21-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr5	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.22-Oryctolagus_cuniculus-provirus	ERV-RELIK.22-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0227	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.221-Lepus_americanus-provirus	ERV-RELIK.221-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010058017.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.222-Lepus_americanus-provirus	ERV-RELIK.222-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010103373.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.228-Lepus_americanus-LTR	ERV-RELIK.228-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010048545.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.230-Lepus_americanus-provirus	ERV-RELIK.230-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010128007.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.231-Lepus_americanus-provirus	ERV-RELIK.231-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010238219.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.233-Lepus_americanus-provirus	ERV-RELIK.233-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010368713.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.234-Lepus_americanus-LTR	ERV-RELIK.234-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010004564.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.235-Lepus_americanus-LTR	ERV-RELIK.235-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010106238.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.236-Lepus_americanus-LTR	ERV-RELIK.236-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010264399.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.237-Lepus_americanus-LTR	ERV-RELIK.237-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010031016.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.238-Lepus_americanus-LTR	ERV-RELIK.238-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010449426.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.239-Lepus_americanus-LTR	ERV-RELIK.239-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010001896.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.240-Lepus_americanus-LTR	ERV-RELIK.240-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010301896.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.241-Lepus_americanus-LTR	ERV-RELIK.241-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010109483.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.242-Lepus_americanus-LTR	ERV-RELIK.242-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010403283.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.243-Lepus_americanus-LTR	ERV-RELIK.243-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010079287.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.244-Lepus_americanus-LTR	ERV-RELIK.244-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010043866.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.247-Lepus_americanus-LTR	ERV-RELIK.247-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010032561.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.248-Lepus_americanus-LTR	ERV-RELIK.248-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010034212.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.249-Lepus_americanus-provirus	ERV-RELIK.249-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010096262.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.251-Lepus_timidus-provirus	ERV-RELIK.251-Lepus_timidus-provirus	Lepus timidus	RELIK	-	VUAX01000176.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.252-Lepus_timidus-provirus	ERV-RELIK.252-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019670.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.253-Lepus_timidus-provirus	ERV-RELIK.253-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019669.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.254-Lepus_timidus-LTR	ERV-RELIK.254-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019681.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.26-Oryctolagus_cuniculus-provirus	ERV-RELIK.26-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0227	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.27-Lepus_timidus-LTR	ERV-RELIK.27-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019682.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.27-Oryctolagus_cuniculus-provirus	ERV-RELIK.27-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0119	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.28-Lepus_timidus-LTR	ERV-RELIK.28-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.29-Lepus_timidus-LTR	ERV-RELIK.29-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019682.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.3-Lepus_americanus-provirus	ERV-RELIK.3-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010404779.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.3-Lepus_timidus-provirus	ERV-RELIK.3-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019683.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.30-Lepus_americanus-provirus	ERV-RELIK.30-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010091048.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.30-Lepus_timidus-LTR	ERV-RELIK.30-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019690.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.30-Oryctolagus_cuniculus-LTR	ERV-RELIK.30-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0016	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.31-Lepus_timidus-LTR	ERV-RELIK.31-Lepus_timidus-LTR	Lepus timidus	RELIK	-	VUAX01000529.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.32-Lepus_timidus-LTR	ERV-RELIK.32-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019681.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.33-Lepus_timidus-LTR	ERV-RELIK.33-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.34-Lepus_americanus-LTR	ERV-RELIK.34-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010029544.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.34-Lepus_timidus-LTR	ERV-RELIK.34-Lepus_timidus-LTR	Lepus timidus	RELIK	-	VUAX01003350.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.35-Lepus_americanus-provirus	ERV-RELIK.35-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010240434.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.35-Lepus_timidus-LTR	ERV-RELIK.35-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019677.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.36-Oryctolagus_cuniculus-provirus	ERV-RELIK.36-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn1247	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.38-Lepus_americanus-provirus	ERV-RELIK.38-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010266879.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.39-Lepus_americanus-provirus	ERV-RELIK.39-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010225818.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.39-Oryctolagus_cuniculus-provirus	ERV-RELIK.39-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0150	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.4-Lepus_americanus-provirus	ERV-RELIK.4-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010097211.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.40-Lepus_americanus-provirus	ERV-RELIK.40-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010301069.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.40-Lepus_timidus-LTR	ERV-RELIK.40-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019678.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.41-Lepus_americanus-LTR	ERV-RELIK.41-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010053903.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.41-Lepus_timidus-LTR	ERV-RELIK.41-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.42-Lepus_americanus-provirus	ERV-RELIK.42-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010343534.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.43-Lepus_americanus-provirus	ERV-RELIK.43-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010315435.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.43-Lepus_timidus-LTR	ERV-RELIK.43-Lepus_timidus-LTR	Lepus timidus	RELIK	-	VUAX01000333.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.43-Oryctolagus_cuniculus-provirus	ERV-RELIK.43-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr2	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.44-Lepus_americanus-provirus	ERV-RELIK.44-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010331894.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.45-Oryctolagus_cuniculus-provirus	ERV-RELIK.45-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn1117	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.46-Lepus_timidus-LTR	ERV-RELIK.46-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019672.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.47-Lepus_americanus-provirus	ERV-RELIK.47-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010397540.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.47-Lepus_timidus-LTR	ERV-RELIK.47-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019671.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.47-Oryctolagus_cuniculus-provirus	ERV-RELIK.47-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0218	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.48-Lepus_americanus-LTR	ERV-RELIK.48-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010054085.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.48-Lepus_timidus-LTR	ERV-RELIK.48-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019671.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.49-Lepus_americanus-provirus	ERV-RELIK.49-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010376242.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.49-Lepus_timidus-LTR	ERV-RELIK.49-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.5-Lepus_americanus-provirus	ERV-RELIK.5-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010018742.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.5-Lepus_timidus-provirus	ERV-RELIK.5-Lepus_timidus-provirus	Lepus timidus	RELIK	-	VUAX01000538.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.50-Oryctolagus_cuniculus-provirus	ERV-RELIK.50-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0172	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.51-Oryctolagus_cuniculus-provirus	ERV-RELIK.51-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr7	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.52-Lepus_americanus-LTR	ERV-RELIK.52-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010067592.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.52-Lepus_timidus-LTR	ERV-RELIK.52-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019679.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.52-Oryctolagus_cuniculus-provirus	ERV-RELIK.52-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr14	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.53-Lepus_americanus-LTR	ERV-RELIK.53-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010016500.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.53-Oryctolagus_cuniculus-provirus	ERV-RELIK.53-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0043	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.54-Lepus_americanus-LTR	ERV-RELIK.54-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010378083.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.54-Lepus_timidus-LTR	ERV-RELIK.54-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019683.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.54-Oryctolagus_cuniculus-provirus	ERV-RELIK.54-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr4	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.55-Lepus_americanus-LTR	ERV-RELIK.55-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010086741.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.55-Oryctolagus_cuniculus-provirus	ERV-RELIK.55-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0280	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.56-Lepus_timidus-LTR	ERV-RELIK.56-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019683.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.56-Oryctolagus_cuniculus-LTR	ERV-RELIK.56-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0053	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.57-Lepus_americanus-LTR	ERV-RELIK.57-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010069504.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.57-Lepus_timidus-LTR	ERV-RELIK.57-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019676.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.58-Lepus_americanus-LTR	ERV-RELIK.58-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010324702.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.58-Lepus_timidus-LTR	ERV-RELIK.58-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.58-Oryctolagus_cuniculus-LTR	ERV-RELIK.58-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0057	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.59-Lepus_americanus-LTR	ERV-RELIK.59-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010007266.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.59-Lepus_timidus-LTR	ERV-RELIK.59-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.59-Oryctolagus_cuniculus-LTR	ERV-RELIK.59-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.6-Oryctolagus_cuniculus-provirus	ERV-RELIK.6-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr15	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.60-Lepus_americanus-LTR	ERV-RELIK.60-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010067152.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.60-Lepus_timidus-LTR	ERV-RELIK.60-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.60-Oryctolagus_cuniculus-LTR	ERV-RELIK.60-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.61-Lepus_americanus-LTR	ERV-RELIK.61-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010066416.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.61-Lepus_timidus-LTR	ERV-RELIK.61-Lepus_timidus-LTR	Lepus timidus	RELIK	-	VUAX01000325.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.61-Oryctolagus_cuniculus-LTR	ERV-RELIK.61-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0047	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.62-Lepus_americanus-LTR	ERV-RELIK.62-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010380196.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.62-Lepus_timidus-LTR	ERV-RELIK.62-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019679.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.62-Oryctolagus_cuniculus-LTR	ERV-RELIK.62-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr13	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.63-Lepus_americanus-LTR	ERV-RELIK.63-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010020834.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.63-Lepus_timidus-LTR	ERV-RELIK.63-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.63-Oryctolagus_cuniculus-LTR	ERV-RELIK.63-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr12	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.64-Oryctolagus_cuniculus-LTR	ERV-RELIK.64-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr15	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.65-Lepus_americanus-LTR	ERV-RELIK.65-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010014941.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.65-Lepus_timidus-LTR	ERV-RELIK.65-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019682.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.65-Oryctolagus_cuniculus-LTR	ERV-RELIK.65-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr16	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.66-Oryctolagus_cuniculus-LTR	ERV-RELIK.66-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr7	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.67-Lepus_americanus-LTR	ERV-RELIK.67-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010033849.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.67-Lepus_timidus-LTR	ERV-RELIK.67-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019682.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.67-Oryctolagus_cuniculus-LTR	ERV-RELIK.67-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.68-Lepus_americanus-LTR	ERV-RELIK.68-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010003728.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.68-Lepus_timidus-LTR	ERV-RELIK.68-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.68-Oryctolagus_cuniculus-LTR	ERV-RELIK.68-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr17	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.69-Lepus_americanus-LTR	ERV-RELIK.69-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010127727.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.69-Lepus_timidus-LTR	ERV-RELIK.69-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019672.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.69-Oryctolagus_cuniculus-LTR	ERV-RELIK.69-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0019	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.7-Lepus_americanus-LTR	ERV-RELIK.7-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010007772.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.7-Lepus_timidus-provirus	ERV-RELIK.7-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019676.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.70-Lepus_americanus-LTR	ERV-RELIK.70-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010035190.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.70-Lepus_timidus-LTR	ERV-RELIK.70-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019669.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.70-Oryctolagus_cuniculus-LTR	ERV-RELIK.70-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr18	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.71-Lepus_americanus-LTR	ERV-RELIK.71-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010051040.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.71-Lepus_timidus-LTR	ERV-RELIK.71-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019682.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.72-Lepus_americanus-LTR	ERV-RELIK.72-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010247098.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.72-Lepus_timidus-LTR	ERV-RELIK.72-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019681.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.72-Oryctolagus_cuniculus-LTR	ERV-RELIK.72-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr3	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.73-Lepus_americanus-LTR	ERV-RELIK.73-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010023172.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.73-Lepus_timidus-LTR	ERV-RELIK.73-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019671.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.73-Oryctolagus_cuniculus-LTR	ERV-RELIK.73-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr3	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.74-Lepus_americanus-LTR	ERV-RELIK.74-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010022642.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.74-Lepus_timidus-LTR	ERV-RELIK.74-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019681.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.74-Oryctolagus_cuniculus-LTR	ERV-RELIK.74-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr18	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.75-Lepus_americanus-LTR	ERV-RELIK.75-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010008852.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.75-Lepus_timidus-LTR	ERV-RELIK.75-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019685.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.75-Oryctolagus_cuniculus-LTR	ERV-RELIK.75-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.76-Lepus_americanus-LTR	ERV-RELIK.76-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010093631.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.76-Lepus_timidus-LTR	ERV-RELIK.76-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019676.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.76-Oryctolagus_cuniculus-LTR	ERV-RELIK.76-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr13	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.77-Lepus_americanus-LTR	ERV-RELIK.77-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010020826.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.77-Lepus_timidus-LTR	ERV-RELIK.77-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019687.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.77-Oryctolagus_cuniculus-LTR	ERV-RELIK.77-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn1697	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.78-Lepus_americanus-LTR	ERV-RELIK.78-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010053334.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.78-Lepus_timidus-LTR	ERV-RELIK.78-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019672.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.78-Oryctolagus_cuniculus-LTR	ERV-RELIK.78-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0113	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.79-Oryctolagus_cuniculus-LTR	ERV-RELIK.79-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr12	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.8-Oryctolagus_cuniculus-provirus	ERV-RELIK.8-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrX	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.80-Oryctolagus_cuniculus-LTR	ERV-RELIK.80-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr16	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.81-Lepus_timidus-LTR	ERV-RELIK.81-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019676.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.81-Oryctolagus_cuniculus-LTR	ERV-RELIK.81-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr11	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.82-Lepus_americanus-LTR	ERV-RELIK.82-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010011234.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.82-Oryctolagus_cuniculus-LTR	ERV-RELIK.82-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr11	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.83-Lepus_timidus-LTR	ERV-RELIK.83-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019679.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.83-Oryctolagus_cuniculus-LTR	ERV-RELIK.83-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr8	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.84-Oryctolagus_cuniculus-LTR	ERV-RELIK.84-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0041	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.85-Lepus_americanus-LTR	ERV-RELIK.85-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010046232.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.86-Oryctolagus_cuniculus-LTR	ERV-RELIK.86-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr12	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.87-Oryctolagus_cuniculus-LTR	ERV-RELIK.87-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr2	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.89-Oryctolagus_cuniculus-LTR	ERV-RELIK.89-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr13	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.9-Oryctolagus_cuniculus-provirus	ERV-RELIK.9-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr7	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.90-Oryctolagus_cuniculus-LTR	ERV-RELIK.90-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrX	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.91-Lepus_americanus-LTR	ERV-RELIK.91-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010447409.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.91-Lepus_timidus-LTR	ERV-RELIK.91-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019671.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.92-Lepus_americanus-LTR	ERV-RELIK.92-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010033081.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.92-Lepus_timidus-LTR	ERV-RELIK.92-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019686.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.93-Lepus_timidus-LTR	ERV-RELIK.93-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019670.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.93-Oryctolagus_cuniculus-LTR	ERV-RELIK.93-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr12	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.94-Lepus_americanus-LTR	ERV-RELIK.94-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010011950.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.95-Oryctolagus_cuniculus-LTR	ERV-RELIK.95-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chrUn0058	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.97-Lepus_americanus-LTR	ERV-RELIK.97-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010056499.1	+
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.97-Oryctolagus_cuniculus-LTR	ERV-RELIK.97-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr14	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.98-Lepus_americanus-LTR	ERV-RELIK.98-Lepus_americanus-LTR	Lepus americanus	RELIK	-	PVJM010135616.1	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.98-Oryctolagus_cuniculus-LTR	ERV-RELIK.98-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr13	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.99-Oryctolagus_cuniculus-LTR	ERV-RELIK.99-Oryctolagus_cuniculus-LTR	Oryctolagus cuniculus	RELIK	-	chr9	+
 alignment/AL_RELIK/member/ncbi-curated-erv/FJ493032	FJ493032	Lepus europaeus	RELIK	-	-	-
