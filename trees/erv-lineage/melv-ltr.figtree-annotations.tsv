@@ -1,0 +1,31 @@
+taxon	sequenceID	host	name	subgenus	scaffold	orientation
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_erminea-provirus	ERV-MELV.1-Mustela_erminea-provirus	Mustela erminea	MELV	-	WNLZ01000603.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_putorius_furo-provirus	ERV-MELV.1-Mustela_putorius_furo-provirus	Mustela putorius furo	MELV	-	GL896902	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Neovison_vison-provirus	ERV-MELV.1-Neovison_vison-provirus	Neovison vison	MELV	-	FNWR01000040.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Mustela_erminea-LTR	ERV-MELV.10-Mustela_erminea-LTR	Mustela erminea	MELV	-	WNLZ01002399.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Mustela_putorius_furo-LTR	ERV-MELV.10-Mustela_putorius_furo-LTR	Mustela putorius furo	MELV	-	GL897071	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Neovison_vison-LTR	ERV-MELV.10-Neovison_vison-LTR	Neovison vison	MELV	-	FNWR01000208.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Mustela_erminea-LTR	ERV-MELV.11-Mustela_erminea-LTR	Mustela erminea	MELV	-	WNLZ01002554.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Mustela_putorius_furo-LTR	ERV-MELV.11-Mustela_putorius_furo-LTR	Mustela putorius furo	MELV	-	GL896901	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Neovison_vison-LTR	ERV-MELV.11-Neovison_vison-LTR	Neovison vison	MELV	-	FNWR01000120.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.13-Mustela_erminea-LTR	ERV-MELV.13-Mustela_erminea-LTR	Mustela erminea	MELV	-	WNLZ01002847.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.13-Mustela_putorius_furo-LTR	ERV-MELV.13-Mustela_putorius_furo-LTR	Mustela putorius furo	MELV	-	GL896943	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.15-Mustela_putorius_furo-LTR	ERV-MELV.15-Mustela_putorius_furo-LTR	Mustela putorius furo	MELV	-	GL896918	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_erminea-provirus	ERV-MELV.2-Mustela_erminea-provirus	Mustela erminea	MELV	-	WNLZ01000221.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_putorius_furo-provirus	ERV-MELV.2-Mustela_putorius_furo-provirus	Mustela putorius furo	MELV	-	GL897225	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Neovison_vison-provirus	ERV-MELV.2-Neovison_vison-provirus	Neovison vison	MELV	-	FNWR01001227.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.3-Neovison_vison-provirus	ERV-MELV.3-Neovison_vison-provirus	Neovison vison	MELV	-	FNWR01000502.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Mustela_putorius_furo-provirus	ERV-MELV.4-Mustela_putorius_furo-provirus	Mustela putorius furo	MELV	-	AEYP01111284	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Neovison_vison-provirus	ERV-MELV.4-Neovison_vison-provirus	Neovison vison	MELV	-	FNWR01000254.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_erminea-provirus	ERV-MELV.5-Mustela_erminea-provirus	Mustela erminea	MELV	-	WNLZ01002198.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_putorius_furo-provirus	ERV-MELV.5-Mustela_putorius_furo-provirus	Mustela putorius furo	MELV	-	GL896920	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Mustela_erminea-LTR	ERV-MELV.6-Mustela_erminea-LTR	Mustela erminea	MELV	-	WNLZ01002575.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Neovison_vison-LTR	ERV-MELV.6-Neovison_vison-LTR	Neovison vison	MELV	-	FNWR01000739.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Mustela_erminea-LTR	ERV-MELV.7-Mustela_erminea-LTR	Mustela erminea	MELV	-	WNLZ01001493.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Mustela_putorius_furo-LTR	ERV-MELV.7-Mustela_putorius_furo-LTR	Mustela putorius furo	MELV	-	GL896924	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Neovison_vison-LTR	ERV-MELV.7-Neovison_vison-LTR	Neovison vison	MELV	-	FNWR01000285.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Mustela_erminea-LTR	ERV-MELV.8-Mustela_erminea-LTR	Mustela erminea	MELV	-	WNLZ01000255.1	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Mustela_putorius_furo-LTR	ERV-MELV.8-Mustela_putorius_furo-LTR	Mustela putorius furo	MELV	-	GL896950	-
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Neovison_vison-LTR	ERV-MELV.8-Neovison_vison-LTR	Neovison vison	MELV	-	FNWR01000802.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.9-Mustela_erminea-LTR	ERV-MELV.9-Mustela_erminea-LTR	Mustela erminea	MELV	-	WNLZ01001134.1	+
+alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.9-Mustela_putorius_furo-LTR	ERV-MELV.9-Mustela_putorius_furo-LTR	Mustela putorius furo	MELV	-	GL897056	+

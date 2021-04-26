@@ -3,8 +3,6 @@
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
   delete module lentiErvFigTreeAnnotationExporter 
-  delete module alignmentColumnsSelectorSpelvGag
-  delete module alignmentColumnsSelectorSpelvPol
   delete module alignmentColumnsSelectorSpelvLtr5
 
   # Create all the modules we need
@@ -12,8 +10,6 @@
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/erv/lentiErvFigTreeAnnotationExporter.xml
   create module -f modules/erv/alignmentColumnsSelectorSpelvLtr5.xml
-  create module -f modules/erv/alignmentColumnsSelectorSpelvGag.xml
-  create module -f modules/erv/alignmentColumnsSelectorSpelvPol.xml
 
   
   # Create the phylogenies
@@ -21,15 +17,7 @@
 
     generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvLtr5 \
        -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
-       -o trees/erv-lineage/elvpc-ltr.tre NEWICK_BOOTSTRAPS
-
-    #generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvGag \
-    #  -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    # -o trees/erv-lineage/elvpc-gag.tre NEWICK_BOOTSTRAPS
-
-    #generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvPol \
-    #  -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS
+       -o trees/erv-lineage/spelv-ltr.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -38,19 +26,9 @@
   module LentiPhyloUtility 
   
 	reroot-phylogeny \
-      --inputFile trees/erv-lineage/elvpc-ltr.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/erv-lineage/spelv-ltr.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/erv-lineage/elvpc-ltr.MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/erv-lineage/elvpc-gag.tre NEWICK_BOOTSTRAPS \
-    # --midpoint \
-    #  --outputFile trees/erv-lineage/elvpc-gag.MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	#reroot-phylogeny \
-    #  --inputFile trees/erv-lineage/elvpc-pol.tre NEWICK_BOOTSTRAPS \
-    #  --midpoint \
-    #  --outputFile trees/erv-lineage/elvpc-pol.MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/erv-lineage/spelv-ltr.MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -59,14 +37,7 @@
   module lentiErvFigTreeAnnotationExporter 
 
     export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-ltr.figtree-annotations.tsv
-
-    #export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = 'gag'  \
-    # and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-gag.figtree-annotations.tsv
-
-    #export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = 'pol'  \
-    #  and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/elvpc-pol.figtree-annotations.tsv
-
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/spelv-ltr.figtree-annotations.tsv
 
   exit
 
