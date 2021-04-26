@@ -21,25 +21,25 @@
 	add member -w "source.name = 'ncbi-curated-erv'"
 	
 	extract child AL_RELIK      --refName REF_RELIK
-	demote member AL_RELIK      --whereClause "sequence.species like '%Oryctolagus%'"
+	demote member AL_RELIK      --whereClause "sequence.species like '%Oryctolagus%' and sequence.source.name = 'ncbi-curated-erv'"
 	demote member AL_RELIK      --whereClause "sequence.species like '%Lepus%'"
 	
 	extract child AL_PSIV       --refName REF_pSIV2
+	demote member AL_PSIV       --whereClause "sequence.species like '%Microcebus%' and sequence.source.name = 'ncbi-curated-erv'"
 	demote member AL_PSIV       --whereClause "sequence.species like '%Mirza%'"
 	demote member AL_PSIV       --whereClause "sequence.species like '%Cheirogaleus%'"
-	demote member AL_PSIV       --whereClause "sequence.species like '%Microcebus%'"
 
 	extract child AL_MELV       --refName REF_MELV
-	demote member AL_MELV       --whereClause "sequence.species like '%Neovison%'"
-	demote member AL_MELV       --whereClause "sequence.species like '%Mustela%'"
+	demote member AL_MELV       --whereClause "sequence.species like '%Mustela%' and sequence.source.name = 'ncbi-curated-erv'"
 	demote member AL_MELV       --whereClause "sequence.species like '%Lontra%'"
-
+	demote member AL_MELV       --whereClause "sequence.species like '%Neovison%'"
+	
 	extract child AL_DELV       --refName REF_DELV
-	demote member AL_DELV       --whereClause "sequence.species like '%Galeopterus%'"
+	demote member AL_DELV       --whereClause "sequence.species like '%Galeopterus%' and sequence.source.name = 'ncbi-curated-erv'"
 	demote member AL_DELV       --whereClause "sequence.species like '%Cynocephalus%'"
 
 	extract child AL_SpELV      --refName REF_SpELV
-	demote member AL_SpELV      --whereClause "sequence.species like '%Pedetes%'"
+	demote member AL_SpELV      --whereClause "sequence.species like '%Pedetes%' and sequence.source.name = 'ncbi-curated-erv'"
   
 	exit
 	

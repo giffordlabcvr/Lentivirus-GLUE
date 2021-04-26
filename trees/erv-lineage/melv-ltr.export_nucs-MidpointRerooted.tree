@@ -1,1 +1,132 @@
-((alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Mustela_putorius_furo-LTR:0.02471939092958253328,(alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.15-Mustela_putorius_furo-LTR:0.02745067899204418557,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Neovison_vison-LTR:0.10572205191483648179)52:0.00279475885085473785)97:0.01451244248961192308,(((((alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Neovison_vison-provirus:0.03004091756948627442,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Neovison_vison-LTR:0.04733464845438616064)80:0.02185806958794270921,((alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Neovison_vison-provirus:0.01344308704393771571,((alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Neovison_vison-provirus:0.03167165944176083409,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Neovison_vison-LTR:0.02882884976672327182)47:0.00408202523848481824,(alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.3-Neovison_vison-provirus:0.01891337696098710150,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Neovison_vison-LTR:0.02354221272262507422)84:0.00965160733018441061)33:0.00000100000050002909)62:0.00510870298617691499,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_erminea-provirus:0.04851440054583558426)49:0.00375228237496481442)90:0.00709708757357165650,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Neovison_vison-LTR:0.02407324633480674089)100:0.01497522572752802567,((((alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.9-Mustela_erminea-LTR:0.01870161892043661553,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.9-Mustela_putorius_furo-LTR:0.01847513726909888118)98:0.00658482016688634146,(((alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Mustela_putorius_furo-LTR:0.00990948358375965191,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Mustela_erminea-LTR:0.00906967184455980020)99:0.02164780180807462928,((alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Mustela_erminea-LTR:0.01524778136445337391,((alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Mustela_putorius_furo-LTR:0.01590245337998044683,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Mustela_erminea-LTR:0.02281171055637696427)43:0.00204264183168340226,(alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_putorius_furo-provirus:0.03494502898808744124,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.13-Mustela_putorius_furo-LTR:0.01775082130584535595)38:0.00267846630277069828)8:0.00000100000050002909)44:0.00241798830167634909,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Mustela_erminea-LTR:0.01678497279630078096)63:0.00662893004934688411)93:0.00688458521992542979,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.13-Mustela_erminea-LTR:0.02383672917926180079)90:0.01268690595168462873)91:0.01675829635566734171,(alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Mustela_putorius_furo-LTR:0.00915790657298287160,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Mustela_erminea-LTR:0.00810484234976122965)98:0.01292505518810243594)59:0.00371354000926750732,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Mustela_putorius_furo-provirus:0.03245882080598379987)82:0.00843789342637605785)100:0.02767361116450984052,((alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_erminea-provirus:0.00496738782703343325,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_putorius_furo-provirus:0.01072594956160706492)99:0.02050156901865460984,(alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_erminea-provirus:0.02477369029988089888,alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_putorius_furo-provirus:0.02497449325631066405)98:0.00318826131255562544)79:0.01444768491666718370)97:0.00020300748549093499);
+#NEXUS
+begin taxa;
+	dimensions ntax=30;
+	taxlabels
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_erminea-provirus'[&host="Mustela erminea",name="MELV",orientation="-",scaffold="WNLZ01000603.1",sequenceID="ERV-MELV.1-Mustela_erminea-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_putorius_furo-provirus'[&host="Mustela putorius furo",name="MELV",orientation="-",scaffold="GL896902",sequenceID="ERV-MELV.1-Mustela_putorius_furo-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Neovison_vison-provirus'[&host="Neovison vison",name="MELV",orientation="+",scaffold="FNWR01000040.1",sequenceID="ERV-MELV.1-Neovison_vison-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Mustela_erminea-LTR'[&host="Mustela erminea",name="MELV",orientation="+",scaffold="WNLZ01002399.1",sequenceID="ERV-MELV.10-Mustela_erminea-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Mustela_putorius_furo-LTR'[&host="Mustela putorius furo",name="MELV",orientation="-",scaffold="GL897071",sequenceID="ERV-MELV.10-Mustela_putorius_furo-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Neovison_vison-LTR'[&host="Neovison vison",name="MELV",orientation="-",scaffold="FNWR01000208.1",sequenceID="ERV-MELV.10-Neovison_vison-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Mustela_erminea-LTR'[&host="Mustela erminea",name="MELV",orientation="-",scaffold="WNLZ01002554.1",sequenceID="ERV-MELV.11-Mustela_erminea-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Mustela_putorius_furo-LTR'[&host="Mustela putorius furo",name="MELV",orientation="-",scaffold="GL896901",sequenceID="ERV-MELV.11-Mustela_putorius_furo-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Neovison_vison-LTR'[&host="Neovison vison",name="MELV",orientation="-",scaffold="FNWR01000120.1",sequenceID="ERV-MELV.11-Neovison_vison-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.13-Mustela_erminea-LTR'[&host="Mustela erminea",name="MELV",orientation="-",scaffold="WNLZ01002847.1",sequenceID="ERV-MELV.13-Mustela_erminea-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.13-Mustela_putorius_furo-LTR'[&host="Mustela putorius furo",name="MELV",orientation="+",scaffold="GL896943",sequenceID="ERV-MELV.13-Mustela_putorius_furo-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.15-Mustela_putorius_furo-LTR'[&host="Mustela putorius furo",name="MELV",orientation="+",scaffold="GL896918",sequenceID="ERV-MELV.15-Mustela_putorius_furo-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_erminea-provirus'[&host="Mustela erminea",name="MELV",orientation="-",scaffold="WNLZ01000221.1",sequenceID="ERV-MELV.2-Mustela_erminea-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_putorius_furo-provirus'[&host="Mustela putorius furo",name="MELV",orientation="-",scaffold="GL897225",sequenceID="ERV-MELV.2-Mustela_putorius_furo-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Neovison_vison-provirus'[&host="Neovison vison",name="MELV",orientation="+",scaffold="FNWR01001227.1",sequenceID="ERV-MELV.2-Neovison_vison-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.3-Neovison_vison-provirus'[&host="Neovison vison",name="MELV",orientation="-",scaffold="FNWR01000502.1",sequenceID="ERV-MELV.3-Neovison_vison-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Mustela_putorius_furo-provirus'[&host="Mustela putorius furo",name="MELV",orientation="+",scaffold="AEYP01111284",sequenceID="ERV-MELV.4-Mustela_putorius_furo-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Neovison_vison-provirus'[&host="Neovison vison",name="MELV",orientation="+",scaffold="FNWR01000254.1",sequenceID="ERV-MELV.4-Neovison_vison-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_erminea-provirus'[&host="Mustela erminea",name="MELV",orientation="+",scaffold="WNLZ01002198.1",sequenceID="ERV-MELV.5-Mustela_erminea-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_putorius_furo-provirus'[&host="Mustela putorius furo",name="MELV",orientation="+",scaffold="GL896920",sequenceID="ERV-MELV.5-Mustela_putorius_furo-provirus",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Mustela_erminea-LTR'[&host="Mustela erminea",name="MELV",orientation="-",scaffold="WNLZ01002575.1",sequenceID="ERV-MELV.6-Mustela_erminea-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Neovison_vison-LTR'[&host="Neovison vison",name="MELV",orientation="-",scaffold="FNWR01000739.1",sequenceID="ERV-MELV.6-Neovison_vison-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Mustela_erminea-LTR'[&host="Mustela erminea",name="MELV",orientation="-",scaffold="WNLZ01001493.1",sequenceID="ERV-MELV.7-Mustela_erminea-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Mustela_putorius_furo-LTR'[&host="Mustela putorius furo",name="MELV",orientation="-",scaffold="GL896924",sequenceID="ERV-MELV.7-Mustela_putorius_furo-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Neovison_vison-LTR'[&host="Neovison vison",name="MELV",orientation="+",scaffold="FNWR01000285.1",sequenceID="ERV-MELV.7-Neovison_vison-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Mustela_erminea-LTR'[&host="Mustela erminea",name="MELV",orientation="-",scaffold="WNLZ01000255.1",sequenceID="ERV-MELV.8-Mustela_erminea-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Mustela_putorius_furo-LTR'[&host="Mustela putorius furo",name="MELV",orientation="-",scaffold="GL896950",sequenceID="ERV-MELV.8-Mustela_putorius_furo-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Neovison_vison-LTR'[&host="Neovison vison",name="MELV",orientation="+",scaffold="FNWR01000802.1",sequenceID="ERV-MELV.8-Neovison_vison-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.9-Mustela_erminea-LTR'[&host="Mustela erminea",name="MELV",orientation="+",scaffold="WNLZ01001134.1",sequenceID="ERV-MELV.9-Mustela_erminea-LTR",subgenus="-"]
+	'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.9-Mustela_putorius_furo-LTR'[&host="Mustela putorius furo",name="MELV",orientation="+",scaffold="GL897056",sequenceID="ERV-MELV.9-Mustela_putorius_furo-LTR",subgenus="-"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Mustela_putorius_furo-LTR':0.024719,('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.15-Mustela_putorius_furo-LTR':0.027451,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Neovison_vison-LTR':0.105722)[&label=52]:0.002795)[&label=97]:0.014512,((((('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Neovison_vison-provirus':0.030041,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Neovison_vison-LTR':0.047335)[&label=80]:0.021858,(('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Neovison_vison-provirus':0.013443,(('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Neovison_vison-provirus':0.031672,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Neovison_vison-LTR':0.028829)[&label=47]:0.004082,('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.3-Neovison_vison-provirus':0.018913,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Neovison_vison-LTR':0.023542)[&label=84]:0.009652)[&label=33]:1.0E-6)[&label=62]:0.005109,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_erminea-provirus':0.048514)[&label=49]:0.003752)[&label=90]:0.007097,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Neovison_vison-LTR':0.024073)[&label=100]:0.014975,(((('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.9-Mustela_erminea-LTR':0.018702,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.9-Mustela_putorius_furo-LTR':0.018475)[&label=98]:0.006585,((('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Mustela_putorius_furo-LTR':0.009909,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.11-Mustela_erminea-LTR':0.00907)[&label=99]:0.021648,(('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.10-Mustela_erminea-LTR':0.015248,(('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Mustela_putorius_furo-LTR':0.015902,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.6-Mustela_erminea-LTR':0.022812)[&label=43]:0.002043,('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.2-Mustela_putorius_furo-provirus':0.034945,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.13-Mustela_putorius_furo-LTR':0.017751)[&label=38]:0.002678)[&label=8]:1.0E-6)[&label=44]:0.002418,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.8-Mustela_erminea-LTR':0.016785)[&label=63]:0.006629)[&label=93]:0.006885,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.13-Mustela_erminea-LTR':0.023837)[&label=90]:0.012687)[&label=91]:0.016758,('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Mustela_putorius_furo-LTR':0.009158,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.7-Mustela_erminea-LTR':0.008105)[&label=98]:0.012925)[&label=59]:0.003714,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.4-Mustela_putorius_furo-provirus':0.032459)[&label=82]:0.008438)[&label=100]:0.027674,(('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_erminea-provirus':0.004967,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.5-Mustela_putorius_furo-provirus':0.010726)[&label=99]:0.020502,('alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_erminea-provirus':0.024774,'alignment/AL_MELV/member/fasta-digs-erv/ERV-MELV.1-Mustela_putorius_furo-provirus':0.024974)[&label=98]:0.003188)[&label=79]:0.014448)[&label=97]:2.03E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host";
+	set tipLabels.displayAttribute="sequenceID";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
