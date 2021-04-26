@@ -51,6 +51,7 @@ alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.250-Lepus_timidus-provirus	ER
 alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.253-Lepus_timidus-provirus	ERV-RELIK.253-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019669.1	+
 alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.26-Lepus_americanus-provirus	ERV-RELIK.26-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010020979.1	-
 alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.26-Oryctolagus_cuniculus-provirus	ERV-RELIK.26-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0227	-
+alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.28-Oryctolagus_cuniculus-provirus	ERV-RELIK.28-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrX	+
 alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.3-Lepus_timidus-provirus	ERV-RELIK.3-Lepus_timidus-provirus	Lepus timidus	RELIK	-	CM019683.1	-
 alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.3-Oryctolagus_cuniculus-provirus	ERV-RELIK.3-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr15	-
 alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.32-Oryctolagus_cuniculus-provirus	ERV-RELIK.32-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrUn0072	-
@@ -79,6 +80,5 @@ alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.9-Oryctolagus_cuniculus-provi
 alignment/AL_RELIK/member/ncbi-curated-erv/FJ493032	FJ493032	Lepus europaeus	RELIK	-	-	-
 alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.201-Oryctolagus_cuniculus-provirus	ERV-RELIK.201-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chr17	-
 alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.25-Lepus_americanus-provirus	ERV-RELIK.25-Lepus_americanus-provirus	Lepus americanus	RELIK	-	PVJM010008346.1	-
-alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.28-Oryctolagus_cuniculus-provirus	ERV-RELIK.28-Oryctolagus_cuniculus-provirus	Oryctolagus cuniculus	RELIK	-	chrX	+
 alignment/AL_RELIK/member/fasta-digs-erv/ERV-RELIK.48-Lepus_timidus-LTR	ERV-RELIK.48-Lepus_timidus-LTR	Lepus timidus	RELIK	-	CM019671.1	-
 alignment/AL_RELIK/member/ncbi-curated-erv/FJ493034	FJ493034	Lepus europaeus	RELIK	-	-	-
