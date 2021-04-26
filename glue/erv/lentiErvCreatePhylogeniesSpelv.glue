@@ -18,7 +18,6 @@
     generate nucleotide phylogeny AL_SPELV -s alignmentColumnsSelectorSpelvLtr5 \
        -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
        -o trees/erv-lineage/spelv-ltr.tre NEWICK_BOOTSTRAPS
-
     exit
 
 
@@ -29,7 +28,6 @@
       --inputFile trees/erv-lineage/spelv-ltr.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/erv-lineage/spelv-ltr.MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
     exit
 
 
@@ -37,7 +35,7 @@
   module lentiErvFigTreeAnnotationExporter 
 
     export figtree-annotation AL_SPELV -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/spelv-ltr.figtree-annotations.tsv
-
+       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/spelv-ltr.figtree-annotations.tsv
+      
   exit
 
