@@ -1,6 +1,6 @@
 #~# Import pre-built alignments of ERVs
 
 module unconstrainedAlignmentImporter
-  import AL_UNC_ROOT_ERV -f alignments/erv/root/lentivirus-root-gagpol-erv.aln.fna
+  import AL_UNC_ROOT_ERV -f alignments/root/lentivirus-root-gagpol-erv.aln.fna
   exit
 
