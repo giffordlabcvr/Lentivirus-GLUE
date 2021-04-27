@@ -9,4 +9,10 @@
         <endCodon>132</endCodon>
     </aminoAcidRegionSelector>
     
+    <nucleotideRegionSelector>
+        <featureName>matrix</featureName>
+        <startNt>336</startNt>
+        <endNt>729</endNt>
+    </nucleotideRegionSelector>
+    
 </alignmentColumnsSelector>

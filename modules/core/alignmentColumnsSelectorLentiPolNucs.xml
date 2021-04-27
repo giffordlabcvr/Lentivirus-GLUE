@@ -16,6 +16,20 @@
         <endCodon>539</endCodon>
     </aminoAcidRegionSelector>
 
+  
+    <nucleotideRegionSelector>
+        <featureName>pol</featureName>
+        <startNt>2120</startNt>
+        <endNt>3049</endNt>
+    </nucleotideRegionSelector>
+
+
+    <nucleotideRegionSelector>
+        <featureName>pol</featureName>
+        <startNt>3416</startNt>
+        <endNt>3712</endNt>
+    </nucleotideRegionSelector>
+
     
 </alignmentColumnsSelector>
 

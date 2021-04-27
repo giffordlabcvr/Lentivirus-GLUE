@@ -4,9 +4,15 @@
     <relRefName>REF_HIV-1M</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>matrix</featureName>
+        <featureName>IN</featureName>
         <startCodon>1</startCodon>
-        <endCodon>132</endCodon>
+        <endCodon>289</endCodon>
     </aminoAcidRegionSelector>
     
+    <nucleotideRegionSelector>
+        <featureName>IN</featureName>
+        <startNt>3776</startNt>
+        <endNt>4640</endNt>
+    </nucleotideRegionSelector>
+
 </alignmentColumnsSelector>

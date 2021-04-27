@@ -9,10 +9,4 @@
         <endCodon>55</endCodon>
     </aminoAcidRegionSelector>
     
-    <nucleotideRegionSelector>
-        <featureName>nucleocapsid</featureName>
-        <startNt>1467</startNt>
-        <endNt>1629</endNt>
-    </nucleotideRegionSelector>
-    
 </alignmentColumnsSelector>

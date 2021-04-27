@@ -9,10 +9,4 @@
         <endCodon>289</endCodon>
     </aminoAcidRegionSelector>
     
-    <nucleotideRegionSelector>
-        <featureName>IN</featureName>
-        <startNt>3776</startNt>
-        <endNt>4640</endNt>
-    </nucleotideRegionSelector>
-
 </alignmentColumnsSelector>

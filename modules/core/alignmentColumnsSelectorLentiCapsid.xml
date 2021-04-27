@@ -9,10 +9,5 @@
         <endCodon>232</endCodon>
     </aminoAcidRegionSelector>
     
-    <nucleotideRegionSelector>
-        <featureName>capsid</featureName>
-        <startNt>732</startNt>
-        <endNt>1425</endNt>
-    </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

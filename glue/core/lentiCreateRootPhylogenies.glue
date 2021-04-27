@@ -10,6 +10,8 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
+  create module -f modules/core/lentiRaxmlPhylogenyGenerator.xml
+    
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/core/lentiFigTreeAnnotationExporter.xml
   create module -f modules/core/alignmentColumnsSelectorLentiCapsid.xml
@@ -20,29 +22,30 @@
 
   
   # Create the phylogenies
-  module raxmlPhylogenyGenerator
+  module lentiRaxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiMatrix \
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiMatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-root/lenti-ma.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiCapsid \
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiCapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-root/lenti-ca.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiNucleocapsid \
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiNucleocapsid \
       -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-root/lenti-nc.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiRt \
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiRt \
       -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-root/lenti-rt.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_ROOT -s alignmentColumnsSelectorLentiIntegrase \
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiIntegrase \
       -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-root/lenti-in.tre NEWICK_BOOTSTRAPS
 
     exit
+
 
 
   # Re-root phylogeny 

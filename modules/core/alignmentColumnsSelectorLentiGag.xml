@@ -8,11 +8,5 @@
         <startCodon>1</startCodon>
         <endCodon>501</endCodon>
     </aminoAcidRegionSelector>
-    
-    <nucleotideRegionSelector>
-        <featureName>gag</featureName>
-        <startNt>336</startNt>
-        <endNt>1836</endNt>
-    </nucleotideRegionSelector>
-    
+        
 </alignmentColumnsSelector>
