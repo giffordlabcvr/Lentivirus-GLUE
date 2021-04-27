@@ -1,1 +1,113 @@
-(alignment/AL_ROOT/member/ncbi-refseqs/M32690:1.89212959392037294130,(((((alignment/AL_ROOT/member/fasta-refseqs-erv/MELV-con:0.52011020605621727242,(alignment/AL_ROOT/member/fasta-refseqs-erv/RELIK-con:0.40690384905476106869,alignment/AL_ROOT/member/ncbi-refseqs/M16575:0.61330762491804846626)4:0.06633105567464894770)0:0.18396033742398323896,(alignment/AL_ROOT/member/fasta-refseqs-erv/PSIV2-con:0.00000100000050002909,alignment/AL_ROOT/member/fasta-refseqs-erv/PSIV1-con:0.04278084253094129041)100:0.91380070802515600548)1:0.07149897401691976406,alignment/AL_ROOT/member/ncbi-refseqs/M25381:0.51800096318431565479)96:0.19466297723819539489,(alignment/AL_ROOT/member/fasta-refseqs-erv/DELV-con:1.49248478236288972809,alignment/AL_ROOT/member/ncbi-refseqs/NC_001452:1.08626721852404850566)3:0.03071582130122214524)0:0.09957280331482558366,(alignment/AL_ROOT/member/ncbi-refseqs/AF033819:1.11413360969986729998,alignment/AL_ROOT/member/fasta-refseqs-erv/SpELV-con:1.33976662200166729555)1:0.12145447562327083002):0.26935618694143548431);
+#NEXUS
+begin taxa;
+	dimensions ntax=11;
+	taxlabels
+	'alignment/AL_ROOT/member/fasta-refseqs-erv/DELV-con'[&host="Dermoptera",name="DELV",orientation="-",scaffold="-",sequenceID="DELV-con",subgenus="Dermopteran"]
+	'alignment/AL_ROOT/member/fasta-refseqs-erv/MELV-con'[&host="Mustelidae",name="MELVmpf",orientation="-",scaffold="-",sequenceID="MELV-con",subgenus="Mustelid"]
+	'alignment/AL_ROOT/member/fasta-refseqs-erv/PSIV1-con'[&host="Microcebus",name="PSIV1",orientation="-",scaffold="-",sequenceID="PSIV1-con",subgenus="Prosimian"]
+	'alignment/AL_ROOT/member/fasta-refseqs-erv/PSIV2-con'[&host="Cheirogaleus",name="PSIV2",orientation="-",scaffold="-",sequenceID="PSIV2-con",subgenus="Prosimian"]
+	'alignment/AL_ROOT/member/fasta-refseqs-erv/RELIK-con'[&host="Leporidae",name="RELIK",orientation="-",scaffold="-",sequenceID="RELIK-con",subgenus="Leporid"]
+	'alignment/AL_ROOT/member/fasta-refseqs-erv/SpELV-con'[&host="Pedetes capensis",name="SpELV",orientation="-",scaffold="-",sequenceID="SpELV-con",subgenus="Pedetes"]
+	'alignment/AL_ROOT/member/ncbi-refseqs/AF033819'[&host="-",name="HIV-1M ",orientation="-",scaffold="-",sequenceID="AF033819",subgenus="Primate"]
+	'alignment/AL_ROOT/member/ncbi-refseqs/M16575'[&host="-",name="EIAV ",orientation="-",scaffold="-",sequenceID="M16575",subgenus="Equine"]
+	'alignment/AL_ROOT/member/ncbi-refseqs/M25381'[&host="-",name="FIV ",orientation="-",scaffold="-",sequenceID="M25381",subgenus="Feline"]
+	'alignment/AL_ROOT/member/ncbi-refseqs/M32690'[&host="-",name="BIV ",orientation="-",scaffold="-",sequenceID="M32690",subgenus="Bovine"]
+	'alignment/AL_ROOT/member/ncbi-refseqs/NC_001452'[&host="-",name="SRLV-A ",orientation="-",scaffold="-",sequenceID="NC_001452",subgenus="Caprine-Ovine"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_ROOT/member/ncbi-refseqs/M32690':1.89213,((((('alignment/AL_ROOT/member/fasta-refseqs-erv/MELV-con':0.52011,('alignment/AL_ROOT/member/fasta-refseqs-erv/RELIK-con':0.406904,'alignment/AL_ROOT/member/ncbi-refseqs/M16575':0.613308)[&label=4]:0.066331)[&label=0]:0.18396,('alignment/AL_ROOT/member/fasta-refseqs-erv/PSIV2-con':1.0E-6,'alignment/AL_ROOT/member/fasta-refseqs-erv/PSIV1-con':0.042781)[&label=100]:0.913801)[&label=1]:0.071499,'alignment/AL_ROOT/member/ncbi-refseqs/M25381':0.518001)[&label=96]:0.194663,('alignment/AL_ROOT/member/fasta-refseqs-erv/DELV-con':1.492485,'alignment/AL_ROOT/member/ncbi-refseqs/NC_001452':1.086267)[&label=3]:0.030716)[&label=0]:0.099573,('alignment/AL_ROOT/member/ncbi-refseqs/AF033819':1.114134,'alignment/AL_ROOT/member/fasta-refseqs-erv/SpELV-con':1.339767)[&label=1]:0.121454):0.269356);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
