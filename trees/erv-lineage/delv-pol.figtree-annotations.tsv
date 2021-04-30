@@ -1,7 +1,7 @@
 taxon	sequenceID	host	name	subgenus	scaffold	orientation
-alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.1-Galeopterus_variegatus-provirus	ERV-ELVgv.1-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL152857.1	+
-alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.2-Galeopterus_variegatus-provirus	ERV-ELVgv.2-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL143158.1	+
-alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.3-Galeopterus_variegatus-provirus	ERV-ELVgv.3-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL148477.1	+
-alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.4-Galeopterus_variegatus-provirus	ERV-ELVgv.4-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL144797.1	+
-alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.5-Galeopterus_variegatus-provirus	ERV-ELVgv.5-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL153624.1	+
-alignment/AL_DELV/member/fasta-digs-erv/ERV-ELVgv.6-Galeopterus_variegatus-provirus	ERV-ELVgv.6-Galeopterus_variegatus-provirus	Galeopterus variegatus	ELVgv	-	KL150894.1	-
+alignment/AL_DELV/member/fasta-digs-erv/DELV.1-Galeopterus_variegatus	DELV.1-Galeopterus_variegatus	Galeopterus variegatus	DELV	-	KL152857.1	+
+alignment/AL_DELV/member/fasta-digs-erv/DELV.2-Galeopterus_variegatus	DELV.2-Galeopterus_variegatus	Galeopterus variegatus	DELV	-	KL143158.1	+
+alignment/AL_DELV/member/fasta-digs-erv/DELV.3-Galeopterus_variegatus	DELV.3-Galeopterus_variegatus	Galeopterus variegatus	DELV	-	KL148477.1	+
+alignment/AL_DELV/member/fasta-digs-erv/DELV.4-Galeopterus_variegatus	DELV.4-Galeopterus_variegatus	Galeopterus variegatus	DELV	-	KL144797.1	+
+alignment/AL_DELV/member/fasta-digs-erv/DELV.5-Galeopterus_variegatus	DELV.5-Galeopterus_variegatus	Galeopterus variegatus	DELV	-	KL153624.1	+
+alignment/AL_DELV/member/fasta-digs-erv/DELV.6-Galeopterus_variegatus	DELV.6-Galeopterus_variegatus	Galeopterus variegatus	DELV	-	KL150894.1	-
