@@ -22,7 +22,7 @@
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_RELIK -s alignmentColumnsSelectorRelikLtr5 \
-       -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 50" \
+       -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 80" \
        -o trees/erv-lineage/relik-ltr.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_RELIK -s alignmentColumnsSelectorRelikGag \
@@ -70,7 +70,7 @@
   module lentiErvFigTreeAnnotationExporter 
 
     export figtree-annotation AL_RELIK -w "fLocNotes.featureLoc.feature.name = '5LTR'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/relik-ltr.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 80" -f trees/erv-lineage/relik-ltr.figtree-annotations.tsv
 
     export figtree-annotation AL_RELIK -w "fLocNotes.featureLoc.feature.name = 'gag'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/erv-lineage/relik-gag.figtree-annotations.tsv
