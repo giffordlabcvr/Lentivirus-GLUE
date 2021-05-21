@@ -1,0 +1,135 @@
+  create alignment AL_MASTER -r REF_MASTER_NC_001452 
+  
+  alignment AL_MASTER
+  
+    set field displayName "Small ruminant lentivirus (SRLV)"
+    
+    # reference sequences
+    add member -w "source.name in ('concatenated-refseqs', 'ncbi-refseqs', 'ncbi-refseq-subgenomic')"
+
+    extract child AL_A --refName REF_A_NC_001452
+    demote member AL_A --whereClause "sequence.genotype = 'A'" 
+	
+    extract child AL_B --refName REF_B_NC_001463
+    demote member AL_B --whereClause "sequence.genotype = 'B'" 
+
+    extract child AL_B3 --refName REF_B_NC_001463
+    demote member AL_B3 --whereClause "sequence.genotype = 'B3'" 
+
+    extract child AL_C --refName REF_C_AF322109
+    demote member AL_C --whereClause "sequence.genotype = 'C'" 
+
+    extract child AL_E --refName REF_E_EU293537
+    demote member AL_E --whereClause "sequence.genotype = 'E'" 
+
+    #extract child AL_F --refName REF_F_KT898826
+    #demote member AL_F --whereClause "sequence.genotype = 'F'" 
+    exit
+
+
+  alignment AL_A set field clade_category genotype
+  alignment AL_B set field clade_category genotype
+  alignment AL_B3 set field clade_category genotype
+  alignment AL_C set field clade_category genotype
+  alignment AL_E set field clade_category genotype
+  
+
+  alignment AL_A
+     
+    extract child AL_A1  --refName REF_A_NC_001452
+    demote member AL_A1  --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A1'"
+
+    #extract child AL_A2  --refName REF_A2_HQ848062 
+    #demote member AL_A2  --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A2'"
+
+    extract child AL_A3  --refName REF_A3_AY454189 
+    demote member AL_A3  --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A3'"
+
+    extract child AL_A4  --refName REF_A4_AY445885
+    demote member AL_A4  --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A4'"
+
+    extract child AL_A5  --refName REF_A5_AY454175 
+    demote member AL_A5  --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A5'"
+
+    extract child AL_A6  --refName REF_A6_U35676
+    demote member AL_A6  --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A6'"
+
+    #extract child AL_A7  --refName REF_A7_AY454208
+    #demote member AL_A7  --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A7'"
+    #extract child AL_A8  --refName REF_A8_EU010125
+    #demote member AL_A8  --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A8'"
+    #extract child AL_A9  --refName REF_A9_FR828809
+    #demote member AL_A9  --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A9'"
+    #extract child AL_A11 --refName REF_A11_FR828809 
+    #demote member AL_A11 --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A11'"
+    #extract child AL_A12 --refName REF_A12_FJ623122
+    #demote member AL_A12 --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A12'"
+    #extract child AL_A13 --refName REF_A13_FJ623120
+    #demote member AL_A13 --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A13'"
+    #extract child AL_A14 --refName REF_A14_JX469607
+    #demote member AL_A14 --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A14'"
+    #extract child AL_A15 --refName REF_A15_JQ611029
+    #demote member AL_A15 --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A15'"
+    exit
+
+  alignment AL_A1 set field clade_category subtype
+  alignment AL_A3 set field clade_category subtype
+  alignment AL_A4 set field clade_category subtype
+  alignment AL_A5 set field clade_category subtype
+  alignment AL_A6 set field clade_category subtype
+        
+
+  alignment AL_B
+
+    extract child AL_B1 --refName REF_B1_NC_001463
+    demote member AL_B1 --whereClause "sequence.genotype = 'B' and sequence.subtype = '1'"
+
+    extract child AL_B2 --refName REF_B2_FJ195346 
+    demote member AL_B2 --whereClause "sequence.genotype = 'B' and sequence.subtype = '2'"
+
+    exit
+
+  alignment AL_B1 set field clade_category subtype
+  alignment AL_B2 set field clade_category subtype
+
+  alignment AL_E
+
+    extract child AL_E1 --refName REF_E1_EU293537
+    demote member AL_E1 --whereClause "sequence.genotype = 'E' and sequence.subtype = '1'"
+
+    extract child AL_E2 --refName REF_E2_GQ381130
+    demote member AL_E2 --whereClause "sequence.genotype = 'E' and sequence.subtype = '2'"
+
+    exit
+ 
+ 
+  alignment AL_E1 set field clade_category subtype
+  alignment AL_E2 set field clade_category subtype
+  
+
+  # Derive constrained alignment segments from unconstrained alignments
+
+  alignment AL_MASTER
+    derive segments AL_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+  
+  alignment AL_A
+    derive segments AL_UNCONSTRAINED --whereClause "sequence.genotype = 'A'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_B
+    derive segments AL_UNCONSTRAINED --whereClause "sequence.genotype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_B3
+    derive segments AL_UNCONSTRAINED --whereClause "sequence.genotype = 'B3'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_C
+    derive segments AL_UNCONSTRAINED --whereClause "sequence.genotype = 'C'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_E
+    derive segments AL_UNCONSTRAINED --whereClause "sequence.genotype = 'E'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+

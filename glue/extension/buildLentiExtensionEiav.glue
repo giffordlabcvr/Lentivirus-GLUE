@@ -1,0 +1,42 @@
+  project lentivirus
+
+    # Delete previous extension build
+    run file glue/extension/lentiDeleteExtensionBuild.glue
+
+    # Import sources
+    run file glue/extension/lentiExtensionSources.glue
+
+    # Define extension references
+    run file glue/extension/lentiExtensionReferences.glue
+
+	# Link curated set sequences to isolate data
+	run script glue/extension/lentiLoadCuratedIsolateData1.js
+
+	# Extract data from the XML files
+	module lentiGenbankXmlPopulator populate
+  
+	# Import metadata for exogenous reference sequences from tabular
+	create module -f modules/extension/srlvSideDataImporter.xml srlvSideDataImporter
+	module srlvSideDataImporter 
+	  populate -f tabular/extension/srlv-curated.csv
+      exit
+
+	# Add curated sequences constrained alignment tree
+	run file glue/extension/lentiExtensionAlignmentTree.glue
+	
+	# Create alignments
+	run file glue/extension/lentivirusCreateAlignments.glue
+
+	# Create alignments
+	run file glue/extension/lentiRecordFeaturePresence.glue
+
+	# Create phylogenies
+	run file glue/extension/lentiCreatePhylogeniesBiv.glue
+	run file glue/extension/lentiCreatePhylogeniesFiv.glue
+	run file glue/extension/lentiCreatePhylogeniesEiav.glue
+	#run file glue/extension/lentiCreatePhylogeniesSrlv.glue
+
+	# Validate
+	validate
+
+	exit

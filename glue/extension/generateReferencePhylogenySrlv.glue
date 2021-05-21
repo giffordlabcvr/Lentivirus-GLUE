@@ -1,0 +1,9 @@
+
+  module srlvRaxmlPhylogenyGenerator    
+    generate nucleotide phylogeny AL_UNCONSTRAINED --allMembers --outputFile trees/SRLV_AL_UNCONSTRAINED.tre NEWICK_BOOTSTRAPS   
+    exit    
+
+  module srlvPhyloUtility
+    reroot-phylogeny -i trees/SRLV_AL_UNCONSTRAINED.tre NEWICK_BOOTSTRAPS -m -o trees/SRLV_AL_UNCONSTRAINED_midpoint.tre NEWICK_BOOTSTRAPS
+    exit
+    

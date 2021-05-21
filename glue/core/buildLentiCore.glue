@@ -32,7 +32,7 @@
 	run file glue/core/lentiRecordFeaturePresence.glue
 
 	# Create phylogenies
-	run file glue/core/lentiCreateRootPhylogenies.glue
+	#run file glue/core/lentiCreateRootPhylogenies.glue
 
 	validate
 	exit

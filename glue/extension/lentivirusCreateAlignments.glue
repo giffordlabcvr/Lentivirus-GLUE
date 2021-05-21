@@ -1,0 +1,7 @@
+delete module lentiCompoundAligner
+create module -f modules/extension/lentiCompoundAligner.xml
+
+compute alignment AL_BIV lentiCompoundAligner
+compute alignment AL_FIV lentiCompoundAligner
+compute alignment AL_EIAV lentiCompoundAligner
+compute alignment AL_SRLV lentiCompoundAligner

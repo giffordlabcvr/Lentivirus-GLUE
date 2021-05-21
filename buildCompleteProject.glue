@@ -12,5 +12,8 @@
   # Build core project (reference sequences only)
   run file glue/core/buildLentiCore.glue
 
+  # Build species-level extension projects
+  run file glue/extension/buildLentiExtension.glue
+  
   # Build EVE project
   run file glue/erv/buildLentiErvExtension.glue

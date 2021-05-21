@@ -1,0 +1,10 @@
+
+  # Delete extension references
+  delete reference REF_JDV
+  delete reference REF_SRLV-B
+
+  # Delete sources
+  delete source ncbi-curated-biv
+  delete source ncbi-curated-fiv
+  delete source ncbi-curated-eiav
+  delete source ncbi-curated-srlv
