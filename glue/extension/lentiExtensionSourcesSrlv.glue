@@ -1,0 +1,7 @@
+  # Import NCBI reference sequences 
+  import source sources/ncbi-curated-srlv
+
+  #import source sources/ncbi-refseqs-ext     
+  #import source sources/ncbi-refseqs-ext-subgenomic 
+  #import source sources/ncbi-refseqs-ext-concatenated    
+
