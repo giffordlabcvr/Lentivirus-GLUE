@@ -1,0 +1,12 @@
+alignment AL_ROOT
+ 
+  add member -w "source.name like 'ncbi-curated-biv%'"
+  demote member AL_BIV  -w "sequence.source.name = 'ncbi-curated-biv'"
+
+  exit
+
+alignment AL_BIV
+
+
+  exit
+

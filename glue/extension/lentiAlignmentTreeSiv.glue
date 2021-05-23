@@ -75,6 +75,7 @@ alignment AL_REF_PLV
 
   # Extract SIVgsn
   extract child AL_REF_SIVgsn      --refName REF_SIVgsn
-  demote member AL_REF_SIVgsn      --whereClause "sequence.species = 'SIVgsn'" 
+  demote member AL_REF_SIVgsn      --whereClause "sequence.species = 'SIVgsn'"
+  
   exit
 

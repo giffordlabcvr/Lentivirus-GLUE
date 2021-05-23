@@ -22,12 +22,9 @@
       exit
 
 	# Add curated sequences constrained alignment tree
-	run file glue/extension/lentiExtensionAlignmentTreeSrlv.glue
+	run file glue/extension/lentiAlignmentTreeSrlv.glue
 	
-	# Create alignments
-	run file glue/extension/lentivirusCreateAlignmentsSrlv.glue
-
-	# Create alignments
+	# Record feature presence
 	run file glue/extension/lentiRecordFeaturePresenceSrlv.glue
 
 	# Create phylogenies

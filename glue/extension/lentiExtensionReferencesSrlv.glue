@@ -26,7 +26,6 @@
   create reference REF_A4_AY445885   ncbi-curated-srlv AY445885
   create reference REF_A2_HQ848062   ncbi-curated-srlv HQ848062  
   create reference REF_A1_NC_001452  ncbi-refseqs NC_001452
-  
   create reference REF_A3_AY454189   ncbi-curated-srlv AY454189
   create reference REF_A5_AY454175   ncbi-curated-srlv AY454175
   create reference REF_A6_U35676     ncbi-curated-srlv U35676 
