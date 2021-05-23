@@ -1,24 +1,13 @@
 
   # Delete modules
   delete module lentiNcbiImporterBIV
-  delete module lentiNcbiImporterEIAV
-  delete module lentiNcbiImporterFIV
-  delete module lentiNcbiImporterSRLV
 
   # Create modules
   create module -f modules/extension/lentiNcbiImporterBIV.xml
-  create module -f modules/extension/lentiNcbiImporterEIAV.xml
-  create module -f modules/extension/lentiNcbiImporterFIV.xml
-  create module -f modules/extension/lentiNcbiImporterSRLV.xml
 
   # Download NCBI sequences 
   module lentiNcbiImporterBIV import
-  module lentiNcbiImporterEIAV import
-  module lentiNcbiImporterFIV import
-  module lentiNcbiImporterSRLV import
 
   # Export sources
   export source ncbi-curated-biv
-  export source ncbi-curated-eiav
-  export source ncbi-curated-fiv
-  export source ncbi-curated-srlv
+
