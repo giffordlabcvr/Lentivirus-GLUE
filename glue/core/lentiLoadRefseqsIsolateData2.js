@@ -25,7 +25,7 @@ _.each(loadResult, function(refSeqObj) {
 		glue.command(["set", "field", "subgenus", refSeqObj.subgenus]);
 		glue.command(["set", "field", "clade", refSeqObj.clade]);
 		glue.command(["set", "field", "subtype", refSeqObj.subtype]);
+		
 	});
-
 
 });
