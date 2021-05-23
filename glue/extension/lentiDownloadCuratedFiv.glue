@@ -1,0 +1,13 @@
+
+  # Delete modules
+  delete module lentiNcbiImporterFIV
+
+  # Create modules
+  create module -f modules/extension/lentiNcbiImporterFIV.xml
+
+  # Download NCBI sequences 
+  module lentiNcbiImporterFIV import
+
+  # Export sources
+  export source ncbi-curated-fiv
+
