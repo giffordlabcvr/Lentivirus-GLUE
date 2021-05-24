@@ -1,0 +1,7 @@
+#~# Import unconstrained reference alignments
+
+module unconstrainedAlignmentImporter
+
+  import AL_UNC_SRLV_A -f alignments/tip/srlv/srlv-a.aln.fna
+  exit
+
