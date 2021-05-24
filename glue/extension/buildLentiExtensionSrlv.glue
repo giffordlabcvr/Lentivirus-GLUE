@@ -22,6 +22,9 @@
       exit
 
 	# Add curated sequences constrained alignment tree
+	run file glue/extension/lentiAlignmentsSrlv.glue
+
+	# Add curated sequences constrained alignment tree
 	run file glue/extension/lentiAlignmentTreeSrlv.glue
 	
 	# Record feature presence
