@@ -1,0 +1,144 @@
+ ## Define feature locations on SRLV subtype reference sequence
+
+  # SRLV-B1
+  reference REF_SRLV_B1_NC_001463
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9189
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 85
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 512 1858
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1729 5046
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 6012 8846
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 6012 6141 --spliceIndex 1
+      add segment 8514 8803 --spliceIndex 1
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 9105 9189
+      exit
+
+  exit 
+
+
+
+  # SRLV-B3
+  reference REF_SRLV_B3
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9148
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 85
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 567 1886
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1772 5101
+      exit
+ 
+     add feature-location vif
+    feature-location vif
+      add segment 5034 5720
+      exit
+
+           
+    add feature-location env
+    feature-location env
+      add segment 6048 8861
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 6048 6164 --spliceIndex 1
+      add segment 8522 8818 --spliceIndex 1
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8862 9148
+      exit
+
+  exit 
+
+
+
+  # SRLV-E
+  reference REF_SRLV_E
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8341
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 159
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 542 1870
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1786 4731
+      exit
+ 
+     add feature-location vif
+    feature-location vif
+      add segment 4694 5377
+      exit
+
+           
+    add feature-location env
+    feature-location env
+      add segment 5387 8164
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 5387 5483 --spliceIndex 1
+      add segment 7808 8106 --spliceIndex 1
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8114 8341
+      exit
+
+  exit 
+
+
+
+

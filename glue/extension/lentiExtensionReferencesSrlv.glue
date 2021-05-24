@@ -51,5 +51,5 @@
   create reference REF_SRLV_E2_GQ381130   ncbi-curated-srlv GQ381130
   
   # SRLV concatenated references
-  #create reference REF_SRLV_AB_AY101611  concatenated-refseqs AY101611_U64439
+  #create reference REF_SRLV_AB_AY101611  fasta-refseqs-concatenated-srlv AY101611_U64439
 
