@@ -23,7 +23,5 @@ _.each(seqIds, function(seqId) {
 		
 	});
 
-
-
 });
 
