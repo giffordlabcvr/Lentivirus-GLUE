@@ -1,4 +1,5 @@
 Number,Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype,Strain/clone,Length,Genomic region,Region
+48,M60855,Capra,United States,1980,1993,B,B1,CAEV-63,2892,Env,N. America
 26,HM212792,Capra,Mexico,2008,2010,B,B1,FESC-7,564,Env,N. America
 27,HM212793,Capra,Mexico,2008,2008,B,B1,FESC-12,561,Env,N. America
 50,U64439,Ovis,United States,1985,1996,B,B1,OvLV85/34,1664,Env,N. America
@@ -467,7 +468,7 @@ Number,Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype
 66,GU120138,Capra,China,2007,2009,B,B1,Shanxi,9065,Genome,E. Asia
 146,FJ195346,Ovis,Spain,2004,2008,B,B2,496,9136,Genome,Europe
 147,AF479638,Ovis,Portugal,1996,2002,A,A,P1OLV,9189,Genome,Europe
-190,NC_001452,Ovis,Iceland,1949,1987,A,A,kv1772,9202,Genome,Europe
+190,NC_001452,Ovis,Iceland,1949,1987,A1,A1,kv1772,9202,Genome,Europe
 230,AF322109,Capra,Norway,1991,2000,C,C,1GA,8919,Genome,Europe
 231,S51392,Ovis,United Kingdon,1984,1991,A,A,EV1,9203,Genome,Europe
 368,AY445885,Capra,Switzerland,1999,2003,A,A4,G4668,9023,Genome,Europe

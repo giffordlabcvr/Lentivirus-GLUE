@@ -9,14 +9,14 @@
     # Define extension references
     run file glue/extension/lentiExtensionReferencesSrlv.glue
 
-	# Link curated set sequences to isolate data
-	run script glue/extension/lentiLoadIsolateDataSrlv.js
-
 	# Extract data from the XML files
 	module lentiGenbankXmlPopulator populate
+
+	# Link curated set sequences to isolate data
+	run script glue/extension/lentiLoadIsolateDataSrlv.js
   
 	# Import metadata for exogenous reference sequences from tabular
-	create module -f modules/extension/srlvSideDataImporter.xml srlvSideDataImporter
+	create module -f modules/extension/lentiSideDataImporterSrlv.xml srlvSideDataImporter
 	module srlvSideDataImporter 
 	  populate -f tabular/extension/srlv-curated.csv
       exit

@@ -25,10 +25,10 @@
 		<nullRegex>NK</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
 	</textFileColumn>
-	
+
 	<textFileColumn>
 		<header>Genotype</header>
-		<property>clade</property>
+		<property>genotype</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	

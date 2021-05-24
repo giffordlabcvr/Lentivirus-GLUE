@@ -5,8 +5,9 @@
   # Create modules
   create module -f modules/extension/lentiNcbiImporterEiav.xml
 
-  # Download NCBI sequences   module lentiNcbiImporterEiav import
+  # Download NCBI sequences
   module lentiNcbiImporterEiav import
 
   # Export sources
   export source ncbi-curated-eiav
+

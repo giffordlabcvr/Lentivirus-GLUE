@@ -15,5 +15,15 @@ _.each(seqIds, function(seqId) {
     glue.inMode("sequence/ncbi-curated-srlv/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
+
+	glue.inMode("sequence/ncbi-curated-srlv/"+seqId, function() {
+	
+		glue.command(["set", "field", "species", 'SRLV']);	
+		glue.command(["set", "field", "clade", 'Ovine-Caprine']);
+		
+	});
+
+
+
 });
 
