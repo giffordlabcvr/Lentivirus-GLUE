@@ -10,7 +10,7 @@
     run file glue/extension/lentiExtensionReferencesSrlv.glue
 
     # Define feature locations for genus references
-    run file glue/extension/lentiExtensionReferencesSrlv.glue
+    run file glue/extension/lentiExtensionFeatureLocationsSrlv.glue
 
 	# Extract data from the XML files
 	module lentiGenbankXmlPopulator populate
