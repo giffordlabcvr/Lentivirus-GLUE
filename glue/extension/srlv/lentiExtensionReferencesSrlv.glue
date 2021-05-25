@@ -1,10 +1,6 @@
   
   ## Non-primate lentivirus reference sequence declarations
 
-  # SRLV reference sequence declarations
-  #create reference REF_SRLV_SRLV-A           ncbi-curated-srlv M60610
-  create reference REF_SRLV_SRLV-B           ncbi-curated-srlv M33677
-
   
   # SRLV A subtypes
   create reference REF_SRLV_A_HQ848062    ncbi-curated-srlv HQ848062
@@ -27,10 +23,11 @@
   create reference REF_SRLV_A14_JX469607  ncbi-curated-srlv JX469607
   create reference REF_SRLV_A15_JQ611029  ncbi-curated-srlv JQ611029
 
+  # SRLV A/B?
   #create reference REF_SRLV_AB_AY101611  fasta-refseqs-concatenated-srlv AY101611_U64439
   
   # SRLV B subtypes
-  create reference REF_SRLV_B_NC_001463   ncbi-curated-srlv NC_001463
+  create reference REF_SRLV_B             ncbi-curated-srlv NC_001463
   create reference REF_SRLV_B_HM210570    ncbi-curated-srlv HM210570
   create reference REF_SRLV_B_GU120138    ncbi-curated-srlv GU120138
   create reference REF_SRLV_B_FJ195346    ncbi-curated-srlv FJ195346
@@ -54,7 +51,7 @@
   create reference REF_SRLV_B3_JF502417   ncbi-curated-srlv JF502417
   
   # SRLV-F?
-  create reference REF_SRLV_F_KT898826    ncbi-curated-srlv KT898826
+  create reference REF_SRLV_F             ncbi-curated-srlv KT898826
   
 
 
