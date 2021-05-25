@@ -53,3 +53,6 @@
   # SRLV concatenated references
   #create reference REF_SRLV_AB_AY101611  fasta-refseqs-concatenated-srlv AY101611_U64439
 
+      add segment 336 1634 
+      add segment 1635 1639 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1640 4642 --spliceIndex 3
