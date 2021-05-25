@@ -6,25 +6,12 @@
   create reference REF_SRLV_SRLV-B           ncbi-curated-srlv M33677
 
   
-  # SRLV genotypes
-  #create reference REF_SRLV_A_NC_001452   ncbi-curated-srlv NC_001452
+  # SRLV A subtypes
   create reference REF_SRLV_A_HQ848062    ncbi-curated-srlv HQ848062
   create reference REF_SRLV_A_M31646      ncbi-curated-srlv M31646
   create reference REF_SRLV_A_AY445885    ncbi-curated-srlv AY445885
   create reference REF_SRLV_A_S51392      ncbi-curated-srlv S51392
-  create reference REF_SRLV_A_AF479638    ncbi-curated-srlv AF479638 
-  create reference REF_SRLV_B_NC_001463   ncbi-curated-srlv NC_001463
-  create reference REF_SRLV_B_HM210570    ncbi-curated-srlv HM210570
-  create reference REF_SRLV_B_GU120138    ncbi-curated-srlv GU120138
-  create reference REF_SRLV_B_FJ195346    ncbi-curated-srlv FJ195346
-  create reference REF_SRLV_C_AF322109    ncbi-curated-srlv AF322109
-  create reference REF_SRLV_E_EU293537    ncbi-curated-srlv EU293537
-  create reference REF_SRLV_E_GQ381130    ncbi-curated-srlv GQ381130
-  create reference REF_SRLV_F_KT898826    ncbi-curated-srlv KT898826
-  #create reference REF_SRLV_D_DQ632733    ncbi-curated-srlv DQ632733
-
-
-  # SRLV-A subtypes
+  create reference REF_SRLV_A_AF479638    ncbi-curated-srlv AF479638
   create reference REF_SRLV_A4_AY445885   ncbi-curated-srlv AY445885
   create reference REF_SRLV_A2_HQ848062   ncbi-curated-srlv HQ848062  
   create reference REF_SRLV_A1_NC_001452  ncbi-refseqs NC_001452
@@ -40,24 +27,34 @@
   create reference REF_SRLV_A14_JX469607  ncbi-curated-srlv JX469607
   create reference REF_SRLV_A15_JQ611029  ncbi-curated-srlv JQ611029
 
-
-  # SRLV-B subtypes
-  create reference REF_SRLV_B             ncbi-curated-srlv NC_001463
+  #create reference REF_SRLV_AB_AY101611  fasta-refseqs-concatenated-srlv AY101611_U64439
+  
+  # SRLV B subtypes
+  create reference REF_SRLV_B_NC_001463   ncbi-curated-srlv NC_001463
+  create reference REF_SRLV_B_HM210570    ncbi-curated-srlv HM210570
+  create reference REF_SRLV_B_GU120138    ncbi-curated-srlv GU120138
+  create reference REF_SRLV_B_FJ195346    ncbi-curated-srlv FJ195346
   create reference REF_SRLV_B1_HM210570   ncbi-curated-srlv HM210570
   create reference REF_SRLV_B1_GU120138   ncbi-curated-srlv GU120138
   create reference REF_SRLV_B2_FJ195346   ncbi-curated-srlv FJ195346
+ 
+  # SRLV-C   
+  create reference REF_SRLV_C             ncbi-curated-srlv AF322109
+
+  # SRLV-D (suspect)
+  #create reference REF_SRLV_D_DQ632733    ncbi-curated-srlv DQ632733
   
-
-  # SRLV-B3 subtypes  
-  create reference REF_SRLV_B3            ncbi-curated-srlv JF502416
-  create reference REF_SRLV_B3_JF502417   ncbi-curated-srlv JF502417
-
-
-  # SRLV-E subtypes
+  # SRLV-E 
   create reference REF_SRLV_E             ncbi-curated-srlv EU293537
   create reference REF_SRLV_E2_GQ381130   ncbi-curated-srlv GQ381130
+  create reference REF_SRLV_E_GQ381130    ncbi-curated-srlv GQ381130
 
+  # SRLV-B3   
+  create reference REF_SRLV_B3            ncbi-curated-srlv JF502416
+  create reference REF_SRLV_B3_JF502417   ncbi-curated-srlv JF502417
   
-  # SRLV concatenated references
-  #create reference REF_SRLV_AB_AY101611  fasta-refseqs-concatenated-srlv AY101611_U64439
+  # SRLV-F?
+  create reference REF_SRLV_F_KT898826    ncbi-curated-srlv KT898826
+  
+
 
