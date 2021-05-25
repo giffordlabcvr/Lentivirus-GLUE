@@ -1,0 +1,129 @@
+ ## Define feature locations on SRLV subtype reference sequence
+
+  # FIV
+  reference REF_FIV_ple_EU117992
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9222
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 397
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 703 2199
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2004 5450
+      exit
+           
+    add feature-location vif
+    feature-location vif
+      add segment 5447 6211
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 6532 9222
+      exit
+           
+
+  exit 
+
+
+
+  # FIV
+  reference REF_FIV_oma_U56928
+
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9222
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 397
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 703 2199
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2004 5450
+      exit
+           
+    add feature-location vif
+    feature-location vif
+      add segment 5447 6211
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 6532 9222
+      exit
+           
+
+  exit 
+
+
+Begin Metadata;
+name             = FIVfca;
+full_name        = Feline immunodeficiency virus (FIV);
+virus_family     = Retroviridae;
+virus_subfamily  = Orthoretrovirinae;
+virus_supertribe = Mintakaretrovirinae;
+virus_tribe      = Lenti;
+virus_genus      = Lentivirus;
+virus_subgroup   = Feline;
+genome_coverage  = complete;
+genome_state     = exogenous;
+sequence_type    = locus;
+host_sci_name    = Felis_catus;
+host_common_name = Domestic cat;
+accession        = M25381.1;
+Endblock;
+
+Begin Features;
+ORF	gag	gag	628	1980
+ORF	polyermase	pol	1980	5243
+ORF	envelope	env	6266	8836
+Endblock;
+
+
+
+Begin Metadata;
+name             = FIVpco;
+full_name        = Feline immunodeficiency virus (Puma);
+virus_family     = Retroviridae;
+virus_subfamily  = Orthoretrovirinae;
+virus_supertribe = Mintakaretrovirinae;
+virus_tribe      = Lenti;
+virus_genus      = Lentivirus;
+virus_subgroup   = Feline;
+genome_coverage  = complete;
+genome_state     = exogenous;
+sequence_type    = locus;
+host_sci_name    = Puma_concolor;
+host_common_name = Puma;
+accession        = EF455613;
+Endblock;
+
+Begin Features;
+UTR	LTR	LTR	1	330
+ORF	gag	gag	663	2051
+ORF	pol	pol	1913	5350
+ORF	vif	vif	5325	6044
+ORF	orfA	orfa	6074	6394
+ORF	env	env	6367	8805
+ORF	rev	rev	8694	8858
+Endblock;

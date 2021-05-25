@@ -2,9 +2,7 @@
   create module -f modules/core/lentiGenbankXmlPopulator.xml
   create module -f modules/core/lentiGagPolTranslationModifier.xml
   create module -f modules/core/lentiTabularUtility.xml
+  create module -f modules/core/lentiCompoundAligner.xml 
 
   # Importers 
   create module -f modules/core/unconstrainedAlignmentImporter.xml
-
-  # Extension modules 
-  create module -f modules/extension/lentiCompoundAligner.xml 
