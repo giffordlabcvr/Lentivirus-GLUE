@@ -1,40 +1,40 @@
   project lentivirus
 
     # Delete previous extension build
-    #run file glue/extension/lentiDeleteExtensionBuildSrlv.glue
+    #run file glue/extension/srlv/lentiDeleteExtensionBuildSrlv.glue
 
     # Import sources
-    run file glue/extension/lentiExtensionSourcesSrlv.glue
+    run file glue/extension/srlv/lentiExtensionSourcesSrlv.glue
 
     # Define extension references
-    run file glue/extension/lentiExtensionReferencesSrlv.glue
+    run file glue/extension/srlv/lentiExtensionReferencesSrlv.glue
 
     # Define feature locations for genus references
-    run file glue/extension/lentiExtensionFeatureLocationsSrlv.glue
+    run file glue/extension/srlv/lentiExtensionFeatureLocationsSrlv.glue
 
 	# Extract data from the XML files
 	module lentiGenbankXmlPopulator populate
 
 	# Link curated set sequences to isolate data
-	run script glue/extension/lentiLoadIsolateDataSrlv.js
+	run script glue/extension/srlv/lentiLoadIsolateDataSrlv.js
   
 	# Import metadata for exogenous reference sequences from tabular
-	create module -f modules/extension/lentiSideDataImporterSrlv.xml srlvSideDataImporter
+	create module -f modules/extension/srlv/lentiSideDataImporterSrlv.xml srlvSideDataImporter
 	module srlvSideDataImporter 
 	  populate -f tabular/extension/srlv-curated.csv
       exit
 
 	# Add curated sequences constrained alignment tree
-	run file glue/extension/lentiAlignmentsSrlv.glue
+	run file glue/extension/srlv/lentiAlignmentsSrlv.glue
 
 	# Add curated sequences constrained alignment tree
-	run file glue/extension/lentiAlignmentTreeSrlv.glue
+	run file glue/extension/srlv/lentiAlignmentTreeSrlv.glue
 	
 	# Record feature presence
-	run file glue/extension/lentiRecordFeaturePresenceSrlv.glue
+	run file glue/extension/srlv/lentiRecordFeaturePresenceSrlv.glue
 
 	# Create phylogenies
-	run file glue/extension/lentiCreatePhylogeniesSrlv.glue
+	run file glue/extension/srlv/lentiCreatePhylogeniesSrlv.glue
 
 	# Validate
 	validate

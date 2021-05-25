@@ -13,8 +13,8 @@
   run file glue/core/buildLentiCore.glue
 
   # Build species-level extension projects
-  run file glue/extension/buildLentiExtensionSrlv.glue
-  #run file glue/extension/buildLentiExtensionEiav.glue
-  #run file glue/extension/buildLentiExtensionBiv.glue
-  #run file glue/extension/buildLentiExtensionFiv.glue
+  run file glue/extension/srlv/buildLentiExtensionSrlv.glue
+  #run file glue/extension/eiav/buildLentiExtensionEiav.glue
+  #run file glue/extension/biv/buildLentiExtensionBiv.glue
+  #run file glue/extension/fiv/buildLentiExtensionFiv.glue
 
