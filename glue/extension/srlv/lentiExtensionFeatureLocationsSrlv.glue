@@ -1,7 +1,7 @@
  ## Define feature locations on SRLV subtype reference sequence
 
   # SRLV-B1
-  reference REF_SRLV_B1_NC_001463
+  reference REF_SRLV_B
 
     add feature-location whole_genome
     feature-location whole_genome
