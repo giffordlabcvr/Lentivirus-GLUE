@@ -7,13 +7,13 @@
     <aminoAcidRegionSelector>
         <featureName>IN</featureName>
         <startCodon>1</startCodon>
-        <endCodon>416</endCodon>
+        <endCodon>283</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>IN</featureName>
-        <startNt>4795</startNt>
-        <endNt>6040</endNt>
+        <startNt>4157</startNt>
+        <endNt>5003</endNt>
     </nucleotideRegionSelector>
 
 </alignmentColumnsSelector>

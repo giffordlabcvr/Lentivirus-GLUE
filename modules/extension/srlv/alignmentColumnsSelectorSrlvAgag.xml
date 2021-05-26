@@ -4,15 +4,15 @@
     <relRefName>REF_SRLV_A</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>matrix</featureName>
+        <featureName>gag</featureName>
         <startCodon>1</startCodon>
-        <endCodon>307</endCodon>
+        <endCodon>489</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>matrix</featureName>
-        <startNt>907</startNt>
-        <endNt>1825</endNt>
+        <featureName>gag</featureName>
+        <startNt>443</startNt>
+        <endNt>1815</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
