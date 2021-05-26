@@ -1,40 +1,46 @@
   project lentivirus
 
     # Delete previous extension build
-    run file glue/extension/lentiDeleteExtensionBuild.glue
+    #run file glue/extension/fiv/deleteExtensionBuildFiv.glue
 
     # Import sources
-    run file glue/extension/lentiExtensionSources.glue
+    run file glue/extension/fiv/sourcesFiv.glue
 
     # Define extension references
-    run file glue/extension/lentiExtensionReferences.glue
+    run file glue/extension/fiv/ReferencesFiv.glue
 
-	# Link curated set sequences to isolate data
-	run script glue/extension/lentiLoadCuratedIsolateData1.js
+    # Define feature locations for genus references
+    run file glue/extension/fiv/featureLocationsFiv.glue
 
 	# Extract data from the XML files
 	module lentiGenbankXmlPopulator populate
+
+	# Link curated set sequences to isolate data
+	run script glue/extension/fiv/loadIsolateDataFiv.js
   
 	# Import metadata for exogenous reference sequences from tabular
-	create module -f modules/extension/srlvSideDataImporter.xml srlvSideDataImporter
-	module srlvSideDataImporter 
-	  populate -f tabular/extension/srlv-curated.csv
+	create module -f modules/extension/fiv/sideDataImporterFiv.xml fivSideDataImporter
+	module fivSideDataImporter 
+	  populate -f tabular/extension/fiv-curated.csv
       exit
 
 	# Add curated sequences constrained alignment tree
-	run file glue/extension/lentiExtensionAlignmentTree.glue
-	
-	# Create alignments
-	run file glue/extension/lentivirusCreateAlignments.glue
+	run file glue/extension/fiv/unconstrainedAlignmentsFiv.glue
 
-	# Create alignments
-	run file glue/extension/lentiRecordFeaturePresence.glue
+	# Add curated sequences constrained alignment tree
+	run file glue/extension/fiv/alignmentTreeFiv.glue
+	
+	# Compute alignments
+	run file glue/extension/fiv/createAlignmentsFiv.glue
+	
+	# Inherit feature locations
+	run file glue/extension/fiv/inheritFeatureLocationFiv.glue
+	
+	# Record feature presence
+	run file glue/extension/fiv/recordFeaturePresenceFiv.glue
 
 	# Create phylogenies
-	run file glue/extension/lentiCreatePhylogeniesBiv.glue
-	run file glue/extension/lentiCreatePhylogeniesFiv.glue
-	run file glue/extension/lentiCreatePhylogeniesEiav.glue
-	#run file glue/extension/lentiCreatePhylogeniesSrlv.glue
+	run file glue/extension/fiv/createPhylogeniesFiv.glue
 
 	# Validate
 	validate

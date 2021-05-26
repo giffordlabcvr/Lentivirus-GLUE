@@ -1,42 +1,13 @@
 
 
-reference REF_SRLV_B
+reference REF_SRLV_A
 
-  inherit feature-location AL_SRLV_A matrix
-  inherit feature-location AL_SRLV_A capsid
-  inherit feature-location AL_SRLV_A nucleocapsid
-  inherit feature-location AL_SRLV_A RT
-  inherit feature-location AL_SRLV_A IN
-
-  exit
-
-reference REF_SRLV_C
-
-  inherit feature-location AL_SRLV_C matrix
-  inherit feature-location AL_SRLV_C capsid
-  inherit feature-location AL_SRLV_C nucleocapsid
-  inherit feature-location AL_SRLV_C RT
-  inherit feature-location AL_SRLV_C IN
+  inherit feature-location AL_SRLV matrix
+  inherit feature-location AL_SRLV capsid
+  inherit feature-location AL_SRLV nucleocapsid
+  inherit feature-location AL_SRLV RT
+  inherit feature-location AL_SRLV IN
 
   exit
 
-reference REF_SRLV_B3
-
-  inherit feature-location AL_SRLV_B3 matrix
-  inherit feature-location AL_SRLV_B3 capsid
-  inherit feature-location AL_SRLV_B3 nucleocapsid
-  inherit feature-location AL_SRLV_B3 RT
-  inherit feature-location AL_SRLV_B3 IN
-
-  exit
-
-reference REF_SRLV_E
-
-  inherit feature-location AL_SRLV_E matrix
-  inherit feature-location AL_SRLV_E capsid
-  inherit feature-location AL_SRLV_E nucleocapsid
-  inherit feature-location AL_SRLV_E RT
-  inherit feature-location AL_SRLV_E IN
-
-  exit
-
+ 

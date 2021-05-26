@@ -1,21 +1,21 @@
 
-#~# Import unconstrained reference alignments
-module unconstrainedAlignmentImporter
+  #~# Import unconstrained reference alignments
+  module unconstrainedAlignmentImporter
 
-  import AL_UNC_SRLV -f alignments/internal/srlv.aln.fna
-  
-  exit
-
-
+	import AL_UNC_SRLV -f alignments/internal/srlv.aln.fna
+ 
+	exit
 
 
-#~# Import genotype-level unconstrained reference alignments
-module unconstrainedAlignmentImporter
 
-  import AL_UNC_SRLV_A -f alignments/tip/srlv/srlv-a.aln.fna
-  import AL_UNC_SRLV_B -f alignments/tip/srlv/srlv-b.aln.fna
-  import AL_UNC_SRLV_C -f alignments/tip/srlv/srlv-c.aln.fna
-  import AL_UNC_SRLV_E -f alignments/tip/srlv/srlv-e.aln.fna
 
-  exit
+  #~# Import genotype-level unconstrained reference alignments
+  module unconstrainedAlignmentImporter
+
+	import AL_UNC_SRLV_A -f alignments/tip/srlv/srlv-a.aln.fna
+	import AL_UNC_SRLV_B -f alignments/tip/srlv/srlv-b.aln.fna
+	import AL_UNC_SRLV_C -f alignments/tip/srlv/srlv-c.aln.fna
+	import AL_UNC_SRLV_E -f alignments/tip/srlv/srlv-e.aln.fna
+
+	exit
 

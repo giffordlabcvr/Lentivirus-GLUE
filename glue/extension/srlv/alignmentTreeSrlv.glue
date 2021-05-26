@@ -30,26 +30,3 @@
     #demote member AL_SRLV_F --whereClause "sequence.genotype = 'F'" 
     exit
 
-        
-  # Compute constrained alignments
-    
-  alignment AL_SRLV_A
-    derive segments AL_UNC_SRLV_A --whereClause "sequence.genotype = 'A'" --existingMembersOnly --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_SRLV_B
-    derive segments AL_UNC_SRLV_B --whereClause "sequence.genotype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
-    exit
-
-  #alignment AL_SRLV_B3
-  #  derive segments AL_UNC_SRLV_B3 --whereClause "sequence.genotype = 'B3'" --existingMembersOnly --mergeStrategy OVERWRITE
-  #  exit
-
-  alignment AL_SRLV_C
-    derive segments AL_UNC_SRLV_C --whereClause "sequence.genotype = 'C'" --existingMembersOnly --mergeStrategy OVERWRITE
-    exit
-
-  alignment AL_SRLV_E
-    derive segments AL_UNC_SRLV_E --whereClause "sequence.genotype = 'E'" --existingMembersOnly --mergeStrategy OVERWRITE
-    exit
-
