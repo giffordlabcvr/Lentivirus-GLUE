@@ -1,3 +1,73 @@
+  # Define features on the master reference
+
+  reference REF_FIV_M25381
+FIVfca
+ORF	gag	gag	628	1980
+ORF	polyermase	pol	1980	5243
+ORF	envelope	env	6266	8836
+
+  exit  
+  
+REF_FIV	Clade II	Lentivirus	gag	633	1985
+REF_FIV	Clade II	Lentivirus	pol	1874	5428
+REF_FIV	Clade II	Lentivirus	env	6271	8841
+
+
+Begin Metadata;
+name             = FIVpco;
+full_name        = Feline immunodeficiency virus (Puma);
+virus_family     = Retroviridae;
+virus_subfamily  = Orthoretrovirinae;
+virus_supertribe = Mintakaretrovirinae;
+virus_tribe      = Lenti;
+virus_genus      = Lentivirus;
+virus_subgroup   = Feline;
+genome_coverage  = complete;
+genome_state     = exogenous;
+sequence_type    = locus;
+host_sci_name    = Puma_concolor;
+host_common_name = Puma;
+accession        = EF455613;
+Endblock;
+
+Begin Features;
+UTR	LTR	LTR	1	330
+ORF	gag	gag	663	2051
+ORF	pol	pol	1913	5350
+ORF	vif	vif	5325	6044
+ORF	orfA	orfa	6074	6394
+ORF	env	env	6367	8805
+ORF	rev	rev	8694	8858
+Endblock;
+
+
+Begin Metadata;
+name             = FIVple;
+full_name        = Feline immunodeficiency virus (Lion);
+virus_family     = Retroviridae;
+virus_subfamily  = Orthoretrovirinae;
+virus_supertribe = Mintakaretrovirinae;
+virus_tribe      = Lenti;
+virus_genus      = Lentivirus;
+virus_subgroup   = Feline;
+genome_coverage  = complete;
+genome_state     = exogenous;
+sequence_type    = locus;
+host_sci_name    = Panthera_leo;
+host_common_name = Lion;
+accession        = EU117992;
+Endblock;
+
+Begin Features;
+UTR	LTR	LTR	1	397
+ORF	gag	gag	703	2199
+ORF	pol	pol	2004	5450
+ORF	vif	vif	5447	6211
+ORF	orfA	orfa	6198	6452
+ORF	env	env	6532	9222
+Endblock;
+
+
  ## Define feature locations on SRLV subtype reference sequence
 
   # FIV
