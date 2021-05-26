@@ -1,0 +1,55 @@
+  alignment AL_ROOT
+  
+    set field displayName "Small ruminant lentivirus (SRLV)"
+    
+    # reference sequences
+    add member -w "species like 'SRLV%'"
+    demote member AL_SRLV  -w  "sequence.species like 'SRLV%' and sequence.source.name = 'ncbi-curated-srlv'"
+
+    exit
+    
+
+  alignment AL_SRLV  
+
+    extract child AL_SRLV_A --refName REF_SRLV_A
+    demote member AL_SRLV_A --whereClause "sequence.subtype like 'A%'" 
+
+    extract child AL_SRLV_B3 --refName REF_SRLV_B3
+    demote member AL_SRLV_B3 --whereClause "sequence.subtype = 'B3'" 
+	
+    extract child AL_SRLV_B --refName REF_SRLV_B
+    demote member AL_SRLV_B --whereClause "sequence.subtype like 'B%'" 
+
+    extract child AL_SRLV_C --refName REF_SRLV_C
+    demote member AL_SRLV_C --whereClause "sequence.genotype = 'C'" 
+
+    extract child AL_SRLV_E --refName REF_SRLV_E
+    demote member AL_SRLV_E --whereClause "sequence.genotype = 'E'" 
+
+    #extract child AL_SRLV_F --refName REF_SRLV_F_KT898826
+    #demote member AL_SRLV_F --whereClause "sequence.genotype = 'F'" 
+    exit
+
+        
+  # Compute constrained alignments
+    
+  alignment AL_SRLV_A
+    derive segments AL_UNC_SRLV_A --whereClause "sequence.genotype = 'A'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_SRLV_B
+    derive segments AL_UNC_SRLV_B --whereClause "sequence.genotype = 'B'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  #alignment AL_SRLV_B3
+  #  derive segments AL_UNC_SRLV_B3 --whereClause "sequence.genotype = 'B3'" --existingMembersOnly --mergeStrategy OVERWRITE
+  #  exit
+
+  alignment AL_SRLV_C
+    derive segments AL_UNC_SRLV_C --whereClause "sequence.genotype = 'C'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+
+  alignment AL_SRLV_E
+    derive segments AL_UNC_SRLV_E --whereClause "sequence.genotype = 'E'" --existingMembersOnly --mergeStrategy OVERWRITE
+    exit
+

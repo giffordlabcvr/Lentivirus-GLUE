@@ -1,40 +1,46 @@
   project lentivirus
 
     # Delete previous extension build
-    #run file glue/extension/srlv/lentiDeleteExtensionBuildSrlv.glue
+    #run file glue/extension/srlv/deleteExtensionBuildSrlv.glue
 
     # Import sources
-    run file glue/extension/srlv/lentiExtensionSourcesSrlv.glue
+    run file glue/extension/srlv/sourcesSrlv.glue
 
     # Define extension references
-    run file glue/extension/srlv/lentiExtensionReferencesSrlv.glue
+    run file glue/extension/srlv/ReferencesSrlv.glue
 
     # Define feature locations for genus references
-    run file glue/extension/srlv/lentiExtensionFeatureLocationsSrlv.glue
+    run file glue/extension/srlv/featureLocationsSrlv.glue
 
 	# Extract data from the XML files
 	module lentiGenbankXmlPopulator populate
 
 	# Link curated set sequences to isolate data
-	run script glue/extension/srlv/lentiLoadIsolateDataSrlv.js
+	run script glue/extension/srlv/loadIsolateDataSrlv.js
   
 	# Import metadata for exogenous reference sequences from tabular
-	create module -f modules/extension/srlv/lentiSideDataImporterSrlv.xml srlvSideDataImporter
+	create module -f modules/extension/srlv/sideDataImporterSrlv.xml srlvSideDataImporter
 	module srlvSideDataImporter 
 	  populate -f tabular/extension/srlv-curated.csv
       exit
 
 	# Add curated sequences constrained alignment tree
-	run file glue/extension/srlv/lentiAlignmentsSrlv.glue
+	run file glue/extension/srlv/unconstrainedAlignmentsSrlv.glue
 
 	# Add curated sequences constrained alignment tree
-	run file glue/extension/srlv/lentiAlignmentTreeSrlv.glue
+	run file glue/extension/srlv/alignmentTreeSrlv.glue
+	
+	# Compute alignments
+	run file glue/extension/srlv/createAlignmentsSrlv.glue
+	
+	# Inherit feature locations
+	run file glue/extension/srlv/inheritFeatureLocationSrlv.glue
 	
 	# Record feature presence
-	run file glue/extension/srlv/lentiRecordFeaturePresenceSrlv.glue
+	run file glue/extension/srlv/recordFeaturePresenceSrlv.glue
 
 	# Create phylogenies
-	run file glue/extension/srlv/lentiCreatePhylogeniesSrlv.glue
+	run file glue/extension/srlv/createPhylogeniesSrlv.glue
 
 	# Validate
 	validate

@@ -1,5 +1,5 @@
 #~# Define constrained alignment tree
-create alignment AL_ROOT -r REF_HIV-1M
+create alignment AL_ROOT -r REF_HIV_1M
 alignment AL_ROOT
 
   set field displayName "Lentivirus"
@@ -7,13 +7,13 @@ alignment AL_ROOT
   # Add all members
   add member -a
 
-  extract child AL_PLV      --refName REF_HIV-1M
+  extract child AL_PLV      --refName REF_HIV_1M
   demote member AL_PLV      --whereClause "sequence.subgenus = 'Primate'"
  
   extract child AL_FIV      --refName REF_FIV
   demote member AL_FIV      --whereClause "sequence.species = 'FIV'"
 
-  extract child AL_SRLV     --refName REF_SRLV-A
+  extract child AL_SRLV     --refName REF_SRLV_A
   demote member AL_SRLV     --whereClause "sequence.species = 'SRLV'"
 
   extract child AL_BIV      --refName REF_BIV

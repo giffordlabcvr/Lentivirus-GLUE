@@ -13,7 +13,7 @@
   
   
   # Create all the modules we need
-  create module -f modules/extension/srlvFeaturePresenceRecorder.xml
+  create module -f modules/extension/featurePresenceRecorderSrlv.xml
   create module -f modules/extension/fastaAlignmentExporter.xml
   create module -f modules/extension/srlvTreeAlignmentImporterNucs.xml
   create module -f modules/extension/srlvPhyloUtility.xml

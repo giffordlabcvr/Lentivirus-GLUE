@@ -1,5 +1,15 @@
-#~# Import unconstrained reference alignments
 
+#~# Import unconstrained reference alignments
+module unconstrainedAlignmentImporter
+
+  import AL_UNC_SRLV -f alignments/internal/srlv.aln.fna
+  
+  exit
+
+
+
+
+#~# Import genotype-level unconstrained reference alignments
 module unconstrainedAlignmentImporter
 
   import AL_UNC_SRLV_A -f alignments/tip/srlv/srlv-a.aln.fna

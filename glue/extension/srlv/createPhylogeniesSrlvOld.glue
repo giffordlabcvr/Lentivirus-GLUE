@@ -20,17 +20,17 @@
   create module -t raxmlPhylogenyGenerator
 
   module fastaAlignmentExporter
- 	export AL_SRLV -r REF_SRLV -f 5LTR -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/SRLV_5LTR.aln.fna
- 	export AL_SRLV -r REF_SRLV -f Gag -w "fLocNotes.featureLoc.feature.name = 'Gag' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/SRLV_Gag.aln.fna
- 	export AL_SRLV -r REF_SRLV -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/SRLV_Pol.aln.fna
- 	export AL_SRLV -r REF_SRLV -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignment/tree/SRLV_Env.aln.fna
+ 	export AL_SRLV -r REF_SRLV_A -f 5LTR -w "fLocNotes.featureLoc.feature.name = '5LTR' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignments/tree/SRLV_5LTR.aln.fna
+ 	export AL_SRLV -r REF_SRLV_A -f Gag -w "fLocNotes.featureLoc.feature.name = 'Gag' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignments/tree/SRLV_Gag.aln.fna
+ 	export AL_SRLV -r REF_SRLV_A -f Pol -w "fLocNotes.featureLoc.feature.name = 'Pol' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignments/tree/SRLV_Pol.aln.fna
+ 	export AL_SRLV -r REF_SRLV_A -f Env -w "fLocNotes.featureLoc.feature.name = 'Env' and fLocNotes.ref_nt_coverage_pct >= 30" -e -o alignments/tree/SRLV_Env.aln.fna
  	exit
 
   # Import the alignments to GLUE
-  module lentiTreeAlignmentImporterNucs import AL_UNC_SRLV_5LTR -f alignment/tree/SRLV_5LTR.aln.fna
-  module lentiTreeAlignmentImporterNucs import AL_UNC_SRLV_Gag -f alignment/tree/SRLV_Gag.aln.fna
-  module lentiTreeAlignmentImporterNucs import AL_UNC_SRLV_Pol -f alignment/tree/SRLV_Pol.aln.fna
-  module lentiTreeAlignmentImporterNucs import AL_UNC_SRLV_Env -f alignment/tree/SRLV_Env.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_SRLV_5LTR -f alignments/tree/SRLV_5LTR.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_SRLV_Gag -f alignments/tree/SRLV_Gag.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_SRLV_Pol -f alignments/tree/SRLV_Pol.aln.fna
+  module lentiTreeAlignmentImporterNucs import AL_UNC_SRLV_Env -f alignments/tree/SRLV_Env.aln.fna
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator

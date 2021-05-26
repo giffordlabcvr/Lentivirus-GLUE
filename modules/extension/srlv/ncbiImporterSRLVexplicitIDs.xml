@@ -6,6 +6,9 @@
   <specificPrimaryAccessions>
 	
 	 <primaryAccession>M60855</primaryAccession>
+	 <primaryAccession>M10608</primaryAccession>
+
+	 <primaryAccession>L06906</primaryAccession>
 	 <primaryAccession>HM212792</primaryAccession>
 	 <primaryAccession>HM212793</primaryAccession>
 	 <primaryAccession>U64439</primaryAccession>
@@ -476,7 +479,7 @@
 	 <primaryAccession>GU120138</primaryAccession>
 	 <primaryAccession>FJ195346</primaryAccession>
 	 <primaryAccession>AF479638</primaryAccession>
-	 <primaryAccession>NC_001452</primaryAccession>
+
 	 <primaryAccession>AF322109</primaryAccession>
 	 <primaryAccession>S51392</primaryAccession>
 	 <primaryAccession>AY445885</primaryAccession>
