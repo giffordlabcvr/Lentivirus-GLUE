@@ -22,7 +22,27 @@
     feature-location pro-pol
       add segment 1729 5046
       exit
-           
+
+    add feature-location pro
+    feature-location pro
+      add segment 1729 2172
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2173 5046
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5006 5695
+      exit
+ 
+    add feature-location tat
+    feature-location tat
+      add segment 5688 5951
+      exit
+          
     add feature-location env
     feature-location env
       add segment 6012 8846
@@ -31,7 +51,7 @@
     add feature-location rev
     feature-location rev
       add segment 6012 6141 --spliceIndex 1
-      add segment 8514 8803 --spliceIndex 1
+      add segment 8514 8803 --spliceIndex 2
       exit
 
     add feature-location 3LTR
@@ -66,6 +86,16 @@
       add segment 1772 5101
       exit
  
+    add feature-location pro
+    feature-location pro
+      add segment 1772 2200
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2201 5101
+      exit
+ 
      add feature-location vif
     feature-location vif
       add segment 5034 5720
@@ -80,12 +110,69 @@
     add feature-location rev
     feature-location rev
       add segment 6048 6164 --spliceIndex 1
-      add segment 8522 8818 --spliceIndex 1
+      add segment 8522 8818 --spliceIndex 2
       exit
 
     add feature-location 3LTR
     feature-location 3LTR
       add segment 8862 9148
+      exit
+
+  exit 
+
+
+  # SRLV-C
+  reference REF_SRLV_C
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8919
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 85
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 577 1875
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1737 2189
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1737 5060
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2190 5060
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5020 5709
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5702 5956
+      exit
+        
+    add feature-location env
+    feature-location env
+      add segment 6004 8553
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 6004 6046 --spliceIndex 1
+      add segment 8287 8564 --spliceIndex 2
       exit
 
   exit 
@@ -97,29 +184,39 @@
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 8341
+      add segment 1 8418
       exit
 
     add feature-location 5LTR
     feature-location 5LTR
-      add segment 1 159
+      add segment 1 156
       exit
          
     add feature-location gag
     feature-location gag
-      add segment 542 1870
+      add segment 573 1901
       exit
 
     add feature-location pro-pol
     feature-location pro-pol
-      add segment 1786 4731
+      add segment 1817 4750
       exit
  
-     add feature-location vif
-    feature-location vif
-      add segment 4694 5377
+    add feature-location pro
+    feature-location pro
+      add segment 1817 2263
       exit
 
+
+    add feature-location pol
+    feature-location pol
+      add segment 2264 4750
+      exit
+ 
+    add feature-location vif
+     feature-location vif
+      add segment 4713 5396
+      exit
            
     add feature-location env
     feature-location env
@@ -128,13 +225,13 @@
            
     add feature-location rev
     feature-location rev
-      add segment 5387 5483 --spliceIndex 1
-      add segment 7808 8106 --spliceIndex 1
+      add segment 5418 5469 --spliceIndex 1
+      add segment 7794 8110 --spliceIndex 1
       exit
 
     add feature-location 3LTR
     feature-location 3LTR
-      add segment 8114 8341
+      add segment 8326 8418
       exit
 
   exit 

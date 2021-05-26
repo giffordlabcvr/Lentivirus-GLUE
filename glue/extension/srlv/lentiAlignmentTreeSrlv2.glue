@@ -11,7 +11,7 @@
 
   alignment AL_SRLV  
 
-    extract child AL_SRLV_A --refName REF_SRLV-A
+    extract child AL_SRLV_A --refName REF_SRLV_A
     demote member AL_SRLV_A --whereClause "sequence.subtype like 'A%'" 
 
     extract child AL_SRLV_B3 --refName REF_SRLV_B3
@@ -40,7 +40,7 @@
 
   alignment AL_SRLV_A
      
-    extract child AL_SRLV_A1  --refName REF_SRLV-A
+    extract child AL_SRLV_A1  --refName REF_SRLV_A
     demote member AL_SRLV_A1  --whereClause "sequence.subtype = 'A1'"
 
     #extract child AL_SRLV_A2  --refName REF_SRLV_A2_HQ848062 

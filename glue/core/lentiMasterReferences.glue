@@ -1,202 +1,8 @@
   ## Reference sequence declarations
 
-  # Feline
-  create reference REF_FIV ncbi-refseqs M25381
-  reference REF_FIV
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 9474
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 355
-      exit
-         
-    add feature-location PBS
-    feature-location PBS
-      add segment 357 377
-      exit   
-         
-    add feature-location gag
-    feature-location gag
-      add segment 628 1980
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 2055 5240
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 2055 2300
-      exit
-
-    add feature-location pol
-    feature-location pol
-      add segment 2301 5240
-      exit
-      
-    add feature-location vif
-    feature-location vif
-      add segment 5236 5991
-      exit
-
-    add feature-location env
-    feature-location env
-      add segment 6266 8836
-      exit
-
-    add feature-location 3LTR
-    feature-location 3LTR
-      add segment 9120 9474
-      exit
-       
-  exit 
-
-
-  # Equine
-  create reference REF_EIAV ncbi-refseqs M16575
-  reference REF_EIAV
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 8270
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 321
-      exit
-         
-    add feature-location PBS
-    feature-location PBS
-      add segment 325 342
-      exit   
-
-    add feature-location gag
-    feature-location gag
-      add segment 465 1925
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1682 5122
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 1682 2266
-      exit
-
-    add feature-location pol
-    feature-location pol
-      add segment 2267 5122
-      exit
-           
-    add feature-location env
-    feature-location env
-      add segment 5311 7890
-      exit
-
-    add feature-location 3LTR
-    feature-location 3LTR
-      add segment 7909 8229
-      exit
-      
-  exit 
-
- 
-  # Bovine
-  create reference REF_BIV ncbi-refseqs M32690
-  reference REF_BIV
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 8407
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 321
-      exit
-         
-    add feature-location gag
-    feature-location gag
-      add segment 316 1746
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1572 4742
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 1572 2036
-      exit
-
-    add feature-location pol
-    feature-location pol
-      add segment 2037 4742
-      exit
-           
-    add feature-location env
-    feature-location env
-      add segment 5415 8129
-      exit
-       
-  exit 
-    
-
-  # Caprine-ovine
-  create reference REF_SRLV-A ncbi-refseqs NC_001452
-  reference REF_SRLV-A
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 8407
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 321
-      exit
-         
-    add feature-location gag
-    feature-location gag
-      add segment 489 1817
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1703 5005
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 1703 2131
-      exit
-
-    add feature-location pol
-    feature-location pol
-      add segment 2132 5005
-      exit
-           
-    add feature-location env
-    feature-location env
-      add segment 5415 8129
-      exit
-       
-  exit 
-    
-    
-
   # Primate
-  create reference REF_HIV-1M ncbi-refseqs AF033819
-  reference REF_HIV-1M
+  create reference REF_HIV_1M ncbi-refseqs AF033819
+  reference REF_HIV_1M
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -451,3 +257,198 @@
        
   exit 
  
+
+
+  # Feline
+  create reference REF_FIV ncbi-refseqs M25381
+  reference REF_FIV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9474
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 355
+      exit
+         
+    add feature-location PBS
+    feature-location PBS
+      add segment 357 377
+      exit   
+         
+    add feature-location gag
+    feature-location gag
+      add segment 628 1980
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 2055 5240
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 2055 2300
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2301 5240
+      exit
+      
+    add feature-location vif
+    feature-location vif
+      add segment 5236 5991
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6266 8836
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 9120 9474
+      exit
+       
+  exit 
+
+
+  # Equine
+  create reference REF_EIAV ncbi-refseqs M16575
+  reference REF_EIAV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8270
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 321
+      exit
+         
+    add feature-location PBS
+    feature-location PBS
+      add segment 325 342
+      exit   
+
+    add feature-location gag
+    feature-location gag
+      add segment 465 1925
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1682 5122
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1682 2266
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2267 5122
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 5311 7890
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 7909 8229
+      exit
+      
+  exit 
+
+ 
+  # Bovine
+  create reference REF_BIV ncbi-refseqs M32690
+  reference REF_BIV
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8407
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 321
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 316 1746
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1572 4742
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1572 2036
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2037 4742
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 5415 8129
+      exit
+       
+  exit 
+    
+
+  # Caprine-ovine
+  create reference REF_SRLV_A ncbi-refseqs NC_001452
+  reference REF_SRLV_A
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8407
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 321
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 489 1817
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1703 5005
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1703 2131
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2132 5005
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 5415 8129
+      exit
+       
+  exit 
+    
+    
