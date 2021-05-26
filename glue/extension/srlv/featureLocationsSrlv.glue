@@ -146,7 +146,7 @@
 
     add feature-location pro
     feature-location pro
-      add segment 1737 5060
+      add segment 1737 2189
       exit
 
     add feature-location pol

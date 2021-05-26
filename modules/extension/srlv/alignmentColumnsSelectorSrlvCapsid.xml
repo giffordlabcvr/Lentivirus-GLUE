@@ -10,7 +10,7 @@
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>CA</featureName>
+        <featureName>capsid</featureName>
         <startNt>966</startNt>
         <endNt>1449</endNt>
     </nucleotideRegionSelector>

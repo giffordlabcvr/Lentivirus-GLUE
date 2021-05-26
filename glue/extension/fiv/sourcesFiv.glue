@@ -1,5 +1,2 @@
-  # Import NCBI reference sequences 
-  import source sources/ncbi-curated-srlv
-  #import source sources/fasta-refseqs-subgenomic-srlv  
-  #import source sources/fasta-refseqs-concatenated-srlv  
-
+  # Import GenBank sequences 
+  import source sources/ncbi-curated-fiv

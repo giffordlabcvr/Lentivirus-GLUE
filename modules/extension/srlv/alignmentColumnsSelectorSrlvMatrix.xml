@@ -4,13 +4,13 @@
     <relRefName>REF_SRLV_A</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>MA</featureName>
+        <featureName>matrix</featureName>
         <startCodon>1</startCodon>
         <endCodon>307</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>MA</featureName>
+        <featureName>matrix</featureName>
         <startNt>907</startNt>
         <endNt>1825</endNt>
     </nucleotideRegionSelector>

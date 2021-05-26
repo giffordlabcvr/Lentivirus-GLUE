@@ -7,7 +7,7 @@
     run file glue/extension/eiav/sourcesEiav.glue
 
     # Define extension references
-    run file glue/extension/eiav/ReferencesEiav.glue
+    run file glue/extension/eiav/referencesEiav.glue
 
     # Define feature locations for genus referenceslenti
     run file glue/extension/eiav/featureLocationsEiav.glue
