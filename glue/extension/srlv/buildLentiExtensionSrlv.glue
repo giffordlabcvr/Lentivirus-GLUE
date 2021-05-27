@@ -15,7 +15,7 @@
 	# Extract data from the XML files
 	module lentiGenbankXmlPopulator populate
 
-	# Link curated set sequences to isolate data
+	# Link extension set sequences to isolate data
 	run script glue/extension/srlv/linkIsolateExtensionRefseqsSrlv.js
 	run script glue/extension/srlv/linkIsolateCuratedSeqsSrlv.js
   
@@ -26,12 +26,12 @@
 	  populate -f tabular/extension/srlv-curated.csv
       exit
 
+	# Add extension set sequences constrained alignment tree
+	run file glue/extension/srlv/alignmentTreeSrlv.glue
+
 	# Import alignments
 	run file glue/extension/srlv/unconstrainedAlignmentsSrlv.glue
 	run file glue/extension/srlv/deriveConstrainedAlignments.glue
-
-	# Add curated sequences constrained alignment tree
-	run file glue/extension/srlv/alignmentTreeSrlv.glue
 	
 	# Compute alignments
 	run file glue/extension/srlv/createAlignmentsSrlv.glue

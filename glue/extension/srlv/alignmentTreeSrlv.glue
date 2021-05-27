@@ -4,7 +4,10 @@
     
     # reference sequences
     add member -w "species like 'SRLV%' and source.name = 'ncbi-curated-srlv'"
+    add member -w "species like 'SRLV%' and source.name = 'ncbi-refseqs-srlv'"
+    
     demote member AL_SRLV  -w  "sequence.species like 'SRLV%' and sequence.source.name = 'ncbi-curated-srlv'"
+    demote member AL_SRLV  -w  "sequence.species like 'SRLV%' and sequence.source.name = 'ncbi-refseqs-srlv'"
 
     exit
     
