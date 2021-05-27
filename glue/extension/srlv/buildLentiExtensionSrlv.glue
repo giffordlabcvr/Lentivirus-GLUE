@@ -26,8 +26,6 @@
 	  populate -f tabular/extension/srlv-curated.csv
       exit
 
-poop
-
 	# Add extension set sequences constrained alignment tree
 	run file glue/extension/srlv/alignmentTreeSrlv.glue
 
