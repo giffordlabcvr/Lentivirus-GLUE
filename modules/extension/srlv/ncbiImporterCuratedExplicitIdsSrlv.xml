@@ -8,9 +8,6 @@
 	 <primaryAccession>M60855</primaryAccession>
 	 <primaryAccession>M10608</primaryAccession>
 	 <primaryAccession>M51543</primaryAccession>
-	 <primaryAccession>M60610</primaryAccession>
-	 <primaryAccession>A15114</primaryAccession>
-	 <primaryAccession>M34193</primaryAccession>
 
 	 <primaryAccession>L06906</primaryAccession>
 	 <primaryAccession>HM212792</primaryAccession>
@@ -263,7 +260,8 @@
 	 <primaryAccession>FR694920</primaryAccession>
 	 <primaryAccession>FR694921</primaryAccession>
 	 <primaryAccession>FR695719</primaryAccession>
-	 <primaryAccession>FR828809</primaryAccession>
+
+
 	 <primaryAccession>FR828810</primaryAccession>
 	 <primaryAccession>FR828811</primaryAccession>
 	 <primaryAccession>FR828812</primaryAccession>
@@ -338,7 +336,7 @@
 	 <primaryAccession>EU010122</primaryAccession>
 	 <primaryAccession>EU010123</primaryAccession>
 	 <primaryAccession>EU010124</primaryAccession>
-	 <primaryAccession>EU010125</primaryAccession>
+
 	 <primaryAccession>EU010126</primaryAccession>
 	 <primaryAccession>GQ428519</primaryAccession>
 	 <primaryAccession>GQ428520</primaryAccession>
@@ -363,7 +361,7 @@
 	 <primaryAccession>JF520395</primaryAccession>
 	 <primaryAccession>JF520396</primaryAccession>
 	 <primaryAccession>JF520397</primaryAccession>
-	 <primaryAccession>FJ623120</primaryAccession>
+
 	 <primaryAccession>FJ623121</primaryAccession>
 	 <primaryAccession>FJ623122</primaryAccession>
 	 <primaryAccession>FJ623123</primaryAccession>
@@ -417,7 +415,8 @@
 	 <primaryAccession>AY454186</primaryAccession>
 	 <primaryAccession>AY454187</primaryAccession>
 	 <primaryAccession>AY454188</primaryAccession>
-	 <primaryAccession>AY454189</primaryAccession>
+
+
 	 <primaryAccession>AY454190</primaryAccession>
 	 <primaryAccession>AY454191</primaryAccession>
 	 <primaryAccession>AY454192</primaryAccession>
@@ -436,7 +435,7 @@
 	 <primaryAccession>AY454205</primaryAccession>
 	 <primaryAccession>AY454206</primaryAccession>
 	 <primaryAccession>AY454207</primaryAccession>
-	 <primaryAccession>AY454208</primaryAccession>
+
 	 <primaryAccession>AY454209</primaryAccession>
 	 <primaryAccession>AY454210</primaryAccession>
 	 <primaryAccession>AY454211</primaryAccession>
@@ -479,19 +478,18 @@
 	 <primaryAccession>NC_001463</primaryAccession>
 	 <primaryAccession>AY101611</primaryAccession>
 	 <primaryAccession>U64439</primaryAccession>
-	 <primaryAccession>M31646</primaryAccession>
+
 	 <primaryAccession>GU120138</primaryAccession>
 	 <primaryAccession>FJ195346</primaryAccession>
-	 <primaryAccession>AF479638</primaryAccession>
 
 	 <primaryAccession>AF322109</primaryAccession>
 	 <primaryAccession>S51392</primaryAccession>
-	 <primaryAccession>AY445885</primaryAccession>
+
 	 <primaryAccession>EU293537</primaryAccession>
 	 <primaryAccession>GQ381130</primaryAccession>
 	 <primaryAccession>JF502416</primaryAccession>
 	 <primaryAccession>JF502417</primaryAccession>
-	 <primaryAccession>HQ848062</primaryAccession>
+
 	 <primaryAccession>AY900630</primaryAccession>
 	 <primaryAccession>KT898826</primaryAccession>
 	 <primaryAccession>K03327</primaryAccession>
@@ -700,7 +698,8 @@
 	 <primaryAccession>JQ611028</primaryAccession>
 	 <primaryAccession>JQ611029</primaryAccession>
 	 <primaryAccession>JQ611030</primaryAccession>
-	 <primaryAccession>U35676</primaryAccession>
+
+
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

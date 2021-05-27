@@ -2,6 +2,6 @@
   ## Feline lentivirus extension reference sequence declarations
 
   # FIV reference sequence declarations
-  create reference REF_FIV_Oma              ncbi-refseqs FIU56928
-  create reference REF_FIV_Ple              ncbi-refseqs PLU03982
+  create reference REF_FIV_Oma              ncbi-refseqs-fiv FIU56928
+  create reference REF_FIV_Ple              ncbi-refseqs-fiv PLU03982
 
