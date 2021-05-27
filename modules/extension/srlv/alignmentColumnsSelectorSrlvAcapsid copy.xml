@@ -4,15 +4,15 @@
     <relRefName>REF_SRLV_A</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>gag</featureName>
+        <featureName>capsid</featureName>
         <startCodon>1</startCodon>
-        <endCodon>443</endCodon>
+        <endCodon>162</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>gag</featureName>
-        <startNt>489</startNt>
-        <endNt>1815</endNt>
+        <featureName>capsid</featureName>
+        <startNt>966</startNt>
+        <endNt>1449</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

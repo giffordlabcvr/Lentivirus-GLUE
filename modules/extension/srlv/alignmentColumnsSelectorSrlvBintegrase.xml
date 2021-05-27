@@ -3,16 +3,17 @@
 
     <relRefName>REF_SRLV_A</relRefName>
     
+    
     <aminoAcidRegionSelector>
-        <featureName>gag</featureName>
+        <featureName>IN</featureName>
         <startCodon>1</startCodon>
-        <endCodon>443</endCodon>
+        <endCodon>283</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>gag</featureName>
-        <startNt>489</startNt>
-        <endNt>1815</endNt>
+        <featureName>IN</featureName>
+        <startNt>4157</startNt>
+        <endNt>5003</endNt>
     </nucleotideRegionSelector>
-    
+
 </alignmentColumnsSelector>

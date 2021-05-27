@@ -25,7 +25,8 @@
       exit
 
 	# Add curated sequences constrained alignment tree
-	#run file glue/extension/srlv/unconstrainedAlignmentsSrlv.glue
+	run file glue/extension/srlv/unconstrainedAlignmentsSrlv.glue
+	run file glue/extension/srlv/deriveConstrainedAlignments.glue
 
 	# Add curated sequences constrained alignment tree
 	run file glue/extension/srlv/alignmentTreeSrlv.glue

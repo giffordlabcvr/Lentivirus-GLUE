@@ -3,7 +3,7 @@
     set field displayName "Small ruminant lentivirus (SRLV)"
     
     # reference sequences
-    add member -w "species like 'SRLV%'"
+    add member -w "species like 'SRLV%' and source.name = 'ncbi-curated-srlv'"
     demote member AL_SRLV  -w  "sequence.species like 'SRLV%' and sequence.source.name = 'ncbi-curated-srlv'"
 
     exit
