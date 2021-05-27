@@ -3,38 +3,38 @@
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
   delete module lentiFigTreeAnnotationExporter 
-  delete module alignmentColumnsSelectorSrlvCapsid
-  delete module alignmentColumnsSelectorSrlvMatrix
-  delete module alignmentColumnsSelectorSrlvGag
-  delete module alignmentColumnsSelectorSrlvRt
+  delete module alignmentColumnsSelectorSrlvACapsid
+  delete module alignmentColumnsSelectorSrlvAMatrix
+  delete module alignmentColumnsSelectorSrlvAGag
+  delete module alignmentColumnsSelectorSrlvARt
 
 
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/core/lentiFigTreeAnnotationExporter.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvCapsid.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvMatrix.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvGag.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvRt.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvACapsid.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAMatrix.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAGag.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvARt.xml
 
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvCapsid \
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvACapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-srlv_a-capsid.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvMatrix \
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAMatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-srlv_a-matrix.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvGag \
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAGag \
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-srlv_a-gag.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvRt \
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvARt \
       -w "fLocNotes.featureLoc.feature.name = 'rt' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-srlv_a-rt.tre NEWICK_BOOTSTRAPS
 

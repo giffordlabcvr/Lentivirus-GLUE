@@ -34,7 +34,7 @@
 	run file glue/extension/srlv/deriveConstrainedAlignments.glue
 	
 	# Compute alignments
-	#run file glue/extension/srlv/createAlignmentsSrlv.glue
+	run file glue/extension/srlv/createAlignmentsSrlv.glue
 	
 	# Inherit feature locations
 	run file glue/extension/srlv/inheritFeatureLocationSrlv.glue
