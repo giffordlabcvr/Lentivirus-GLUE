@@ -16,15 +16,17 @@
 	module lentiGenbankXmlPopulator populate
 
 	# Link curated set sequences to isolate data
-	run script glue/extension/srlv/loadIsolateDataSrlv.js
+	run script glue/extension/srlv/linkIsolateExtensionRefseqsSrlv.js
+	run script glue/extension/srlv/linkIsolateCuratedSeqsSrlv.js
   
 	# Import metadata for exogenous reference sequences from tabular
 	create module -f modules/extension/srlv/sideDataImporterSrlv.xml srlvSideDataImporter
 	module srlvSideDataImporter 
+	  populate -f tabular/extension/srlv-refseqs.csv
 	  populate -f tabular/extension/srlv-curated.csv
       exit
 
-	# Add curated sequences constrained alignment tree
+	# Import alignments
 	run file glue/extension/srlv/unconstrainedAlignmentsSrlv.glue
 	run file glue/extension/srlv/deriveConstrainedAlignments.glue
 

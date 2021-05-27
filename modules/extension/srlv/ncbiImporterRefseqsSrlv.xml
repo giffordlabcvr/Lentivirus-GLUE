@@ -1,4 +1,4 @@
-<!-- SRLV paper sequences -->
+<!-- SRLV reference sequences -->
 <ncbiImporter>
 
   <sourceName>ncbi-refseqs-srlv</sourceName>
@@ -7,6 +7,7 @@
 
 
 	 <!-- SRLV-A -->
+	 <!-- Master reference for SRLV (NC_001452) is in the core project -->
 	 <primaryAccession>HQ848062</primaryAccession>
 	 <primaryAccession>M31646</primaryAccession>
 	 <primaryAccession>AY445885</primaryAccession>
@@ -49,6 +50,18 @@
 
 	 <!-- SRLV-A13 -->
 	 <primaryAccession>FJ623120</primaryAccession>	 
+
+	 <!-- SRLV-A14 -->
+	 <primaryAccession>JX469607</primaryAccession>	 
+
+	 <!-- SRLV-A15 -->
+	 <primaryAccession>JQ611029</primaryAccession>	 
+
+
+
+	 <!-- SRLV-B1 -->
+	 <primaryAccession>NC_001463</primaryAccession>	 
+
 
 
 
