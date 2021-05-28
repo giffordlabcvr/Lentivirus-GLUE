@@ -1,6 +1,5 @@
         
-  # Derive constrained alignments
-    
+  # Derive constrained alignments    
   alignment AL_SRLV
     derive segments AL_UNC_SRLV -a  --mergeStrategy OVERWRITE
     exit

@@ -13,59 +13,43 @@
 	 <primaryAccession>AY445885</primaryAccession>
 	 <primaryAccession>S51392</primaryAccession>
 	 <primaryAccession>AF479638</primaryAccession>
+	 <primaryAccession>L06906</primaryAccession>
+	 <primaryAccession>M10608</primaryAccession>
+	 <primaryAccession>M51543</primaryAccession>
+	 <primaryAccession>M60610</primaryAccession>
 
-	 <!-- SRLV-A2 -->
-	 <primaryAccession>HQ848062</primaryAccession>
-
-	 <!-- SRLV-A3 -->
-	 <primaryAccession>AY454189</primaryAccession>
-
-	 <!-- SRLV-A4 -->
+	 <!-- SRLV-A2? -->	 
+	 <primaryAccession>M31646</primaryAccession>
+	 <primaryAccession>M34193</primaryAccession>
+	 	 
+	 <!-- SRLV-A4 -->	 
 	 <primaryAccession>AY445885</primaryAccession>
 
-	 <!-- SRLV-A5 -->
-	 <primaryAccession>AY454175</primaryAccession>
-
-	 <!-- SRLV-A6 -->
-	 <primaryAccession>U35676</primaryAccession>
-
-	 <!-- SRLV-A6 -->
-	 <primaryAccession>U35676</primaryAccession>
-
-	 <!-- SRLV-A7 -->
-	 <primaryAccession>AY454208</primaryAccession>
-
-	 <!-- SRLV-A8 -->
-	 <primaryAccession>EU010125</primaryAccession>	 
+	 <!-- SRLV-A8 -->	 
 	 <primaryAccession>A15114</primaryAccession>
-
-	 <!-- SRLV-A9 -->
-	 <primaryAccession>FR828809</primaryAccession>	 
-
-	 <!-- SRLV-A11 -->
-	 <primaryAccession>FR693812</primaryAccession>	 
-
-	 <!-- SRLV-A12 -->
-	 <primaryAccession>FJ623122</primaryAccession>	 
-
-	 <!-- SRLV-A13 -->
-	 <primaryAccession>FJ623120</primaryAccession>	 
-
-	 <!-- SRLV-A14 -->
-	 <primaryAccession>JX469607</primaryAccession>	 
-
-	 <!-- SRLV-A15 -->
-	 <primaryAccession>JQ611029</primaryAccession>	 
-
-
 
 	 <!-- SRLV-B1 -->
 	 <primaryAccession>NC_001463</primaryAccession>	 
+	 <primaryAccession>GU120138</primaryAccession>	 
+	 <primaryAccession>HM210570</primaryAccession>	 
+	 <primaryAccession>M33677</primaryAccession>	 
 
+	 <!-- SRLV-B2 -->
+	 <primaryAccession>FJ195346</primaryAccession>	 
 
+	 <!-- SRLV-B3 -->
+	 <primaryAccession>JF502416</primaryAccession>	 
+	 <primaryAccession>JF502417</primaryAccession>	 
 
+	 <!-- SRLV-C -->	 
+	 <primaryAccession>AF322109</primaryAccession>
 
+	 <!-- SRLV-E -->
+	 <primaryAccession>EU293537</primaryAccession>	 
+	 <primaryAccession>GQ381130</primaryAccession>	 
 
+	 <!-- SRLV-F -->
+	 <primaryAccession>KT898826</primaryAccession>	 
 
 
   </specificPrimaryAccessions>
