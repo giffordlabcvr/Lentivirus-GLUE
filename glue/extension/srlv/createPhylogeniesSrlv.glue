@@ -2,41 +2,57 @@
   # Clean up in case of previous execution
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
-  delete module lentiFigTreeAnnotationExporter 
-  delete module alignmentColumnsSelectorSrlvACapsid
-  delete module alignmentColumnsSelectorSrlvAMatrix
-  delete module alignmentColumnsSelectorSrlvAGag
-  delete module alignmentColumnsSelectorSrlvARt
-
+  delete module figTreeAnnotationExporterSrlv
+  delete module alignmentColumnsSelectorSrlvAcapsid
+  delete module alignmentColumnsSelectorSrlvAmatrix
+  delete module alignmentColumnsSelectorSrlvAgag
+  delete module alignmentColumnsSelectorSrlvArt
+  delete module alignmentColumnsSelectorSrlvAin
+  delete module alignmentColumnsSelectorSrlvApol
+  delete module alignmentColumnsSelectorSrlvAenv
 
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
-  create module -f modules/core/lentiFigTreeAnnotationExporter.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvACapsid.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAMatrix.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAGag.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvARt.xml
-
+  create module -f modules/extension/srlv/figTreeAnnotationExporterSrlv.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAcapsid.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAmatrix.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAgag.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvArt.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAintegrase.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvApol.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAenv.xml
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvACapsid \
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAcapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-srlv_a-capsid.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAMatrix \
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAmatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-srlv_a-matrix.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAGag \
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAgag \
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-srlv_a-gag.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvARt \
-      -w "fLocNotes.featureLoc.feature.name = 'rt' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvArt \
+      -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-srlv_a-rt.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAintegrase \
+      -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv_a-in.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvApol \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv_a-pol.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAenv \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv_a-env.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -61,16 +77,31 @@
       --outputFile trees/main-species/lenti-srlv_a-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-srlv_a-pol.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-srlv_a-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
       --inputFile trees/main-species/lenti-srlv_a-rt.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/main-species/lenti-srlv_a-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-srlv_a-in.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-srlv_a-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-srlv_a-env.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-srlv_a-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
 
 
   # Export annotations
-  module lentiFigTreeAnnotationExporter 
+  module figTreeAnnotationExporterSrlv 
 
     export figtree-annotation AL_SRLV -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv_a-matrix.figtree-annotations.tsv
@@ -83,6 +114,15 @@
 
     export figtree-annotation AL_SRLV -w "fLocNotes.featureLoc.feature.name = 'RT'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv_a-rt.figtree-annotations.tsv
+
+    export figtree-annotation AL_SRLV -w "fLocNotes.featureLoc.feature.name = 'IN'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv_a-in.figtree-annotations.tsv
+
+    export figtree-annotation AL_SRLV -w "fLocNotes.featureLoc.feature.name = 'pol'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv_a-pol.figtree-annotations.tsv
+
+    export figtree-annotation AL_SRLV -w "fLocNotes.featureLoc.feature.name = 'env'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv_a-env.figtree-annotations.tsv
 
   exit
 
