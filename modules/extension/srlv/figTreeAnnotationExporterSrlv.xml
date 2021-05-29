@@ -10,6 +10,11 @@
 		<annotationName>pubmed_id</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.pubmed_id')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>source</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.source.name')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
 		<annotationName>name</annotationName>
