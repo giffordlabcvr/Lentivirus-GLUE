@@ -2,7 +2,6 @@ taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collecti
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/A15114	A15114	-	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1951
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/AF322109	AF322109	16476978	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	1GA	Norway	C	C	1991
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/AF479638	AF479638	15284480	ncbi-refseqs-srlv	Ovine lentivirus	P1OLV	Portugal	A	A	1996
-alignment/AL_SRLV/member/ncbi-refseqs-srlv/AY101611	AY101611	-	ncbi-refseqs-srlv	Visna-maedi virus	85/34	USA	AB	AB	1934
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	Small ruminant lentivirus	G4668	Switzerland	4	A	1999
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/AY900630	AY900630	-	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Gansu	China	B1	B	1992
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/EU293537	EU293537	18987157	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus Roccaverano	Roccaverano	Italy	E	E	2008
@@ -14,11 +13,11 @@ alignment/AL_SRLV/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refse
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/JF502416	JF502416	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Fonni	Italy	B3	B3	2003
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/JF502417	JF502417	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Volterra	Italy	B3	B3	2004
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/KT898826	KT898826	-	ncbi-refseqs-srlv	Small ruminant lentivirus	Jord1	Jordan	F	F	2007
-alignment/AL_SRLV/member/ncbi-refseqs-srlv/L06906	L06906	2824836	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1950
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/M10608	M10608	2410140	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1953
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/M31646	M31646	2158181	ncbi-refseqs-srlv	Ovine lentivirus	SA-OMVV	South Africa	2	A	1976
+alignment/AL_SRLV/member/ncbi-refseqs-srlv/M33677	M33677	2171210	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	-	-	-	-	-
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/M34193	M34193	2158181	ncbi-refseqs-srlv	Ovine lentivirus	SA-OMVV	South Africa	2	A	1976
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/M51543	M51543	2824836	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1952
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/M60610	M60610	1847257	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1949
-alignment/AL_SRLV/member/ncbi-refseqs-srlv/NC_001463	NC_001463	2171210	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Clements	USA	1	B	1974
+alignment/AL_SRLV/member/ncbi-refseqs-srlv/MH916859	MH916859	-	ncbi-refseqs-srlv	Small ruminant lentivirus	-	-	-	-	-
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	Visna/maedi virus EV1	EV1	United Kingdon	A	A	1984

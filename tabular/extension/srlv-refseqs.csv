@@ -15,10 +15,9 @@ Number,Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype
 8,U35676,Ovis,France,1994,1995,A,6,676,475,Pol,Europe
 10,EU010125,Capra,Italy,2006,2007,A,8,It-008g03,1305,Gag,Europe
 12,FR828809,Ovis,Italy,2010,2011,A,9,LaSaz06/UM/10,660,Gag,Europe
-26,AY101611,Ovis,USA,1934,1985,AB,AB,85/34,6530,Genome,N. America
+26,AY101611_U64439,Ovis,USA,1934,1985,AB,AB,85/34,6530,Genome,N. America
 11,A15114,Ovis,Iceland,1949,A1,A,1,Sheep,Ovis aries,Genome,Europe
 20,M60610,Ovis,Iceland,1949,A1,A,1,Sheep,Ovis aries,Genome,Europe
-21,L06906,Ovis,Iceland,1950,A1,A,1,Sheep,Ovis aries,Genome,Europe
 22,A15114,Ovis,Iceland,1951,A1,A,1,Sheep,Ovis aries,Genome,Europe
 23,M51543,Ovis,Iceland,1952,A1,A,1,Sheep,Ovis aries,Genome,Europe
 24,M10608,Ovis,Iceland,1953,A1,A,1,Sheep,Ovis aries,Genome,Europe
