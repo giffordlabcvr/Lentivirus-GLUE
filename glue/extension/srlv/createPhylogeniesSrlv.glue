@@ -136,7 +136,7 @@
     export figtree-annotation AL_SRLV -w "fLocNotes.featureLoc.feature.name = 'env'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv-env.figtree-annotations.tsv
 
-    export figtree-annotation AL_SRLV -w "fLocNotes.featureLoc.feature.name = 'genome'  \
+    export figtree-annotation AL_SRLV -w "fLocNotes.featureLoc.feature.name = 'whole_genome'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv-genome.figtree-annotations.tsv
 
   exit

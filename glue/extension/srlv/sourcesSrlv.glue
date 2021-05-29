@@ -2,4 +2,4 @@
   import source sources/ncbi-curated-srlv
   import source sources/ncbi-refseqs-srlv
   import source sources/ncbi-refseqs-subgenomic-srlv  
-  #import source sources/fasta-refseqs-concatenated-srlv  
+  import source sources/fasta-refseqs-concatenated-srlv  
