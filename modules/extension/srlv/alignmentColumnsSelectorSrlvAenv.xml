@@ -3,16 +3,18 @@
 
     <relRefName>REF_SRLV_A</relRefName>
     
-    <aminoAcidRegionSelector>
-        <featureName>env</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>905</endCodon>
-    </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>env</featureName>
-        <startNt>5415</startNt>
-        <endNt>8127</endNt>
+        <featureName>whole_genome</featureName>
+        <startNt>6310</startNt>
+        <endNt>7491</endNt>
     </nucleotideRegionSelector>
+        
+    <nucleotideRegionSelector>
+        <featureName>whole_genome</featureName>
+        <startNt>7747</startNt>
+        <endNt>8856</endNt>
+    </nucleotideRegionSelector>   
+        
     
 </alignmentColumnsSelector>

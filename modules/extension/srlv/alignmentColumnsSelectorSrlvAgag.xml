@@ -6,13 +6,25 @@
     <aminoAcidRegionSelector>
         <featureName>gag</featureName>
         <startCodon>1</startCodon>
-        <endCodon>443</endCodon>
+        <endCodon>117</endCodon>
     </aminoAcidRegionSelector>
-    
-    <nucleotideRegionSelector>
+
+    <aminoAcidRegionSelector>
         <featureName>gag</featureName>
+        <startCodon>143</startCodon>
+        <endCodon>374</endCodon>
+    </aminoAcidRegionSelector>
+            
+    <nucleotideRegionSelector>
+        <featureName>whole_genome</featureName>
         <startNt>489</startNt>
-        <endNt>1815</endNt>
+        <endNt>839</endNt>
     </nucleotideRegionSelector>
     
+    <nucleotideRegionSelector>
+        <featureName>whole_genome</featureName>
+        <startNt>915</startNt>
+        <endNt>1610</endNt>
+    </nucleotideRegionSelector>
+  
 </alignmentColumnsSelector>

@@ -1,0 +1,44 @@
+<!-- FIV reference sequences -->
+<ncbiImporter>
+
+  <sourceName>ncbi-refseqs-fiv</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+
+	 <!-- FIV-->
+	<primaryAccession>EU117991</primaryAccession>
+	<primaryAccession>EU117992</primaryAccession>
+	<primaryAccession>AY713445</primaryAccession>
+	<primaryAccession>U56928</primaryAccession>
+	<primaryAccession>X57002</primaryAccession>
+	<primaryAccession>NC_001482</primaryAccession>
+	<primaryAccession>M25381</primaryAccession>
+	<primaryAccession>M59418</primaryAccession>
+	<primaryAccession>AF474246</primaryAccession>
+	<primaryAccession>M36968</primaryAccession>
+	<primaryAccession>AY600517</primaryAccession>
+	<primaryAccession>E43300</primaryAccession>
+	<primaryAccession>DD029017</primaryAccession>
+	<primaryAccession>AX139034</primaryAccession>
+	<primaryAccession>U11820</primaryAccession>
+	<primaryAccession>EF455613</primaryAccession>
+	<primaryAccession>EF455614</primaryAccession>
+	<primaryAccession>EF455604</primaryAccession>
+	<primaryAccession>EF455603</primaryAccession>
+	<primaryAccession>EF455607</primaryAccession>
+	<primaryAccession>EF455608</primaryAccession>
+	<primaryAccession>EF455606</primaryAccession>
+	<primaryAccession>EF455615</primaryAccession>
+	<primaryAccession>EF455605</primaryAccession>
+	<primaryAccession>EF455612</primaryAccession>
+	<primaryAccession>EF455609</primaryAccession>
+	<primaryAccession>EF455610</primaryAccession>
+	<primaryAccession>EF455611</primaryAccession>
+	<primaryAccession>DQ1925831</primaryAccession>
+
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  
+</ncbiImporter>
+

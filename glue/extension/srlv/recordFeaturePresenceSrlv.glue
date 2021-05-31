@@ -2,6 +2,6 @@
   create module -f modules/core/lentiFeaturePresenceRecorder.xml
 
   module lentiFeaturePresenceRecorder 
-    record feature-presence AL_SRLV --whereClause "sequence.source.name = 'ncbi-refseqs-srlv'" --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SRLV --featureName whole_genome --descendentFeatures
     exit
 
