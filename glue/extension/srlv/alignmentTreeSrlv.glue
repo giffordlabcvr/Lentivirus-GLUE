@@ -26,6 +26,9 @@
     extract child AL_SRLV_E --refName REF_SRLV_E
     demote member AL_SRLV_E --whereClause "sequence.genotype = 'E'" 
 
+    extract child AL_SRLV_D --refName REF_SRLV_D
+    demote member AL_SRLV_D --whereClause "sequence.genotype = 'D'" 
+
     extract child AL_SRLV_F --refName REF_SRLV_F
     demote member AL_SRLV_F --whereClause "sequence.genotype = 'F'" 
     exit

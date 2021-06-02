@@ -12,19 +12,6 @@
   create reference REF_SRLV_A2_HQ848062   ncbi-refseqs-srlv HQ848062  
   create reference REF_SRLV_A1_NC_001452  ncbi-refseqs      NC_001452
   
-  # Subgenomic
-  #create reference REF_SRLV_A3_AY454189   ncbi-refseqs-srlv AY454189
-  #create reference REF_SRLV_A5_AY454175   ncbi-refseqs-srlv AY454175
-  #create reference REF_SRLV_A6_U35676     ncbi-refseqs-srlv U35676 
-  #create reference REF_SRLV_A7_AY454208   ncbi-refseqs-srlv AY454208 
-  #create reference REF_SRLV_A8_EU010125   ncbi-refseqs-srlv EU010125  
-  #create reference REF_SRLV_A9_FR828809   ncbi-refseqs-srlv FR828809  
-  #create reference REF_SRLV_A11_FR693812  ncbi-refseqs-srlv FR693812  
-  #create reference REF_SRLV_A12_FJ623122  ncbi-refseqs-srlv FJ623122
-  #create reference REF_SRLV_A13_FJ623120  ncbi-refseqs-srlv FJ623120
-  #create reference REF_SRLV_A14_JX469607  ncbi-refseqs-srlv JX469607
-  #create reference REF_SRLV_A15_JQ611029  ncbi-refseqs-srlv JQ611029
-  
   # SRLV B subtypes
   create reference REF_SRLV_B             ncbi-refseqs-srlv NC_001463
   create reference REF_SRLV_B_HM210570    ncbi-refseqs-srlv HM210570
@@ -37,8 +24,6 @@
   # SRLV-C   
   create reference REF_SRLV_C             ncbi-refseqs-srlv AF322109
 
-  # SRLV-D (suspect)
-  #create reference REF_SRLV_D_DQ632733    ncbi-refseqs-srlv DQ632733
   
   # SRLV-E 
   create reference REF_SRLV_E             ncbi-refseqs-srlv EU293537
@@ -53,4 +38,28 @@
   create reference REF_SRLV_F             ncbi-refseqs-srlv KT898826
   
 
+
+
+
+
+
+
+
+
+
+  # SRLV-D (suspect)
+  create reference REF_SRLV_D             ncbi-refseqs-subgenomic-srlv DQ632733
+
+  # Subgenomic
+  #create reference REF_SRLV_A3_AY454189   ncbi-refseqs-subgenomic-srlv AY454189
+  #create reference REF_SRLV_A5_AY454175   ncbi-refseqs-subgenomic-srlv AY454175
+  #create reference REF_SRLV_A6_U35676     ncbi-refseqs-subgenomic-srlv U35676 
+  #create reference REF_SRLV_A7_AY454208   ncbi-refseqs-subgenomic-srlv AY454208 
+  #create reference REF_SRLV_A8_EU010125   ncbi-refseqs-subgenomic-srlv EU010125  
+  #create reference REF_SRLV_A9_FR828809   ncbi-refseqs-subgenomic-srlv FR828809  
+  #create reference REF_SRLV_A11_FR693812  ncbi-refseqs-subgenomic-srlv FR693812  
+  #create reference REF_SRLV_A12_FJ623122  ncbi-refseqs-subgenomic-srlv FJ623122
+  #create reference REF_SRLV_A13_FJ623120  ncbi-refseqs-subgenomic-srlv FJ623120
+  #create reference REF_SRLV_A14_JX469607  ncbi-refseqs-subgenomic-srlv JX469607
+  #create reference REF_SRLV_A15_JQ611029  ncbi-refseqs-subgenomic-srlv JQ611029
 

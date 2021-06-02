@@ -718,6 +718,5 @@ Number,Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype
 752,MH936675,NK,Italy,NK,NK,B,1,NK,NK,Genome,Europe
 753,MH936674,NK,Italy,NK,NK,B,1,NK,NK,Genome,Europe
 754,MG996440,NK,Mexico,NK,NK,B,1,NK,NK,Genome,N. America
-143,DQ632733,Ovis,Spain,2005,2006,D,NK,Ov-1,1130,Pol,Europe
 340,AY454269,Ovis,Switzerland,1999,2003,A,NK,SNCR5668,1133,Pol,Europe
-722,MH916859,Ovis,United States,2017,2018,A,NK,,9195,Genome,N. America
+722,MH916859,Ovis,United States,2017,2018,A,NK,NK,9195,Genome,N. America

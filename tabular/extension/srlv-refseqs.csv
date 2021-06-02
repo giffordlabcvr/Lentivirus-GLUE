@@ -15,12 +15,13 @@ Number,Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype
 8,U35676,Ovis,France,1994,1995,A,6,676,475,Pol,Europe
 13,FR693812,Capra,Italy,2010,2010,A,11,2798.4/UM/10,648,Gag,Europe
 12,FR828809,Ovis,Italy,2010,2011,A,9,LaSaz06/UM/10,660,Gag,Europe
-14,FJ623122,Ovis,Poland,2008,2009,A,NK,4007,1004,Gag,Europe
-15,FJ623120,Ovis,Poland,2008,2009,A,NK,16,1004,Gag,Europe
-17,JQ611029,Ovis,Slovenia,2011,2012,A,NK,31-12s,1061,Pol,Europe
+14,FJ623122,Ovis,Poland,2008,2009,A,12,4007,1004,Gag,Europe
+15,FJ623120,Ovis,Poland,2008,2009,A,13,16,1004,Gag,Europe
+17,JQ611029,Ovis,Slovenia,2011,2012,A,15,31-12s,1061,Pol,Europe
 10,EU010125,Capra,Italy,2006,2007,A,8,It-008g03,1305,Gag,Europe
-16,JX469607,Capra,Slovenia,2008,2012,A,NK,2-15g,1523,Gag-pol,Europe
+16,JX469607,Capra,Slovenia,2008,2012,A,14,2-15g,1523,Gag-pol,Europe
 5,AY454189,Capra,Switzerland,1999,2003,A,3,SNCR5594,1703,Gag-Pol,Europe
-9,AY454208,Capra,Switzerland,1999,2003,A,NK,SNCR5692,1706,Gag-Pol,Europe
-7,AY454175,Capra,Switzerland,1999,2003,A,NK,SNCR5560,1709,Gag-Pol,Europe
+9,AY454208,Capra,Switzerland,1999,2003,A,7,SNCR5692,1706,Gag-Pol,Europe
+7,AY454175,Capra,Switzerland,1999,2003,A,5,SNCR5560,1709,Gag-Pol,Europe
 231,S51392,Ovis,United Kingdon,1984,1991,A,NK,EV1,9203,Genome,Europe
+143,DQ632733,Ovis,Spain,2005,2006,D,NK,Ov-1,1130,Pol,Europe
