@@ -75,7 +75,7 @@ alignment/AL_SRLV_A/member/ncbi-curated-srlv/JQ611025	JQ611025	23022680	ncbi-cur
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/JQ611026	JQ611026	23022680	ncbi-curated-srlv	Small ruminant lentivirus	36-70s	Slovenia	-	A	2011
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/JQ611027	JQ611027	23022680	ncbi-curated-srlv	Small ruminant lentivirus	31-4s	Slovenia	-	A	2011
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/JQ611028	JQ611028	23022680	ncbi-curated-srlv	Small ruminant lentivirus	31-9s	Slovenia	-	A	2011
-alignment/AL_SRLV_A/member/ncbi-refseqs-subgenomic-srlv/JQ611029	JQ611029	23022680	ncbi-refseqs-subgenomic-srlv	Small ruminant lentivirus	31-12s	Slovenia	-	A	2011
+alignment/AL_SRLV_A/member/ncbi-refseqs-subgenomic-srlv/JQ611029	JQ611029	23022680	ncbi-refseqs-subgenomic-srlv	Small ruminant lentivirus	31-12s	Slovenia	15	A	2011
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/JQ611030	JQ611030	23022680	ncbi-curated-srlv	Small ruminant lentivirus	31-18s	Slovenia	-	A	2011
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M10608	M10608	2410140	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1953
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M31646	M31646	2158181	ncbi-refseqs-srlv	Ovine lentivirus	SA-OMVV	South Africa	2	A	1976
@@ -95,7 +95,7 @@ alignment/AL_SRLV_A/member/ncbi-curated-srlv/MH374285	MH374285	-	ncbi-curated-sr
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MH374286	MH374286	-	ncbi-curated-srlv	Small ruminant lentivirus	SRLV032	Italy	-	A	2017
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MH374287	MH374287	-	ncbi-curated-srlv	Small ruminant lentivirus	SRLV038	Italy	-	A	2017
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MH374291	MH374291	-	ncbi-curated-srlv	Small ruminant lentivirus	SRLV_VdA	Italy	-	A	2017
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH916859	MH916859	-	ncbi-refseqs-srlv	Small ruminant lentivirus		United States	-	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH916859	MH916859	-	ncbi-refseqs-srlv	Small ruminant lentivirus	1150	United States	-	A	2017
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993896	MT993896	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303013-1	United States	-	A	2006
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993897	MT993897	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303038-1	United States	-	A	2006
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993898	MT993898	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303332-1	United States	-	A	2006

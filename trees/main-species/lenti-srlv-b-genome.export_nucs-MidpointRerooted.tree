@@ -1,1 +1,119 @@
-((alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/FJ195346:0.10564133502875096282,(alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554402:0.04891188585354602769,alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH374288:0.09271093279533827725)100:0.04727626532426110889)100:0.063134551513638095725,(alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554414:0.11343144825252966801,(alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH374289:0.10449742269986855847,(((((alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554411:0.04811191941782470838,alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554412:0.04513454889776197937)100:0.01385989740314288836,alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554413:0.07735169672053530954)98:0.01663929577203595439,alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554410:0.06509451498542223602)100:0.02626329958525877584,alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH374290:0.08795568889880139851)94:0.00945210404630712937,((alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH936674:0.08911849929853569996,alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/HM210570:0.08278993466964419679)93:0.01443126119838582765,((alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/NC_001463:0.02890133660937939039,alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH936675:0.02643383547865665525)100:0.02387680717224424654,(alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG996440:0.02287261457887204696,(alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/AY900630:0.01473423375665394892,alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/GU120138:0.00113512310454903093)100:0.00599399024327297754)100:0.04545143539627712753)100:0.02538286806944302018)100:0.02013044210077525459)83:0.00765705943793354698)99:0.01371107404816801316)100:0.052047220022998752585);
+#NEXUS
+begin taxa;
+	dimensions ntax=17;
+	taxlabels
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554402'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV001",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MG554402",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554410'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV010",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MG554410",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554411'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV014",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MG554411",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554412'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV016",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MG554412",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554413'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV017",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MG554413",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554414'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV020",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MG554414",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG996440'[&collection_year="2013",country="Mexico",genotype="B",isolate="SRLV/B1/Goat/MX/INIFAP-1/2013",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MG996440",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH374288'[&collection_year="2017",country="Italy",genotype="B",isolate="SRLV042",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MH374288",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH374289'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV_Taccone",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MH374289",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH374290'[&collection_year="1989",country="Italy",genotype="B",isolate="SRLV_To1.89",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MH374290",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH936674'[&collection_year="2015",country="Italy",genotype="B",isolate="BRMG CNPC",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MH936674",source="ncbi-curated-srlv",subtype=1]
+	'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH936675'[&collection_year="2015",country="Italy",genotype="B",isolate="BRRN_CNPC",name="Small ruminant lentivirus",pubmed_id="-",sequenceID="MH936675",source="ncbi-curated-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/AY900630'[&collection_year="1992",country="China",genotype="B",isolate="Gansu",name="Caprine arthritis encephalitis virus",pubmed_id="-",sequenceID="AY900630",source="ncbi-refseqs-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/FJ195346'[&collection_year="2004",country="Spain",genotype="B",isolate="496",name="Caprine arthritis encephalitis virus Ov496",pubmed_id="19339126",sequenceID="FJ195346",source="ncbi-refseqs-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/GU120138'[&collection_year="2007",country="China",genotype="B",isolate="Shanxi",name="Caprine arthritis encephalitis virus",pubmed_id="22566005",sequenceID="GU120138",source="ncbi-refseqs-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/HM210570'[&collection_year="2004",country="Mexico",genotype="B",isolate="FESC-752",name="Small ruminant lentivirus",pubmed_id="20932787",sequenceID="HM210570",source="ncbi-refseqs-srlv",subtype="1"]
+	'alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/NC_001463'[&collection_year="1974",country="USA",genotype="B",isolate="Clements",name="Caprine arthritis encephalitis virus",pubmed_id="2171210",sequenceID="NC_001463",source="ncbi-refseqs-srlv",subtype="1"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/FJ195346':0.105641,('alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554402':0.048912,'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH374288':0.092711)[&label=100]:0.047276)[&label=100]:0.063135,('alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554414':0.113431,('alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH374289':0.104497,((((('alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554411':0.048112,'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554412':0.045135)[&label=100]:0.01386,'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554413':0.077352)[&label=98]:0.016639,'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG554410':0.065095)[&label=100]:0.026263,'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH374290':0.087956)[&label=94]:0.009452,(('alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH936674':0.089118,'alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/HM210570':0.08279)[&label=93]:0.014431,(('alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/NC_001463':0.028901,'alignment/AL_SRLV_B/member/ncbi-curated-srlv/MH936675':0.026434)[&label=100]:0.023877,('alignment/AL_SRLV_B/member/ncbi-curated-srlv/MG996440':0.022873,('alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/AY900630':0.014734,'alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/GU120138':0.001135)[&label=100]:0.005994)[&label=100]:0.045451)[&label=100]:0.025383)[&label=100]:0.02013)[&label=83]:0.007657)[&label=99]:0.013711)[&label=100]:0.052047);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="country";
+	set tipLabels.displayAttribute="country";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
