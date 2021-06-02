@@ -1,4 +1,4 @@
-  # Clean up from any previous run of this file
+
   # Clean up in case of previous execution
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
