@@ -2,11 +2,10 @@ delete module lentiCompoundAligner
 
 create module -f modules/core/lentiCompoundAligner.xml
 
-compute alignment AL_SRLV    lentiCompoundAligner
-#compute alignment AL_SRLV_A  lentiCompoundAligner
-#compute alignment AL_SRLV_B3 lentiCompoundAligner
-#compute alignment AL_SRLV_B  lentiCompoundAligner
-#compute alignment AL_SRLV_C  lentiCompoundAligner
-#compute alignment AL_SRLV_E  lentiCompoundAligner
+compute alignment AL_SRLV_A  lentiCompoundAligner
+compute alignment AL_SRLV_B3 lentiCompoundAligner
+compute alignment AL_SRLV_B  lentiCompoundAligner
+compute alignment AL_SRLV_C  lentiCompoundAligner
+compute alignment AL_SRLV_E  lentiCompoundAligner
 
 

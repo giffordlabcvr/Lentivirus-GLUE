@@ -2,6 +2,13 @@
   create module -f modules/core/lentiFeaturePresenceRecorder.xml
 
   module lentiFeaturePresenceRecorder 
-    record feature-presence AL_SRLV --featureName whole_genome --descendentFeatures
-    exit
+    record feature-presence AL_SRLV    --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SRLV_A  --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SRLV_B3 --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SRLV_B  --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SRLV_C  --featureName whole_genome --descendentFeatures
+    record feature-presence AL_SRLV_E  --featureName whole_genome --descendentFeatures
+    #record feature-presence AL_SRLV_F  --featureName whole_genome --descendentFeatures
 
+
+    exit

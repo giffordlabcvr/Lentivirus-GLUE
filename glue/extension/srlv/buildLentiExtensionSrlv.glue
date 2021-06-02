@@ -23,7 +23,7 @@
 	run file glue/extension/srlv/deriveConstrainedAlignments.glue
 	
 	# Compute alignments
-	#run file glue/extension/srlv/createAlignmentsSrlv.glue
+	run file glue/extension/srlv/createAlignmentsSrlv.glue
 	
 	# Inherit feature locations
 	run file glue/extension/srlv/inheritFeatureLocationSrlv.glue
@@ -32,10 +32,13 @@
 	run file glue/extension/srlv/recordFeaturePresenceSrlv.glue
 
 	# Create phylogenies
-	run file glue/extension/srlv/createPhylogeniesSrlv.glue
-	run file glue/extension/srlv/exportPhylogenyAnnotationsSrlv.glue
+	#run file glue/extension/srlv/createPhylogeniesSrlv.glue
+	#run file glue/extension/srlv/exportPhylogenyAnnotationsSrlv.glue
 
-	#run file glue/extension/srlv/createPhylogeniesSrlvA.glue
+	run file glue/extension/srlv/createPhylogeniesSrlvA.glue
+	run file glue/extension/srlv/exportPhylogenyAnnotationsSrlvA.glue
+	
+	
 	#run file glue/extension/srlv/createPhylogeniesSrlvB.glue
 	
 	# Validate
