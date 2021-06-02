@@ -1,0 +1,20 @@
+    delete module genbankXmlPopulatorSrlv
+    
+    create module -f modules/extension/srlv/genbankXmlPopulatorSrlv.xml
+
+	# Link extension set sequences to isolate data
+	run script glue/extension/srlv/linkIsolateExtensionRefseqsSrlv.js
+	run script glue/extension/srlv/linkIsolateCuratedSeqsSrlv.js
+ 
+     
+	# Extract data from the XML files
+	module genbankXmlPopulatorSrlv populate
+
+ 
+  
+	# Import metadata for exogenous reference sequences from tabular
+	create module -f modules/extension/srlv/sideDataImporterSrlv.xml srlvSideDataImporter
+	module srlvSideDataImporter 
+	  #populate -f tabular/extension/srlv-refseqs.csv
+	  #populate -f tabular/extension/srlv-curated.csv
+      exit

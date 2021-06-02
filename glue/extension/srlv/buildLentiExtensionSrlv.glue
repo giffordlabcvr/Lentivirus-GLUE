@@ -12,19 +12,8 @@
     # Define feature locations for genus references
     run file glue/extension/srlv/featureLocationsSrlv.glue
 
-	# Extract data from the XML files
-	module lentiGenbankXmlPopulator populate
-
-	# Link extension set sequences to isolate data
-	run script glue/extension/srlv/linkIsolateExtensionRefseqsSrlv.js
-	run script glue/extension/srlv/linkIsolateCuratedSeqsSrlv.js
-  
-	# Import metadata for exogenous reference sequences from tabular
-	create module -f modules/extension/srlv/sideDataImporterSrlv.xml srlvSideDataImporter
-	module srlvSideDataImporter 
-	  populate -f tabular/extension/srlv-refseqs.csv
-	  populate -f tabular/extension/srlv-curated.csv
-      exit
+    # Extract and import isolate data for extension sequences
+    run file glue/extension/srlv/importIsolateDataSrlv.glue
 
 	# Add extension set sequences constrained alignment tree
 	run file glue/extension/srlv/alignmentTreeSrlv.glue
@@ -43,7 +32,7 @@
 	run file glue/extension/srlv/recordFeaturePresenceSrlv.glue
 
 	# Create phylogenies
-	run file glue/extension/srlv/createPhylogeniesSrlv.glue
+	#run file glue/extension/srlv/createPhylogeniesSrlv.glue
 	#run file glue/extension/srlv/createPhylogeniesSrlvA.glue
 	#run file glue/extension/srlv/createPhylogeniesSrlvB.glue
 	

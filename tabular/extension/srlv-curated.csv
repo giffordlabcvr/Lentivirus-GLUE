@@ -46,6 +46,7 @@ Number,Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype
 46,AY362035,Ovis,United States,2003,2003,B,B basal,19.1,1650,Env SU,N. America
 47,AY362038,Ovis,United States,1976,2003,B,B basal,WLC1,1650,Env SU,N. America
 48,M60855,Capra,United States,1980,1993,B,B1,CAEV-63,2892,Env,N. America
+49,AY101611_U64439,Ovis,United States,1985,2002,A,A,85/34,6530,Genome,N. America
 50,U64439,Ovis,United States,1985,1996,B,B1,OvLV85/34,1664,Env,N. America
 52,GQ161209,Capra,Thailand,2008,2009,B,B1,NIAH34/2008,513,Gag,E. Asia
 53,GQ161210,Capra,Thailand,2008,2009,B,B1,NIAH81/2008,513,Gag,E. Asia
@@ -672,3 +673,51 @@ Number,Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype
 685,AY900630,Capra,China,1992,2005,B,B1,Gansu,9186,Genome,Asia
 705,AY265455,Ovis,Italy,1991,2003,A,A,It-561,1353,Gag,Europe
 706,AY265456,Ovis,Italy,1991,2003,A,A,It-Pi1,1314,Gag,Europe
+707,MT993918,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+708,MT993917,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+709,MT993916,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+710,MT993915,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+711,MT993914,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+712,MT993913,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+713,MT993912,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+714,MT993911,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+715,MT993910,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+716,MT993909,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+717,MT993908,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+718,MT993907,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+719,MT993906,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+720,MT993905,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+721,MT993904,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+722,MT993903,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+723,MT993902,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+724,MT993901,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+725,MT993900,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+726,MT993899,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+727,MT993898,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+728,MT993897,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+729,MT993896,Ovis,United States,-,-,A,-,-,-,Genome,N. America
+730,MG554414,NK,Italy,-,-,-,-,-,-,Genome,Europe
+731,MG554413,NK,Italy,-,-,-,-,-,-,Genome,Europe
+732,MG554412,NK,Italy,-,-,-,-,-,-,Genome,Europe
+733,MG554411,NK,Italy,-,-,-,-,-,-,Genome,Europe
+734,MG554410,NK,Italy,-,-,-,-,-,-,Genome,Europe
+735,MG554409,NK,Italy,-,-,-,-,-,-,Genome,Europe
+736,MG554408,NK,Italy,-,-,-,-,-,-,Genome,Europe
+737,MG554407,NK,Italy,-,-,-,-,-,-,Genome,Europe
+738,MG554406,NK,Italy,-,-,-,-,-,-,Genome,Europe
+739,MG554405,NK,Italy,-,-,-,-,-,-,Genome,Europe
+740,MG554404,NK,Italy,-,-,-,-,-,-,Genome,Europe
+741,MG554403,NK,Italy,-,-,-,-,-,-,Genome,Europe
+742,MG554402,NK,Italy,-,-,-,-,-,-,Genome,Europe
+743,MH374291,NK,Italy,-,-,-,-,-,-,Genome,Europe
+744,MH374290,NK,Italy,-,-,-,-,-,-,Genome,Europe
+745,MH374289,NK,Italy,-,-,-,-,-,-,Genome,Europe
+746,MH374288,NK,Italy,-,-,-,-,-,-,Genome,Europe
+747,MH374287,NK,Italy,-,-,-,-,-,-,Genome,Europe
+748,MH374286,NK,Italy,-,-,-,-,-,-,Genome,Europe
+749,MH374285,NK,Italy,-,-,-,-,-,-,Genome,Europe
+750,MH374284,NK,Italy,-,-,-,-,-,-,Genome,Europe
+751,MH374283,NK,Italy,-,-,-,-,-,-,Genome,Europe
+752,MH936675,NK,Italy,-,-,-,-,-,-,Genome,Europe
+753,MH936674,NK,Italy,-,-,-,-,-,-,Genome,Europe
+754,MG996440,NK,Mexico,-,-,-,-,-,-,Genome,N. America
