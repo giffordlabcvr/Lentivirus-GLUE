@@ -258,8 +258,6 @@
 	 <primaryAccession>FR694920</primaryAccession>
 	 <primaryAccession>FR694921</primaryAccession>
 	 <primaryAccession>FR695719</primaryAccession>
-
-
 	 <primaryAccession>FR828810</primaryAccession>
 	 <primaryAccession>FR828811</primaryAccession>
 	 <primaryAccession>FR828812</primaryAccession>
@@ -334,7 +332,6 @@
 	 <primaryAccession>EU010122</primaryAccession>
 	 <primaryAccession>EU010123</primaryAccession>
 	 <primaryAccession>EU010124</primaryAccession>
-
 	 <primaryAccession>EU010126</primaryAccession>
 	 <primaryAccession>GQ428519</primaryAccession>
 	 <primaryAccession>GQ428520</primaryAccession>
@@ -359,9 +356,7 @@
 	 <primaryAccession>JF520395</primaryAccession>
 	 <primaryAccession>JF520396</primaryAccession>
 	 <primaryAccession>JF520397</primaryAccession>
-
 	 <primaryAccession>FJ623121</primaryAccession>
-
 	 <primaryAccession>FJ623123</primaryAccession>
 	 <primaryAccession>FJ623124</primaryAccession>
 	 <primaryAccession>FJ623125</primaryAccession>
@@ -399,7 +394,6 @@
 	 <primaryAccession>AY454172</primaryAccession>
 	 <primaryAccession>AY454173</primaryAccession>
 	 <primaryAccession>AY454174</primaryAccession>
-
 	 <primaryAccession>AY454176</primaryAccession>
 	 <primaryAccession>AY454177</primaryAccession>
 	 <primaryAccession>AY454178</primaryAccession>
@@ -413,8 +407,6 @@
 	 <primaryAccession>AY454186</primaryAccession>
 	 <primaryAccession>AY454187</primaryAccession>
 	 <primaryAccession>AY454188</primaryAccession>
-
-
 	 <primaryAccession>AY454190</primaryAccession>
 	 <primaryAccession>AY454191</primaryAccession>
 	 <primaryAccession>AY454192</primaryAccession>
@@ -433,7 +425,6 @@
 	 <primaryAccession>AY454205</primaryAccession>
 	 <primaryAccession>AY454206</primaryAccession>
 	 <primaryAccession>AY454207</primaryAccession>
-
 	 <primaryAccession>AY454209</primaryAccession>
 	 <primaryAccession>AY454210</primaryAccession>
 	 <primaryAccession>AY454211</primaryAccession>
@@ -468,16 +459,10 @@
 	 <primaryAccession>JX469604</primaryAccession>
 	 <primaryAccession>JX469605</primaryAccession>
 	 <primaryAccession>JX469606</primaryAccession>
-
 	 <primaryAccession>JX469608</primaryAccession>
 	 <primaryAccession>JX469609</primaryAccession>
 	 <primaryAccession>JX469610</primaryAccession>
-
 	 <primaryAccession>U64439</primaryAccession>
-
-
-	 <primaryAccession>GQ381130</primaryAccession>
-
 	 <primaryAccession>K03327</primaryAccession>
 	 <primaryAccession>DQ632733</primaryAccession>
 	 <primaryAccession>DQ632734</primaryAccession>
@@ -682,8 +667,58 @@
 	 <primaryAccession>JQ611026</primaryAccession>
 	 <primaryAccession>JQ611027</primaryAccession>
 	 <primaryAccession>JQ611028</primaryAccession>
-
 	 <primaryAccession>JQ611030</primaryAccession>
+	 
+	 <!-- genome length sequences 2017-Present -->
+	 <primaryAccession>MT993918</primaryAccession>
+	 <primaryAccession>MT993917</primaryAccession>
+	 <primaryAccession>MT993916</primaryAccession>
+	 <primaryAccession>MT993915</primaryAccession>
+	 <primaryAccession>MT993914</primaryAccession>
+	 <primaryAccession>MT993913</primaryAccession>
+	 <primaryAccession>MT993912</primaryAccession>
+	 <primaryAccession>MT993911</primaryAccession>
+	 <primaryAccession>MT993910</primaryAccession>
+	 <primaryAccession>MT993909</primaryAccession>
+	 <primaryAccession>MT993908</primaryAccession>
+	 <primaryAccession>MT993907</primaryAccession>
+	 <primaryAccession>MT993906</primaryAccession>
+	 <primaryAccession>MT993905</primaryAccession>
+	 <primaryAccession>MT993904</primaryAccession>
+	 <primaryAccession>MT993903</primaryAccession>
+	 <primaryAccession>MT993902</primaryAccession>
+	 <primaryAccession>MT993901</primaryAccession>
+	 <primaryAccession>MT993900</primaryAccession>
+	 <primaryAccession>MT993899</primaryAccession>
+	 <primaryAccession>MT993898</primaryAccession>
+	 <primaryAccession>MT993897</primaryAccession>
+	 <primaryAccession>MT993896</primaryAccession>
+	 <primaryAccession>MG554414</primaryAccession>
+	 <primaryAccession>MG554413</primaryAccession>
+	 <primaryAccession>MG554412</primaryAccession>
+	 <primaryAccession>MG554411</primaryAccession>
+	 <primaryAccession>MG554410</primaryAccession>
+	 <primaryAccession>MG554409</primaryAccession>
+	 <primaryAccession>MG554408</primaryAccession>
+	 <primaryAccession>MG554407</primaryAccession>
+	 <primaryAccession>MG554406</primaryAccession>
+	 <primaryAccession>MG554405</primaryAccession>
+	 <primaryAccession>MG554404</primaryAccession>
+	 <primaryAccession>MG554403</primaryAccession>
+	 <primaryAccession>MG554402</primaryAccession>
+	 <primaryAccession>MH374291</primaryAccession>
+	 <primaryAccession>MH374290</primaryAccession>
+	 <primaryAccession>MH374289</primaryAccession>
+	 <primaryAccession>MH374288</primaryAccession>
+	 <primaryAccession>MH374287</primaryAccession>
+	 <primaryAccession>MH374286</primaryAccession>
+	 <primaryAccession>MH374285</primaryAccession>
+	 <primaryAccession>MH374284</primaryAccession>
+	 <primaryAccession>MH374283</primaryAccession>
+	 <primaryAccession>MH936675</primaryAccession>
+	 <primaryAccession>MH936674</primaryAccession>
+	 <primaryAccession>MG996440</primaryAccession>
+
 
 
   </specificPrimaryAccessions>
