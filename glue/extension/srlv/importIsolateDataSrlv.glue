@@ -15,6 +15,6 @@
 	# Import metadata for exogenous reference sequences from tabular
 	create module -f modules/extension/srlv/sideDataImporterSrlv.xml srlvSideDataImporter
 	module srlvSideDataImporter 
-	  #populate -f tabular/extension/srlv-refseqs.csv
-	  #populate -f tabular/extension/srlv-curated.csv
+	  populate -f tabular/extension/srlv-refseqs.csv
+	  populate -f tabular/extension/srlv-curated.csv
       exit

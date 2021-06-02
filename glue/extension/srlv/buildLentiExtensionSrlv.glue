@@ -32,7 +32,9 @@
 	run file glue/extension/srlv/recordFeaturePresenceSrlv.glue
 
 	# Create phylogenies
-	#run file glue/extension/srlv/createPhylogeniesSrlv.glue
+	run file glue/extension/srlv/createPhylogeniesSrlv.glue
+	run file glue/extension/srlv/exportPhylogenyAnnotationsSrlv.glue
+
 	#run file glue/extension/srlv/createPhylogeniesSrlvA.glue
 	#run file glue/extension/srlv/createPhylogeniesSrlvB.glue
 	

@@ -24,9 +24,6 @@
   #create reference REF_SRLV_A13_FJ623120  ncbi-refseqs-srlv FJ623120
   #create reference REF_SRLV_A14_JX469607  ncbi-refseqs-srlv JX469607
   #create reference REF_SRLV_A15_JQ611029  ncbi-refseqs-srlv JQ611029
-
-  # SRLV A/B?
-  #create reference REF_SRLV_AB_AY101611  fasta-refseqs-concatenated-srlv AY101611_U64439
   
   # SRLV B subtypes
   create reference REF_SRLV_B             ncbi-refseqs-srlv NC_001463
