@@ -1,27 +1,27 @@
-Number,Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype,Strain/clone,Length,Genomic region,Region
-26,AY101611_U64439,Ovis,USA,1934,1985,A,2,85/34,6530,Genome,N. America
-18,AF322109,Capra,Norway,1991,2000,C,NK,1GA,8919,Genome,Europe
-6,AY445885,Capra,Switzerland,1999,2003,A,4,G4668,9023,Genome,Europe
-19,KT898826,Ovis,Jordan,2007,2016,F,NK,Jord1,9136,Genome,W. Asia
-2,HQ848062,NULL,NULL,1,1,A,NK,NULL,9175,Genome,NULL
-1,NC_001463,Capra,USA,1974,1990,B,1,Clements,9189,Genome,N. America
-3,M31646,Ovis,South Africa,1976,1990,A,2,SA-OMVV,9256,Genome,Africa
-25,M34193,Ovis,South Africa,1976,1990,A,2,SA-OMVV,9256,Genome,Africa
-11,A15114,Ovis,Iceland,1949,A1,A,1,Sheep,9202,Genome,Europe
-20,M60610,Ovis,Iceland,1949,A1,A,1,Sheep,9225,Genome,Europe
-22,A15114,Ovis,Iceland,1951,A1,A,1,Sheep,9202,Genome,Europe
-23,M51543,Ovis,Iceland,1952,A1,A,1,Sheep,9202,Genome,Europe
-24,M10608,Ovis,Iceland,1953,A1,A,1,Sheep,9203,Genome,Europe
-8,U35676,Ovis,France,1994,1995,A,6,676,475,Pol,Europe
-13,FR693812,Capra,Italy,2010,2010,A,11,2798.4/UM/10,648,Gag,Europe
-12,FR828809,Ovis,Italy,2010,2011,A,9,LaSaz06/UM/10,660,Gag,Europe
-14,FJ623122,Ovis,Poland,2008,2009,A,12,4007,1004,Gag,Europe
-15,FJ623120,Ovis,Poland,2008,2009,A,13,16,1004,Gag,Europe
-17,JQ611029,Ovis,Slovenia,2011,2012,A,15,31-12s,1061,Pol,Europe
-10,EU010125,Capra,Italy,2006,2007,A,8,It-008g03,1305,Gag,Europe
-16,JX469607,Capra,Slovenia,2008,2012,A,14,2-15g,1523,Gag-pol,Europe
-5,AY454189,Capra,Switzerland,1999,2003,A,3,SNCR5594,1703,Gag-Pol,Europe
-9,AY454208,Capra,Switzerland,1999,2003,A,7,SNCR5692,1706,Gag-Pol,Europe
-7,AY454175,Capra,Switzerland,1999,2003,A,5,SNCR5560,1709,Gag-Pol,Europe
-231,S51392,Ovis,United Kingdon,1984,1991,A,NK,EV1,9203,Genome,Europe
-143,DQ632733,Ovis,Spain,2005,2006,D,NK,Ov-1,1130,Pol,Europe
+Accession,Species,Country,Isolation Year,Submission Year,Genotype,Subtype,Strain/clone,Length,Genomic region,Region
+AY101611_U64439,Ovis,USA,1934,1985,A,2,85/34,6530,Genome,N. America
+AF322109,Capra,Norway,1991,2000,C,NK,1GA,8919,Genome,Europe
+AY445885,Capra,Switzerland,1999,2003,A,4,G4668,9023,Genome,Europe
+KT898826,Ovis,Jordan,2007,2016,F,NK,Jord1,9136,Genome,W. Asia
+HQ848062,NULL,NULL,1,1,A,NK,NULL,9175,Genome,NULL
+NC_001463,Capra,USA,1974,1990,B,1,Clements,9189,Genome,N. America
+M31646,Ovis,South Africa,1976,1990,A,1,SA-OMVV,9256,Genome,Africa
+M34193,Ovis,South Africa,1976,1990,A,1,SA-OMVV,9256,Genome,Africa
+A15114,Ovis,Iceland,1949,A1,A,1,Sheep,9202,Genome,Europe
+M60610,Ovis,Iceland,1949,A1,A,1,Sheep,9225,Genome,Europe
+A15114,Ovis,Iceland,1951,A1,A,1,Sheep,9202,Genome,Europe
+M51543,Ovis,Iceland,1952,A1,A,1,Sheep,9202,Genome,Europe
+M10608,Ovis,Iceland,1953,A1,A,1,Sheep,9203,Genome,Europe
+U35676,Ovis,France,1994,1995,A,6,676,475,Pol,Europe
+FR693812,Capra,Italy,2010,2010,A,11,2798.4/UM/10,648,Gag,Europe
+FR828809,Ovis,Italy,2010,2011,A,9,LaSaz06/UM/10,660,Gag,Europe
+FJ623122,Ovis,Poland,2008,2009,A,12,4007,1004,Gag,Europe
+FJ623120,Ovis,Poland,2008,2009,A,13,16,1004,Gag,Europe
+JQ611029,Ovis,Slovenia,2011,2012,A,15,31-12s,1061,Pol,Europe
+EU010125,Capra,Italy,2006,2007,A,8,It-008g03,1305,Gag,Europe
+JX469607,Capra,Slovenia,2008,2012,A,14,2-15g,1523,Gag-pol,Europe
+AY454189,Capra,Switzerland,1999,2003,A,3,SNCR5594,1703,Gag-Pol,Europe
+AY454208,Capra,Switzerland,1999,2003,A,7,SNCR5692,1706,Gag-Pol,Europe
+AY454175,Capra,Switzerland,1999,2003,A,5,SNCR5560,1709,Gag-Pol,Europe
+S51392,Ovis,United Kingdon,1984,1991,A,1,EV1,9203,Genome,Europe
+DQ632733,Ovis,Spain,2005,2006,D,NK,Ov-1,1130,Pol,Europe
