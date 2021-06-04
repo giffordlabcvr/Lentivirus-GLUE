@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KC560792</GBSeq_locus>
+    <GBSeq_length>484</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>07-JAN-2014</GBSeq_update-date>
+    <GBSeq_create-date>07-JAN-2014</GBSeq_create-date>
+    <GBSeq_definition>Small ruminant lentivirus strain 6612 gag polyprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KC560792</GBSeq_primary-accession>
+    <GBSeq_accession-version>KC560792.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KC560792.1|</GBSeqid>
+      <GBSeqid>gi|570362263</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Small ruminant lentivirus</GBSeq_source>
+    <GBSeq_organism>Small ruminant lentivirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..484</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>De Regge,N.</GBAuthor>
+          <GBAuthor>Cay,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Development, validation and evaluation of added diagnostic value of a q(RT)-PCR for the detection of genotype A strains of small ruminant lentiviruses</GBReference_title>
+        <GBReference_journal>J. Virol. Methods 194 (1-2), 250-257 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.jviromet.2013.09.001</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>24045043</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..484</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>De Regge,N.</GBAuthor>
+          <GBAuthor>Cay,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (31-JAN-2013) Enzootic and (Re)Emerging Viral Diseases, CODA-CERVA, Groeselenberg 99, Brussel 1180, Belgium</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..484</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>484</GBInterval_to>
+            <GBInterval_accession>KC560792.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Small ruminant lentivirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>6612</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Ovis aries (sheep)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:254355</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Belgium</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2007</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;484</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>484</GBInterval_to>
+            <GBInterval_accession>KC560792.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains matrix, capsid and nucleocapsid; NH2-terminus is uncertain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AHE78420.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>AAVVNLDRDMAKQGSKEKKGYPELKEVIKMTCKIXVGPGKETLTEGNCLWALKTVDFIFEDLKTEPWTLTKMYTVWDRLKQLTPEETSKREFASLQATMACLMCSQMGMKPETVQAARGIISMKEGLQESKEEKEKKVEQLYPNLEQHXEVYPIVNLQAGG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>30</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>30</GBInterval_point>
+            <GBInterval_accession>KC560792.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>possible alternate site of translation initiation</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagccgccgtggtgaatctagatagagacatggcgaagcaaggctcgaaggagaaaaagggataccccgagctcaaagaggtcattaagatgacatgtaaaataarggtagggcccgggaaggagaccttgacagaagggaattgtctatgggcattaaaaaccgtagactttatatttgaggatttaaaaacagarccgtggactctaacaaaaatgtatacagtgtgggatagactaaaacagttaactccagaagaaacaagtaagagagaatttgcctccttgcaggccacaatggcttgcttaatgtgtagtcaaatgggcatgaagcccgagacagtgcaggcagcaaggggaataataagtatgaargaaggactacaagaaagcaaggaggaaaaggagaaaaaggtggaacaactctaccctaatttagagcagcataragaagtctatcctattgtaaatttgcaagcaggggg</GBSeq_sequence>
+  </GBSeq>

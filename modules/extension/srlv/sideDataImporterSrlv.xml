@@ -1,6 +1,6 @@
 <textFilePopulator>
+    <columnDelimiterRegex>\t</columnDelimiterRegex>
 
-	<columnDelimiterRegex>,</columnDelimiterRegex>
 	<textFileColumn>
 		<identifier>true</identifier>
 		<header>Accession</header>
@@ -40,13 +40,6 @@
 		<property>subtype</property>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 		<nullRegex>NK</nullRegex>
-	</textFileColumn>
-	
-	<textFileColumn>
-		<header>Strain/clone</header>
-		<property>isolate_data.isolate</property>
-		<nullRegex>NK</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 	
 </textFilePopulator>

@@ -1,27 +1,26 @@
 taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/A15114	A15114	-	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1951
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/A15114	A15114	-	ncbi-refseqs-srlv	Visna-maedi virus	-	Iceland	1	A	1951
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/AF474005	AF474005	12237438	ncbi-curated-srlv	Visna-maedi virus	489	Iceland	-	A	1949
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AF479638	AF479638	15284480	ncbi-refseqs-srlv	Ovine lentivirus	P1OLV	Portugal	-	A	1996
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/AJ969038	AJ969038	-	ncbi-curated-srlv	Small ruminant Lentivirus CA-Ireland	ROC1D	Ireland	-	A	1998
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/AJ969039	AJ969039	-	ncbi-curated-srlv	Small ruminant Lentivirus CA-Ireland	ROC3E	Ireland	-	A	2000
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/AJ969040	AJ969040	-	ncbi-curated-srlv	Small ruminant Lentivirus CA-Ireland	ROC1E	Ireland	-	A	2002
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/AJ969041	AJ969041	-	ncbi-curated-srlv	Small ruminant Lentivirus CA-Ireland	R012	Ireland	-	A	2002
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/AJ969042	AJ969042	-	ncbi-curated-srlv	Small ruminant Lentivirus CA-Ireland	99287	Ireland	-	A	2000
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/AJ969043	AJ969043	-	ncbi-curated-srlv	Small ruminant Lentivirus CA-Ireland	NAM1D	Ireland	-	A	2000
-alignment/AL_SRLV_A/member/fasta-refseqs-concatenated-srlv/AY101611_U64439	AY101611_U64439	-	fasta-refseqs-concatenated-srlv	-	85/34	United States	2	A	1985
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	Small ruminant lentivirus	G4668	Switzerland	4	A	1999
+alignment/AL_SRLV_A/member/fasta-refseqs-concatenated-srlv/AY101611_U64439	AY101611_U64439	-	fasta-refseqs-concatenated-srlv	-	-	USA	2	A	1934
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	Small ruminant lentivirus	-	Switzerland	4	A	1999
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/DQ844936	DQ844936	17240470	ncbi-curated-srlv	Small ruminant lentivirus	S9778ST	Norway	-	A	2001
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/DQ844937	DQ844937	17240470	ncbi-curated-srlv	Small ruminant lentivirus	S747ST	Norway	-	A	2001
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/DQ844938	DQ844938	17240470	ncbi-curated-srlv	Small ruminant lentivirus	S8012VE	Norway	-	A	2003
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/DQ844939	DQ844939	17240470	ncbi-curated-srlv	Small ruminant lentivirus	S9044VE	Norway	-	A	2003
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/DQ844940	DQ844940	17240470	ncbi-curated-srlv	Small ruminant lentivirus	S9095VE	Norway	-	A	2003
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/DQ844941	DQ844941	17240470	ncbi-curated-srlv	Small ruminant lentivirus	NMV1	Norway	-	A	1976
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	Visna-maedi virus	OMVV 697	Spain	-	A	2005
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M10608	M10608	2410140	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1953
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M31646	M31646	2158181	ncbi-refseqs-srlv	Ovine lentivirus	SA-OMVV	South Africa	2	A	1976
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M34193	M34193	2158181	ncbi-refseqs-srlv	Ovine lentivirus	SA-OMVV	South Africa	2	A	1976
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M51543	M51543	2824836	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1952
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M60610	M60610	1847257	ncbi-refseqs-srlv	Visna-maedi virus	Sheep	Iceland	1	A	1949
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	Visna-maedi virus	697	NULL	-	A	1
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M10608	M10608	2410140	ncbi-refseqs-srlv	Visna-maedi virus	Icelandic 1514; Icelandic LV1-1	Iceland	1	A	1953
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M31646	M31646	2158181	ncbi-refseqs-srlv	Ovine lentivirus	-	South Africa	1	A	1976
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M34193	M34193	2158181	ncbi-refseqs-srlv	Ovine lentivirus	-	South Africa	1	A	1976
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M51543	M51543	2824836	ncbi-refseqs-srlv	Visna-maedi virus	-	Iceland	1	A	1952
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M60610	M60610	1847257	ncbi-refseqs-srlv	Visna-maedi virus	Icelandic 1514	Iceland	1	A	1949
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MG554403	MG554403	-	ncbi-curated-srlv	Small ruminant lentivirus	SRLV002	Italy	-	A	-
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MG554404	MG554404	-	ncbi-curated-srlv	Small ruminant lentivirus	SRLV003	Italy	-	A	-
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MG554405	MG554405	-	ncbi-curated-srlv	Small ruminant lentivirus	SRLV004	Italy	-	A	-
@@ -35,7 +34,7 @@ alignment/AL_SRLV_A/member/ncbi-curated-srlv/MH374285	MH374285	-	ncbi-curated-sr
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MH374286	MH374286	-	ncbi-curated-srlv	Small ruminant lentivirus	SRLV032	Italy	-	A	2017
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MH374287	MH374287	-	ncbi-curated-srlv	Small ruminant lentivirus	SRLV038	Italy	-	A	2017
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MH374291	MH374291	-	ncbi-curated-srlv	Small ruminant lentivirus	SRLV_VdA	Italy	-	A	2017
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH916859	MH916859	-	ncbi-refseqs-srlv	Small ruminant lentivirus	1150	United States	-	A	2017
+alignment/AL_SRLV_A/member/ncbi-curated-srlv/MH916859	MH916859	-	ncbi-curated-srlv	Small ruminant lentivirus	1150	United States	-	A	2017
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993896	MT993896	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303013-1	United States	-	A	2006
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993897	MT993897	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303038-1	United States	-	A	2006
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993898	MT993898	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303332-1	United States	-	A	2006
@@ -59,6 +58,6 @@ alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993915	MT993915	-	ncbi-curated-sr
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993916	MT993916	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200177363-2	United States	-	A	2006
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993917	MT993917	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-199916128-2	United States	-	A	2006
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/MT993918	MT993918	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-199916193-r	United States	-	A	2006
-alignment/AL_SRLV_A/member/ncbi-refseqs/NC_001452	NC_001452	2824836	ncbi-refseqs	SRLV-A	kv1772	Iceland	1	A	1949
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	Visna/maedi virus EV1	EV1	United Kingdon	-	A	1984
+alignment/AL_SRLV_A/member/ncbi-refseqs/NC_001452	NC_001452	2824836	ncbi-refseqs	SRLV-A	-	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	Visna/maedi virus EV1	-	United Kingdon	1	A	1984
 alignment/AL_SRLV_A/member/ncbi-curated-srlv/U51910	U51910	9654682	ncbi-curated-srlv	Visna-maedi virus	KM1071	Iceland	-	A	1962

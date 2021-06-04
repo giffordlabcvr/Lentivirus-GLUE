@@ -14,8 +14,16 @@
 		</gbRefPubmed>
 	</gbReference>
 	
+	<gbUpdateDate>
+		<propertyPopulator property="gb_update_date"/>
+	</gbUpdateDate>
+	
+	<gbCreateDate>
+		<propertyPopulator property="gb_create_date"/>
+	</gbCreateDate>
+
 	<gbDivision>
-		<propertyPopulator property="isolate_data.lab_construct">
+		<propertyPopulator property="lab_construct">
 			<matchPattern>PAT</matchPattern>
 			<outputTemplate>true</outputTemplate>
 		</propertyPopulator>
