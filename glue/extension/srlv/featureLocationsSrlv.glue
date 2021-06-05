@@ -271,11 +271,6 @@
       add segment 2264 4750
       exit
 
-    add feature-location IN
-    feature-location IN
-      add segment 1667 4945
-      exit
-
     add feature-location vif
      feature-location vif
       add segment 4911 5597
@@ -293,5 +288,5 @@
 
   exit 
 
-4943
+
 
