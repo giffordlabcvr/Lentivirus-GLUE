@@ -1,6 +1,5 @@
 taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/A15114	A15114	-	ncbi-refseqs-srlv	Visna-maedi virus	-	Iceland	1	A	1951
-alignment/AL_SRLV_A/member/fasta-refseqs-concatenated-srlv/AY101611_U64439	AY101611_U64439	-	fasta-refseqs-concatenated-srlv	-	-	USA	2	A	1934
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	Small ruminant lentivirus	-	Switzerland	4	A	1999
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	Visna-maedi virus	697	NULL	-	A	1
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M10608	M10608	2410140	ncbi-refseqs-srlv	Visna-maedi virus	Icelandic 1514; Icelandic LV1-1	Iceland	1	A	1953

@@ -2,9 +2,9 @@ taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collecti
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/A15114	A15114	-	ncbi-refseqs-srlv	Visna-maedi virus	-	Iceland	1	A	1951
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/AF322109	AF322109	16476978	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	1GA	Norway	-	C	1991
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/AF479638	AF479638	15284480	ncbi-refseqs-srlv	Ovine lentivirus	P1OLV	-	-	-	-
-alignment/AL_SRLV/member/fasta-refseqs-concatenated-srlv/AY101611_U64439	AY101611_U64439	-	fasta-refseqs-concatenated-srlv	-	-	USA	2	A	1934
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	Small ruminant lentivirus	-	Switzerland	4	A	1999
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/AY900630	AY900630	-	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	gansu	-	-	-	-
+alignment/AL_SRLV/member/ncbi-refseqs-subgenomic-srlv/DQ632733	DQ632733	16870297	ncbi-refseqs-subgenomic-srlv	Visna-maedi virus	Ov1	Spain	-	D	2005
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/EU293537	EU293537	18987157	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus Roccaverano	Roccaverano	Italy	-	-	-
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/FJ195346	FJ195346	19339126	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus Ov496	496	Spain	-	-	2004
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/GQ381130	GQ381130	20060658	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Seui	Italy	-	-	2003
@@ -13,7 +13,123 @@ alignment/AL_SRLV/member/ncbi-refseqs-srlv/HM210570	HM210570	20932787	ncbi-refse
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	Visna-maedi virus	697	NULL	-	A	1
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/JF502416	JF502416	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Fonni	Italy: Sardinia	-	-	2003
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/JF502417	JF502417	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Volterra	Italy: Tuscany	-	-	2004
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641399	KJ641399	25462356	ncbi-curated-srlv	Small ruminant lentivirus	2-29	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641400	KJ641400	25462356	ncbi-curated-srlv	Small ruminant lentivirus	2-20	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641401	KJ641401	25462356	ncbi-curated-srlv	Small ruminant lentivirus	3-23	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641403	KJ641403	25462356	ncbi-curated-srlv	Small ruminant lentivirus	3-21	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641404	KJ641404	25462356	ncbi-curated-srlv	Small ruminant lentivirus	3-27	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641405	KJ641405	25462356	ncbi-curated-srlv	Small ruminant lentivirus	4-40	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641406	KJ641406	25462356	ncbi-curated-srlv	Small ruminant lentivirus	6-3	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641407	KJ641407	25462356	ncbi-curated-srlv	Small ruminant lentivirus	7-33	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641409	KJ641409	25462356	ncbi-curated-srlv	Small ruminant lentivirus	5-13	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641411	KJ641411	25462356	ncbi-curated-srlv	Small ruminant lentivirus	11-18	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641412	KJ641412	25462356	ncbi-curated-srlv	Small ruminant lentivirus	4-12	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641413	KJ641413	25462356	ncbi-curated-srlv	Small ruminant lentivirus	16-24	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641414	KJ641414	25462356	ncbi-curated-srlv	Small ruminant lentivirus	18-10	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641415	KJ641415	25462356	ncbi-curated-srlv	Small ruminant lentivirus	7-31	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641416	KJ641416	25462356	ncbi-curated-srlv	Small ruminant lentivirus	20-3	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641417	KJ641417	25462356	ncbi-curated-srlv	Small ruminant lentivirus	20-14	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641418	KJ641418	25462356	ncbi-curated-srlv	Small ruminant lentivirus	M-8	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641419	KJ641419	25462356	ncbi-curated-srlv	Small ruminant lentivirus	21-M8	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KJ641422	KJ641422	25462356	ncbi-curated-srlv	Small ruminant lentivirus	21-M3	Canada	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974987	KP974987	-	ncbi-curated-srlv	Small ruminant lentivirus	BE-01-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974988	KP974988	-	ncbi-curated-srlv	Small ruminant lentivirus	BE-02-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974989	KP974989	-	ncbi-curated-srlv	Small ruminant lentivirus	BO-01-Kz/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974990	KP974990	-	ncbi-curated-srlv	Small ruminant lentivirus	BO-02-Kz/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974991	KP974991	-	ncbi-curated-srlv	Small ruminant lentivirus	BO-03-Kz/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974992	KP974992	-	ncbi-curated-srlv	Small ruminant lentivirus	BO-05-Kz/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974993	KP974993	-	ncbi-curated-srlv	Small ruminant lentivirus	BO-07-Kz/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974994	KP974994	-	ncbi-curated-srlv	Small ruminant lentivirus	BO-08-Kz/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974995	KP974995	-	ncbi-curated-srlv	Small ruminant lentivirus	BT-01-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974996	KP974996	-	ncbi-curated-srlv	Small ruminant lentivirus	BT-02-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974997	KP974997	-	ncbi-curated-srlv	Small ruminant lentivirus	BT-03-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974998	KP974998	-	ncbi-curated-srlv	Small ruminant lentivirus	BT-04-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP974999	KP974999	-	ncbi-curated-srlv	Small ruminant lentivirus	BT-05-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975000	KP975000	-	ncbi-curated-srlv	Small ruminant lentivirus	BT-08-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975001	KP975001	-	ncbi-curated-srlv	Small ruminant lentivirus	GE-01-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975002	KP975002	-	ncbi-curated-srlv	Small ruminant lentivirus	GO-05-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975003	KP975003	-	ncbi-curated-srlv	Small ruminant lentivirus	GO-06-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975004	KP975004	-	ncbi-curated-srlv	Small ruminant lentivirus	GO-07-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975005	KP975005	-	ncbi-curated-srlv	Small ruminant lentivirus	GO-09-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975006	KP975006	-	ncbi-curated-srlv	Small ruminant lentivirus	GO-12-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975007	KP975007	-	ncbi-curated-srlv	Small ruminant lentivirus	KA-01-Kz/SRLV/MKD	Macedonia	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975008	KP975008	-	ncbi-curated-srlv	Small ruminant lentivirus	KA-02-Kz/SRLV/MKD	Macedonia	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975009	KP975009	-	ncbi-curated-srlv	Small ruminant lentivirus	KA-03-Kz/SRLV/MKD	Macedonia	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975010	KP975010	-	ncbi-curated-srlv	Small ruminant lentivirus	KA-04-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975011	KP975011	-	ncbi-curated-srlv	Small ruminant lentivirus	KA-06-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975012	KP975012	-	ncbi-curated-srlv	Small ruminant lentivirus	KA-07-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975013	KP975013	-	ncbi-curated-srlv	Small ruminant lentivirus	KA-08-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975014	KP975014	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-03-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975015	KP975015	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-06-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975016	KP975016	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-10-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975017	KP975017	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-11-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975018	KP975018	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-13-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975019	KP975019	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-14-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975020	KP975020	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-16-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975021	KP975021	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-17-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975022	KP975022	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-20-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975023	KP975023	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-21-Ov/SRLV/MKD	Slovenia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975024	KP975024	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-22-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975025	KP975025	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-23-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975026	KP975026	-	ncbi-curated-srlv	Small ruminant lentivirus	KI-24-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975027	KP975027	-	ncbi-curated-srlv	Small ruminant lentivirus	KU-01-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975028	KP975028	-	ncbi-curated-srlv	Small ruminant lentivirus	KU-04-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975029	KP975029	-	ncbi-curated-srlv	Small ruminant lentivirus	MB-01-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975030	KP975030	-	ncbi-curated-srlv	Small ruminant lentivirus	MB-02-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975031	KP975031	-	ncbi-curated-srlv	Small ruminant lentivirus	NE-01-Ov/SRLV/MKD	Macedonia	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975032	KP975032	-	ncbi-curated-srlv	Small ruminant lentivirus	OH-04-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975033	KP975033	-	ncbi-curated-srlv	Small ruminant lentivirus	OH-07-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975034	KP975034	-	ncbi-curated-srlv	Small ruminant lentivirus	OH-09-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975035	KP975035	-	ncbi-curated-srlv	Small ruminant lentivirus	OH-10-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975036	KP975036	-	ncbi-curated-srlv	Small ruminant lentivirus	OH-11-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975037	KP975037	-	ncbi-curated-srlv	Small ruminant lentivirus	OH-13-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975038	KP975038	-	ncbi-curated-srlv	Small ruminant lentivirus	PP-01-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975039	KP975039	-	ncbi-curated-srlv	Small ruminant lentivirus	PP-04-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975040	KP975040	-	ncbi-curated-srlv	Small ruminant lentivirus	PP-05-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975041	KP975041	-	ncbi-curated-srlv	Small ruminant lentivirus	PP-08-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975042	KP975042	-	ncbi-curated-srlv	Small ruminant lentivirus	PP-09-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975043	KP975043	-	ncbi-curated-srlv	Small ruminant lentivirus	PP-10-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975044	KP975044	-	ncbi-curated-srlv	Small ruminant lentivirus	RE-01-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975045	KP975045	-	ncbi-curated-srlv	Small ruminant lentivirus	RE-03-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975046	KP975046	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-03-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975047	KP975047	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-05-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975048	KP975048	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-07-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975049	KP975049	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-08-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975050	KP975050	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-10-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975051	KP975051	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-12-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975052	KP975052	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-14-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975053	KP975053	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-15-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975054	KP975054	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-16-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975055	KP975055	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-19-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975056	KP975056	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-20-Kz/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975057	KP975057	-	ncbi-curated-srlv	Small ruminant lentivirus	SK-23-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975058	KP975058	-	ncbi-curated-srlv	Small ruminant lentivirus	SR-01-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975059	KP975059	-	ncbi-curated-srlv	Small ruminant lentivirus	SR-07-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975060	KP975060	-	ncbi-curated-srlv	Small ruminant lentivirus	SR-08-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975061	KP975061	-	ncbi-curated-srlv	Small ruminant lentivirus	SR-09-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975062	KP975062	-	ncbi-curated-srlv	Small ruminant lentivirus	SR-10-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975063	KP975063	-	ncbi-curated-srlv	Small ruminant lentivirus	SR-11-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975064	KP975064	-	ncbi-curated-srlv	Small ruminant lentivirus	SR-15-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975065	KP975065	-	ncbi-curated-srlv	Small ruminant lentivirus	SvN-01-Ov/SRLV/MKD	Macedonia	-	-	2013
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975066	KP975066	-	ncbi-curated-srlv	Small ruminant lentivirus	SvN-02-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975067	KP975067	-	ncbi-curated-srlv	Small ruminant lentivirus	SvN-04-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975068	KP975068	-	ncbi-curated-srlv	Small ruminant lentivirus	SvN-05-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975069	KP975069	-	ncbi-curated-srlv	Small ruminant lentivirus	TE-01-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975070	KP975070	-	ncbi-curated-srlv	Small ruminant lentivirus	TE-02-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975071	KP975071	-	ncbi-curated-srlv	Small ruminant lentivirus	VE-02-Ov/SRLV/MKD	Macedonia	-	-	2014
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975072	KP975072	-	ncbi-curated-srlv	Small ruminant lentivirus	VI-01-Ov/SRLV/MKD	Macedonia	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KP975073	KP975073	-	ncbi-curated-srlv	Small ruminant lentivirus	VI-02-Ov/SRLV/MKD	Macedonia	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KT214469	KT214469	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Sichuan	China	-	-	1993
+alignment/AL_SRLV/member/ncbi-curated-srlv/KT453988	KT453988	26517396	ncbi-curated-srlv	Small ruminant lentivirus	g6221	Switzerland	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KT453989	KT453989	26517396	ncbi-curated-srlv	Small ruminant lentivirus	s7385	Switzerland	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KT453990	KT453990	26517396	ncbi-curated-srlv	Small ruminant lentivirus	s7631	Switzerland	-	-	2011
+alignment/AL_SRLV/member/ncbi-curated-srlv/KT749878	KT749878	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Shandong	China	-	-	1993
+alignment/AL_SRLV/member/ncbi-curated-srlv/KT749879	KT749879	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Shaanxi	China	-	-	1993
+alignment/AL_SRLV/member/ncbi-curated-srlv/KT749880	KT749880	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	guizhou	China	-	-	-
+alignment/AL_SRLV/member/ncbi-curated-srlv/KT749881	KT749881	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	gs-35V	China	-	-	-
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/KT898826	KT898826	-	ncbi-refseqs-srlv	Small ruminant lentivirus	Jord1	Jordan	-	F	2007
+alignment/AL_SRLV/member/ncbi-curated-srlv/KY358787	KY358787	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303013-1	USA	-	-	2006
+alignment/AL_SRLV/member/ncbi-curated-srlv/KY358788	KY358788	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-199906011-2	USA	-	-	2003
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/M10608	M10608	2410140	ncbi-refseqs-srlv	Visna-maedi virus	Icelandic 1514; Icelandic LV1-1	Iceland	1	A	1953
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/M31646	M31646	2158181	ncbi-refseqs-srlv	Ovine lentivirus	-	South Africa	1	A	1976
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/M34193	M34193	2158181	ncbi-refseqs-srlv	Ovine lentivirus	-	South Africa	1	A	1976
@@ -44,6 +160,32 @@ alignment/AL_SRLV/member/ncbi-curated-srlv/MH374291	MH374291	-	ncbi-curated-srlv
 alignment/AL_SRLV/member/ncbi-curated-srlv/MH916859	MH916859	-	ncbi-curated-srlv	Small ruminant lentivirus	1150	United States	-	A	2017
 alignment/AL_SRLV/member/ncbi-curated-srlv/MH936674	MH936674	-	ncbi-curated-srlv	Small ruminant lentivirus	BRMG CNPC	Italy	1	B	2015
 alignment/AL_SRLV/member/ncbi-curated-srlv/MH936675	MH936675	-	ncbi-curated-srlv	Small ruminant lentivirus	BRRN_CNPC	Italy	1	B	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN646784	MN646784	-	ncbi-curated-srlv	Visna-maedi virus	AM-1	Iraq	-	-	2019
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN646785	MN646785	-	ncbi-curated-srlv	Visna-maedi virus	AM-2	Iraq	-	-	2019
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN646786	MN646786	-	ncbi-curated-srlv	Visna-maedi virus	AM-3	Iraq	-	-	2019
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN646787	MN646787	-	ncbi-curated-srlv	Visna-maedi virus	AM-4	Iraq	-	-	2019
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN646788	MN646788	-	ncbi-curated-srlv	Visna-maedi virus	AM-5	Iraq	-	-	2019
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN646789	MN646789	-	ncbi-curated-srlv	Visna-maedi virus	AM-6	Iraq	-	-	2019
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784765	MN784765	32138297	ncbi-curated-srlv	Small ruminant lentivirus	WV.12.3_Goat.BEL	Belgium	-	-	2016
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784766	MN784766	32138297	ncbi-curated-srlv	Small ruminant lentivirus	WV.7.1_Goat.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784767	MN784767	32138297	ncbi-curated-srlv	Small ruminant lentivirus	WV.4.3_Sheep.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784768	MN784768	32138297	ncbi-curated-srlv	Small ruminant lentivirus	WV.3.2_Goat.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784769	MN784769	32138297	ncbi-curated-srlv	Small ruminant lentivirus	WV.14.5_Sheep.BEL	Belgium	-	-	2016
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784770	MN784770	32138297	ncbi-curated-srlv	Small ruminant lentivirus	VB.5.6_Goat.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784771	MN784771	32138297	ncbi-curated-srlv	Small ruminant lentivirus	VB.1.2_Sheep.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784772	MN784772	32138297	ncbi-curated-srlv	Small ruminant lentivirus	VB.7.7_Sheep.BEL	Belgium	-	-	2016
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784773	MN784773	32138297	ncbi-curated-srlv	Small ruminant lentivirus	OV.20.1_Sheep.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784774	MN784774	32138297	ncbi-curated-srlv	Small ruminant lentivirus	OV.13.1_Sheep.BEL	Belgium	-	-	2016
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784775	MN784775	32138297	ncbi-curated-srlv	Small ruminant lentivirus	OV.1.7_Sheep.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784776	MN784776	32138297	ncbi-curated-srlv	Small ruminant lentivirus	LX.2.1_Sheep.BEL	Belgium	-	-	2016
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784777	MN784777	32138297	ncbi-curated-srlv	Small ruminant lentivirus	LK.6.3_Sheep.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784778	MN784778	32138297	ncbi-curated-srlv	Small ruminant lentivirus	LK.5.4_Sheep.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784779	MN784779	32138297	ncbi-curated-srlv	Small ruminant lentivirus	LK.3.3_Sheep.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784780	MN784780	32138297	ncbi-curated-srlv	Small ruminant lentivirus	LK.3.1_Goat.BEL	Belgium	-	-	2016
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784781	MN784781	32138297	ncbi-curated-srlv	Small ruminant lentivirus	LB.2.3_Goat.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784782	MN784782	32138297	ncbi-curated-srlv	Small ruminant lentivirus	LB.1.6_Sheep.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784783	MN784783	32138297	ncbi-curated-srlv	Small ruminant lentivirus	H.2.6_Goat.BEL	Belgium	-	-	2015
+alignment/AL_SRLV/member/ncbi-curated-srlv/MN784784	MN784784	32138297	ncbi-curated-srlv	Small ruminant lentivirus	A.3.4_Sheep.BEL	Belgium	-	-	2015
 alignment/AL_SRLV/member/ncbi-curated-srlv/MT993896	MT993896	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303013-1	United States	-	A	2006
 alignment/AL_SRLV/member/ncbi-curated-srlv/MT993897	MT993897	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303038-1	United States	-	A	2006
 alignment/AL_SRLV/member/ncbi-curated-srlv/MT993898	MT993898	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200303332-1	United States	-	A	2006
@@ -67,6 +209,12 @@ alignment/AL_SRLV/member/ncbi-curated-srlv/MT993915	MT993915	-	ncbi-curated-srlv
 alignment/AL_SRLV/member/ncbi-curated-srlv/MT993916	MT993916	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200177363-2	United States	-	A	2006
 alignment/AL_SRLV/member/ncbi-curated-srlv/MT993917	MT993917	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-199916128-2	United States	-	A	2006
 alignment/AL_SRLV/member/ncbi-curated-srlv/MT993918	MT993918	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-199916193-r	United States	-	A	2006
+alignment/AL_SRLV/member/ncbi-curated-srlv/MW200001	MW200001	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-6	Iraq	-	-	2020
+alignment/AL_SRLV/member/ncbi-curated-srlv/MW200002	MW200002	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-7	Iraq	-	-	2020
+alignment/AL_SRLV/member/ncbi-curated-srlv/MW200003	MW200003	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-8	Iraq	-	-	2020
+alignment/AL_SRLV/member/ncbi-curated-srlv/MW200004	MW200004	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-9	Iraq	-	-	2020
+alignment/AL_SRLV/member/ncbi-curated-srlv/MW200005	MW200005	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-10	Iraq	-	-	2020
+alignment/AL_SRLV/member/ncbi-curated-srlv/MW248464	MW248464	-	ncbi-curated-srlv	Visna-maedi virus	NM1111	China	-	-	2020
 alignment/AL_SRLV/member/ncbi-refseqs/NC_001452	NC_001452	2824836	ncbi-refseqs	SRLV-A	-	-	1	A	-
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/NC_001463	NC_001463	2171210	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	-	USA	1	B	1974
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	Visna/maedi virus EV1	-	United Kingdon	1	A	1984

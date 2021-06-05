@@ -237,5 +237,61 @@
   exit 
 
 
+  # SRLV-F
+  reference REF_SRLV_F
 
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9136
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 135
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 408 1763
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1667 4945
+      exit
+ 
+    add feature-location pro
+    feature-location pro
+      add segment 1817 2263
+      exit
+
+
+    add feature-location pol
+    feature-location pol
+      add segment 2264 4750
+      exit
+
+    add feature-location IN
+    feature-location IN
+      add segment 1667 4945
+      exit
+
+    add feature-location vif
+     feature-location vif
+      add segment 4911 5597
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 5912 8869
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8851 9136
+      exit
+
+  exit 
+
+4943
 
