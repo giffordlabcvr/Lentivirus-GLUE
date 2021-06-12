@@ -6,13 +6,12 @@ alignment/AL_SRLV/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refse
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/AY900630	AY900630	-	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	gansu	China	1	B	1992
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/EU293537	EU293537	18987157	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus Roccaverano	Roccaverano	Italy	-	E	2008
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/FJ195346	FJ195346	19339126	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus Ov496	496	Spain	1	B	2004
-alignment/AL_SRLV/member/ncbi-refseqs-srlv/GQ381130	GQ381130	20060658	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Seui	Italy	-	-	2003
+alignment/AL_SRLV/member/ncbi-refseqs-srlv/GQ381130	GQ381130	20060658	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Seui	Italy	-	E	2003
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/GU120138	GU120138	22566005	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Shanxi	China	1	B	2009
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/HM210570	HM210570	20932787	ncbi-refseqs-srlv	Small ruminant lentivirus	FESC-752	Mexico	-	-	2004
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	Visna-maedi virus	697	Spain	-	A	2005
-alignment/AL_SRLV/member/ncbi-refseqs-srlv/JF502416	JF502416	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Fonni	Italy: Sardinia	-	-	2003
-alignment/AL_SRLV/member/ncbi-refseqs-srlv/JF502417	JF502417	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Volterra	Italy: Tuscany	-	-	2004
-alignment/AL_SRLV/member/ncbi-curated-srlv/JX878404	JX878404	23197577	ncbi-curated-srlv	Small ruminant lentivirus	Agh283	France	-	-	2004
+alignment/AL_SRLV/member/ncbi-refseqs-srlv/JF502416	JF502416	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Fonni	Italy	-	B3	2003
+alignment/AL_SRLV/member/ncbi-refseqs-srlv/JF502417	JF502417	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Volterra	Italy	-	B3	2004
 alignment/AL_SRLV/member/ncbi-curated-srlv/JX982682	JX982682	23375019	ncbi-curated-srlv	Small ruminant lentivirus	36000	Spain	-	-	2008
 alignment/AL_SRLV/member/ncbi-curated-srlv/JX982683	JX982683	23375019	ncbi-curated-srlv	Small ruminant lentivirus	25106	Spain	-	-	2008
 alignment/AL_SRLV/member/ncbi-curated-srlv/JX982684	JX982684	23375019	ncbi-curated-srlv	Small ruminant lentivirus	36012	Spain	-	-	2008
@@ -30,8 +29,6 @@ alignment/AL_SRLV/member/ncbi-curated-srlv/JX982695	JX982695	23375019	ncbi-curat
 alignment/AL_SRLV/member/ncbi-curated-srlv/JX982696	JX982696	23375019	ncbi-curated-srlv	Small ruminant lentivirus	9905	Spain	-	-	2008
 alignment/AL_SRLV/member/ncbi-curated-srlv/JX982697	JX982697	23375019	ncbi-curated-srlv	Small ruminant lentivirus	40555	Spain	-	-	2008
 alignment/AL_SRLV/member/ncbi-curated-srlv/JX982698	JX982698	23375019	ncbi-curated-srlv	Small ruminant lentivirus	40556	Spain	-	-	2008
-alignment/AL_SRLV/member/ncbi-curated-srlv/KC560792	KC560792	24045043	ncbi-curated-srlv	Small ruminant lentivirus	6612	Belgium	-	-	2007
-alignment/AL_SRLV/member/ncbi-curated-srlv/KF011980	KF011980	23895262	ncbi-curated-srlv	Small ruminant lentivirus	9635027C11	United States	-	-	2003
 alignment/AL_SRLV/member/ncbi-curated-srlv/KP120539	KP120539	-	ncbi-curated-srlv	Small ruminant lentivirus	7028	United States	-	-	2014
 alignment/AL_SRLV/member/ncbi-curated-srlv/KP120540	KP120540	-	ncbi-curated-srlv	Small ruminant lentivirus	8344	United States	-	-	2014
 alignment/AL_SRLV/member/ncbi-curated-srlv/KP120541	KP120541	-	ncbi-curated-srlv	Small ruminant lentivirus	9451	United States	-	-	2014
@@ -155,17 +152,6 @@ alignment/AL_SRLV/member/ncbi-curated-srlv/MT993915	MT993915	-	ncbi-curated-srlv
 alignment/AL_SRLV/member/ncbi-curated-srlv/MT993916	MT993916	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-200177363-2	United States	-	A	2006
 alignment/AL_SRLV/member/ncbi-curated-srlv/MT993917	MT993917	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-199916128-2	United States	-	A	2006
 alignment/AL_SRLV/member/ncbi-curated-srlv/MT993918	MT993918	-	ncbi-curated-srlv	Small ruminant lentivirus	USMARC-199916193-r	United States	-	A	2006
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW199996	MW199996	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-1	Iraq	-	-	2020
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW199997	MW199997	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-2	Iraq	-	-	2020
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW199998	MW199998	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-3	Iraq	-	-	2020
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW199999	MW199999	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-4	Iraq	-	-	2020
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW200000	MW200000	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Mosa-5	Iraq	-	-	2020
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW483686	MW483686	-	ncbi-curated-srlv	Small ruminant lentivirus	Ahmed-1	Iraq	-	-	-
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW483687	MW483687	-	ncbi-curated-srlv	Small ruminant lentivirus	Ahmed-2	Iraq	-	-	-
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW483688	MW483688	-	ncbi-curated-srlv	Small ruminant lentivirus	Ahmed-3	Iraq	-	-	-
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW483689	MW483689	-	ncbi-curated-srlv	Small ruminant lentivirus	Ahmed-4	Iraq	-	-	-
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW483690	MW483690	-	ncbi-curated-srlv	Small ruminant lentivirus	Ahmed-5	Iraq	-	-	-
-alignment/AL_SRLV/member/ncbi-curated-srlv/MW483691	MW483691	-	ncbi-curated-srlv	Small ruminant lentivirus	Ahmed-6	Iraq	-	-	-
 alignment/AL_SRLV/member/ncbi-refseqs/NC_001452	NC_001452	2824836	ncbi-refseqs	SRLV-A	-	-	1	A	-
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/NC_001463	NC_001463	2171210	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	-	United States	1	B	1974
 alignment/AL_SRLV/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	Visna/maedi virus EV1	-	United Kingdon	1	A	1984
