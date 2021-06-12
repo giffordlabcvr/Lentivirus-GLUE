@@ -36,7 +36,7 @@
       -o trees/main-species/lenti-srlv-matrix.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAgag \
-      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 10" \
       -o trees/main-species/lenti-srlv-gag.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvArt \
@@ -52,7 +52,7 @@
       -o trees/main-species/lenti-srlv-pol.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAenv \
-      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 10" \
       -o trees/main-species/lenti-srlv-env.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAgenome \
