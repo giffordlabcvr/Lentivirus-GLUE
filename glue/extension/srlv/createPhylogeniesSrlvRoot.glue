@@ -48,7 +48,7 @@
       -o trees/main-species/lenti-srlv-in.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvApol \
-      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 10" \
       -o trees/main-species/lenti-srlv-pol.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAenv \
