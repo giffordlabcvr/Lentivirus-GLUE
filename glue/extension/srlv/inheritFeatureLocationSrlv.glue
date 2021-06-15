@@ -31,15 +31,3 @@ reference REF_SRLV_E
   inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A IN
 
   exit
-
- 
-reference REF_SRLV_F
-
-  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A matrix
-  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A capsid
-  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A nucleocapsid
-  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A RT
-
-
-  exit
-

@@ -64,9 +64,11 @@ MT993918	Ovis aries	United States	2006	A	NK	USMARC-199916193-r	9204	Genome	N. Am
 MW248464	Ovis aries	China	2020	A	NK	NM1111	9193	Genome	E. Asia
 S51392	Ovis aries	United Kingdon	1984	A	1	EV1	9203	Genome	Europe
 U35676	Ovis aries	France	1994	A	6	676	475	Pol	Europe
+KT898826	Ovis aries	Jordan	2007	A	NK	Jord1	9136	Genome	W. Asia
 AY900630	Capra hircus	China	1992	B	1	Gansu	9186	Genome	E. Asia
 FJ195346	Ovis aries	Spain	2004	B	1	496	9136	Genome	Europe
 GU120138	Capra hircus	China	2009	B	1	Shanxi	9065	Genome	E. Asia
+HM210570	Capra	Mexico	2004	B	NK	FESC-752	9090	Genome	N. America
 KT214469	Capra hircus	China	1993	B	1	Sichuan	9138	Genome	
 KT749878	Capra hircus	China	1993	B	1	Shandong	9172	Genome	E. Asia
 KT749879	Capra hircus	China	1993	B	1	Shaanxi	9163	Genome	E. Asia
@@ -84,10 +86,9 @@ MH374289	Capra hircus	Italy	NK	B	1	SRLV_Taccone	9158	Genome	Europe
 MH374290	Capra hircus	Italy	1989	B	1	SRLV_To1-89	9135	Genome	Europe
 MH936674	Capra hircus	Italy	2015	B	1	BRMG CNPC	6378	Genome	Europe
 NC_001463	Capra hircus	United States	1974	B	1	Clements	9189	Genome	N. America
-AF322109	Capra hircus	Norway	1991	C	NK	1GA	8919	Genome	Europe
-DQ632733	Ovis aries	Spain	2005	D	NK	Ov-1	1130	Pol	Europe
-GQ381130	Ovis aries	Italy	2003	E	NK	Seui	8437	Genome	Europe
-EU293537	Capra hircus	Italy	2008	E	NK	Roccaverano	8418	Genome	Europe
-KT898826	Ovis aries	Jordan	2007	F	NK	Jord1	9136	Genome	W. Asia
 JF502416	Ovis aries	Italy	2003	B3	NK	Fonni	9148	Genome	Europe
 JF502417	Ovis aries	Italy	2004	B3	NK	Volterra	9152 bp	Genome	Europe
+AF322109	Capra hircus	Norway	1991	C	NK	1GA	8919	Genome	Europe
+DQ632733	Ovis aries	Spain	2005	D	NK	Ov-1	1130	Pol	Europe
+EU293537	Capra hircus	Italy	2008	E	NK	Roccaverano	8418	Genome	Europe
+GQ381130	Ovis aries	Italy	2003	E	NK	Seui	8437	Genome	Europe
