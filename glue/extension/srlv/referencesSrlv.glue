@@ -10,8 +10,9 @@
   create reference REF_SRLV_A_AF479638    ncbi-refseqs-srlv AF479638
   create reference REF_SRLV_A4_AY445885   ncbi-refseqs-srlv AY445885
   create reference REF_SRLV_A2_HQ848062   ncbi-refseqs-srlv HQ848062  
-  create reference REF_SRLV_A1_NC_001452  ncbi-refseqs      NC_001452
-  
+  create reference REF_SRLV_A_KT898826    ncbi-refseqs-srlv KT898826
+
+
   # SRLV B subtypes
   create reference REF_SRLV_B             ncbi-refseqs-srlv NC_001463
   create reference REF_SRLV_B_HM210570    ncbi-refseqs-srlv HM210570
@@ -34,19 +35,7 @@
   create reference REF_SRLV_B3            ncbi-refseqs-srlv JF502416
   create reference REF_SRLV_B3_JF502417   ncbi-refseqs-srlv JF502417
   
-  # SRLV-F?
-  create reference REF_SRLV_F             ncbi-refseqs-srlv KT898826
-  
-
-
-
-
-
-
-
-
-
-
+ 
   # SRLV-D (suspect)
   create reference REF_SRLV_D             ncbi-refseqs-subgenomic-srlv DQ632733
 
