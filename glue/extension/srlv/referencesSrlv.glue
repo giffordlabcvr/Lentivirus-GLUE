@@ -21,23 +21,17 @@
   create reference REF_SRLV_B1_HM210570   ncbi-refseqs-srlv HM210570
   create reference REF_SRLV_B1_GU120138   ncbi-refseqs-srlv GU120138
   create reference REF_SRLV_B2_FJ195346   ncbi-refseqs-srlv FJ195346
- 
-  # SRLV-C   
-  create reference REF_SRLV_C             ncbi-refseqs-srlv AF322109
-
-  
+  create reference REF_SRLV_B_AF322109    ncbi-refseqs-srlv AF322109 # SRLV-C 
+  create reference REF_SRLV_B3_JF502416   ncbi-refseqs-srlv JF502416 # SRLV-B3
+  create reference REF_SRLV_B3_JF502417   ncbi-refseqs-srlv JF502417 # SRLV-B3
+   
   # SRLV-E 
   create reference REF_SRLV_E             ncbi-refseqs-srlv EU293537
   create reference REF_SRLV_E2_GQ381130   ncbi-refseqs-srlv GQ381130
-  create reference REF_SRLV_E_GQ381130    ncbi-refseqs-srlv GQ381130
+  create reference REF_SRLV_E1_GQ381130   ncbi-refseqs-srlv GQ381130
 
-  # SRLV-B3   
-  create reference REF_SRLV_B3            ncbi-refseqs-srlv JF502416
-  create reference REF_SRLV_B3_JF502417   ncbi-refseqs-srlv JF502417
-  
- 
   # SRLV-D (suspect)
-  create reference REF_SRLV_D             ncbi-refseqs-subgenomic-srlv DQ632733
+  #create reference REF_SRLV_D             ncbi-refseqs-subgenomic-srlv DQ632733
 
   # Subgenomic
   #create reference REF_SRLV_A3_AY454189   ncbi-refseqs-subgenomic-srlv AY454189

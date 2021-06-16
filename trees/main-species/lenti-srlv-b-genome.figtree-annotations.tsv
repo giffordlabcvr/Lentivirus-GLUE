@@ -1,8 +1,11 @@
 taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
+alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/AF322109	AF322109	16476978	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	1GA	Norway	4	B	1991
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/AY900630	AY900630	-	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	gansu	China	1	B	1992
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/FJ195346	FJ195346	19339126	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus Ov496	496	Spain	1	B	2004
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/GU120138	GU120138	22566005	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Shanxi	China	1	B	2009
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/HM210570	HM210570	20932787	ncbi-refseqs-srlv	Small ruminant lentivirus	FESC-752	Mexico	-	B	2004
+alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/JF502416	JF502416	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Fonni	Italy	3	B	2003
+alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/JF502417	JF502417	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Volterra	Italy	3	B	2004
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/KT214469	KT214469	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Sichuan	China	1	B	1993
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/KT749878	KT749878	-	ncbi-curated-srlv	Caprine arthritis encephalitis virus	Shandong	China	1	B	1993
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/KT749879	KT749879	-	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Shaanxi	China	1	B	1993

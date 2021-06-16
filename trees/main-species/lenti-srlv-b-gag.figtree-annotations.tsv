@@ -1,4 +1,5 @@
 taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
+alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/AF322109	AF322109	16476978	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	1GA	Norway	4	B	1991
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/AY454164	AY454164	14967484	ncbi-curated-srlv	Small ruminant lentivirus	SNCR5056	Switzerland	1	B	1999
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/AY454165	AY454165	14967484	ncbi-curated-srlv	Small ruminant lentivirus	SNCR5057	Switzerland	1	B	1999
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/AY454166	AY454166	14967484	ncbi-curated-srlv	Small ruminant lentivirus	SNCR5058	Switzerland	1	B	1999
@@ -72,6 +73,8 @@ alignment/AL_SRLV_B/member/ncbi-curated-srlv/HQ158128	HQ158128	21639904	ncbi-cur
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/HQ158129	HQ158129	21639904	ncbi-curated-srlv	Small ruminant lentivirus	cFC2-44	Canada	1	B	2004
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/HQ158130	HQ158130	21639904	ncbi-curated-srlv	Small ruminant lentivirus	cFC4-12	Canada	1	B	2004
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/HQ158131	HQ158131	21639904	ncbi-curated-srlv	Small ruminant lentivirus	cFC4-24	Canada	1	B	2004
+alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/JF502416	JF502416	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Fonni	Italy	3	B	2003
+alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/JF502417	JF502417	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Volterra	Italy	3	B	2004
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/JF520393	JF520393	21562119	ncbi-curated-srlv	Caprine arthritis encephalitis virus	It-36384	Italy	-	B	2008
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/JF520395	JF520395	21562119	ncbi-curated-srlv	Caprine arthritis encephalitis virus	It-8970	Italy	-	B	2009
 alignment/AL_SRLV_B/member/ncbi-curated-srlv/JF520396	JF520396	21562119	ncbi-curated-srlv	Caprine arthritis encephalitis virus	It-9762	Italy	-	B	2009

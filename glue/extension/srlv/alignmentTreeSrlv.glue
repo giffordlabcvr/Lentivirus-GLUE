@@ -14,14 +14,14 @@
     extract child AL_SRLV_A --refName REF_SRLV_A
     demote member AL_SRLV_A --whereClause "sequence.genotype = 'A'" 
 
-    extract child AL_SRLV_B3 --refName REF_SRLV_B3
-    demote member AL_SRLV_B3 --whereClause "sequence.genotype = 'B3'" 
+    #extract child AL_SRLV_B3 --refName REF_SRLV_B3
+    #demote member AL_SRLV_B3 --whereClause "sequence.genotype = 'B3'" 
 	
     extract child AL_SRLV_B --refName REF_SRLV_B
     demote member AL_SRLV_B --whereClause "sequence.genotype = 'B'" 
 
-    extract child AL_SRLV_C --refName REF_SRLV_C
-    demote member AL_SRLV_C --whereClause "sequence.genotype = 'C'" 
+    #extract child AL_SRLV_C --refName REF_SRLV_C
+    #demote member AL_SRLV_C --whereClause "sequence.genotype = 'C'" 
 
     extract child AL_SRLV_E --refName REF_SRLV_E
     demote member AL_SRLV_E --whereClause "sequence.genotype = 'E'" 
@@ -37,6 +37,6 @@
 
  # Set clade category
   alignment AL_SRLV_A set field clade_category genotype
-  alignment AL_SRLV_B3 set field clade_category genotype
-  alignment AL_SRLV_C  set field clade_category genotype
+  #alignment AL_SRLV_B3 set field clade_category genotype
+  #alignment AL_SRLV_C  set field clade_category genotype
   alignment AL_SRLV_E  set field clade_category genotype
