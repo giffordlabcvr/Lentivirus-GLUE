@@ -11,7 +11,9 @@
 	<primaryAccession>NC_001452</primaryAccession>
 	<!-- BIV -->	
 	<primaryAccession>M32690</primaryAccession>
+	<!-- EIAV -->
 	<primaryAccession>M16575</primaryAccession>
+	<!-- FIV -->
 	<primaryAccession>M25381</primaryAccession>
 
   </specificPrimaryAccessions>
