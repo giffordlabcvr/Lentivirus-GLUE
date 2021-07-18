@@ -26,23 +26,23 @@
 
     generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiMatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-maprot.tre NEWICK_BOOTSTRAPS
+      -o trees/main-root/lenti-ma-prot.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiCapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-caprot.tre NEWICK_BOOTSTRAPS
+      -o trees/main-root/lenti-ca-prot.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiNucleocapsid \
       -w "fLocNotes.featureLoc.feature.name = 'nucleocapsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-ncprot.tre NEWICK_BOOTSTRAPS
+      -o trees/main-root/lenti-nc-prot.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiRt \
       -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-rtprot.tre NEWICK_BOOTSTRAPS
+      -o trees/main-root/lenti-rt-prot.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiIntegrase \
       -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-root/lenti-inprot.tre NEWICK_BOOTSTRAPS
+      -o trees/main-root/lenti-in-prot.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -52,27 +52,27 @@
   module LentiPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-maprot.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-root/lenti-ma-prot.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/main-root/lenti-ma.export-MidpointRerooted-prot.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-caprot.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-root/lenti-ca-prot.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/main-root/lenti-ca.export-MidpointRerooted-prot.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-ncprot.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-root/lenti-nc-prot.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/main-root/lenti-nc.export-MidpointRerooted-prot.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-rtprot.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-root/lenti-rt-prot.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/main-root/lenti-rt.export-MidpointRerooted-prot.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-root/lenti-inprot.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-root/lenti-in-prot.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/main-root/lenti-in.export-MidpointRerooted-prot.tree NEWICK_BOOTSTRAPS
 
