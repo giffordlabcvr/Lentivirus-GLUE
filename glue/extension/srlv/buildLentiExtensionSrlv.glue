@@ -35,7 +35,7 @@
 	run file glue/extension/srlv/createPhylogeniesSrlv.glue
 
 	# Import genome-length phylogeny
-	#run file glue/extension/srlv/importGenotypingPhylogenySrlv.glue
+	run file glue/extension/srlv/importGenotypingPhylogenySrlv.glue
 	
 	# Validate
 	validate
