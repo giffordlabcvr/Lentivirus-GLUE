@@ -6,7 +6,7 @@ module srlvPhyloImporter
   import phylogeny AL_SRLV \
   --recursive  \
   --anyAlignment  \
-  --whereClause "sequence.source.name in ('ncbi-refseqs','ncbi-refseqs-srlv') and sequence.referenceSequences.name != null and referenceMember = false"  \
+  --whereClause "sequence.source.name in ('ncbi-refseqs','ncbi-refseqs-srlv', 'ncbi-curated-srlv') and sequence.referenceSequences.name != null and referenceMember = false"  \
   --inputFile trees/main-species/lenti-srlv-genome.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS  \
   --fieldName phylogeny
 
