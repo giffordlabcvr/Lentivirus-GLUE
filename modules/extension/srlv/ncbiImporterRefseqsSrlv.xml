@@ -16,7 +16,9 @@
 	 <primaryAccession>M10608</primaryAccession>
 	 <primaryAccession>M51543</primaryAccession>
 	 <primaryAccession>M60610</primaryAccession>
-
+	 <primaryAccession>MG996440</primaryAccession>
+     <primaryAccession>KY358787</primaryAccession>
+		 
 	 <!-- SRLV-A2? -->	 
 	 <primaryAccession>M31646</primaryAccession>
 	 <primaryAccession>M34193</primaryAccession>
@@ -32,8 +34,8 @@
 	 <primaryAccession>NC_001463</primaryAccession>	 
 	 <primaryAccession>GU120138</primaryAccession>	 
 	 <primaryAccession>HM210570</primaryAccession>	 
-	 <primaryAccession>M33677</primaryAccession>	 
-
+	 <primaryAccession>KT749879</primaryAccession>
+	 
 	 <!-- SRLV-B2 -->
 	 <primaryAccession>FJ195346</primaryAccession>	 
 

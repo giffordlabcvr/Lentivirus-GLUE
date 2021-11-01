@@ -10,9 +10,10 @@
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
-        <featureName>capsid</featureName>
+        <featureName>whole_genome</featureName>
         <startNt>966</startNt>
         <endNt>1449</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
+

@@ -6,7 +6,10 @@
   <!-- The eSearchTerm is a standard NCBI entrez text query. 
        An alternative to eSearchTerm is to specify specific GI numbers or Primary Accessions 
        to retrieve. See ncbiImporterGiNumbers.xml and ncbiImporterPrimaryAccessions.xml for syntax examples -->
-  <eSearchTerm>"Small ruminant lentivirus"[Organism] AND 400:12000[SLEN]</eSearchTerm>
+  <eSearchTerm>
+    "Small ruminant lentivirus"[Organism] AND 400:12000[SLEN] OR "Maedi-Visna virus"[Organism] AND 400:12000[SLEN] OR "Caprine Arthritis Encephalitis Virus"[Organism] AND 400:12000[SLEN] OR "Caprine lentivirus"[Organism] AND 400:12000[SLEN] OR "Ovine lentivirus"[Organism] AND 400:12000[SLEN]
+  </eSearchTerm>
+  
 
   <!-- This specifies the field of the GenBank document which will be used as the GLUE sequence ID. The options are:
        GI_NUMBER (default if omitted)
@@ -19,3 +22,4 @@
   <eFetchBatchSize>500</eFetchBatchSize>
   
 </ncbiImporter>
+

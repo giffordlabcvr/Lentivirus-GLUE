@@ -1,13 +1,21 @@
 
 
-reference REF_SRLV_A
+reference REF_SRLV_B
 
-  inherit feature-location AL_SRLV matrix
-  inherit feature-location AL_SRLV capsid
-  inherit feature-location AL_SRLV nucleocapsid
-  inherit feature-location AL_SRLV RT
-  inherit feature-location AL_SRLV IN
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A matrix
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A capsid
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A nucleocapsid
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A RT
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A IN
 
   exit
-
  
+reference REF_SRLV_E
+
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A matrix
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A capsid
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A nucleocapsid
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A RT
+  inherit feature-location --spanGaps AL_SRLV --relRefName REF_SRLV_A IN
+
+  exit

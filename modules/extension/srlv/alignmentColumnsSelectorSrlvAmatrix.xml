@@ -6,13 +6,13 @@
     <aminoAcidRegionSelector>
         <featureName>matrix</featureName>
         <startCodon>1</startCodon>
-        <endCodon>159</endCodon>
+        <endCodon>117</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>matrix</featureName>
         <startNt>489</startNt>
-        <endNt>963</endNt>
+        <endNt>839</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

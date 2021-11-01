@@ -1,42 +1,63 @@
-  # Clean up from any previous run of this file   
+
+  # Clean up in case of previous execution
   delete module raxmlPhylogenyGenerator
   delete module lentiPhyloUtility
-  delete module lentiFigTreeAnnotationExporter 
   delete module alignmentColumnsSelectorSrlvBcapsid
   delete module alignmentColumnsSelectorSrlvBmatrix
-  delete module alignmentColumnsSelectorSrlvBrt
   delete module alignmentColumnsSelectorSrlvBgag
+  delete module alignmentColumnsSelectorSrlvBrt
+  delete module alignmentColumnsSelectorSrlvBin
+  delete module alignmentColumnsSelectorSrlvBpol
+  delete module alignmentColumnsSelectorSrlvBenv
+  delete module alignmentColumnsSelectorSrlvBgenome
+ 
 
-  
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiPhyloUtility.xml
-  create module -f modules/core/lentiFigTreeAnnotationExporter.xml
   create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvBcapsid.xml
   create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvBmatrix.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvBrt.xml
   create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvBgag.xml
-
-
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvBrt.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvBintegrase.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvBpol.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvBenv.xml
+  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvBgenome.xml
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBcapsid \
       -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-srlv_b-capsid.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/lenti-srlv-b-capsid.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBmatrix \
       -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-srlv_b-matrix.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/lenti-srlv-b-matrix.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBgag \
       -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-srlv_b-gag.tre NEWICK_BOOTSTRAPS
+      -o trees/main-species/lenti-srlv-b-gag.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBrt \
-      -w "fLocNotes.featureLoc.feature.name = 'rt' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/main-species/lenti-srlv_b-rt.tre NEWICK_BOOTSTRAPS
+      -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv-b-rt.tre NEWICK_BOOTSTRAPS
+
+    #generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBintegrase \
+    #  -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -o trees/main-species/lenti-srlv-b-in.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBpol \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv-b-pol.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBenv \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv-b-env.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBgenome \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv-b-genome.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -46,43 +67,44 @@
   module lentiPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-srlv_b-matrix.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/lenti-srlv-b-matrix.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-srlv_b-matrix.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/lenti-srlv-b-matrix.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-srlv_b-capsid.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/lenti-srlv-b-capsid.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-srlv_b-capsid.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/lenti-srlv-b-capsid.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-srlv_b-gag.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/lenti-srlv-b-gag.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-srlv_b-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/lenti-srlv-b-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/main-species/lenti-srlv_b-rt.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-species/lenti-srlv-b-pol.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/main-species/lenti-srlv_b-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-species/lenti-srlv-b-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-srlv-b-rt.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-srlv-b-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	#reroot-phylogeny \
+    #  --inputFile trees/main-species/lenti-srlv-b-in.tre NEWICK_BOOTSTRAPS \
+    #  --midpoint \
+    #  --outputFile trees/main-species/lenti-srlv-b-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-srlv-b-env.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-srlv-b-env.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-species/lenti-srlv-b-genome.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-species/lenti-srlv-b-genome.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
-
-
-
-  # Export annotations
-  module lentiFigTreeAnnotationExporter 
-
-    export figtree-annotation AL_SRLV_B -w "fLocNotes.featureLoc.feature.name = 'matrix'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv_b-matrix.figtree-annotations.tsv
-
-    export figtree-annotation AL_SRLV_B -w "fLocNotes.featureLoc.feature.name = 'capsid'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv_b-capsid.figtree-annotations.tsv
-
-    export figtree-annotation AL_SRLV_B -w "fLocNotes.featureLoc.feature.name = 'gag'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv_b-gag.figtree-annotations.tsv
-
-    export figtree-annotation AL_SRLV_B -w "fLocNotes.featureLoc.feature.name = 'RT'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-species/lenti-srlv_b-rt.figtree-annotations.tsv
-
-  exit
 

@@ -1,31 +1,41 @@
-#~# Define constrained alignment tree
-create alignment AL_ROOT -r REF_HIV_1M
-alignment AL_ROOT
+  #~# Define constrained alignment tree
+  create alignment AL_ROOT -r REF_HIV_1M
+  alignment AL_ROOT
 
-  set field displayName "Lentivirus"
+	set field displayName "Lentivirus"
 
-  # Add all members
-  add member -a
+	# Add all members
+	add member -a
 
-  extract child AL_PLV      --refName REF_HIV_1M
-  demote member AL_PLV      --whereClause "sequence.subgenus = 'Primate'"
+	extract child AL_PLV      --refName REF_HIV_1M
+	demote member AL_PLV      --whereClause "sequence.subgenus = 'Primate'"
  
-  extract child AL_FIV      --refName REF_FIV
-  demote member AL_FIV      --whereClause "sequence.species = 'FIV'"
+	extract child AL_FIV      --refName REF_FIV
+	demote member AL_FIV      --whereClause "sequence.species = 'FIV'"
 
-  extract child AL_SRLV     --refName REF_SRLV_A
-  demote member AL_SRLV     --whereClause "sequence.species = 'SRLV'"
+	extract child AL_SRLV     --refName REF_SRLV_A
+	demote member AL_SRLV     --whereClause "sequence.species = 'SRLV'"
 
-  extract child AL_BIV      --refName REF_BIV
-  demote member AL_BIV      --whereClause "sequence.species = 'BIV'"
+	extract child AL_BIV      --refName REF_BIV
+	demote member AL_BIV      --whereClause "sequence.species = 'BIV'"
 
-  extract child AL_EIAV     --refName REF_EIAV
-  demote member AL_EIAV     --whereClause "sequence.species = 'EIAV'"
+	extract child AL_EIAV     --refName REF_EIAV
+	demote member AL_EIAV     --whereClause "sequence.species = 'EIAV'"
   
-  exit
+	exit
 
 
-#~# Derive constrained alignment segments from unconstrained alignments
-alignment AL_ROOT
-  derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
-  exit
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_ROOT
+	derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
+	exit
+
+
+
+ # Set clade category
+  alignment AL_ROOT set field clade_category genus
+  alignment AL_SRLV set field clade_category species
+  alignment AL_PLV  set field clade_category species
+  alignment AL_FIV  set field clade_category species
+  alignment AL_BIV  set field clade_category species
+  alignment AL_EIAV set field clade_category species

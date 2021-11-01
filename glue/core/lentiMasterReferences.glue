@@ -416,9 +416,14 @@
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 8407
+      add segment 1 9202
       exit
-
+    
+    add feature-location PBS
+    feature-location PBS
+      add segment 162 178
+      exit
+      
     add feature-location 5LTR
     feature-location 5LTR
       add segment 1 321
@@ -469,11 +474,18 @@
       add segment 4157 5005
       exit   
       
+    add feature-location vif
+    feature-location vif
+      add segment 4965 5657
+      exit   
+
+      
     add feature-location env
     feature-location env
-      add segment 5415 8129
+      add segment 5956 8907
       exit
-       
+
+
   exit 
     
     

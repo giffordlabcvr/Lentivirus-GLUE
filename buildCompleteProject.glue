@@ -13,6 +13,7 @@
   run file glue/core/buildLentiCore.glue
 
   # Build species-level extension projects
+  #run file glue/extension/srlv/buildLentiExtensionSrlvNuccoreParse.glue
   run file glue/extension/srlv/buildLentiExtensionSrlv.glue
   #run file glue/extension/eiav/buildLentiExtensionEiav.glue
   #run file glue/extension/biv/buildLentiExtensionBiv.glue

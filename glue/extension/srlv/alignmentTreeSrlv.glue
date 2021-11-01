@@ -3,11 +3,8 @@
     set field displayName "Small ruminant lentivirus (SRLV)"
     
     # reference sequences
-    #add member -w "species like 'SRLV%' and source.name = 'ncbi-curated-srlv'"
-    add member -w "species like 'SRLV%' and source.name = 'ncbi-refseqs-srlv'"
-    
-    #demote member AL_SRLV  -w  "sequence.species like 'SRLV%' and sequence.source.name = 'ncbi-curated-srlv'"
-    demote member AL_SRLV  -w  "sequence.species like 'SRLV%' and sequence.source.name = 'ncbi-refseqs-srlv'"
+    add member -w "species like 'SRLV%' and source.name like '%-srlv%'"
+    demote member AL_SRLV  -w  "sequence.species like 'SRLV%' and sequence.source.name like '%-srlv%'"
 
     exit
     
@@ -15,21 +12,31 @@
   alignment AL_SRLV  
 
     extract child AL_SRLV_A --refName REF_SRLV_A
-    #demote member AL_SRLV_A --whereClause "sequence.subtype like 'A%'" 
+    demote member AL_SRLV_A --whereClause "sequence.genotype = 'A'" 
 
-    extract child AL_SRLV_B3 --refName REF_SRLV_B3
-    #demote member AL_SRLV_B3 --whereClause "sequence.subtype = 'B3'" 
+    #extract child AL_SRLV_B3 --refName REF_SRLV_B3
+    #demote member AL_SRLV_B3 --whereClause "sequence.genotype = 'B3'" 
 	
     extract child AL_SRLV_B --refName REF_SRLV_B
-    #demote member AL_SRLV_B --whereClause "sequence.subtype like 'B%'" 
+    demote member AL_SRLV_B --whereClause "sequence.genotype = 'B'" 
 
-    extract child AL_SRLV_C --refName REF_SRLV_C
+    #extract child AL_SRLV_C --refName REF_SRLV_C
     #demote member AL_SRLV_C --whereClause "sequence.genotype = 'C'" 
 
     extract child AL_SRLV_E --refName REF_SRLV_E
-    #demote member AL_SRLV_E --whereClause "sequence.genotype = 'E'" 
+    demote member AL_SRLV_E --whereClause "sequence.genotype = 'E'" 
 
-    #extract child AL_SRLV_F --refName REF_SRLV_F_KT898826
-    #demote member AL_SRLV_F --whereClause "sequence.genotype = 'F'" 
+    #extract child AL_SRLV_D --refName REF_SRLV_D
+    #demote member AL_SRLV_D --whereClause "sequence.genotype = 'D'" 
+
     exit
 
+
+
+
+
+ # Set clade category
+  alignment AL_SRLV_A set field clade_category genotype
+  #alignment AL_SRLV_B3 set field clade_category genotype
+  #alignment AL_SRLV_C  set field clade_category genotype
+  alignment AL_SRLV_E  set field clade_category genotype
