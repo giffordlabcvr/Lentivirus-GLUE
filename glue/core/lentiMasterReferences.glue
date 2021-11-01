@@ -357,7 +357,7 @@
            
     add feature-location env
     feature-location env
-      add segment 5311 7890
+      add segment 5312 7891
       exit
 
     add feature-location 3LTR

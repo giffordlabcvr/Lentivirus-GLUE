@@ -1,0 +1,19 @@
+<!-- fiv reference sequences -->
+<ncbiImporter>
+
+  <sourceName>ncbi-refseqs-fiv</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+
+
+	 <!-- FIV -->
+	 <!-- Master reference for fiv (NC_001452) is in the core project -->
+	 <primaryAccession>FIU56928</primaryAccession>
+	 <primaryAccession>PLU03982</primaryAccession>
+
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  
+</ncbiImporter>
+

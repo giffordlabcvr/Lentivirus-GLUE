@@ -1,0 +1,12 @@
+
+  # Clean up any previous - delete modules
+  delete module ncbiImporterRefseqsFiv
+  
+  # Create modules
+  create module -f modules/extension/fiv/ncbiImporterRefseqsFiv.xml
+
+  # Download NCBI sequences 
+  module ncbiImporterRefseqsFiv import
+
+  # Export sources
+  export source ncbi-refseqs-fiv
