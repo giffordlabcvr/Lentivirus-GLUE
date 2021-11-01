@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <title>Lentivirus-GLUE by giffordlabcvr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/github-light.css" media="screen">
 
   </head>
 
@@ -19,7 +19,7 @@
       <h1 class="project-name">Lentivirus-GLUE</h1>
       <h2 class="project-tagline">Open resources for comparative genomic analysis of lentiviruses.</h2>
 
-      <a href="../index.html" class="btn">Home</a>
+      <a href="../../index.html" class="btn">Home</a>
       <a href="./paleoviruses.html" class="btn">Paleoviruses</a>
       <a href="./highlights.html" class="btn">Highlights</a>
       <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/zipball/master" class="btn">Download</a>
@@ -28,6 +28,80 @@
     </section>
 
     <section class="main-content">
+
+
+
+	   <h3>
+		 <a id="VirusProject" class="anchor" href="#GlueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Comparative genomic analysis of lentiviruses using Lentivirus-GLUE</strong>
+	   </h3>
+	   <hr>
+	   
+
+        
+       <p><img src="../assets/images/lentivirus-header.jpg" alt="Lentiviruses"/></p>
+         
+	   
+
+<blockquote>
+		 <p>
+		   Comparative genomic analysis of lentiviruses can help reveal the biological basis
+		   of lentivirus replication.
+		   The insights obtained via comparative analysis of lentivirus genomes can directly
+		   inform efforts to limit lentivirus-associated disease and develop lentivirus-based 
+		   therapeutics. 
+		 </p>
+         
+</blockquote>
+
+
+
+	   <p>
+	     Since the emergence of the SARS-COV2 pandemic, many have become familiar with 
+	     the use of virus genome data to track the spread and evolution of pathogenic viruses
+	     - e.g. via tools such as <a target="_blank" href="https://nextstrain.org/ncov/gisaid/global""><b>NextStrain</b></a>. 
+		 However, comparative genomic approaches can also be used to reveal the structural and functional
+		 basis of virus adaptations. 
+	   </p>
+
+
+	   <p>
+		 <b>Lentivirus-GLUE</b> provides a highly flexible, extensible platform for
+		 implementing computational genomic analysis of lentiviruses
+		 in an <b>efficient, standardised and reproducible</b> way.
+		 It is equally suited for research purposes as it is for more operational procedures
+		 (e.g. producing standardised, genome data-based reports in a public or animal health setting)
+	   </p>
+
+
+
+	   <p>
+		 This page provides background information on the <b>virus-associated</b>
+		 data items included in the project  - information about endogenous lentiviral elements (EPVs)
+		 can be found <a href="./paleoviruses.html""><b>here</b></a>.
+	   </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	   <h3>
 		 <a id="GlueProject" class="anchor" href="#GlueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Comparative genomic analysis of lentiviruses using Lentivirus-GLUE</strong>
@@ -52,15 +126,6 @@
          lentivirus genomes. It was created using the <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a>
          software environment. 
 	   </p>
-   
-        <p><img src="./assets/images/lenti-header.jpg" alt="Known lentivirus host species" /></p>
-
-<blockquote>
-		<p>
-		  Left to right: 
-		</p>    
-</blockquote>
-
 
 
 	   <br>
@@ -76,6 +141,35 @@
          between these data items. This creates powerful framework for performing
          <i>standardised</i> comparative analysis, via GLUE's command layer.
 	   </p>
+
+
+
+
+	   <br>
+	   <h3>
+		 <a id="genomeFeatures" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Lentivirus genome features</strong>
+	   </h3>
+	   <hr>
+
+		<p>
+          Lentiviruses have enveloped, spherical virions and a small, circular DNA
+          genome ~3 kilobases (Kb) in length. The genome is characterised by a highly
+          streamlined organization incorporating extensive gene overlap - the open reading
+          frame (ORF) encoding the viral polymerase (P) protein occupies most of the genome
+          and typically overlaps at least one of the ORFs encoding the core (C), and
+          surface (S) proteins. 
+ 		</p>
+		
+		<p>
+         We defined a
+         <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiFeatures.glue"><b>standard set of genome features</b></a>
+		 for lentiviruses and the locations of these genome features
+		 on master reference sequences
+		 (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiMasterReferences.glue">here</b></a>).
+		</p>
+		
+
+
 
 
 	   <br>
@@ -106,33 +200,6 @@
 			 <li><b>Bovine immunodeficiency virus </b>: (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/M32690"><b>M32690</b></a>)</li>
 		   </ul>
 
-		 </p>
-		
-
-
-
-	   <br>
-	   <h3>
-		 <a id="genomeFeatures" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Lentivirus genome features</strong>
-	   </h3>
-	   <hr>
-
-		<p>
-          Lentiviruses have enveloped, spherical virions and a small, circular DNA
-          genome ~3 kilobases (Kb) in length. The genome is characterised by a highly
-          streamlined organization incorporating extensive gene overlap - the open reading
-          frame (ORF) encoding the viral polymerase (P) protein occupies most of the genome
-          and typically overlaps at least one of the ORFs encoding the core (C), and
-          surface (S) proteins. 
- 		</p>
-		
-		<p>
-         We defined a
-          <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiFeatures.glue"><b>standard set of genome features</b></a>
-          for lentiviruses and the locations of these genome features
-		   on master reference sequences
-		   (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiMasterReferences.glue">here</b></a>).
-		  
 		 </p>
 		
 

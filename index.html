@@ -18,9 +18,9 @@
     
       <h1 class="project-name">Lentivirus-GLUE</h1>
       <h2 class="project-tagline">Open resources for comparative genomic analysis of lentiviruses.</h2>
-      <a href="./website/viruses.html" class="btn">Viruses</a>
-      <a href="./website/paleoviruses.html" class="btn">Paleoviruses</a>
-      <a href="./website/highlights.html" class="btn">Highlights</a>
+      <a href="./website/html/viruses.html" class="btn">Viruses</a>
+      <a href="./website/html/paleoviruses.html" class="btn">Paleoviruses</a>
+      <a href="./website/html/highlights.html" class="btn">Highlights</a>
       <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/zipball/master" class="btn">Download</a>
       <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/tree/master" class="btn">View on GitHub</a>
       
@@ -33,18 +33,30 @@
 	   </h3>
 	   <hr>
 	   
-	   <p>
-         <b>Lentiviruses</b>
-         (<a target="_blank" href ="https://viralzone.expasy.org/264">genus <i>Lentivirus</i></a>)  are a distinctive genus of retroviruses
-         (<a target="_blank" href ="https://viralzone.expasy.org/71">family <i>Retroviridae</i></a>)
-         that 
-         cause chronic, persistent infections in mammals, including humans. 
-         The lentiviruses are best known as the genus of retroviruses that includes 
-         <b>human immunodeficiency virus type 1 (HIV-1)</b>, but the group also includes viruses that
-         infect a broad range of Boreoeutherian mammals.
+		 <p>
+		   <b>Lentiviruses</b>
+		   (<a target="_blank" href ="https://viralzone.expasy.org/264">genus <i>Lentivirus</i></a>)  are a distinctive genus of retroviruses
+		   (<a target="_blank" href ="https://viralzone.expasy.org/71">family <i>Retroviridae</i></a>)
+		   that 
+		   cause chronic, persistent infections in mammals, including humans. 
+		   The lentiviruses are best known as the genus of retroviruses that includes 
+		   <b>human immunodeficiency virus type 1 (HIV-1)</b>, but the group also includes viruses that
+		   infect a broad range of Boreoeutherian mammals.
 
 
- 	   </p>
+		 </p>
+		 <p>
+		   This is <b>Lentivirus-GLUE</b>, a GLUE
+		   project supporting comparative genomic and evolutionary analysis of
+		   <a target="_blank" href="https://viralzone.expasy.org/9">lentiviruses</a>
+		   (family <i>Lentivirus</i>). It contains a richly annotated sequence
+		   dataset for these viruses, comprised of both 
+		   <a href="./website/html/viruses.html"><b>viral sequences</b></a>
+		   and
+		   <a href="./website/html/paleoviruses.html"><b>endogenous retroviruses (ERVs)</b></a>.
+		  
+		 </p>
+
 
 	   <br>
 
@@ -72,22 +84,11 @@
 
 
 		 <br>
-		 <p>
-		   This is <b>Lentivirus-GLUE</b>, a GLUE
-		   project supporting comparative genomic and evolutionary analysis of
-		   <a target="_blank" href="https://viralzone.expasy.org/9">lentiviruses</a>
-		   (family <i>Lentivirus</i>). It contains a richly annotated sequence
-		   dataset for these viruses, comprised of both 
-		   <a href="./website/viruses.html"><b>viral sequences</b></a>
-		   and
-		   <a href="./website/paleoviruses.html"><b>endogenous retroviruses (ERVs)</b></a>.
-		  
-		 </p>
-
+	   
 		 <p>
 		
 				
-		   <b>There are a wide variety of ways in which the Lentivirus-GLUE resource can be used</b>:
+		   There are a wide variety of ways in which this GLUE resource can be used - examples include:
 		   
 		   <ul>
 		 
@@ -104,12 +105,13 @@
 			 <br>
 	   
 			 <li> As a source of systematically organised information about
-			 <a href="./website/paleoviruses.html"><b>endogenous retroviruses (ERVs) derived from lentiviruses</b></a>.
+			 <a href="./website/html/paleoviruses.html"><b>endogenous retroviruses (ERVs) derived from lentiviruses</b></a>.
 			 </li>
 		   
 		   </ul>
 		  
 		 </p>
+
 
 	   <br>
 	   <h3>
@@ -131,6 +133,12 @@
 		   and other sequence-associated data). 
 		 </p>
 
+
+        
+         <p><img src="./website/assets/images/lentivirus-glue-project.jpg" alt="Parvovirus GLUE project figure"/></p>
+         
+
+
 		 <p>
 		   Projects are loaded into the <b>GLUE "engine"</b>, creating a relational database
 		   that represents the semantic relationships between data items.
@@ -138,12 +146,22 @@
 		   comparative analyses</b> and the development of <b>sequence-based resources</b>. 
 		 </p>
 
+        
+         <p><img src="./website/assets/images/lentivirus-glue-usage.jpg" alt="Using Parvovirus GLUE"/></p>
+           
+
+
+
 		 <p>		 
 			The core schema of this database can be extended to accommodate
 			the idiosyncrasies of different projects, and
 			GLUE provides a scripting layer (based on JavaScript) for developing custom
 			analysis tools. 
 		 </p>
+
+        
+         <p><img src="./website/assets/images/github-hosting.jpg" alt="GitHub hosting figure"/></p>
+         
 
 		 <p>
 			Hosting of GLUE projects in an online version control system (e.g. GitHub) provides
@@ -194,9 +212,8 @@
 
 		   
 		 </p>
-	   
 
-
+	     <br>
 
 	   
 
@@ -259,7 +276,7 @@
 			 <li> <strong>Alignment trees</strong>:
 			 GLUE allows linking of alignments constructed at distinct taxonomic levels
 			 via an 
-			 "<a target="_blank" href="./website/alignmenttree.html"><b>alignment tree</b></a>"
+			 "<a target="_blank" href="./website/html/alignmenttree.html"><b>alignment tree</b></a>"
 			 data structure. In the alignment tree, each alignment
 			 is constrained to a standard reference sequence, thus all multiple sequence
 			 alignments are linked to one another via a standardised coordinate system.
@@ -319,7 +336,7 @@
 		 Individual ERV sequences have been classified into sets considered likely to 
 		 have arisen from the same germline colonisation event. Loci have been named using
 		 a systematic approach (see 
-		 <a href="./website/paleoviruses.html"><b>here</b></a> for details). 
+		 <a href="./website/html/paleoviruses.html"><b>here</b></a> for details). 
 		 
 	   </p>
        <br>
