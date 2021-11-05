@@ -44,8 +44,9 @@
           encountered attempting to analyse their fragmentary and degenerated sequences. 
           <b>Lentivirus-GLUE</b> aims to address these issues.
           We have incorporated into this project a set of principles for
-          organising the lentivirus 'fossil record', and a protocol 
-          through which it can be accessed and collaboratively developed.
+          organising the lentivirus 'fossil record'.
+          Hosting of the Lentivirus-GLUE resource in an online version control system (GitHub)
+          establishes a protocol through which it can be accessed and collaboratively developed.
 		</p>
 
          <p><img src="../assets/images/lentivirus-erv-species.jpg" alt="Timeline of lentivirus evolution" /></p>
@@ -89,6 +90,63 @@
          replicate and spread.
 	   </p>
 
+  
+       <br>
+
+     
+	   <h3>
+		 <a id="dataProvenance" class="anchor" href="#dataProvenance" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Where do the EPV data come from?</strong>
+	   </h3>
+       <hr>
+ 
+
+	   <p>
+
+		 EVE sequences were recovered from whole genome sequence (WGS) assemblies 
+		 via <b>database-integrated genome screening (DIGS)</b> using the 
+		  <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/"><b>DIGS tool</b></a>.
+	   </p>
+	   
+
+
+	   <p>
+		 All data pertaining to this screen are included in this repository.
+	   </p>
+
+  
+	   <ul>
+
+	   <li>
+		 The complete list of <b>vertebrate</b> genomes screened can be found
+         <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/digs/vertebrate-genomes-screened.csv"><b>here</b></a>.
+	   </li>
+
+ 
+	   <li>
+		 The complete list of <b>invertebrate</b> genomes screened can be found
+         <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/digs/invertebrate-genomes-screened.csv"><b>here</b></a>.
+	   </li>
+ 
+	   <li>
+		 The set of <b>parvovirus</b> polypeptide sequences used as probes can be found
+         <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/digs/parvo-probes.faa"><b>here</b></a>.
+	   </li>
+  
+	   <li>
+		 The final set of <b>parvovirus</b> and <b>EPV</b> polypeptide sequences used as
+		 references can be found
+         <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/digs/eve_1_parvo.ctl"><b>here</b></a>.
+	   </li>
+   
+	   <li>
+		 Input parameters for screening using the
+		  <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/"><b>DIGS tool</b></a>
+		 can be found
+         <a href="https://github.com/giffordlabcvr/Parvovirus-GLUE/blob/master/digs/parvo-refs.faa"><b>here</b></a>.
+	   </li>
+    
+	   </ul>
+
 
 
  	   <br>
@@ -98,8 +156,8 @@
 	   <hr>
 
 		<p>
-          We have applied a systematic approach to naming ERV, following a convention 
-          developed for <a target="_blank" href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1">endogenous retroviruses</a>.
+          We have applied a <a target="_blank" href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1">systematic approach</a>
+          to naming ERVs.
 		  Each element was assigned a unique identifier (ID) constructed from a defined
 		  set of components.
   		</p>
@@ -112,32 +170,23 @@
 
 
 		<p>
-          The first component is the classifier ‘ERV’ (endogenous retrovirus). 
+          The <b>first component</b> is the classifier ‘ERV’ (endogenous retrovirus). 
 		</p>
 
 		<p>
-          The second component is a composite of two distinct subcomponents separated by a period:
+          The <b>second component</b> is a composite of two distinct subcomponents separated by a period:
           
-          (i)  the name of ERV group;
+          (i)  the name of EPV group;
           (ii) a numeric ID that uniquely identifies the insertion.
-          The numeric ID is an integer that identifies a unique insertion locus that arose as a
+          The numeric ID is an integer identifies a unique insertion locus that arose as a
           consequence of an initial germline infection. Thus, orthologous copies in different
           species are given the same number. 
- 		</p>
-		
-		<p>
-          Where an EVE sequence is thought to have been duplicated within the germline
-          following it's initial incorporation (e.g. via segmental duplication or transposition)
-          we have appended an additional 'duplicate id' to the numeric ID, separated by a period.
-          Please note that we have not yet resolved the orthologous relationships among
-          sets of ERV sequences belonging to multicopy ERV lineages. We
-          have therefore assigned unique duplicate IDs to each sequence within these lineages. 
 		</p>
 		
 		<p>
-          The third component of the ID defines the set of host species in which
-          the ortholog occurs, or did occur prior to being deleted.
-  		</p>
+          The <b>third component</b> of the ID defines the set of host species in which the ortholog occurs.
+ 		</p>
+
 
  
 	   <br>
