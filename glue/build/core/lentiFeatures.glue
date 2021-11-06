@@ -182,7 +182,28 @@
   feature IN set metatag OWN_CODON_NUMBERING true
   feature IN set metatag INCLUDE_IN_SUMMARY true
   feature IN set metatag CODES_AMINO_ACIDS true
-  
+
+  create feature env -p whole_genome "env"
+  feature env set field displayName "env"
+  feature env set metatag OWN_CODON_NUMBERING true
+  feature env set metatag INCLUDE_IN_SUMMARY true
+  feature env set metatag CODES_AMINO_ACIDS true
+
+  create feature surface -p env "surface"
+  feature surface set field displayName "surface"
+  feature surface set metatag OWN_CODON_NUMBERING true
+  feature surface set metatag INCLUDE_IN_SUMMARY true
+  feature surface set metatag CODES_AMINO_ACIDS true
+
+  create feature transmembrane -p env "transmembrane"
+  feature transmembrane set field displayName "transmembrane"
+  feature transmembrane set metatag OWN_CODON_NUMBERING true
+  feature transmembrane set metatag INCLUDE_IN_SUMMARY true
+  feature transmembrane set metatag CODES_AMINO_ACIDS true
+
+
+  # Accessory genes
+
   create feature vif -p whole_genome "vif"
   feature vif set field displayName "vif"
   feature vif set metatag OWN_CODON_NUMBERING true
@@ -213,29 +234,57 @@
   feature vpu set metatag INCLUDE_IN_SUMMARY true
   feature vpu set metatag CODES_AMINO_ACIDS true
 
-  create feature env -p whole_genome "env"
-  feature env set field displayName "env"
-  feature env set metatag OWN_CODON_NUMBERING true
-  feature env set metatag INCLUDE_IN_SUMMARY true
-  feature env set metatag CODES_AMINO_ACIDS true
+  create feature nef -p whole_genome "nef"
+  feature nef set field displayName "nef"
+  feature nef set metatag OWN_CODON_NUMBERING true
+  feature nef set metatag INCLUDE_IN_SUMMARY true
+  feature nef set metatag CODES_AMINO_ACIDS true
 
-  create feature surface -p env "surface"
-  feature surface set field displayName "surface"
-  feature surface set metatag OWN_CODON_NUMBERING true
-  feature surface set metatag INCLUDE_IN_SUMMARY true
-  feature surface set metatag CODES_AMINO_ACIDS true
-
-  create feature transmembrane -p env "transmembrane"
-  feature transmembrane set field displayName "transmembrane"
-  feature transmembrane set metatag OWN_CODON_NUMBERING true
-  feature transmembrane set metatag INCLUDE_IN_SUMMARY true
-  feature transmembrane set metatag CODES_AMINO_ACIDS true
+  create feature asp -p whole_genome "asp"
+  feature asp set field displayName "asp"
+  feature asp set metatag OWN_CODON_NUMBERING true
+  feature asp set metatag INCLUDE_IN_SUMMARY true
+  feature asp set metatag CODES_AMINO_ACIDS true
 
   create feature orfx -p whole_genome "orfx"
   feature orfx set field displayName "orfx"
   feature orfx set metatag OWN_CODON_NUMBERING true
   feature orfx set metatag INCLUDE_IN_SUMMARY true
   feature orfx set metatag CODES_AMINO_ACIDS true
+
+  create feature tmx -p whole_genome "tmx"
+  feature tmx set field displayName "tmx"
+  feature tmx set metatag OWN_CODON_NUMBERING true
+  feature tmx set metatag INCLUDE_IN_SUMMARY true
+  feature tmx set metatag CODES_AMINO_ACIDS true
+
+  create feature tmx -p whole_genome "tmx"
+  feature tmx set field displayName "tmx"
+  feature tmx set metatag OWN_CODON_NUMBERING true
+  feature tmx set metatag INCLUDE_IN_SUMMARY true
+  feature tmx set metatag CODES_AMINO_ACIDS true
+
+  create feature vpw -p whole_genome "vpw"
+  feature vpw set field displayName "vpw"
+  feature vpw set metatag OWN_CODON_NUMBERING true
+  feature vpw set metatag INCLUDE_IN_SUMMARY true
+  feature vpw set metatag CODES_AMINO_ACIDS true
+
+  create feature vpy -p whole_genome "vpy"
+  feature vpy set field displayName "vpy"
+  feature vpy set metatag OWN_CODON_NUMBERING true
+  feature vpy set metatag INCLUDE_IN_SUMMARY true
+  feature vpy set metatag CODES_AMINO_ACIDS true
+
+  create feature s2 -p whole_genome "s2"
+  feature s2 set field displayName "s2"
+  feature s2 set metatag OWN_CODON_NUMBERING true
+  feature s2 set metatag INCLUDE_IN_SUMMARY true
+  feature s2 set metatag CODES_AMINO_ACIDS true
+
+
+
+  # Variable loops HIV-1 envelope
 
   create feature V1 -p env "V1"
   feature V1 set field displayName "V1"
@@ -266,16 +315,3 @@
   feature V5 set metatag OWN_CODON_NUMBERING true
   feature V5 set metatag INCLUDE_IN_SUMMARY true
   feature V5 set metatag CODES_AMINO_ACIDS true 
-
-  create feature nef -p whole_genome "nef"
-  feature nef set field displayName "nef"
-  feature nef set metatag OWN_CODON_NUMBERING true
-  feature nef set metatag INCLUDE_IN_SUMMARY true
-  feature nef set metatag CODES_AMINO_ACIDS true
-
-  create feature asp -p whole_genome "asp"
-  feature asp set field displayName "asp"
-  feature asp set metatag OWN_CODON_NUMBERING true
-  feature asp set metatag INCLUDE_IN_SUMMARY true
-  feature asp set metatag CODES_AMINO_ACIDS true
-
