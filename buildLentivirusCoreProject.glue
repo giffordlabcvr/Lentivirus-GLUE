@@ -12,3 +12,5 @@
   # Build core project (reference sequences only)
   run file glue/build/core/buildLentiCore.glue
 
+  # Build EVE project
+  run file glue/build/erv/buildLentiErvExtension.glue
