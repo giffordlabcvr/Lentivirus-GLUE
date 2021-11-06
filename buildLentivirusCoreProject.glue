@@ -6,9 +6,11 @@
 
   # Create DB schema
   schema-project lentivirus
-	run file glue/core/lentiSchemaExtensions.glue
+	run file glue/build/core/lentiSchemaExtensions.glue
 	exit
 
   # Build core project (reference sequences only)
-  run file glue/core/buildLentiCore.glue
+  run file glue/build/core/buildLentiCore.glue
 
+  # Build EVE project
+  run file glue/build/erv/buildLentiErvExtension.glue
