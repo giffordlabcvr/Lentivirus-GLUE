@@ -90,18 +90,23 @@
 	   <hr>
 
 		<p>
-          Lentiviruses have enveloped, spherical virions and a small, circular DNA
-          genome ~3 kilobases (Kb) in length. The genome is characterised by a highly
-          streamlined organization incorporating extensive gene overlap - the open reading
-          frame (ORF) encoding the viral polymerase (P) protein occupies most of the genome
-          and typically overlaps at least one of the ORFs encoding the core (C), and
-          surface (S) proteins. 
+		  The integrated lentiviral genome ('provirus') is flanked at either side by identical
+		  long terminal repeat (LTR) sequences (a form referred to as a ‘provirus’), each composed of
+		  functionally distinct U3, R and U5 regions. 
+	   </p>
+
+
+
+	   <p>
+		  The main open reading frames (ORFs) encode Gag, Pol and Env polyproteins. 
+		  Lentiviruses typically encode a range of ‘accessory’ genes in addition to the fundamental gag, pol and env genes encoded by all retroviruses.
+		  The rev genes is thought to be, encoded by all lentiviruses. While tat is encoded by all except SRLVs and FIVs. 
+		  Some are presumed homologs in distinct lentivirus lineages (vif, dUTP), or proposed to have homologous functions (OrfA and nef,  vpr-like and vpr, vpw and vpr, vpy and vpu).
  		</p>
 		
 		<p>
-		  We defined a
-		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiFeatures.glue"><b>standard set of genome features</b></a>
-		  for lentiviruses.
+		  We defined a <b>standard set of genome features</b> for lentiviruses, reflecting current knowledge, and
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiFeatures.glue">incorporated this information into GLUE</a>.
 		</p>
 		
 
@@ -142,7 +147,7 @@
 		<p>
 		
 		  We defined the known locations of genome features on master reference sequences
-		  (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiMasterReferences.glue">here</b></a>).
+		  (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiMasterReferences.glue">here</b></a>).
 
 		</p>
 		
@@ -213,7 +218,7 @@
 		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
 		   through the incorporation of a number of additional fields in the 
 		   sequence table, and a project-specific custom table: 'isolate'.
-		   These schema extensions are defined <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiSchemaExtensions.glue"><b>here</b></a>.
+		   These schema extensions are defined <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiSchemaExtensions.glue"><b>here</b></a>.
 		   The isolate table is linked to the main 'sequence' table via the sequence ID field.
 		   It contains information pertaining to viral isolates,  e.g. species sampled, date and location of sample.
 		 </p>

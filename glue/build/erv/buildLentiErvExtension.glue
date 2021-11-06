@@ -25,10 +25,6 @@ project lentivirus
   # Create root phylogeny with ERVs
   run file glue/build/erv/lentiErvCreatePhylogeniesRoot.glue
 
-  # Create phylogenies for ERV lineages
-  #run file glue/build/erv/lentiErvCreatePhylogeniesLineage.glue
-
-
   # Validate
   validate
 
