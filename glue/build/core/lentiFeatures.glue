@@ -246,12 +246,6 @@
   feature asp set metatag INCLUDE_IN_SUMMARY true
   feature asp set metatag CODES_AMINO_ACIDS true
 
-  create feature orfx -p whole_genome "orfx"
-  feature orfx set field displayName "orfx"
-  feature orfx set metatag OWN_CODON_NUMBERING true
-  feature orfx set metatag INCLUDE_IN_SUMMARY true
-  feature orfx set metatag CODES_AMINO_ACIDS true
-
   create feature tmx -p whole_genome "tmx"
   feature tmx set field displayName "tmx"
   feature tmx set metatag OWN_CODON_NUMBERING true
