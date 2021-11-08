@@ -88,6 +88,39 @@
 
 
 
+        
+	   <br>
+	   <h3>
+		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Paleovirus-specific schema extensions in Lentivirus-GLUE</strong>
+	   </h3>
+	   <hr>
+
+
+		 <p>
+		   The paleovirus component of Lentivirus-GLUE extends GLUE's
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
+		   to allow the capture of ERV-specific data.
+		   These schema extensions are defined in 
+           <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/erv/lentiErvSchemaExtensions.glue"><b>this file</b></a>
+		   and comprise two additional tables: 'locus_data' and 'refcon_data'.
+		   Both tables are linked to the main 'sequence' table via the 'sequenceID' field.
+  		</p>
+
+
+ 		<p>
+		   The '<b>locus_data</b>' table contains information pertaining to individual
+		   ERV sequences: e.g. species in which they occur, genome assembly version, 
+		   genomic location(i.e. scaffold, location coordinates, and orientation).
+		</p>
+
+ 		<p>
+		   The '<b>refcon_data</b>' table contains information pertaining to our
+		   ERV reference sequences, which we have constructed in an effort to
+		   reconstruct, as closely as possible, the sequences of the progenitor viruses
+		   that gave rise to ERVs. 
+		</p>
+
+
 
 
 	   <br>
@@ -118,7 +151,7 @@
           to reconstruct, as closely as possible,
           the genomes of the ancestral lentiviruses that gave rise to ERV lineages. 
 		  All reference sequences are linked to auxiliary data in		 
-		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/tabular/core/lenti-reference-data.tsv"><b>tabular format</b></a>.
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/tabular/erv/erv-refseqs-side-data.tsv"><b>tabular format</b></a>.
 		</p>
 		
 
@@ -162,48 +195,42 @@
           ERV sequences were recovered from whole genome sequence (WGS) assemblies via
           <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/">database-integrated genome screening (DIGS)</a>
           performed in vertebrate genome assemblies downloaded from 
-          <a href="https://www.ncbi.nlm.nih.gov/genome/browse ">NCBI's genomes resource/a>.
-		</p>
-
-
-		<p>
-           Sequence-associated data in tabular format can be found <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/tabular/erv/erv-side-data.tsv"><strong>here</strong></a>.
-  		</p>
-
-		<p>
-           Nucleotide level data in FASTA format (individual files) can be found <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/tree/master/sources/fasta-digs-erv"><strong>here</strong></a>.
-  		</p>
-		
-
-		<p>
-		  All data pertaining to this screen are included in this repository.
+          <a href="https://www.ncbi.nlm.nih.gov/genome/browse ">NCBI's genomes resource</a>.
 		</p>
 
   
 		<ul>
+		<li>
+          Sequence-associated data in tabular format can be found <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/tabular/erv/erv-side-data.tsv"><strong>here</strong></a>.
+ 		</li>
+
+		<li>
+           Nucleotide level data in FASTA format (individual files) can be found <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/tree/master/sources/fasta-digs-erv"><strong>here</strong></a>.
+		</li>
+
 
 		<li>
 		  The complete list of <b>vertebrate</b> genomes screened can be found
-		  <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/digs/vertebrate-genomes-screened.csv"><b>here</b></a>.
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/digs/vertebrate-genomes-screened.csv"><b>here</b></a>.
 		</li>
 
  
 		<li>
 		  The set of <b>lentivirus</b> polypeptide sequences used as probes can be found
-		  <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/digs/lenti-probes.faa"><b>here</b></a>.
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/digs/lentivirus-probes.digs.faa"><b>here</b></a>.
 		</li>
   
 		<li>
 		  The final set of <b>lentivirus</b> and <b>ERV</b> polypeptide sequences used as
 		  references can be found
-		  <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/digs/eve_1_lenti.ctl"><b>here</b></a>.
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/digs/lentivirus-references.digs.faa"><b>here</b></a>.
 		</li>
    
 		<li>
 		  Input parameters for screening using the
 		   <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/"><b>DIGS tool</b></a>
 		  can be found
-		  <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/digs/lenti-refs.faa"><b>here</b></a>.
+		  <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/digs/lentivirus-screen.ctl"><b>here</b></a>.
 		</li>
 	
 		</ul>
@@ -214,16 +241,59 @@
 
 
  
+
 	   <br>
 	   <h3>
-		 <a id="Multiple sequence alignments" class="anchor" href="#MultipleSequenceAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments</strong>
+		 <a id="Multiple sequence alignments" class="anchor" href="#MultipleSequenceAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments (MSAs)</strong>
 	   </h3>
 	   <hr>
 
 		<p>
+          Multiple sequence alignments (MSAs) are the basic currency of comparative genomic analysis.
+          MSAs constructed in this study are linked together using
+          GLUE's <b>constrained MSA tree</b> data structure.
+  		</p>
 
-          Multiple sequence alignment constructed in this study are linked together using
-          GLUE's <a href="./alignmenttree.html"><b>alignment tree</b></a> data structure.
+         
+ 		<p>
+          A 'constrained MSA' is an alignment in which the coordinate space is defined by 
+          a selected reference sequence. Where alignment members contain insertions relative
+          to the reference sequence, the inserted sequences are recorded and stored
+          (i.e. sequence data is never deleted).
+  		</p>
+
+         
+ 		<p>
+           
+          GLUE projects have the option of using a data structure called an <b>alignment tree</b>
+          to link constrained MSAs representing different taxonomic levels,
+          and we've used this approach in Lentivirus-GLUE.
+ 		</p>
+ 	    <br>
+
+
+        <p><img src="../assets/images/lentivirus-msa-tree.png" alt="Alignment tree concept"/></p>
+ 		
+
+<blockquote>
+		<p>
+		  The schematic figure above shows the '<b>alignment tree</b>' data structure 
+		  currently implemented in <b>Lentivirus-GLUE</b>.
+          We used an alignment tree data structure to link alignments,
+          via a set of common reference sequences.
+          The root alignment contains reference sequences for major clades,
+          whereas all children of the
+          root inherit at least one reference from their immediate parent.
+          Thus, all alignments are linked to one another via our chosen set of
+          master reference sequences.
+		</p>
+         
+</blockquote>
+
+ 	    <br>
+
+
+		<p>
           Alignments in the project include:
 
 		  <ol>
@@ -240,13 +310,6 @@
 
 
  		</p>
-
-
-
-
-
-
-
 
 
 
@@ -288,39 +351,6 @@
           The <b>third component</b> of the ID defines the set of host species in which the ortholog occurs.
  		</p>
 
-
-
-        
-	   <br>
-	   <h3>
-		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Paleovirus-specific schema extensions in Lentivirus-GLUE</strong>
-	   </h3>
-	   <hr>
-
-
-		 <p>
-		   The paleovirus component of Lentivirus-GLUE extends GLUE's
-		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
-		   to allow the capture of ERV-specific data.
-		   These schema extensions are defined in 
-           <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/erv/lentiErvSchemaExtensions.glue"><b>this file</b></a>
-		   and comprise two additional tables: 'locus_data' and 'refcon_data'.
-		   Both tables are linked to the main 'sequence' table via the 'sequenceID' field.
-  		</p>
-
-
- 		<p>
-		   The '<b>locus_data</b>' table contains information pertaining to individual
-		   ERV sequences: e.g. species in which they occur, genome assembly version, 
-		   genomic location(i.e. scaffold, location coordinates, and orientation).
-		</p>
-
- 		<p>
-		   The '<b>refcon_data</b>' table contains information pertaining to our
-		   ERV reference sequences, which we have constructed in an effort to
-		   reconstruct, as closely as possible, the sequences of the progenitor viruses
-		   that gave rise to ERVs. 
-		</p>
 
 
 

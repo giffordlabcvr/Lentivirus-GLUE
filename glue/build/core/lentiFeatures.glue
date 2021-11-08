@@ -275,6 +275,18 @@
   feature s2 set metatag OWN_CODON_NUMBERING true
   feature s2 set metatag INCLUDE_IN_SUMMARY true
   feature s2 set metatag CODES_AMINO_ACIDS true
+  
+  create feature ta2 -p whole_genome "ta2"
+  feature ta2 set field displayName "ta2"
+  feature ta2 set metatag OWN_CODON_NUMBERING true
+  feature ta2 set metatag INCLUDE_IN_SUMMARY true
+  feature ta2 set metatag CODES_AMINO_ACIDS true
+
+  create feature re2 -p whole_genome "re2"
+  feature re2 set field displayName "re2"
+  feature re2 set metatag OWN_CODON_NUMBERING true
+  feature re2 set metatag INCLUDE_IN_SUMMARY true
+  feature re2 set metatag CODES_AMINO_ACIDS true
 
 
 
