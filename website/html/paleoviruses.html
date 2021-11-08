@@ -38,17 +38,21 @@
 	   
 		<p>
           <b>Endogenous retroviruses (ERVs)</b> are retrovirus-derived DNA sequences that occur in
-          the germline genome of host species. ERVs arise when retroviruses infect germline
-          cells (i.e. spermatozoa, eggs, or early embryonic cells) that subsequently go on
-          to form viable progeny, so that integrated retrovirus DNA is vertically inherited 
-          as a novel host allele.
+          the germline genomes of host species. ERVs arise when retroviruses infect germline
+          cells (i.e. spermatozoa, eggs, or early embryonic cells) so that integrated retrovirus
+          DNA is vertically inherited as a novel host allele.
 		</p>
 
 	   
 		<p>
           ERVs provide a unique source of <b>retrospective information</b> about the
-          <b>long-term history</b> and evolutionary interactions between retroviruses and
-          their hosts.
+          <b>long-term history</b> and retroviruses and their hosts.
+          ERVs derived from lentiviruses are very rare, and for decades they were assumed
+          not to occur. However,
+          as described <a href="./highlights.html"><b>here</b></a>, whole genome sequencing 
+          of vertebrates in the 2000s led to the discovery of
+          ERVs derived from lentiviruses in a variety of species.
+          These discoveries allowed the timeline of lentivirus evolution to be reliably calibrated.
 		</p>
 
 		 
@@ -100,26 +104,59 @@
 
 	   <br>
 	   <h3>
-		 <a id="genomeFeatures" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Genome features of lentiviral paleoviruses</strong>
+		 <a id="virusReferenceSequences" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Reference sequences and genome features</strong>
 	   </h3>
 	   <hr>
+ 
+ 		 <p>
+
+		   For each lentiviral paleovirus species, we have created a 'master' reference sequence, as follows:
+		   <ul>
+		   
+			 <li><b>Rabbit endogenous lentivirus K</b>: (<a target="_blank" href="../../sources/fasta-refseqs-erv/RELIK-con.fna"><b>RELIK con</b></a>)</li>
+			 <li><b>Prosimian immunodeficiency virus 1</b>: (<a target="_blank" href="../../sources/fasta-refseqs-erv/PSIV1-con.fna"><b>PSIV1-con</b></a>)</li>
+			 <li><b>Prosimian immunodeficiency virus 2</b>: (<a target="_blank" href="../../sources/fasta-refseqs-erv/PSIV2-con.fna"><b>PSIV2-con</b></a>)</li>
+			 <li><b>Musteliid endogenous lentivirus</b>: (<a target="_blank" href="../../sources/fasta-refseqs-erv/MELV-con.fna"><b>MELV</b></a>)</li>
+			 <li><b>Dermopteran endogenous lentivirus</b>: (<a target="_blank" href="../../sources/fasta-refseqs-erv/DELV-con.fna"><b>DELV</b></a>)</li>
+			 <li><b>Springhare endogenous lentivirus</b>: (<a target="_blank" href="../../sources/fasta-refseqs-erv/SpELV-con.fna"><b>SpELV</b></a>)</li>
+		   </ul>
+
+		</p>
 
 
-	    <p>
-		  Putative ancestral open reading frames (ORFs) encoding accessory genes have been
-		  identified in many endogenous lentiviruses.
-		  In some cases these represent clear homologs of the accessory genes found in 
-		  exogenous lentiviruses, but in others it remains unclear if they are homologs
-		  of previously described accessory genes, or they might be genes unique to 
-		  particular paleovirus species.
+
+		<p>		
+          The paleovirus reference sequences represent our efforts to reconstruct, as closely as possible,
+          the genomes of the ancestral lentiviruses that gave rise to ERV lineages. 
+		   Reference sequences are linked to auxiliary data in		 
+		   <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/tabular/core/lenti-reference-data.tsv"><b>tabular format</b></a>.
+
 		</p>
 		
-		
+
 		<p>
-		  We extended the <b>lentivirus genome features</b> for lentiviruses, reflecting current knowledge, and
-		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/erv/lentiErvFeatures.glue">incorporated this information into Lentivirus-GLUE</a>.
+
+
+		  We defined the known locations of lentivirus genome features on paleovirus reference sequences.
+		  (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiMasterReferences.glue">here</b></a>).
 		</p>
+
+		 <p>
+		   Putative ancestral open reading frames (ORFs) encoding accessory genes have been
+		   identified in many endogenous lentiviruses.
+		   In some cases these represent clear homologs of the accessory genes found in 
+		   exogenous lentiviruses, but in others it remains unclear whether they are homologs
+		   of previously described accessory genes or distinct genes.
+		 </p>
 		
+		
+		 <p>
+		   We therefore extended the set of <b>lentivirus genome features</b> defined in our core project to 
+		   <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/erv/lentiErvFeatures.glue">to include these putatively distinct genes</a>.
+		 </p>
+		
+
+
 
  
 	   <br>
@@ -150,7 +187,7 @@
 
 
 		<p>
-           Raw data about the ERVs in tabular format can be found <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/tabular/erv/erv-side-data.tsv"><strong>here</strong></a>.
+           Sequence-associated data in tabular format can be found <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/tabular/erv/erv-side-data.tsv"><strong>here</strong></a>.
   		</p>
 
 		<p>
@@ -247,7 +284,7 @@
 	   </li>
   
 	   <li>
-		 The final set of <b>lentivirus</b> and <b>EPV</b> polypeptide sequences used as
+		 The final set of <b>lentivirus</b> and <b>ERV</b> polypeptide sequences used as
 		 references can be found
          <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/digs/eve_1_lenti.ctl"><b>here</b></a>.
 	   </li>
@@ -290,7 +327,7 @@
 		<p>
           The <b>second component</b> is a composite of two distinct subcomponents separated by a period:
           
-          (i)  the name of EPV group;
+          (i)  the name of ERV group;
           (ii) a numeric ID that uniquely identifies the insertion.
           The numeric ID is an integer identifies a unique insertion locus that arose as a
           consequence of an initial germline infection. Thus, orthologous copies in different
