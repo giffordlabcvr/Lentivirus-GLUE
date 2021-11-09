@@ -26,7 +26,7 @@
 	run file glue/build/core/lentiAlignmentTree.glue
 
 	# Inherit feature locations
-	run file glue/build/core/lentiInheritFeatureLocations.glue  
+	#run file glue/build/core/lentiInheritFeatureLocations.glue  
 
 	# Record feature coverage in alignments
 	run file glue/build/core/lentiRecordFeaturePresence.glue

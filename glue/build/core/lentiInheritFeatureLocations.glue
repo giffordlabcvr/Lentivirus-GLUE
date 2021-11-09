@@ -28,7 +28,7 @@ reference REF_SRLV_A
 
   exit
 
-reference REF_EIAV
+reference REF_EIAV_Am
 
   inherit feature-location AL_ROOT matrix
   inherit feature-location AL_ROOT capsid

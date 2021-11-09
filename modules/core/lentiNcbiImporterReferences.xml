@@ -3,6 +3,7 @@
 
   <sourceName>ncbi-refseqs</sourceName>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  
   <specificPrimaryAccessions>
 	
 	<primaryAccession>M32690</primaryAccession>
@@ -13,7 +14,7 @@
 	<primaryAccession>JX480632</primaryAccession>
 	<primaryAccession>AF327877</primaryAccession>
 	<primaryAccession>M25381</primaryAccession>
-	<primaryAccession>EF455613</primaryAccession>
+	<primaryAccession>EF455615</primaryAccession>
 	<primaryAccession>U56928</primaryAccession>
 	<primaryAccession>AF033819</primaryAccession>
 	<primaryAccession>AJ006022</primaryAccession>
@@ -24,9 +25,13 @@
 	<primaryAccession>EF394356</primaryAccession>
 	<primaryAccession>KP004991</primaryAccession>
 	<primaryAccession>KP004990</primaryAccession>
-
-
+	<primaryAccession>U56928</primaryAccession>
+	<primaryAccession>EU293537</primaryAccession>
+	<primaryAccession>AF322109</primaryAccession>
+	<primaryAccession>JF502416</primaryAccession>
+	
   </specificPrimaryAccessions>
+  
   <sequenceFormat>GENBANK_XML</sequenceFormat>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   
