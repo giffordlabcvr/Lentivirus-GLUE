@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY362030</GBSeq_locus>
+    <GBSeq_length>1650</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>27-APR-2004</GBSeq_create-date>
+    <GBSeq_definition>Ovine progressive pneumonia virus isolate 17.5_SU surface envelope glycoprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY362030</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY362030.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY362030.1|</GBSeqid>
+      <GBSeqid>gi|38259638</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Ovine progressive pneumonia virus</GBSeq_source>
+    <GBSeq_organism>Ovine progressive pneumonia virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus; Ovine/caprine lentivirus group; unclassified Ovine/caprine lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1650</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Herrmann,L.M.</GBAuthor>
+          <GBAuthor>Hotzel,I.</GBAuthor>
+          <GBAuthor>Cheevers,W.P.</GBAuthor>
+          <GBAuthor>On Top,K.P.</GBAuthor>
+          <GBAuthor>Lewis,G.S.</GBAuthor>
+          <GBAuthor>Knowles,D.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Seven new ovine progressive pneumonia virus (OPPV) field isolates from Dubois Idaho sheep comprise part of OPPV clade II based on surface envelope glycoprotein (SU) sequences</GBReference_title>
+        <GBReference_journal>Virus Res. 102 (2), 215-220 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.virusres.2004.02.001</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>15084404</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1650</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Herrrmann,L.M.</GBAuthor>
+          <GBAuthor>Hotzel,I.</GBAuthor>
+          <GBAuthor>Cheevers,W.P.</GBAuthor>
+          <GBAuthor>Pretty On Top,K.</GBAuthor>
+          <GBAuthor>Knowles,D.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (05-AUG-2003) Animal Disease Research Unit, Agricultural Research Service, U.S. Department of Agriculture, 3003 ADBF, WSU, Pullman, WA 99164-6630, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1650</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1650</GBInterval_to>
+            <GBInterval_accession>AY362030.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Ovine progressive pneumonia virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>17.5_SU</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>colostrum/milk cell co-culture with goat synovium membrane cells</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:253923</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1650</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1650</GBInterval_to>
+            <GBInterval_accession>AY362030.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1650</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1650</GBInterval_to>
+            <GBInterval_accession>AY362030.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>SU</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>surface envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAR15163.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>EEVIALIDDPGGFQKVTQVETVPVTCTTKNFTQWGCQPEGAYPDPEVEYRNISQDILKEVYKNDWQWNTYHWPLWQMENMRQWMQENKEEYNKRTNQTREEIDDLLAGKIRGRFCVPYPFALLKCTKWCWYPAAIDKESGRARKIKINCTEARAVSCTEVMPLASIHRAYWDEQDRKSMEFMNIKACGESKLRCENRPGGCMTGYPIPVRAKIIPDSMKYLRGEKSQYGGIKDRNGELKLPLTVRIWVKLANGSEWVNGTPPHWEVRINGSKGINGTLWGELKSVHHLGYALSYNGQWCNFTNHIKIGQETFPYNYKPTWNCSANWTAYPTWQVMRYLDMVEHMTGECVQRPERHNITVGNGTITGNCSVTNWDGCNCSKSGNYLYNSTTGGLLVIICRENKTITGIMGTNTNWTTMMEIFKNCSQCKNATLDRTGDGALGNVENENCTLPHKNESDKWTCAPRRRKNITDSLYIAGGKQFWTRVKAQYSCESNIGELDGMMHQQILLQRYQIIKVRAYTYGVVDMPKSYIETQRRKKRSPELQLNRRKR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gaggaagtaattgctttaatagatgatccaggaggatttcagaaggtaacacaggtggaaacagtgccggtgacatgtacaacaaaaaactttactcaatgggggtgtcaacctgaaggagcttatccagacccagaagtggagtataggaacatatctcaggatatcctaaaagaggtctataaaaatgattggcagtggaatacttatcattggcctctatggcaaatggagaatatgagacaatggatgcaggaaaataaggaggaatacaacaagagaacaaaccaaacaagggaagaaatagatgatctattggctgggaaaataaggggaaggttttgtgtaccatatccttttgccttattgaaatgcacaaaatggtgctggtatccagcggcaatagataaggagtcaggaagagcaaggaaaataaaaataaactgcacagaagcaagagctgtctcttgtacagaggtaatgcccttagcatcaatacatagggcatattgggatgagcaagatagaaaaagtatggagtttatgaacataaaagcctgtggagagagtaagctcaggtgtgaaaacaggccgggaggatgcatgacagggtatcctattccggtaagagcaaagattatcccagacagcatgaaatacttaagaggagaaaagagtcagtatgggggaataaaagatagaaatggggaattgaaattgccattaacggtaagaatatgggtaaagctagcaaatggatcagagtgggtgaatgggacaccgcctcactgggaagtgagaataaacggctctaaaggaataaatgggacgctctggggagaacttaaaagtgtgcatcacttgggctatgcgcttagttacaacggacaatggtgtaacttcacaaaccacataaaaatagggcaagaaacgttcccatacaactataagccaacctggaattgctcagcaaattggacagcatacccgacatggcaggtaatgcgatacttagacatggtagaacacatgacaggggaatgtgtgcagaggccagaaagacacaacataacagtaggaaatggaacaataacaggaaactgcagtgtaacaaattgggatggatgcaattgtagtaagtcaggaaattatttatacaatagtaccacagggggactattagtcattatttgtagggaaaacaaaaccataacggggataatgggcacgaacacaaattggacaacaatgatggaaatattcaaaaattgttctcaatgcaaaaatgctactttagacagaacaggtgatggagctttagggaatgtagaaaatgaaaactgtacgctaccacataaaaatgaaagcgataaatggacatgcgctccccgaagaagaaaaaacataacagattccctatacatagcaggaggaaaacaattttggacaagagtaaaagcccaatatagctgtgaaagtaacataggggaattagatgggatgatgcaccaacagatattgctacaacgatatcaaataatcaaggtgagagcttacacatatggagtggtggatatgccaaaatcctacatagaaacacagagaaggaagaagagatcccccgagctacagcttaacagaagaaaaaga</GBSeq_sequence>
+  </GBSeq>

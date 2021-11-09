@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK573535</GBSeq_locus>
+    <GBSeq_length>538</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>09-SEP-2019</GBSeq_update-date>
+    <GBSeq_create-date>09-SEP-2019</GBSeq_create-date>
+    <GBSeq_definition>Small ruminant lentivirus isolate SRLV_Mongolia_02_2101A gag gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK573535</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK573535.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK573535.1|</GBSeqid>
+      <GBSeqid>gi|1734266292</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Small ruminant lentivirus</GBSeq_source>
+    <GBSeq_organism>Small ruminant lentivirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..538</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sharav,T.</GBAuthor>
+          <GBAuthor>Nergui,D.</GBAuthor>
+          <GBAuthor>Koenig,P.</GBAuthor>
+          <GBAuthor>Hoffmann,B.</GBAuthor>
+          <GBAuthor>Zehn,D.</GBAuthor>
+          <GBAuthor>Benjamin,M.</GBAuthor>
+          <GBAuthor>TserenOchir,E.</GBAuthor>
+          <GBAuthor>Satoru,K.</GBAuthor>
+          <GBAuthor>Ganbaatar,O.</GBAuthor>
+          <GBAuthor>Chultemdorj,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>First determination of small ruminant lentiviruses in Mongolia</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..538</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Sharav,T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-FEB-2019) Infectious Diseases and Immunology, Mongolian University of Life Sciences, Khan Uul District, 11th Khoroo, Ulaanbaatar, Zaisan 17024, Mongolia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..538</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>538</GBInterval_to>
+            <GBInterval_accession>MK573535.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Small ruminant lentivirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>SRLV_Mongolia_02_2101A</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>lung</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>sheep</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:254355</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mongolia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>10..&gt;538</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>10</GBInterval_from>
+            <GBInterval_to>538</GBInterval_to>
+            <GBInterval_accession>MK573535.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QEL52755.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MARQVSEGKKGYPELKEIIKRTCKIRIGPGKETLTEGNCLWCIKTLDFIFEETRTEPWTIVKMKTLWDRVQGLTPEETSKREFASLQATLACMLCSAMGMNPETVQAAQGILAMKAGVDTQEKQKEEKRPEQLYPNLEKHKEVYPIVQLQAGGRSWKAVDSTVFQQLQTVAMQHGL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gatagagacatggcgaggcaagtctcagaggggaaaaagggataccccgagctcaaggagattataaagagaacatgtaaaataagaatagggcccgggaaggagaccttgacggaagggaattgcctatggtgcataaaaactttagacttcatatttgaggaaactagaacagagccctggaccatagtaaaaatgaaaactctttgggatagagtgcagggactaacaccagaggaaacaagcaaaagagaatttgcttcgttgcaagctacattagcatgcatgttatgttctgcaatgggaatgaatccagaaacagtgcaggcagctcaagggatactagctatgaaggcaggggtagacacacaggagaaacaaaaagaagaaaaaaggccagaacagctgtatcctaacctagagaaacataaagaagtataccctatagtacagttacaagcaggagggagaagctggaaagcagtagactccacagtatttcaacaactgcaaacagtagcaatgcagcatggcctca</GBSeq_sequence>
+  </GBSeq>

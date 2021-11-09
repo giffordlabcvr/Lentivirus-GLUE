@@ -2,6 +2,23 @@
 
   # Primate
   create reference REF_HIV_1M ncbi-refseqs AF033819
+  
+  # Feline immunodeficiency virus (Petuluma)
+  create reference REF_FIV ncbi-refseqs M25381
+  
+  # Equine
+  create reference REF_EIAV ncbi-refseqs M16575
+  
+  # Bovine
+  create reference REF_BIV ncbi-refseqs M32690
+  
+  # Caprine-ovine
+  create reference REF_SRLV_A ncbi-refseqs NC_001452
+  create reference REF_SRLV_B ncbi-refseqs NC_001452
+
+  
+  
+  
   reference REF_HIV_1M
 
     add feature-location whole_genome
@@ -259,8 +276,7 @@
  
 
 
-  # Feline immunodeficiency virus (Petuluma)
-  create reference REF_FIV ncbi-refseqs M25381
+
   reference REF_FIV
 
     add feature-location whole_genome
@@ -316,9 +332,7 @@
   exit 
 
 
-  # Equine
-  create reference REF_EIAV ncbi-refseqs M16575
-  reference REF_EIAV
+   reference REF_EIAV
 
     add feature-location whole_genome
     feature-location whole_genome
@@ -368,8 +382,6 @@
   exit 
 
  
-  # Bovine
-  create reference REF_BIV ncbi-refseqs M32690
   reference REF_BIV
 
     add feature-location whole_genome
@@ -410,8 +422,6 @@
   exit 
     
 
-  # Caprine-ovine
-  create reference REF_SRLV_A ncbi-refseqs NC_001452
   reference REF_SRLV_A
 
     add feature-location whole_genome

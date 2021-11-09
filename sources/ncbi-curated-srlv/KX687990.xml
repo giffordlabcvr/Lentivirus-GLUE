@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KX687990</GBSeq_locus>
+    <GBSeq_length>1344</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-MAR-2017</GBSeq_update-date>
+    <GBSeq_create-date>01-MAR-2017</GBSeq_create-date>
+    <GBSeq_definition>Caprine arthritis encephalitis virus isolate Caev Arg Ara gag polyprotein gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KX687990</GBSeq_primary-accession>
+    <GBSeq_accession-version>KX687990.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KX687990.1|</GBSeqid>
+      <GBSeqid>gi|1149552272</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Caprine arthritis encephalitis virus</GBSeq_source>
+    <GBSeq_organism>Caprine arthritis encephalitis virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1344</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Panei,C.J.</GBAuthor>
+          <GBAuthor>Gos,M.L.</GBAuthor>
+          <GBAuthor>Valera,A.R.</GBAuthor>
+          <GBAuthor>Galosi,C.M.</GBAuthor>
+          <GBAuthor>Echeverria,M.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>First isolation and nucleotide comparison of the gag gene of the caprine arthritis encephalitis virus circulating in naturally infected goats from Argentina</GBReference_title>
+        <GBReference_journal>Open Vet J 7 (1), 32-35 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.4314/ovj.v7i1.5</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28331831</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1344</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Panei,C.J.</GBAuthor>
+          <GBAuthor>Gos,M.L.</GBAuthor>
+          <GBAuthor>Valera,A.R.</GBAuthor>
+          <GBAuthor>Galosi,C.M.</GBAuthor>
+          <GBAuthor>Echeverria,M.G.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (11-AUG-2016) Microbiology, Faculty of Veterinary Sciences, National University of La Plata, 60 and 118, La Plata, Buenos Aires 1900, Argentina</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1344</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1344</GBInterval_to>
+            <GBInterval_accession>KX687990.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Caprine arthritis encephalitis virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Caev Arg Ara</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>goat; female; breed Saanen</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11660</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Argentina</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>22..1344</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>22</GBInterval_from>
+            <GBInterval_to>1344</GBInterval_to>
+            <GBInterval_accession>KX687990.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AQT19106.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MARQVSGGKRDYPEIEKCIKQACKIRVRLRGEHLTEGNCLWCLKTLDYMFEEHKEEPWTKVKFRKIWQKVKNLTPEESNKKDFMSLQATLAGLMCCQMGMKPETLQDAMATVSMRDGVLEQEEKREEKKEKEESVFPIVVQAAGGRSWKAVDSVMFQQLQTVAMQHGLVSEDFERQLAYYATTWTSKDILEVLAMMPGNRAQKELIQGKLNEEAERWRRNNPPPPQGGGLTVDQIMGVGQTNQAAAQANMDQARQICLQWVITALRAVRHMTHKPGNPMLIRQKTNESYEDFTAKLLEAIDAEPVTQAIKEYLKLTLSYTNASSDCQKQMDRVLGQRVQQASVEEKMQACRDVGSEGFKMQLLAQALRPEKRRDGPVQRCYNCGKSGHLAKQCRQGLTCHNCGKKGHVQKDCRGKKNMREGKQGNGGRGIRVVPSAPPMA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtggtgagtctagatagagacatggcgaggcaagtctccggggggaaaagggattatcctgagatcgaaaaatgtatcaagcaggcatgcaagataagagttcgactcagaggggagcacttgacagaaggaaattgtttatggtgcctcaaaacattagactacatgtttgaggagcataaagaggagccttggacaaaagtaaaatttagaaaaatatggcagaaggtaaaaaacctcactcctgaggagagtaataaaaaagactttatgtctttgcaggccacattagcgggtctaatgtgctgccaaatggggatgaaacctgagacattgcaagatgcaatggcaacagtatccatgagagatggggtactagagcaagaagagaagagagaagagaaaaaagaaaaggaagaaagtgtcttcccaatagtagtgcaagcagcaggaggaaggagctggaaagctgtagactctgtgatgttccagcaattacaaacagtagcaatgcagcatggcctcgtgtccgaggattttgaaaggcagttagcatattatgctactacctggacaagtaaagacatactagaagtattggccatgatgcccggaaatagagctcagaaagagttaattcaagggaaattaaatgaggaagcagaaagatggagaaggaataatccaccacctccacagggaggaggattaacagtggatcaaattatgggggtaggacaaacaaatcaagcagcagcacaggctaacatggatcaggcaagacaaatatgcctgcaatgggtaataacagcattaagagcagtaaggcatatgactcataaaccagggaatccaatgttaataaggcaaaaaacaaatgagtcatatgaagactttacagcaaaattgctagaagcaatagatgcagagcctgtgacacaggccataaaagaatatttaaagctaacattatcttacacaaatgcatcctcggactgtcaaaaacaaatggatagagtactaggacagagagtacaacaggctagtgtagaagaaaaaatgcaagcatgcagagatgtgggatccgagggattcaaaatgcaattgctagctcaagccttaaggccagagaaaagaagggacggcccggtacaaaggtgctacaattgtgggaaatcgggacatctagcaaagcaatgcagacagggactcacatgccacaattgtggaaagaaaggacatgtacaaaaagattgtagagggaagaagaacatgagagaaggaaaacagggaaacgggggacgggggatacgtgtggtgccgtccgctccccctatggcataa</GBSeq_sequence>
+  </GBSeq>
