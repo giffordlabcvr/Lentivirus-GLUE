@@ -19,7 +19,7 @@
 	extract child AL_BIV      --refName REF_BIV
 	demote member AL_BIV      --whereClause "sequence.species = 'BIV'"
 
-	extract child AL_EIAV     --refName REF_EIAV
+	extract child AL_EIAV     --refName REF_EIAV_Am
 	demote member AL_EIAV     --whereClause "sequence.species = 'EIAV'"
   
 	exit
