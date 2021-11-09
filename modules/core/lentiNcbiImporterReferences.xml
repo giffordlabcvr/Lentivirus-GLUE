@@ -5,16 +5,26 @@
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   <specificPrimaryAccessions>
 	
-	<!-- HIV-1 -->
-	<primaryAccession>AF033819</primaryAccession>
-	<!-- SRLV-A -->
-	<primaryAccession>NC_001452</primaryAccession>
-	<!-- BIV -->	
 	<primaryAccession>M32690</primaryAccession>
-	<!-- EIAV -->
+	<primaryAccession>U21603</primaryAccession>
+	<primaryAccession>NC_001452</primaryAccession>
+	<primaryAccession>NC_001463</primaryAccession>
 	<primaryAccession>M16575</primaryAccession>
-	<!-- FIV -->
+	<primaryAccession>JX480632</primaryAccession>
+	<primaryAccession>AF327877</primaryAccession>
 	<primaryAccession>M25381</primaryAccession>
+	<primaryAccession>EF455613</primaryAccession>
+	<primaryAccession>U56928</primaryAccession>
+	<primaryAccession>AF033819</primaryAccession>
+	<primaryAccession>AJ006022</primaryAccession>
+	<primaryAccession>KU168292</primaryAccession>
+	<primaryAccession>GU111555</primaryAccession>
+	<primaryAccession>JN835461</primaryAccession>
+	<primaryAccession>JN835460</primaryAccession>
+	<primaryAccession>EF394356</primaryAccession>
+	<primaryAccession>KP004991</primaryAccession>
+	<primaryAccession>KP004990</primaryAccession>
+
 
   </specificPrimaryAccessions>
   <sequenceFormat>GENBANK_XML</sequenceFormat>
