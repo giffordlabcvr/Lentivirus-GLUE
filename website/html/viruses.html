@@ -35,32 +35,34 @@
 		 <a id="VirusProject" class="anchor" href="#GlueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Comparative genomic analysis of lentiviruses using Lentivirus-GLUE</strong>
 	   </h3>
 	   <hr>
-	   
 
-        
-       <p><img src="../assets/images/lentivirus-header.jpg" alt="HIV-1 virion"/></p>
 	   
+	   <p><img src="../assets/images/lenti-header.jpg" alt="Lentivirus phylogeny" /></p>
+
+
 
 <blockquote>
-		  A model of the HIV-1 virion 
+
+		 Left to right: HIV-1 derives from an ancestral lentivirus that
+		 originated via recombination between two distinct virus strains, one that
+		 infected monkeys (e.g. red-capped mangabeys, pictured)
+		 and one that infected great apes (e.g.  gorillas, pictured).
+		 Eventually a descendant of this recombinant virus was transmitted from 
+		 Eastern chimpanzees (<i>Pan troglodytes</i>) to humans, giving rise to
+		 HIV-1 (A model of the HIV-1 virion is shown). 
+		 
 </blockquote>
 
          
-	   <p>
-		 Comparative genomic analysis of lentiviruses can help reveal the biological basis
-		 of lentivirus replication.
-		 The insights obtained via comparative analysis of lentivirus genomes can directly
-		 inform efforts to limit lentivirus-associated disease and develop lentivirus-based 
-		 therapeutics. 
-	   </p>
-
+	   <br>
 
 	   <p>
-	     Since the emergence of the SARS-COV2 pandemic, many have become familiar with 
-	     the use of virus genome data to track the spread and evolution of pathogenic viruses
-	     - e.g. via tools such as <a target="_blank" href="https://nextstrain.org/ncov/gisaid/global""><b>NextStrain</b></a>. 
-		 However, comparative genomic approaches can also be used to reveal the structural and functional
-		 basis of virus adaptations. 
+	     Since the emergence of the SARS-COV2 pandemic, the use of virus genome data to
+	     track the spread and evolution of pathogenic viruses - e.g. via tools such as
+	     <a target="_blank" href="https://nextstrain.org/ncov/gisaid/global""><b>NextStrain</b></a> -
+	     has become quite familiar. 
+		 However, there are a a wide variety of other ways in which comparative genomic approaches can
+		 be used to reveal the structural and functional basis of virus adaptations. 
 	   </p>
 
 
@@ -69,16 +71,36 @@
 		 implementing computational genomic analysis of lentiviruses
 		 in an <b>efficient, standardised and reproducible</b> way.
 		 It is equally suited for research purposes as it is for more operational procedures
-		 (e.g. producing standardised, genome data-based reports in a public or animal health setting)
+		 (e.g. producing standardised, genome data-based reports in a public or animal health setting).
 	   </p>
 
 
 
 	   <p>
 		 This page provides background information on the <b>virus-associated</b>
-		 data items included in the project  - information about endogenous lentiviral elements (EPVs)
-		 can be found <a href="./paleoviruses.html""><b>here</b></a>.
+		 data items included in the project  - information about endogenous lentiviral sequence data
+		 included in Lentivirus-GLUE can be found <a href="./paleoviruses.html""><b>here</b></a>.
 	   </p>
+
+
+
+
+	   <br>
+	   <h3>
+		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Lentivirus-GLUE database schema</strong>
+	   </h3>
+	   <hr>
+
+
+		 <p>
+		   Lentivirus-GLUE extends GLUE's 
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
+		   through the incorporation of a number of additional fields in the 
+		   sequence table, and a project-specific custom table: 'isolate'.
+		   These schema extensions are defined <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiSchemaExtensions.glue"><b>here</b></a>.
+		   The isolate table is linked to the main 'sequence' table via the sequence ID field.
+		   It contains information pertaining to viral isolates,  e.g. species sampled, date and location of sample.
+		 </p>
 
 
 
@@ -90,18 +112,26 @@
 	   <hr>
 
 		<p>
-          Lentiviruses have enveloped, spherical virions and a small, circular DNA
-          genome ~3 kilobases (Kb) in length. The genome is characterised by a highly
-          streamlined organization incorporating extensive gene overlap - the open reading
-          frame (ORF) encoding the viral polymerase (P) protein occupies most of the genome
-          and typically overlaps at least one of the ORFs encoding the core (C), and
-          surface (S) proteins. 
- 		</p>
+		  In their integrated DNA form - referred to as a '<b>provirus</b>' - retrovirus genomes are
+		  flanked at either side by identical <b>long terminal repeat (<b>LTR</b>)</b>
+		  sequences, each of which is composed of distinct <b>U3</b>, <b>R</b> and <b>U5</b> regions. 
+	   </p>
+
+
+
+	   <p>
+		  Lentiviruses typically encode a range of ‘accessory’ genes in addition to the fundamental
+		  <b><i>gag</i></b>, <b><i>pol</i></b> and <b><i>env</i></b> genes encoded by all retroviruses.
+		  Among these, the <b><i>rev</i></b> gene is thought to be encoded by all lentiviruses,
+		  while <i><b>tat</i></b> is encoded by all except SRLVs and FIVs. Numerous other 
+		  accessory genes have been defined, but the evolutionary relationships between these genes
+		  are not well characterised. 
+		</p>
+		
 		
 		<p>
-		  We defined a
-		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiFeatures.glue"><b>standard set of genome features</b></a>
-		  for lentiviruses.
+		  We defined a <b>standard set of genome features</b> for lentiviruses, reflecting current knowledge, and
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiFeatures.glue">incorporated this information into Lentivirus-GLUE</a>.
 		</p>
 		
 
@@ -129,9 +159,9 @@
 		   For each lentivirus species, we have created a 'master' reference sequence, as follows:
 		   <ul>
 		   
-			 <li><b>Human immunodeficiency virus</b>: (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/AF033819"><b>AF033819</b></a>)</li>
+			 <li><b>Human immunodeficiency virus type 1</b>: (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/AF033819"><b>AF033819</b></a>)</li>
 			 <li><b>Equine infectious anemia virus</b>: (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/M16575"><b>M16575</b></a>)</li>
-			 <li><b>Small ruminant lentivirus</b>: (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001452"><b>NC_001452</b></a>)</li>
+			 <li><b>Small ruminant lentivirus (genotype A)</b>: (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001452"><b>NC_001452</b></a>)</li>
 			 <li><b>Feline immunodeficiency virus </b>: (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/M25381"><b>M25381</b></a>)</li>
 			 <li><b>Bovine immunodeficiency virus </b>: (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/M32690"><b>M32690</b></a>)</li>
 		   </ul>
@@ -142,25 +172,70 @@
 		<p>
 		
 		  We defined the known locations of genome features on master reference sequences
-		  (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiMasterReferences.glue">here</b></a>).
+		  (<b>see <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiMasterReferences.glue">here</b></a>).
 
 		</p>
 		
 		
 
 
+
 	   <br>
 	   <h3>
-		 <a id="Multiple sequence alignments" class="anchor" href="#MultipleSequenceAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments</strong>
+		 <a id="Multiple sequence alignments" class="anchor" href="#MultipleSequenceAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments (MSAs)</strong>
 	   </h3>
 	   <hr>
+
+		<p>
+          Multiple sequence alignments (MSAs) are the basic currency of comparative genomic analysis.
+          MSAs constructed in this study are linked together using
+          GLUE's <b>constrained MSA tree</b> data structure.
+  		</p>
+
+         
+ 		<p>
+          A 'constrained MSA' is an alignment in which the coordinate space is defined by 
+          a selected reference sequence. Where alignment members contain insertions relative
+          to the reference sequence, the inserted sequences are recorded and stored
+          (i.e. sequence data is never deleted).
+  		</p>
+
+         
+ 		<p>
+           
+          GLUE projects have the option of using a data structure called an <b>alignment tree</b>
+          to link constrained MSAs representing different taxonomic levels,
+          and we've used this approach in Lentivirus-GLUE.
+ 		</p>
+
+
+ 	    <br>
+
+        <p><img src="../assets/images/lentivirus-msa-tree.png" alt="Alignment tree concept"/></p>
+ 		
+
+<blockquote>
+		<p>
+		  The schematic figure above shows the '<b>alignment tree</b>' data structure 
+		  currently implemented in <b>Lentivirus-GLUE</b>.
+          We used an alignment tree data structure to link alignments,
+          via a set of common reference sequences.
+          The root alignment contains reference sequences for major clades,
+          whereas all children of the
+          root inherit at least one reference from their immediate parent.
+          Thus, all alignments are linked to one another via our chosen set of
+          master reference sequences.
+		</p>
+         
+</blockquote>
+
+
+ 	    <br>
 
 
 		<p>
           Multiple sequence alignment constructed in this study are linked together using
-          GLUE's 
-          <a href="./alignmenttree.html">alignment tree</a>
-          data structure. Alignments in the project include:
+          GLUE's <b>alignment tree</b> data structure. Alignments in the project include:
          
 		  
 		  <ol>
@@ -173,51 +248,6 @@
 		  </ol>
          
  		</p>
-
-
-
-	   <br>
-	   <h3>
-		 <a id="Phylogenetic trees" class="anchor" href="#PhylogeneticTrees" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Phylogenetic trees</strong>
-	   </h3>
-	   <hr>
-
-
-		<p>
-
-          We used GLUE to implement an automated process for deriving midpoint rooted,
-          annotated trees from the alignments included in our project.
- 		</p>
-
-
-		<p>
-          Trees were constructed at distinct taxonomic levels:
-        
-		  <ol>
-			<li> Recursively populated <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/tree/master/trees/main-root"><strong>root</strong></a> phylogenies</li>
-			<li> <a href="https://github.com/giffordlabcvr/Lentivirus-GLUE/tree/master/trees/main-genus"><strong>Genus-level</strong></a> phylogenies</li>
-		  </ol>
-
- 		</p>
-
-
-	   <br>
-	   <h3>
-		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Project-specific schema extensions</strong>
-	   </h3>
-	   <hr>
-
-
-		 <p>
-		   Lentivirus-GLUE extends GLUE's 
-		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
-		   through the incorporation of a number of additional fields in the 
-		   sequence table, and a project-specific custom table: 'isolate'.
-		   These schema extensions are defined <a target="_blank" href="https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/core/lentiSchemaExtensions.glue"><b>here</b></a>.
-		   The isolate table is linked to the main 'sequence' table via the sequence ID field.
-		   It contains information pertaining to viral isolates,  e.g. species sampled, date and location of sample.
-		 </p>
-
 
 
 

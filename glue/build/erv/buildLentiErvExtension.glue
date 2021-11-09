@@ -1,0 +1,28 @@
+schema-project lentivirus
+  run file glue/build/erv/lentiErvSchemaExtensions.glue
+  exit
+
+project lentivirus
+
+  # Import NCBI reference sequences 
+  run file glue/build/erv/lentiImportSources.glue
+
+  # Load side data
+  run file glue/build/erv/lentiErvLoadData.glue
+
+  # Create lentivirus ERV reference sequences
+  run file glue/build/erv/lentiErvReferences.glue
+
+  # Import alignments
+  run file glue/build/erv/lentiErvAlignments.glue
+
+  # Add lentivirus ERV alignments to constrained alignment tree 
+  run file glue/build/erv/lentiErvAlignmentTree.glue
+
+  # Record feature presence
+  run file glue/build/erv/lentiErvRecordFeaturePresence.glue
+
+  # Validate
+  validate
+
+  exit
