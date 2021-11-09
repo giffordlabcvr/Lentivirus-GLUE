@@ -4,6 +4,9 @@ schema-project lentivirus
 
 project lentivirus
 
+  # Define features 
+  run file glue/build/erv/lentiErvFeatures.glue
+
   # Import NCBI reference sequences 
   run file glue/build/erv/lentiImportSources.glue
 
