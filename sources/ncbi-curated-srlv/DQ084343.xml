@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>DQ084343</GBSeq_locus>
+    <GBSeq_length>592</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>30-JUN-2006</GBSeq_create-date>
+    <GBSeq_definition>Caprine lentivirus isolate C3 p25 capsid protein (gag) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>DQ084343</GBSeq_primary-accession>
+    <GBSeq_accession-version>DQ084343.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|DQ084343.1|</GBSeqid>
+      <GBSeqid>gi|71796592</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Caprine lentivirus</GBSeq_source>
+    <GBSeq_organism>Caprine lentivirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus; Ovine/caprine lentivirus group; unclassified Ovine/caprine lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..592</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Reina,R.</GBAuthor>
+          <GBAuthor>Mora,M.I.</GBAuthor>
+          <GBAuthor>Glaria,I.</GBAuthor>
+          <GBAuthor>Garcia,I.</GBAuthor>
+          <GBAuthor>Solano,C.</GBAuthor>
+          <GBAuthor>Lujan,L.</GBAuthor>
+          <GBAuthor>Badiola,J.J.</GBAuthor>
+          <GBAuthor>Contreras,A.</GBAuthor>
+          <GBAuthor>Berriatua,E.</GBAuthor>
+          <GBAuthor>Juste,R.</GBAuthor>
+          <GBAuthor>Mamoun,R.Z.</GBAuthor>
+          <GBAuthor>Rolland,M.</GBAuthor>
+          <GBAuthor>Amorena,B.</GBAuthor>
+          <GBAuthor>de Andres,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Molecular characterization and phylogenetic study of Maedi Visna and Caprine Arthritis Encephalitis viral sequences in sheep and goats from Spain</GBReference_title>
+        <GBReference_journal>Virus Res. 121 (2), 189-198 (2006)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.virusres.2006.05.011</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>16870297</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..592</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mora,M.I.</GBAuthor>
+          <GBAuthor>Mamoun,R.Z.</GBAuthor>
+          <GBAuthor>Rolland,M.</GBAuthor>
+          <GBAuthor>Glaria,I.</GBAuthor>
+          <GBAuthor>Garcia,I.</GBAuthor>
+          <GBAuthor>Reina,R.</GBAuthor>
+          <GBAuthor>Solano,C.</GBAuthor>
+          <GBAuthor>Lujan,L.</GBAuthor>
+          <GBAuthor>Badiola,J.J.</GBAuthor>
+          <GBAuthor>Contreras,A.</GBAuthor>
+          <GBAuthor>Berriatua,E.</GBAuthor>
+          <GBAuthor>Juste,R.</GBAuthor>
+          <GBAuthor>Amorena,B.</GBAuthor>
+          <GBAuthor>de Andres-Cara,D.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (03-JUN-2005) Agrobiotechnology and Animal Health, Institute of Agrobiotechnology and Natural Resources CSIC-UPNA, Ctra. Mutilva Baja s/n, Mutilva Baja, Navarra E-31192, Spain</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..592</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>592</GBInterval_to>
+            <GBInterval_accession>DQ084343.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Caprine lentivirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>C3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>naturally infected peripheral blood mononucleated goat cells</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>goat</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:169959</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Spain</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;592</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>592</GBInterval_to>
+            <GBInterval_accession>DQ084343.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;592</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>592</GBInterval_to>
+            <GBInterval_accession>DQ084343.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>p25 capsid protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAZ41315.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LVSEDFERQMAYYATTWTSKDILEVLAMMPGNRAQKELIQGKLNEEAERWVRQNPPGPNVLTVDQIMGVGQTNQQAAQANMDQARQICLQWVITALRSVRHMSHRPGNPMTVRQKNNESYEEFVARLLEAIDAEPVTDPIKTYLKVTLSYTNASTDCQKQMDRVLGHKVQQASVEEKMQACRDVGSEGFRMQLLAQR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tcttgtgtccgaggattttgaaagacaaatggcatattatgccactacctggaccagcaaagatatattggaagtattggccatgatgcctgggaacagagctcaaaaggagctgatccaagggaaattaaatgaggaagcagaaagatgggtacggcagaatccaccgggaccgaatgtactcacagtggatcagattatgggagtaggacaaacaaatcaacaggcagctcaggctaatatggatcaagcaagacaaatttgcctgcaatgggtaataaccgccttaagatcagtaaggcatatgtctcatagaccgggaaaccccatgacggtgagacaaaagaacaatgagagttatgaagagtttgtagcaagattattagaggcaatagatgcagaaccagttacagaccctataaaaacatatttgaaagtaacgctgtcatatacaaatgctagtacagactgtcagaaacaaatggatcgagtattaggccataaggtacaacaggcatcagtagaagaaaaaatgcaggcatgccgggatgttgggtcggaaggattcaggatgcagttattagcacagcga</GBSeq_sequence>
+  </GBSeq>

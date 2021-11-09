@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JN184382</GBSeq_locus>
+    <GBSeq_length>1460</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-JUL-2018</GBSeq_update-date>
+    <GBSeq_create-date>01-FEB-2012</GBSeq_create-date>
+    <GBSeq_definition>Small ruminant lentivirus isolate 336 envelope glycoprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>JN184382</GBSeq_primary-accession>
+    <GBSeq_accession-version>JN184382.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JN184382.1|</GBSeqid>
+      <GBSeqid>gi|374094857</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Small ruminant lentivirus</GBSeq_source>
+    <GBSeq_organism>Small ruminant lentivirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1460</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>de Andres,X.</GBAuthor>
+          <GBAuthor>Ramirez,H.</GBAuthor>
+          <GBAuthor>Bertolotti,L.</GBAuthor>
+          <GBAuthor>San Roman,B.</GBAuthor>
+          <GBAuthor>Glaria,I.</GBAuthor>
+          <GBAuthor>Crespo,H.</GBAuthor>
+          <GBAuthor>Jauregui,P.</GBAuthor>
+          <GBAuthor>Minguijon,E.</GBAuthor>
+          <GBAuthor>Juste,R.</GBAuthor>
+          <GBAuthor>Leginagoikoa,I.</GBAuthor>
+          <GBAuthor>Perez,M.</GBAuthor>
+          <GBAuthor>Lujan,L.</GBAuthor>
+          <GBAuthor>Badiola,J.J.</GBAuthor>
+          <GBAuthor>Polledo,L.</GBAuthor>
+          <GBAuthor>Garcia-Marin,J.F.</GBAuthor>
+          <GBAuthor>Riezu,J.I.</GBAuthor>
+          <GBAuthor>Borras-Cuesta,F.</GBAuthor>
+          <GBAuthor>de Andres,D.</GBAuthor>
+          <GBAuthor>Rosati,S.</GBAuthor>
+          <GBAuthor>Reina,R.</GBAuthor>
+          <GBAuthor>Amorena,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>An insight into a combination of ELISA strategies to diagnose small ruminant lentivirus infections</GBReference_title>
+        <GBReference_journal>Vet. Immunol. Immunopathol. 152 (3-4), 277-288 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.vetimm.2012.12.017</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>23375019</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1460</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Ramirez,H.</GBAuthor>
+          <GBAuthor>de Andres,X.</GBAuthor>
+          <GBAuthor>Reina,R.</GBAuthor>
+          <GBAuthor>San Roman,B.</GBAuthor>
+          <GBAuthor>Glaria,I.</GBAuthor>
+          <GBAuthor>Crespo,H.</GBAuthor>
+          <GBAuthor>Jauregui,P.</GBAuthor>
+          <GBAuthor>de Andres,D.</GBAuthor>
+          <GBAuthor>Amorena,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-JUN-2011) Sanidad Animal, Institute of Agrobiotechnology, CSIC-UPNA-Gobierno de Navarra, Ctra. Mutilva Baja, s/n, Mutilva Baja, Navarra 31192, Spain</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1460</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1460</GBInterval_to>
+            <GBInterval_accession>JN184382.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Small ruminant lentivirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>336</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>spinal cord</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>ovine</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:254355</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Spain</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1460</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1460</GBInterval_to>
+            <GBInterval_accession>JN184382.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1460</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1460</GBInterval_to>
+            <GBInterval_accession>JN184382.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AEY84762.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>NHLYNSTTGGLLVIICRDNKTITGIMGTDTNWTTMWQQYQNCSGCQNTTLDRTGNGTLGTVGNIKCSLPHKNESNKWTCAAREGNRSRDSLYIAGRDFWGRVKAQYSCESNIGGLDAMMHQQVLLQRYQVIRVRAYTYGVVDMPQSYIEKQKRNKRSTTSLQRKKRGIGLVIVLAIMAIIAAAGAGLGVANAVQQSYTRTAVQSLANATAAQQSVLEASYAMVQHVAKGVRILEARVARVEAIVDRMMVYHQLDCWHYQHYCVTSTAAKVAQYVNWTRYKDNCTWQQWEKEIEQHEGNLSMLLREAALQVHIAQRDASRIPDIWTALQEAFDWSGWFKWLIYIPWIVMGIIGIICVRILMCLLSTCLQAYKQIKEIRYTQVTVVIEAPVDLEEKQRSEEDGLSGCGNSEQEKRTSPRTFTQIWRAMWIAWNNSAWKRDWKKIPYMTLLPVITLQQWWEENGWSGGTRLKNKKERVDCQDREQRPTL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aatcacctgtataacagtacaacaggagggctattagtaattatatgtagagacaataaaacaataacaggaataatgggaacagacaccaattggacaacaatgtggcaacagtatcaaaactgttcagggtgtcaaaataccaccctcgacagaacaggaaacggaaccctggggacagtaggaaatataaagtgtagcctgcctcataagaatgaaagtaacaaatggacatgtgcggctcgggaagggaacaggtcgagggattcactgtatatagcgggaagagatttttggggaagagtaaaagcacagtatagctgtgagagcaatataggaggcctagatgcgatgatgcatcagcaagtcttgctccaaaggtatcaagtaataagagtaagagcttacacatatggtgttgtagacatgccacaatcctatatagaaaaacagaagagaaataaaagatcaacaacaagcctccaaagaaagaaacgaggaataggcttagtaatagtgcttgctatcatggctataatagctgctgcaggagctggactcggcgttgcgaatgccgtgcagcaatcctacacaaggacggctgttcagtctcttgctaacgctactgctgcacagcagagtgtgttagaagcatcgtatgccatggtgcaacatgtggcaaaaggagtaaggattctggaggcccgagtagcaagagtagaagctatagtagatagaatgatggtttatcatcagttagattgttggcattatcaacactactgtgtaacctctacagcagcaaaggtagcacaatatgtaaattggacaagatataaagataactgtacctggcaacaatgggaaaaagaaatagagcaacatgaaggaaatctcagtatgctattaagagaagcagcattacaagtacacatagcgcagagagatgctagcagaatcccagatatatggacagcactacaagaagctttcgattggtcggggtggtttaaatggttgatatacataccctggattgtaatgggaataataggaataatttgtgtacgaatactaatgtgcctattgtcaacatgtttgcaggcgtacaagcaaatcaaagaaatccgatatacacaagtaacagtagtgatagaagcaccagtggacctggaggaaaagcaaagaagcgaagaggatggtttaagtggctgcggaaactcagagcaggagaaaagaacatccccgcgcacgtttacccagatatggagagcaatgtggatagcatggaacaactcagcttggaagcgagactggaagaaaatcccatatatgaccctgttgccagtgataaccctccaacaatggtgggaagagaatggctggagtggcggaactcggctcaagaataaaaaagaaagggtggactgtcaggacagagaacaaaggcctacgttgga</GBSeq_sequence>
+  </GBSeq>
