@@ -1,6 +1,20 @@
-sequenceID	full_name	name	species	subgenus	clade	subtype	genotype	host_common_name	host_sci_name	isolate	year	country
-AF033819	Human immunodeficiency virus 1	HIV-1M	HIV-1 	Primate	M	B	NULL	Human	Homo sapiens	HXB2	NK	United States
-M32690	Bovine immunodeficiency virus	BIV	BIV	Bovine	Main	Main	NULL	Domestic cow	Bos taurus	NK	NK	United Kingdom
-M16575	Equine infectious anemia virus	EIAV	EIAV	Equine	American	American	NULL	Domestic horse	Equus caballus	NK	NK	NK
-M25381	Feline immunodeficiency virus	FIV	FIV	Feline	Main	Main	NULL	Domestic cat	Felis catus	NK	NK	United States
-NC_001452	Small ruminant lentivirus genotype A	SRLV-A	SRLV	Caprine-Ovine	A1	1	A	Sheep	Ovis aries	NK	NK	Iceland
+sequenceID	full_name	name	species	subgenus	clade	subtype	genotype	host_common_name	host_sci_name	isolate	year	country	pubmed_id
+M32690	Bovine immunodeficiency virus	BIV	BIV	Bovine	Main	Main	NULL	Domestic cow	Bos taurus	NK	NK	United Kingdom	
+U21603	Jembrana disease virus	JDV 	JDV 	Bovine	NULL	NULL	NULL	Balinese cattle	Bos javanicus domesticus	NK	NK	Indonesia	
+NC_001452	Small ruminant lentivirus genotype A	SRLV-A	SRLV	Caprine-Ovine	A	1	A	Sheep	Ovis aries	NK	NK	Iceland	
+NC_001463	Small ruminant lentivirus genotype B	SRLV-B	SRLV	Caprine-Ovine	B	1	B	Goat	Capra hircus	NK	NK	United States	
+AF016316	Equine infectious anemia virus	EIAV	EIAV	Equine	American	American	American	Domestic horse	Equus caballus	NK	NK	NK	
+JX480632	Equine infectious anemia virus	EIAV	EIAV	Equine	European	European	European	Domestic horse	Equus caballus	NK	NK		
+AF327877	Equine infectious anemia virus	EIAV	EIAV	Equine	Asian	Asian	Asian	Domestic horse	Equus caballus	NK	NK		
+M25381	Feline immunodeficiency virus	FIV	FIV	Feline	Main	Main	NULL	Domestic cat	Felis catus	NK	NK	United States	
+EF455613	Feline immunodeficiency virus	FIVpco 	FIVpco 	Feline	NULL	NULL	NULL	Cougar	Puma concolor	NK	NK		
+U56928	Feline immunodeficiency virus 	FIVoma 	FIVoma 	Feline	NULL	NULL	NULL	Pallas's cat	Otocolobus manul	NK	NK		
+AF033819	Human immunodeficiency virus 1	HIV-1M	HIV-1 	Primate	M	B	1	Human	Homo sapiens	HXB2	NK	United States	
+AJ006022	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	N	NULL	NULL	Homo sapiens	human	YBF30	1995	Cameroon	9734396
+KU168292	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	O	NULL	NULL	Homo sapiens	human	LA49RBF189	2005	Cameroon	26699702
+GU111555	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	P	NULL	NULL	Homo sapiens	human	RBF168	2009	France	NULL
+JN835461	Simian immunodeficiency virus cpz	SIVcpz	SIVcpz	Primate	M	NULL	NULL	Chimpanzee	chimpanzee	SIVcpzMB897		Cameroon	22505456
+JN835460	Simian immunodeficiency virus cpz	SIVcpz	SIVcpz	Primate	N	NULL	NULL	Chimpanzee	chimpanzee	SIVcpzEK505.c2		Cameroon	22505456
+EF394356	Simian immunodeficiency virus cpz	SIVcpz	SIVcpz	Primate	pts	NULL	NULL	Chimpanzee	chimpanzee	SIVcpzTAN1		Tanzania	17494082
+KP004991	Simian immunodeficiency virus gor	SIVgor	SIVgor	Primate	O	NULL	NULL	Gorilla gorilla	gorilla	SIVgor-BQID2	2012	Cameroon	25733890
+KP004990	Simian immunodeficiency virus gor	SIVgor	SIVgor	Primate	P	NULL	NULL	Gorilla gorilla	gorilla	SIVgor-BPID15	2013	Cameroon	25733890

@@ -5,18 +5,22 @@
   
   # Feline immunodeficiency virus (Petuluma)
   create reference REF_FIV ncbi-refseqs M25381
+  create reference REF_FIV_pco ncbi-refseqs EF455613
+  create reference REF_FIV_oma ncbi-refseqs U56928
   
   # Equine
-  create reference REF_EIAV ncbi-refseqs M16575
+  create reference REF_EIAV_Am ncbi-refseqs M16575
+  create reference REF_EIAV_Am ncbi-refseqs JX480632
+  create reference REF_EIAV_Am ncbi-refseqs AF327877
   
   # Bovine
   create reference REF_BIV ncbi-refseqs M32690
+  create reference REF_JDV ncbi-refseqs U21603
   
   # Caprine-ovine
   create reference REF_SRLV_A ncbi-refseqs NC_001452
-  create reference REF_SRLV_B ncbi-refseqs NC_001452
+  create reference REF_SRLV_B ncbi-refseqs NC_001463
 
-  
   
   
   reference REF_HIV_1M
