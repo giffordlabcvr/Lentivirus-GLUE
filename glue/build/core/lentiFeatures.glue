@@ -2,7 +2,8 @@
   feature whole_genome set field displayName "Whole genome"
   feature whole_genome set metatag INCLUDE_IN_SUMMARY true
 
-  # Non-coding features
+  ## Non-coding features
+  
   create feature 5LTR -p whole_genome "5' long terminal repeat"
   feature 5LTR set field displayName "5' LTR"
   feature 5LTR set metatag INCLUDE_IN_SUMMARY true
@@ -59,9 +60,9 @@
   feature PSI set field displayName "PSI"
   feature PSI set metatag INCLUDE_IN_SUMMARY true
 
-  create feature FE -p whole_genome "Frameshift signal"
-  feature FE set field displayName "FE"
-  feature FE set metatag INCLUDE_IN_SUMMARY true
+  create feature FS -p whole_genome "Frameshift signal"
+  feature FS set field displayName "FS"
+  feature FS set metatag INCLUDE_IN_SUMMARY true
 
   create feature cPPT -p whole_genome "Central polypurine tract"
   feature cPPT set field displayName "cPPT"
@@ -107,7 +108,7 @@
   feature internal_region set field displayName "internal region"
 
 
-  # Coding features
+  ## Coding features
 
   create feature gag-pol -p whole_genome "gag-pol"
   feature gag-pol set field displayName "gag-pol"
@@ -218,19 +219,13 @@
   feature transmembrane set metatag CODES_AMINO_ACIDS true
 
 
-  # Accessory genes
+  ## Accessory genes
 
   create feature vif -p whole_genome "vif"
   feature vif set field displayName "vif"
   feature vif set metatag OWN_CODON_NUMBERING true
   feature vif set metatag INCLUDE_IN_SUMMARY true
   feature vif set metatag CODES_AMINO_ACIDS true
-  
-  create feature vpr -p whole_genome "vpr"
-  feature vpr set field displayName "vpr"
-  feature vpr set metatag OWN_CODON_NUMBERING true
-  feature vpr set metatag INCLUDE_IN_SUMMARY true
-  feature vpr set metatag CODES_AMINO_ACIDS true
 
   create feature tat -p whole_genome "tat"
   feature tat set field displayName "tat"
@@ -243,6 +238,27 @@
   feature rev set metatag OWN_CODON_NUMBERING true
   feature rev set metatag INCLUDE_IN_SUMMARY true
   feature rev set metatag CODES_AMINO_ACIDS true
+
+  create feature NLS -p whole_genome "Nuclear localisation signal"
+  feature NLS set field displayName "NLS"
+  feature NLS set metatag OWN_CODON_NUMBERING true
+  feature NLS set metatag INCLUDE_IN_SUMMARY true
+  feature NLS set metatag CODES_AMINO_ACIDS true
+
+  create feature NES -p whole_genome "Nuclear export signal"
+  feature NES set field displayName "NLS"
+  feature NES set metatag OWN_CODON_NUMBERING true
+  feature NES set metatag INCLUDE_IN_SUMMARY true
+  feature NES set metatag CODES_AMINO_ACIDS true
+
+
+  # Bovine group
+
+  create feature vpr -p whole_genome "vpr"
+  feature vpr set field displayName "vpr"
+  feature vpr set metatag OWN_CODON_NUMBERING true
+  feature vpr set metatag INCLUDE_IN_SUMMARY true
+  feature vpr set metatag CODES_AMINO_ACIDS true
   
   create feature vpu -p whole_genome "vpu"
   feature vpu set field displayName "vpu"
@@ -256,11 +272,14 @@
   feature nef set metatag INCLUDE_IN_SUMMARY true
   feature nef set metatag CODES_AMINO_ACIDS true
 
-  create feature asp -p whole_genome "asp"
+  create feature asp -p whole_genome "Putative antisense protein"
   feature asp set field displayName "asp"
   feature asp set metatag OWN_CODON_NUMBERING true
   feature asp set metatag INCLUDE_IN_SUMMARY true
   feature asp set metatag CODES_AMINO_ACIDS true
+
+
+  # Bovine group
 
   create feature tmx -p whole_genome "tmx"
   feature tmx set field displayName "tmx"
@@ -280,11 +299,21 @@
   feature vpy set metatag INCLUDE_IN_SUMMARY true
   feature vpy set metatag CODES_AMINO_ACIDS true
 
+
+  # Equine group
+
   create feature s2 -p whole_genome "s2"
   feature s2 set field displayName "s2"
   feature s2 set metatag OWN_CODON_NUMBERING true
   feature s2 set metatag INCLUDE_IN_SUMMARY true
   feature s2 set metatag CODES_AMINO_ACIDS true
+
+  create feature ttm -p whole_genome "ttm"
+  feature ttm set field displayName "ttm"
+  feature ttm set metatag OWN_CODON_NUMBERING true
+  feature ttm set metatag INCLUDE_IN_SUMMARY true
+  feature ttm set metatag CODES_AMINO_ACIDS true
+
 
 
   # Variable loops HIV-1 envelope

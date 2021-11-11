@@ -15,6 +15,7 @@ project lentivirus
 
   # Create lentivirus ERV reference sequences
   run file glue/build/erv/lentiErvReferences.glue
+  validate
 
   # Import alignments
   run file glue/build/erv/lentiErvAlignments.glue

@@ -263,7 +263,7 @@
   
 	add feature-location matrix
 	feature-location matrix
-	  add segment 474 844
+	  add segment 474 842
 	  exit
   
 	add feature-location capsid
@@ -273,7 +273,7 @@
   
 	add feature-location nucleocapsid
 	feature-location nucleocapsid
-	  add segment 1505 1796
+	  add segment 1505 1795
 	  exit
 
 	add feature-location pro-pol
@@ -283,17 +283,17 @@
 
 	add feature-location pro
 	feature-location pro
-	  add segment 1795 2094
+	  add segment 1795 2091
 	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2095 4977
+	  add segment 2092 4977
 	  exit
 
 	add feature-location RT
 	feature-location RT
-	  add segment 2337 3402
+	  add segment 2092 3402
 	  exit
 
 	add feature-location RNaseH
@@ -331,7 +331,22 @@
 	  add segment 7014 7646
 	  exit
 
+	add feature-location orfx
+	feature-location orfx
+	  add segment 7606 7950
+	  exit
+  
+	add feature-location PPT
+	feature-location PPT
+	  add segment 7659 7675
+	  exit
+ 
+	add feature-location 3LTR
+	feature-location 3LTR
+	  add segment 7681 8102
+	  exit
     
+
 	exit 
 
 
