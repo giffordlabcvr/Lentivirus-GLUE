@@ -5,18 +5,46 @@
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   
   <specificPrimaryAccessions>
-	
+
+	<!-- Bovine group -->	
 	<primaryAccession>M32690</primaryAccession>
-	<primaryAccession>U21603</primaryAccession>	
-	<primaryAccession>NC_001452</primaryAccession>
-	<primaryAccession>NC_001463</primaryAccession>
+	<primaryAccession>U21603</primaryAccession>
+
+	<!-- Equine group -->	
 	<primaryAccession>AF016316</primaryAccession>
 	<primaryAccession>JX480632</primaryAccession>
 	<primaryAccession>AF327877</primaryAccession>	
+
+	<!-- Feline group -->
+	<primaryAccession>U56928</primaryAccession>
 	<primaryAccession>M25381</primaryAccession>
+
+	<!-- Smmall ruminant lentivirus group -->	
+	<primaryAccession>NC_001452</primaryAccession>
+	<primaryAccession>NC_001463</primaryAccession>
+	<primaryAccession>EU293537</primaryAccession>
+	<primaryAccession>AF322109</primaryAccession>
+	<primaryAccession>JF502416</primaryAccession>
+
+	<!-- Primate group -->
+	<primaryAccession>AF033819</primaryAccession>
+	<primaryAccession>AF188116</primaryAccession>
+	<primaryAccession>HM803689</primaryAccession>
+	<primaryAccession>M27470</primaryAccession>
+	<primaryAccession>L06042</primaryAccession>
+	<primaryAccession>AJ580407</primaryAccession>
+	<primaryAccession>AF468659</primaryAccession>
+	<primaryAccession>X14307</primaryAccession>
+	<primaryAccession>MK686247</primaryAccession>
+	<primaryAccession>AF131870</primaryAccession>
+	<primaryAccession>AF301156</primaryAccession>
+	<primaryAccession>U04005</primaryAccession>
+	<primaryAccession>AY159321</primaryAccession>
+
+	<!-- Primate group - SIV-cpz-gor-human -->
+	<primaryAccession>AF033819</primaryAccession> <!-- HIV-1 master -->
 	<primaryAccession>EF455615</primaryAccession>
 	<primaryAccession>GQ381130</primaryAccession>	
-	<primaryAccession>AF033819</primaryAccession>
 	<primaryAccession>AJ006022</primaryAccession>
 	<primaryAccession>KU168292</primaryAccession>
 	<primaryAccession>GU111555</primaryAccession>
@@ -25,10 +53,8 @@
 	<primaryAccession>EF394356</primaryAccession>
 	<primaryAccession>KP004991</primaryAccession>
 	<primaryAccession>KP004990</primaryAccession>
-	<primaryAccession>U56928</primaryAccession>
-	<primaryAccession>EU293537</primaryAccession>
-	<primaryAccession>AF322109</primaryAccession>
-	<primaryAccession>JF502416</primaryAccession>
+
+
 	
   </specificPrimaryAccessions>
   

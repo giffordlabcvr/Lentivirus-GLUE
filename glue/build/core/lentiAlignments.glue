@@ -1,11 +1,15 @@
 #~# Import unconstrained reference alignments
 
 module unconstrainedAlignmentImporter
+
+  #~# Root
   import AL_UNC_ROOT -f alignments/root/lentivirus-root-gagpol.aln.fna
 
-  import AL_UNC_Bovine  -f alignments/internal/bovine-group.aln.fna
-  import AL_UNC_Equine  -f alignments/internal/equine-group.aln.fna
-  import AL_UNC_Feline  -f alignments/internal/feline-group.aln.fna
-  import AL_UNC_Srlv    -f alignments/internal/caprine-ovine-group.aln.fna
+  #~# Groups
+  import AL_UNC_Bovine    -f alignments/internal/bovine-group.aln.fna
+  import AL_UNC_Equine    -f alignments/internal/equine-group.aln.fna
+  import AL_UNC_Feline    -f alignments/internal/feline-group.aln.fna
+  import AL_UNC_Srlv      -f alignments/internal/caprine-ovine-group.aln.fna
+  import AL_UNC_Primate   -f alignments/internal/primate-group.aln.fna
 
   exit
