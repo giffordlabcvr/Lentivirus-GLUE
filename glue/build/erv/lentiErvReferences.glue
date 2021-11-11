@@ -36,12 +36,12 @@
   
 	add feature-location matrix
 	feature-location matrix
-	  add segment 597 1026
+	  add segment 597 1025
 	  exit
   
 	add feature-location capsid
 	feature-location capsid
-	  add segment 1027 1748
+	  add segment 1026 1748
 	  exit
   
 	add feature-location nucleocapsid
@@ -56,12 +56,12 @@
 
 	add feature-location pro
 	feature-location pro
-	  add segment 1880 2336
+	  add segment 1880 2337
 	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2337 5212
+	  add segment 2338 5212
 	  exit
 
 	add feature-location RT
@@ -81,7 +81,7 @@
 
 	add feature-location IN
 	feature-location IN
-	  add segment 4388 5213
+	  add segment 4388 5212
 	  exit
   
 	add feature-location vif

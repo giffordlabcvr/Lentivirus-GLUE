@@ -1,5 +1,9 @@
   #~# Define constrained alignment tree
+
+  #~# Create root alignment
   create alignment AL_ROOT -r REF_HIV_1M
+ 
+  #~# Add children to root alignment 
   alignment AL_ROOT
 
 	set field displayName "Lentivirus"
@@ -7,35 +11,48 @@
 	# Add all members
 	add member -a
 
-	extract child AL_PLV      --refName REF_HIV_1M
-	demote member AL_PLV      --whereClause "sequence.subgenus = 'Primate'"
+	extract child AL_Primate      --refName REF_HIV_1M
+	demote member AL_Primate      --whereClause "sequence.subgenus = 'Primate'"
  
-	extract child AL_FIV      --refName REF_FIV
-	demote member AL_FIV      --whereClause "sequence.species = 'FIV'"
+	extract child AL_Feline       --refName REF_FIV
+	demote member AL_Feline       --whereClause "sequence.subgenus = 'Feline'"
 
-	extract child AL_SRLV     --refName REF_SRLV_A
-	demote member AL_SRLV     --whereClause "sequence.species = 'SRLV'"
+	extract child AL_OvineCaprine --refName REF_SRLV_A
+	demote member AL_OvineCaprine --whereClause "sequence.subgenus = 'Ovine-Caprine'"
 
-	extract child AL_BIV      --refName REF_BIV
-	demote member AL_BIV      --whereClause "sequence.species = 'BIV'"
+	extract child AL_Bovine       --refName REF_BIV
+	demote member AL_Bovine       --whereClause "sequence.subgenus = 'Bovine'"
 
-	extract child AL_EIAV     --refName REF_EIAV_Am
-	demote member AL_EIAV     --whereClause "sequence.species = 'EIAV'"
+	extract child Al_Equine       --refName REF_EIAV_Am
+	demote member Al_Equine       --whereClause "sequence.subgenus = 'Equine'"
   
 	exit
 
 
-  #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_ROOT
-	derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
+ 
+  #~# Add children to primate lentivirus alignment 
+  alignment AL_Primate
+
+	extract child AL_HIVSIV      --refName REF_HIV_1M
+	demote member AL_HIVSIV      --whereClause "sequence.subgenus = 'Primate'"
+ 
 	exit
 
 
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_ROOT derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_Primate derive segments AL_UNC_Primate -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_Feline derive segments AL_UNC_Feline -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_Bovine derive segments AL_UNC_Bovine -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment Al_Equine derive segments AL_UNC_Equine -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_OvineCaprine derive segments AL_UNC_Srlv -a --existingMembersOnly --mergeStrategy OVERWRITE
 
- # Set clade category
+
+  #~# Set clade categories
   alignment AL_ROOT set field clade_category genus
-  alignment AL_SRLV set field clade_category species
-  alignment AL_PLV  set field clade_category species
-  alignment AL_FIV  set field clade_category species
-  alignment AL_BIV  set field clade_category species
-  alignment AL_EIAV set field clade_category species
+  alignment AL_OvineCaprine set field clade_category subgroup
+  alignment AL_Primate set field clade_category subgroup
+  alignment AL_Feline set field clade_category subgroup
+  alignment AL_Bovine set field clade_category subgroup
+  alignment Al_Equine set field clade_category subgroup
+

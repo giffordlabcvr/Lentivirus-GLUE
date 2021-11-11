@@ -119,8 +119,8 @@
       add segment 1467 1631
       exit
       
-    add feature-location FE
-    feature-location FE  
+    add feature-location FS
+    feature-location FS  
       add segment 1631 1637
       exit
 
