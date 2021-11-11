@@ -14,163 +14,119 @@
 	  add segment 1	496
 	  exit
   
+	add feature-location TATA_box
+	feature-location TATA_box
+	  add segment 247 254
+	  exit
+  
+	add feature-location TAR
+	feature-location TAR
+	  add segment 278 385
+	  exit
+
+	add feature-location PBS
+	feature-location PBS
+	  add segment 499 518
+	  exit
+  
 	add feature-location gag
 	feature-location gag
 	  add segment 597 2030
 	  exit
+  
+	add feature-location matrix
+	feature-location matrix
+	  add segment 597 1026
+	  exit
+  
+	add feature-location capsid
+	feature-location capsid
+	  add segment 1027 1748
+	  exit
+  
+	add feature-location nucleocapsid
+	feature-location nucleocapsid
+	  add segment 1749 2030
+	  exit
+
+	add feature-location pro-pol
+	feature-location pro-pol
+	  add segment 1880 5212
+	  exit
+
+	add feature-location pro
+	feature-location pro
+	  add segment 1880 2336
+	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2336 5212
+	  add segment 2337 5212
 	  exit
 
-	add feature-location env
+	add feature-location RT
+	feature-location RT
+	  add segment 2337 3632
+	  exit
+
+	add feature-location RNaseH
+	feature-location RNaseH
+	  add segment 2633 4001
+	  exit
+
+	add feature-location dUTPase
+	feature-location dUTPase
+	  add segment 4019 4387
+	  exit
+
+	add feature-location IN
+	feature-location IN
+	  add segment 4388 5213
+	  exit
+  
+	add feature-location vif
+	feature-location vif
+	  add segment 5214 5469
+	  exit
+  
+	add feature-location tat
+	feature-location tat
+	  add segment 5596 5819
+	  exit
+  	  
+ 	add feature-location env
 	feature-location env
-	  add segment 5777 8386
+	  add segment 5472 8342
+	  exit
+	  
+ 	add feature-location surface
+	feature-location surface
+	  add segment 5733 7538
+	  exit
+	  
+ 	add feature-location transmembrane
+	feature-location transmembrane
+	  add segment 7539 8342
 	  exit
 
+	add feature-location rev
+	feature-location rev
+	  add segment 7459 7751
+	  exit
+	  
+	add feature-location RRE
+	feature-location RRE
+	  add segment 7459 7751
+	  exit
+ 	  
+	add feature-location PPT
+	feature-location PPT
+	  add segment 8350 8371
+	  exit
+ 
 	add feature-location 3LTR
 	feature-location 3LTR
 	  add segment 8416 8912
-	  exit
-    
-	exit 
-
-
-  create reference REF_PSIV1 fasta-refseqs-erv PSIV1-con
-  reference REF_PSIV1
-
-	add feature-location whole_genome
-	feature-location whole_genome
-	  add segment 1 7380
-	  exit
-  
-	add feature-location 5LTR
-	feature-location 5LTR
-	  add segment 1 424
-	  exit
-
-	add feature-location TAR
-	feature-location TAR
-	  add segment 280 396
-	  exit
-  
-	add feature-location gag
-	feature-location gag
-	  add segment 492 1544
-	  exit
-
-	add feature-location pol
-	feature-location pol
-	  add segment 1457 4708
-	  exit
-
-	add feature-location vif
-	feature-location vif
-	  add segment 4944 5012
-	  exit
-
-	add feature-location env
-	feature-location env
-	  add segment 5279 6976
-	  exit
-
-	add feature-location orfx
-	feature-location orfx
-	  add segment 7000 7272
-	  exit
-
-	add feature-location 3LTR
-	feature-location 3LTR
-	  add segment 6999 7380
-	  exit
-    
-	exit 
-
-
-  create reference REF_PSIV2 fasta-refseqs-erv PSIV2-con
-  reference REF_PSIV2
-
-	add feature-location whole_genome
-	feature-location whole_genome
-	  add segment 1	7531
-	  exit
-  
-  	add feature-location 5LTR
-	feature-location 5LTR
-	  add segment 1	404
-	  exit
-
-	add feature-location gag
-	feature-location gag
-	  add segment 488 1792
-	  exit
-
-	add feature-location pol
-	feature-location pol
-	  add segment 1795 4953
-	  exit
-  
-	add feature-location vif
-	feature-location vif
-	  add segment 4965 5258
-	  exit
-
-	add feature-location env
-	feature-location env
-	  add segment 5580 6914
-	  exit
-
-	add feature-location orfx
-	feature-location orfx
-	  add segment 6918 7382
-	  exit
-
-	add feature-location 3LTR
-	feature-location 3LTR
-	  add segment 6990 7531
-	  exit
-    
-	exit 
-
-
-
-  create reference REF_MELV fasta-refseqs-erv MELV-con
-  reference REF_MELV
-
-	add feature-location whole_genome
-	feature-location whole_genome
-	  add segment 1	9112
-	  exit
-  
-	add feature-location 5LTR
-	feature-location 5LTR
-	  add segment 1	530
-	  exit
-  
-	add feature-location gag
-	feature-location gag
-	  add segment 723 1892
-	  exit
-
-	add feature-location pol
-	feature-location pol
-	  add segment 1898 5260
-	  exit
-
-	add feature-location vif
-	feature-location vif
-	  add segment 5400 5849
-	  exit
-
-	add feature-location env
-	feature-location env
-	  add segment 6082 8664
-	  exit
-
-	add feature-location 3LTR
-	feature-location 3LTR
-	  add segment 8872 9112
 	  exit
     
 	exit 
@@ -217,6 +173,205 @@
 	add feature-location 3LTR
 	feature-location 3LTR
 	  add segment 9566 10002
+	  exit
+    
+	exit 
+
+
+
+
+
+  create reference REF_PSIV1 fasta-refseqs-erv PSIV1-con
+
+  reference REF_PSIV1
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 7380
+	  exit
+  
+	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1 424
+	  exit
+
+	add feature-location TAR
+	feature-location TAR
+	  add segment 280 396
+	  exit
+
+	add feature-location PBS
+	feature-location PBS
+	  add segment 427 444
+	  exit
+
+	add feature-location gag
+	feature-location gag
+	  add segment 492 1544
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 1457 4708
+	  exit
+
+	add feature-location vif
+	feature-location vif
+	  add segment 4944 5012
+	  exit
+
+	add feature-location env
+	feature-location env
+	  add segment 5279 6976
+	  exit
+
+	add feature-location orfx
+	feature-location orfx
+	  add segment 7000 7272
+	  exit
+
+	add feature-location 3LTR
+	feature-location 3LTR
+	  add segment 6999 7380
+	  exit
+    
+	exit 
+
+
+  create reference REF_PSIV2 fasta-refseqs-erv PSIV2-con
+  reference REF_PSIV2
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1	8102
+	  exit
+  
+  	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1	404
+	  exit
+
+	add feature-location PBS
+	feature-location PBS
+	  add segment 407 424
+	  exit
+
+	add feature-location gag
+	feature-location gag
+	  add segment 474 1796
+	  exit
+  
+	add feature-location matrix
+	feature-location matrix
+	  add segment 474 844
+	  exit
+  
+	add feature-location capsid
+	feature-location capsid
+	  add segment 845 1504
+	  exit
+  
+	add feature-location nucleocapsid
+	feature-location nucleocapsid
+	  add segment 1505 1796
+	  exit
+
+	add feature-location pro-pol
+	feature-location pro-pol
+	  add segment 1795 4977
+	  exit
+
+	add feature-location pro
+	feature-location pro
+	  add segment 1795 2094
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 2095 4977
+	  exit
+
+	add feature-location RT
+	feature-location RT
+	  add segment 2337 3402
+	  exit
+
+	add feature-location RNaseH
+	feature-location RNaseH
+	  add segment 3403 3756
+	  exit
+
+	add feature-location dUTPase
+	feature-location dUTPase
+	  add segment 3757 4149
+	  exit
+
+	add feature-location IN
+	feature-location IN
+	  add segment 4150 4977
+	  exit
+
+	add feature-location vif
+	feature-location vif
+	  add segment 4970 5569
+	  exit
+
+	add feature-location env
+	feature-location env
+	  add segment 5727 7646
+	  exit
+	  
+ 	add feature-location surface
+	feature-location surface
+	  add segment 5727 7013
+	  exit
+	  
+ 	add feature-location transmembrane
+	feature-location transmembrane
+	  add segment 7014 7646
+	  exit
+
+    
+	exit 
+
+
+
+  create reference REF_MELV fasta-refseqs-erv MELV-con
+  reference REF_MELV
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1	9112
+	  exit
+  
+	add feature-location 5LTR
+	feature-location 5LTR
+	  add segment 1	530
+	  exit
+  
+	add feature-location gag
+	feature-location gag
+	  add segment 723 1892
+	  exit
+
+	add feature-location pol
+	feature-location pol
+	  add segment 1898 5260
+	  exit
+
+	add feature-location vif
+	feature-location vif
+	  add segment 5400 5849
+	  exit
+
+	add feature-location env
+	feature-location env
+	  add segment 6082 8664
+	  exit
+
+	add feature-location 3LTR
+	feature-location 3LTR
+	  add segment 8872 9112
 	  exit
     
 	exit 
