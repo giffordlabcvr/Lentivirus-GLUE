@@ -86,12 +86,12 @@
   
 	add feature-location vif
 	feature-location vif
-	  add segment 5214 5469
+	  add segment 5215 5469
 	  exit
   
 	add feature-location tat
 	feature-location tat
-	  add segment 5596 5819
+	  add segment 5597 5821
 	  exit
   	  
  	add feature-location env
@@ -116,7 +116,7 @@
 
 	add feature-location rev
 	feature-location rev
-	  add segment 8142 8376
+	  add segment 8145 8378
 	  exit
  	  
 	add feature-location PPT
