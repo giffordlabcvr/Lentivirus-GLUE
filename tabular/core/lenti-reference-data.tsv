@@ -13,24 +13,24 @@ AF327877	Equine infectious anemia virus	EIAV	EIAV	Equine	Asian	Asian	NULL	Domest
 M25381	Feline immunodeficiency virus	FIV	FIV	Feline	Main	Main	NULL	Domestic cat	Felis catus	NK	NK	United States	NK
 EF455613	Feline immunodeficiency virus isolate SR631	FIVpco 	FIVpco 	Feline	NULL	NULL	NULL	Cougar	Puma concolor	NK	NK	NK	NK
 U56928	Feline immunodeficiency virus 	FIVoma 	FIVoma 	Feline	NULL	NULL	NULL	Pallas's cat	Otocolobus manul	NK	NK	NK	NK
-AF033819	Human immunodeficiency virus 1	HIV-1M	HIV-1 	Primate	M	B	1	Human	Homo sapiens	HXB2	NK	United States	
-AJ006022	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	N	NULL	NULL	Human	Homo sapiens	YBF30	1995	Cameroon	9734396
-KU168292	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	O	NULL	NULL	Human	Homo sapiens	LA49RBF189	2005	Cameroon	26699702
-GU111555	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	P	NULL	NULL	Human	Homo sapiens	RBF168	2009	France	NULL
-JN835461	Simian immunodeficiency virus cpz	SIVcpz	SIVcpz	Primate	M	NULL	NULL	Chimpanzee	Pan troglodytes	SIVcpzMB897		Cameroon	22505456
-JN835460	Simian immunodeficiency virus cpz	SIVcpz	SIVcpz	Primate	N	NULL	NULL	Chimpanzee	Pan troglodytes	SIVcpzEK505.c2		Cameroon	22505456
-EF394356	Simian immunodeficiency virus cpz	SIVcpz	SIVcpz	Primate	pts	NULL	NULL	Chimpanzee	Pan troglodytes	SIVcpzTAN1		Tanzania	17494082
-KP004991	Simian immunodeficiency virus gor	SIVgor	SIVgor	Primate	O	NULL	NULL	Gorilla	Gorilla gorilla	SIVgor-BQID2	2012	Cameroon	25733890
-KP004990	Simian immunodeficiency virus gor	SIVgor	SIVgor	Primate	P	NULL	NULL	Gorilla	Gorilla gorilla	SIVgor-BPID15	2013	Cameroon	25733890
-HM803689	Simian immunodeficiency virus strain SIVrcm	SIVrcm	SIVrcm	Primate	NULL	NULL	NULL	Collared mangabey	Cercocebus torquatus			Cameroon	
-M27470	Simian immunodeficiency virus strain SIVmnd	SIVmnd	SIVmnd	Primate	NULL	NULL	NULL	Mandrill	Mandrillus sphinx				
-L06042	Simian immunodeficiency virus	SIVsyk	SIVsyk	Primate	NULL	NULL	NULL	Sykes' monkey	Cercopithecus albogularis				
-AJ580407	Simian immunodeficiency virus SIVden	SIVden	SIVden	Primate	NULL	NULL	NULL	Mona monkey	Cercopithecus mona				
-AF468659	Simian immunodeficiency virus SIVgsn-99CM166	SIVgsn	SIVgsn	Primate	NULL	NULL	NULL	Greater spot-nosed monkey	Cercopithecus nictitans				
-X14307	Simian immunodeficiency virus from sooty mangabey monkey	SIVsmm	SIVsmm	Primate	NULL	NULL	NULL	Sooty mangabey	Cercocebus atys				
-MK686247	Human immunodeficiency virus 2	HIV-2	HIV-2	Primate	NULL	NULL	NULL	Human	Homo sapiens				
-AF131870	Simian immunodeficiency virus complete	SIVsun	SIVsun	Primate	NULL	NULL	NULL	Sun-tailed monkey	Cercopithecus solatus				
-AF301156	Simian immunodeficiency virus virus strain SIVcolCGU1	SIVcol	SIVcol	Primate	NULL	NULL	NULL	Mantled guereza	Colobus guereza				
-U04005	Simian immunodeficiency virus - agm.sab-1	SIVagm.sab-1	SIVagm.sab-1	Primate	NULL	NULL	NULL	African green monkey	Chlorocebus aethiops				
-AY159321	Simian immunodeficiency virus isolate SIVdrl1FAO	SIVdrl1	SIVdrl1	Primate	NULL	NULL	NULL	Drill monkey	Mandrillus leucophaeus				
-AF188116	Simian immunodeficiency virus	SIVhoest	SIVhoest	Primate	NULL	NULL	NULL	L'Hoest's monkey	Cercopithecus lhoesti				
+AF033819	Human immunodeficiency virus 1	HIV-1M	HIV-1 	Primate	M	B	1	Human	Homo sapiens	HXB2	NK	United States	NK
+HM803689	Simian immunodeficiency virus strain SIVrcm	SIVrcm	SIVrcm	Primate	NULL	NULL	NULL	Collared mangabey	Cercocebus torquatus	NK	NK	Cameroon	NK
+M27470	Simian immunodeficiency virus strain SIVmnd	SIVmnd	SIVmnd	Primate	NULL	NULL	NULL	Mandrill	Mandrillus sphinx	NK	NK	NK	NK
+L06042	Simian immunodeficiency virus	SIVsyk	SIVsyk	Primate	NULL	NULL	NULL	Sykes' monkey	Cercopithecus albogularis	NK	NK	NK	NK
+AJ580407	Simian immunodeficiency virus SIVden	SIVden	SIVden	Primate	NULL	NULL	NULL	Mona monkey	Cercopithecus mona	NK	NK	NK	NK
+AF468659	Simian immunodeficiency virus SIVgsn-99CM166	SIVgsn	SIVgsn	Primate	NULL	NULL	NULL	Greater spot-nosed monkey	Cercopithecus nictitans	NK	NK	NK	NK
+X14307	Simian immunodeficiency virus from sooty mangabey monkey	SIVsmm	SIVsmm	Primate	NULL	NULL	NULL	Sooty mangabey	Cercocebus atys	NK	NK	NK	NK
+MK686247	Human immunodeficiency virus 2	HIV-2	HIV-2	Primate	NULL	NULL	NULL	Human	Homo sapiens	NK	NK	NK	NK
+AF131870	Simian immunodeficiency virus complete	SIVsun	SIVsun	Primate	NULL	NULL	NULL	Sun-tailed monkey	Cercopithecus solatus	NK	NK	NK	NK
+AF301156	Simian immunodeficiency virus virus strain SIVcolCGU1	SIVcol	SIVcol	Primate	NULL	NULL	NULL	Mantled guereza	Colobus guereza	NK	NK	NK	NK
+U04005	Simian immunodeficiency virus - agm.sab-1	SIVagm.sab-1	SIVagm.sab-1	Primate	NULL	NULL	NULL	African green monkey	Chlorocebus aethiops	NK	NK	NK	NK
+AY159321	Simian immunodeficiency virus isolate SIVdrl1FAO	SIVdrl1	SIVdrl1	Primate	NULL	NULL	NULL	Drill monkey	Mandrillus leucophaeus	NK	NK	NK	NK
+AF188116	Simian immunodeficiency virus	SIVhoest	SIVhoest	Primate	NULL	NULL	NULL	L'Hoest's monkey	Cercopithecus lhoesti	NK	NK	NK	NK
+HQ179987	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	P	NULL	NULL	Human	Homo sapiens	NK	NK	NK	NK
+FJ424871	Simian immunodeficiency virus gor	SIVgor	SIVgor	Primate	NK	NULL	NULL	Gorilla	Gorilla gorilla	NK	NK	NK	NK
+L20571	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	O	NULL	NULL	Human	Homo sapiens	NK	NK	NK	NK
+DQ017382	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	N	NULL	NULL	Human	Homo sapiens	NK	NK	NK	NK
+X52154	Simian immunodeficiency virus cpz	SIVcpz	SIVcpz	Primate	NK	NULL	NULL	Chimpanzee	Pan troglodytes	NK	NK	NK	NK
+AF103818	Simian immunodeficiency virus cpz	SIVcpz	SIVcpz	Primate	NK	NULL	NULL	Chimpanzee	Pan troglodytes	NK	NK	NK	NK
+JN091691	Simian immunodeficiency virus cpz	SIVcpz	SIVcpz	Primate	NK	NULL	NULL	Chimpanzee	Pan troglodytes	NK	NK	NK	NK
+AY618998	Human immunodeficiency virus 1	HIV-1	HIV-1	Primate	O	NULL	NULL	Human	Homo sapiens	NK	NK	NK	NK

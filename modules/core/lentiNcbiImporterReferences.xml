@@ -6,33 +6,35 @@
   
   <specificPrimaryAccessions>
 
+
 	<!-- Bovine group -->	
 	<primaryAccession>M32690</primaryAccession>
 	<primaryAccession>U21603</primaryAccession>
 
-	<!-- Equine group -->	
-	<primaryAccession>M16575</primaryAccession>
-	<primaryAccession>AF016316</primaryAccession>
-	<primaryAccession>JX480632</primaryAccession>
-	<primaryAccession>AF327877</primaryAccession>	
 
-	<!-- Feline group -->
-	<primaryAccession>U56928</primaryAccession>
-	<primaryAccession>M25381</primaryAccession>
-	<primaryAccession>EF455613</primaryAccession>
-	<primaryAccession>M25381</primaryAccession>
-
-	<!-- Smmall ruminant lentivirus group -->	
+	<!-- Smmall ruminant lentivirus group -->		
 	<primaryAccession>NC_001452</primaryAccession>
 	<primaryAccession>NC_001463</primaryAccession>
+	<primaryAccession>GQ381130</primaryAccession>
 	<primaryAccession>EU293537</primaryAccession>
 	<primaryAccession>AF322109</primaryAccession>
-	<primaryAccession>JF502416</primaryAccession>
-	<primaryAccession>GQ381130</primaryAccession>
+	<primaryAccession>JF502416</primaryAccession>	
 
-	<!-- Primate group -->
-	<primaryAccession>AF033819</primaryAccession>
-	<primaryAccession>AF188116</primaryAccession>
+
+	<!-- Equine group -->		
+	<primaryAccession>AF016316</primaryAccession>
+	<primaryAccession>JX480632</primaryAccession>
+	<primaryAccession>AF327877</primaryAccession>
+	
+	
+	<!-- Feline group -->
+	<primaryAccession>M25381</primaryAccession>
+	<primaryAccession>EF455613</primaryAccession>
+	<primaryAccession>U56928</primaryAccession>
+
+
+	<!-- Primate group - SIV-cpz-gor-human -->	
+	<primaryAccession>AF033819</primaryAccession> <!-- HIV-1 master -->	
 	<primaryAccession>HM803689</primaryAccession>
 	<primaryAccession>M27470</primaryAccession>
 	<primaryAccession>L06042</primaryAccession>
@@ -44,19 +46,16 @@
 	<primaryAccession>AF301156</primaryAccession>
 	<primaryAccession>U04005</primaryAccession>
 	<primaryAccession>AY159321</primaryAccession>
+	<primaryAccession>AF188116</primaryAccession>
+	<primaryAccession>HQ179987</primaryAccession>
+	<primaryAccession>FJ424871</primaryAccession>
+	<primaryAccession>L20571</primaryAccession>
+	<primaryAccession>DQ017382</primaryAccession>
+	<primaryAccession>X52154</primaryAccession>
+	<primaryAccession>AF103818</primaryAccession>
+	<primaryAccession>JN091691</primaryAccession>
+	<primaryAccession>AY618998</primaryAccession>
 
-	<!-- Primate group - SIV-cpz-gor-human -->
-	<primaryAccession>AF033819</primaryAccession> <!-- HIV-1 master -->
-	<primaryAccession>EF455615</primaryAccession>
-	<primaryAccession>GQ381130</primaryAccession>	
-	<primaryAccession>AJ006022</primaryAccession>
-	<primaryAccession>KU168292</primaryAccession>
-	<primaryAccession>GU111555</primaryAccession>
-	<primaryAccession>JN835461</primaryAccession>
-	<primaryAccession>JN835460</primaryAccession>
-	<primaryAccession>EF394356</primaryAccession>
-	<primaryAccession>KP004991</primaryAccession>
-	<primaryAccession>KP004990</primaryAccession>
 	
   </specificPrimaryAccessions>
   
