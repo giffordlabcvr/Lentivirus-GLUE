@@ -414,7 +414,7 @@
 
     add feature-location tat
     feature-location tat
-      add segment 354 449 --spliceIndex 1
+      add segment 354 449   --spliceIndex 1
       add segment 5128 5271 --spliceIndex 2
       exit
 
@@ -544,9 +544,19 @@
 
     add feature-location pro-pol
     feature-location pro-pol
-      add segment 1444 4527
+      add segment 1321 4527
       exit
-           
+
+    add feature-location pro
+    feature-location pro
+      add segment 1321 1854
+      exit
+ 
+    add feature-location pol
+    feature-location pol
+      add segment 1855 4527
+      exit
+          
     add feature-location env
     feature-location env
       add segment 5197 7542
@@ -581,8 +591,6 @@
 
   exit 
     
-
-
 
 
 
@@ -652,7 +660,6 @@
     feature-location vif
       add segment 4965 5657
       exit   
-
       
     add feature-location env
     feature-location env

@@ -41,11 +41,16 @@
 
   #~# Derive constrained alignment segments from unconstrained alignments
   alignment AL_ROOT derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
+
   alignment AL_Primate derive segments AL_UNC_Primate -a --existingMembersOnly --mergeStrategy OVERWRITE
   alignment AL_Feline derive segments AL_UNC_Feline -a --existingMembersOnly --mergeStrategy OVERWRITE
   alignment AL_Bovine derive segments AL_UNC_Bovine -a --existingMembersOnly --mergeStrategy OVERWRITE
   alignment Al_Equine derive segments AL_UNC_Equine -a --existingMembersOnly --mergeStrategy OVERWRITE
   alignment AL_OvineCaprine derive segments AL_UNC_Srlv -a --existingMembersOnly --mergeStrategy OVERWRITE
+
+  alignment AL_HIVSIV derive segments AL_UNC_HIVSIV -a --existingMembersOnly --mergeStrategy OVERWRITE
+
+
 
 
   #~# Set clade categories
