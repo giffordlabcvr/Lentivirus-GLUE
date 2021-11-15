@@ -22,9 +22,6 @@
 	# Compute alignments
 	#run file glue/build/extension/srlv/createAlignmentsSrlv.glue
 	
-	# Inherit feature locations
-	run file glue/build/extension/srlv/inheritFeatureLocationSrlv.glue
-	
 	# Record feature presence
 	run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
 
