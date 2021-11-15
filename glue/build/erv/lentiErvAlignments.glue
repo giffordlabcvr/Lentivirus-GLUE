@@ -4,3 +4,8 @@ module unconstrainedAlignmentImporter
   import AL_UNC_ROOT_ERV -f alignments/root/lentivirus-root-gagpol-erv.aln.fna
   exit
 
+
+module unconstrainedAlignmentImporter
+  import AL_UNC_DELV_SpELV -f alignments/internal/delv-spelv.aln.fna
+  exit
+
