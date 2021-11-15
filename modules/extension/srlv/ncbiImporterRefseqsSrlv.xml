@@ -27,9 +27,6 @@
 	 <!-- SRLV-A4 -->	 
 	 <primaryAccession>AY445885</primaryAccession>
 
-	 <!-- SRLV-A8 -->	 
-	 <primaryAccession>A15114</primaryAccession>
-
 	 <!-- SRLV-B1 -->
 	 <primaryAccession>NC_001463</primaryAccession>	 
 	 <primaryAccession>GU120138</primaryAccession>	 
@@ -48,7 +45,6 @@
 
 	 <!-- SRLV-E -->
 	 <primaryAccession>EU293537</primaryAccession>	 
-	 <primaryAccession>GQ381130</primaryAccession>	 
 
 	 <!-- SRLV-F -->
 	 <primaryAccession>KT898826</primaryAccession>	 

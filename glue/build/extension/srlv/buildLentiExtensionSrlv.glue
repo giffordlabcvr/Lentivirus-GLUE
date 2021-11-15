@@ -9,9 +9,6 @@
     # Define extension references
     run file glue/build/extension/srlv/ReferencesSrlv.glue
 
-    # Define feature locations for genus references
-    run file glue/build/extension/srlv/featureLocationsSrlv.glue
-
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/srlv/importIsolateDataSrlv.glue
 

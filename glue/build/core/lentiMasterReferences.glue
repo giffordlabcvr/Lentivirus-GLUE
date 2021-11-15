@@ -20,7 +20,8 @@
   # Caprine-ovine
   create reference REF_SRLV_A ncbi-refseqs NC_001452
   create reference REF_SRLV_B ncbi-refseqs NC_001463
-  
+  #create reference REF_SRLV_B3_JF502416   ncbi-refseqs-srlv JF502416 # SRLV-B3
+ 
   
   reference REF_HIV_1M
 
