@@ -1,6 +1,4 @@
 Accession	Species	Country	Isolation Year	Genotype	Subtype	Strain/clone	Length	Genomic region	Region
-A15114	Ovis aries	Iceland	1949	A	1	Sheep	9202	Genome	Europe
-A15114	Ovis aries	Iceland	1951	A	1	Sheep	9202	Genome	Europe
 AF479638	Ovis aries	Portugal	1996	A	1	P1OLV	9189	Genome	Europe
 AY445885	Capra hircus	Switzerland	1999	A	4	G4668	9023	Genome	Europe
 AY454175	Capra hircus	Switzerland	1999	A	5	SNCR5560	1709	Gag-Pol	Europe
@@ -88,7 +86,6 @@ MH936674	Capra hircus	Italy	2015	B	1	BRMG CNPC	6378	Genome	Europe
 NC_001463	Capra hircus	United States	1974	B	1	Clements	9189	Genome	N. America
 JF502416	Ovis aries	Italy	2003	B	3	Fonni	9148	Genome	Europe
 JF502417	Ovis aries	Italy	2004	B	3	Volterra	9152 bp	Genome	Europe
-AF322109	Capra hircus	Norway	1991	B	4	1GA	8919	Genome	Europe
 DQ632733	Ovis aries	Spain	2005	A	NK	Ov-1	1130	Pol	Europe
 EU293537	Capra hircus	Italy	2008	E	NK	Roccaverano	8418	Genome	Europe
 GQ381130	Ovis aries	Italy	2003	E	NK	Seui	8437	Genome	Europe
