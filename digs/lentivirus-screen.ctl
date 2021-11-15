@@ -1,27 +1,43 @@
+# Database integrated genome screening (DIGS) control file for endogenous flaviviral element screen
+# DIGS tool: https://giffordlabcvr.github.io/DIGS-tool/
+
+
+# DIGS screening database connection parameters
 Begin SCREENDB;
 	db_name=erv_lentivirus;
 	mysql_server=localhost;
 ENDBLOCK;
 
-BEGIN SCREENSETS;
 
-	query_aa_fasta=./lentivirus-probes.digs.faa;
-	reference_aa_fasta=./ERV-reference.DIGS.faa;
+# Paths and parameters for in silico screening using DIGS
+
+BEGIN SCREENSETS;
+	
+	query_aa_fasta=./lentivirus-probes.faa;                  # Path to polypeptide sequence probe library
+	reference_aa_fasta=./lentivirus-references.faa;          # Path to polypeptide sequence reference library
 	#query_na_fasta=./lenti-probes.fna;
-	consolidated_reference_aa_fasta=./lenti-consolidate.faa;
+	consolidated_reference_aa_fasta=./lenti-consolidate.faa; 
 	consolidate_range=10000;
-	bitscore_min_tblastn=60;
-	bitscore_min_blastn=30;
-	output_path=./tmp/;
-	seq_length_minimum=50;
-	defragment_range=10;
-	blast_threads=8;
+	bitscore_min_tblastn=60;  # Bitscore cut-off for recording tBLASTn hits 
+	bitscore_min_blastn=30;   # Bitscore cut-off for recording BLASTn hits 
+	seq_length_minimum=50;    # Sequence length cut-off for recording BLAST hits 
+	defragment_range=50;      # Length of gap (nt) required between hits for them to be regarded as separate
+    output_path=./tmp/;       # Temporary folder for BLAST output parsing
+	
 	
 ENDBLOCK;
 
+
+
+# List of target genomes to screen
+# NOTE: the list below includes only those organisms found to have EFVs in a broader screen 
+
 BEGIN TARGETS;
+
 	Mammalia/
+
 ENDBLOCK;
+
 
 BEGIN EXCLUDE;
 
@@ -91,17 +107,6 @@ BEGIN EXCLUDE;
 	Mammalia/Tupaia_belangeri/complete/ensembl_79_TREESHREW/
 	Mammalia/Vicugna_pacos/complete/ensembl_79_vicPac1/
 	Aves/Gallus_gallus/complete/ensembl_Galgal4/
-	
-ENDBLOCK;
-
-BEGIN SKIPINDEX;
-
-	Plants/Pinus_lambertiana/
-	Mammalia/Chrysochloris_asiatica/
-	Mammalia/Ochotona_princeps/
-	Mammalia/Orycteropus_afer/
-	Arthropoda/Parhyale_hawaiensis/
-	Arthropoda/Locusta_migratoria/
 	
 ENDBLOCK;
 

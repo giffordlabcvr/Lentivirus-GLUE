@@ -33,6 +33,7 @@
  # Set clade category
   alignment AL_SRLV_A  set field clade_category genotype
   alignment AL_SRLV_B  set field clade_category genotype
-  #alignment AL_SRLV_B3 set field clade_category genotype
   alignment AL_SRLV_C  set field clade_category genotype
   alignment AL_SRLV_E  set field clade_category genotype
+  #alignment AL_SRLV_B3 set field clade_category genotype
+  
