@@ -4,12 +4,12 @@
     
     # reference sequences
     add member -w "species like 'SRLV%' and source.name like '%-srlv%'"
-    demote member AL_SRLV  -w  "sequence.species like 'SRLV%' and sequence.source.name like '%-srlv%'"
+    demote member AL_OvineCaprine  -w  "sequence.species like 'SRLV%' and sequence.source.name like '%-srlv%'"
 
     exit
     
 
-  alignment AL_SRLV  
+  alignment AL_OvineCaprine  
 
     extract child AL_SRLV_A --refName REF_SRLV_A
     demote member AL_SRLV_A --whereClause "sequence.genotype = 'A'" 
@@ -23,15 +23,13 @@
     #extract child AL_SRLV_C --refName REF_SRLV_C
     #demote member AL_SRLV_C --whereClause "sequence.genotype = 'C'" 
 
-    extract child AL_SRLV_E --refName REF_SRLV_E
+    extract child AL_SRLV_E --refName REF_SRLV_E1
     demote member AL_SRLV_E --whereClause "sequence.genotype = 'E'" 
 
     #extract child AL_SRLV_D --refName REF_SRLV_D
     #demote member AL_SRLV_D --whereClause "sequence.genotype = 'D'" 
 
     exit
-
-
 
 
 

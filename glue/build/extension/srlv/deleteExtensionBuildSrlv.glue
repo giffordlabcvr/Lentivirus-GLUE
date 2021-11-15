@@ -24,11 +24,11 @@
   delete reference REF_SRLV_E2_GQ381130
   delete reference REF_SRLV_E1_GQ381130
 
+  # Delete custom table rows 
+  #run script glue/build/extension/srlv/deleteCustomTableRows.js
+
   # Delete sources 
   delete source ncbi-curated-srlv
   delete source ncbi-refseqs-srlv
   delete source ncbi-refseqs-subgenomic-srlv
-
-  # Delete custom table rows 
-  #run script glue/build/extension/srlv/deleteCustomTableRows.js
   

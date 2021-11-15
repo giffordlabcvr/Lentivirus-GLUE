@@ -16,11 +16,11 @@
 	run file glue/build/extension/srlv/alignmentTreeSrlv.glue
 
 	# Import alignments
-	#run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
-	#run file glue/build/extension/srlv/deriveConstrainedAlignments.glue
+	run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
+	run file glue/build/extension/srlv/deriveConstrainedAlignments.glue
 	
 	# Compute alignments
-	run file glue/build/extension/srlv/createAlignmentsSrlv.glue
+	#run file glue/build/extension/srlv/createAlignmentsSrlv.glue
 	
 	# Inherit feature locations
 	run file glue/build/extension/srlv/inheritFeatureLocationSrlv.glue
@@ -28,11 +28,8 @@
 	# Record feature presence
 	run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
 
-	# Create phylogenies
-	run file glue/build/extension/srlv/createPhylogeniesSrlv.glue
-
 	# Import genome-length phylogeny
-	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
+	#run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
 	
 	# Validate
 	validate
