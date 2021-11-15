@@ -14,7 +14,6 @@
 
 
   # SRLV B subtypes
-  create reference REF_SRLV_B             ncbi-refseqs-srlv NC_001463
   create reference REF_SRLV_B_HM210570    ncbi-refseqs-srlv HM210570
   create reference REF_SRLV_B_GU120138    ncbi-refseqs-srlv GU120138
   create reference REF_SRLV_B_FJ195346    ncbi-refseqs-srlv FJ195346

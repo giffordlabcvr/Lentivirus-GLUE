@@ -1,41 +1,41 @@
   project lentivirus
 
     # Delete previous extension build
-    #run file glue/extension/srlv/deleteExtensionBuildSrlv.glue
+    run file glue/build/extension/srlv/deleteExtensionBuildSrlv.glue
 
     # Import sources
-    run file glue/extension/srlv/sourcesSrlv.glue
+    run file glue/build/extension/srlv/sourcesSrlv.glue
 
     # Define extension references
-    run file glue/extension/srlv/ReferencesSrlv.glue
+    run file glue/build/extension/srlv/ReferencesSrlv.glue
 
     # Define feature locations for genus references
-    run file glue/extension/srlv/featureLocationsSrlv.glue
+    run file glue/build/extension/srlv/featureLocationsSrlv.glue
 
     # Extract and import isolate data for extension sequences
-    run file glue/extension/srlv/importIsolateDataSrlv.glue
+    run file glue/build/extension/srlv/importIsolateDataSrlv.glue
 
 	# Add extension set sequences constrained alignment tree
-	run file glue/extension/srlv/alignmentTreeSrlv.glue
+	run file glue/build/extension/srlv/alignmentTreeSrlv.glue
 
 	# Import alignments
-	#run file glue/extension/srlv/unconstrainedAlignmentsSrlv.glue	
-	#run file glue/extension/srlv/deriveConstrainedAlignments.glue
+	#run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
+	#run file glue/build/extension/srlv/deriveConstrainedAlignments.glue
 	
 	# Compute alignments
-	run file glue/extension/srlv/createAlignmentsSrlv.glue
+	run file glue/build/extension/srlv/createAlignmentsSrlv.glue
 	
 	# Inherit feature locations
-	run file glue/extension/srlv/inheritFeatureLocationSrlv.glue
+	run file glue/build/extension/srlv/inheritFeatureLocationSrlv.glue
 	
 	# Record feature presence
-	run file glue/extension/srlv/recordFeaturePresenceSrlv.glue
+	run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
 
 	# Create phylogenies
-	run file glue/extension/srlv/createPhylogeniesSrlv.glue
+	run file glue/build/extension/srlv/createPhylogeniesSrlv.glue
 
 	# Import genome-length phylogeny
-	run file glue/extension/srlv/importGenotypingPhylogenySrlv.glue
+	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
 	
 	# Validate
 	validate
