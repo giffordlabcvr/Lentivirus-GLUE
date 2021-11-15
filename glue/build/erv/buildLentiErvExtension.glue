@@ -23,6 +23,9 @@ project lentivirus
   # Add lentivirus ERV alignments to constrained alignment tree 
   run file glue/build/erv/lentiErvAlignmentTree.glue
 
+  # Compute alignments
+  run file glue/build/erv/lentiErvComputeAlignments.glue
+
   # Record feature presence
   run file glue/build/erv/lentiErvRecordFeaturePresence.glue
 

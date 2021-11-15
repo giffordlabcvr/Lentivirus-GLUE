@@ -18,7 +18,7 @@ _.each(loadResult, function(ervObj) {
 
 	glue.inMode("custom-table-row/locus_data/"+ervObj.sequenceID, function() {
 	
-		glue.log("INFO", "Entering locus data for sequence:", ervObj.sequenceID);
+		//glue.log("INFO", "Entering locus data for sequence:", ervObj.sequenceID);
 
 		//glue.command(["set", "field", "locus_name", ervObj.locus_name]);
 		//glue.command(["set", "field", "locus_numeric_id", ervObj.locus_numeric_id]);
@@ -30,11 +30,11 @@ _.each(loadResult, function(ervObj) {
 	if (ervObj.empty_site != 'yes') { // Skip empty sites
 	
 		// Does an alignment exist for this locus ID
-		glue.log("INFO", "Getting taxonomic data for sequence:", ervObj.sequenceID);
+		//glue.log("INFO", "Getting taxonomic data for sequence:", ervObj.sequenceID);
 
 		// Get the taxonomy 
 		var ervRefConObj = ervRefseqResultMap[ervObj.locus_numeric_id];
-		glue.log("INFO", "LOADED REFCON INFO ", ervRefConObj);
+		//glue.log("INFO", "LOADED REFCON INFO ", ervRefConObj);
 	
 
 		glue.inMode("sequence/"+source_name+"/"+ervObj.sequenceID, function() {

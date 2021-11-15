@@ -1,16 +1,3 @@
-  
-  delete module lentiErvCompoundAlignerPsiv
-  delete module lentiErvCompoundAlignerRelik
-  delete module lentiErvCompoundAlignerMelv
-  delete module lentiErvCompoundAlignerDelv
-  delete module lentiErvCompoundAlignerSpELV
-
-  create module -f modules/erv/lentiErvCompoundAlignerPsiv.xml
-  create module -f modules/erv/lentiErvCompoundAlignerRelik.xml
-  create module -f modules/erv/lentiErvCompoundAlignerMelv.xml
-  create module -f modules/erv/lentiErvCompoundAlignerDelv.xml
-  create module -f modules/erv/lentiErvCompoundAlignerSpELV.xml
-
 
   #~# Define constrained alignment tree
   alignment AL_ROOT
@@ -21,6 +8,8 @@
 	add member -w "source.name = 'ncbi-curated-erv'"
 
 	extract child AL_DELV_SpELV  --refName REF_DELV
+	
+	demote member AL_DELV_SpELV  --whereClause "sequence.species like '%Dermoptera%'"
 	demote member AL_DELV_SpELV  --whereClause "sequence.species like '%Galeopterus%'"
 	demote member AL_DELV_SpELV  --whereClause "sequence.species like '%Cynocephalus%'"	
 	demote member AL_DELV_SpELV  --whereClause "sequence.species like '%Pedetes%'"
