@@ -1,4 +1,4 @@
->AL_DELV.fasta-digs-erv.DELV.1-Galeopterus_variegatus
+>DELV.1-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAGAATTCGCAAAGCTTAATCGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGGTATGGGAGTGGTTTTCAGCTGGCTAAAACATATAT--GACATGCTTTTA
@@ -142,7 +142,7 @@ GGAAGGATTTACAGCTGGCTAAAACACATATAAGACATGCTTTTACCCAATAAAGTTGCTTAGTGTGTGC
 ACTAAGCCCCAGAACTTTGTGTCTGGTCTCTGGTTGACCACCTCCTCAGGTGGCAGCCCCTAGCTCAAGG
 CATGCCTTGAGCAATTCACCTTGCTGTACTCTCTTGGCAGGGCTGCGTGTGGCCCTACTCCCTGAGGGAC
 TCCTGGCAGAGGCTGCGTGTAGTCCTGCCTCCTAAGACCCCCAGGACCAAGAGAAAGGTG--
->AL_DELV.fasta-digs-erv.DELV.10-Galeopterus_variegatus
+>DELV.10-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATGTTAAAGATGGAGGGACTCTTGCTTTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGGTCAGCAAAAATTTGCAAAGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACAGGGAGGTGTGGGAGAGGCTTACAGCTGGCTAAAACATATATAATACATACTTGGA
@@ -286,7 +286,7 @@ GGAGAGGCTTACAGCTGGCTAAAACATATATAATACATACTTGAAGACAATAAAGTTGCTTAGTGCAAGC
 GCTAAGCCCCAGAACTTTGTGTCTGATTTCTGGTTGCTGACTTCCCTAGGCGGCAGCCCCTAGCTCAAGG
 TGTGCCCTGGGCAACTCACCTCCCTGCACTCTCTTGGCAGGGCTGCTTGCAGCCCTGCTCCCTGGGGGAC
 TCCTGGCAGGGGCTAGGTGTAGTCCTGCCTCCTGAGACCCCCAGGAACAAGAGAAATGTG--
->AL_DELV.fasta-digs-erv.DELV.100-Galeopterus_variegatus
+>DELV.100-Galeopterus_variegatus
 TGGAGAAAAATGA---AGAACACCTATTAAAGATGGAGGCACTCTTGCTCTCCAGAATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCGCAAAGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTACGTAGGAGAAGGGGAGGTATGGGAGCAGTTTAC---------------------------------
@@ -430,7 +430,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.101-Galeopterus_variegatus
+>DELV.101-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -574,7 +574,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.102-Galeopterus_variegatus
+>DELV.102-Galeopterus_variegatus
 --GAGGAAAATGAAGGAGGACACATATTAAAGATGGAGTCACTGCTGCTATACAGAACTGAGACTGTCAG
 CAAGAGTGC-AAAAGACTGTGTCAGCAAGAATTTGCAAGGCTTTACCGCAAACCACAGACTTCCTATGGG
 GTTGCCTAGGAAATGGGGAGGTATGGGAGCGGTTTACAGCTGGCTCAAACATATGTAACGCATGCTTGCA
@@ -718,7 +718,7 @@ CATGTAGCCCTGCTTCCTGAGGGACTC-------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.103-Galeopterus_variegatus
+>DELV.103-Galeopterus_variegatus
 ------------------------------------------------------------------TCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCTCAAAGCTTAACCACAAACCACGTACTTCCTATTGA
 GATACCTAGGAGACGGGGAGGTATGGGAGGGGTTTACAGCTGGCTAAAACATATATAAGACACGCTTTTA
@@ -862,7 +862,7 @@ CCCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.104-Galeopterus_variegatus
+>DELV.104-Galeopterus_variegatus
 -----------------------------------------------------------------GTCAG
 CAAGAATGC-AAAAGACTGTGTCAGCAAGAATTCGCAAGGCTTTACCACAAACCACCGACTTCCTATGGG
 GTTGCCTAGGAGATGGGGAGGTATGAGCAGGATTTACAGCTAGCTAAGACATATATAATACATGCTTTCA
@@ -1006,7 +1006,7 @@ CATGTGGCCCTGCTTCCTGAGGGACTCCTGGCAGAGGCTACGTGTAGTCCTGCCTCCTGAAACCCCCAGG
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.105-Galeopterus_variegatus
+>DELV.105-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -1150,7 +1150,7 @@ CTCACTGCACTCTCTT------GGGAGGGCTATGTGTGGCCCTGCTCCCTGG------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.106-Galeopterus_variegatus
+>DELV.106-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTTGCAAAGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGACAGGGAGGTATGGGAAGGGTTTACAGCTGGCTAAAACATATATAAGACATGCCTGTA
@@ -1294,7 +1294,7 @@ CCAGGAGGCAGCCCCTAGCTCAAGCCATGCCTTGAGCAACTCACCTCACTGCACTCTTTTGGCAGGGCTG
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.107-Galeopterus_variegatus
+>DELV.107-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATGTTAAAGATGGAGGGACTCTTGCTCGCCAATATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGGTCAGCAAGAATTCGCAAGGCTTAACCGCAAGCCA-AGACGTCCTATTGA
 GTTACCTGGGAGATGGGGAGATATGGGAGGGGCTTACAGCTGGCTAAAAC--ATATAATTCATGCTTGTA
@@ -1438,7 +1438,7 @@ CTAGGCGGCAGCCCCTAGCTTAAGGCATGCCCTGAGCAACTCACCTCACTGTACTCT-T-GGCAGGGCT-
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.108-Galeopterus_variegatus
+>DELV.108-Galeopterus_variegatus
 TGGAGGAAAATGA---AGAACACCCATTAAAGATGGAGACACTCTTGCTCTCCA-GAGTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCACAAAACTTAACTGCAAACCATAGACTTCCTATTGA
 -TTACCTAGGAGACAGGGCGGTATGGGAAGGGTTTACAGCTGGCTAAAACATATGTTAGACATGCTTTTA
@@ -1582,7 +1582,7 @@ CATG------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.109-Galeopterus_variegatus
+>DELV.109-Galeopterus_variegatus
 TGGAAGAAAATGAGGGAGAACACCTGTTAAAGATGGAGGCACTTTTGCTCTCCGAGATTTAGACTGTCAG
 CAGAAATGCAAAAA---T---T---C----A----CAAAGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGG-AGGTGTGGGGGGGGTTTACAGCTGGCTAAAACATATATAATACATGCCTATA
@@ -1726,7 +1726,7 @@ TGTGTGGCCCTGCT--------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.11-Galeopterus_variegatus
+>DELV.11-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -1870,7 +1870,7 @@ CAATAACCTTGATACAATGTGCAG----------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.110-Galeopterus_variegatus
+>DELV.110-Galeopterus_variegatus
 ----------------------------------------------------------------------
 --------------GACTGGGTCAGAAAGAATTCGCAAGGCTTAACCACAGACCACAGACTTCCTACTGA
 GGTGCCTAGGAGACAGGGAGGTATGGGAGGGGCTCACGGCTGGCTAAAACATATATAATACATGCCTGTA
@@ -2014,7 +2014,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.111-Galeopterus_variegatus
+>DELV.111-Galeopterus_variegatus
 ----------------------------------------------------------------------
 --------------------GTCAGCAAAATTTTGCAAGGCTTAACTGCAAACCACAGACTTCCTGTTGA
 GTTACCTATTAGATGGGGAGGTATAGGAGGGGTCTGCAGCTGGCTGAAACGTATATAATACCTGCTTTTC
@@ -2158,7 +2158,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.112-Galeopterus_variegatus
+>DELV.112-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATATTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGTAATGCAAATAGATTGGGTCAGCAAGAATTCACAAGGCTT-------AACCACAGACTTCCCATTGA
 GTTGCCTAGGAGACAGGGAGGTATGGTAGGGGCTCACAGCTGTCTACACCATATATAACACATGC-CCTA
@@ -2302,7 +2302,7 @@ CTCACTGCACTCTCTTGGCAGGGCT---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.113-Galeopterus_variegatus
+>DELV.113-Galeopterus_variegatus
 ---AGGAAAATGAAGGAGAATGCATATTAAAGATAGAGGCACTCTTGCTCTCCATGACTTTGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAGAATTTGCAAGGCTTAACCACAAACCA-AGACTTCCTATTGA
 GTTGCCTAGGAGACAGGGAGGTATGGGAAGGGCTCACAGTGGGCTAAAACATATATAATACATGCCTGTA
@@ -2446,7 +2446,7 @@ CTTGCTGCACTCTCTT------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.114-Galeopterus_variegatus
+>DELV.114-Galeopterus_variegatus
 ----------------------------------------------------------------------
 --------------------------AAAAATTTGCAAGGCTTAACTGCAA--CACAGACTTCCTATTGA
 GTTGCCTAGGAGACGGGGAGGTATGGGAGGGGCTCACAGCTGGCTAAAACATATATAATATATGCCTGTA
@@ -2590,7 +2590,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.115-Galeopterus_variegatus
+>DELV.115-Galeopterus_variegatus
 ---AGGAAAATGGAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATCTAGACCGTCAG
 CAGAAATGCAGAAAGACTGGGTCAGCAAAAATGCACGAAGCTTAACTGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTGTGGGAGGGGTTTACAGCTGGCTAAAACATATATAAGACATGCCTGTG
@@ -2734,7 +2734,7 @@ CCAGGTGGCAGCCCCTAGCTCAAGGCATGCCTTGAGCAACTCA---------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.116-Galeopterus_variegatus
+>DELV.116-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------CTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTATGGGAGGCACTTACAGCTGGCTAAAACATATATAAGACATGCCCGTA
@@ -2878,7 +2878,7 @@ ACCAAGAGAA------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.117-Galeopterus_variegatus
+>DELV.117-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------ACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGGTATGGGAGGGGCTTACAGCTGGCTAAAACATAGATAATACATGCCTGTA
@@ -3022,7 +3022,7 @@ CTCACTGCACTCTCTTGGCAGGGCT---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.118-Galeopterus_variegatus
+>DELV.118-Galeopterus_variegatus
 --GAGGAAAATG-A--AGAACA--TATTAAAGATGGAGGGACTCTTGCTCTCTAGGATTTAGACTGTCAG
 CAGAAATTCAAATAGACTGGGTCAGCAAGAATTTGCAAAGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTGTGAGAGGGGCTTACAGCTGGCTAAAACATATATAATACACGTTTGCA
@@ -3166,7 +3166,7 @@ CTAGGTGGCAGCCCCTAGCTCAAGG---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.119-Galeopterus_variegatus
+>DELV.119-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ---------------------------------------------------------------------A
 GTTACCTGGAAGATGGGGAGGTATGGGAGGGGTTTACCGCTGCCTAAAACATATATAGGACATGCCTGTA
@@ -3310,7 +3310,7 @@ ACCAAGAGTAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.12-Galeopterus_variegatus
+>DELV.12-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGGACACATATTAAAGATGGAGGCA------CTCTCCAGGATTTAGACTGTCCG
 CAGAAATGCAAATAGACTGGGTCAGCAAGAATTCGCAAGCCTTAACCGCAAACCACAGATGTCCTATTGA
 GTTGCCTAGGACACAGGGAGGTATGGGAGGGGCTCACAGCTGACAAAAACATATATAATACATGCCTGCA
@@ -3454,7 +3454,7 @@ ACCAAGAGAAATGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.120-Galeopterus_variegatus
+>DELV.120-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -3598,7 +3598,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.121-Galeopterus_variegatus
+>DELV.121-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -3742,7 +3742,7 @@ CTCTCTGCACTCTCTTGGCAGGGCT---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.122-Galeopterus_variegatus
+>DELV.122-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -3886,7 +3886,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.123-Galeopterus_variegatus
+>DELV.123-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -4030,7 +4030,7 @@ CTTGCTGCACTCTCTTGGCAGG------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.124-Galeopterus_variegatus
+>DELV.124-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -4174,7 +4174,7 @@ CTCGCTGCACTCTCTT------GGCACAGCTGCATGTGGCCCTGCTCCCTGGTACATGTGGTCCTGC---
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.13-Galeopterus_variegatus
+>DELV.13-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATATTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGGTCAGCAAGAATTCACAAGGCTTAA-CGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTGCGGGAGGGGCTTGCAGCTGGCTAAAACATATATAACACATGCTTGTA
@@ -4318,7 +4318,7 @@ ACCAAGAGA-------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.14-Galeopterus_variegatus
+>DELV.14-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGCTGGAGGCACTCTTGCTCTCCTGTATTTTGCTTGTCAG
 CAG-GATGCAAATACACTGTGCCAGCAAGATTTTGCAAGGCTTAACCACAAACCGCAGACTTCCTGTTGA
 GTTACCTAGGAAATGGG-----------------------------------------------------
@@ -4462,7 +4462,7 @@ TTGTCCCAATAAAGTTGCTTAGTGCATGCACTAAGCCTCAGAACTTTGTGTCTGG---------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.15-Galeopterus_variegatus
+>DELV.15-Galeopterus_variegatus
 TGGATGAAAATGAAGGAGAACACATGTTAAAGATGGAGGCACTCTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAAATGCAAAAAGACTAGGTCAGCAAGAATTCGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTGCCTAGGACACAGGGAGGTATGGGAAGGGCTCACAGCTGGCTAAAACATCTATAATACATGCCTGTA
@@ -4606,7 +4606,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.16-Galeopterus_variegatus
+>DELV.16-Galeopterus_variegatus
 TGGAGGAAACTGAAGGAAAACACCTGTTAAAGATGGAGGTACTCTTGCTCTCCTATATTTTAACTCTCAG
 CAG-GATGTGAACATACTGTGTCAGCAAGATTTTGCAAGGCTTAACTGCAAACCACAGACTTCCTATTGA
 GTTACCCAGGAGATGGGGAGGTAAGGGAAGGGTTTGCAGCTGGCTGAAACATATATAATACCTGCTTTTC
@@ -4750,7 +4750,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.17-Galeopterus_variegatus
+>DELV.17-Galeopterus_variegatus
 TGGAGGAAAACAAAGGA-----------------------------------------------------
 ----------------CTGTGTCAGCAAGATTTTGCAAGGCTTAACCTCAAACCACAGACTTCCTATTGA
 GTTATTTAGGAGATGGGGAAGTATGGGAGGGGTTTGCGGCTGGCTGAAACGTATATAATACCTGCTTTTT
@@ -4894,7 +4894,7 @@ TTAAAGATGGAGGCACTCTTGCTCTCCTGTATT---TTGCTTGTCTCAACTGTATTTTGCCTGAATATA-
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.18-Galeopterus_variegatus
+>DELV.18-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCTGTATTTTGCCTGTCAG
 CAGATATG--AATGCACTGTGTCAGCAAGATTTTGCAAGGCTTAACC-AAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACAAGGAGGTATGGAAGGGGTTTGCAGCTGGCAACCCCATATATAATAC---CTTTTT
@@ -5038,7 +5038,7 @@ ACCAAGAGAA------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.19-Galeopterus_variegatus
+>DELV.19-Galeopterus_variegatus
 TGGAGAAAAATGAAGGAGAACACATTTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACCAGGTCAGCCAGAATTCTCAAGGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTATGTGAGGGGCTTACAGCTGGCTAAAACATATGTAATACATGCTTGTA
@@ -5182,7 +5182,7 @@ ACCAAGAGAAACGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.2-Galeopterus_variegatus
+>DELV.2-Galeopterus_variegatus
 TGGAGAAAAATGAAGGAGAACACC--TTAAAGATGGAGGCGCTCTTGCTCTCCAGGACTTAGACTGTCAG
 GAGAAATGCAAAACAACTTGTTCAGCAAGAATTCTCAAGGCTTAACTGCAAATGACAGACTTCCTATTGA
 GTTGCGTAGGAGTCAGGAAGGTATGGGAGGGGCTCACAGCTGGCTAAAACATATATAATACATGTCTGTA
@@ -5326,7 +5326,7 @@ GGAGGGGCTCACAGCTAGCTAAAACATATATAATACATGCCTGTAGGCAATAAATTTGCTTAGCGCATGT
 ACTAAGTCCCAGAACTTTGTGTCTGGTTTCTGGTTGCCCACCTCCTTAGATGGCAGCCTCTAGCTCAAGG
 CATGCCCTGAGCAACTTGCCTCACTGCACTCTCTTGGCAGTGCTGTGTGTGGCTCTGCTTTCTGGGGGAC
 TTCTGGCAGAGGCTATGTGTAGTCCTGCCTCCTGAGACCCCCAGGACCAAGAGAAAGGTG--
->AL_DELV.fasta-digs-erv.DELV.20-Galeopterus_variegatus
+>DELV.20-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTGTCCAGGATGTAGACTGTCAG
 CAGTAATGCAAAAAGACTGGGTCAGCAAAAATTCGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTAGAAGACAGGGAGGTAGGGGAGGAGTTTACAGCTGGCTAAAACATATATAAGACATGTTTTTA
@@ -5470,7 +5470,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.21-Galeopterus_variegatus
+>DELV.21-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACCCATATTAAAGATGGAGGCACTTTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAGAATTTGCAAGACTTAACTACAAACCACAGACTTCCTATTGA
 GTTGCCTGGGAGATGAGGA------------------------------------------------ATA
@@ -5614,7 +5614,7 @@ GGCTCACAGCTGGCTAAAACATATACAATACATGCCT---------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.22-Galeopterus_variegatus
+>DELV.22-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATATTAAAGATGGAGGCACTCTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGCCAGCAAGAATTTGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTGCCTAGCAGATGTGGAGGTACAGGAGGGGCTCAAAGATGGCTAAAACATATATAATACATGCCTGTA
@@ -5758,7 +5758,7 @@ ACCAAGAGAAACGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.23-Galeopterus_variegatus
+>DELV.23-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATGTTAAAGATGGAGACACTCTTGCTCTCGAGAATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGGCCAGCAAGAATTTGCAAGACTTAGCCACAAAGCACCGACTTCCTACTGC
 ATTACCCAGGAGCTGGGAAGGTATAGGAGGGGTTTACAGCTGGCTAAAACATATATAATACATGCCTGTA
@@ -5902,7 +5902,7 @@ CTCGCTGCACTCTCTTGACAGGGCT---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.24-Galeopterus_variegatus
+>DELV.24-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAGCACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGGTTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCGCAAAGCTTAACTGCTAACCACAGACTTTCTATTGA
 GTTACCTAGGAGATGGGGAGGTGTGGGAGGGGTTTACAGCTGGCTAAAACATATATAATACATGCCTGTA
@@ -6046,7 +6046,7 @@ A-CAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.25-Galeopterus_variegatus
+>DELV.25-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTATCAG
 CAGAAATGCAAATATACTGGGTCAGCAGGAATTCACAAGGCTTAACCACAAACTGTAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGCCTGGGAGGGGCTTACAGCTGGCTAAAACATATATAATACATGCCTGTA
@@ -6190,7 +6190,7 @@ ACCAAGAGAAATGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.26-Galeopterus_variegatus
+>DELV.26-Galeopterus_variegatus
 TGGAGGAAAACGAAGGCGAATGCCTGTTAAAGATGGAGGCA-TCTTGCTCTCCTGGACTTAGACTGTCAG
 CAG-GATGTGAAAACACTGTGTCAGCAA-GACTCTCAAGGCTCAACCGCAAACCATAGACTCCCTGTTGA
 GTTACCTAGGAGACGGGGAGGTATGGGAGGGGTTTACAGCTGGCTAAAACAAGTATAACACCTGCTTGAG
@@ -6334,7 +6334,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.27-Galeopterus_variegatus
+>DELV.27-Galeopterus_variegatus
 TGGAGGAAAATGAACAAGAGCACATATTAAAGATGGAGGCACCCTTGCTCTCCAGGACTCAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAGAATTTGCAAGGCTTAAGCACAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGACAGGGAGGTATGGGAGGGGCTCACAGCTGGCTAAAACATATATAATACATGCCTGTA
@@ -6478,7 +6478,7 @@ ACCAAGAGAAACGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.28-Galeopterus_variegatus
+>DELV.28-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAGGACTGGGTCAGCAAAAATTTGCAAAGCTCAACCGCAAACCACAGACTTCCTCTCGA
 GTTACCTTGGAGACAGGGAGGTATGGGAGGGGTTTACAGCTGGCTAAAACATGTATAAGGCATGCTTTTA
@@ -6622,7 +6622,7 @@ ACTGAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.29-Galeopterus_variegatus
+>DELV.29-Galeopterus_variegatus
 TGGACGAAAATGAAGGCAAAGACCTGTTAAAGATGGAGGCA-TCTTGCTGTCCAGGACTTAGACTCTCAG
 CAG-GATGTGAAAACAGTATGTCAGCCAGACTGTGCGAGGCTCAACTGCAATCCACAGACTCCCTACTGA
 GTTACCTAGGAGATGCGGAGGTATGGGAGGGGCTTACAGCGGGCTAAAACATATATAATACCTGCTTGAA
@@ -6766,7 +6766,7 @@ TTCACTGCACTCTCTTGGCCGGGCTGTG------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.3-Galeopterus_variegatus
+>DELV.3-Galeopterus_variegatus
 TGGAGGAAAATGAAAGAGAACACCTGTTAAAAATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGCCTGGGTCAGCAAAAATTTGTGATGCTTAACTGCAAACCACAGACTTCCTACTGA
 GTTACCTAGGAGACAGGGAGGTGTGGGAGGAGTTTACAGCTGGCTAAAACATGTATAAGACATGCCAGTA
@@ -6910,7 +6910,7 @@ GGAGGGGTTTACAGCTGGCTAATATACATACAAGACATGCCTGTACCCAATAAAGTTTCTTAGTGTGTGT
 GCTAAGTCCCAGAACTTTGTGTTTGGTTTCTGTTTGCCCACCTCCCTAGACGGCAGCCCCTAGCTCAAGG
 TGTGCCCTGAGCAACTCACCTTGCTGCACTCTCTTGGCAGAGCTGTATGCGGCCCTGCTCCCTGGGGGAC
 TCCTGGCAGAGTCTACATGTAGTCTTACCTCCTGAGACCCCCAGGACCAAGAGAAA------
->AL_DELV.fasta-digs-erv.DELV.30-Galeopterus_variegatus
+>DELV.30-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAGAGACTGGGTCAGCGAAATTTCACAAAGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGGTGTGGGA-GGGTTTACAGCTGGCTAAAACATATATAATAAATGCTTGTA
@@ -7054,7 +7054,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.31-Galeopterus_variegatus
+>DELV.31-Galeopterus_variegatus
 ---AGGAAAATGAAGGAGAACACCTGTTAAAGTTGGAGGCACTCTTGCTCTCCTGTATTTTGCCTGTCAG
 CA-AGATGCGCATATACTGTGTCAGCAAGATTTTGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGGTATGGGAGGGGTTTACAGCTGGTTGAAACATATACAATACCTGCTTTT-
@@ -7198,7 +7198,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.32-Galeopterus_variegatus
+>DELV.32-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAACACCTGTTAAAGATGGAGGGACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGATCAGAAAAAATTTGCAAAGTTTAACCGCAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGATGGGGAGGTGTGGGAGGGGCTTACAGCTGGCTAAAATATATATAACACATGCTTAGA
@@ -7342,7 +7342,7 @@ GCCCACCTCCCTAGGTGG---CAGCCCCTAGCTCAAGGCATGCCTCGAGCAATACACCTCGCTGCACTC-
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.33-Galeopterus_variegatus
+>DELV.33-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAACGATGGATGTACTCTTGCTCTCCAGGATTTAGACTATCAG
 CAGA---GCAAATAGACGGGGTCAGCAAGAATTCACAAAGCTCAACCGCAAACCACAGACTTCCCATTGA
 GTTATCTAGGAGACGGGGAGGTGTGGGAGGGGCTTACAGCTGGCTAAAACATATATAATACATGCTTGAA
@@ -7486,7 +7486,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.34-Galeopterus_variegatus
+>DELV.34-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGGACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATATAGACTGTTAG
 CAGAAATGCAAAAAGACTAGGTCAACAAAAATGAGCAAAGCTTAACTGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACGCGGAGGTATACGAGGGGTTTACAGCTGGGTAAAACATATATAAGACATGCTTTTA
@@ -7630,7 +7630,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.35-Galeopterus_variegatus
+>DELV.35-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATGTTAAAGATGGAGGCACTTTTGCTCTCCAGGATTTAGACTCTCAG
 CAGAAATGCAAATAGACTGGGTCAGCAAGAATTTGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGAGGAGGTGTGGGAAGCGTTTATAGCTGGCTAAAACATATATAATACCTGTTTGGA
@@ -7774,7 +7774,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.36-Galeopterus_variegatus
+>DELV.36-Galeopterus_variegatus
 TGGAGGAAAATGAAGAAGAAAACATGTTAAAGATGGAGGGACTCTTGCTCTCCAGGATTTAGACTGTTAG
 CAGAAGTGCAAATAGACTGGGTCAGCAAGAATTCAC-AGGCTTAACCACAAATCACAAACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTATGGGAGGGGCTTACAGCTGGCTAAAACGTATATAATACATGCTTGTA
@@ -7918,7 +7918,7 @@ ACCAAGAGAAAAGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.37-Galeopterus_variegatus
+>DELV.37-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAGCACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAA
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTTTCAAAGCTTAGCTGCAAACCACAGACTTTCTATTGA
 GTTAGCTAGGAGATGGGGAGGTATGGGAGGGGTTTACAGCTGGCTAAAACATATATAAGACATGCTTTTA
@@ -8062,7 +8062,7 @@ ATCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.38-Galeopterus_variegatus
+>DELV.38-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAAATGCAAAAAGACTAGGTCAGCAAAAATTCACAAACCTTAACCATAAACCACAGACTTCCTATTGA
 ATTACCTAGGAGACAAGGAAGTTTGGGACGGGTTTACAGCTGGCTAAAACATATATAAGACATGCCTTTA
@@ -8206,7 +8206,7 @@ AC---------TTCCTCAGGTGGCAGCCCCTAGCTCAAGGCGTGCCT-----------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.39-Galeopterus_variegatus
+>DELV.39-Galeopterus_variegatus
 TGGAGGAAAATGAAAGCGATCACCTGTTAAAGATGGAAGCACTCTTGCTCTCCAGGATGTAGACTGACAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCACAAGGCTTAATGGCAAACCACAGACTTCCTTTTGA
 GTTGCCTTGGAGACAGGGAGGTATGGGAGAGGTTTACAGCTGGCTAAAACAGATATAAGGCACGCTTTTA
@@ -8350,7 +8350,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.4-Galeopterus_variegatus
+>DELV.4-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCACTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCTCAAAGCTTAACCACAAACCACAGACTTCCTCTTCA
 GTTACCTAGGACATGGGGAGGTATGGGAGGGGTTTACACCTGGCTAAAACATATATAAGACATGCTTTTA
@@ -8494,7 +8494,7 @@ GGAGGGGTTTACAGCTGGCTAAAACATATATAAGACATGCTTTTACCCAATAAAGTTGCTTAGTGCATGC
 ACTAAGTCCCAGAACTTTGTGTCTGGTTTCTGGCTGCCCACCTCCCTAGGCAGCAGCCCCTAGCTCAAGG
 TATGCCCTCAGCAACTCACCTCGCTGCACTCTCCTGTCAGGGCTGCGTGCAGCCCTGCTCCCTGGGGGAC
 TCCTGGCAGAGGCTATGTGTAGTCCTGCCTCCTGAGACCCCCAGGACCAAGAGAAACGTG--
->AL_DELV.fasta-digs-erv.DELV.40-Galeopterus_variegatus
+>DELV.40-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACCAAGCCAGCAAAAATTCGTAAAGCTTAACTGCAAACCACAGATTTCCTATTGA
 GTTACCTAGGAGATGGGGAAGTATGGGAGGGGTTTACAACTGGCTAAAACATATATAAGACATGTCTTTA
@@ -8638,7 +8638,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.41-Galeopterus_variegatus
+>DELV.41-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTAAAAGATGGAGGCATTCTTGCTCTCCAGGATGTAGACTGTCAG
 CAGAAATGCAAAAGGACTGGGTCAGCAAAACTTCGCAAAGCTTAATCGCAAACGAAAGACTTCCTATTGA
 GTTGCCTTGGAGACGGGGAGGTATGGGAGGGGTTTATAACTGGCTGAAACATATATAAGACATGCTTTTA
@@ -8782,7 +8782,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.42-Galeopterus_variegatus
+>DELV.42-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAGCACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAA
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTTTCAAAGCTTAGCTGCAAACCACAGACTTTCTATTGA
 GTTAGCTAGGAGATGGGGAGGTATGGGAGGGGTTTACAGCTGGCTAAAACATATATAAGACATGCTTTTA
@@ -8926,7 +8926,7 @@ ATCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.43-Galeopterus_variegatus
+>DELV.43-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAAAGCCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGAATGTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTTGGCAAAAATTTGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGATGGGGAGGTAGGGGCGGGGTTTACAGCTGCCTAAAACATATATAAGGCATGCTTTTA
@@ -9070,7 +9070,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.44-Galeopterus_variegatus
+>DELV.44-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAACATCTGTTAAAGATGGAGGTACTCTTGCTCTCCTGTATTTTGCCCCTCAG
 CAG-GATGTGAATACACTGTGTCAGCAAGATTTTGCAAGGCTTAACTGCAAACCACAGACTTTCTGTTGA
 GTTGCCTAGAAGATGAAGAGGTATGGGAGGGGTTTGCAGCTGGCTGAAACATATATAATACCTGCTTTTC
@@ -9214,7 +9214,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.45-Galeopterus_variegatus
+>DELV.45-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGACACTCTTGTTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCGCAAAGCTTAACCACAAACCACAGACCTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTATGGGAGGGGCTTACTGCTGGCTAAAACATATATAAGACATGCCTGTA
@@ -9358,7 +9358,7 @@ ACCAAGAGAAATGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.46-Galeopterus_variegatus
+>DELV.46-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACCCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGTAAAAAGAC-----------------------------------------------------
 -------------------------------------------------------TAAGAC---------
@@ -9502,7 +9502,7 @@ GACCACCTCCCAAGGTGG---CAGCCCCTAGCTCAAGGTGTGCCTTTAGCAACTCACCTTGCTGCACTC-
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.47-Galeopterus_variegatus
+>DELV.47-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAACACCTGTCAAAGATGGAGACACTCTTGCTCTCCTGTATTTTGCCTGTCAG
 CAG-GATGCGAATACGCTGTGTCAGCAAGGTTTTGCAAGGCTTAACCGCAAACCACAGACTTCCTATTGA
 GCTACCTAGGAGATGGGGAGGTATGGGAGGGGTTTGCAGCTGGCTGAAACATATATAATACCTGCTTCTC
@@ -9646,7 +9646,7 @@ ACCAAAAAAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.48-Galeopterus_variegatus
+>DELV.48-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCATGACGTAGACTGTCAG
 CAGAAATGCAAAAAGATGGGGTCAGCAAAAATTTGCAAAACTTAACTGCAAACCACAGACTTCCTCTTGA
 GTTACCTAGGAGACGGGGAGGTATGGGAGGGGTTTACAGCTGGCAAAAACATATATAAGACATGCCTTTA
@@ -9790,7 +9790,7 @@ ACCAAGAGAAAAGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.49-Galeopterus_variegatus
+>DELV.49-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAATGCCTGTTAAAGATGGAAGCACTCTTGCTCTCCAGAATGTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTTGGCAAAAATTTGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGATGGGGAGGTGGGGGCGGGGTTTACAGCTGGCTAAAACATATATAAGGCACACTTTTA
@@ -9934,7 +9934,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.5-Galeopterus_variegatus
+>DELV.5-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAGCACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTT-GACTGTCAG
 CAGAAATGCAAAAAGACTTGGTCAGCAAAAATTCACAAAGCTTAACGACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTATGGGAGGCGCTTACAGCTGGCTAAAACATATATAAGACATGCCAGTA
@@ -10078,7 +10078,7 @@ ATAATCAGTTAAAAAACCAAGAAGGGGTTTGGCAGATGGATGTTACACACATA-----------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.50-Galeopterus_variegatus
+>DELV.50-Galeopterus_variegatus
 TGGAGGAAAATGAAAGAGAACACCTATTAAAAATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGGTCAGCAAAAATTAGCAAAGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTATGAGAGCGGTTTACAGCTGGCTAAAACATATATAATATATGCCTATA
@@ -10222,7 +10222,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.51-Galeopterus_variegatus
+>DELV.51-Galeopterus_variegatus
 TGGAGGGAAATGAAGGAGAACACCTGTTAAAGACAGAGGCACTCTTGCTCTCTAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGAGTCAGCAAAAATTCTCAAAGCTTAACCACAAAC--CAGACTTCCTACTGA
 GTTACCTAGGAGATGGGGAGGCATGGAAGGGGTTTACAGTTGGATAGAACATATATAATACATGCCTGTA
@@ -10366,7 +10366,7 @@ ACCAAGAGAAAAGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.52-Galeopterus_variegatus
+>DELV.52-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAATGCCTGTTAAAAATGGAAGCACTCTTGCTCTCCAGAATGTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTTGGCAAAAATTTGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGATGGGGAGGTAGGGGCGCAGTTTACAGCTGCCTAAAACATATATAAGGCACTCTTTTA
@@ -10510,7 +10510,7 @@ ACCAAGAGAAAAGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.53-Galeopterus_variegatus
+>DELV.53-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAATACTTGTTAAAGATGGAGGTGCTCTTGCTCTCCAGGATGTAGACTGTCAG
 CAGAAATGCAAAAAGACAGGGTCAGCAAAAATTCGCAAAGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTGGGACACAGGGAGGTATGGGAGGGGTTTACAGCTGGCTAAAACATGTATAAGATATGCCTTTA
@@ -10654,7 +10654,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.54-Galeopterus_variegatus
+>DELV.54-Galeopterus_variegatus
 TGGAGGAAAATGA---AGAACACATATTAAGGATGGAGGCACTCTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAACTGCAAAAAGACTGGGTCAGCAAGAATTCGCAAGGCTTAACCACAAATCACAGACTTCCTATTGA
 GTTGCCTAGGAGATAGGTAGGTATGGGAGGGGCTCACAGCTGGGTAAAACATATATAATACATGCCTGCA
@@ -10798,7 +10798,7 @@ ACCAAGAAAAACGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.55-Galeopterus_variegatus
+>DELV.55-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATGTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCACAAAGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACTTAGGAGATGGGGAAGTATGGGAGGTGTTTACAGCTGGCTAAAACATATATAAGACATGCTTTTA
@@ -10942,7 +10942,7 @@ ACCAAGAAAAAAGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.56-Galeopterus_variegatus
+>DELV.56-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCTGTATTTTGCCTCTCAG
 CAG-GATGTGAAAACACTGTGTCAGCAAGATTTTGCAAGGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGAGGAGGTATGGGAGGGGTCTGCAACTGGCTGAAACATATATAATACCTGCTTTTC
@@ -11086,7 +11086,7 @@ ACCAAGACAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.57-Galeopterus_variegatus
+>DELV.57-Galeopterus_variegatus
 ---AGGAAAATGAAGGAGAACACCTGGTAAAGATGGAGGTACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGATCAGCAAAAATTCGCAAAGCTTAACTGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGGTGTAGGAGGGGTTTACAGCTGGCTAAAATATATATAAGACATGCCTGTA
@@ -11230,7 +11230,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.58-Galeopterus_variegatus
+>DELV.58-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAAATGGAGGCACTCTTGCTCTCCAGGATGTAAACTGTCAG
 CAGAAATGCAAAAAGACTAGGTCAGCAAAACTTCGCAAAGCTTAACTGTAAACCACAGACTTCCTATTGA
 GTTGCCTTGGAGACGGACAGGTATGGGAGGGGTTTACAGCTGGCTAAAATGTATATAAGACATGCTTTTA
@@ -11374,7 +11374,7 @@ ACCAGGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.59-Galeopterus_variegatus
+>DELV.59-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGG-ACTCTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAAATGCAAAAAGACTAGGTCAGCAAATATTTGCAAAGCTTAACTGCAAAC--CAGACTTGCTATTGA
 GTTACCCAGGACATAGGGAGGTATGGGAAGGATTTACAGCTGGCTAAAACACATATAAGACATGCTTTTA
@@ -11518,7 +11518,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.6-Galeopterus_variegatus
+>DELV.6-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -11662,7 +11662,7 @@ AGAAACATATAGGAATATGCAAACC---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.60-Galeopterus_variegatus
+>DELV.60-Galeopterus_variegatus
 ---AGGAAAATAAAGGAGAACCCATGTTAACGGTGGAGGGACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGGTCAGCAAGAATTTGCAAGGTTTAACCACAAACCACAAACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGGCATGGGAGGGGCTTACAGCTCACTAAAACATATATAATACATGCTTGTA
@@ -11806,7 +11806,7 @@ CTCACTGCACTCTCTT------GGCAGGGCTCTATGTGGCCCTGCTCCCTGG------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.61-Galeopterus_variegatus
+>DELV.61-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGACACTCTTGTTCTCCTGTATTTTGCCTCTCAG
 CAG-GATGTGAATACACTGTGTCAGCAAGATTTTGCAAGGCTTAACCGCAAACCACAGATTTCCTATTGA
 GTTACCTAGGAGATGGACAGGTATGGGAGGGGTTTGCAGCTGGCTGAAAAATATATAATACCTGCTTTCT
@@ -11950,7 +11950,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.62-Galeopterus_variegatus
+>DELV.62-Galeopterus_variegatus
 TGGGGGTAAATGCAGGAGAACACATACTAAAGATGGAAGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGGTATGAAAATAGACTGGGTCAGCAAGAATTTTCAAGGCTTAACTGCAAACCACAGACTTCTTATTGA
 GTTGCCTAGGAGATGGGGAGGTAAAGAAGGGGCTCACAGCTGCCTAAAACATATATAATACATACCTGTA
@@ -12094,7 +12094,7 @@ CTCACTGCACTCTCTT------GGCAGGGCTATGTGTGGCCCTGCTCCCTGG------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.63-Galeopterus_variegatus
+>DELV.63-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCTGTATTTTACCTGTCAG
 CAG-GATGTGAATACACTG--T---CAAGATTTTACAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGGTATGGGAGGGGTTTTTAGCTGGCTGAAACATATATAATGCCTGCTTTTT
@@ -12238,7 +12238,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.64-Galeopterus_variegatus
+>DELV.64-Galeopterus_variegatus
 TGGAGGAAAATGAAAGAGAACACATATTAAAGATGGAGGCACTCTTGCTCTCTAGGACTTGGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAGAATTTGCAAGGCTTAACCACAAATCACAGACTTCCTATCTA
 GTTGCCTAGGAGATGGGGAGGTATGGGAAGGGTTCACAGCTGGCTAAAACATATATAATACATGCCCGTA
@@ -12382,7 +12382,7 @@ ACCAAGAGAAATGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.65-Galeopterus_variegatus
+>DELV.65-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATATTAAAGATGGAGGCACTCTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAAATGCAAACAGACTGGGTCAGCAAGAATTTGCAAGGCTTACCTGCAAACCACAGACATCCTATTGA
 GTTCCCTAGGAGATGGGGAGGTATGGGAGGTGCTCACAGCTGGCTAAAATATATATAATACATGGCTTTA
@@ -12526,7 +12526,7 @@ CTTGCTGCACTCTCTTGGCAGGGCTGTG------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.66-Galeopterus_variegatus
+>DELV.66-Galeopterus_variegatus
 TGGAGGAAAATGGAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACCGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCACGAAGCTTAACCGCAAGCCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTGTGGGAGGGGTTTACAGCTGGCAAAAACATATATAGGACATGCCTGTG
@@ -12670,7 +12670,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.67-Galeopterus_variegatus
+>DELV.67-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATATTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGGTCAGTAAGAATTTTCAAGGTTTAACCGCAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGACGGGGAGGTATGGAAGGGGCTCACAGCTGGCTAAAACATATATAATACCTGCCTGTA
@@ -12814,7 +12814,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.68-Galeopterus_variegatus
+>DELV.68-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATATTAAAGATGGAGGCACTCTTGCTCTCCAGGACTTAGACTGTCAC
 TAGAAATGCAAAAAGACTGGGTCAGCAAGAATTAGCAAGGCTTAACCACAAACCACGGACTTCCTACTGA
 GTTGCCTAGGAGATGGGGAGGGGTGGGAGGGGCTCACATCTGTCTAAAA-ATATATAATACATGCCTGTA
@@ -12958,7 +12958,7 @@ ATCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.69-Galeopterus_variegatus
+>DELV.69-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATGTTAAAAATGGAGGCACTCTTGCTCTCCAGGCTTTAGACTGTCAG
 CAGAAACGCAAAAAGACTGGGTCAGCAGGAATTCACAAGGCTTATCCGCAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGATGGGGAGGTATGGGAGGGGCTCACAGCTGGCTAAAACATATATAATACATGCCTGTA
@@ -13102,7 +13102,7 @@ CTCACTGCACTCTCTTGGCAGGGCTATG------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.7-Galeopterus_variegatus
+>DELV.7-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTTGCAAAGCTTAACTGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGATGTGGGAGGGGGTTACAACTGGCTAAAACATATATAATACATGCCTGTA
@@ -13246,7 +13246,7 @@ GGAGGGGGTTACAGCTGGCTAAGACATATATAATACATGCCTGTACCCAGTAAAGTTGCTTAGTGTGTAC
 GCTAAGCCCCAGAACTTTGTGTCTGGTTTCTGGTTGACCACCTCCCCAGGCGGCAGCCCCTAGCTCAAGG
 CGTTCCTTGAGCAACTCACCTTGTTGCACTCTTTTGGCAGGGCTGCATGCAGCCCTGCTCCCTGAGGGAC
 TCCTGGCAGAGGCTAGGTGCAGTCCTGTCTCCTGAGGCCCCCAGGACCAAGAGAAAGGTG--
->AL_DELV.fasta-digs-erv.DELV.70-Galeopterus_variegatus
+>DELV.70-Galeopterus_variegatus
 --GAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGGTCAGCAAAAATTCGCAAAGCTTAACCACAAACCACAGACTTCTTATTGA
 GTTACCTAGGAGACGGGGAGGGGTGGGAGGGGTTTACAGC---------------------------GTA
@@ -13390,7 +13390,7 @@ ACCAAGAGGAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.71-Galeopterus_variegatus
+>DELV.71-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATATTAAAGATGGAGGCACTCTTGCTCTCCAGGACTTACACTGTCAG
 CAGAAATGCAAAAAGACTGGGTTGGCAAGAATTCCCAAGGCTTAACTGCAAATTACAGACTT-TTATTGA
 GTTGCCTAGGAGACGGGGAGGTACGGGAGGGGCTCACAGCTGGCTAAAACATATATAATACATGCCTGTA
@@ -13534,7 +13534,7 @@ ACCA---GAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.72-Galeopterus_variegatus
+>DELV.72-Galeopterus_variegatus
 --GAGGAAAATG-A--AGAACA--TATTAAAGATGGAGGGACTCTTGCTCTCTAGGATTTAGACTGTCAG
 CAGAAATTCAAATAGACTGGGTCAGCAAGAATTTGCAAAGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGATGGGGAGGTGTGAGAGGGGCTTACAGCTGGCTAAAACATATATAATACACGTTTGCA
@@ -13678,7 +13678,7 @@ CTCACTGCACTCTTTT------GGCAGGGCTGCATGCGGCCCTGCTCCCTGGGAGTTT------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.73-Galeopterus_variegatus
+>DELV.73-Galeopterus_variegatus
 TGGAGGAAAATGAAG-AACACATATGTTAAAGATGGAGGCACTCTTGCTCTCCGGGATTTAGACTGTCAG
 CAGAAACGCAAATAGACTGGGTCAGCAAGAATTCACAAGGCTTAACCGCAAACTACAGACTTCTTATTGA
 GTTACCTAGGAGATGGGGACGTATGGGAGAGGCTTACAGCTGGCTAAAACATATATAACACATGCTTGTA
@@ -13822,7 +13822,7 @@ CTTGCTGCACTCTCTTGACAAG------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.74-Galeopterus_variegatus
+>DELV.74-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGTTCTCCTGTATTTTGCCTCTCAG
 CAG-GATGAGAATACACTGTGTCAGCAAGATTTTGCAAGGCTTAACCGCAAACCACAGATTTCCTATTGA
 GTTACCTAGGAGATGGACAGGTATGGGAGGGGGTTGCAGCTGGCTGAAAAATATATAATACCTGCTTTCT
@@ -13966,7 +13966,7 @@ ACCAAGAGAA------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.75-Galeopterus_variegatus
+>DELV.75-Galeopterus_variegatus
 ----GGAAAATGAAGGAGAACAC--GTTAAAGATGGAGGCACTCCTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACCAGGTCAGCAAGGATTCGCAAGGCTTAACTGCAAA--ACAGACTTCCTATTGA
 GTCACCTAGGAGATGGGGAGGTGTGAGAGGGGCTTACAGCTGGCTAAAACGTATATAAGACATGCTTGTA
@@ -14110,7 +14110,7 @@ ACCAAGAGAAAAGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.76-Galeopterus_variegatus
+>DELV.76-Galeopterus_variegatus
 TGGAGGAAAATGA---AGAACACCTGTTAAAGATGGAGGCACTCTTGCTTTCCAGGATTTAGACTGTCAG
 CAAAAATGCAAAAAGACTGGGTCAGCAAAAATTTGCAAAGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTACCTTGGAGATGGGGAAGTATGGGAGGGGTTTACAGCTGGCTACAACATATGTAAGACATGCCTGTA
@@ -14254,7 +14254,7 @@ CCTTGCTGCACTCTCTTGGCAGGACTGCATGTGGCCCTGCTCCCCGAGGGACTTCTGGCAGAGGCTAC--
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.77-Galeopterus_variegatus
+>DELV.77-Galeopterus_variegatus
 TGGAGGAAAATGTAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATCTAGACTGTCAG
 CAGAAATGCAAAAAGTCTGGGTCAGCAAAAATTCAGGAAGCTTAATCACAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGGTGTGAGAGGGGTTTACAGCTGGCTAAAACATATATAAGACATGCCTGTG
@@ -14398,7 +14398,7 @@ ACCAA-----------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.78-Galeopterus_variegatus
+>DELV.78-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGGACACATGTTAAAGATGGAGACACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAGATAGACTGGGCCAACAAGAATTCACAAGGCTTAACCGCTAGCCACAGACTTCCTATTGA
 GTTGCCTAAGAGA---------------------------------------------------------
@@ -14542,7 +14542,7 @@ CTTGCTGCACTCTCTTGGCAGGGCT---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.79-Galeopterus_variegatus
+>DELV.79-Galeopterus_variegatus
 TGGAGGAAAACGAAGGAGAACATACATTAAAGATGGAGGCACTCTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAAATGCAAAGAGACTGGGTCAGCAAGAATTTGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTG------------------------------------------------------------------
@@ -14686,7 +14686,7 @@ C---------TGGCTAAAACATATCCAATACATACCTGTAGACAATAAAGTTGCTTTG------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.8-Galeopterus_variegatus
+>DELV.8-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -14830,7 +14830,7 @@ GAAAAA----------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.80-Galeopterus_variegatus
+>DELV.80-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTTGAAAAGCTTAACCACAAACCACAGACTTCCTCTTGA
 GTTACGTAGGAGACAGGGAGGTATGGGAGGGGTTTACAGCTGGCTAAAACATATATAAGACATGCCTTTA
@@ -14974,7 +14974,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.81-Galeopterus_variegatus
+>DELV.81-Galeopterus_variegatus
 TGGAGGAAAATGAAGGGGAACACATGTTAAAGATGGAGGGACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGTAAATAGACTGGGTCAGCAAAAATTTGCAAAGCTTAACCGCAAACCGCTGACTTCTTATTGA
 GTTACCTAGGAGACGGGGAGGTGTGGGAGGGGCTTAAAGCTGGCTAAAACATATATGATACATGCTTGAA
@@ -15118,7 +15118,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.82-Galeopterus_variegatus
+>DELV.82-Galeopterus_variegatus
 TGGAGGAAAGTGAAGGAGAACACATGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCACAAGGCTTAATCGCAAACTACAGACTTCCTATTGA
 GTTGCCTTGGAGACAGGGAGGTATGGGAGGCATTTAAAGCTGGCTAAAACGTATATAAGACATGCACTTA
@@ -15262,7 +15262,7 @@ ACCAAGAGAAAAGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.83-Galeopterus_variegatus
+>DELV.83-Galeopterus_variegatus
 TGGAGGAAATTGATGGAGAACACATG-TAAAGATGGAGGGACTCTTGCTCTCCAGGAT----A-TATCAG
 CAGAAATGCACATAGACTGGGTCAGCAAGAATTCACAAGGCTTAACCATAAACCACAAACTTGCTATTGA
 GTTACCTAGGAGATGGGGAGGTGTGGGAGGGGCTTACAGCTGCTTAAAAGATATATAATATATGCTGGTA
@@ -15406,7 +15406,7 @@ ACCA---GAAAAGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.84-Galeopterus_variegatus
+>DELV.84-Galeopterus_variegatus
 ---AGGAAAATGAAGGAGAACACCTGGTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCGCAAAGCTTAACTGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACGGGGAGGTGTGCGAGGGGTTTACAGCTGGCT-AAACATATATAAGACATGCCTGTA
@@ -15550,7 +15550,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.85-Galeopterus_variegatus
+>DELV.85-Galeopterus_variegatus
 TGGAGGGAAATGAACGAGAACACCTGTTAAAGATGG-GACACTCTTGCTCTCCAGGACATAGACTGTCAC
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCACAAGGTTTAACCACAAACCACAGACTTCCTATTGA
 GTTGCCTTGGAGACAGGGAGGTATGGCAGGGGTTTATAGCTGGCTAAAACATATATAAGGCATGCTTTTA
@@ -15694,7 +15694,7 @@ ACCAAAAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.86-Galeopterus_variegatus
+>DELV.86-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAGCACCTGTTAAAGATGGAGGTACTC-TGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTTGCAAAGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGAGACAGAGAGGTATGGGAGGGGTTAACAGCTGGCTAAAATATATATAAGACATGCTTTTA
@@ -15838,7 +15838,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.87-Galeopterus_variegatus
+>DELV.87-Galeopterus_variegatus
 -----GAAAATG-A--AGAACACATGTTAAAGATGAAGGCACTCTTGCTCTCCAGGATTTAGACTGTCAG
 CAGAAATGCAAATAGACTGGGTCAGCAAGAATTCACAAGGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGATGGGGAGGTTTGGGAGGGGCTCACAGCTGGTTAAAACATATATAATACATGCCTGTA
@@ -15982,7 +15982,7 @@ ACCAAGAGAATTGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.88-Galeopterus_variegatus
+>DELV.88-Galeopterus_variegatus
 TGGAGGAAAATGAAAGCGATCACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATGTAGACTGACAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCGC-AAGCTTAACCGCAAACCACAGAGTTCCTATTGA
 GTTGCCTTGGAGATGAGGAGGTAGGGGAGGGGGTTACAGCTGGCTAAAACATATATAAGACATGCATTTA
@@ -16126,7 +16126,7 @@ ACCAAAAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.89-Galeopterus_variegatus
+>DELV.89-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACATGTTAAAGATGGAGGCACTCTTGCTCTCTGGGATTTAGACTCTCAG
 CAGAAATGCAAATAGACTGG-----------TTCGCAAGGCTTAACCGCAAACCACAGACTTCCCATTGA
 GTTACCTAGGAGATGGGGAGGTTTGAGAGGGGTTTACAGCTGGCTAAAACATATATAATACATGTTTGGA
@@ -16270,7 +16270,7 @@ CTCGCTGCACTCTCTTGGCAGGGCT---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.9-Galeopterus_variegatus
+>DELV.9-Galeopterus_variegatus
 --GAGGAAAATGAAGGAGAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGACTTAGA-------
 -AGAAATGCAAAAAGACTGGGTCAGCAAGAATGCACAAAGCTTAACTGCAAACCACAGACTTCCTATTGA
 GTTACCTAGGACACGGGGAGGTTTGGGAAGGGTTTACAGCCAGCTAAAACATATAT--GACATGCTTTTA
@@ -16414,7 +16414,7 @@ G---------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.90-Galeopterus_variegatus
+>DELV.90-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAACACCTGTTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTCGACTCTGAG
 CAGG-ATGCAAATACACTGTGTCAGCAAGATGTTGCAAGGCTTAACCGCAAACCACAGACTTCCTATTGA
 GT---CTAGGAAACGGGGAGGTATGGGAGGGGTTTACAGCTGGCTGAAACACATATAATACCTGCTTTTT
@@ -16558,7 +16558,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.91-Galeopterus_variegatus
+>DELV.91-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -16702,7 +16702,7 @@ ACCAAGAGAAAGGTG-------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.92-Galeopterus_variegatus
+>DELV.92-Galeopterus_variegatus
 TGGAGGAAAACGAAGGAGAACACCTGTTAAAGATGGAGGCA--------CTCCAGGATTTATACTGTAAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCGCAGAGCTTAACTGCAAACCACAGACTTCCTATTGA
 GTTACTTAGGAGACAGAGAGGTGTGGGAGGCGTTTACAGCTGGCTAAAACATATATAAGACATGCCTGTA
@@ -16846,7 +16846,7 @@ ACCAAGAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.93-Galeopterus_variegatus
+>DELV.93-Galeopterus_variegatus
 TGGAGGAAAATGA---AGAACACATATTAAAGATGGAGGCACTCTTGCTCTCCAGGATTTAAAGTGTCAG
 TAGAAATGCATATAGACTGGGTCAGCAAGAATTCACAAGGTTTAACCGCAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGA--------CATGGGAGGGGCTCACAGCTGGCTAAAACATATATAATACATGCCTGTA
@@ -16990,7 +16990,7 @@ CTCACTGCACTCTCTTGGCAGGGCT---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.94-Galeopterus_variegatus
+>DELV.94-Galeopterus_variegatus
 -----------------GAACACATATTAAAGAAGGAGGCACTCTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAAATGCAGAAAGAGTGGGTCAGCAAGAATTGGCAAGGCTTAACCGCAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGATGGGGAGGTATGGGAGGGGCTCACAGCTGGCTAAAACATATATAATACATGCCTGTA
@@ -17134,7 +17134,7 @@ ATTGCTGCACTCTCTTGGCAGGGCT---------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.95-Galeopterus_variegatus
+>DELV.95-Galeopterus_variegatus
 TGGAGGAAAATGAAAGAGAACACCTGTTAAGGATGGAGACACTCTTGCTCTCCAGGACTTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAGTATTAGCAAGGCTCAACCACAAATCACAGAGTTTCTATTGA
 GTTACCTAGCAGATGGGGAGGTATGTGAGGGG-------CT--C----AC-------AG-C-TGCTTTTA
@@ -17278,7 +17278,7 @@ ACCAAAAGAAA-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.96-Galeopterus_variegatus
+>DELV.96-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAAAAAGCCTGATAAAGATGGAGGCACTCTTGCTCTCCAGAATGTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTTGGCAAAAATTTGCAAGGCTTAACCACAAACCACAGACTTCCTATTGA
 GTTGCCTAGGAGATGGGGAGGTAGGGGCGCAGTTTACAGCTGCCTAAAACATATATAAGGCACTCTTTTA
@@ -17422,7 +17422,7 @@ CATGAGGCCCTGCTCCCTGAGGGACTCCTGGCAGAGGCTGCATGTAGTCCTGCCTCCT------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.97-Galeopterus_variegatus
+>DELV.97-Galeopterus_variegatus
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -17566,7 +17566,7 @@ CATGAGGCCCTGCTCCCTGAGGGACTCCTGGCAGAGGCTGCATGTAGTCCTGCCTCCT------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.98-Galeopterus_variegatus
+>DELV.98-Galeopterus_variegatus
 TGGAGGAAAATGAAGGAGAACACCTGTTGAAGACGGAGGCACTCTTGCTCTCCAGGATTTAGACTATCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTCACAAAGCTTAACCACAAACCACAGACCTCCTATTGA
 GTTACCTAGGAGACAGAGAGGTGTGGGAGGGGTTTATAGCTGACTAAAACATATATAAGACATGCCTGTG
@@ -17710,7 +17710,7 @@ TGTGTGGCCCTGCTCCCTGGGGGACTCCTGGCAGAGGCTA------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 --------------------------------------------------------------
->AL_DELV.fasta-digs-erv.DELV.99-Galeopterus_variegatus
+>DELV.99-Galeopterus_variegatus
 -----------------------------AAGATGGAGGTGCTTTTGCTCTCCAGGATGTAGACTGTCAG
 CAGAAATGCAAAAAGACTGGGTCAGCAAAAATTGGCAAGGCTTAACCACAAAGCACAGACTTCCTATTGA
 GTTACCTAGGAGACTGGGAGGTTTGGGAGGGGTTTACAGCTGGCTAAAACATATATAAGACACACTTTTA

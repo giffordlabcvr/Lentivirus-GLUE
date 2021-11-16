@@ -17,17 +17,17 @@ project lentivirus
   run file glue/build/erv/lentiErvReferences.glue
   validate
 
+  # Compute alignments
+  #run file glue/build/erv/lentiErvComputeAlignments.glue
+
   # Import alignments
-  run file glue/build/erv/lentiErvAlignments.glue
+  #run file glue/build/erv/lentiErvAlignments.glue
 
   # Add lentivirus ERV alignments to constrained alignment tree 
-  run file glue/build/erv/lentiErvAlignmentTree.glue
-
-  # Compute alignments
-  run file glue/build/erv/lentiErvComputeAlignments.glue
+  #run file glue/build/erv/lentiErvAlignmentTree.glue
 
   # Record feature presence
-  run file glue/build/erv/lentiErvRecordFeaturePresence.glue
+  #run file glue/build/erv/lentiErvRecordFeaturePresence.glue
 
   # Validate
   validate
