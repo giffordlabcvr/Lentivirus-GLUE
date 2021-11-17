@@ -305,6 +305,11 @@
       add segment 357 377
       exit   
          
+    add feature-location PSI
+    feature-location PSI
+      add segment 217 727
+      exit   
+         
     add feature-location gag
     feature-location gag
       add segment 628 1980
@@ -396,6 +401,7 @@
       exit
        
   exit 
+
 
 
    reference REF_EIAV_Am
