@@ -239,6 +239,15 @@
   feature rev set metatag INCLUDE_IN_SUMMARY true
   feature rev set metatag CODES_AMINO_ACIDS true
 
+
+  ## Protein subdomains
+
+  create feature CypA-BL -p capsid "Cyclophilin-A binding region"
+  feature CypA-BL set field displayName "CypA-BL"
+  feature CypA-BL set metatag OWN_CODON_NUMBERING true
+  feature CypA-BL set metatag INCLUDE_IN_SUMMARY true
+  feature CypA-BL set metatag CODES_AMINO_ACIDS true
+
   create feature NLS -p whole_genome "Nuclear localisation signal"
   feature NLS set field displayName "NLS"
   feature NLS set metatag OWN_CODON_NUMBERING true
@@ -252,7 +261,7 @@
   feature NES set metatag CODES_AMINO_ACIDS true
 
 
-  # Bovine group
+  # Primate group
 
   create feature vpr -p whole_genome "vpr"
   feature vpr set field displayName "vpr"

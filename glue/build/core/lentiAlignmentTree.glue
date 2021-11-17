@@ -1,7 +1,7 @@
   #~# Define constrained alignment tree
 
   #~# Create root alignment
-  create alignment AL_ROOT -r REF_HIV_1M
+  create alignment AL_ROOT -r REF_FIV
  
   #~# Add children to root alignment 
   alignment AL_ROOT
