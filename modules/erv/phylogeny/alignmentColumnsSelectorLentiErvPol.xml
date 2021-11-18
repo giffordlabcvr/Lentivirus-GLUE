@@ -4,16 +4,9 @@
     <relRefName>REF_FIV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>pol</featureName>
-        <startCodon>9</startCodon>
-        <endCodon>318</endCodon>
-    </aminoAcidRegionSelector>
-  
-
-    <aminoAcidRegionSelector>
-        <featureName>pol</featureName>
-        <startCodon>441</startCodon>
-        <endCodon>539</endCodon>
+        <featureName>pro-pol</featureName>
+        <startCodon>20</startCodon>
+        <endCodon>1040</endCodon>
     </aminoAcidRegionSelector>
 
     

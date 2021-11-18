@@ -6,7 +6,7 @@
     <aminoAcidRegionSelector>
         <featureName>RT</featureName>
         <startCodon>1</startCodon>
-        <endCodon>560</endCodon>
+        <endCodon>444</endCodon>
     </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>
