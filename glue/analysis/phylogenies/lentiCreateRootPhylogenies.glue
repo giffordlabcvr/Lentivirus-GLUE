@@ -14,11 +14,11 @@
     
   create module -f modules/core/lentiPhyloUtility.xml
   create module -f modules/core/lentiFigTreeAnnotationExporter.xml
-  create module -f modules/core/alignmentColumnsSelectorLentiCapsid.xml
-  create module -f modules/core/alignmentColumnsSelectorLentiMatrix.xml
-  create module -f modules/core/alignmentColumnsSelectorLentiNucleocapsid.xml
-  create module -f modules/core/alignmentColumnsSelectorLentiRt.xml
-  create module -f modules/core/alignmentColumnsSelectorLentiIntegrase.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorLentiCapsid.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorLentiMatrix.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorLentiNucleocapsid.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorLentiRt.xml
+  create module -f modules/core/phylogeny/alignmentColumnsSelectorLentiIntegrase.xml
 
   
   # Create the phylogenies

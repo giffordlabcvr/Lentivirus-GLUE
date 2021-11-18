@@ -26,7 +26,7 @@ project lentivirus
   run file glue/build/erv/lentiErvAlignmentTree.glue
 
   # Record feature presence
-  #run file glue/build/erv/lentiErvRecordFeaturePresence.glue
+  run file glue/build/erv/lentiErvRecordFeaturePresence.glue
 
   # Validate
   validate
