@@ -9,7 +9,6 @@
   delete module alignmentColumnsSelectorLentiIntegrase
   
   # Create all the modules we need
-  create module -t raxmlPhylogenyGenerator
   create module -f modules/core/lentiRaxmlPhylogenyGenerator.xml
     
   create module -f modules/core/lentiPhyloUtility.xml
