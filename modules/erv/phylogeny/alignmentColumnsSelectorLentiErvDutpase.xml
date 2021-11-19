@@ -4,9 +4,9 @@
     <relRefName>REF_FIV</relRefName>
     
     <aminoAcidRegionSelector>
-        <featureName>IN</featureName>
+        <featureName>dUTPase</featureName>
         <startCodon>1</startCodon>
-        <endCodon>280</endCodon>
+        <endCodon>133</endCodon>
     </aminoAcidRegionSelector>
     
 </alignmentColumnsSelector>
