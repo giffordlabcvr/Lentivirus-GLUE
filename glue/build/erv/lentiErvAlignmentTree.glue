@@ -33,3 +33,6 @@
    
 	exit
 	
+
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_ROOT derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE

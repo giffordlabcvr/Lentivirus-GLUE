@@ -22,8 +22,6 @@ project lentivirus
   # Import alignments
   run file glue/build/erv/lentiErvAlignments.glue
 
-fuckoff
-
   # Add lentivirus ERV alignments to constrained alignment tree 
   run file glue/build/erv/lentiErvAlignmentTree.glue
 
