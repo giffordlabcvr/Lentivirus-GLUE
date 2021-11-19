@@ -6,7 +6,7 @@
     <aminoAcidRegionSelector>
         <featureName>gag</featureName>
         <startCodon>1</startCodon>
-        <endCodon>501</endCodon>
+        <endCodon>441</endCodon>
     </aminoAcidRegionSelector>
         
 </alignmentColumnsSelector>
