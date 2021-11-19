@@ -7,34 +7,22 @@
 	add member -w "source.name = 'fasta-refseqs-erv'"
 	add member -w "source.name = 'ncbi-curated-erv'"
 
-	extract child AL_DELV_SpELV  --refName REF_DELV
 	
-	demote member AL_DELV_SpELV  --whereClause "sequence.species like '%Dermoptera%'"
-	demote member AL_DELV_SpELV  --whereClause "sequence.species like '%Galeopterus%'"
-	demote member AL_DELV_SpELV  --whereClause "sequence.species like '%Cynocephalus%'"	
-	demote member AL_DELV_SpELV  --whereClause "sequence.species like '%Pedetes%'"
-	
-	extract child AL_RELIK       --refName REF_RELIK
-	demote member AL_RELIK       --whereClause "sequence.species like '%Oryctolagus%' and sequence.source.name != 'fasta-refseqs-erv'"
-	demote member AL_RELIK       --whereClause "sequence.species like '%Lepus%'"
+	extract child AL_RELIK  --refName REF_RELIK
+	demote member AL_RELIK  --whereClause "sequence.species like '%Oryctolagus%' and sequence.source.name != 'fasta-refseqs-erv'"
+	demote member AL_RELIK  --whereClause "sequence.species like '%Lepus%'"
 
-	extract child AL_MELV        --refName REF_MELV
-	demote member AL_MELV        --whereClause "sequence.species like '%Mustela%' and sequence.source.name != 'fasta-refseqs-erv'"
-	demote member AL_MELV        --whereClause "sequence.species like '%Lontra%'"
-	demote member AL_MELV        --whereClause "sequence.species like '%Neovison%'"
+	extract child AL_MELV  --refName REF_MELV
+	demote member AL_MELV  --whereClause "sequence.species like '%Mustela%' and sequence.source.name != 'fasta-refseqs-erv'"
+	demote member AL_MELV  --whereClause "sequence.species like '%Lontra%'"
+	demote member AL_MELV  --whereClause "sequence.species like '%Neovison%'"
 	
-	extract child AL_PSIV1       --refName REF_pSIV1	
-	demote member AL_PSIV1       --whereClause "sequence.species like '%Microcebus%' and sequence.source.name != 'fasta-refseqs-erv'"
-	demote member AL_PSIV1       --whereClause "sequence.species like '%Mirza%'"
+	extract child AL_PSIV1  --refName REF_pSIV1	
+	demote member AL_PSIV1  --whereClause "sequence.species like '%Microcebus%' and sequence.source.name != 'fasta-refseqs-erv'"
+	demote member AL_PSIV1  --whereClause "sequence.species like '%Mirza%'"
 	
-	extract child AL_PSIV2       --refName REF_pSIV2
-	demote member AL_PSIV2       --whereClause "sequence.species like '%Cheirogaleus%' and sequence.source.name != 'fasta-refseqs-erv'"
-  
-	exit
-	
-
-  #~# DELV-SpELV lineage
-  alignment AL_DELV_SpELV
+	extract child AL_PSIV2  --refName REF_pSIV2
+	demote member AL_PSIV2  --whereClause "sequence.species like '%Cheirogaleus%' and sequence.source.name != 'fasta-refseqs-erv'"
 
 	extract child AL_SpELV  --refName REF_SpELV
 	demote member AL_SpELV  --whereClause "sequence.species like '%Pedetes%' and sequence.source.name != 'fasta-refseqs-erv'"
@@ -42,16 +30,6 @@
 	extract child AL_DELV   --refName REF_DELV
  	demote member AL_DELV   --whereClause "sequence.species like '%Galeopterus%' and sequence.source.name != 'fasta-refseqs-erv'"
 	demote member AL_DELV   --whereClause "sequence.species like '%Cynocephalus%'"	
- 
+   
 	exit
 	
-
-  #~# Derive constrained alignment segments from unconstrained alignments
-  alignment AL_ROOT
-	derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
-	exit
-
-  alignment AL_DELV_SpELV
-	derive segments AL_UNC_DELV_SpELV -a --existingMembersOnly --mergeStrategy OVERWRITE
-	exit
-

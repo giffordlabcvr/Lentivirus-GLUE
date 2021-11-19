@@ -1,7 +1,0 @@
-taxon	sequenceID	host	name	subgenus	scaffold	orientation
-alignment/AL_PSIV/member/ncbi-curated-erv/FJ707345	FJ707345	Cheirogaleus medius	PSIV2	-	-	-
-alignment/AL_PSIV/member/fasta-digs-erv/PSIV1.1-Microcebus_murinus	PSIV1.1-Microcebus_murinus	Microcebus murinus	PSIV1	-	scaffold_33011	+
-alignment/AL_PSIV/member/fasta-digs-erv/PSIV1.2-Microcebus_griseorufus	PSIV1.2-Microcebus_griseorufus	Microcebus griseorufus	PSIV1	-	VSMI01016508.1	+
-alignment/AL_PSIV/member/fasta-digs-erv/PSIV1.2-Microcebus_murinus	PSIV1.2-Microcebus_murinus	Microcebus murinus	PSIV1	-	scaffold_54450	-
-alignment/AL_PSIV/member/fasta-digs-erv/PSIV1.3-Microcebus_tavaratra	PSIV1.3-Microcebus_tavaratra	Microcebus tavaratra	PSIV1	-	VSME01059698.1	+
-alignment/AL_PSIV/member/fasta-refseqs-erv/PSIV2-con	PSIV2-con	Cheirogaleus	PSIV2	Prosimian	-	-

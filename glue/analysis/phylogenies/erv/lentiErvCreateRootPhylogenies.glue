@@ -32,25 +32,25 @@
   module lentiRaxmlPhylogenyGenerator
 
 
-    #generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvGag \
-    #  -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/root/lenti-gag-prot.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvGag \
+      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/root/lenti-gag-prot.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvProPol \
-    #  -w "fLocNotes.featureLoc.feature.name = 'pro-pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/root/lenti-propol-prot.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvProPol \
+      -w "fLocNotes.featureLoc.feature.name = 'pro-pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/root/lenti-propol-prot.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvCapsid \
-    #  -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/root/lenti-ca-prot.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvCapsid \
+      -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/root/lenti-ca-prot.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvRt \
-    #  -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/root/lenti-rt-prot.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvRt \
+      -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/root/lenti-rt-prot.tre NEWICK_BOOTSTRAPS
 
-    #generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvDutpase \
-    #  -w "fLocNotes.featureLoc.feature.name = 'dUTPase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/root/lenti-dutpase-prot.tre NEWICK_BOOTSTRAPS
+    generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvDutpase \
+      -w "fLocNotes.featureLoc.feature.name = 'dUTPase' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/root/lenti-dutpase-prot.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvIntegrase \
       -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
