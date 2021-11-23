@@ -273,7 +273,13 @@
   feature vpu set field displayName "vpu"
   feature vpu set metatag OWN_CODON_NUMBERING true
   feature vpu set metatag INCLUDE_IN_SUMMARY true
-  feature vpu set metatag CODES_AMINO_ACIDS true
+  feature vpu set metatag CODES_AMINO_ACIDS true 
+  
+  create feature vpx -p whole_genome "vpx gene"
+  feature vpx set field displayName "vpx"
+  feature vpx set metatag OWN_CODON_NUMBERING true
+  feature vpx set metatag INCLUDE_IN_SUMMARY true
+  feature vpx set metatag CODES_AMINO_ACIDS true
 
   create feature nef -p whole_genome "nef gene"
   feature nef set field displayName "nef"
