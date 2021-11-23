@@ -13,6 +13,7 @@ _.each(loadResult, function(ervObj) {
 		glue.command(["set", "field", "start", ervObj.extract_start]);
 		glue.command(["set", "field", "end", ervObj.extract_end]);
 		glue.command(["set", "field", "orientation", ervObj.orientation]);
+		glue.command(["set", "field", "locus_numeric_id", ervObj.locus_numeric_id]);
 
 	});
 
