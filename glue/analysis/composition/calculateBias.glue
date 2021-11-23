@@ -1,0 +1,5 @@
+# Export the sequences using fasta exporter
+
+# Get the result
+
+// module fastaExporter export -w "source.name = 'fasta-refseqs-erv'" -r -p
