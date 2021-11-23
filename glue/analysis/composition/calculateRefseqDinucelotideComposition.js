@@ -1,5 +1,6 @@
+// Script to calculate dinucleotide composition in reference sequences
 
-nucCompositionResults = {}
+dinucCompositionResults = {}
 
 // export reference sequences from GLUE
 glue.inMode("module/fastaExporter", function(){
@@ -11,31 +12,42 @@ glue.inMode("module/fastaExporter", function(){
 
 	
         //loop through each sequence in the alignment
-        seqNucComposition = {}
+        seqDinucComposition = {}
         
         var sequence   = seq.sequence;
         var sequenceId = seq.id;
 		glue.log("INFO", "ID result was:", sequenceId);
 
 	    //loop through each position in the current sequence
+	    var lastBase;
 		for (var i=0; i < seq.sequence.length; i++) {
-			var key = "pos_" + (i + 1);
+
 			var base = seq.sequence.charAt(i);
 			
-			if (seqNucComposition[base]) {
-
-			    seqNucComposition[base] += 1;
+			if (lastBase) {
 			
+			    var dinuc = lastBase += base;
+			
+				if (seqDinucComposition[dinuc]) {
+
+					seqDinucComposition[dinuc] += 1;
+			
+				}
+				else {
+					seqDinucComposition[dinuc] = 1;
+				}
+				
+				lastBase = undefined;
+				
 			}
 			else {
-
-                seqNucComposition[base] = 1;
-			}
 			
+			  lastBase = base;
+			}		
 		}
-        glue.log("INFO", "Composition result was:", seqNucComposition);
-        
-        nucCompositionResults[sequenceId] = seqNucComposition;
+		
+        glue.log("INFO", "Dinucleotide composition result was:", seqDinucComposition);
+        dinucCompositionResults[sequenceId] = seqDinucComposition;
 			
 	});
 
