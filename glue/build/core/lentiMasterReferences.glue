@@ -307,7 +307,7 @@
 
     add feature-location 5U5
     feature-location 5U5
-      add segment 303 320
+      add segment 174 299
       exit
          
     add feature-location PBS
@@ -463,6 +463,16 @@
       add segment 5236 5991
       exit
 
+    add feature-location vpx
+    feature-location vpx
+      add segment 5344 5613
+      exit
+
+    add feature-location vpr
+    feature-location vpr
+      add segment 5682 5996
+      exit
+
     add feature-location env
     feature-location env
       add segment 6266 8836
@@ -590,7 +600,7 @@
 
 
 
-   reference REF_EIAV_As
+  reference REF_EIAV_As
 
     add feature-location whole_genome
     feature-location whole_genome
