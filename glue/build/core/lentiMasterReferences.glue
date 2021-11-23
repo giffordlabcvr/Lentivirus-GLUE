@@ -2,11 +2,13 @@
 
   # Primate
   create reference REF_HIV_1M ncbi-refseqs AF033819
+  create reference REF_HIV_2A ncbi-refseqs X05291
   
+    
   # Feline immunodeficiency virus (Petuluma)
   create reference REF_FIV ncbi-refseqs M25381
   create reference REF_FIV_pco ncbi-refseqs EF455613
-  create reference REF_FIV_oma ncbi-refseqs U56928
+  create reference REF_FIV_oma ncbi-refseqs X05291
   
   # Equine
   create reference REF_EIAV_Am ncbi-refseqs AF016316
@@ -286,6 +288,92 @@
   exit 
  
 
+  reference REF_HIV_2A
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9671
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 299
+      exit
+
+    add feature-location 5R
+    feature-location 5R
+      add segment 1 173
+      exit
+
+    add feature-location 5U5
+    feature-location 5U5
+      add segment 303 320
+      exit
+         
+    add feature-location PBS
+    feature-location PBS
+      add segment 303 320
+      exit   
+
+    add feature-location gag
+    feature-location gag
+      add segment 546 2114
+      exit
+     
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1829 4936  
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4869 5513
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5845 6140 --spliceIndex 1
+      add segment 8307 8403 --spliceIndex 2
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 6071 6140 --spliceIndex 1
+      add segment 8307 8539 --spliceIndex 2
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6147 8723
+      exit
+      
+    add feature-location nef
+    feature-location nef
+      add segment 8557 9324
+      exit
+
+    add feature-location PPT
+    feature-location PPT
+      add segment 8925 8939
+      exit
+      
+    add feature-location 3U3
+    feature-location 3U3
+      add segment 8942 9497
+      exit
+
+    add feature-location 3R
+    feature-location 3R
+      add segment 9498 9671
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8942 9671
+      exit
+       
+  exit 
+ 
 
 
   reference REF_FIV
