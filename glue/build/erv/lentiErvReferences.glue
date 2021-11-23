@@ -13,7 +13,7 @@
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	8912
+	  add segment 1	8867
 	  exit
   
 	add feature-location 5LTR
@@ -103,27 +103,27 @@
   	  
  	add feature-location env
 	feature-location env
-	  add segment 5472 8342
+	  add segment 5432 8341
 	  exit
 	  
  	add feature-location surface
 	feature-location surface
-	  add segment 5733 7538
+	  add segment 5432 7537
 	  exit
 	  
  	add feature-location transmembrane
 	feature-location transmembrane
-	  add segment 7539 8342
+	  add segment 7538 8341
 	  exit
 	  
 	add feature-location RRE
 	feature-location RRE
-	  add segment 7459 7751
+	  add segment 7459 7750
 	  exit
 
 	add feature-location rev
 	feature-location rev
-	  add segment 8145 8378
+	  add segment 8143 8376
 	  exit
  	  
 	add feature-location PPT
@@ -133,7 +133,7 @@
  
 	add feature-location 3LTR
 	feature-location 3LTR
-	  add segment 8416 8912
+	  add segment 8371 8867
 	  exit
     
 	exit 
