@@ -51,4 +51,15 @@ glue.inMode("module/fastaExporter", function(){
 			
 	});
 
+    
+	// Format sequences
+	_.each(list, function(seq)  {
+
+
+
+			
+	});
+
+
+
 });

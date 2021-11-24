@@ -49,7 +49,7 @@
       -o trees/root/lenti-rt-prot.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvDutpase \
-      -w "fLocNotes.featureLoc.feature.name = 'dUTPase' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'dUTPase' and fLocNotes.ref_nt_coverage_pct >= 90" \
       -o trees/root/lenti-dutpase-prot.tre NEWICK_BOOTSTRAPS
 
     generate amino-acid phylogeny AL_ROOT -s alignmentColumnsSelectorLentiErvIntegrase \
