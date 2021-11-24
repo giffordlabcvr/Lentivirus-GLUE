@@ -519,22 +519,72 @@
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	4784
+	  add segment 1	4790
 	  exit
   
 	add feature-location 5LTR
 	feature-location 5LTR
 	  add segment 1	481
 	  exit
+
+	add feature-location TAR
+	feature-location TAR
+	  add segment 196 268
+	  exit
+
+	add feature-location PBS
+	feature-location PBS
+	  add segment 506 523
+	  exit
  
  	add feature-location gag
 	feature-location gag
-	  add segment 713 2365
+	  add segment 713 2097
+	  exit
+  
+	add feature-location matrix
+	feature-location matrix
+	  add segment 713 1221
+	  exit
+  
+	add feature-location capsid
+	feature-location capsid
+	  add segment 1222 1788
+	  exit
+  
+	add feature-location nucleocapsid
+	feature-location nucleocapsid
+	  add segment 1789 2097
+	  exit
+
+	add feature-location pro-pol
+	feature-location pro-pol
+	  add segment 2098 4792
+	  exit
+
+	add feature-location pro
+	feature-location pro
+	  add segment 2098 2640
 	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2366 4783
+	  add segment 2098 4783
+	  exit
+
+	add feature-location RT
+	feature-location RT
+	  add segment 2241 3937
+	  exit
+
+	add feature-location RNaseH
+	feature-location RNaseH
+	  add segment 3938 3921
+	  exit
+
+	add feature-location dUTPase
+	feature-location dUTPase
+	  add segment 3922 4790
 	  exit
 
 	exit
