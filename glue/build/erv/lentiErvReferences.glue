@@ -593,7 +593,7 @@
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	4784
+	  add segment 1	4775
 	  exit
   
 	add feature-location 5LTR
@@ -633,7 +633,7 @@
 
 	add feature-location pro-pol
 	feature-location pro-pol
-	  add segment 2098 4784
+	  add segment 2098 4775
 	  exit
 
 	add feature-location pro
@@ -643,7 +643,7 @@
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2098 4784
+	  add segment 2098 4775
 	  exit
 
 	add feature-location RT
@@ -658,7 +658,7 @@
 
 	add feature-location dUTPase
 	feature-location dUTPase
-	  add segment 4287 4784
+	  add segment 4287 4775
 	  exit
 
 	exit
