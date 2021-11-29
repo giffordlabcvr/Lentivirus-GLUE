@@ -55,7 +55,14 @@
 	feature-location nucleocapsid
 	  add segment 1749 2030
 	  exit
-      
+  
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 597 1880 --spliceIndex 1
+      add segment 1881 1885 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1886 5212 --spliceIndex 3
+      exit
+     
     add feature-location FS
     feature-location FS  
       add segment 1880 1912
@@ -63,21 +70,14 @@
     
     add feature-location FS-slippery-seq
     feature-location FS-slippery-seq  
-      add segment 1813 1819
+      add segment 1880 1886
       exit
 
     add feature-location FS-stemloop
     feature-location FS-stemloop  
-      add segment 1894 1912
+      add segment 1887 1912
       exit
-
-    add feature-location gag-pol
-    feature-location gag-pol
-      add segment 597 1880 --spliceIndex 1
-      add segment 1880 1884 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
-      add segment 1885 5212 --spliceIndex 3
-      exit
-
+      
 	add feature-location pro-pol
 	feature-location pro-pol
 	  add segment 1880 5212
@@ -208,7 +208,6 @@
 	  add segment 1452 1544
 	  exit
 
-
 	add feature-location pro-pol
 	feature-location pro-pol
 	  add segment 1454 4711
@@ -218,7 +217,6 @@
 	feature-location pol
 	  add segment 1844 4711
 	  exit
-
 
 	add feature-location pro
 	feature-location pro
@@ -308,6 +306,28 @@
 	feature-location nucleocapsid
 	  add segment 1505 1795
 	  exit
+  
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 473 1672 --spliceIndex 1
+      add segment 1673 1677 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1678 4977 --spliceIndex 3
+      exit
+     
+    add feature-location FS
+    feature-location FS  
+      add segment 1669 1772
+      exit
+    
+    add feature-location FS-slippery-seq
+    feature-location FS-slippery-seq  
+      add segment 1669 1675
+      exit
+
+    add feature-location FS-stemloop
+    feature-location FS-stemloop  
+      add segment 1681 1772
+      exit
 
 	add feature-location pro-pol
 	feature-location pro-pol
@@ -382,44 +402,71 @@
 
 	exit 
 
+
   reference REF_MELV
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	9112
+	  add segment 1	9113
 	  exit
   
 	add feature-location 5LTR
 	feature-location 5LTR
-	  add segment 1	530
+	  add segment 1	531
 	  exit
-  
+
+	add feature-location TATA_box
+	feature-location TATA_box
+	  add segment 239 245
+	  exit
+
+	add feature-location TAR
+	feature-location TAR
+	  add segment 532 636
+	  exit
+
 	add feature-location gag
 	feature-location gag
-	  add segment 723 1892
+	  add segment 724 2097
+	  exit
+
+	add feature-location pro-pol
+	feature-location pro-pol
+	  add segment 1944 5261
+	  exit
+
+	add feature-location pro
+	feature-location pro
+	  add segment 1944 2468
 	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 1898 5260
+	  add segment 2469 5261
 	  exit
 
 	add feature-location vif
 	feature-location vif
-	  add segment 5400 5849
+	  add segment 5401 5850
 	  exit
 
 	add feature-location env
 	feature-location env
-	  add segment 6082 8664
+	  add segment 6083 8665
+	  exit
+	  
+	add feature-location RRE
+	feature-location RRE
+	  add segment 8041 8281
 	  exit
 
 	add feature-location 3LTR
 	feature-location 3LTR
-	  add segment 8872 9112
+	  add segment 8873 9113
 	  exit
     
 	exit 
+
 
 
   reference REF_DELV
@@ -443,7 +490,7 @@
 	feature-location PBS
 	  add segment 442 459
 	  exit
-  
+
 	add feature-location gag
 	feature-location gag
 	  add segment 557 1966
@@ -541,7 +588,7 @@
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	4790
+	  add segment 1	4784
 	  exit
   
 	add feature-location 5LTR
@@ -581,7 +628,7 @@
 
 	add feature-location pro-pol
 	feature-location pro-pol
-	  add segment 2098 4792
+	  add segment 2098 4784
 	  exit
 
 	add feature-location pro
@@ -601,15 +648,13 @@
 
 	add feature-location RNaseH
 	feature-location RNaseH
-	  add segment 3938 3921
+	  add segment 3938 4286
 	  exit
 
 	add feature-location dUTPase
 	feature-location dUTPase
-	  add segment 3922 4790
+	  add segment 4287 4784
 	  exit
 
 	exit
-
-
 
