@@ -412,7 +412,12 @@
   
 	add feature-location 5LTR
 	feature-location 5LTR
-	  add segment 1	531
+	  add segment 1	584
+	  exit
+
+	add feature-location PBS
+	feature-location PBS
+	  add segment 587 606
 	  exit
 
 	add feature-location TATA_box
@@ -422,7 +427,7 @@
 
 	add feature-location TAR
 	feature-location TAR
-	  add segment 532 636
+	  add segment 281 442
 	  exit
 
 	add feature-location gag
@@ -608,22 +613,22 @@
  
  	add feature-location gag
 	feature-location gag
-	  add segment 713 2097
+	  add segment 713 2095
 	  exit
   
 	add feature-location matrix
 	feature-location matrix
-	  add segment 713 1221
+	  add segment 713 1219
 	  exit
   
 	add feature-location capsid
 	feature-location capsid
-	  add segment 1222 1788
+	  add segment 1220 1786
 	  exit
   
 	add feature-location nucleocapsid
 	feature-location nucleocapsid
-	  add segment 1789 2097
+	  add segment 1787 2095
 	  exit
 
 	add feature-location pro-pol
@@ -638,7 +643,7 @@
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2098 4783
+	  add segment 2098 4784
 	  exit
 
 	add feature-location RT
