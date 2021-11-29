@@ -55,6 +55,28 @@
 	feature-location nucleocapsid
 	  add segment 1749 2030
 	  exit
+      
+    add feature-location FS
+    feature-location FS  
+      add segment 1880 1912
+      exit
+    
+    add feature-location FS-slippery-seq
+    feature-location FS-slippery-seq  
+      add segment 1813 1819
+      exit
+
+    add feature-location FS-stemloop
+    feature-location FS-stemloop  
+      add segment 1894 1912
+      exit
+
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 597 1880 --spliceIndex 1
+      add segment 1880 1884 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1885 5212 --spliceIndex 3
+      exit
 
 	add feature-location pro-pol
 	feature-location pro-pol
