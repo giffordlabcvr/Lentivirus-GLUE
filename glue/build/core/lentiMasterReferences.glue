@@ -521,7 +521,44 @@
 
     add feature-location gag
     feature-location gag
-      add segment 465 1925
+      add segment 465 1916
+      exit
+     
+    add feature-location matrix
+    feature-location matrix
+      add segment 465 827
+      exit     
+      
+    add feature-location capsid
+    feature-location capsid
+      add segment 828 1565
+      exit
+
+    add feature-location nucleocapsid
+    feature-location nucleocapsid
+      add segment 1566 1916
+      exit
+  
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 465 1709 --spliceIndex 1
+      add segment 1710 1714 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1715 5122 --spliceIndex 3
+      exit
+     
+    add feature-location FS
+    feature-location FS  
+      add segment 1706 1757
+      exit
+    
+    add feature-location FS-slippery-seq
+    feature-location FS-slippery-seq  
+      add segment 1706 1712
+      exit
+
+    add feature-location FS-stemloop
+    feature-location FS-stemloop  
+      add segment 1713 1757
       exit
 
     add feature-location pro-pol
