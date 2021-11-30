@@ -644,7 +644,7 @@
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	4572
+	  add segment 1	4110
 	  exit
   
 	add feature-location 5LTR
@@ -664,7 +664,7 @@
  
  	add feature-location gag
 	feature-location gag
-	  add segment 713 2095
+	  add segment 713 2125
 	  exit
   
 	add feature-location matrix
@@ -679,37 +679,45 @@
   
 	add feature-location nucleocapsid
 	feature-location nucleocapsid
-	  add segment 1787 2092
+	  add segment 1787 2125
 	  exit
 
 	add feature-location pro-pol
 	feature-location pro-pol
-	  add segment 2095 4572
+	  add segment 2092 4110
 	  exit
+  
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 713 2098 --spliceIndex 1
+      add segment 2099 2103 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 2104 4110 --spliceIndex 3
+      exit
+     
 
 	add feature-location pro
 	feature-location pro
-	  add segment 2095 2427
+	  add segment 2092 2424
 	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2428 4572
+	  add segment 2425 4110
 	  exit
 
 	add feature-location RT
 	feature-location RT
-	  add segment 2428 3720
+	  add segment 2425 3717
 	  exit
 
 	add feature-location RNaseH
 	feature-location RNaseH
-	  add segment 3721 4071
+	  add segment 3718 4068
 	  exit
 
 	add feature-location dUTPase
 	feature-location dUTPase
-	  add segment 4072 4572
+	  add segment 4069 4110
 	  exit
 
 	exit

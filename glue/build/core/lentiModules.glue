@@ -10,3 +10,4 @@
 
   # Exporters 
   create module -t fastaExporter
+  create module -t fastaProteinExporter

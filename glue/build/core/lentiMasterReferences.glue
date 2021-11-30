@@ -307,7 +307,29 @@
     feature-location gag
       add segment 546 2114
       exit
+   
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 546 1835 --spliceIndex 1
+      add segment 1836 1840 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1841 5200 --spliceIndex 3
+      exit
+     
+    add feature-location FS
+    feature-location FS  
+      add segment 1838 1895
+      exit
     
+    add feature-location FS-slippery-seq
+    feature-location FS-slippery-seq  
+      add segment 1838 1843
+      exit
+
+    add feature-location FS-stemloop
+    feature-location FS-stemloop  
+      add segment 1850 1895
+      exit
+
     add feature-location pro-pol
     feature-location pro-pol
       add segment 1829 5200  
@@ -563,7 +585,7 @@
     feature-location gag-pol
       add segment 465 1709 --spliceIndex 1
       add segment 1710 1714 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
-      add segment 1715 5122 --spliceIndex 3
+      add segment 1715 5107 --spliceIndex 3
       exit
      
     add feature-location FS
@@ -583,7 +605,7 @@
 
     add feature-location pro-pol
     feature-location pro-pol
-      add segment 1682 5122
+      add segment 1682 5107
       exit
 
     add feature-location pro
@@ -593,7 +615,7 @@
 
     add feature-location pol
     feature-location pol
-      add segment 2267 5122
+      add segment 2267 5107
       exit
            
     add feature-location env
@@ -722,12 +744,34 @@
          
     add feature-location nucleocapsid
     feature-location nucleocapsid
-      add segment 1452 1763
+      add segment 1452 1817
+      exit
+   
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 489 1757 --spliceIndex 1
+      add segment 1758 1762 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1763 5008 --spliceIndex 3
+      exit
+     
+    add feature-location FS
+    feature-location FS  
+      add segment 1763 1815
+      exit
+    
+    add feature-location FS-slippery-seq
+    feature-location FS-slippery-seq  
+      add segment 1763 1770
+      exit
+
+    add feature-location FS-stemloop
+    feature-location FS-stemloop  
+      add segment 1771 1815
       exit
       
     add feature-location pro-pol
     feature-location pro-pol
-      add segment 1703 5005
+      add segment 1703 5008
       exit
 
     add feature-location pro
@@ -737,18 +781,13 @@
 
     add feature-location pol
     feature-location pol
-      add segment 2132 5005
+      add segment 2132 5008
       exit
 
     add feature-location RT
     feature-location RT
       add segment 2306 3340
       exit
- 
-    add feature-location IN
-    feature-location IN
-      add segment 4157 5005
-      exit   
       
     add feature-location vif
     feature-location vif
