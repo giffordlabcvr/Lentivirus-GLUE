@@ -4,7 +4,7 @@ nucCompositionResults = {}
 // export reference sequences from GLUE
 glue.inMode("module/fastaExporter", function(){
 
-	var sequences = glue.command(["export","-w","source.name like '%tRNA%'","-p"]);
+	var sequences = glue.command(["export","-w","source.name like '%refseq%'","-p"]);
 	var list = sequences.nucleotideFasta.sequences;
 	
 	_.each(list, function(seq)  {

@@ -273,12 +273,10 @@
       add segment 9086	9181
       exit
 
-
     add feature-location 3TSS
     feature-location 3TSS
       add segment 9085 9087
       exit
-
 
     add feature-location 3LTR
     feature-location 3LTR
@@ -319,10 +317,20 @@
     feature-location gag
       add segment 546 2114
       exit
-     
+    
     add feature-location pro-pol
     feature-location pro-pol
-      add segment 1829 4936  
+      add segment 1878 4936  
+      exit
+    
+    add feature-location pro
+    feature-location pro
+      add segment 1878 2330
+      exit
+    
+    add feature-location pol
+    feature-location pol
+      add segment 2331 4936  
       exit
 
     add feature-location vif
@@ -422,6 +430,28 @@
     feature-location nucleocapsid
       add segment 1732 1980
       exit
+   
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 628 1872 --spliceIndex 1
+      add segment 1873 1877 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1878 4936 --spliceIndex 3
+      exit
+     
+    add feature-location FS
+    feature-location FS  
+      add segment 1878 1931
+      exit
+    
+    add feature-location FS-slippery-seq
+    feature-location FS-slippery-seq  
+      add segment 1878 1884
+      exit
+
+    add feature-location FS-stemloop
+    feature-location FS-stemloop  
+      add segment 1885 1931
+      exit
 
     add feature-location pro-pol
     feature-location pro-pol
@@ -502,11 +532,11 @@
 
 
 
-   reference REF_EIAV_Am
+  reference REF_EIAV_Am
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 8285
+      add segment 1 8282
       exit
 
     add feature-location 5LTR
@@ -583,7 +613,7 @@
 
     add feature-location 3LTR
     feature-location 3LTR
-      add segment 7909 8229
+      add segment 7909 8282
       exit
       
   exit 
@@ -659,15 +689,15 @@
     feature-location whole_genome
       add segment 1 9202
       exit
-    
-    add feature-location PBS
-    feature-location PBS
-      add segment 162 178
-      exit
       
     add feature-location 5LTR
     feature-location 5LTR
       add segment 1 321
+      exit
+    
+    add feature-location PBS
+    feature-location PBS
+      add segment 162 178
       exit
          
     add feature-location gag
@@ -724,7 +754,6 @@
     feature-location env
       add segment 5956 8907
       exit
-
 
   exit 
   
