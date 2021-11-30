@@ -207,6 +207,13 @@
 	feature-location nucleocapsid
 	  add segment 1452 1544
 	  exit
+  
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 492 1454 --spliceIndex 1
+      add segment 1455 1459 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1460 4711 --spliceIndex 3
+      exit
 
 	add feature-location pro-pol
 	feature-location pro-pol
@@ -434,6 +441,28 @@
 	feature-location gag
 	  add segment 724 2097
 	  exit
+  
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 724 2070 --spliceIndex 1
+      add segment 2071 2075 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 2076 5261 --spliceIndex 3
+      exit
+     
+    add feature-location FS
+    feature-location FS  
+      add segment 2065 2169
+      exit
+    
+    add feature-location FS-slippery-seq
+    feature-location FS-slippery-seq  
+      add segment 2065 2071
+      exit
+
+    add feature-location FS-stemloop
+    feature-location FS-stemloop  
+      add segment 2084 2169
+      exit
 
 	add feature-location pro-pol
 	feature-location pro-pol
@@ -513,8 +542,30 @@
   
 	add feature-location nucleocapsid
 	feature-location nucleocapsid
-	  add segment 1619 1966
+	  add segment 1619 1834
 	  exit
+  
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 557 1834 --spliceIndex 1
+      add segment 1835 1839 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1840 5172 --spliceIndex 3
+      exit
+     
+    add feature-location FS
+    feature-location FS  
+      add segment 1831 1893
+      exit
+    
+    add feature-location FS-slippery-seq
+    feature-location FS-slippery-seq  
+      add segment 1831 1837
+      exit
+
+    add feature-location FS-stemloop
+    feature-location FS-stemloop  
+      add segment 1867 1893
+      exit
 
 	add feature-location pro-pol
 	feature-location pro-pol
@@ -593,7 +644,7 @@
 
 	add feature-location whole_genome
 	feature-location whole_genome
-	  add segment 1	4775
+	  add segment 1	4572
 	  exit
   
 	add feature-location 5LTR
@@ -628,37 +679,37 @@
   
 	add feature-location nucleocapsid
 	feature-location nucleocapsid
-	  add segment 1787 2095
+	  add segment 1787 2092
 	  exit
 
 	add feature-location pro-pol
 	feature-location pro-pol
-	  add segment 2098 4775
+	  add segment 2095 4572
 	  exit
 
 	add feature-location pro
 	feature-location pro
-	  add segment 2098 2640
+	  add segment 2095 2427
 	  exit
 
 	add feature-location pol
 	feature-location pol
-	  add segment 2098 4775
+	  add segment 2428 4572
 	  exit
 
 	add feature-location RT
 	feature-location RT
-	  add segment 2241 3937
+	  add segment 2428 3720
 	  exit
 
 	add feature-location RNaseH
 	feature-location RNaseH
-	  add segment 3938 4286
+	  add segment 3721 4071
 	  exit
 
 	add feature-location dUTPase
 	feature-location dUTPase
-	  add segment 4287 4775
+	  add segment 4072 4572
 	  exit
 
 	exit

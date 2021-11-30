@@ -648,8 +648,6 @@
 
 
 
-
-
   reference REF_BIV
 
     add feature-location whole_genome
@@ -665,6 +663,28 @@
     add feature-location gag
     feature-location gag
       add segment 316 1746
+      exit
+  
+    add feature-location gag-pol
+    feature-location gag-pol
+      add segment 316 1626 --spliceIndex 1
+      add segment 1627 1631 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
+      add segment 1632 4742 --spliceIndex 3
+      exit
+     
+    add feature-location FS
+    feature-location FS  
+      add segment 1629 1671
+      exit
+    
+    add feature-location FS-slippery-seq
+    feature-location FS-slippery-seq  
+      add segment 1629 1635
+      exit
+
+    add feature-location FS-stemloop
+    feature-location FS-stemloop  
+      add segment 1643 1671
       exit
 
     add feature-location pro-pol
@@ -689,7 +709,6 @@
        
   exit 
     
-
 
  
   reference REF_JDV
