@@ -506,7 +506,7 @@
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 8270
+      add segment 1 8285
       exit
 
     add feature-location 5LTR
@@ -589,101 +589,6 @@
   exit 
 
 
-   reference REF_EIAV_Eu
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 8275
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 311
-      exit
-
-    add feature-location gag
-    feature-location gag
-      add segment 455 1918
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1672 5115
-      exit
-           
-    add feature-location env
-    feature-location env
-      add segment 5321 7945
-      exit
-
-    add feature-location tat
-    feature-location tat
-      add segment 354 449   --spliceIndex 1
-      add segment 5128 5271 --spliceIndex 2
-      exit
-
-    add feature-location rev
-    feature-location rev
-      add segment 5468 5567 --spliceIndex 1
-      add segment 7289 7692 --spliceIndex 2
-      exit
-
-    add feature-location 3LTR
-    feature-location 3LTR
-      add segment 8073 8275
-      exit
-      
-  exit 
-
-
-
-  reference REF_EIAV_As
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 8235
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 316
-      exit
-
-    add feature-location gag
-    feature-location gag
-      add segment 713 1915
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1708 5112
-      exit
-      
-    add feature-location s2
-    feature-location s2
-      add segment 5279 5485
-      exit
-           
-    add feature-location env
-    feature-location env
-      add segment 5305	6002 --spliceIndex 1
-      add segment 6072	7902 --spliceIndex 2
-      exit
-
-    add feature-location rev
-    feature-location rev
-      add segment 5468 5567 --spliceIndex 1
-      add segment 7289 7692 --spliceIndex 2
-      exit
-
-    add feature-location 3LTR
-    feature-location 3LTR
-      add segment 7920 8235
-      exit
-      
-  exit 
-
-
 
   reference REF_BIV
 
@@ -746,75 +651,6 @@
        
   exit 
     
-
- 
-  reference REF_JDV
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 7732
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 108
-      exit
-         
-    add feature-location gag
-    feature-location gag
-      add segment 230 1540
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1321 4527
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 1321 1854
-      exit
- 
-    add feature-location pol
-    feature-location pol
-      add segment 1855 4527
-      exit
-          
-    add feature-location env
-    feature-location env
-      add segment 5197 7542
-      exit
-           
-    add feature-location vif
-    feature-location vif
-      add segment 4386 4979
-      exit
-           
-    add feature-location tat
-    feature-location tat
-      add segment 5010 5303
-      exit
-           
-    add feature-location rev
-    feature-location rev
-      add segment 5197 5335 --spliceIndex 1
-      add segment 7033 7535 --spliceIndex 2
-      exit
-           
-    add feature-location tmx
-    feature-location tmx
-      add segment 7048 7542
-      exit
-
-    add feature-location 3LTR
-    feature-location 3LTR
-      add segment 7625 7732
-      exit
-         
-
-  exit 
-    
-
 
 
   reference REF_SRLV_A
@@ -892,65 +728,4 @@
 
   exit 
   
-
-
-  reference REF_SRLV_B
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 9189
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 85
-      exit
-         
-    add feature-location gag
-    feature-location gag
-      add segment 512 1858
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1729 5046
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 1729 2172
-      exit
-
-    add feature-location pol
-    feature-location pol
-      add segment 2173 5046
-      exit
-
-    add feature-location vif
-    feature-location vif
-      add segment 5006 5695
-      exit
- 
-    add feature-location tat
-    feature-location tat
-      add segment 5688 5951
-      exit
-          
-    add feature-location env
-    feature-location env
-      add segment 6012 8846
-      exit
-           
-    add feature-location rev
-    feature-location rev
-      add segment 6012 6141 --spliceIndex 1
-      add segment 8514 8803 --spliceIndex 2
-      exit
-
-    add feature-location 3LTR
-    feature-location 3LTR
-      add segment 9105 9189
-      exit
-
-  exit 
 
