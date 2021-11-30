@@ -1,19 +1,17 @@
 <!-- Lentivirus main group references -->
 <ncbiImporter>
 
-  <sourceName>ncbi-refseqs</sourceName>
+  <sourceName>ncbi-refseqs-extended</sourceName>
   <giNumberFieldName>gb_gi_number</giNumberFieldName>
   
   <specificPrimaryAccessions>
 
 
 	<!-- Bovine group -->	
-	<primaryAccession>M32690</primaryAccession>
 	<primaryAccession>U21603</primaryAccession>
 
 
 	<!-- Smmall ruminant lentivirus group -->		
-	<primaryAccession>NC_001452</primaryAccession>
 	<primaryAccession>NC_001463</primaryAccession>
 	<primaryAccession>GQ381130</primaryAccession>
 	<primaryAccession>EU293537</primaryAccession>
@@ -22,19 +20,16 @@
 
 
 	<!-- Equine group -->		
-	<primaryAccession>AF016316</primaryAccession>
 	<primaryAccession>JX480632</primaryAccession>
 	<primaryAccession>AF327877</primaryAccession>
 	
 	
 	<!-- Feline group -->
-	<primaryAccession>M25381</primaryAccession>
 	<primaryAccession>EF455613</primaryAccession>
 	<primaryAccession>U56928</primaryAccession>
 
 
 	<!-- Primate group - SIV-cpz-gor-human -->	
-	<primaryAccession>AF033819</primaryAccession> <!-- HIV-1 master -->	
 	<primaryAccession>HM803689</primaryAccession>
 	<primaryAccession>M27470</primaryAccession>
 	<primaryAccession>L06042</primaryAccession>
@@ -56,7 +51,6 @@
 	<primaryAccession>JN091691</primaryAccession>
 	<primaryAccession>AY618998</primaryAccession>
 	<primaryAccession>KP861923</primaryAccession>
-	<primaryAccession>X05291</primaryAccession>
 
 	
   </specificPrimaryAccessions>
@@ -65,4 +59,3 @@
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   
 </ncbiImporter>
-

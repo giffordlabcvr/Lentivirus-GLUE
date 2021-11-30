@@ -1,8 +1,13 @@
-delete module lentiNcbiImporterReferences
+delete module lentiNcbiImporterCoreReferences
+delete module lentiNcbiImporterExtendedReferences
 
-create module -f modules/core/lentiNcbiImporterReferences.xml lentiNcbiImporterReferences
+create module -f modules/core/lentiNcbiImporterCoreReferences.xml lentiNcbiImporterCoreReferences
+create module -f modules/core/lentiNcbiImporterExtendedReferences.xml lentiNcbiImporterExtendedReferences
 
 # Download NCBI sequences 
-module lentiNcbiImporterReferences import
+module lentiNcbiImporterCoreReferences import
+module lentiNcbiImporterExtendedReferences import
 
-export source ncbi-refseqs
+export source ncbi-refseqs-core
+export source ncbi-refseqs-extended
+

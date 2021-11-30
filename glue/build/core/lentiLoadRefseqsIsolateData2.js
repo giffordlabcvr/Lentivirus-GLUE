@@ -1,7 +1,7 @@
-// Load EVE data from tab file 
+// Load ERV data from tab file 
 var loadResult;
 glue.inMode("module/lentiTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/core/lenti-reference-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/core/lenti-core-reference-data.tsv"]));
 	//glue.log("INFO", "load result was:", loadResult);
 });
 
@@ -16,7 +16,7 @@ _.each(loadResult, function(refSeqObj) {
 
 	});
 
-	glue.inMode("sequence/ncbi-refseqs/"+refSeqObj.sequenceID, function() {
+	glue.inMode("sequence/ncbi-refseqs-core/"+refSeqObj.sequenceID, function() {
 	
 		glue.command(["set", "field", "name", refSeqObj.name]);
 		glue.command(["set", "field", "full_name", refSeqObj.full_name]);

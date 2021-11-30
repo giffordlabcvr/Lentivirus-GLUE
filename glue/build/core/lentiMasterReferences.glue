@@ -1,31 +1,21 @@
   ## Reference sequence declarations
 
   # Primate
-  create reference REF_HIV_1M ncbi-refseqs AF033819
-  create reference REF_HIV_2A ncbi-refseqs X05291
-  
-    
+  create reference REF_HIV_1M ncbi-refseqs-core AF033819
+  create reference REF_HIV_2A ncbi-refseqs-core X05291
+   
   # Feline immunodeficiency virus (Petuluma)
-  create reference REF_FIV ncbi-refseqs M25381
-  create reference REF_FIV_pco ncbi-refseqs EF455613
-  create reference REF_FIV_oma ncbi-refseqs X05291
+  create reference REF_FIV ncbi-refseqs-core M25381
   
   # Equine
-  create reference REF_EIAV_Am ncbi-refseqs AF016316
-  create reference REF_EIAV_Eu ncbi-refseqs JX480632
-  create reference REF_EIAV_As ncbi-refseqs AF327877
+  create reference REF_EIAV_Am ncbi-refseqs-core AF016316
   
   # Bovine
-  create reference REF_BIV ncbi-refseqs M32690
-  create reference REF_JDV ncbi-refseqs U21603
+  create reference REF_BIV ncbi-refseqs-core M32690
   
   # Caprine-ovine
-  create reference REF_SRLV_A   ncbi-refseqs NC_001452
-  create reference REF_SRLV_B   ncbi-refseqs NC_001463
-  create reference REF_SRLV_C   ncbi-refseqs AF322109
-  create reference REF_SRLV_B3  ncbi-refseqs JF502416
-  create reference REF_SRLV_E1  ncbi-refseqs EU293537
-  create reference REF_SRLV_E2  ncbi-refseqs GQ381130
+  create reference REF_SRLV_A   ncbi-refseqs-core NC_001452
+
     
   reference REF_HIV_1M
 
@@ -320,17 +310,17 @@
     
     add feature-location pro-pol
     feature-location pro-pol
-      add segment 1878 4936  
+      add segment 1829 5200  
       exit
     
     add feature-location pro
     feature-location pro
-      add segment 1878 2330
+      add segment 1829 2449
       exit
     
     add feature-location pol
     feature-location pol
-      add segment 2331 4936  
+      add segment 2450 5200  
       exit
 
     add feature-location vif
@@ -435,7 +425,7 @@
     feature-location gag-pol
       add segment 628 1872 --spliceIndex 1
       add segment 1873 1877 --translationModifier lentiGagPolTranslationModifier --spliceIndex 2
-      add segment 1878 4936 --spliceIndex 3
+      add segment 1878 5240 --spliceIndex 3
       exit
      
     add feature-location FS
@@ -624,12 +614,12 @@
 
     add feature-location whole_genome
     feature-location whole_genome
-      add segment 1 8407
+      add segment 1 8482
       exit
 
     add feature-location 5LTR
     feature-location 5LTR
-      add segment 1 321
+      add segment 1 111
       exit
          
     add feature-location gag
@@ -678,6 +668,11 @@
     feature-location env
       add segment 5415 8129
       exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8372 8482
+      exit
        
   exit 
     
@@ -692,9 +687,19 @@
       
     add feature-location 5LTR
     feature-location 5LTR
-      add segment 1 321
+      add segment 1 161
       exit
-    
+
+    add feature-location 5R
+    feature-location 5R
+      add segment 1 98
+      exit
+
+    add feature-location 5U5
+    feature-location 5U5
+      add segment 99 161
+      exit     
+   
     add feature-location PBS
     feature-location PBS
       add segment 162 178
@@ -750,9 +755,35 @@
       add segment 4965 5657
       exit   
       
+    add feature-location tat
+    feature-location tat
+      add segment 5657 5941
+      exit   
+            
     add feature-location env
     feature-location env
       add segment 5956 8907
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 5956 6097 --spliceIndex 1
+      add segment 8530 8891 --spliceIndex 2
+      exit
+      
+    add feature-location 3U3
+    feature-location 3U3
+      add segment 8852 9105
+      exit
+
+    add feature-location 3R
+    feature-location 3R
+      add segment 9106	9202
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8852 9202
       exit
 
   exit 
