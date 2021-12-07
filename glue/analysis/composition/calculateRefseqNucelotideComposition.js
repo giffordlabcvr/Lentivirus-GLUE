@@ -31,7 +31,9 @@ glue.inMode("module/fastaExporter", function(){
 
                 seqNucComposition[base] = 1;
 			}
-			
+
+
+		
 		}
         glue.log("INFO", "Nucleotide composition result was:", seqNucComposition);
         
@@ -40,3 +42,6 @@ glue.inMode("module/fastaExporter", function(){
 	});
 
 });
+
+
+

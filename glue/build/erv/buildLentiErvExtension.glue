@@ -11,7 +11,7 @@ project lentivirus
   # Import NCBI reference sequences 
   run file glue/build/erv/lentiImportSources.glue
 
-  # Load side data
+  # Load ERV side data
   run file glue/build/erv/lentiErvLoadData.glue
 
   # Create lentivirus ERV reference sequences
@@ -27,10 +27,8 @@ project lentivirus
   run file glue/build/erv/lentiErvAlignmentTree.glue
 
   # Import tip alignments
-  #run file glue/build/erv/lentiErvTipAlignments.glue
-  #run file glue/build/erv/lentiErvDeriveConstrainedTipAlignments.glue
-  
-  # Record feature presence
+  run file glue/build/erv/lentiErvTipAlignments.glue
+  run file glue/build/erv/lentiErvDeriveConstrainedTipAlignments.glue
   run file glue/build/erv/lentiErvRecordFeaturePresence.glue
 
   # Validate

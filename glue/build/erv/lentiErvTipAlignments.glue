@@ -1,12 +1,12 @@
 delete module unconstrainedAlignmentImporterSimple
-create module -f modules/erv/unconstrainedAlignmentImporterSimple.xml
+create module -f modules/core/unconstrainedAlignmentImporterSimple.xml
 
 #~# Import pre-built alignments of lentivirus ERVs
 
-module unconstrainedAlignmentImporter
+module unconstrainedAlignmentImporterSimple
 
-  import AL_UNC_DELV             -f alignments/tip/delv/delv.aln.fna
-  import AL_UNC_SpELV            -f alignments/tip/spelv/spelv.aln.fna
+  #import AL_UNC_DELV             -f alignments/tip/delv/delv.aln.fna
+  #import AL_UNC_SpELV            -f alignments/tip/spelv/spelv.aln.fna
   import AL_UNC_RELIK            -f alignments/tip/relik/relik.aln.fna
   import AL_UNC_MELV             -f alignments/tip/melv/melv.aln.fna
   import AL_UNC_PSIV1            -f alignments/tip/psiv1/psiv1.aln.fna
