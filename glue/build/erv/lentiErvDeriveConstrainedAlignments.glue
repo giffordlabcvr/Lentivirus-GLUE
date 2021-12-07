@@ -1,0 +1,9 @@
+
+  #~# Derive constrained alignment segments from unconstrained alignments
+  alignment AL_RELIK derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_MELV derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_PSIV1 derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_PSIV2 derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_DELV derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
+  alignment AL_DELV derive segments AL_UNC_ROOT_ERV -a --existingMembersOnly --mergeStrategy OVERWRITE
+

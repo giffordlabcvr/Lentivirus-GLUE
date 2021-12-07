@@ -19,11 +19,14 @@ project lentivirus
   # Compute alignments
   #run file glue/build/erv/lentiErvComputeAlignments.glue
 
-  # Import alignments
-  run file glue/build/erv/lentiErvAlignments.glue
+  # Import root alignment
+  run file glue/build/erv/lentiErvRootAlignment.glue
 
   # Add lentivirus ERV alignments to constrained alignment tree 
   run file glue/build/erv/lentiErvAlignmentTree.glue
+
+  # Import tip alignments
+  run file glue/build/erv/lentiErvTipAlignments.glue
 
   # Record feature presence
   run file glue/build/erv/lentiErvRecordFeaturePresence.glue
