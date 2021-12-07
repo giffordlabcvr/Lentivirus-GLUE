@@ -1,5 +1,5 @@
-// list the sequences in source ncbi-refseqs-core
-var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-core'"]);
+// list the sequences in source ncbi-refseqs-extended
+var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-extended'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
@@ -11,10 +11,7 @@ _.each(seqIds, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-refseqs-core/"+seqId, function() {
+    glue.inMode("sequence/ncbi-refseqs-extended/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 });
-
-
-

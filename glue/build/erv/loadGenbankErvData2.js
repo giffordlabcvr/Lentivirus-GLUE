@@ -16,18 +16,22 @@ glue.inMode("module/lentiTabularUtility", function() {
 
 _.each(loadResult, function(ervObj) {
 
-	glue.inMode("custom-table-row/locus_data/"+ervObj.sequenceID, function() {
-	
-		//glue.log("INFO", "Entering locus data for sequence:", ervObj.sequenceID);
-		//glue.command(["set", "field", "locus_name", ervObj.locus_name]);
-		//glue.command(["set", "field", "locus_numeric_id", ervObj.locus_numeric_id]);
-		//glue.command(["set", "field", "host_sci_name", ervObj.organism]);
-		glue.command(["set", "field", "host_sci_name", ervObj.organism]);
-
-	});
-
 
 	if (ervObj.empty_site != 'yes') { // Skip empty sites
+
+		glue.inMode("custom-table-row/locus_data/"+ervObj.sequenceID, function() {
+	
+			//glue.log("INFO", "Entering locus data for sequence:", ervObj.sequenceID);
+
+			//glue.command(["set", "field", "locus_name", ervObj.locus_name]);
+			glue.command(["set", "field", "scaffold", ervObj.name]);
+			glue.command(["set", "field", "host_sci_name", ervObj.organism]);
+
+			glue.command(["set", "field", "start", 1]);
+			glue.command(["set", "field", "end", ervObj.sequence_length]);
+
+		
+		});
 	
 		// Does an alignment exist for this locus ID
 		//glue.log("INFO", "Getting taxonomic data for sequence:", ervObj.sequenceID);
@@ -36,12 +40,12 @@ _.each(loadResult, function(ervObj) {
 		var ervRefConObj = ervRefseqResultMap[ervObj.locus_numeric_id];
 		//glue.log("INFO", "LOADED REFCON INFO ", ervRefConObj);
 	
-
 		glue.inMode("sequence/"+source_name+"/"+ervObj.sequenceID, function() {
 
 			glue.command(["set", "field", "name", ervObj.name]);
 			glue.command(["set", "field", "full_name", ervObj.name]);
-
+			glue.command(["set", "field", "length", ervObj.sequence_length]);
+			
 		});
 				
 	}

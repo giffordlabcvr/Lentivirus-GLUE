@@ -5,6 +5,7 @@
   create custom-table refcon_data
   
   table refcon_data
+  
     create field reftype VARCHAR 50
     create field num_copies INTEGER
     create field host_group_name VARCHAR 50
@@ -19,6 +20,7 @@
   create custom-table locus_data
 
   table locus_data
+  
     create field locus_numeric_id INTEGER
     create field host_sci_name VARCHAR 100
     create field host_common_name VARCHAR 100
@@ -28,6 +30,7 @@
     create field orientation VARCHAR 10
     create field structure VARCHAR 300
     create field duplicate_id INTEGER
+    
   exit
 
   create link sequence locus_data
