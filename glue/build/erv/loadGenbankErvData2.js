@@ -29,7 +29,13 @@ _.each(loadResult, function(ervObj) {
 			glue.command(["set", "field", "orientation", '+']);
 			glue.command(["set", "field", "start", 1]);
 			glue.command(["set", "field", "end", ervObj.sequence_length]);
-
+			
+			var locus_numeric_id = ervObj.locus_numeric_id;
+			if (locus_numeric_id != 'NK') {
+			
+				glue.command(["set", "field", "locus_numeric_id", ervObj.locus_numeric_id]);
+						
+			}
 		
 		});
 	
