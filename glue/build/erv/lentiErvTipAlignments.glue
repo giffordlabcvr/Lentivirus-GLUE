@@ -5,7 +5,7 @@ create module -f modules/core/unconstrainedAlignmentImporterSimple.xml
 
 module unconstrainedAlignmentImporterSimple
 
-  #import AL_UNC_RELIK            -f alignments/tip/relik/relik.aln.fna
+  import AL_UNC_RELIK            -f alignments/tip/relik/relik.aln.fna
   import AL_UNC_MELV             -f alignments/tip/melv/melv.aln.fna
   import AL_UNC_PSIV1            -f alignments/tip/psiv1/psiv1.aln.fna
   import AL_UNC_PSIV2            -f alignments/tip/psiv2/psiv2.aln.fna

@@ -1,6 +1,7 @@
 // Script to calculate dinucleotide composition in reference sequences
 
 dinucCompositionResults = {}
+lengthResults = {}
 
 // export reference sequences from GLUE
 glue.inMode("module/fastaExporter", function(){
@@ -48,16 +49,27 @@ glue.inMode("module/fastaExporter", function(){
 		
         glue.log("INFO", "Dinucleotide composition result was:", seqDinucComposition);
         dinucCompositionResults[sequenceId] = seqDinucComposition;
+        lengthResults[sequenceId] = seq.sequence.length;
 			
 	});
 
     
-	// Format sequences
-	_.each(list, function(seq)  {
 
+	_.each(_.keys(dinucCompositionResults), function(sequenceID) {
+	
+		var seqResults = dinucCompositionResults[sequenceID];
+		glue.log("INFO", "RESULTS FOR '"+sequenceID+"'");
 
+	    _.each(_.keys(seqResults), function(dinucleotide) {
 
-			
+			var count = seqResults[dinucleotide];
+			var length = lengthResults[sequenceID];		
+			var ratio = count / length;
+			//glue.log("INFO", "Got count '"+count+"' for dinucleotide character'"+dinucleotide+"'");
+			glue.log("INFO", "Got ratio '"+ratio+"' for dinucleotide character'"+dinucleotide+"'");
+		
+		});
+		
 	});
 
 

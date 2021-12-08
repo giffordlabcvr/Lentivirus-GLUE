@@ -1,5 +1,6 @@
 // Script to calculate nucleotide composition in reference sequences
 nucCompositionResults = {}
+lengthResults = {}
 
 // export reference sequences from GLUE
 glue.inMode("module/fastaExporter", function(){
@@ -31,27 +32,32 @@ glue.inMode("module/fastaExporter", function(){
 
                 seqNucComposition[base] = 1;
 			}
-
-
-		
+	
 		}
+		
         glue.log("INFO", "Nucleotide composition result was:", seqNucComposition);
         
         nucCompositionResults[sequenceId] = seqNucComposition;
+        lengthResults[sequenceId] = seq.sequence.length;
 			
 	});
 
-	_.each(_.keys(nucCompositionResults), function(nucleotide) {
+	_.each(_.keys(nucCompositionResults), function(sequenceID) {
 	
-		var count = nucCompositionResults[nucleotide];
+		var seqResults = nucCompositionResults[sequenceID];
+		glue.log("INFO", "RESULTS FOR '"+sequenceID+"'");
+
+	    _.each(_.keys(seqResults), function(nucleotide) {
+
+			var count = seqResults[nucleotide];
+			var length = lengthResults[sequenceID];		
+			var ratio = count / length;
+			//glue.log("INFO", "Got count '"+count+"' for nucleotide character'"+nucleotide+"'");
+			glue.log("INFO", "Got ratio '"+ratio+"' for nucleotide character'"+nucleotide+"'");
 		
-		glue.log("FINEST", "Got count '"+count+"' for nucleotide character'"+nucleotide+"'");
+		});
 		
 	});
 
-
-
 });
-
-
 
