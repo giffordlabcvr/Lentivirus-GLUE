@@ -1,4 +1,4 @@
->AL_SpELV.fasta-digs-erv.SpELV.1-Pedetes_capensis
+>SpELV.1-Pedetes_capensis
 TGTTAGCCCTTGGGGAACTTTTGTCACCAGGACCTGCAACATCTGAAGAATTGAGAAGATTGCTAAATCA
 ATCTGATGGACTTGCGGACAGCCGGGGGTGGAGTCACTTGGGGAGAAATGGGTCATATCCTGCAGAAGAA
 GTAAGCTAAACTGGAGATTGAGATTTGCAGAAGTGGCAAGCCAGCCTGATAGATAGTGCTGAATAAGTGC
@@ -68,7 +68,7 @@ CAG-------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.10-Pedetes_capensis
+>SpELV.10-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -138,7 +138,7 @@ CAG-------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.12-Pedetes_capensis
+>SpELV.12-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -208,7 +208,7 @@ CAG-------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.13-Pedetes_capensis
+>SpELV.13-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -278,7 +278,7 @@ CAG-------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.14-Pedetes_capensis
+>SpELV.14-Pedetes_capensis
 TGTTAGCCCTTCGGG--CTTTTGCCACCAGGACCTGGGACGTCTGCAGAATTGAGAAGATTGCTCAGTCA
 ATCTGATGGACTTGAGGGCACCCGGGGGGGGAGCCACCTGGGGAGAAATGGGTTACATCCTGCAGAAGAA
 GCAAGCTAATTTGCAAAATAATATTTGCAGAAGTAGCAAGCCAGCCTGATAGATAGTGCTGAAAAAGTGC
@@ -348,7 +348,7 @@ CTTTGTCCAGGTTCTGGGCAGTGAGCTTCCTCCTCGGCGGGTCTCTCCACCCTTCGGGTG----------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.15-Pedetes_capensis
+>SpELV.15-Pedetes_capensis
 TGTTAGCCCTTGGGG-ACTTTTGCCACCAGGACCTGGGACGTCTGAAGAATTGAGAAGATTGCTAAATCA
 ATCTGATGGACTTGCGGGCAGCCTGGTCAGGAGTCGCTCAGGGAGAAATGGGTTACATCCTGCAAAAGAA
 GCAAGCTGAACTGGAAATA-ATATTTGCCAAAGTAGCAAGCCAGCCTGATATATAGTACTGAATAAGTAT
@@ -418,7 +418,7 @@ CTGTGTCTGGGTTCTGGGAAGTAAGCTTCCTCCTCTGTGGGTTTCTCCACCCTTTGGGTG----------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.16-Pedetes_capensis
+>SpELV.16-Pedetes_capensis
 TGTTAGCCCTTGGGG-ACTTTTGCCACCAGGACCTGCGATGTCTGAAGAATTGAAAAGATTGCTAAATCA
 ATCTGATGGGTTTGCAGGCAGCCGGGGGGGGAGTTGCTTGGGGAGAAATGGGTTACATCCTGCAAAAGAA
 GCAAACTAAACTGCAAAATAAGGTTTGCAGAAGTAGCAAGCCAGCCTGATAGATAGTGCTGAATAAGTAC
@@ -488,7 +488,7 @@ CTTTGTCTGGGTTCTGGGCAGTAAGCTTCCTCCTCAGCGGGTCTCTCCACCCTT----------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.17-Pedetes_capensis
+>SpELV.17-Pedetes_capensis
 TGTTATCCCTT-GGGTACTTTTGCCACTGGGACCTGTGACATCTGAAGAATTGAGAAGATTGCTAAGTCA
 ATCTGATGGACTTGCAGGCAGCCGGGGGGGGTGTCGCTTGGGGAGAAATGGGTCACATCCTGCAAAAGAA
 GCAAGCTAAGCTTGAGATTAATAGTTGCAGAAGTAGCAAGCCAGCCTGATAGATAGTGCTGAATGAGTGC
@@ -558,7 +558,7 @@ CTTTGTCTGGGTTCTGGGCAGTAAGCTTCCTCCTCAGTGGGTCTCTCCACCCTTTGG-------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.18-Pedetes_capensis
+>SpELV.18-Pedetes_capensis
 TGTTAGCCCCTGGGG-ACTTTTACCACCGGGACCTGCAACGTCTGAAGAATTGAGAAGATTGCTAAGTCA
 ACCTGATGGACTTGTGGGCAGCCGGGGGTGGAGTTGCTTGGGGAGGTATGGGTCACATCCTGCAGAAGAA
 GCAAGCTAAACTGGAGATCATGATTTGCAGAAGTAGCAAGCCAGCCTGATAGATAGTGCTGATTAAGTGC
@@ -628,7 +628,7 @@ TTGCTACGCTT-----------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.2-Pedetes_capensis
+>SpELV.2-Pedetes_capensis
 -----------------------------------------------GAATTGAGAAGATTGCGAAGTCA
 ATCTGATGAACTTGTGGGAAGCCGGGGGTGGAGTTGCTTGGGGAGAAATGGGTCACATCCTACAAAAGAC
 GCAAGCTAAGCTTGAGAATAATATTTTCAGAAGTAGCAAGCCAG---GCT-GATAGTGCTGAATAAGTGC
@@ -698,7 +698,7 @@ TAAAGCTGGACATAAAAAG---------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.20-Pedetes_capensis
+>SpELV.20-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -768,7 +768,7 @@ TAAAGCTGGACATAAAAAG---------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.21-Pedetes_capensis
+>SpELV.21-Pedetes_capensis
 TGTTAGCCCTT-TGGTACTTTTGCCACTGGGACCTGCGACATTTGAAGAATTGAGAAGATTGCTAAATCA
 ATCTGATGGATTTGCGGGCATGGGGGGGAAGAGTCCCTTGGGGATAAATGGGTCACATCCTGCAAAAGAA
 GCAAGCTAAGCTTGAGATTAATATTTGTAGAAGTAGCAAGCCAGCCTGATACATAGTGCTGAATAAGTGC
@@ -838,7 +838,7 @@ CTTTGTCTGGGTTCTGAGCTGTAAACTTCCTCCTTAGTGGGCCTCTCCACCTTTTG--------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.22-Pedetes_capensis
+>SpELV.22-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -908,7 +908,7 @@ CTTTGTCTGGGTTCTGAGCTGTAAACTTCCTCCTTAGTGGGCCTCTCCACCTTTTG--------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.24-Pedetes_capensis
+>SpELV.24-Pedetes_capensis
 --------CTTGTGG-ACTTTTGCCACCGGGACTTGTGATGTCTGAAGAATTGAGAAGACTGCTAAGTCA
 ACCTGATGGACTTGCGGGCAGCCCAGGGTGGAGTCGCTTGGGGAGAAATGGGTCACATCCTGCAGAAGCA
 GCAAGCTAAGCTGGAGATCATGATCTGCCGAAGTAGCGAGCCAGCTTGCCAGACAGTGCTGACTAAGTGC
@@ -978,7 +978,7 @@ TTTTGTCTGGGTTCTGGGCAGTAAGCTTCCTCCTCGGTGGGTCTCTCCAGCCTTCGGGTG----------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.25-Pedetes_capensis
+>SpELV.25-Pedetes_capensis
 TGTTAGCCCTTAGGG-ACTTTTGCCACCTTGACCTGCAATGTCTGAAGAATTGAGAAGATTGCTAAATCA
 ATCTGATGGACTTGTGG---G-GGGGAG-GG-GTCGCTTGAGGAGAAATGGGTTACATCCTGCAAAAGAA
 GCAAGGTAAACTTGCGAATAATATTTGCAGAAGTAGCAAGCCAGCCTGATAGATAATGCTAAATAAGTAC
@@ -1048,7 +1048,7 @@ CTTTGTCTGGGCTCTGGGTAGTAAGCTTCCTCCTTGGCAGGTCTTTCCACCCTT----------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.26-Pedetes_capensis
+>SpELV.26-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -1118,7 +1118,7 @@ CTTTGTCTGGGCTCTGGGTAGTAAGCTTCCTCCTTGGCAGGTCTTTCCACCCTT----------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.27-Pedetes_capensis
+>SpELV.27-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -1188,7 +1188,7 @@ CTTTGTCTGGGCTCTGGGTAGTAAGCTTCCTCCTTGGCAGGTCTTTCCACCCTT----------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.28-Pedetes_capensis
+>SpELV.28-Pedetes_capensis
 TGTTAGTCCTTGGAGA-C--TT-TCACCAGGACCTGAGATGTGTGAAGAATTGAGGAGATTGCTAAATCA
 ATCTGATGGACTTGAGGGCAGCCCAGGGTGGAGTTGCTTGGGGAGAAATGGGTCACATCCTGCAGAAGAA
 GCAAGCCAGCTTGCAGATAGTGA-TTG-A-TAGTGTATAGATAGCTTGACAGATAATGCTGAAT-AGTGC
@@ -1258,7 +1258,7 @@ CTTTGTCTGGGTTCTGGGTGGTAAGTTTCCTCTTGGGCAGGTCTC-------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.29-Pedetes_capensis
+>SpELV.29-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -1328,7 +1328,7 @@ CTTTGTCTGGGTTCTGGGTGGTAAGTTTCCTCTTGGGCAGGTCTC-------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.3-Pedetes_capensis
+>SpELV.3-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -1398,7 +1398,7 @@ AAAGGGCA--------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.30-Pedetes_capensis
+>SpELV.30-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -1468,7 +1468,7 @@ AAAGGGCA--------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.31-Pedetes_capensis
+>SpELV.31-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -1538,7 +1538,7 @@ AAAGGGCA--------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.32-Pedetes_capensis
+>SpELV.32-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------TGGAGTCACTTGAGGAGAAATGGGTTACATCCTGCAGAAGAA
 GTAAACTAAGCTTGAGAGAGAGATTTGCAGAAGTCGCAAGCCAGCTTGCCAGATAGCAATGAATAAGTGC
@@ -1608,7 +1608,7 @@ CTTTGTCTGGGTTCTAGGCAGTAAGCT-------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.33-Pedetes_capensis
+>SpELV.33-Pedetes_capensis
 -------CCTTGGGG-ACTTTTACCACCAGGACCTGCAACATCTGAAGAATTGAGAAGACTGCTAAATCA
 ATCTAATGGACTTTCCGGCAGCCCTGGGTGGAGGTACCTGGGGGG-AATGAGTCACATCCTGCAGAAGAA
 GAAAGCT---------------------------------------------------------------
@@ -1678,7 +1678,7 @@ GAAAGCT---------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.34-Pedetes_capensis
+>SpELV.34-Pedetes_capensis
 TGTCAGCCCTTGGGG-ACTTTTGCCACTGGGACCTGCAATGTCTGAAGAATTGAGAAGATTGCTAAGTCA
 ATCTGATGGACTTGCAGGCAGTCCAGAGTGGAGTCGCTTGGGGAGAAATGGGTCACATCTTCCAAAAGAA
 GCAAGCTAAGCTTGAGAATAAAATTTGCAGAAGTAGCAAGCCAGCCTGATA---A-TGCTGAATAAATGC
@@ -1748,7 +1748,7 @@ CTTTG-----------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.35-Pedetes_capensis
+>SpELV.35-Pedetes_capensis
 TGTTAGCCCTT-GGGAACTTTTGCCACCAGGACCTGCAATGTCTGAAGAATTGAGAAGATTGCTAAATCA
 ATCTGATGGACTTGTGGGCAGCCGGGGGGGGAGTTGCTTGGGGAGAAATGGGTTACATCCTGCAAAAGAA
 GCAAACTAAACTGCAGATTAATATTTGCAGAAGTAGCAAGCCAGCCTGATAGATAGTGCTGAATAAGTAC
@@ -1818,7 +1818,7 @@ GGGAGAGACCTTGGGTTTTTCCCCATGACCCAATAAAGTATTGCAGAACTA-------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.4-Pedetes_capensis
+>SpELV.4-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -1888,7 +1888,7 @@ TTGAAGCACCTCAGAGCAATCACAGGGTAAGGCAGCCTACCAGCAGG-----------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.6-Pedetes_capensis
+>SpELV.6-Pedetes_capensis
 TGTTAGCCCTTGGGG-ACTTTTGCCACTGGGACCTCCGACATCTGAGGAATTGAGAAGATTGCTAAGTCA
 ATCTGATGGACTTGTGGGCAGCCCGGGGTGGAGTCACTTGGGGAGAAATGGGTCACATTCTGCAGAAGCA
 GCAAGCCAAGCTGAAGATAATGATCTGCAGAAGAAGCAAGCTAGCTTGACAGATAGTGCTGAAT-AGTGC
@@ -1958,7 +1958,7 @@ CTTTGTCTGGGTTCTGGGCGGTAAGCTTCCTCCTCGGCAGGTCTCTCCACCCTTTGGGTG----------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.7-Pedetes_capensis
+>SpELV.7-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -2028,7 +2028,7 @@ CTTTGTCTGGGTTCTGGGCGGTAAGCTTCCTCCTCGGCAGGTCTCTCCACCCTTTGGGTG----------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.8-Pedetes_capensis
+>SpELV.8-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------TGATA-A-AGTGCTGAA-CAGTGA
@@ -2098,7 +2098,7 @@ CATTCTCTGGGTTCTGGGCGGTAAGCTTCCTCCTCGGCAGGTCTCTCCATCCTT----------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ------------------------
->AL_SpELV.fasta-digs-erv.SpELV.9-Pedetes_capensis
+>SpELV.9-Pedetes_capensis
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ---------------------------------------------------GATAGTGCTGAAT-AGTGC

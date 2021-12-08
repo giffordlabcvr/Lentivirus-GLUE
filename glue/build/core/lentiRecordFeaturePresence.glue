@@ -3,8 +3,8 @@
 
   module lentiFeaturePresenceRecorder 
 
-    #~# Root alignment
+    #~# Call from root alignment (recursively, so all child alignments will also be processed)
      record feature-presence AL_ROOT --recursive --featureName whole_genome --descendentFeatures
-    
+   
     exit
 
