@@ -54,7 +54,7 @@ glue.inMode("module/fastaExporter", function(){
 	});
 
     
-
+ 
 	_.each(_.keys(dinucCompositionResults), function(sequenceID) {
 	
 		var seqResults = dinucCompositionResults[sequenceID];

@@ -60,4 +60,4 @@ glue.inMode("module/fastaExporter", function(){
 	});
 
 });
-
+ 
