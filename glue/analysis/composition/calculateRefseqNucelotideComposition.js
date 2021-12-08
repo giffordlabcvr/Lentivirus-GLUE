@@ -42,8 +42,11 @@ glue.inMode("module/fastaExporter", function(){
 	});
 
 	_.each(_.keys(nucCompositionResults), function(nucleotide) {
+	
 		var count = nucCompositionResults[nucleotide];
+		
 		glue.log("FINEST", "Got count '"+count+"' for nucleotide character'"+nucleotide+"'");
+		
 	});
 
 
