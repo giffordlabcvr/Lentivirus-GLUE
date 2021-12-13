@@ -1,7 +1,7 @@
 // Script to calculate dinucleotide composition in reference sequences
 
-dinucCompositionResults = {}
-lengthResults = {}
+var dinucCompositionResults = {};
+var lengthResults = {};
 
 // export reference sequences from GLUE
 glue.inMode("module/fastaExporter", function(){

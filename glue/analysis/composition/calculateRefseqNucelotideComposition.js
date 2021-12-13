@@ -1,6 +1,6 @@
 // Script to calculate nucleotide composition in reference sequences
-nucCompositionResults = {}
-lengthResults = {}
+var nucCompositionResults = {};
+var lengthResults = {};
 
 // export reference sequences from GLUE
 glue.inMode("module/fastaExporter", function(){
