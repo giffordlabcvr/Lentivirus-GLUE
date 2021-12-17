@@ -524,11 +524,11 @@
     feature-location surface
       add segment 6266 7843
       exit 
-      
-  add feature-location transmembrane
-    feature-location transmembrane
-      add segment 7844 8836
-      exit 
+	  
+	add feature-location transmembrane
+	feature-location transmembrane
+	  add segment 7844 8836
+	  exit 
 
     add feature-location PPT
     feature-location PPT
@@ -622,6 +622,16 @@
     feature-location env
       add segment 5312 7891
       exit
+           
+    add feature-location surface
+    feature-location surface
+      add segment 5312 6631
+      exit 
+	  
+	add feature-location transmembrane
+	feature-location transmembrane
+	  add segment 6632 7891
+	  exit 
 
     add feature-location 3LTR
     feature-location 3LTR
@@ -690,7 +700,17 @@
     feature-location env
       add segment 5415 8129
       exit
-
+	    
+ 	add feature-location surface
+	feature-location surface
+	  add segment 5415 7052
+	  exit
+	  
+ 	add feature-location transmembrane
+	feature-location transmembrane
+	  add segment 7053 8129
+	  exit
+	    
     add feature-location 3LTR
     feature-location 3LTR
       add segment 8372 8482

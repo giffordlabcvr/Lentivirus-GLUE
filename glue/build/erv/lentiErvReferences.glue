@@ -125,12 +125,17 @@
   	  
  	add feature-location env
 	feature-location env
-	  add segment 5432 8341
+	  add segment 5732 8341
 	  exit
-	  
+
+	add feature-location SP
+	feature-location SP
+	  add segment 5732 5941
+	  exit
+	    
  	add feature-location surface
 	feature-location surface
-	  add segment 5432 7537
+	  add segment 5732 7537
 	  exit
 	  
  	add feature-location transmembrane
@@ -487,6 +492,11 @@
 	add feature-location env
 	feature-location env
 	  add segment 6083 8665
+	  exit
+
+	add feature-location SP
+	feature-location SP
+	  add segment 6083 6310
 	  exit
 	  
 	add feature-location RRE

@@ -94,6 +94,12 @@
   feature IN set metatag INCLUDE_IN_SUMMARY true
   feature IN set metatag CODES_AMINO_ACIDS true
 
+  create feature SP -p env "signal peptide"
+  feature SP set field displayName "signal peptide"
+  feature SP set metatag OWN_CODON_NUMBERING true
+  feature SP set metatag INCLUDE_IN_SUMMARY true
+  feature SP set metatag CODES_AMINO_ACIDS true
+
   create feature env -p whole_genome "env"
   feature env set field displayName "env"
   feature env set metatag OWN_CODON_NUMBERING true
