@@ -1,7 +1,7 @@
 // Load ERV data from tab file 
 var loadResult;
 glue.inMode("module/lentiTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/core/lenti-core-reference-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/core/lenti-extended-reference-data.tsv"]));
 	//glue.log("INFO", "load result was:", loadResult);
 });
 
