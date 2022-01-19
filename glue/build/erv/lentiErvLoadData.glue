@@ -1,5 +1,5 @@
   delete module lentiErvGenbankXmlPopulator
-  create module -f modules/erv/lentiErvGenbankXmlPopulator.xml
+  create module -f modules/build/erv/lentiErvGenbankXmlPopulator.xml
 
   # Populate fields using GenBank file data
   module lentiErvGenbankXmlPopulator populate

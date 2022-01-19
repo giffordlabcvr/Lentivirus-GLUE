@@ -1,12 +1,12 @@
 
   # Create modules
-  create module -f modules/core/lentiGenbankXmlPopulator.xml
-  create module -f modules/core/lentiGagPolTranslationModifier.xml
-  create module -f modules/core/lentiTabularUtility.xml
-  create module -f modules/core/lentiCompoundAligner.xml 
+  create module -f modules/build/core/lentiGenbankXmlPopulator.xml
+  create module -f modules/build/core/lentiGagPolTranslationModifier.xml
+  create module -f modules/build/core/lentiTabularUtility.xml
+  create module -f modules/build/core/lentiCompoundAligner.xml 
 
   # Importers 
-  create module -f modules/core/unconstrainedAlignmentImporter.xml
+  create module -f modules/build/core/unconstrainedAlignmentImporter.xml
 
   # Exporters 
   create module -t fastaExporter
