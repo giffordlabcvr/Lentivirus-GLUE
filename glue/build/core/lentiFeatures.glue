@@ -192,7 +192,7 @@
   feature asp set metatag OWN_CODON_NUMBERING true
   feature asp set metatag INCLUDE_IN_SUMMARY true
   feature asp set metatag CODES_AMINO_ACIDS true
-
+  feature asp set metatag REVERSE_COMPLEMENT_TRANSLATION true
 
   # Bovine group
 
