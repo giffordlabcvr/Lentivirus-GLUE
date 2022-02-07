@@ -18,20 +18,20 @@
 	run file glue/build/core/lentiImportSideDataReferences.glue
  
 	# Create lentivirus references
-	#run file glue/build/core/lentiMasterReferences.glue  
-	#run file glue/build/core/lentiExtendedReferences.glue 
+	run file glue/build/core/lentiMasterReferences.glue  
+	run file glue/build/core/lentiExtendedReferences.glue 
 	
 	# Import alignments
-	#run file glue/build/core/lentiAlignments.glue
+	run file glue/build/core/lentiAlignments.glue
 
 	# Define constrained alignment tree
-	#run file glue/build/core/lentiAlignmentTree.glue
+	run file glue/build/core/lentiAlignmentTree.glue
 
 	# Inherit feature locations
-	#run file glue/build/core/lentiInheritFeatureLocations.glue  
+	run file glue/build/core/lentiInheritFeatureLocations.glue  
 
 	# Record feature coverage in alignments
-	#run file glue/build/core/lentiRecordFeaturePresence.glue
+	run file glue/build/core/lentiRecordFeaturePresence.glue
 
 	validate
 	exit

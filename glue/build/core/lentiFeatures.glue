@@ -197,6 +197,8 @@
   feature vpy set metatag CODES_AMINO_ACIDS true
 
 
+
+
   # Equine group unique accessory genes
 
   create feature s2 -p whole_genome "s2 gene"
@@ -213,19 +215,14 @@
 
 
 
-  ## Protein subdomains
-
-  create feature CypA-BL -p capsid "Cyclophilin-A binding region"
-  feature CypA-BL set field displayName "CypA-BL"
-  feature CypA-BL set metatag OWN_CODON_NUMBERING true
-  feature CypA-BL set metatag INCLUDE_IN_SUMMARY true
-  feature CypA-BL set metatag CODES_AMINO_ACIDS true
-
-
 
 
   ## Non-coding features
-  
+
+  create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
+  feature internal_region set field displayName "internal region"
+  feature internal_region set metatag INCLUDE_IN_SUMMARY true
+    
   create feature 5LTR -p whole_genome "5' long terminal repeat"
   feature 5LTR set field displayName "5' LTR"
   feature 5LTR set metatag INCLUDE_IN_SUMMARY true
@@ -302,7 +299,7 @@
   feature CTS set field displayName "CTS"
   feature CTS set metatag INCLUDE_IN_SUMMARY true
 
-  create feature RRE -p rev "Rev response element"
+  create feature RRE -p env "Rev response element"
   feature RRE set field displayName "RRE"
   feature RRE set metatag INCLUDE_IN_SUMMARY true
 
@@ -333,4 +330,7 @@
   create feature 3U5 -p 3LTR "3' LTR unique 5' region"
   feature 3U3 set field displayName "3' U5"
   feature 3U3 set metatag INCLUDE_IN_SUMMARY true
+
+
+
 
