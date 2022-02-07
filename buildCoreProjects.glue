@@ -12,8 +12,8 @@
   # Build core project (reference sequences only)
   run file glue/build/core/buildLentiCore.glue
 
-  # Build EVE project
-  run file glue/build/erv/buildLentiErvExtension.glue
+  # Build paleovirus project with endogenous retrovirus (ERV) sequences
+  #run file glue/build/erv/buildLentiErvExtension.glue
 
   # Build species-level extension projects
   #run file glue/build/extension/srlv/buildLentiExtensionSrlv.glue

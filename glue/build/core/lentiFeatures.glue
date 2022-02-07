@@ -140,28 +140,8 @@
   feature rev set metatag CODES_AMINO_ACIDS true
 
 
-  ## Protein subdomains
 
-  create feature CypA-BL -p capsid "Cyclophilin-A binding region"
-  feature CypA-BL set field displayName "CypA-BL"
-  feature CypA-BL set metatag OWN_CODON_NUMBERING true
-  feature CypA-BL set metatag INCLUDE_IN_SUMMARY true
-  feature CypA-BL set metatag CODES_AMINO_ACIDS true
-
-  create feature NLS -p whole_genome "Nuclear localisation signal"
-  feature NLS set field displayName "NLS"
-  feature NLS set metatag OWN_CODON_NUMBERING true
-  feature NLS set metatag INCLUDE_IN_SUMMARY true
-  feature NLS set metatag CODES_AMINO_ACIDS true
-
-  create feature NES -p whole_genome "Nuclear export signal"
-  feature NES set field displayName "NLS"
-  feature NES set metatag OWN_CODON_NUMBERING true
-  feature NES set metatag INCLUDE_IN_SUMMARY true
-  feature NES set metatag CODES_AMINO_ACIDS true
-
-
-  # Primate group
+  # Primate group unique accessory genes
 
   create feature vpr -p whole_genome "vpr gene"
   feature vpr set field displayName "vpr"
@@ -192,9 +172,11 @@
   feature asp set metatag OWN_CODON_NUMBERING true
   feature asp set metatag INCLUDE_IN_SUMMARY true
   feature asp set metatag CODES_AMINO_ACIDS true
+  feature asp set metatag REVERSE_COMPLEMENT_TRANSLATION true
 
 
-  # Bovine group
+
+  # Bovine group unique accessory genes
 
   create feature tmx -p whole_genome "tmx gene"
   feature tmx set field displayName "tmx"
@@ -215,7 +197,7 @@
   feature vpy set metatag CODES_AMINO_ACIDS true
 
 
-  # Equine group
+  # Equine group unique accessory genes
 
   create feature s2 -p whole_genome "s2 gene"
   feature s2 set field displayName "s2"
@@ -231,35 +213,124 @@
 
 
 
-  # Variable loops HIV-1 envelope
+  ## Protein subdomains
 
-  create feature V1 -p env "V1"
-  feature V1 set field displayName "Variable loop 1"
-  feature V1 set metatag OWN_CODON_NUMBERING true
-  feature V1 set metatag INCLUDE_IN_SUMMARY true
-  feature V1 set metatag CODES_AMINO_ACIDS true
+  create feature CypA-BL -p capsid "Cyclophilin-A binding region"
+  feature CypA-BL set field displayName "CypA-BL"
+  feature CypA-BL set metatag OWN_CODON_NUMBERING true
+  feature CypA-BL set metatag INCLUDE_IN_SUMMARY true
+  feature CypA-BL set metatag CODES_AMINO_ACIDS true
+
+
+
+
+  ## Non-coding features
   
-  create feature V2 -p env "V2"
-  feature V2 set field displayName "Variable loop 2"
-  feature V2 set metatag OWN_CODON_NUMBERING true
-  feature V2 set metatag INCLUDE_IN_SUMMARY true
-  feature V2 set metatag CODES_AMINO_ACIDS true
-  
-  create feature V3 -p env "V3"
-  feature V3 set field displayName "Variable loop 3"
-  feature V3 set metatag OWN_CODON_NUMBERING true
-  feature V3 set metatag INCLUDE_IN_SUMMARY true
-  feature V3 set metatag CODES_AMINO_ACIDS true
-  
-  create feature V4 -p env "Variable loop 4"
-  feature V4 set field displayName "V4"
-  feature V4 set metatag OWN_CODON_NUMBERING true
-  feature V4 set metatag INCLUDE_IN_SUMMARY true
-  feature V4 set metatag CODES_AMINO_ACIDS true  
-  
-  create feature V5 -p env "Variable loop 5"
-  feature V5 set field displayName "V5"
-  feature V5 set metatag OWN_CODON_NUMBERING true
-  feature V5 set metatag INCLUDE_IN_SUMMARY true
-  feature V5 set metatag CODES_AMINO_ACIDS true 
+  create feature 5LTR -p whole_genome "5' long terminal repeat"
+  feature 5LTR set field displayName "5' LTR"
+  feature 5LTR set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 5U3 -p 5LTR "5' LTR unique 3' region"
+  feature 5U3 set field displayName "5' U3"
+  feature 5U3 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 5R -p 5LTR "5' LTR repeat region"
+  feature 5R set field displayName "5' R"
+  feature 5R set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 5U5 -p 5LTR "5' LTR unique 5' region"
+  feature 5U3 set field displayName "5' U5"
+  feature 5U3 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 5UTR -p whole_genome "5' Untranslated region"
+  feature 5UTR set field displayName "5' UTR"
+  feature 5UTR set metatag INCLUDE_IN_SUMMARY true
+
+  create feature TATA_box -p 5LTR "TATA box"
+  feature TATA_box set field displayName "TATA box"
+  feature TATA_box set metatag INCLUDE_IN_SUMMARY true
+
+  create feature TSS -p whole_genome "Transcription start site"
+  feature TSS set field displayName "Transcription start site"
+  feature TSS set metatag INCLUDE_IN_SUMMARY true
+
+  create feature TAR -p 5LTR "Trans-activation response element"
+  feature TAR set field displayName "TAR"
+  feature TAR set metatag INCLUDE_IN_SUMMARY true
+
+  create feature PolyA -p whole_genome "PolyA loop"
+  feature PolyA set field displayName "PolyA"
+  feature PolyA set metatag INCLUDE_IN_SUMMARY true
+
+  create feature SL3 -p whole_genome "stem loop 3"
+  feature SL3 set field displayName "SL3"
+  feature SL3 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature SL4 -p whole_genome "stem loop 4"
+  feature SL4 set field displayName "SL4"
+  feature SL4 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature DIS -p whole_genome "Dimerisation initiation site"
+  feature DIS set field displayName "DIS"
+  feature DIS set metatag INCLUDE_IN_SUMMARY true
+
+  create feature SD -p whole_genome "Splice donor region"
+  feature SD set field displayName "SD"
+  feature SD set metatag INCLUDE_IN_SUMMARY true
+
+  create feature PSI -p whole_genome "Packaging signal"
+  feature PSI set field displayName "PSI"
+  feature PSI set metatag INCLUDE_IN_SUMMARY true
+
+  create feature FS -p gag-pol "Frameshift signal"
+  feature FS set field displayName "FS"
+  feature FS set metatag INCLUDE_IN_SUMMARY true
+
+  create feature FS-slippery-seq -p FS "Frameshift slippery sequence"
+  feature FS-slippery-seq set field displayName "FS-slippery sequence"
+  feature FS-slippery-seq set metatag INCLUDE_IN_SUMMARY true
+
+  create feature FS-stemloop -p FS "Frameshift stem loop"
+  feature FS-stemloop set field displayName "FS-stem loop"
+  feature FS-stemloop set metatag INCLUDE_IN_SUMMARY true
+
+  create feature cPPT -p whole_genome "Central polypurine tract"
+  feature cPPT set field displayName "cPPT"
+  feature cPPT set metatag INCLUDE_IN_SUMMARY true
+
+  create feature CTS -p whole_genome "Central termination sequence"
+  feature CTS set field displayName "CTS"
+  feature CTS set metatag INCLUDE_IN_SUMMARY true
+
+  create feature RRE -p rev "Rev response element"
+  feature RRE set field displayName "RRE"
+  feature RRE set metatag INCLUDE_IN_SUMMARY true
+
+  create feature PPT -p whole_genome "Polypurine tract"
+  feature PPT set field displayName "PPT"
+  feature PPT set metatag INCLUDE_IN_SUMMARY true
+
+  create feature PBS -p whole_genome "Primer-binding site"
+  feature PBS set field displayName "PBS"
+  feature PBS set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3LTR -p whole_genome "3' long terminal repeat"
+  feature 3LTR set field displayName "3' LTR"
+  feature 3LTR set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3U3 -p 3LTR "3' LTR unique 3' region"
+  feature 3U3 set field displayName "3' U3"
+  feature 3U3 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3R -p 3LTR "3' LTR repeat region"
+  feature 3R set field displayName "3' R"
+  feature 3R set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3TSS -p 3LTR "3' Transcription start site"
+  feature 3TSS set field displayName "3' Transcription start site"
+  feature 3TSS set metatag INCLUDE_IN_SUMMARY true
+
+  create feature 3U5 -p 3LTR "3' LTR unique 5' region"
+  feature 3U3 set field displayName "3' U5"
+  feature 3U3 set metatag INCLUDE_IN_SUMMARY true
 
