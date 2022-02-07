@@ -140,28 +140,8 @@
   feature rev set metatag CODES_AMINO_ACIDS true
 
 
-  ## Protein subdomains
 
-  create feature CypA-BL -p capsid "Cyclophilin-A binding region"
-  feature CypA-BL set field displayName "CypA-BL"
-  feature CypA-BL set metatag OWN_CODON_NUMBERING true
-  feature CypA-BL set metatag INCLUDE_IN_SUMMARY true
-  feature CypA-BL set metatag CODES_AMINO_ACIDS true
-
-  create feature NLS -p whole_genome "Nuclear localisation signal"
-  feature NLS set field displayName "NLS"
-  feature NLS set metatag OWN_CODON_NUMBERING true
-  feature NLS set metatag INCLUDE_IN_SUMMARY true
-  feature NLS set metatag CODES_AMINO_ACIDS true
-
-  create feature NES -p whole_genome "Nuclear export signal"
-  feature NES set field displayName "NLS"
-  feature NES set metatag OWN_CODON_NUMBERING true
-  feature NES set metatag INCLUDE_IN_SUMMARY true
-  feature NES set metatag CODES_AMINO_ACIDS true
-
-
-  # Primate group
+  # Primate group unique accessory genes
 
   create feature vpr -p whole_genome "vpr gene"
   feature vpr set field displayName "vpr"
@@ -194,7 +174,9 @@
   feature asp set metatag CODES_AMINO_ACIDS true
   feature asp set metatag REVERSE_COMPLEMENT_TRANSLATION true
 
-  # Bovine group
+
+
+  # Bovine group unique accessory genes
 
   create feature tmx -p whole_genome "tmx gene"
   feature tmx set field displayName "tmx"
@@ -215,7 +197,7 @@
   feature vpy set metatag CODES_AMINO_ACIDS true
 
 
-  # Equine group
+  # Equine group unique accessory genes
 
   create feature s2 -p whole_genome "s2 gene"
   feature s2 set field displayName "s2"
@@ -231,37 +213,14 @@
 
 
 
-  # Variable loops HIV-1 envelope
+  ## Protein subdomains
 
-  create feature V1 -p env "V1"
-  feature V1 set field displayName "Variable loop 1"
-  feature V1 set metatag OWN_CODON_NUMBERING true
-  feature V1 set metatag INCLUDE_IN_SUMMARY true
-  feature V1 set metatag CODES_AMINO_ACIDS true
-  
-  create feature V2 -p env "V2"
-  feature V2 set field displayName "Variable loop 2"
-  feature V2 set metatag OWN_CODON_NUMBERING true
-  feature V2 set metatag INCLUDE_IN_SUMMARY true
-  feature V2 set metatag CODES_AMINO_ACIDS true
-  
-  create feature V3 -p env "V3"
-  feature V3 set field displayName "Variable loop 3"
-  feature V3 set metatag OWN_CODON_NUMBERING true
-  feature V3 set metatag INCLUDE_IN_SUMMARY true
-  feature V3 set metatag CODES_AMINO_ACIDS true
-  
-  create feature V4 -p env "Variable loop 4"
-  feature V4 set field displayName "V4"
-  feature V4 set metatag OWN_CODON_NUMBERING true
-  feature V4 set metatag INCLUDE_IN_SUMMARY true
-  feature V4 set metatag CODES_AMINO_ACIDS true  
-  
-  create feature V5 -p env "Variable loop 5"
-  feature V5 set field displayName "V5"
-  feature V5 set metatag OWN_CODON_NUMBERING true
-  feature V5 set metatag INCLUDE_IN_SUMMARY true
-  feature V5 set metatag CODES_AMINO_ACIDS true 
+  create feature CypA-BL -p capsid "Cyclophilin-A binding region"
+  feature CypA-BL set field displayName "CypA-BL"
+  feature CypA-BL set metatag OWN_CODON_NUMBERING true
+  feature CypA-BL set metatag INCLUDE_IN_SUMMARY true
+  feature CypA-BL set metatag CODES_AMINO_ACIDS true
+
 
 
 
@@ -343,7 +302,7 @@
   feature CTS set field displayName "CTS"
   feature CTS set metatag INCLUDE_IN_SUMMARY true
 
-  create feature RRE -p whole_genome "Rev response element"
+  create feature RRE -p rev "Rev response element"
   feature RRE set field displayName "RRE"
   feature RRE set metatag INCLUDE_IN_SUMMARY true
 
@@ -374,7 +333,4 @@
   create feature 3U5 -p 3LTR "3' LTR unique 5' region"
   feature 3U3 set field displayName "3' U5"
   feature 3U3 set metatag INCLUDE_IN_SUMMARY true
-
-  create feature internal_region -p whole_genome "internal region (bounded by LTRs)"
-  feature internal_region set field displayName "internal region"
 
