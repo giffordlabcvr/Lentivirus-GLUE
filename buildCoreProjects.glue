@@ -16,4 +16,4 @@
   run file glue/build/erv/buildLentiErvExtension.glue
 
   # Build species-level extension projects
-  #run file glue/build/extension/srlv/buildLentiExtensionSrlv.glue
+  run file glue/build/extension/srlv/buildLentiExtensionSrlv.glue
