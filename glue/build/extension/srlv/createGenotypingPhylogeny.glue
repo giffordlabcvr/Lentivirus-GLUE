@@ -1,0 +1,4 @@
+  # Import GenBank sequences 
+  import source sources/ncbi-curated-srlv
+  import source sources/ncbi-refseqs-srlv
+  import source sources/ncbi-refseqs-subgenomic-srlv  
