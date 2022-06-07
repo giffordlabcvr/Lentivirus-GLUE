@@ -12,14 +12,18 @@
 
 	# Import reference sequences from GenBank XML files 
     import source sources/ncbi-refseqs-core/
-    import source sources/ncbi-refseqs-extended/
     
 	# Import side data for reference sequences
 	run file glue/build/core/lentiImportSideDataReferences.glue
  
 	# Create lentivirus references
 	run file glue/build/core/lentiMasterReferences.glue  
-	run file glue/build/core/lentiExtendedReferences.glue 
+
+    #import source sources/ncbi-refseqs-extended/
+	#run file glue/build/core/lentiExtendedReferences.glue 
+    #run script glue/build/core/lentiLoadExtendedRefseqsIsolateData1.js
+    #run script glue/build/core/lentiLoadExtendedRefseqsIsolateData2.js
+
 	
 	# Import alignments
 	run file glue/build/core/lentiAlignments.glue

@@ -1,11 +1,10 @@
 
-
-	run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvA.glue
-	run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvRoot.glue
-	
 	run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvA.glue
 	run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvA.glue
-	
+		
 	run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvB.glue
     run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvB.glue
+
+	#run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvRoot.glue	
+	#run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvRoot.glue
 

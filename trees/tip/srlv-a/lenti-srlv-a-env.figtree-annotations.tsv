@@ -1,0 +1,9 @@
+taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
+alignment/AL_SRLV_A/member/ncbi-curated-srlv/AF474005	AF474005	12237438	ncbi-curated-srlv	Visna-maedi virus	489	Iceland	-	A	1949
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AF479638	AF479638	15284480	ncbi-refseqs-srlv	Ovine lentivirus	P1OLV	Portugal	1	A	1996
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	Small ruminant lentivirus	-	Switzerland	4	A	1999
+alignment/AL_SRLV_A/member/ncbi-curated-srlv/DQ844937	DQ844937	17240470	ncbi-curated-srlv	Small ruminant lentivirus	S747ST	Norway	-	A	2001
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	Visna-maedi virus	697	Spain	-	A	2005
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M31646	M31646	2158181	ncbi-refseqs-srlv	Ovine lentivirus	-	South Africa	1	A	1976
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	Visna/maedi virus EV1	-	United Kingdon	1	A	1984
+alignment/AL_SRLV_A/member/ncbi-curated-srlv/U51910	U51910	9654682	ncbi-curated-srlv	Visna-maedi virus	KM1071	Iceland	-	A	1962

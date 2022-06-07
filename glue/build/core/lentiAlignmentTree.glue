@@ -29,35 +29,12 @@
 	exit
 
 
- 
-  #~# Add children to primate lentivirus alignment 
-  alignment AL_Primate
-
-	extract child AL_HIVSIV      --refName REF_HIV_1M
-	demote member AL_HIVSIV      --whereClause "sequence.subgenus = 'Primate'"
- 
-	exit
-
-
   #~# Derive constrained alignment segments from unconstrained alignments
   alignment AL_ROOT derive segments AL_UNC_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
-
-  alignment AL_Primate derive segments AL_UNC_Primate -a --existingMembersOnly --mergeStrategy OVERWRITE
-  alignment AL_Feline derive segments AL_UNC_Feline -a --existingMembersOnly --mergeStrategy OVERWRITE
-  alignment AL_Bovine derive segments AL_UNC_Bovine -a --existingMembersOnly --mergeStrategy OVERWRITE
-  alignment Al_Equine derive segments AL_UNC_Equine -a --existingMembersOnly --mergeStrategy OVERWRITE
-  alignment AL_OvineCaprine derive segments AL_UNC_Srlv -a --existingMembersOnly --mergeStrategy OVERWRITE
-
-  alignment AL_HIVSIV derive segments AL_UNC_HIVSIV -a --existingMembersOnly --mergeStrategy OVERWRITE
-
-
 
 
   #~# Set clade categories
   alignment AL_ROOT set field clade_category genus
-  alignment AL_OvineCaprine set field clade_category subgroup
-  alignment AL_Primate set field clade_category subgroup
-  alignment AL_Feline set field clade_category subgroup
-  alignment AL_Bovine set field clade_category subgroup
-  alignment Al_Equine set field clade_category subgroup
+
+
 

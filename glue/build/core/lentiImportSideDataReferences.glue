@@ -6,6 +6,4 @@
   run script glue/build/core/lentiLoadRefseqsIsolateData1.js
   run script glue/build/core/lentiLoadRefseqsIsolateData2.js
 
-  run script glue/build/core/lentiLoadExtendedRefseqsIsolateData1.js
-  run script glue/build/core/lentiLoadExtendedRefseqsIsolateData2.js
-
+ 

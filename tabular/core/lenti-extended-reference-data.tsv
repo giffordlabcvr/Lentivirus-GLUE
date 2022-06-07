@@ -1,10 +1,5 @@
 sequenceID	full_name	name	species	subgenus	clade	subtype	genotype	host_common_name	host_sci_name	isolate	year	country	pubmed_id
 U21603	Jembrana disease virus	JDV 	JDV 	Bovine	NULL	NULL	NULL	Balinese cattle	Bos javanicus domesticus	NK	NK	Indonesia	NK
-NC_001463	Small ruminant lentivirus genotype B	SRLV-B	SRLV	Ovine-Caprine	B	1	NULL	Goat	Capra hircus	NK	NK	United States	NK
-GQ381130	Small ruminant lentivirus genotype E2	SRLV-E2	SRLV	Ovine-Caprine	E	2	Seui	Goat	Capra hircus	NK	NK	Italy	NK
-EU293537	Small ruminant lentivirus genotype E1	SRLV-E1	SRLV	Ovine-Caprine	E	1	NULL	Goat	Capra hircus	NK	NK	Italy	NK
-AF322109	Small ruminant lentivirus genotype C	SRLV-C	SRLV	Ovine-Caprine	C	1	NULL	Goat	Ovis aries	NK	NK	Norway	NK
-JF502416	Small ruminant lentivirus genotype B3	SRLV-B3	SRLV	Ovine-Caprine	B	3	NULL	Goat	Ovis aries	NK	NK	Italy	NK
 JX480632	Equine infectious anemia virus	EIAV	EIAV	Equine	European	European	NULL	Domestic horse	Equus caballus	NK	NK		NK
 AF327877	Equine infectious anemia virus	EIAV	EIAV	Equine	Asian	Asian	NULL	Domestic horse	Equus caballus	NK	NK		NK
 EF455613	Feline immunodeficiency virus isolate SR631	FIVpco 	FIVpco 	Feline	NULL	NULL	NULL	Cougar	Puma concolor	NK	NK	NK	NK

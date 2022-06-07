@@ -1,6 +1,11 @@
   
-  ## Non-primate lentivirus reference sequence declarations
-
+  ## Caprine-ovine lentivirus reference sequence declarations
+  #create reference REF_SRLV_A   ncbi-refseqs-core NC_001452  # Included with core
+  create reference REF_SRLV_B   ncbi-refseqs-extended NC_001463
+  create reference REF_SRLV_C   ncbi-refseqs-extended AF322109
+  create reference REF_SRLV_B3  ncbi-refseqs-extended JF502416
+  create reference REF_SRLV_E1  ncbi-refseqs-extended EU293537
+  create reference REF_SRLV_E2  ncbi-refseqs-extended GQ381130
   
   # SRLV A subtypes
   create reference REF_SRLV_A_HQ848062    ncbi-refseqs-srlv HQ848062
@@ -11,8 +16,7 @@
   create reference REF_SRLV_A4_AY445885   ncbi-refseqs-srlv AY445885
   create reference REF_SRLV_A2_HQ848062   ncbi-refseqs-srlv HQ848062  
   create reference REF_SRLV_A_KT898826    ncbi-refseqs-srlv KT898826
-
-
+  
   # SRLV B subtypes
   create reference REF_SRLV_B_HM210570    ncbi-refseqs-srlv HM210570
   create reference REF_SRLV_B_GU120138    ncbi-refseqs-srlv GU120138
