@@ -27,37 +27,37 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    #generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAcapsid \
-    #  -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/tip/srlv-a/lenti-srlv-a-capsid.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAcapsid \
+      -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/tip/srlv-a/lenti-srlv-a-capsid.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAmatrix \
-    #  -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/tip/srlv-a/lenti-srlv-a-matrix.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAmatrix \
+      -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/tip/srlv-a/lenti-srlv-a-matrix.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAgag \
-    #  -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/tip/srlv-a/lenti-srlv-a-gag.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAgag \
+      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/tip/srlv-a/lenti-srlv-a-gag.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvArt \
-    #  -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/tip/srlv-a/lenti-srlv-a-rt.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvArt \
+      -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/tip/srlv-a/lenti-srlv-a-rt.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAintegrase \
-    #  -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/tip/srlv-a/lenti-srlv-a-in.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAintegrase \
+      -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/tip/srlv-a/lenti-srlv-a-in.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvApol \
-    #  -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/tip/srlv-a/lenti-srlv-a-pol.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvApol \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/tip/srlv-a/lenti-srlv-a-pol.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAenv \
-    #  -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/tip/srlv-a/lenti-srlv-a-env.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAenv \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/tip/srlv-a/lenti-srlv-a-env.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAgenome \
-    #  -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/tip/srlv-a/lenti-srlv-a-genome.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAgenome \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/tip/srlv-a/lenti-srlv-a-genome.tre NEWICK_BOOTSTRAPS
 
     exit
 
