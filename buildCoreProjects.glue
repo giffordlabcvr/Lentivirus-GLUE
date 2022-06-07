@@ -13,7 +13,7 @@
   run file glue/build/core/buildLentiCore.glue
 
   # Build paleovirus project with endogenous retrovirus (ERV) sequences
-  run file glue/build/erv/buildLentiErvExtension.glue
+  #run file glue/build/erv/buildLentiErvExtension.glue
 
   # Build species-level extension projects
   run file glue/build/extension/srlv/buildLentiExtensionSrlv.glue

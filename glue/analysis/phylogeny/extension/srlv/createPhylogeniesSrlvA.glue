@@ -14,15 +14,15 @@
 
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/lentiPhyloUtility.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAcapsid.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAmatrix.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAgag.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvArt.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAintegrase.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvApol.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAenv.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAgenome.xml
+  create module -f modules//analysis/phylogeny/core/lentiPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAcapsid.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAmatrix.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAgag.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvArt.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAintegrase.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvApol.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAenv.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAgenome.xml
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
