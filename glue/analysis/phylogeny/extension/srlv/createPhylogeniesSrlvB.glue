@@ -28,35 +28,35 @@
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBcapsid \
-      -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 80" \
       -o trees/tip/srlv-a/lenti-srlv-b-capsid.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBmatrix \
-      -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 80" \
       -o trees/tip/srlv-a/lenti-srlv-b-matrix.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBgag \
-      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 80" \
       -o trees/tip/srlv-a/lenti-srlv-b-gag.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBrt \
-      -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/tip/srlv-a/lenti-srlv-b-rt.tre NEWICK_BOOTSTRAPS
+    #generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBrt \
+    #  -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 80" \
+    #  -o trees/tip/srlv-a/lenti-srlv-b-rt.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBintegrase \
-    #  -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
+    #  -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 80" \
     #  -o trees/tip/srlv-a/lenti-srlv-b-in.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBpol \
-      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 80" \
       -o trees/tip/srlv-a/lenti-srlv-b-pol.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBenv \
-      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 80" \
       -o trees/tip/srlv-a/lenti-srlv-b-env.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_B -s alignmentColumnsSelectorSrlvBgenome \
-      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 80" \
       -o trees/tip/srlv-a/lenti-srlv-b-genome.tre NEWICK_BOOTSTRAPS
 
     exit
