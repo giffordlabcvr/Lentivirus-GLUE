@@ -1,7 +1,0 @@
-
-  run file glue/erv/lentiErvCreatePhylogeniesPsiv.glue
-  run file glue/erv/lentiErvCreatePhylogeniesDelv.glue
-  run file glue/erv/lentiErvCreatePhylogeniesSpelv.glue
-  run file glue/erv/lentiErvCreatePhylogeniesMelv.glue
-  #run file glue/erv/lentiErvCreatePhylogeniesRelik.glue
-

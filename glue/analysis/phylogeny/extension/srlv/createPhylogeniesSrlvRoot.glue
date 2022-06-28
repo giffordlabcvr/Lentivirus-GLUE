@@ -6,7 +6,7 @@
   delete module alignmentColumnsSelectorSrlvAmatrix
   delete module alignmentColumnsSelectorSrlvAgag
   delete module alignmentColumnsSelectorSrlvArt
-  delete module alignmentColumnsSelectorSrlvAin
+  delete module alignmentColumnsSelectorSrlvAintegrase
   delete module alignmentColumnsSelectorSrlvApol
   delete module alignmentColumnsSelectorSrlvAenv
   delete module alignmentColumnsSelectorSrlvAgenome
@@ -14,48 +14,48 @@
 
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/core/lentiPhyloUtility.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAcapsid.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAmatrix.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAgag.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvArt.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAintegrase.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvApol.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAenv.xml
-  create module -f modules/extension/srlv/alignmentColumnsSelectorSrlvAgenome.xml
+  create module -f modules//analysis/phylogeny/core/lentiPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAcapsid.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAmatrix.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAgag.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvArt.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAintegrase.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvApol.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAenv.xml
+  create module -f modules/analysis/phylogeny/extension/srlv/alignmentColumnsSelectorSrlvAgenome.xml
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    #generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAcapsid \
-    #  -c -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/main-species/lenti-srlv-capsid.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAcapsid \
+      -c -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv-capsid.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAmatrix \
-    #  -c -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/main-species/lenti-srlv-matrix.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAmatrix \
+      -c -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv-matrix.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAgag \
-    #  -c -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 10" \
-    #  -o trees/main-species/lenti-srlv-gag.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAgag \
+      -c -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/main-species/lenti-srlv-gag.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvArt \
-    #  -c -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/main-species/lenti-srlv-rt.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvArt \
+      -c -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv-rt.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAintegrase \
-    #  -c -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/main-species/lenti-srlv-in.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAintegrase \
+      -c -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv-in.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvApol \
-    #  -c -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
-    #  -o trees/main-species/lenti-srlv-pol.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvApol \
+      -c -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-species/lenti-srlv-pol.tre NEWICK_BOOTSTRAPS
 
-    #generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAenv \
-    #  -c -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 10" \
-    #  -o trees/main-species/lenti-srlv-env.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAenv \
+      -c -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 10" \
+      -o trees/main-species/lenti-srlv-env.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_SRLV -s alignmentColumnsSelectorSrlvAgenome \
+    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAgenome \
       -c -w "fLocNotes.featureLoc.feature.name = 'whole_genome' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-species/lenti-srlv-genome.tre NEWICK_BOOTSTRAPS
 

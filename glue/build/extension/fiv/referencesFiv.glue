@@ -1,8 +1,0 @@
-  ## Reference sequence declarations
-
-  # Feline immunodeficiency virus (Petuluma)
-  create reference REF_FIV_pco ncbi-refseqs-extended EF455613
-  create reference REF_FIV_oma ncbi-refseqs-extended U56928
-
-
-

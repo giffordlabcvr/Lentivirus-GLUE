@@ -16,8 +16,7 @@
 	run file glue/build/extension/srlv/alignmentTreeSrlv.glue
 
 	# Import alignments
-	#run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
-	#run file glue/build/extension/srlv/deriveConstrainedAlignments.glue
+	run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
 	
 	# Compute alignments
 	run file glue/build/extension/srlv/createAlignmentsSrlv.glue
