@@ -1,14 +1,21 @@
-delete module srlvPhyloImporter
-create module -f  modules/extension/srlv/srlvPhyloImporter.xml
+  delete module srlvPhyloImporter
+  create module -f  modules/build/extension/srlv/srlvPhyloImporter.xml
 
-module srlvPhyloImporter
+  # Derive constrained alignments from unconstrained alignments
+  create alignment AL_TREE_OvineCaprine -r REF_SRLV_A
+  
+  alignment AL_TREE_OvineCaprine
+	derive segments AL_UNC_TREE_OvineCaprine -a --mergeStrategy OVERWRITE
+	exit
 
-  import phylogeny AL_SRLV \
-  --recursive  \
-  --anyAlignment  \
-  --whereClause "sequence.source.name in ('ncbi-refseqs','ncbi-refseqs-srlv', 'ncbi-curated-srlv') and sequence.referenceSequences.name != null and referenceMember = false"  \
-  --inputFile trees/main-species/lenti-srlv-genome.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS  \
-  --fieldName phylogeny
+  module srlvPhyloImporter
 
-  exit
+	import phylogeny AL_TREE_OvineCaprine \
+	--recursive  \
+	--anyAlignment  \
+	--whereClause "sequence.length > 8000"  \
+	--inputFile trees/internal/srlvReferencePhylogenyMidpointRerooted.tree NEWICK_BOOTSTRAPS  \
+	--fieldName phylogeny
+
+	exit
   

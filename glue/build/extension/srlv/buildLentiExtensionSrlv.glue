@@ -24,8 +24,11 @@
 	# Record feature presence
 	run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
 
-	# Import genome-length phylogeny
-	#run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
+	# Create and import genotyping phylogeny
+    run file glue/build/extension/srlv/createGenotypingAlignment.glue
+    run file glue/build/extension/srlv/createGenotypingPhylogeny.glue
+    run file glue/build/extension/srlv/prepareReferencePhylogeny.glue
+	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
 	
 	# Validate
 	validate

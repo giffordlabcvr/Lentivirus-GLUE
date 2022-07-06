@@ -4,11 +4,6 @@
 
 	import AL_UNC_OvineCaprine -f alignments/internal/caprine-ovine-group.aln.fna
 
-	#import AL_UNC_SRLV_A -f alignments/tip/srlv/srlv-a.aln.fna
-	#import AL_UNC_SRLV_B -f alignments/tip/srlv/srlv-b.aln.fna
-	#import AL_UNC_SRLV_C -f alignments/tip/srlv/srlv-c.aln.fna
-	#import AL_UNC_SRLV_E -f alignments/tip/srlv/srlv-e.aln.fna
-
 	exit
 
 
@@ -17,24 +12,3 @@
   alignment AL_OvineCaprine 
     derive segments AL_UNC_OvineCaprine -a --existingMembersOnly --mergeStrategy OVERWRITE
     exit
-
-  #alignment AL_SRLV_A
-  #  derive segments AL_UNC_SRLV_A -a --existingMembersOnly --mergeStrategy OVERWRITE
-  #  exit
-
-  #alignment AL_SRLV_B
-  #  derive segments AL_UNC_SRLV_B -a --existingMembersOnly --mergeStrategy OVERWRITE
-  #  exit
-
-  #alignment AL_SRLV_C
-  #  derive segments AL_UNC_SRLV_C -a --existingMembersOnly --mergeStrategy OVERWRITE
-  #  exit
-
-  #alignment AL_SRLV_E
-  #  derive segments AL_UNC_SRLV_E -a --existingMembersOnly --mergeStrategy OVERWRITE
-  # exit
-
-  #alignment AL_SRLV_B3
-  #  derive segments AL_UNC_SRLV_B3 -a --existingMembersOnly --mergeStrategy OVERWRITE
-  #  exit
-

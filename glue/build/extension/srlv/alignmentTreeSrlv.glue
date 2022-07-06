@@ -30,11 +30,35 @@
     exit
 
 
+  # derive constrained segments throughout the tree from unconstrained    
+  #alignment AL_OvineCaprine
+  #  derive segments AL_UNC_OvineCaprine --recursive --existingMembersOnly --allMembers -m OVERWRITE
+  #  exit
+ 
+ 
   # Set clade category
-  alignment AL_OvineCaprine set field clade_category subgroup
-  alignment AL_SRLV_A  set field clade_category genotype
-  alignment AL_SRLV_B  set field clade_category genotype
-  alignment AL_SRLV_C  set field clade_category genotype
-  alignment AL_SRLV_E  set field clade_category genotype
-  alignment AL_SRLV_B3 set field clade_category genotype
+  alignment AL_SRLV_A
+    set field displayName "A"
+    set field clade_category genotype  
+    exit
 
+  alignment AL_SRLV_B
+    set field displayName "B"
+    set field clade_category genotype  
+    exit
+
+  alignment AL_SRLV_C
+    set field displayName "C"
+    set field clade_category genotype  
+    exit
+
+  alignment AL_SRLV_E
+    set field displayName "E"
+    set field clade_category genotype  
+    exit
+
+  alignment AL_SRLV_B3
+    set field displayName "B3"
+    set field clade_category genotype  
+    exit
+    
