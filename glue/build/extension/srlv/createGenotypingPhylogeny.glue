@@ -1,4 +1,37 @@
-  # Import GenBank sequences 
-  import source sources/ncbi-curated-srlv
-  import source sources/ncbi-refseqs-srlv
-  import source sources/ncbi-refseqs-subgenomic-srlv  
+  # Clean-up
+  
+  # Delete modules
+  delete module fastaAlignmentExporter
+  delete module lentiNucsRaxmlPhylogenyGenerator
+  #delete module flaviviridaeFeaturePresenceRecorder
+  #delete module flaviTreeAlignmentImporterNucs 
+  
+  # Delete alignment
+  delete alignment AL_UNC_GENOME_SRLV
+
+  # Create all the modules we need
+  create module -f modules/analysis/phylogeny/core/lentiNucsRaxmlPhylogenyGenerator.xml
+  create module -f modules/build/core/fastaAlignmentExporter.xml
+  create module -t fastaAlignmentExporter
+  #create module -f modules/build/core/flaviviridaeFeaturePresenceRecorder.xml
+  #create module -f modules/analysis/phylogeny/flaviTreeAlignmentImporterNucs.xml  
+
+  # Create recursively populated genome length MSA
+  module fastaAlignmentExporter
+ 	
+ 	export AL_OvineCaprine  -r REF_MASTER_YFV           -f precursor_polyprotein --recursive -a  -e -o alignments/tree/genus_flavivirus-all.aln.fna
+	exit
+
+
+
+
+  # Create the lentivirus phylogenies
+  module lentiNucsRaxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_LENTI_GENOME_cISF -s alignmentColumnsSelectorCisf \
+      -w "fLocNotes.featureLoc.feature.name = 'NS5' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/subgenus/cisf.tre NEWICK_BOOTSTRAPS
+
+    exit
+    
+    
