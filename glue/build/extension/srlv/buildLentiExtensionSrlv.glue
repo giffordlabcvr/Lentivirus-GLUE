@@ -12,11 +12,11 @@
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/srlv/importIsolateDataSrlv.glue
 
-	# Add extension set sequences constrained alignment tree
-	run file glue/build/extension/srlv/alignmentTreeSrlv.glue
-
 	# Import alignments
 	run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
+
+	# Add extension set sequences constrained alignment tree
+	run file glue/build/extension/srlv/alignmentTreeSrlv.glue
 	
 	# Compute alignments
 	run file glue/build/extension/srlv/createAlignmentsSrlv.glue
@@ -25,11 +25,15 @@
 	run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
 
 	# Create and import genotyping phylogeny
-    run file glue/build/extension/srlv/createGenotypingAlignment.glue
-    run file glue/build/extension/srlv/createGenotypingPhylogeny.glue
+    #run file glue/build/extension/srlv/createGenotypingPhylogeny.glue
     run file glue/build/extension/srlv/prepareReferencePhylogeny.glue
 	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
-	
+
+
+	# Test genotyping
+	run file glue/build/extension/srlv/testGenotyping.glue
+    
+
 	# Validate
 	validate
 

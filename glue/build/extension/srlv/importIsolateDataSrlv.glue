@@ -4,9 +4,8 @@
 
 	# Link extension set sequences to isolate data
 	run script glue/build/extension/srlv/linkIsolateExtensionRefseqsSrlv.js
-	run script glue/build/extension/srlv/linkIsolateCuratedSeqsSrlv.js
-	run script glue/build/extension/srlv/linkIsolateExtensionRefseqsSubgenomicSrlv.js
-     
+	#run script glue/build/extension/srlv/linkIsolateCuratedSeqsSrlv.js
+
 	# Extract data from the XML files
 	module genbankXmlPopulatorSrlv populate -w "source.name like '%-srlv'"
 
@@ -14,5 +13,5 @@
 	create module -f modules/build/extension/srlv/sideDataImporterSrlv.xml srlvSideDataImporter
 	module srlvSideDataImporter 
 	  populate -f tabular/extension/srlv-refseqs.tsv
-	  populate -f tabular/extension/srlv-curated.tsv
+	  #populate -f tabular/extension/srlv-curated.tsv
       exit

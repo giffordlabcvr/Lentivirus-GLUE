@@ -10,7 +10,7 @@
   # Export annotations
   module figTreeAnnotationExporterSrlv 
   
-    export figtree-annotation AL_UNC_TREE_OvineCaprine -f trees/internal/srlvReferenceFigtreeAnnotations.txt
+    export figtree-annotation AL_UNC_OvineCaprine -f trees/internal/srlvReferenceFigtreeAnnotations.txt
 
     exit
 
@@ -20,7 +20,7 @@
   
 	# midpoint rooting
 	reroot-phylogeny \
-      --inputFile trees/internal/srlvReferencePhylogeny.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/internal/srlvReferencePhylogeny.tree NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/internal/srlvReferencePhylogenyMidpointRerooted.tree NEWICK_BOOTSTRAPS
 

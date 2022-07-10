@@ -10,7 +10,7 @@
   # Create the phylogeny (without outgroup)
   module lentiNucsRaxmlPhylogenyGenerator
     
-    generate nucleotide phylogeny AL_UNC_TREE_OvineCaprine \
+    generate nucleotide phylogeny AL_UNC_OvineCaprine \
       -a -o trees/internal/srlvReferencePhylogeny.tree \
       NEWICK_BOOTSTRAPS
       

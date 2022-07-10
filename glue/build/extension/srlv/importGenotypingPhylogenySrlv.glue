@@ -1,13 +1,6 @@
   delete module srlvPhyloImporter
   create module -f  modules/build/extension/srlv/srlvPhyloImporter.xml
 
-  # Derive constrained alignments from unconstrained alignments
-  create alignment AL_TREE_OvineCaprine -r REF_SRLV_A
-  
-  alignment AL_TREE_OvineCaprine
-	derive segments AL_UNC_TREE_OvineCaprine -a --mergeStrategy OVERWRITE
-	exit
-
   module srlvPhyloImporter
 
 	import phylogeny AL_TREE_OvineCaprine \

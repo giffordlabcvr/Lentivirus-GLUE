@@ -18,12 +18,6 @@
  
 	# Create lentivirus references
 	run file glue/build/core/lentiMasterReferences.glue  
-
-    #import source sources/ncbi-refseqs-extended/
-	#run file glue/build/core/lentiExtendedReferences.glue 
-    #run script glue/build/core/lentiLoadExtendedRefseqsIsolateData1.js
-    #run script glue/build/core/lentiLoadExtendedRefseqsIsolateData2.js
-
 	
 	# Import alignments
 	run file glue/build/core/lentiAlignments.glue
