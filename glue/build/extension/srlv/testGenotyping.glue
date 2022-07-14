@@ -3,6 +3,5 @@
 
   create module -f modules/build/extension/srlv/srlvMaxLikelihoodPlacer.xml
   create module -f modules/build/extension/srlv/srlvMaxLikelihoodGenotyper.xml
-  
-  #module srlvMaxLikelihoodGenotyper genotype sequence -w "sequenceID = 'GQ381130'"
+
   module srlvMaxLikelihoodGenotyper genotype sequence -w "species = 'SRLV'"

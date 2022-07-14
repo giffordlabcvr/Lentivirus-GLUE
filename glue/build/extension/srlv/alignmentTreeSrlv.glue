@@ -54,6 +54,7 @@
     exit
 
 
+
   # Set clade category
   alignment AL_TREE_SRLV_A
     set field displayName "Genotype A"
@@ -80,3 +81,72 @@
     set field clade_category genotype  
     exit
     
+
+
+
+
+
+  alignment AL_TREE_SRLV_A  
+   
+    extract child AL_TREE_SRLV_A1 --refName REF_SRLV_A1_HQ848062
+    demote member AL_TREE_SRLV_A1 --whereClause "sequence.genotype = 'A' and sequence.subtype = '1'" 
+	
+    extract child AL_TREE_SRLV_A3 --refName REF_SRLV_A3_MT993913
+    demote member AL_TREE_SRLV_A3 --whereClause "sequence.genotype = 'A' and sequence.subtype = '3'" 
+
+    extract child AL_TREE_SRLV_A_anc --refName REF_SRLV_A_anc_KT898826
+    demote member AL_TREE_SRLV_A_anc --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A-anc'" 
+
+    exit
+
+
+  alignment AL_TREE_SRLV_B
+   
+    extract child AL_TREE_SRLV_B1 --refName REF_SRLV_B1_HM210570
+    demote member AL_TREE_SRLV_B1 --whereClause "sequence.genotype = 'B' and sequence.subtype = '1'" 
+	
+    extract child AL_TREE_SRLV_B2 --refName REF_SRLV_B2_FJ195346
+    demote member AL_TREE_SRLV_B2 --whereClause "sequence.genotype = 'B' and sequence.subtype = '2'" 
+
+    exit
+
+
+  alignment AL_TREE_SRLV_A1
+    set field displayName "Subtype A1"
+    set field clade_category subtype  
+    exit
+
+  alignment AL_TREE_SRLV_A3
+    set field displayName "Subtype A3"
+    set field clade_category subtype  
+    exit
+
+  alignment AL_TREE_SRLV_A_anc
+    set field displayName "Subtype A-ancestral"
+    set field clade_category subtype  
+    exit
+
+
+  alignment AL_TREE_SRLV_B1
+    set field displayName "Subtype B1"
+    set field clade_category subtype  
+    exit
+
+  alignment AL_TREE_SRLV_B2
+    set field displayName "Subtype B2"
+    set field clade_category subtype  
+    exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+

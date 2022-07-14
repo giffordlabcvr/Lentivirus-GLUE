@@ -1,17 +1,20 @@
 taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/AF322109	AF322109	16476978	ncbi-refseqs-core	SRLV-G	-	-	C	C	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/EU293537	EU293537	18987157	ncbi-refseqs-core	SRLV-E1	-	Italy	1	E1	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/GQ381130	GQ381130	20060658	ncbi-refseqs-core	SRLV-E2	-	Italy	2	E2	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/JF502416	JF502416	21562119	ncbi-refseqs-core	SRLV-B3	-	-	B3	B3	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/NC_001452	NC_001452	2824836	ncbi-refseqs-core	SRLV-A	-	-	A	A	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/NC_001463	NC_001463	2171210	ncbi-refseqs-core	SRLV-B	-	-	B	B	-
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/EU293537	EU293537	18987157	ncbi-refseqs-core	SRLV-E1	-	Italy	1	E	-
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/GQ381130	GQ381130	20060658	ncbi-refseqs-core	SRLV-E2	-	Italy	2	E	-
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/JF502416	JF502416	21562119	ncbi-refseqs-core	SRLV-B3	-	-	3	B3	-
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/NC_001452	NC_001452	2824836	ncbi-refseqs-core	SRLV-A	-	-	1	A	-
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/NC_001463	NC_001463	2171210	ncbi-refseqs-core	SRLV-B	-	-	1	B	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/AF479638	AF479638	15284480	ncbi-refseqs-srlv	Ovine lentivirus	P1OLV	Portugal	1	A	1996
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	Small ruminant lentivirus	-	Switzerland	4	A	1999
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/FJ195346	FJ195346	19339126	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus Ov496	496	Spain	1	B	2004
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/FJ195346	FJ195346	19339126	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus Ov496	496	Spain	2	B	2004
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/GU120138	GU120138	22566005	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Shanxi	China	1	B	2009
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/HM210570	HM210570	20932787	ncbi-refseqs-srlv	Small ruminant lentivirus	FESC-752	Mexico	-	B	2004
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	Visna-maedi virus	697	Spain	-	A	2005
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/HM210570	HM210570	20932787	ncbi-refseqs-srlv	Small ruminant lentivirus	FESC-752	Mexico	1	B	2004
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	Visna-maedi virus	697	Spain	1	A	2005
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/JF502417	JF502417	21562119	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Volterra	Italy	3	B3	2004
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT898826	KT898826	-	ncbi-refseqs-srlv	Small ruminant lentivirus	Jord1	Jordan	-	A	2007
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT898826	KT898826	-	ncbi-refseqs-srlv	Small ruminant lentivirus	Jord1	Jordan	A-anc	A	2007
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M31646	M31646	2158181	ncbi-refseqs-srlv	Ovine lentivirus	-	South Africa	1	A	1976
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993900	MT993900	-	ncbi-refseqs-srlv	Small ruminant lentivirus	USMARC-200050064-r	United States	3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993913	MT993913	-	ncbi-refseqs-srlv	Small ruminant lentivirus	USMARC-200106929-2	United States	3	A	2004
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993914	MT993914	-	ncbi-refseqs-srlv	Small ruminant lentivirus	USMARC-200016283-2	United States	3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993918	MT993918	-	ncbi-refseqs-srlv	Small ruminant lentivirus	USMARC-199916193-r	United States	3	A	2006
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	Visna/maedi virus EV1	-	United Kingdon	1	A	1984

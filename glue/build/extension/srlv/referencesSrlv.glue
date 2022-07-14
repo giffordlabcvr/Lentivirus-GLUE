@@ -1,38 +1,34 @@
   
 
-  # SRLV A subtypes
-  create reference REF_SRLV_A_HQ848062    ncbi-refseqs-srlv HQ848062
-  create reference REF_SRLV_A_M31646      ncbi-refseqs-srlv M31646
-  create reference REF_SRLV_A_AY445885    ncbi-refseqs-srlv AY445885
-  create reference REF_SRLV_A_S51392      ncbi-refseqs-srlv S51392
-  create reference REF_SRLV_A_AF479638    ncbi-refseqs-srlv AF479638
-  create reference REF_SRLV_A4_AY445885   ncbi-refseqs-srlv AY445885
-  create reference REF_SRLV_A2_HQ848062   ncbi-refseqs-srlv HQ848062  
-  create reference REF_SRLV_A_KT898826    ncbi-refseqs-srlv KT898826
+  # SRLV A1
+  create reference REF_SRLV_A1_HQ848062    ncbi-refseqs-srlv HQ848062
+  create reference REF_SRLV_A1_M31646      ncbi-refseqs-srlv M31646
+  create reference REF_SRLV_A1_S51392      ncbi-refseqs-srlv S51392
+  create reference REF_SRLV_A1_AF479638    ncbi-refseqs-srlv AF479638
+  create reference REF_SRLV_A1_KT898826    ncbi-refseqs-srlv KT898826
+
+  # SRLV A3
+  create reference REF_SRLV_A3_MT993913    ncbi-refseqs-srlv MT993913
+  create reference REF_SRLV_A3_MT993914    ncbi-refseqs-srlv MT993914
+  create reference REF_SRLV_A3_MT993918    ncbi-refseqs-srlv MT993918
+  create reference REF_SRLV_A3_MT993900    ncbi-refseqs-srlv MT993900
+
+  # SRLV A-anc
+  create reference REF_SRLV_A_anc_KT898826 ncbi-refseqs-srlv KT898826
+
+
+  # SRLV B1
+  create reference REF_SRLV_B1_HM210570    ncbi-refseqs-srlv HM210570
+  create reference REF_SRLV_B1_GU120138    ncbi-refseqs-srlv GU120138
+  create reference REF_SRLV_B1_FJ195346    ncbi-refseqs-srlv FJ195346
   
-  # SRLV B subtypes
-  create reference REF_SRLV_B_HM210570    ncbi-refseqs-srlv HM210570
-  create reference REF_SRLV_B_GU120138    ncbi-refseqs-srlv GU120138
-  create reference REF_SRLV_B_FJ195346    ncbi-refseqs-srlv FJ195346
-  create reference REF_SRLV_B1_HM210570   ncbi-refseqs-srlv HM210570
-  create reference REF_SRLV_B1_GU120138   ncbi-refseqs-srlv GU120138
-  create reference REF_SRLV_B2_FJ195346   ncbi-refseqs-srlv FJ195346
-  create reference REF_SRLV_B3_JF502417   ncbi-refseqs-srlv JF502417 # SRLV-B3
-   
-  # SRLV-D (suspect)
-  #create reference REF_SRLV_D             ncbi-refseqs-subgenomic-srlv DQ632733
+  # SRLV B2  
+  create reference REF_SRLV_B2_FJ195346    ncbi-refseqs-srlv FJ195346
 
-  # Subgenomic
-  #create reference REF_SRLV_A3_AY454189   ncbi-refseqs-subgenomic-srlv AY454189
-  #create reference REF_SRLV_A5_AY454175   ncbi-refseqs-subgenomic-srlv AY454175
-  #create reference REF_SRLV_A6_U35676     ncbi-refseqs-subgenomic-srlv U35676 
-  #create reference REF_SRLV_A7_AY454208   ncbi-refseqs-subgenomic-srlv AY454208 
-  #create reference REF_SRLV_A8_EU010125   ncbi-refseqs-subgenomic-srlv EU010125  
-  #create reference REF_SRLV_A9_FR828809   ncbi-refseqs-subgenomic-srlv FR828809  
-  #create reference REF_SRLV_A11_FR693812  ncbi-refseqs-subgenomic-srlv FR693812  
-  #create reference REF_SRLV_A12_FJ623122  ncbi-refseqs-subgenomic-srlv FJ623122
-  #create reference REF_SRLV_A13_FJ623120  ncbi-refseqs-subgenomic-srlv FJ623120
-  #create reference REF_SRLV_A14_JX469607  ncbi-refseqs-subgenomic-srlv JX469607
-  #create reference REF_SRLV_A15_JQ611029  ncbi-refseqs-subgenomic-srlv JQ611029
-
+  # SRLV B3  
+  create reference REF_SRLV_B3_JF502417    ncbi-refseqs-srlv JF502417 # SRLV-B3
+ 
+  # SRLV E subtypes
+  create reference REF_SRLV_E1_EU293537    ncbi-refseqs-core EU293537
+  create reference REF_SRLV_E2_GQ381130    ncbi-refseqs-core GQ381130
 
