@@ -10,7 +10,9 @@
   # Export annotations
   module figTreeAnnotationExporterSrlv 
   
-    export figtree-annotation AL_UNC_OvineCaprine -f trees/internal/srlvReferenceFigtreeAnnotations.txt
+    export figtree-annotation AL_UNC_TREE_OvineCaprine \
+        --whereClause "sequence.referenceSequences.name != null and referenceMember = false" \
+        -f trees/internal/srlvReferenceFigtreeAnnotations.txt
 
     exit
 

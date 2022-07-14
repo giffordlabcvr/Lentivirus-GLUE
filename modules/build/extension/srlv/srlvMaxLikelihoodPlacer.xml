@@ -10,6 +10,6 @@
 	<phyloFieldName>phylogeny</phyloFieldName>
 
 	<!-- where the alignment will come from -->
-	<alignmentAlignmentName>AL_TREE_OvineCaprine</alignmentAlignmentName>
+	<alignmentAlignmentName>AL_UNC_TREE_OvineCaprine</alignmentAlignmentName>
 	
 </maxLikelihoodPlacer>

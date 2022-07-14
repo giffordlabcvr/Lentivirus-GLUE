@@ -1,6 +1,19 @@
 <maxLikelihoodGenotyper>
 	<maxLikelihoodPlacerModuleName>srlvMaxLikelihoodPlacer</maxLikelihoodPlacerModuleName>
+
+
+	<cladeCategory>
 	
+		<name>subgenus</name>	
+		<displayName>Subgenus</displayName>	
+		<whereClause>clade_category = 'subgenus'</whereClause>
+		<distanceScalingExponent>-4.5</distanceScalingExponent>
+		<distanceCutoff>0.4</distanceCutoff>
+		<finalCladeCutoff>75.0</finalCladeCutoff>
+		
+	</cladeCategory>
+
+
 	<cladeCategory>
 	
 		<name>genotype</name>	
@@ -11,5 +24,6 @@
 		<finalCladeCutoff>75.0</finalCladeCutoff>
 		
 	</cladeCategory>
-	
+
+
 </maxLikelihoodGenotyper>

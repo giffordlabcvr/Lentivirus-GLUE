@@ -10,8 +10,9 @@
   # Create the phylogeny (without outgroup)
   module lentiNucsRaxmlPhylogenyGenerator
     
-    generate nucleotide phylogeny AL_UNC_OvineCaprine \
-      -a -o trees/internal/srlvReferencePhylogeny.tree \
+    generate nucleotide phylogeny AL_UNC_TREE_OvineCaprine \
+      --whereClause "sequence.referenceSequences.name != null and referenceMember = false" \
+      -o trees/internal/srlvReferencePhylogeny.tree \
       NEWICK_BOOTSTRAPS
       
     exit    

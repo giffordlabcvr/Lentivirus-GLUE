@@ -15,6 +15,11 @@
   
   # Caprine-ovine
   create reference REF_SRLV_A   ncbi-refseqs-core NC_001452
+  create reference REF_SRLV_B   ncbi-refseqs-core NC_001463
+  create reference REF_SRLV_E1  ncbi-refseqs-core EU293537
+  create reference REF_SRLV_E2  ncbi-refseqs-core GQ381130
+  create reference REF_SRLV_B3  ncbi-refseqs-core JF502416
+  create reference REF_SRLV_C   ncbi-refseqs-core AF322109
 
     
   reference REF_HIV_1M
@@ -812,4 +817,280 @@
 
   exit 
   
+
+
+  reference REF_SRLV_B
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9189
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 85
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 512 1858
+      exit
+         
+    add feature-location matrix
+    feature-location matrix
+      add segment 533 988
+      exit
+
+    add feature-location capsid
+    feature-location capsid
+      add segment 989 1480
+      exit
+         
+    add feature-location nucleocapsid
+    feature-location nucleocapsid
+      add segment 512 1858
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1729 5046
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1729 2172
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2173 5046
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5006 5695
+      exit
+ 
+    add feature-location tat
+    feature-location tat
+      add segment 5688 5951
+      exit
+          
+    add feature-location env
+    feature-location env
+      add segment 6012 8846
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 6012 6141 --spliceIndex 1
+      add segment 8514 8803 --spliceIndex 2
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 9105 9189
+      exit
+
+  exit 
+
+
+
+  reference REF_SRLV_E1
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8418
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 156
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 573 1901
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1817 4750
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1817 2215
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 2216 4738
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4713 5396
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 5418 8147
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 5418 5469 --spliceIndex 1
+      add segment 7794 8110 --spliceIndex 2
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8097 8418
+      exit
+
+  exit 
+
+
+
+  reference REF_SRLV_E2
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8437
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 95
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 542 1870
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 1786 4731
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 4694 5377
+      exit
+           
+    add feature-location env
+    feature-location env
+      add segment 5387 8164
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 5387 5483 --spliceIndex 1
+      add segment 7808 8106 --spliceIndex 2
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8342 8437
+      exit
+
+  exit 
+
+
+
+
+  reference REF_SRLV_B3
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9148
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 150
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 567 1886
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 1772 5101
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5034 5720
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5720 5983
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6048 8861
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 6048 6164 --spliceIndex 1
+      add segment 8522 8818 --spliceIndex 2
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 9074 9148
+      exit
+
+  exit 
+
+
+reference REF_SRLV_C
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 8919
+      exit
+
+         
+    add feature-location gag
+    feature-location gag
+      add segment 577 1875
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 1737 5060
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5020 5709
+      exit
+
+    add feature-location tat
+    feature-location tat
+      add segment 5702 5956
+      exit
+
+    add feature-location env
+    feature-location env
+      add segment 6004 8553
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 6004 6046 --spliceIndex 1
+      add segment 8287 8564 --spliceIndex 2
+      exit
+
+
+  exit 
 

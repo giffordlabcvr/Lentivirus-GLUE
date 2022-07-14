@@ -6,7 +6,7 @@
 	import phylogeny AL_TREE_OvineCaprine \
 	--recursive  \
 	--anyAlignment  \
-	--whereClause "sequence.length > 8000"  \
+	--whereClause "sequence.referenceSequences.name != null and referenceMember = false"  \
 	--inputFile trees/internal/srlvReferencePhylogenyMidpointRerooted.tree NEWICK_BOOTSTRAPS  \
 	--fieldName phylogeny
 
