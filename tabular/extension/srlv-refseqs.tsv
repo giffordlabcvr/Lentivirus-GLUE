@@ -34,7 +34,7 @@ MT993916	Ovis aries	Ovine-Caprine	United States		2006	A	3	USMARC-200177363-2	921
 MT993917	Ovis aries	Ovine-Caprine	United States		2006	A	3	USMARC-199916128-2	9172		Genome	N. America
 MT993918	Ovis aries	Ovine-Caprine	United States		2006	A	3	USMARC-199916193-r	9204		Genome	N. America
 MT993900	Ovis aries	Ovine-Caprine	United States		2006	A	3	USMARC-200050064-r	9202		Genome	N. America
-AY445885	Capra hircus	Ovine-Caprine	Switzerland		1999	A	4	G4668	9023		Genome	Europe
+AY445885	Capra hircus	Ovine-Caprine	Switzerland		1999	A	1	G4668	9023		Genome	Europe
 KT453988	Capra hircus	Ovine-Caprine	Switzerland		2011	A	4	g6221	9464		Genome	Europe
 KT453989	Ovis aries	Ovine-Caprine	Switzerland		2011	A	4	s7385	9464		Genome	Europe
 KT453990	Ovis aries	Ovine-Caprine	Switzerland		2011	A	4	s7631	9464		Genome	Europe
@@ -70,7 +70,7 @@ MH374290	Capra hircus	Ovine-Caprine	Italy		1989	B	1	SRLV_To1-89	9135		Genome	Eur
 MH936674	Capra hircus	Ovine-Caprine	Italy		2015	B	1	BRMG CNPC	6378		Genome	Europe
 HM210570	Capra	Ovine-Caprine	Mexico		2004	B	1	FESC-752	9090		Genome	N. America
 FJ195346	Ovis aries	Ovine-Caprine	Spain		2004	B	2	496	9136		Genome	Europe
-MG554414	Capra hircus	Ovine-Caprine	Italy		NK	B	2	SRLV020	9119		Genome	Europe
+MG554414	Capra hircus	Ovine-Caprine	Italy		NK	B	NK	SRLV020	9119		Genome	Europe
 MH374288	Ovis aries	Ovine-Caprine	Italy		2017	B	2	SRLV042	8908		Genome	Europe
 JF502417	Ovis aries	Ovine-Caprine	Italy		2004	B3	3	Volterra	9152 bp		Genome	Europe
 EU293537	Capra hircus	Ovine-Caprine	Italy		NK	E	1	Roccaverano	8418		Genome	Europe

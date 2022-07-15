@@ -1,10 +1,8 @@
   
 
   # SRLV A1
-  create reference REF_SRLV_A1_HQ848062    ncbi-refseqs-srlv HQ848062
   create reference REF_SRLV_A1_M31646      ncbi-refseqs-srlv M31646
   create reference REF_SRLV_A1_S51392      ncbi-refseqs-srlv S51392
-  create reference REF_SRLV_A1_AF479638    ncbi-refseqs-srlv AF479638
   create reference REF_SRLV_A1_KT898826    ncbi-refseqs-srlv KT898826
 
   # SRLV A3
@@ -13,9 +11,13 @@
   create reference REF_SRLV_A3_MT993918    ncbi-refseqs-srlv MT993918
   create reference REF_SRLV_A3_MT993900    ncbi-refseqs-srlv MT993900
 
-  # SRLV A-anc
-  create reference REF_SRLV_A_anc_KT898826 ncbi-refseqs-srlv KT898826
+  # SRLV A8
+  create reference REF_SRLV_A8_MG554405    ncbi-refseqs-srlv MG554405
+  create reference REF_SRLV_A8_MH374291    ncbi-refseqs-srlv MH374291
+  create reference REF_SRLV_A8_MH374284    ncbi-refseqs-srlv MH374284
 
+  # SRLV A-anc
+  create reference REF_SRLV_A_anc_MW248464 ncbi-refseqs-srlv MW248464
 
   # SRLV B1
   create reference REF_SRLV_B1_HM210570    ncbi-refseqs-srlv HM210570
@@ -24,6 +26,7 @@
   
   # SRLV B2  
   create reference REF_SRLV_B2_FJ195346    ncbi-refseqs-srlv FJ195346
+  create reference REF_SRLV_B2_MH374288    ncbi-refseqs-srlv MH374288
 
   # SRLV B3  
   create reference REF_SRLV_B3_JF502417    ncbi-refseqs-srlv JF502417 # SRLV-B3

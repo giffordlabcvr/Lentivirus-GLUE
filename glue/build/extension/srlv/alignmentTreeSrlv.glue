@@ -83,18 +83,18 @@
     
 
 
-
-
-
   alignment AL_TREE_SRLV_A  
    
-    extract child AL_TREE_SRLV_A1 --refName REF_SRLV_A1_HQ848062
+    extract child AL_TREE_SRLV_A1 --refName REF_SRLV_A1_M31646
     demote member AL_TREE_SRLV_A1 --whereClause "sequence.genotype = 'A' and sequence.subtype = '1'" 
 	
     extract child AL_TREE_SRLV_A3 --refName REF_SRLV_A3_MT993913
     demote member AL_TREE_SRLV_A3 --whereClause "sequence.genotype = 'A' and sequence.subtype = '3'" 
+	
+    extract child AL_TREE_SRLV_A8 --refName REF_SRLV_A8_MG554405
+    demote member AL_TREE_SRLV_A8 --whereClause "sequence.genotype = 'A' and sequence.subtype = '8'" 
 
-    extract child AL_TREE_SRLV_A_anc --refName REF_SRLV_A_anc_KT898826
+    extract child AL_TREE_SRLV_A_anc --refName REF_SRLV_A_anc_MW248464
     demote member AL_TREE_SRLV_A_anc --whereClause "sequence.genotype = 'A' and sequence.subtype = 'A-anc'" 
 
     exit
@@ -109,6 +109,18 @@
     demote member AL_TREE_SRLV_B2 --whereClause "sequence.genotype = 'B' and sequence.subtype = '2'" 
 
     exit
+
+
+  alignment AL_TREE_SRLV_E
+   
+    extract child AL_TREE_SRLV_E1 --refName REF_SRLV_E1_EU293537
+    demote member AL_TREE_SRLV_E1 --whereClause "sequence.genotype = 'E' and sequence.subtype = '1'" 
+	
+    extract child AL_TREE_SRLV_E2 --refName REF_SRLV_E2_GQ381130
+    demote member AL_TREE_SRLV_E2 --whereClause "sequence.genotype = 'E' and sequence.subtype = '2'" 
+
+    exit
+
 
 
   alignment AL_TREE_SRLV_A1
@@ -126,7 +138,6 @@
     set field clade_category subtype  
     exit
 
-
   alignment AL_TREE_SRLV_B1
     set field displayName "Subtype B1"
     set field clade_category subtype  
@@ -136,16 +147,6 @@
     set field displayName "Subtype B2"
     set field clade_category subtype  
     exit
-
-
-
-
-
-
-
-
-
-
 
 
 

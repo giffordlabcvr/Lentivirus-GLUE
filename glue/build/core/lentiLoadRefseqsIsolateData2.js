@@ -13,8 +13,8 @@ _.each(loadResult, function(refSeqObj) {
 	
 		glue.command(["set", "field", "host_sci_name", refSeqObj.host_sci_name]);
 		glue.command(["set", "field", "host_common_name", refSeqObj.host_common_name]);
-
-
+		glue.command(["set", "field", "country", refSeqObj.country]);
+		glue.command(["set", "field", "isolate", refSeqObj.isolate]);
 
 	});
 
