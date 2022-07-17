@@ -8,8 +8,8 @@
 		<displayName>Subgenus</displayName>	
 		<whereClause>clade_category = 'subgenus'</whereClause>
 		<distanceScalingExponent>-4.5</distanceScalingExponent>
-		<distanceCutoff>0.4</distanceCutoff>
-		<finalCladeCutoff>75.0</finalCladeCutoff>
+		<distanceCutoff>0.5</distanceCutoff>
+		<finalCladeCutoff>65.0</finalCladeCutoff>
 		
 	</cladeCategory>
 
@@ -20,8 +20,8 @@
 		<displayName>Genotype</displayName>	
 		<whereClause>clade_category = 'genotype'</whereClause>
 		<distanceScalingExponent>-4.5</distanceScalingExponent>
-		<distanceCutoff>0.6</distanceCutoff>
-		<finalCladeCutoff>75.0</finalCladeCutoff>
+		<distanceCutoff>0.2</distanceCutoff>
+		<finalCladeCutoff>65.0</finalCladeCutoff>
 		
 	</cladeCategory>
 
@@ -32,10 +32,13 @@
 		<displayName>Subtype</displayName>	
 		<whereClause>clade_category = 'subtype'</whereClause>
 		<distanceScalingExponent>-4.5</distanceScalingExponent>
-		<distanceCutoff>0.6</distanceCutoff>
-		<finalCladeCutoff>75.0</finalCladeCutoff>
+		<distanceCutoff>0.1</distanceCutoff>
+		<finalCladeCutoff>65.0</finalCladeCutoff>
 		
 	</cladeCategory>
 
 
 </maxLikelihoodGenotyper>
+
+
+

@@ -133,6 +133,11 @@
     set field clade_category subtype  
     exit
 
+  alignment AL_TREE_SRLV_A8
+    set field displayName "Subtype A8"
+    set field clade_category subtype  
+    exit
+
   alignment AL_TREE_SRLV_A_anc
     set field displayName "Subtype A-ancestral"
     set field clade_category subtype  
