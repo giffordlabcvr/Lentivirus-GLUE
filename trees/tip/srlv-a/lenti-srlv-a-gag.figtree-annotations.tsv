@@ -1,6 +1,6 @@
 taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AF479638	AF479638	15284480	ncbi-refseqs-srlv	Ovine lentivirus	P1OLV	Portugal	1	A	1996
-alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	Small ruminant lentivirus	-	Switzerland	4	A	1999
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	Small ruminant lentivirus	-	Switzerland	1	A	1999
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	Visna-maedi virus	697	Spain	1	A	2005
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453988	KT453988	26517396	ncbi-refseqs-srlv	Small ruminant lentivirus	g6221	Switzerland	4	A	2011
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453989	KT453989	26517396	ncbi-refseqs-srlv	Small ruminant lentivirus	s7385	Switzerland	4	A	2011
@@ -51,5 +51,5 @@ alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993916	MT993916	-	ncbi-refseqs-sr
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993917	MT993917	-	ncbi-refseqs-srlv	Small ruminant lentivirus	USMARC-199916128-2	United States	3	A	2006
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993918	MT993918	-	ncbi-refseqs-srlv	Small ruminant lentivirus	USMARC-199916193-r	United States	3	A	2006
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MW248464	MW248464	-	ncbi-refseqs-srlv	Visna-maedi virus	NM1111	China	A-anc	A	2020
-alignment/AL_SRLV_A/member/ncbi-refseqs-core/NC_001452	NC_001452	2824836	ncbi-refseqs-core	SRLV-A	-	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-core/NC_001452	NC_001452	2824836	ncbi-refseqs-core	SRLV-A	NK	Iceland	1	A	-
 alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	Visna/maedi virus EV1	-	United Kingdon	1	A	1984

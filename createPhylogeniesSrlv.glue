@@ -1,13 +1,13 @@
 
     # SRLV A phylogenies
-	#run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvA.glue
-	#run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvA.glue
+	run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvA.glue
+	run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvA.glue
 		
 	# SRLV B phylogenies
-	run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvB.glue
-    run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvB.glue
+	#run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvB.glue
+    #run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvB.glue
 		
 	# SRLV root phylogenies - all genotypes
-	run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvRoot.glue
-	run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvRoot.glue	
+	#run file glue/analysis/phylogeny/extension/srlv/createPhylogeniesSrlvRoot.glue
+	#run file glue/analysis/phylogeny/extension/srlv/exportPhylogenyAnnotationsSrlvRoot.glue	
 
