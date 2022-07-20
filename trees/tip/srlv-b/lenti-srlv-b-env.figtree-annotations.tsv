@@ -8,6 +8,7 @@ alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/KT749878	KT749878	-	ncbi-refseqs-sr
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/KT749879	KT749879	-	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	Shaanxi	China	1	B	1993
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/KT749880	KT749880	-	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	guizhou	China	1	B	-
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/KT749881	KT749881	-	ncbi-refseqs-srlv	Caprine arthritis encephalitis virus	gs-35V	China	1	B	-
+alignment/AL_SRLV_B/member/ncbi-curated-srlv/M60855	M60855	1656067	ncbi-curated-srlv	Caprine arthritis encephalitis virus	-	United States	1	B	1980
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/MG554402	MG554402	-	ncbi-refseqs-srlv	Small ruminant lentivirus	SRLV001	Italy	1	B	-
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/MG554410	MG554410	-	ncbi-refseqs-srlv	Small ruminant lentivirus	SRLV010	Italy	1	B	-
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/MG554411	MG554411	-	ncbi-refseqs-srlv	Small ruminant lentivirus	SRLV014	Italy	1	B	-
@@ -19,3 +20,4 @@ alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/MH374288	MH374288	-	ncbi-refseqs-sr
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/MH374289	MH374289	-	ncbi-refseqs-srlv	Small ruminant lentivirus	SRLV_Taccone	Italy	1	B	-
 alignment/AL_SRLV_B/member/ncbi-refseqs-srlv/MH374290	MH374290	-	ncbi-refseqs-srlv	Small ruminant lentivirus	SRLV_To1.89	Italy	1	B	1989
 alignment/AL_SRLV_B/member/ncbi-refseqs-core/NC_001463	NC_001463	2171210	ncbi-refseqs-core	SRLV-B	Clements	United States	1	B	-
+alignment/AL_SRLV_B/member/ncbi-curated-srlv/U64439	U64439	7834396	ncbi-curated-srlv	Ovine lentivirus	85/34	United States	1	B	1985

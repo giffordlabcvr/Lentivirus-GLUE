@@ -12,11 +12,11 @@
 
     set field displayName "Small ruminant lentivirus (SRLV)"
     
-    demote member AL_SRLV_A --whereClause "sequence.genotype = 'A' and sequence.source.name = 'ncbi-refseqs-srlv' " 
-    demote member AL_SRLV_B --whereClause "sequence.genotype = 'B' and sequence.source.name = 'ncbi-refseqs-srlv'" 
-    demote member AL_SRLV_C --whereClause "sequence.genotype = 'C' and sequence.source.name = 'ncbi-refseqs-srlv'" 
-    demote member AL_SRLV_E --whereClause "sequence.genotype = 'E' and sequence.source.name = 'ncbi-refseqs-srlv'" 
-    demote member AL_SRLV_B3 --whereClause "sequence.genotype = 'B3' and sequence.source.name = 'ncbi-refseqs-srlv'" 
+    demote member AL_SRLV_A --whereClause "sequence.genotype = 'A' and sequence.source.name != 'ncbi-refseqs-core' " 
+    demote member AL_SRLV_B --whereClause "sequence.genotype = 'B' and sequence.source.name != 'ncbi-refseqs-core'" 
+    demote member AL_SRLV_C --whereClause "sequence.genotype = 'C' and sequence.source.name != 'ncbi-refseqs-core'" 
+    demote member AL_SRLV_E --whereClause "sequence.genotype = 'E' and sequence.source.name != 'ncbi-refseqs-core'" 
+    demote member AL_SRLV_B3 --whereClause "sequence.genotype = 'B3' and sequence.source.name != 'ncbi-refseqs-core'" 
 
     exit
 
