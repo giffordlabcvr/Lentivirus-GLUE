@@ -27,25 +27,9 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAcapsid \
-      -c -w "fLocNotes.featureLoc.feature.name = 'capsid' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/internal/lenti-srlv-capsid.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAmatrix \
-      -c -w "fLocNotes.featureLoc.feature.name = 'matrix' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/internal/lenti-srlv-matrix.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAgag \
-      -c -w "fLocNotes.featureLoc.feature.name = 'gag' and fLocNotes.ref_nt_coverage_pct >= 10" \
-      -o trees/internal/lenti-srlv-gag.tre NEWICK_BOOTSTRAPS
-
     generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvArt \
       -c -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/internal/lenti-srlv-rt.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvAintegrase \
-      -c -w "fLocNotes.featureLoc.feature.name = 'IN' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/internal/lenti-srlv-in.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_OvineCaprine -s alignmentColumnsSelectorSrlvApol \
       -c -w "fLocNotes.featureLoc.feature.name = 'pol' and fLocNotes.ref_nt_coverage_pct >= 50" \
@@ -67,34 +51,15 @@
   module lentiPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/internal/lenti-srlv-matrix.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/internal/lenti-srlv-rt.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/internal/lenti-srlv-matrix.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/internal/lenti-srlv-capsid.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/internal/lenti-srlv-capsid.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/internal/lenti-srlv-gag.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/internal/lenti-srlv-gag.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/internal/lenti-srlv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/internal/lenti-srlv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/internal/lenti-srlv-pol.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/internal/lenti-srlv-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/internal/lenti-srlv-rt.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/internal/lenti-srlv-rt.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/internal/lenti-srlv-in.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/internal/lenti-srlv-in.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
       --inputFile trees/internal/lenti-srlv-env.tre NEWICK_BOOTSTRAPS \
