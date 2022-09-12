@@ -1,0 +1,12 @@
+
+  # Build species-level extension projects
+  
+  # Small ruminant lentiviruses
+  #run file glue/build/virus/extension/srlv/buildLentiExtensionSrlv.glue
+
+  # Bovine lentiviruses
+  run file glue/build/virus/extension/biv/buildLentiExtensionBiv.glue
+
+  # Primate lentiviruses
+  #run file glue/build/virus/extension/plv/buildLentiExtensionPlv.glue
+  

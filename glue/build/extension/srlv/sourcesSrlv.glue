@@ -1,5 +1,5 @@
  
   # Import GenBank sequences 
-  import source sources/ncbi-curated-srlv
-  import source sources/ncbi-refseqs-srlv
+  import source sources/virus/extension/srlv/ncbi-curated-srlv
+  import source sources/virus/extension/srlv/ncbi-refseqs-srlv
 

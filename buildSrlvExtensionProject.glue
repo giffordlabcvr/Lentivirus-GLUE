@@ -1,4 +1,0 @@
-
-  # Build species-level extension projects
-  #run file glue/build/extension/srlv/buildLentiExtensionSrlvNuccoreParse.glue
-  run file glue/build/extension/srlv/buildLentiExtensionSrlv.glue

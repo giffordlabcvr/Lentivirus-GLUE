@@ -12,3 +12,11 @@
   # Build core project (reference sequences only)
   run file glue/build/core/buildLentiCore.glue
 
+  # Build ERV project
+  #run file glue/build/erv/buildLentiErvExtension.glue
+  
+  # Build species-level extension projects
+  
+  # Small ruminant lentiviruses
+  run file glue/build/extension/srlv/buildLentiExtensionSrlv.glue
+  
