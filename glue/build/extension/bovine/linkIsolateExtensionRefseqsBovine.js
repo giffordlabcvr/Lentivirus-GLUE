@@ -18,8 +18,7 @@ _.each(seqIds, function(seqId) {
 
 	glue.inMode("sequence/ncbi-refseqs-bovine/"+seqId, function() {
 	
-		glue.command(["set", "field", "species", 'BIV']);	
-		glue.command(["set", "field", "clade", 'Bovine']);
+		glue.command(["set", "field", "subgenus", 'Bovine']);
 		
 	});
 

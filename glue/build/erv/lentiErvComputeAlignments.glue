@@ -4,15 +4,14 @@
   delete module lentiErvCompoundAlignerMelv
   delete module lentiErvCompoundAlignerDelv
   delete module lentiErvCompoundAlignerSpELV
-  delete module lentiErvCompoundAlignerSpELV
   delete module fastaAlignmentExporter
 
   #~# Create modules
-  create module -f modules/erv/lentiErvCompoundAlignerPsiv.xml
-  create module -f modules/erv/lentiErvCompoundAlignerRelik.xml
-  create module -f modules/erv/lentiErvCompoundAlignerMelv.xml
-  create module -f modules/erv/lentiErvCompoundAlignerDelv.xml
-  create module -f modules/erv/lentiErvCompoundAlignerSpELV.xml
+  create module -f modules/build/erv/lentiErvCompoundAlignerPsiv.xml
+  create module -f modules/build/erv/lentiErvCompoundAlignerRelik.xml
+  create module -f modules/build/erv/lentiErvCompoundAlignerMelv.xml
+  create module -f modules/build/erv/lentiErvCompoundAlignerDelv.xml
+  create module -f modules/build/erv/lentiErvCompoundAlignerSpELV.xml
   create module -t fastaAlignmentExporter
 
 

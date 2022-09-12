@@ -1,7 +1,7 @@
 <genbankXmlPopulator>
 
 	<gbOrganism>
-		<propertyPopulator property="name"/>
+		<propertyPopulator property="full_name"/>
 	</gbOrganism>
 
 	<gbLength>
@@ -38,8 +38,16 @@
 
 				<!-- #### Ovine/Caprine -->																																													
 				<valueConverter>
-					<matchPattern>.*[Cc]apra [hH]ircus.*</matchPattern>
-					<outputTemplate>Capra hircus</outputTemplate>
+					<matchPattern>.*[bB]obcat.*</matchPattern>
+					<outputTemplate>Lynx rufus</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[pP]uma.*</matchPattern>
+					<outputTemplate>Puma concolor</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[cC]ougar.*</matchPattern>
+					<outputTemplate>Puma concolor</outputTemplate>
 				</valueConverter>
 			
 			</propertyPopulator>

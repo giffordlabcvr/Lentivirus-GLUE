@@ -20,7 +20,6 @@ _.each(loadResult, function(refSeqObj) {
 	
 		glue.command(["set", "field", "name", refSeqObj.name]);
 		glue.command(["set", "field", "full_name", refSeqObj.full_name]);
-		glue.command(["set", "field", "species", refSeqObj.name]);
 		glue.command(["set", "field", "genotype", refSeqObj.genotype]);
 		glue.command(["set", "field", "subgenus", refSeqObj.subgenus]);
 		glue.command(["set", "field", "clade", refSeqObj.clade]);

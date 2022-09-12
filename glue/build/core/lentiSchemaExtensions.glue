@@ -1,8 +1,7 @@
   table sequence
     create field length INTEGER
-    create field name VARCHAR 100  
     create field full_name VARCHAR 100
-    create field species VARCHAR 100  
+    create field name VARCHAR 100  
     create field subgenus VARCHAR 50
     create field clade VARCHAR 50
     create field subtype VARCHAR 50

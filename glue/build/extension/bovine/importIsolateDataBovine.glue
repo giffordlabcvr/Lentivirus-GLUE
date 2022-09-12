@@ -10,8 +10,7 @@
 	module genbankXmlPopulatorBovine populate -w "source.name like '%-bovine'"
 
 	# Import metadata for exogenous reference sequences from tabular
-	#create module -f modules/build/extension/bovine/sideDataImporterBovine.xml bovineSideDataImporter
-	#module srlvSideDataImporter 
-	#  populate -f tabular/extension/bovine/bovine-refseqs.tsv
-	#  populate -f tabular/extension/bovine/bovine-curated.tsv
-    #  exit
+	create module -f modules/build/extension/bovine/sideDataImporterBovine.xml bovineSideDataImporter
+	module bovineSideDataImporter 
+	  populate -f tabular/extension/bovine/bovine-refseqs.tsv
+      exit

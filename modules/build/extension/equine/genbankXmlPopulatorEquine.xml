@@ -38,8 +38,12 @@
 
 				<!-- #### Ovine/Caprine -->																																													
 				<valueConverter>
-					<matchPattern>.*[Cc]apra [hH]ircus.*</matchPattern>
-					<outputTemplate>Capra hircus</outputTemplate>
+					<matchPattern>.*[hH]orse.*</matchPattern>
+					<outputTemplate>Equus caballus</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[eE]quine.*</matchPattern>
+					<outputTemplate>Equus caballus</outputTemplate>
 				</valueConverter>
 			
 			</propertyPopulator>
