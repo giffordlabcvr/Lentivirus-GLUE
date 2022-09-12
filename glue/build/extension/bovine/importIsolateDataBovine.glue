@@ -1,0 +1,17 @@
+    delete module genbankXmlPopulatorBovine
+    
+    create module -f modules/build/extension/srlv/genbankXmlPopulatorBovine.xml
+
+	# Link extension set sequences to isolate data
+	run script glue/build/extension/srlv/linkIsolateExtensionRefseqsBovine.js
+	run script glue/build/extension/srlv/linkIsolateCuratedSeqsBovine.js
+
+	# Extract data from the XML files
+	module genbankXmlPopulatorBovine populate -w "source.name like '%-bovine'"
+
+	# Import metadata for exogenous reference sequences from tabular
+	create module -f modules/build/extension/bovine/sideDataImporterBovine.xml bovineSideDataImporter
+	#module srlvSideDataImporter 
+	#  populate -f tabular/extension/bovine/bovine-refseqs.tsv
+	#  populate -f tabular/extension/bovine/bovine-curated.tsv
+    #  exit

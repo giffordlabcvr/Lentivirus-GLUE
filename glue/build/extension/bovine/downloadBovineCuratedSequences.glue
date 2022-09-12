@@ -1,0 +1,12 @@
+
+  # Clean up any previous - delete modules
+  delete module ncbiImporterCuratedBovine
+  
+  # Create modules
+  create module -f modules/build/extension/bovine/ncbiImporterCuratedBovine.xml
+
+  # Download NCBI sequences 
+  module ncbiImporterCuratedBovine import
+
+  # Export sources
+  export source ncbi-curated-bovine

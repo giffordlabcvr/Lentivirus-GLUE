@@ -1,0 +1,4 @@
+ 
+  # Import GenBank sequences 
+  import source sources/virus/extension/bovine/ncbi-refseqs-bovine
+

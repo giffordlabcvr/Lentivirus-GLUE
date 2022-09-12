@@ -1,0 +1,9 @@
+  
+
+  # BIV
+  create reference REF_BIV_L04974      ncbi-refseqs-bovine L04974
+  create reference REF_BIV_L04972      ncbi-refseqs-bovine L04972
+  
+  # Jembrana
+  create reference REF_JDV_U21603      ncbi-refseqs-bovine U21603
+

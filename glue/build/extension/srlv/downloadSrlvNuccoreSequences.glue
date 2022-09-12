@@ -3,7 +3,7 @@
   delete module ncbiImporterNucCoreSrlv
   
   # Create modules
-  create module -f modules/extension/srlv/ncbiImporterNucCoreSrlv.xml
+  create module -f modules/build/extension/srlv/ncbiImporterNucCoreSrlv.xml
 
   # Download NCBI sequences 
   module ncbiImporterNucCoreSrlv import

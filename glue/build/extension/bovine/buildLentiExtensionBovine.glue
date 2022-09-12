@@ -1,0 +1,27 @@
+  project lentivirus
+
+    # Delete previous extension build
+    #run file glue/build/extension/bovine/deleteExtensionBuildBovine.glue
+
+    # Import sources
+    run file glue/build/extension/bovine/sourcesBovine.glue
+
+    # Define extension references
+    run file glue/build/extension/bovine/ReferencesBovine.glue
+
+    # Extract and import isolate data for extension sequences
+    run file glue/build/extension/bovine/importIsolateDataBovine.glue
+
+	# Add extension set sequences constrained alignment tree
+	run file glue/build/extension/bovine/alignmentTreeBovine.glue
+	
+	# Compute alignments
+	run file glue/build/extension/bovine/createAlignmentsBovine.glue
+	
+	# Record feature presence
+	run file glue/build/extension/bovine/recordFeaturePresenceBovine.glue
+
+	# Validate
+	validate
+
+	exit

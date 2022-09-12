@@ -3,7 +3,7 @@
   delete module ncbiImporterRefseqsSrlv
   
   # Create modules
-  create module -f modules/extension/srlv/ncbiImporterRefseqsSrlv.xml
+  create module -f modules/build/extension/srlv/ncbiImporterRefseqsSrlv.xml
 
   # Download NCBI sequences 
   module ncbiImporterRefseqsSrlv import
