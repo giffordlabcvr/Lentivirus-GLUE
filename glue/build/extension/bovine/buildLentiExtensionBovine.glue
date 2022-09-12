@@ -13,13 +13,13 @@
     run file glue/build/extension/bovine/importIsolateDataBovine.glue
 
 	# Add extension set sequences constrained alignment tree
-	run file glue/build/extension/bovine/alignmentTreeBovine.glue
+	#run file glue/build/extension/bovine/alignmentTreeBovine.glue
 	
 	# Compute alignments
-	run file glue/build/extension/bovine/createAlignmentsBovine.glue
+	#run file glue/build/extension/bovine/createAlignmentsBovine.glue
 	
 	# Record feature presence
-	run file glue/build/extension/bovine/recordFeaturePresenceBovine.glue
+	#run file glue/build/extension/bovine/recordFeaturePresenceBovine.glue
 
 	# Validate
 	validate

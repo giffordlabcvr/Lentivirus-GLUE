@@ -1,4 +1,4 @@
  
   # Import GenBank sequences 
-  import source sources/virus/extension/bovine/ncbi-refseqs-feline
+  import source sources/virus/extension/feline/ncbi-refseqs-feline
 
