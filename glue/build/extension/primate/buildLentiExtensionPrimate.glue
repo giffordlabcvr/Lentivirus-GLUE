@@ -11,7 +11,7 @@
     #run file glue/build/extension/primate/referencesPrimate.glue
 
     # Attach feature locations to the reference sequences 
-    run file glue/core/hivFeatureLocations.glue
+    #run file glue/build/extension/primate/featureLocationsPrimate.glue
 
     # Attach feature locations to the reference sequences 
     #run file glue/core/hivVariations.glue

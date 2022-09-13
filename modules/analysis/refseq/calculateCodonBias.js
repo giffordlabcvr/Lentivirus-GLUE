@@ -15,8 +15,8 @@ function calculateCompositionCodonA() {
 		//glue.log("INFO", "NAME WAS ", featureName)
 		codingFeatures[codingFeatureName] = featureObj;
 
+	});
 	
-	});	
 	//glue.log("INFO", "RESULT WAS ", codingFeatures);
 
 	// get list of reference sequences from GLUE
@@ -109,80 +109,6 @@ function calculateCompositionCodonA() {
 
 	//glue.log("INFO", "FINAL RESULT WAS ", codonCompositionResults);
 
-	// Transform the data 
-	var outputArray = [];
-    var headerRowCodons = [ 'ATT', 'ATC', 'ATA', 'ATG', 'ACT', 'ACC', 'ACA', 'ACG',
-                            'AGT', 'AGC', 'AGA', 'AGG', 'AAT', 'AAC', 'AAA', 'AAG'  ];
-
-	// Iterate through reference sequences
-	_.each(_.keys(codonCompositionResults), function(referenceName) {
-
-		glue.log("INFO", "Got reference name '"+referenceName);
-	
-		// Iterate through reference sequence features
-		var featuresObj = codonCompositionResults[referenceName];
-   
-		_.each(_.keys(featuresObj), function(featureName) {
-
-		   // Write values for each amino (count + ratio) 
-		   var codonObj = featuresObj[featureName];
-		   var length = codonObj["length"];
-		   //glue.log("INFO", "Got reference name '"+referenceName+" and feature "+featureName+" length = "+length);
-		   
-		   
-		   var codonCountResults = {};
-		   var codonFreqResults = {};
-		   _.each(headerRowCodons, function(codon) {
-
-			   var codonFreq;
-			   var codonCount = codonObj[codon];
-			   if (codonCount) {
-					var codonFreq = (codonCount / length) * 100;
-					var codonFormatedFreq = codonFreq.toFixed(2);
-					//glue.log("INFO", "  Amino acid '"+codon+" frequency = ("+codonCount+" / "+length+") "+codonFormatedFreq);
-			   }
-			   else {
-				    codonCount = '0';
-				    codonFormatedFreq = '0';		  
-			   }
-			  
-			  codonCountResults[codon] = codonCount;
-			  codonFreqResults[codon] = codonFormatedFreq;
-
-		   });
-
-		   // add results to array to be returned to GLUE
-		   outputArray.push({
-
-		
-			   referenceName: referenceName,
-			   featureName: featureName,
-			   seqLength: length,
-			   "ATT%": codonFreqResults["ATT"],
-			   "ATC%": codonFreqResults["ATC"],
-			   "ATA%": codonFreqResults["ATA"],
-			   "ATG%": codonFreqResults["ATG"],
-			   "AGA%": codonFreqResults["AGA"],		   
-			   "AGG%": codonFreqResults["AGG"],
-			   "AGT%": codonFreqResults["AGT"],
-			   "AGC%": codonFreqResults["AGC"],
-			   "ACT%": codonFreqResults["ACT"],
-			   "ACC%": codonFreqResults["ACC"],
-			   "AAG%": codonFreqResults["AAG"],
-			   "ACA%": codonFreqResults["ACA"],
-			   "ACG%": codonFreqResults["ACG"],
-			   "AAT%": codonFreqResults["AAT"],
-			   "AAC%": codonFreqResults["AAC"],
-			   "AAA%": codonFreqResults["AAA"],
-			   "AAG%": codonFreqResults["AAG"]
-
-		   });
-
-   
-		});
-
-
-	});
 	 
 	return outputArray;
 }

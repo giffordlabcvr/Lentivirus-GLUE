@@ -1,13 +1,12 @@
 <ecmaFunctionInvoker>
 
-	<scriptFileName>calculateCompositionAa.js</scriptFileName>
+	<scriptFileName>calculateCodonBias.js</scriptFileName>
 	
 	<function>
-		<name>calculateCompositionAa</name>
+		<name>calculateCodonBias</name>
 	
 		<tableFromObjectsResultType/>
 	</function>
 	
 </ecmaFunctionInvoker>
-
 
