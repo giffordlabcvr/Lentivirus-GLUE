@@ -108,7 +108,6 @@ function calculateCompositionCodonA() {
 	});
 
 	//glue.log("INFO", "FINAL RESULT WAS ", codonCompositionResults);
-
 	 
 	return outputArray;
 }

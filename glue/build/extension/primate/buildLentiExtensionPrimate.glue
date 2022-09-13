@@ -13,11 +13,6 @@
     # Attach feature locations to the reference sequences 
     #run file glue/build/extension/primate/featureLocationsPrimate.glue
 
-    # Attach feature locations to the reference sequences 
-    #run file glue/core/hivVariations.glue
-    # Inherit features from HIV-1 master reference to other reference sequences
-    #run script glue/core/hivRefseqsInheritFeatureLocations.js
-
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/primate/importIsolateDataPrimate.glue
 
@@ -25,7 +20,7 @@
 	#run file glue/build/extension/primate/alignmentTreePrimate.glue
 
     # Import alignments and create constrained alignment tree
-    run file glue/core/hivRootAlignment.glue
+    #run file glue/core/hivRootAlignment.glue
 	
 	# Record feature presence
 	#run file glue/build/extension/primate/recordFeaturePresencePrimate.glue
@@ -34,8 +29,4 @@
 	validate
 
 	exit
-      
-
-
-
 
