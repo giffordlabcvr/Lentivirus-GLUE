@@ -1,0 +1,19 @@
+    delete module genbankXmlPopulatorPrimate
+    
+    create module -f modules/build/extension/primate/genbankXmlPopulatorPrimate.xml
+
+	# Link extension set sequences to isolate data
+	run script glue/build/extension/primate/linkIsolateExtensionRefseqsPrimate.js
+	run script glue/build/extension/primate/linkIsolateCuratedSeqsPrimate.js
+
+	# Extract data from the XML files
+	module genbankXmlPopulatorPrimate populate -w "source.name like '%-primate'"
+
+	# Import metadata for exogenous reference sequences from tabular
+	create module -f modules/build/extension/primate/sideDataImporterPrimate.xml primateSideDataImporter
+	module primateSideDataImporter 
+	  populate -f tabular/extension/primate/primate-refseqs.tsv
+      exit
+    
+    # Import reference sequence side-data
+    #module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.tsv

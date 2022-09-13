@@ -7,7 +7,7 @@
     run file glue/build/extension/bovine/sourcesBovine.glue
 
     # Define extension references
-    run file glue/build/extension/bovine/ReferencesBovine.glue
+    run file glue/build/extension/bovine/referencesBovine.glue
 
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/bovine/importIsolateDataBovine.glue

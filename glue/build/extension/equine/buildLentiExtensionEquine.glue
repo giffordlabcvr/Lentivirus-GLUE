@@ -7,7 +7,7 @@
     run file glue/build/extension/equine/sourcesEquine.glue
 
     # Define extension references
-    #run file glue/build/extension/equine/ReferencesEquine.glue
+    #run file glue/build/extension/equine/referencesEquine.glue
 
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/equine/importIsolateDataEquine.glue

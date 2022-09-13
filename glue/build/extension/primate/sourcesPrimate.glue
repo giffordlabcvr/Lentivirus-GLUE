@@ -1,0 +1,5 @@
+
+  # Import reference sequences from GenBank XML files 
+  #import source sources/core/fasta-refseqs/
+  import source sources/core/ncbi-refseqs/
+
