@@ -89,7 +89,7 @@ function calculateCodonBias() {
 
 						   //glue.log("INFO", "Amino acid result:", aa);
 						   //glue.log("INFO", " Codon result:", codon);
-			
+						   
 						   if (featureResults[aa]) {
 
                                // get the map with codon counts for this aa
@@ -332,9 +332,15 @@ function create_codon_map(aa){
 		codonMap['TAG'] = 0;
 		codonMap['TGA'] = 0;
 			
+	} else if (aa == 'X') {
+	
+		codonMap['NNN'] = 0;
+			
 	} else {
 		
-		die;
+		glue.log("INFO", "AMINO RESULT WAS ", aa);
+		die;	
+
 		
 	} 
 
