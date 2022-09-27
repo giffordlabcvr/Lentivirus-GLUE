@@ -1,3 +1,5 @@
+var conservationCutOff = "REF_MASTER_B_AF033819";
+
 function calculateCompositionCodonA() {
 
 	// Script to calculate amino acid composition in reference sequences

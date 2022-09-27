@@ -1,10 +1,4 @@
-var refsequence = "REF_MASTER_B_AF033819";
-var refname = 'AF033819|HIV-1.M.B'
-var alignment = "AL_HIV-1M_B";
-var feature = 'vpr';
-var aa_codons = {ATT:'I', ATC:'I', ATA:'I', CTT:'L', CTC:'L', CTA:'L', CTG:'L', TTA:'L', TTG:'L', GTT:'V', GTC:'V', GTA:'V', GTG:'V', TTT:'F', TTC:'F', ATG:'M', TGT:'C', TGC:'C', GCT:'A', GCC:'A', GCA:'A', GCG:'A', GGT:'G', GGC:'G', GGA:'G', GGG:'G', CCT:'P', CCC:'P', CCA:'P', CCG:'P', ACT:'T', ACC:'T', ACA:'T', ACG:'T', TCT:'S', TCC:'S', TCA:'S', TCG:'S', AGT:'S', AGC:'S', TAT:'Y', TAC:'Y', TGG:'W', CAA:'Q', CAG:'Q', AAT:'N', AAC:'N', CAT:'H', CAC:'H', GAA:'E', GAG:'E', GAT:'D', GAC:'D', AAA:'K', AAG:'K', CGT:'R', CGC:'R', CGA:'R', CGG:'R', AGA:'R', AGG:'R', TAA:'*', TAG:'*', TGA:'*'};
-var ref_seq = '';
-var codon_counts = {};
+
 
 
 function findAtypicalConservedSites(refsequence, alignment, feature) {
@@ -15,27 +9,76 @@ function findAtypicalConservedSites(refsequence, alignment, feature) {
 	//var fourfoldAAs = [   ];
 	//var sixfoldAAs = [   ];
 
-	// reference REF_PTLV1 feature-location gag amino-acid
+    // Get all references
+	var referencesResult = glue.command(["list","reference"]);
+	//glue.log("INFO", "RESULT WAS ", referencesResult);
+	var listResult = referencesResult["listResult"];
+	var referencesList = listResult["row"];
+	//glue.log("INFO", "RESULT WAS ", referencesList);
 
-    // get all references
     
-    // for each reference, get all coding features
+    // Iterate through the reference sequences
+	codonCompositionResults = {}
+	_.each(referencesList, function(refObj) {
 
-    // for each coding sequence get the alignment
-    // iterate through each site and do codon frequency query
-    // get all conserved aa sites in alignment
-    // check if its an AA that can reveal a bias (two-, three-, four-, sixfold)
-    // if yes then add to list of sites to check
+		//glue.log("INFO", "RESULT WAS ", refObj);
+		var refseqResults = {};
+		var referenceProperties = refObj["value"];
+		var referenceName = referenceProperties[0];
+		//glue.log("INFO", "Reference name result was:", referenceName);
+		
+		// list all features annotated in this reference 
+		// GLUE COMMAND: reference [referenceName] list feature-location
+		glue.inMode("/reference/"+referenceName, function() {
+
+			var featuresResult = glue.tableToObjects(glue.command(["list", "feature-location"]));
+			//glue.log("INFO", "RESULT WAS ", featuresResult);
+			 
+			// iterate through features
+			_.each(featuresResult, function(featureObj) {
+
+			   //glue.log("INFO", "RESULT WAS ", featureObj);
+			   
+			   var featureResults = {};
+		   
+			   // get amino acid sequence
+			   var featureName = featureObj["feature.name"];
+			   glue.log("INFO", "Feature name result was:", featureName);
+			   
+			   // use amino acid command to get data for this coding feature
+			   
+			   
+			   // for each coding sequence get the alignment
+			   
+			    // iterate through each codon site and do codon frequency query
+   
+
+				// to get all conserved aa sites in alignment
+				// check if its an AA that can reveal a bias (two-, three-, four-, sixfold)
+				// if yes then add to list of sites to check
+
+				   
+			});   
+
+			// store reference result
+			codonCompositionResults[referenceName] = refseqResults;
+		
+		});   
+	
+	});
+
+
     
     // for all sites to check, get alignment columns
-    // check codon conservation in all alignment columns - compile list of conserved codons
+    // check *codon* conservation in all conserved aa alignment columns in this feature
+    
+    // compile list of conserved codons
+    
     // check for atypical codons 
     
-    
-}
 
-// export alignment from GLUE
-glue.inMode("module/fastaAlignmentExporter", function(){	
+	// export alignment from GLUE
+	glue.inMode("module/fastaAlignmentExporter", function(){	
 	var sequences = glue.command(["export",alignment,"-r",refsequence,"-f",feature,"-a","-p"]);
 	var list = sequences.nucleotideFasta.sequences;
 	
