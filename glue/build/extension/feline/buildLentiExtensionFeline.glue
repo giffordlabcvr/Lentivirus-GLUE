@@ -12,14 +12,17 @@
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/feline/importIsolateDataFeline.glue
 
+	# Import alignments
+	run file glue/build/extension/feline/alignmentFeline.glue
+
 	# Add extension set sequences constrained alignment tree
-	#run file glue/build/extension/feline/alignmentTreeFeline.glue
+	run file glue/build/extension/feline/alignmentTreeFeline.glue
 	
 	# Compute alignments
-	#run file glue/build/extension/feline/createAlignmentsFeline.glue
+	run file glue/build/extension/feline/createAlignmentsFeline.glue
 	
 	# Record feature presence
-	#run file glue/build/extension/feline/recordFeaturePresenceFeline.glue
+	run file glue/build/extension/feline/recordFeaturePresenceFeline.glue
 
 	# Validate
 	validate
