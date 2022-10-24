@@ -3,16 +3,7 @@
 	<scriptFileName>findAtypicalConservedSites.js</scriptFileName>
 	
 	<function>
-		<name>calculateEntropyAA</name>
-		<parameter>
-			<name>refsequence</name>
-		</parameter>
-		<parameter>
-			<name>alignment</name>
-		</parameter>
-		<parameter>
-			<name>feature</name>
-		</parameter>
+		<name>findAtypicalConservedSites</name>
 	
 		<tableFromObjectsResultType/>
 	</function>

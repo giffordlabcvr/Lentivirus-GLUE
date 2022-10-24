@@ -7,7 +7,7 @@
     run file glue/build/extension/feline/sourcesFeline.glue
 
     # Define extension references
-    #run file glue/build/extension/feline/referencesFeline.glue
+    run file glue/build/extension/feline/referencesFeline.glue
 
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/feline/importIsolateDataFeline.glue

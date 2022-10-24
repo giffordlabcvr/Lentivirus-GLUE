@@ -1,135 +1,200 @@
-
-
-
+// Top level 
 function findAtypicalConservedSites(refsequence, alignment, feature) {
+	
+	var codingFeatures = { };
+	getAllCodingFeatures(codingFeatures);
+	//glue.log("INFO", "RESULT WAS ", codingFeatures);
+	
+    // Get alignment/constraining master reference pairs
+	var alignmentsResult = glue.command(["list","alignment"]);
+	var listResult = alignmentsResult["listResult"];
+	//glue.log("INFO", "RESULT WAS ", listResult);
+	var alignmentsList = listResult["row"];
 
-	// set possible amino acids for detecting bias
-	//var twofoldAAs = [   ];
-	//var threefoldAAs = [   ];
-	//var fourfoldAAs = [   ];
-	//var sixfoldAAs = [   ];
-
-    // Get all references
-	var referencesResult = glue.command(["list","reference"]);
-	//glue.log("INFO", "RESULT WAS ", referencesResult);
-	var listResult = referencesResult["listResult"];
-	var referencesList = listResult["row"];
-	//glue.log("INFO", "RESULT WAS ", referencesList);
-
-    
-    // Iterate through the reference sequences
-	codonCompositionResults = {}
-	_.each(referencesList, function(refObj) {
-
-		//glue.log("INFO", "RESULT WAS ", refObj);
-		var refseqResults = {};
-		var referenceProperties = refObj["value"];
-		var referenceName = referenceProperties[0];
-		//glue.log("INFO", "Reference name result was:", referenceName);
+	// get coding feature codon list for each coding feature in each constraining reference
+	var conRefCodingFeatureCodonLists = { };
+    getConstrainingRefCodingFeatureCodonList(alignmentsList, codingFeatures, conRefCodingFeatureCodonLists);
+	//glue.log("INFO", "RESULT WAS ", conRefCodingFeatureCodonLists);
 		
+	// get aa frequencies
+	var aaFrequencies = { };
+    getAaFrequencies(alignmentsList, codingFeatures, conRefCodingFeatureCodonLists, aaFrequencies);
+	die;
+	
+    // Compile list of conserved sites
+    //getConservedCodonSites(alignmentsList);
+
+
+}
+
+
+// Get AA frequencies:
+// for all alignments, for each coding feature in constrain reference
+// get frequencies at all codon positions in all coding features
+function getAaFrequencies (alignmentsList, codingFeatures, conRefCodingFeatureCodonLists, aaFrequencyResults) {		  
+		  
+    // Iterate through the reference sequences
+	_.each(alignmentsList, function(alignmentObj) {
+
+		//glue.log("INFO", "RESULT WAS ", alignmentObj);
+		
+		// Get reference from reference-alignment pair map
+		var alignmentName = alignmentObj["value"][0];
+		var referenceName = alignmentObj["value"][2];
+		//glue.log("INFO", "Alignment name result was:", alignmentName);
+		//glue.log("INFO", "Reference name result was:", referenceName);
+				
 		// list all features annotated in this reference 
 		// GLUE COMMAND: reference [referenceName] list feature-location
+		var refseqFeatures;
+		var refseqFeatureLengths = { };
 		glue.inMode("/reference/"+referenceName, function() {
 
-			var featuresResult = glue.tableToObjects(glue.command(["list", "feature-location"]));
-			//glue.log("INFO", "RESULT WAS ", featuresResult);
-			 
-			// iterate through features
-			_.each(featuresResult, function(featureObj) {
+			refseqFeatures = glue.tableToObjects(glue.command(["list", "feature-location"]));
+			glue.log("INFO", "RESULT WAS ", refseqFeatures);
+	   
+		});  
 
-			   //glue.log("INFO", "RESULT WAS ", featureObj);
-			   
-			   var featureResults = {};
+		// iterate through features
+		_.each(refseqFeatures, function(featureObj) {
 		   
-			   // get amino acid sequence
-			   var featureName = featureObj["feature.name"];
-			   glue.log("INFO", "Feature name result was:", featureName);
-			   
-			   // use amino acid command to get data for this coding feature
-			   
-			   
-			   // for each coding sequence get the alignment
-			   
-			    // iterate through each codon site and do codon frequency query
-   
+			//glue.log("INFO", "RESULT WAS ", featureObj);		   
+			var featureResults = {};
+  
+			// get feature name sequence
+			var featureName = featureObj["feature.name"];
 
-				// to get all conserved aa sites in alignment
-				// check if its an AA that can reveal a bias (two-, three-, four-, sixfold)
-				// if yes then add to list of sites to check
+			glue.log("INFO", "Feature name result was:", featureName);
 
-				   
-			});   
-
-			// store reference result
-			codonCompositionResults[referenceName] = refseqResults;
-		
-		});   
-	
-	});
-
-
-    
-    // for all sites to check, get alignment columns
-    // check *codon* conservation in all conserved aa alignment columns in this feature
-    
-    // compile list of conserved codons
-    
-    // check for atypical codons 
-    
-
-	// export alignment from GLUE
-	glue.inMode("module/fastaAlignmentExporter", function(){	
-	var sequences = glue.command(["export",alignment,"-r",refsequence,"-f",feature,"-a","-p"]);
-	var list = sequences.nucleotideFasta.sequences;
-	
-	// loop through each sequence in the alignment to find reference sequence
-	_.each(list, function(seq){			
-		if (seq.id == refname ) {
-			ref_seq = seq.sequence;
-		}	
-	});
-			
-    // loop through each sequence in the alignment and compare with ref
-	_.each(list, function(seq){
-		var position = 1;
-		for (var i=0; i < seq.sequence.length; i+=3) {
-			//var key = "codon_" + position;
-			var key = position;
-			
-			var seq_codon = seq.sequence.charAt(i) +seq.sequence.charAt(i+1) +seq.sequence.charAt(i+2);
-			var ref_codon = ref_seq.charAt(i) + ref_seq.charAt(i+1) + ref_seq.charAt(i+3);
-		
-			if (seq_codon != ref_codon) {				
+			if (codingFeatures[featureName]) {
 				
-				glue.logInfo(key + "\t" + seq_codon + "\t" + ref_codon);
+				glue.log("INFO", "Coding feature name result was:", featureName);
 				
-				var seq_aa = aa_codons[seq_codon];
-				var ref_aa = aa_codons[ref_codon];
+				// Get the codon list for this feature
+				var aminoAcidResults = conRefCodingFeatureCodonLists[referenceName][featureName];
+	            //glue.log("INFO", "RESULT WAS ", aminoAcidResults);
+					
+				// Iterate through all positions
+				_.each(aminoAcidResults, function(codingPositionObj) {
+				
+				
+					// Get frequency at each position
+					glue.log("INFO", "RESULT WAS ", codingPositionObj);
+					die;
 
-				glue.logInfo(seq.id + "\t" + ref_aa + "\t" + seq_aa);
-							
-				var positionFreqs = codon_counts[key];
-				if (positionFreqs == null) {
-					positionFreqs = {S:0, NS:0, T:0};
-					codon_counts[key] = positionFreqs;
-				}
-				opt = ""
-				if (seq_aa != ref_aa){
-					//increment counter for NS
-					opt = "NS";
-				} else if (seq_aa == ref_aa) {
-					//increment counter for S
-					opt = "S";
-				}
-				positionFreqs[opt]++;
-				positionFreqs["T"]++;
+					glue.inMode("/alignment/"+alignmentName, function() {
+
+						refseqFeatures = glue.tableToObjects(glue.command(["list", "feature-location"]));
+						glue.log("INFO", "RESULT WAS ", refseqFeatures);
+	   
+					});  
+
+				
+				});
+					  
+			
 			}
+  
+			// capture frequency
 
-			position++;
-		}
+		}); 
+	
 	});
 
-    //output = codon | synonymous changes  | non-synonymous changes  | total changes
-    //glue.logInfo("codon_counts", codon_counts);	
+}		  
 
-});
+
+// Get all coding features
+function getAllCodingFeatures (codingFeatures) {		  
+		  
+
+	var resultMap = glue.command(["list", "feature","-w", "featureMetatags.name = 'CODES_AMINO_ACIDS'"]);
+	var featureList = resultMap["listResult"];
+	var codingFeatureList = featureList["row"];
+	_.each(codingFeatureList,function(featureObj){
+
+		//glue.log("INFO", "RESULT WAS ", featureObj);	
+		var valueArray = featureObj["value"];
+		var codingFeatureName = valueArray[0];
+		//glue.log("INFO", "NAME WAS ", codingFeatureName)
+		codingFeatures[codingFeatureName] = featureObj;
+	
+	});	
+
+}
+
+
+// Get codon list for each coding feature in each reference
+function getConstrainingRefCodingFeatureCodonList (alignmentsList, codingFeatures, conRefCodingFeatureCodonLists) {		  
+		  
+    // Iterate through the reference sequences
+	_.each(alignmentsList, function(alignmentObj) {
+
+		//glue.log("INFO", "RESULT WAS ", alignmentObj);
+		
+		// Get reference from reference-alignment pair map
+		var alignmentName = alignmentObj["value"][0];
+		var parentName    = alignmentObj["value"][1];
+		var referenceName = alignmentObj["value"][2];
+		
+		if (parentName) {
+		
+			//glue.log("INFO", "Alignment name result was:", alignmentName);
+			//glue.log("INFO", "Reference name result was:", referenceName);
+			   
+			// list all features annotated in this reference 
+			// GLUE COMMAND: reference [referenceName] list feature-location
+			var refseqFeatures;
+			var refseqFeatureLengths = { };
+			glue.inMode("/reference/"+referenceName, function() {
+
+				refseqFeatures = glue.tableToObjects(glue.command(["list", "feature-location"]));
+				//glue.log("INFO", "RESULT WAS ", refseqFeatures);
+	  
+			});  
+
+			// iterate through features
+			_.each(refseqFeatures, function(featureObj) {
+		  
+				//glue.log("INFO", "RESULT WAS ", featureObj);		   
+				var featureResults = {};
+ 
+				// get feature name sequence
+				var featureName = featureObj["feature.name"];
+		   
+				// If its a coding feature get the codon list
+				if (codingFeatures[featureName]) {
+			   
+					//glue.log("INFO", "Coding feature name result was:", featureName);					  
+					glue.inMode("/reference/"+referenceName+"/feature-location/"+featureName, function() {
+
+						var aminoAcidResults = glue.tableToObjects(glue.command(["amino-acid"]));
+						//glue.log("INFO", "RESULT WAS ", aminoAcidResults);
+				   
+						// Store results under reference -> feature
+						if (conRefCodingFeatureCodonLists[referenceName]) {
+					        
+					        conRefCodingFeatureCodonLists[referenceName][featureName] = aminoAcidResults;				   
+					   
+						}
+						else {
+				   
+							var referenceData = { };
+							referenceData[featureName] = aminoAcidResults;
+							conRefCodingFeatureCodonLists[referenceName] = referenceData;
+				   
+						}
+	   
+					});
+   
+				}
+
+			});
+	
+		}
+		
+	});
+
+}
+
+

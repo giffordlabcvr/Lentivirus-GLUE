@@ -2,8 +2,8 @@
 
   
   # Equine
-  create reference REF_EIAV_Eu ncbi-refseqs-extended JX480632
-  create reference REF_EIAV_As ncbi-refseqs-extended AF327877
+  create reference REF_EIAV_Eu ncbi-refseqs-equine JX480632
+  create reference REF_EIAV_As ncbi-refseqs-equine AF327877
 
    reference REF_EIAV_Eu
 
