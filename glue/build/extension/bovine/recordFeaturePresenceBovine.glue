@@ -3,6 +3,7 @@
 
   module lentiFeaturePresenceRecorder 
 
+    record feature-presence AL_Bovine --featureName whole_genome --descendentFeatures
     record feature-presence AL_BIV --featureName whole_genome --descendentFeatures
     record feature-presence AL_JDV --featureName whole_genome --descendentFeatures
    

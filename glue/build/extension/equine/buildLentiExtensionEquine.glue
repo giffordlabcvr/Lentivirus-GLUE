@@ -12,14 +12,17 @@
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/equine/importIsolateDataEquine.glue
 
+	# Import alignment
+	run file glue/build/extension/equine/alignmentEquine.glue
+
 	# Add extension set sequences constrained alignment tree
-	#run file glue/build/extension/equine/alignmentTreeEquine.glue
+	run file glue/build/extension/equine/alignmentTreeEquine.glue
 	
 	# Compute alignments
-	#run file glue/build/extension/equine/createAlignmentsEquine.glue
+	run file glue/build/extension/equine/createAlignmentsEquine.glue
 	
 	# Record feature presence
-	#run file glue/build/extension/equine/recordFeaturePresenceEquine.glue
+	run file glue/build/extension/equine/recordFeaturePresenceEquine.glue
 
 	# Validate
 	validate

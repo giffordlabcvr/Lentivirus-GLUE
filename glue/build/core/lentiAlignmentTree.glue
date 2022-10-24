@@ -23,8 +23,8 @@
 	extract child AL_Bovine       --refName REF_BIV
 	demote member AL_Bovine       --whereClause "sequence.subgenus = 'Bovine'"
 
-	extract child Al_Equine       --refName REF_EIAV_Am
-	demote member Al_Equine       --whereClause "sequence.subgenus = 'Equine'"
+	extract child AL_Equine       --refName REF_EIAV_Am
+	demote member AL_Equine       --whereClause "sequence.subgenus = 'Equine'"
   
 	exit
 

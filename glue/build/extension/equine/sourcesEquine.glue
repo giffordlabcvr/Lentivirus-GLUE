@@ -1,4 +1,5 @@
  
   # Import GenBank sequences 
   import source ../../../../../Sources/lentivirus/equine/ncbi-refseqs-equine/
+  import source ../../../../../Sources/lentivirus/equine/ncbi-curated-equine/
 
