@@ -16,10 +16,10 @@
        PRIMARY_ACCESSION -->
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   <!-- Maximum number of NCBI records to return. If omitted, defaults to 4000 -->
-  <eSearchRetMax>500000</eSearchRetMax>
+  <eSearchRetMax>50000</eSearchRetMax>
   <!-- Retrieval operates in batches to avoid overloading NCBI. 
        This is the number of sequences to retrieve per batch -->
-  <eFetchBatchSize>500</eFetchBatchSize>
+  <eFetchBatchSize>100</eFetchBatchSize>
   
 </ncbiImporter>
 

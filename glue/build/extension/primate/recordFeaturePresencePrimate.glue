@@ -1,7 +1,7 @@
   multi-delete member_floc_note -w "member.sequence.source.name like 'ncbi-curated%'"  
   delete module hivFeaturePresenceRecorder
 
-  create module -f modules/extension/hivFeaturePresenceRecorder.xml
+  create module -f modules/build/extension/primate/hivFeaturePresenceRecorder.xml
 
   module hivFeaturePresenceRecorder 
     record feature-presence AL_ROOT --recursive -w "sequence.source.name = 'ncbi-curated-group-n'" -f whole_genome --descendentFeatures

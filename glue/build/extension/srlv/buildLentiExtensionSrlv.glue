@@ -25,7 +25,7 @@
 	run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
 
 	# Create and import genotyping phylogeny
-    run file glue/build/extension/srlv/createGenotypingPhylogeny.glue
+    #run file glue/build/extension/srlv/createGenotypingPhylogeny.glue
     run file glue/build/extension/srlv/prepareReferencePhylogeny.glue
 	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
 

@@ -1,4 +1,4 @@
-Accession	Species	Group	Subtype	Isolate	Year	Country	Host	Host_common_name	pubmedID
+sequenceID	species	group	subtype	Isolate	year	country	host	host_common_name	pubmedID
 KU749402	HIV-1	M	A1	DEMA112UA014	2012	Ukraine	Homo sapiens	human	NULL
 AF033819	HIV-1	M	B	HXB2	1983	France	Homo sapiens	human	NULL
 JN188292	HIV-1	M	C	pZAC	1981	South Africa	Homo sapiens	human	23170185

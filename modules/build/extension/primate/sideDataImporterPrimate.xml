@@ -1,32 +1,26 @@
 <textFilePopulator>
-	<columnDelimiterRegex>,</columnDelimiterRegex>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
 	
 	<textFileColumn>
 		<identifier>true</identifier>
-		<header>Accession</header>
+		<header>sequenceID</header>
 		<property>sequenceID</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 
 	<textFileColumn>
-		<header>Organism</header>
-		<property>species</property>
+		<header>host</header>
+		<property>isolate_data.host_sci_name</property>
+		<nullRegex>NK</nullRegex>
 	</textFileColumn>
 	
 	<textFileColumn>
-		<header>Group</header>
-		<property>species_group</property>
+		<header>group</header>
+		<property>clade</property>
 	</textFileColumn>
 	
 	<textFileColumn>
-		<header>Subtype</header>
+		<header>subtype</header>
 		<property>subtype</property>
-	</textFileColumn>
-
-	<textFileColumn>
-		<header>Name</header>
-		<property>isolate_id</property>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
 	</textFileColumn>
 			
 	

@@ -1,6 +1,6 @@
 
-// list the sequences in source ncbi-refseqs-primate
-var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-primate'"]);
+// list the sequences in source ncbi-refseqs-hiv-1
+var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-refseqs-hiv-1'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
@@ -12,13 +12,13 @@ _.each(seqIds, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-refseqs-primate/"+seqId, function() {
+    glue.inMode("sequence/ncbi-refseqs-hiv-1/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-refseqs-primate/"+seqId, function() {
+	glue.inMode("sequence/ncbi-refseqs-hiv-1/"+seqId, function() {
 		
-		glue.command(["set", "field", "subgenus", 'Primate']);
+		glue.command(["set", "field", "subgenus", 'hiv-1']);
 		
 	});
 

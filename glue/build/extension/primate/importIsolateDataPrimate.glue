@@ -10,9 +10,7 @@
 
 	# Import metadata for exogenous reference sequences from tabular
 	create module -f modules/build/extension/primate/sideDataImporterPrimate.xml primateSideDataImporter
-	#module primateSideDataImporter 
-	#  populate -f tabular/extension/primate/primate-refseqs.tsv
-    #  exit
+	module primateSideDataImporter 
+	  populate -f tabular/extension/primate/hiv-reference-data.tsv
+      exit
     
-    # Import reference sequence side-data
-    #module refseqTextFilePopulator populate -f tabular/core/hiv-reference-data.tsv

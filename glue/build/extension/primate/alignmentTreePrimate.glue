@@ -15,25 +15,36 @@ delete alignment AL_HIV-1M_crf02
 # Create constrained alignment tree for curated sequence alignments
 alignment AL_ROOT
 
-  # Add all members
-  add member -a
+  add member -w "source.name = 'ncbi-refseqs-hiv-1'" 
+  add member -w "source.name = 'ncbi-curated-primate'"
+  
+  demote member AL_Primate  -w "sequence.source.name = 'ncbi-refseqs-hiv-1'"  
+  demote member AL_Primate  -w "sequence.source.name = 'ncbi-curated-primate'"
+
+  exit
+
+
+# Primate
+alignment AL_Primate
 
   # Extract group M master reference 
-  extract child AL_HIV-1M   --refName REF_MASTER_B_AF033819
-  demote member AL_HIV-1M   --whereClause "sequence.species_group = 'M'" 
+  extract child AL_HIV-1M   --refName REF_HIV_1M
+  demote member AL_HIV-1M   --whereClause "sequence.clade = 'M'" 
 
   # Extract group N master reference 
   extract child AL_HIV-1N   --refName REF_HIV-1N_AJ006022
-  demote member AL_HIV-1N   --whereClause "sequence.species_group = 'N'" 
+  demote member AL_HIV-1N   --whereClause "sequence.clade = 'N'" 
 
   # Extract group O master reference 
   extract child AL_HIV-1O   --refName REF_HIV-1O_KU168292
-  demote member AL_HIV-1O   --whereClause "sequence.species_group = 'O'" 
+  demote member AL_HIV-1O   --whereClause "sequence.clade = 'O'" 
 
   # Extract group P master reference 
   extract child AL_HIV-1P   --refName REF_HIV-1P_GU111555
-  demote member AL_HIV-1P   --whereClause "sequence.species_group = 'P'" 
+  demote member AL_HIV-1P   --whereClause "sequence.clade = 'P'" 
+
   exit
+
 
 
 alignment AL_HIV-1M
@@ -44,7 +55,7 @@ alignment AL_HIV-1M
   extract child AL_HIV-1M_A     --refName REF_HIV-1M_A1_KU749402
   demote member AL_HIV-1M_A     --whereClause "sequence.subtype like 'A%'"
 
-  extract child AL_HIV-1M_B     --refName REF_MASTER_B_AF033819
+  extract child AL_HIV-1M_B     --refName REF_HIV_1M
   demote member AL_HIV-1M_B     --whereClause "sequence.subtype = 'B'" 
 
   extract child AL_HIV-1M_C     --refName REF_HIV-1M_C_JN188292
