@@ -17,9 +17,22 @@ alignment AL_ROOT
 
   add member -w "source.name = 'ncbi-refseqs-hiv-1'" 
   add member -w "source.name = 'ncbi-curated-primate'"
+  add member -w "source.name = 'ncbi-curated-subtype-a'"
+  add member -w "source.name = 'ncbi-curated-subtype-b'"
+  add member -w "source.name = 'ncbi-curated-subtype-c'"
+  add member -w "source.name = 'ncbi-curated-subtype-d'"
+  add member -w "source.name = 'ncbi-curated-subtype-f1'"
+  add member -w "source.name = 'ncbi-curated-subtype-g'"
+  add member -w "source.name = 'ncbi-curated-crf01'"
+  add member -w "source.name = 'ncbi-curated-crf02'"
+  add member -w "source.name = 'ncbi-curated-group-n'"
+  add member -w "source.name = 'ncbi-curated-group-o'"
+  add member -w "source.name = 'ncbi-curated-group-p'"
   
-  demote member AL_Primate  -w "sequence.source.name = 'ncbi-refseqs-hiv-1'"  
-  demote member AL_Primate  -w "sequence.source.name = 'ncbi-curated-primate'"
+  demote member AL_Primate -w "sequence.source.name = 'ncbi-refseqs-hiv-1'"
+  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-subtype%'"
+  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-crf%'"
+  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-group%'"
 
   exit
 
@@ -44,7 +57,6 @@ alignment AL_Primate
   demote member AL_HIV-1P   --whereClause "sequence.clade = 'P'" 
 
   exit
-
 
 
 alignment AL_HIV-1M

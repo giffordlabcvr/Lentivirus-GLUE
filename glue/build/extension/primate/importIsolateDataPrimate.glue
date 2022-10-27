@@ -2,9 +2,13 @@
     
     create module -f modules/build/extension/primate/genbankXmlPopulatorPrimate.xml
 
-	# Link extension set sequences to isolate data
+	# Link primate extension reference sequences to isolate data table and set some sequence table fields
 	run script glue/build/extension/primate/linkIsolateExtensionRefseqsPrimate.js
 
+	# Link primate curated sequences to isolate data table and set some sequence table fields
+	run script glue/build/extension/primate/linkIsolateCuratedHiv1.js
+	#run script glue/build/extension/primate/linkIsolateCuratedAllOtherSivs.js
+	
 	# Extract data from the XML files
 	module genbankXmlPopulatorPrimate populate -w "source.name like '%-primate'"
 
