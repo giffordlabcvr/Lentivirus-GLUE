@@ -38,14 +38,6 @@
 
 				<!-- #### Ovine/Caprine -->																																													
 				<valueConverter>
-					<matchPattern>.*[Cc]apra [hH]ircus.*</matchPattern>
-					<outputTemplate>Capra hircus</outputTemplate>
-				</valueConverter>
-				<valueConverter>
-					<matchPattern>.*[Cc]arpa [hH]ircus.*</matchPattern>
-					<outputTemplate>Capra hircus</outputTemplate>
-				</valueConverter>
-				<valueConverter>
 					<matchPattern>.*[Gg]oat*</matchPattern>
 					<outputTemplate>Capra hircus</outputTemplate>
 				</valueConverter>
@@ -54,15 +46,7 @@
 					<outputTemplate>Capra hircus</outputTemplate>
 				</valueConverter>
 				<valueConverter>
-					<matchPattern>.*Ovis [aA]ries.*</matchPattern>
-					<outputTemplate>Ovis aries</outputTemplate>
-				</valueConverter>
-				<valueConverter>
 					<matchPattern>.*[Ss]heep*</matchPattern>
-					<outputTemplate>Ovis aries</outputTemplate>
-				</valueConverter>
-				<valueConverter>
-					<matchPattern>.*[Oo]vis [Aa]ries*</matchPattern>
 					<outputTemplate>Ovis aries</outputTemplate>
 				</valueConverter>
 				<valueConverter>

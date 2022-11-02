@@ -1,3 +1,10 @@
+  # Create DB schema
+  schema-project lentivirus
+  
+	run file glue/build/extension/srlv/srlvSchemaExtensions.glue
+	
+	exit
+
   project lentivirus
 
     # Delete previous extension build

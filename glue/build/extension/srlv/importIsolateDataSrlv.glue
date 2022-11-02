@@ -4,7 +4,8 @@
 
 	# Link extension set sequences to isolate data
 	run script glue/build/extension/srlv/linkIsolateExtensionRefseqsSrlv.js
-	run script glue/build/extension/srlv/linkIsolateCuratedSeqsSrlv.js
+	#run script glue/build/extension/srlv/linkIsolateCuratedSeqsSrlv.js
+	run script glue/build/extension/srlv/linkIsolateNuccoreSeqsSrlv.js
 
 	# Extract data from the XML files
 	module genbankXmlPopulatorSrlv populate -w "source.name like '%-srlv'"
