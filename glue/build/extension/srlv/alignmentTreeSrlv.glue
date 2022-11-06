@@ -1,8 +1,8 @@
   alignment AL_ROOT
 
     # reference sequences
-    add member -w "name like 'SRLV%' and source.name like '%-srlv%'"
-    demote member AL_OvineCaprine -w "sequence.name = 'SRLV' and sequence.source.name = '%-srlv%'"
+    add member -w "name = 'SRLV' and source.name like '%-srlv%'"
+    demote member AL_OvineCaprine -w "sequence.name = 'SRLV' and sequence.source.name like '%-srlv%'"
 
     exit
     
