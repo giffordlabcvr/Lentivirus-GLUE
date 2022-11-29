@@ -3,8 +3,8 @@ var allResults = [];
 
 glue.inMode("module/blastGenotyperSrlv", function(){
 
-	 var blastRecogniserResult = glue.command(["recognise","sequence","-w", "sequenceID = 'KP975033'"]);
-	 //var blastRecogniserResult = glue.command(["recognise","sequence","-a"]);
+	 //var blastRecogniserResult = glue.command(["recognise","sequence","-w", "sequenceID = 'KP975033'"]);
+	 var blastRecogniserResult = glue.command(["recognise","sequence","-a"]);
 	 glue.log("INFO", "Result was:", blastRecogniserResult);
 
      recogniserResult = blastRecogniserResult["blastSequenceRecogniserResult"];

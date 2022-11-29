@@ -4,7 +4,6 @@
 	  <referenceSequence>REF_SRLV_A1_M31646</referenceSequence>
 	  <referenceSequence>REF_SRLV_A1_M60610</referenceSequence>	  
 	  <referenceSequence>REF_SRLV_A1_S51392</referenceSequence>	
-	  <referenceSequence>REF_SRLV_A1_KT898826</referenceSequence>
 	  <referenceSequence>REF_SRLV_A1_AF479638</referenceSequence>
 
 	  <referenceSequence>REF_SRLV_A3_MT993913</referenceSequence>	
@@ -16,6 +15,9 @@
 	  <referenceSequence>REF_SRLV_A8_MG554405</referenceSequence>	
 	  <referenceSequence>REF_SRLV_A8_MH374291</referenceSequence>	
 	  <referenceSequence>REF_SRLV_A8_MH374284</referenceSequence>
+	  <referenceSequence>REF_SRLV_A8_MG554406</referenceSequence>
+
+	  <referenceSequence>REF_SRLV_A18_MH374287</referenceSequence>
 
 	  <referenceSequence>REF_SRLV_A_anc_MW248464</referenceSequence>
 	  <referenceSequence>REF_SRLV_A_anc_KT898826</referenceSequence>
@@ -36,40 +38,32 @@
 	
 	<recognitionCategory>
 		<id>A1</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A1_M31646</referenceSequence>
 	</recognitionCategory>
 	
 	<recognitionCategory>
 		<id>A1</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A1_M60610</referenceSequence>
 	</recognitionCategory>
 	
 	<recognitionCategory>
 		<id>A1</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A1_S51392</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
 		<id>A1</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
-	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
-	  	<referenceSequence>REF_SRLV_A1_KT898826</referenceSequence>
-	</recognitionCategory>
-
-	<recognitionCategory>
-		<id>A1</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A1_AF479638</referenceSequence>
 	</recognitionCategory>
@@ -77,40 +71,40 @@
 
 	<recognitionCategory>
 		<id>A3</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A3_MT993900</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
 		<id>A3</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A3_MT993913</referenceSequence>
 	</recognitionCategory>
 	
 	<recognitionCategory>
 		<id>A3</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A3_MT993914</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
 		<id>A3</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A3_MT993918</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
 		<id>A3</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A3_MH916859</referenceSequence>
 	</recognitionCategory>
@@ -119,42 +113,59 @@
 	
 	<recognitionCategory>
 		<id>A8</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A8_MG554405</referenceSequence>
 	</recognitionCategory>
 	
 	<recognitionCategory>
 		<id>A8</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A8_MH374291</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
 		<id>A8</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A8_MH374284</referenceSequence>
+	</recognitionCategory>
+
+	<recognitionCategory>
+		<id>A8</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_SRLV_A8_MG554406</referenceSequence>
 	</recognitionCategory>
 
 
 
 	<recognitionCategory>
+		<id>A18</id>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
+	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
+	  	<referenceSequence>REF_SRLV_A18_MH374287</referenceSequence>
+	</recognitionCategory>
+
+
+	<recognitionCategory>
 		<id>A_anc</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A_anc_MW248464</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
 		<id>A_anc</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_A_anc_KT898826</referenceSequence>
 	</recognitionCategory>
@@ -163,24 +174,24 @@
 	
 	<recognitionCategory>
 		<id>B1</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_B1_HM210570</referenceSequence>
 	</recognitionCategory>
 	
 	<recognitionCategory>
 		<id>B1</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_B1_GU120138</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
 		<id>B1</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_B1_FJ195346</referenceSequence>
 	</recognitionCategory>
@@ -189,16 +200,16 @@
 	
 	<recognitionCategory>
 		<id>B2</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_B2_FJ195346</referenceSequence>
 	</recognitionCategory>
 
 	<recognitionCategory>
 		<id>B2</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_B2_MH374288</referenceSequence>
 	</recognitionCategory>
@@ -207,32 +218,32 @@
 		
 	<recognitionCategory>
 		<id>B3</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_B3</referenceSequence>
 	</recognitionCategory>
 		
 	<recognitionCategory>
 		<id>C</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_C</referenceSequence>
 	</recognitionCategory>
 		
 	<recognitionCategory>
 		<id>E1</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_E1</referenceSequence>
 	</recognitionCategory>
 		
 	<recognitionCategory>
 		<id>E2</id>
-		<minimumIdentityPct>85</minimumIdentityPct>
-	  	<minimumBitScore>200</minimumBitScore>
+		<minimumIdentityPct>70</minimumIdentityPct>
+	  	<minimumBitScore>300</minimumBitScore>
 	  	<minimumTotalAlignLength>100</minimumTotalAlignLength>
 	  	<referenceSequence>REF_SRLV_E2</referenceSequence>
 	</recognitionCategory>
