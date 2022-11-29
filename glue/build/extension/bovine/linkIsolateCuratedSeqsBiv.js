@@ -20,7 +20,7 @@ _.each(seqIds, function(seqId) {
 
 	glue.inMode("sequence/ncbi-curated-biv/"+seqId, function() {
 	
-		glue.command(["set", "field", "name", 'BIV']);
+		glue.command(["set", "field", "species", 'BIV']);
 		glue.command(["set", "field", "clade", 'Bovine']);
 		
 	});

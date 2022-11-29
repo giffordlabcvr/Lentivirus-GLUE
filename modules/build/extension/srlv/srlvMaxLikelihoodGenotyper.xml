@@ -4,18 +4,6 @@
 
 	<cladeCategory>
 	
-		<name>subgenus</name>	
-		<displayName>Subgenus</displayName>	
-		<whereClause>clade_category = 'subgenus'</whereClause>
-		<distanceScalingExponent>-4.5</distanceScalingExponent>
-		<distanceCutoff>0.5</distanceCutoff>
-		<finalCladeCutoff>65.0</finalCladeCutoff>
-		
-	</cladeCategory>
-
-
-	<cladeCategory>
-	
 		<name>genotype</name>	
 		<displayName>Genotype</displayName>	
 		<whereClause>clade_category = 'genotype'</whereClause>

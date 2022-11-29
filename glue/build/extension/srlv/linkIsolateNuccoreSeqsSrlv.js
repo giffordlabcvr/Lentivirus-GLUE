@@ -18,8 +18,8 @@ _.each(seqIds, function(seqId) {
 
 	glue.inMode("sequence/ncbi-nuccore-srlv/"+seqId, function() {
 	
-		glue.command(["set", "field", "name", 'SRLV']);	
-		glue.command(["set", "field", "clade", 'Ovine-Caprine']);
+		glue.command(["set", "field", "species", 'SRLV']);	
+		glue.command(["set", "field", "subgenus", 'Ovine-Caprine']);
 		
 	});
 

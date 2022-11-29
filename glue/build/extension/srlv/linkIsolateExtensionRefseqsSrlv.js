@@ -18,7 +18,7 @@ _.each(seqIds, function(seqId) {
 
 	glue.inMode("sequence/ncbi-refseqs-srlv/"+seqId, function() {
 	
-		glue.command(["set", "field", "name", 'SRLV']);	
+		glue.command(["set", "field", "species", 'SRLV']);	
 		glue.command(["set", "field", "clade", 'Ovine-Caprine']);
 		
 	});

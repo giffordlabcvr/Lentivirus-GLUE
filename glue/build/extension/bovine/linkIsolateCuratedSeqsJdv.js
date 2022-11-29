@@ -20,7 +20,7 @@ _.each(seqIds, function(seqId) {
 
 	glue.inMode("sequence/ncbi-curated-jdv/"+seqId, function() {
 	
-		glue.command(["set", "field", "name", 'JDV']);
+		glue.command(["set", "field", "species", 'JDV']);
 		glue.command(["set", "field", "clade", 'Bovine']);
 		
 	});

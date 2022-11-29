@@ -1,9 +1,8 @@
 <maxLikelihoodPlacer>
 
-    <raxmlEpaRunner>
-		<substitutionModel>GTRGAMMA</substitutionModel>
-    	<accumulatedThreshold>0.95</accumulatedThreshold>
-    </raxmlEpaRunner>
+	<raxmlEpaRunner>
+		<substitutionModel>GTRGAMMAI</substitutionModel>
+	</raxmlEpaRunner>
 
 	<!-- where the RAxML epa phylogeny will come from -->
 	<phyloAlignmentName>AL_TREE_OvineCaprine</phyloAlignmentName>
@@ -13,3 +12,5 @@
 	<alignmentAlignmentName>AL_UNC_TREE_OvineCaprine</alignmentAlignmentName>
 	
 </maxLikelihoodPlacer>
+
+

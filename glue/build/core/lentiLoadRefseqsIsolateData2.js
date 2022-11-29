@@ -20,7 +20,7 @@ _.each(loadResult, function(refSeqObj) {
 
 	glue.inMode("sequence/ncbi-refseqs-core/"+refSeqObj.sequenceID, function() {
 	
-		glue.command(["set", "field", "name", refSeqObj.name]);
+		glue.command(["set", "field", "species", refSeqObj.name]);
 		glue.command(["set", "field", "full_name", refSeqObj.full_name]);
 		glue.command(["set", "field", "genotype", refSeqObj.genotype]);
 		glue.command(["set", "field", "subgenus", refSeqObj.subgenus]);

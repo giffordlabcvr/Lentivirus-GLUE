@@ -21,13 +21,6 @@
 	<gbCreateDate>
 		<propertyPopulator property="gb_create_date"/>
 	</gbCreateDate>
-
-	<gbDivision>
-		<propertyPopulator property="lab_construct">
-			<matchPattern>PAT</matchPattern>
-			<outputTemplate>true</outputTemplate>
-		</propertyPopulator>
-	</gbDivision>
 	
 	<gbFeature key="source">
 
@@ -71,10 +64,6 @@
 				</valueConverter>	
 
 				<!-- #### Ovine/Caprine -->																																													
-				<valueConverter>
-					<matchPattern>.*[Cc]apra [hH]ircus.*</matchPattern>
-					<outputTemplate>Capra hircus</outputTemplate>
-				</valueConverter>
 				<valueConverter>
 					<matchPattern>.*[Cc]arpa [hH]ircus.*</matchPattern>
 					<outputTemplate>Capra hircus</outputTemplate>

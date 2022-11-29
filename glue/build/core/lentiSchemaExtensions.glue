@@ -1,15 +1,22 @@
   table sequence
+
+    # Sequence properties
+    create field gb_create_date DATE
+    create field gb_update_date DATE
     create field length INTEGER
+    create field mol_type VARCHAR 100 
+
+    # Study
+    create field pubmed_id VARCHAR 50
+
+    # taxonomy
+    create field species VARCHAR 100 
     create field full_name VARCHAR 100
-    create field name VARCHAR 100  
     create field subgenus VARCHAR 50
     create field clade VARCHAR 50
     create field subtype VARCHAR 50
     create field genotype VARCHAR 50 
-    create field pubmed_id VARCHAR 50
-    create field gb_create_date DATE
-    create field gb_update_date DATE
-    create field lab_construct BOOLEAN
+
   exit
 
   table alignment
@@ -26,6 +33,7 @@
 
   table isolate_data
     create field isolate VARCHAR 100
+    create field iso_source_note VARCHAR 400
     create field host_sci_name VARCHAR 100
     create field host_common_name VARCHAR 100
     create field gb_place_sampled VARCHAR 100

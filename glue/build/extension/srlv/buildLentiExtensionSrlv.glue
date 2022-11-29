@@ -8,7 +8,7 @@
   project lentivirus
 
     # Delete previous extension build
-    run file glue/build/extension/srlv/deleteExtensionBuildSrlv.glue
+    #run file glue/build/extension/srlv/deleteExtensionBuildSrlv.glue
 
     # Import sources
     run file glue/build/extension/srlv/sourcesSrlv.glue
@@ -19,8 +19,23 @@
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/srlv/importIsolateDataSrlv.glue
 
+	# Do BLAST genotyping
+	create module -f modules/build/extension/srlv/blastGenotyperSrlv.xml
+	run script glue/build/extension/srlv/doBlastGenotying.js
+    die
+
 	# Import alignments
 	run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
+
+	# Create alignment tree for genotyping
+	run file glue/build/extension/srlv/alignmentTreeSrlvGenotyping.glue
+	
+	# Create and import genotyping phylogeny
+    #run file glue/build/extension/srlv/createGenotypingPhylogeny.glue
+    run file glue/build/extension/srlv/prepareReferencePhylogeny.glue
+	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
+
+	#run file glue/build/extension/srlv/doRaxmlGenotyping.glue
 
 	# Add extension set sequences constrained alignment tree
 	run file glue/build/extension/srlv/alignmentTreeSrlv.glue
@@ -30,14 +45,6 @@
 	
 	# Record feature presence
 	run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
-
-	# Create and import genotyping phylogeny
-    #run file glue/build/extension/srlv/createGenotypingPhylogeny.glue
-    run file glue/build/extension/srlv/prepareReferencePhylogeny.glue
-	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
-
-	# Test genotyping
-	#run file glue/build/extension/srlv/testGenotyping.glue
 
 	# Validate
 	validate

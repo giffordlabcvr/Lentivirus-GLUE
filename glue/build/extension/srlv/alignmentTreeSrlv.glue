@@ -1,8 +1,8 @@
   alignment AL_ROOT
 
     # reference sequences
-    add member -w "name = 'SRLV' and source.name like '%-srlv%'"
-    demote member AL_OvineCaprine -w "sequence.name = 'SRLV' and sequence.source.name like '%-srlv%'"
+    add member -w "source.name like '%-srlv%'"
+    demote member AL_OvineCaprine -w "sequence.source.name like '%-srlv%'"
 
     exit
     
@@ -32,7 +32,9 @@
 
   # derive constrained segments throughout the tree from unconstrained    
   alignment AL_OvineCaprine
+  
     derive segments AL_UNC_OvineCaprine --recursive --existingMembersOnly --allMembers -m OVERWRITE
+    
     exit
  
   

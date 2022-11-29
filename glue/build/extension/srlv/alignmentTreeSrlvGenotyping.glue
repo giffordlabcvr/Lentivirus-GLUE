@@ -122,4 +122,13 @@
     set field clade_category subtype  
     exit
 
+  alignment AL_TREE_SRLV_E1
+    set field displayName "Subtype E1"
+    set field clade_category subtype  
+    exit
+
+  alignment AL_TREE_SRLV_E2
+    set field displayName "Subtype E2"
+    set field clade_category subtype  
+    exit
 

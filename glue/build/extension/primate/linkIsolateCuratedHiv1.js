@@ -18,7 +18,7 @@ _.each(seqIdsA, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-subtype-a/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'M']);
 		glue.command(["set", "field", "subtype", 'A']);
 		
@@ -46,7 +46,7 @@ _.each(seqIdsB, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-subtype-b/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'M']);
 		glue.command(["set", "field", "subtype", 'B']);
 		
@@ -74,7 +74,7 @@ _.each(seqIdsC, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-subtype-c/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'M']);
 		glue.command(["set", "field", "subtype", 'C']);
 		
@@ -102,7 +102,7 @@ _.each(seqIdsD, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-subtype-d/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'M']);
 		glue.command(["set", "field", "subtype", 'D']);
 		
@@ -130,7 +130,7 @@ _.each(seqIdsF, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-subtype-f1/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'M']);
 		glue.command(["set", "field", "subtype", 'F1']);
 		
@@ -158,7 +158,7 @@ _.each(seqIdsG, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-subtype-g/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'M']);
 		glue.command(["set", "field", "subtype", 'G']);
 		
@@ -186,7 +186,7 @@ _.each(seqIdsCrf01, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-crf01/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'M']);
 		glue.command(["set", "field", "subtype", 'CRF01']);
 		
@@ -214,7 +214,7 @@ _.each(seqIdsCrf02, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-crf02/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'M']);
 		glue.command(["set", "field", "subtype", 'CRF02']);
 		
@@ -242,7 +242,7 @@ _.each(seqIdsHiv1n, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-group-n/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'N']);
 		glue.command(["set", "field", "subtype", 'NULL']);
 		
@@ -270,7 +270,7 @@ _.each(seqIdsHiv1o, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-group-o/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'O']);
 		glue.command(["set", "field", "subtype", 'NULL']);
 		
@@ -298,7 +298,7 @@ _.each(seqIdsHiv1p, function(seqId) {
 	glue.inMode("sequence/ncbi-curated-group-p/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
-		glue.command(["set", "field", "name", 'HIV-1']);
+		glue.command(["set", "field", "species", 'HIV-1']);
 		glue.command(["set", "field", "clade", 'P']);
 		glue.command(["set", "field", "subtype", 'NULL']);
 		

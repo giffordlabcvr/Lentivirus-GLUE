@@ -18,7 +18,7 @@
 	
 	<figTreeAnnotation>
 		<annotationName>name</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.name')}</valueFreemarkerTemplate>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.species')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 		
 	<figTreeAnnotation>

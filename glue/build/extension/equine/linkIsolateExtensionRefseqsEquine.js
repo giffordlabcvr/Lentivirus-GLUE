@@ -18,7 +18,7 @@ _.each(seqIds, function(seqId) {
 
 	glue.inMode("sequence/ncbi-refseqs-equine/"+seqId, function() {
 	
-		glue.command(["set", "field", "name", 'EIAV']);	
+		glue.command(["set", "field", "species", 'EIAV']);	
 		glue.command(["set", "field", "subgenus", 'Equine']);
 		
 	});

@@ -1,7 +1,7 @@
 <genbankXmlPopulator>
 
 	<gbOrganism>
-		<propertyPopulator property="name"/>
+		<propertyPopulator property="full_name"/>
 	</gbOrganism>
 
 	<gbLength>
@@ -21,13 +21,6 @@
 	<gbCreateDate>
 		<propertyPopulator property="gb_create_date"/>
 	</gbCreateDate>
-
-	<gbDivision>
-		<propertyPopulator property="lab_construct">
-			<matchPattern>PAT</matchPattern>
-			<outputTemplate>true</outputTemplate>
-		</propertyPopulator>
-	</gbDivision>
 	
 	<gbFeature key="source">
 
@@ -61,6 +54,19 @@
 		<gbQualifier name="isolate">
 			<propertyPopulator property="isolate_data.isolate"/>
 		</gbQualifier>
+
+		<gbQualifier name="mol_type">
+			<propertyPopulator property="mol_type"/>
+		</gbQualifier>
+		
+		<gbQualifier name="note">
+			<propertyPopulator property="isolate_data.iso_source_note"/>
+		</gbQualifier>
+		
+		<gbQualifier name="isolation_source">
+			<propertyPopulator property="isolate_data.iso_source_note"/>
+		</gbQualifier>
+
 
 
 		<gbQualifier name="strain">
