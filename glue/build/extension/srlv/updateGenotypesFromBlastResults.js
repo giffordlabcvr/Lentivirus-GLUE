@@ -22,8 +22,8 @@ _.each(srlvData, function(resultObj) {
 
 		if (genotype == null) {
 
-			glue.log("INFO", "Null genotype:", sequenceID);
-			glue.log("INFO", "genotype:", blast_genotype);
+			//glue.log("INFO", "Null genotype:", sequenceID);
+			//glue.log("INFO", "genotype:", blast_genotype);
 			glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
 				glue.command(["set", "field", "genotype", blast_genotype]);
 			});
@@ -31,11 +31,15 @@ _.each(srlvData, function(resultObj) {
 		}
 		if (subtype == null) {
 
-			glue.log("INFO", "Null subtype:", sequenceID);
-			glue.log("INFO", "subtype:", blast_subtype);
-			glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
-				glue.command(["set", "field", "subtype", blast_subtype]);
-			});
+			if (blast_subtype) {
+
+				//glue.log("INFO", "Null subtype:", sequenceID);
+				//glue.log("INFO", "subtype:", blast_subtype);
+				glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
+					glue.command(["set", "field", "subtype", blast_subtype]);
+				});
+				
+			}
 	
 		}
 

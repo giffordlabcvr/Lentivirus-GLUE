@@ -22,20 +22,10 @@
 	# Do BLAST genotyping
 	create module -f modules/build/extension/srlv/blastGenotyperSrlv.xml
 	run script glue/build/extension/srlv/doBlastGenotying.js
-    die
+    run script glue/build/extension/srlv/updateGenotypesFromBlastResults.js
 
 	# Import alignments
 	run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
-
-	# Create alignment tree for genotyping
-	run file glue/build/extension/srlv/alignmentTreeSrlvGenotyping.glue
-	
-	# Create and import genotyping phylogeny
-    #run file glue/build/extension/srlv/createGenotypingPhylogeny.glue
-    run file glue/build/extension/srlv/prepareReferencePhylogeny.glue
-	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
-
-	#run file glue/build/extension/srlv/doRaxmlGenotyping.glue
 
 	# Add extension set sequences constrained alignment tree
 	run file glue/build/extension/srlv/alignmentTreeSrlv.glue

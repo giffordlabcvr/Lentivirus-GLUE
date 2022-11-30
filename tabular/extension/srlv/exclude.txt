@@ -1,0 +1,15 @@
+### Exclude 
+
+## Not a lentivirus
+
+AY787928 
+
+## Patent
+
+MP829721
+MP829748
+MP829758
+
+## Dunno
+
+MZ367361
