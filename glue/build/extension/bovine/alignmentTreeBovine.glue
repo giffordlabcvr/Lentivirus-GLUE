@@ -16,10 +16,10 @@ alignment AL_Bovine
     set field displayName "Bovine lentiviruses"
     
     extract child AL_BIV --refName REF_BIV
-    demote member AL_BIV --whereClause "sequence.name = 'BIV'" 
+    demote member AL_BIV --whereClause "sequence.species = 'BIV'" 
     
     extract child AL_JDV --refName REF_JDV_U21603
-    demote member AL_JDV --whereClause "sequence.name = 'JDV'" 
+    demote member AL_JDV --whereClause "sequence.species = 'JDV'" 
 	
     exit
 

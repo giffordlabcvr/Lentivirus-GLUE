@@ -16,7 +16,7 @@
 	
 	<textFileColumn>
 		<header>name</header>
-		<property>name</property>
+		<property>species</property>
 		<nullRegex>NK</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>		
 	</textFileColumn>

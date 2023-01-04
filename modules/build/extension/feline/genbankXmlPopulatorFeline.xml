@@ -21,13 +21,6 @@
 	<gbCreateDate>
 		<propertyPopulator property="gb_create_date"/>
 	</gbCreateDate>
-
-	<gbDivision>
-		<propertyPopulator property="lab_construct">
-			<matchPattern>PAT</matchPattern>
-			<outputTemplate>true</outputTemplate>
-		</propertyPopulator>
-	</gbDivision>
 	
 	<gbFeature key="source">
 

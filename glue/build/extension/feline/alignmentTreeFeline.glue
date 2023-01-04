@@ -14,7 +14,7 @@ alignment AL_Feline
     set field displayName "Feline lentiviruses"
     
     extract child AL_FIV --refName REF_FIV
-    demote member AL_FIV --whereClause "sequence.name = 'FIV'" 
+    demote member AL_FIV --whereClause "sequence.species = 'FIV'" 
     	
     exit
 

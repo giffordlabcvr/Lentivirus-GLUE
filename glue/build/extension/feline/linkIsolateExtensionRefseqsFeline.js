@@ -18,7 +18,7 @@ _.each(seqIds, function(seqId) {
 
 	glue.inMode("sequence/ncbi-refseqs-feline/"+seqId, function() {
 	
-		glue.command(["set", "field", "name", 'FIV']);	
+		glue.command(["set", "field", "species", 'FIV']);	
 		glue.command(["set", "field", "subgenus", 'Feline']);
 		
 	});
