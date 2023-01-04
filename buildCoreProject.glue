@@ -17,8 +17,8 @@
   #run file glue/build/erv/buildLentiErvExtension.glue
   
   # Build species-level extension projects
-  run file glue/build/extension/bovine/buildLentiExtensionBovine.glue
-  run file glue/build/extension/feline/buildLentiExtensionFeline.glue  
-  run file glue/build/extension/equine/buildLentiExtensionEquine.glue  
+  #run file glue/build/extension/bovine/buildLentiExtensionBovine.glue
+  #run file glue/build/extension/feline/buildLentiExtensionFeline.glue  
+  #run file glue/build/extension/equine/buildLentiExtensionEquine.glue  
   #run file glue/build/extension/srlv/buildLentiExtensionSrlv.glue
-  #run file glue/build/extension/primate/buildLentiExtensionPrimate.glue  
+  run file glue/build/extension/primate/buildLentiExtensionPrimate.glue  
