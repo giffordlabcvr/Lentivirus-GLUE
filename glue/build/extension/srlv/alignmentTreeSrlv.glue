@@ -52,7 +52,7 @@
     extract child AL_SRLV_C --refName REF_SRLV_C
     demote member AL_SRLV_C --whereClause "sequence.genotype = 'C'" 
 
-    extract child AL_SRLV_B1 --refName REF_SRLV_B1_HM210570
+    extract child AL_SRLV_B1 --refName REF_SRLV_B
     demote member AL_SRLV_B1 --whereClause "sequence.genotype = 'B' and sequence.subtype = '1'"
 
     extract child AL_SRLV_B2 --refName REF_SRLV_B2_FJ195346 

@@ -66,7 +66,18 @@
     feature-location gag
       add segment 554 1879
       exit
-         
+
+
+    add feature-location matrix
+    feature-location matrix
+      add segment 554 1009
+      exit
+ 
+    add feature-location capsid
+    feature-location capsid
+      add segment 1010 1498
+      exit
+      
     add feature-location pro-pol
     feature-location pro-pol
       add segment 1759 5067
@@ -80,6 +91,16 @@
     add feature-location pol
     feature-location pol
       add segment 2194 5067
+      exit
+
+    add feature-location rt
+    feature-location rt
+      add segment 2347 3378
+      exit
+
+    add feature-location in
+    feature-location in
+      add segment 4204 5028
       exit
 
     add feature-location vif
