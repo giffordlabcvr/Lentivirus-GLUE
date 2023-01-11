@@ -15,7 +15,6 @@
 
     # Define extension references
     run file glue/build/extension/srlv/ReferencesSrlv.glue
-    run file glue/build/extension/srlv/InheritFeatureLocationsSrlvRefs.glue
 
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/srlv/importIsolateDataSrlv.glue
@@ -30,6 +29,9 @@
 
 	# Add extension set sequences to constrained alignment tree
 	run file glue/build/extension/srlv/alignmentTreeSrlv.glue
+
+    # Inherit feature locations
+    #run file glue/build/extension/srlv/InheritFeatureLocationsSrlvRefs.glue
 	
 	# Compute alignments
 	run file glue/build/extension/srlv/createAlignmentsSrlv.glue

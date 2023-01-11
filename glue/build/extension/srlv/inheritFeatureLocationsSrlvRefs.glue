@@ -1,4 +1,4 @@
-reference REF_SRLV_B1_HM210570
+reference REF_SRLV_B
 
   inherit feature-location AL_SRLV_B1 gag
   inherit feature-location AL_SRLV_B1 pol

@@ -27,9 +27,7 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_SRLV_B1 -s alignmentColumnsSelectorSrlvBgag \
-      -a
-      -o trees/tip/srlv-b/lenti-srlv-b-gag.tre NEWICK_BOOTSTRAPS
+    generate nucleotide phylogeny AL_SRLV_B1 -s alignmentColumnsSelectorSrlvBgag -a -o trees/tip/srlv-b/lenti-srlv-b-gag.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_B1 -s alignmentColumnsSelectorSrlvBrt \
       -w "fLocNotes.featureLoc.feature.name = 'RT' and fLocNotes.ref_nt_coverage_pct >= 80" \
@@ -48,7 +46,6 @@
       -o trees/tip/srlv-b/lenti-srlv-b-genome.tre NEWICK_BOOTSTRAPS
 
     exit
-
 
 
   # Re-root phylogeny 
