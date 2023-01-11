@@ -1,0 +1,17 @@
+taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/AY900630	AY900630	-	ncbi-refseqs-srlv	SRLV	gansu	China	1	B	1992
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/GU120138	GU120138	22566005	ncbi-refseqs-srlv	SRLV	Shanxi	China	1	B	2009
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/HM210570	HM210570	20932787	ncbi-refseqs-srlv	SRLV	FESC-752	Mexico	1	B	2004
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT214469	KT214469	-	ncbi-refseqs-srlv	SRLV	Sichuan	China	1	B	1993
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749878	KT749878	-	ncbi-refseqs-srlv	SRLV	Shandong	China	1	B	1993
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749879	KT749879	-	ncbi-refseqs-srlv	SRLV	Shaanxi	China	1	B	1993
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749880	KT749880	-	ncbi-refseqs-srlv	SRLV	guizhou	China	1	B	-
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749881	KT749881	-	ncbi-refseqs-srlv	SRLV	gs-35V	China	1	B	-
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554402	MG554402	-	ncbi-refseqs-srlv	SRLV	SRLV001	Italy	1	B	-
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554410	MG554410	-	ncbi-refseqs-srlv	SRLV	SRLV010	Italy	1	B	-
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554411	MG554411	-	ncbi-refseqs-srlv	SRLV	SRLV014	Italy	1	B	-
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554412	MG554412	-	ncbi-refseqs-srlv	SRLV	SRLV016	Italy	1	B	-
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554413	MG554413	-	ncbi-refseqs-srlv	SRLV	SRLV017	Italy	1	B	-
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374289	MH374289	-	ncbi-refseqs-srlv	SRLV	SRLV_Taccone	Italy	1	B	-
+alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374290	MH374290	-	ncbi-refseqs-srlv	SRLV	SRLV_To1.89	Italy	1	B	1989
+alignment/AL_SRLV_B1/member/ncbi-refseqs-core/NC_001463	NC_001463	2171210	ncbi-refseqs-core	SRLV	Clements	United States	1	B	-

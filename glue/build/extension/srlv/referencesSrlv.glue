@@ -67,21 +67,6 @@
       add segment 554 1879
       exit
          
-    add feature-location matrix
-    feature-location matrix
-      add segment 533 988
-      exit
-
-    add feature-location capsid
-    feature-location capsid
-      add segment 989 1480
-      exit
-         
-    add feature-location nucleocapsid
-    feature-location nucleocapsid
-      add segment 512 1858
-      exit
-
     add feature-location pro-pol
     feature-location pro-pol
       add segment 1759 5067
@@ -121,6 +106,68 @@
     add feature-location 3LTR
     feature-location 3LTR
       add segment 8780 9090
+      exit
+
+  exit 
+
+
+
+  reference REF_SRLV_B2_FJ195346
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9136
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 162
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 522 1862
+      exit
+
+    add feature-location pro-pol
+    feature-location pro-pol
+      add segment 1748 5050
+      exit
+
+    add feature-location pro
+    feature-location pro
+      add segment 1748 2176
+      exit
+
+    add feature-location pol
+    feature-location pol
+      add segment 2177 5050
+      exit
+
+    add feature-location vif
+    feature-location vif
+      add segment 5010 5699
+      exit
+ 
+    add feature-location tat
+    feature-location tat
+      add segment 5692 5955
+      exit
+          
+    add feature-location env
+    feature-location env
+      add segment 6018 8864
+      exit
+           
+    add feature-location rev
+    feature-location rev
+      add segment 6018 6129 --spliceIndex 1
+      add segment 8529 8821 --spliceIndex 2
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8836 9136
       exit
 
   exit 
