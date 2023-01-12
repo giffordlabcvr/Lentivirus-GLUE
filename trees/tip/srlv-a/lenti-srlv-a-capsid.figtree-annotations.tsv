@@ -1,0 +1,571 @@
+taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/A15114	A15114	-	ncbi-nuccore-srlv	SRLV	-	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AB818536	AB818536	24141278	ncbi-nuccore-srlv	SRLV	Iwate	Japan	3	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AF479638	AF479638	15284480	ncbi-refseqs-srlv	SRLV	P1OLV	Portugal	1	A	1996
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AJ305039	AJ305039	11551652	ncbi-nuccore-srlv	SRLV	MVV Br/UFRGS-2/V27	Brazil	4	A	1997
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AM084203	AM084203	17349752	ncbi-nuccore-srlv	SRLV	B_S23	Finland	3	A	1994
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AM084204	AM084204	17349752	ncbi-nuccore-srlv	SRLV	B_S604	Finland	3	A	1994
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AM084205	AM084205	17349752	ncbi-nuccore-srlv	SRLV	C6_S1	Finland	3	A	1994
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AM084206	AM084206	17349752	ncbi-nuccore-srlv	SRLV	D4_S1	Finland	3	A	1995
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AM084207	AM084207	17349752	ncbi-nuccore-srlv	SRLV	D5_S4	Finland	3	A	1996
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AM084208	AM084208	17349752	ncbi-nuccore-srlv	SRLV	E_S1	Finland	1	A	1995
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AM084209	AM084209	17349752	ncbi-nuccore-srlv	SRLV	Lotta	Finland	1	A	2001
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AY101611	AY101611	-	ncbi-nuccore-srlv	SRLV	85/34	USA	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AY265455	AY265455	15778023	ncbi-nuccore-srlv	SRLV	It-561	Italy	1	A	1991
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AY265456	AY265456	15778023	ncbi-nuccore-srlv	SRLV	It-Pi1	Italy	2	A	1991
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	SRLV	-	Switzerland	4	A	1999
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AY530289	AY530289	15964721	ncbi-nuccore-srlv	SRLV	SRLV-Greece-S1	Greek	1	A	2002
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AY530290	AY530290	15964721	ncbi-nuccore-srlv	SRLV	SRLV-Greece-S2	Greek	3	A	2002
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AY530291	AY530291	15964721	ncbi-nuccore-srlv	SRLV	SRLV-Greece-S3	Greek	8	A	2002
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AY530292	AY530292	15964721	ncbi-nuccore-srlv	SRLV	SRLV-Greece-S4	Greek	3	A	2002
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AY530293	AY530293	15964721	ncbi-nuccore-srlv	SRLV	SRLV-Greece-G1	Greek	3	A	2002
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084332	DQ084332	16870297	ncbi-nuccore-srlv	SRLV	Ov5	Spain	1	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084333	DQ084333	16870297	ncbi-nuccore-srlv	SRLV	Ov1	Spain	1	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084334	DQ084334	16870297	ncbi-nuccore-srlv	SRLV	Ov4	Spain	1	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084335	DQ084335	16870297	ncbi-nuccore-srlv	SRLV	Ov8	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084336	DQ084336	16870297	ncbi-nuccore-srlv	SRLV	Ov7	Spain	1	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084337	DQ084337	16870297	ncbi-nuccore-srlv	SRLV	Ov3	Spain	1	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084338	DQ084338	16870297	ncbi-nuccore-srlv	SRLV	Ov6	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084339	DQ084339	16870297	ncbi-nuccore-srlv	SRLV	Ov2	Spain	1	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084340	DQ084340	16870297	ncbi-nuccore-srlv	SRLV	C1	Spain	1	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084341	DQ084341	16870297	ncbi-nuccore-srlv	SRLV	C5	Spain	1	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084342	DQ084342	16870297	ncbi-nuccore-srlv	SRLV	C4	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084343	DQ084343	16870297	ncbi-nuccore-srlv	SRLV	C3	Spain	1	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/DQ084344	DQ084344	16870297	ncbi-nuccore-srlv	SRLV	C2	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/EU010123	EU010123	18024912	ncbi-nuccore-srlv	SRLV	It-017.16g03	Italy	1	A	2006
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/EU010125	EU010125	18024912	ncbi-nuccore-srlv	SRLV	It-008g03	Italy	8	A	2006
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/FJ623120	FJ623120	22155513	ncbi-nuccore-srlv	SRLV	0016	Poland	3	A	2008
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/FJ623122	FJ623122	22155513	ncbi-nuccore-srlv	SRLV	4007	Poland	3	A	2008
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/FJ623123	FJ623123	22155513	ncbi-nuccore-srlv	SRLV	4819	Poland	3	A	2008
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/FJ623124	FJ623124	22155513	ncbi-nuccore-srlv	SRLV	90472	Poland	1	A	2008
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255385	GQ255385	20016044	ncbi-nuccore-srlv	SRLV	18.4	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255386	GQ255386	20016044	ncbi-nuccore-srlv	SRLV	27.1_(June)	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255391	GQ255391	20016044	ncbi-nuccore-srlv	SRLV	68.2	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255401	GQ255401	20016044	ncbi-nuccore-srlv	SRLV	76.4	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255403	GQ255403	20016044	ncbi-nuccore-srlv	SRLV	83.1	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255411	GQ255411	20016044	ncbi-nuccore-srlv	SRLV	89.1_(20AUG)	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255417	GQ255417	20016044	ncbi-nuccore-srlv	SRLV	99.1	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255423	GQ255423	20016044	ncbi-nuccore-srlv	SRLV	101.1	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255428	GQ255428	20016044	ncbi-nuccore-srlv	SRLV	10.1	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/GQ255433	GQ255433	20016044	ncbi-nuccore-srlv	SRLV	WLC-1.1	United States	3	A	2008
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/HQ158132	HQ158132	21639904	ncbi-nuccore-srlv	SRLV	O16A-27	Canada	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/HQ158133	HQ158133	21639904	ncbi-nuccore-srlv	SRLV	O23F-17	Canada	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/HQ158134	HQ158134	21639904	ncbi-nuccore-srlv	SRLV	O23F-18	Canada	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/HQ158135	HQ158135	21639904	ncbi-nuccore-srlv	SRLV	O23117	Canada	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/HQ158136	HQ158136	21639904	ncbi-nuccore-srlv	SRLV	O5A-34	Canada	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	SRLV	697	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JN184351	JN184351	23375019	ncbi-nuccore-srlv	SRLV	72	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JN184352	JN184352	23375019	ncbi-nuccore-srlv	SRLV	160	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JN184353	JN184353	23375019	ncbi-nuccore-srlv	SRLV	166	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JN184354	JN184354	23375019	ncbi-nuccore-srlv	SRLV	292	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JN184355	JN184355	23375019	ncbi-nuccore-srlv	SRLV	333	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JN184356	JN184356	23375019	ncbi-nuccore-srlv	SRLV	336	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JN184357	JN184357	23375019	ncbi-nuccore-srlv	SRLV	358	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JN184358	JN184358	23375019	ncbi-nuccore-srlv	SRLV	368	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JN184359	JN184359	23375019	ncbi-nuccore-srlv	SRLV	698	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/JX660691	JX660691	-	ncbi-nuccore-srlv	SRLV	90960	Poland	1	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155690	KC155690	23583225	ncbi-nuccore-srlv	SRLV	7-29Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155691	KC155691	23583225	ncbi-nuccore-srlv	SRLV	7-30Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155692	KC155692	23583225	ncbi-nuccore-srlv	SRLV	7-34Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155693	KC155693	23583225	ncbi-nuccore-srlv	SRLV	7-35Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155694	KC155694	23583225	ncbi-nuccore-srlv	SRLV	7-38Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155695	KC155695	23583225	ncbi-nuccore-srlv	SRLV	8-1Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155696	KC155696	23583225	ncbi-nuccore-srlv	SRLV	8-2Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155697	KC155697	23583225	ncbi-nuccore-srlv	SRLV	9-1Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155698	KC155698	23583225	ncbi-nuccore-srlv	SRLV	9-2Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155699	KC155699	23583225	ncbi-nuccore-srlv	SRLV	9-3Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155700	KC155700	23583225	ncbi-nuccore-srlv	SRLV	9-4Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155701	KC155701	23583225	ncbi-nuccore-srlv	SRLV	9-5Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155702	KC155702	23583225	ncbi-nuccore-srlv	SRLV	9-6Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155703	KC155703	23583225	ncbi-nuccore-srlv	SRLV	9-7Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155704	KC155704	23583225	ncbi-nuccore-srlv	SRLV	9-8Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155705	KC155705	23583225	ncbi-nuccore-srlv	SRLV	9-9Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155706	KC155706	23583225	ncbi-nuccore-srlv	SRLV	9-10Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155707	KC155707	23583225	ncbi-nuccore-srlv	SRLV	9-14Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155708	KC155708	23583225	ncbi-nuccore-srlv	SRLV	9-16Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155709	KC155709	23583225	ncbi-nuccore-srlv	SRLV	9-17Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155710	KC155710	23583225	ncbi-nuccore-srlv	SRLV	9-18Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155711	KC155711	23583225	ncbi-nuccore-srlv	SRLV	9-20Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155712	KC155712	23583225	ncbi-nuccore-srlv	SRLV	9-21Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155713	KC155713	23583225	ncbi-nuccore-srlv	SRLV	9-22Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155714	KC155714	23583225	ncbi-nuccore-srlv	SRLV	9-23Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155715	KC155715	23583225	ncbi-nuccore-srlv	SRLV	9-25Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155716	KC155716	23583225	ncbi-nuccore-srlv	SRLV	9-26Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155717	KC155717	23583225	ncbi-nuccore-srlv	SRLV	9-27Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155718	KC155718	23583225	ncbi-nuccore-srlv	SRLV	9-28Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155719	KC155719	23583225	ncbi-nuccore-srlv	SRLV	9-29Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155720	KC155720	23583225	ncbi-nuccore-srlv	SRLV	9-30Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155721	KC155721	23583225	ncbi-nuccore-srlv	SRLV	11-1Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155722	KC155722	23583225	ncbi-nuccore-srlv	SRLV	11-2Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155723	KC155723	23583225	ncbi-nuccore-srlv	SRLV	11-4Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155724	KC155724	23583225	ncbi-nuccore-srlv	SRLV	11-12Ont	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155725	KC155725	23583225	ncbi-nuccore-srlv	SRLV	11-13	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155726	KC155726	23583225	ncbi-nuccore-srlv	SRLV	11-16	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155727	KC155727	23583225	ncbi-nuccore-srlv	SRLV	11-19	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155728	KC155728	23583225	ncbi-nuccore-srlv	SRLV	11-22	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155729	KC155729	23583225	ncbi-nuccore-srlv	SRLV	11-23	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155730	KC155730	23583225	ncbi-nuccore-srlv	SRLV	11-24	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155731	KC155731	23583225	ncbi-nuccore-srlv	SRLV	11-25	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155732	KC155732	23583225	ncbi-nuccore-srlv	SRLV	11-26	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155733	KC155733	23583225	ncbi-nuccore-srlv	SRLV	11-27	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155734	KC155734	23583225	ncbi-nuccore-srlv	SRLV	11-28	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155735	KC155735	23583225	ncbi-nuccore-srlv	SRLV	11-31	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155736	KC155736	23583225	ncbi-nuccore-srlv	SRLV	11-32	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155737	KC155737	23583225	ncbi-nuccore-srlv	SRLV	11-36	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155738	KC155738	23583225	ncbi-nuccore-srlv	SRLV	11-37	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155739	KC155739	23583225	ncbi-nuccore-srlv	SRLV	11-39	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155740	KC155740	23583225	ncbi-nuccore-srlv	SRLV	11-42	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155741	KC155741	23583225	ncbi-nuccore-srlv	SRLV	11-43	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155742	KC155742	23583225	ncbi-nuccore-srlv	SRLV	11-44	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155743	KC155743	23583225	ncbi-nuccore-srlv	SRLV	11-45	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155744	KC155744	23583225	ncbi-nuccore-srlv	SRLV	11-46	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155745	KC155745	23583225	ncbi-nuccore-srlv	SRLV	11-47	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155746	KC155746	23583225	ncbi-nuccore-srlv	SRLV	11-48	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155747	KC155747	23583225	ncbi-nuccore-srlv	SRLV	11-49	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155748	KC155748	23583225	ncbi-nuccore-srlv	SRLV	1-5	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155749	KC155749	23583225	ncbi-nuccore-srlv	SRLV	1-6	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155750	KC155750	23583225	ncbi-nuccore-srlv	SRLV	1-7	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155751	KC155751	23583225	ncbi-nuccore-srlv	SRLV	1-8	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155752	KC155752	23583225	ncbi-nuccore-srlv	SRLV	1-11	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155753	KC155753	23583225	ncbi-nuccore-srlv	SRLV	1-16	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155754	KC155754	23583225	ncbi-nuccore-srlv	SRLV	1-17	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155755	KC155755	23583225	ncbi-nuccore-srlv	SRLV	1-18	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155756	KC155756	23583225	ncbi-nuccore-srlv	SRLV	1-19	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155757	KC155757	23583225	ncbi-nuccore-srlv	SRLV	1-21	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155758	KC155758	23583225	ncbi-nuccore-srlv	SRLV	1-23	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155759	KC155759	23583225	ncbi-nuccore-srlv	SRLV	1-32	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155760	KC155760	23583225	ncbi-nuccore-srlv	SRLV	3-1	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155761	KC155761	23583225	ncbi-nuccore-srlv	SRLV	3-2	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155762	KC155762	23583225	ncbi-nuccore-srlv	SRLV	3-4	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155763	KC155763	23583225	ncbi-nuccore-srlv	SRLV	3-7	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155764	KC155764	23583225	ncbi-nuccore-srlv	SRLV	3-8	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155765	KC155765	23583225	ncbi-nuccore-srlv	SRLV	3-13	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155766	KC155766	23583225	ncbi-nuccore-srlv	SRLV	3-14	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155767	KC155767	23583225	ncbi-nuccore-srlv	SRLV	3-17	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155768	KC155768	23583225	ncbi-nuccore-srlv	SRLV	3-19	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155769	KC155769	23583225	ncbi-nuccore-srlv	SRLV	3-21	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155770	KC155770	23583225	ncbi-nuccore-srlv	SRLV	3-20	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155771	KC155771	23583225	ncbi-nuccore-srlv	SRLV	3-24	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155772	KC155772	23583225	ncbi-nuccore-srlv	SRLV	3-25	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155773	KC155773	23583225	ncbi-nuccore-srlv	SRLV	3-26	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155774	KC155774	23583225	ncbi-nuccore-srlv	SRLV	3-28	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155775	KC155775	23583225	ncbi-nuccore-srlv	SRLV	3-29	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155776	KC155776	23583225	ncbi-nuccore-srlv	SRLV	3-33	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155777	KC155777	23583225	ncbi-nuccore-srlv	SRLV	3-34	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155778	KC155778	23583225	ncbi-nuccore-srlv	SRLV	3-38	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155779	KC155779	23583225	ncbi-nuccore-srlv	SRLV	3-40	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155780	KC155780	23583225	ncbi-nuccore-srlv	SRLV	5-1	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155781	KC155781	23583225	ncbi-nuccore-srlv	SRLV	5-2	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155782	KC155782	23583225	ncbi-nuccore-srlv	SRLV	5-3	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155783	KC155783	23583225	ncbi-nuccore-srlv	SRLV	5-4	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155784	KC155784	23583225	ncbi-nuccore-srlv	SRLV	5-5	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155785	KC155785	23583225	ncbi-nuccore-srlv	SRLV	5-6	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155786	KC155786	23583225	ncbi-nuccore-srlv	SRLV	5-8	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155787	KC155787	23583225	ncbi-nuccore-srlv	SRLV	5-9	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155788	KC155788	23583225	ncbi-nuccore-srlv	SRLV	6-1	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155789	KC155789	23583225	ncbi-nuccore-srlv	SRLV	6-2	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155790	KC155790	23583225	ncbi-nuccore-srlv	SRLV	6-3	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155791	KC155791	23583225	ncbi-nuccore-srlv	SRLV	6-4	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155792	KC155792	23583225	ncbi-nuccore-srlv	SRLV	6-5	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155793	KC155793	23583225	ncbi-nuccore-srlv	SRLV	6-6	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155794	KC155794	23583225	ncbi-nuccore-srlv	SRLV	6-8	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155795	KC155795	23583225	ncbi-nuccore-srlv	SRLV	6-9	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155796	KC155796	23583225	ncbi-nuccore-srlv	SRLV	6-10	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155797	KC155797	23583225	ncbi-nuccore-srlv	SRLV	6-11	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155798	KC155798	23583225	ncbi-nuccore-srlv	SRLV	6-13	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155799	KC155799	23583225	ncbi-nuccore-srlv	SRLV	6-14	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155800	KC155800	23583225	ncbi-nuccore-srlv	SRLV	6-15	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155801	KC155801	23583225	ncbi-nuccore-srlv	SRLV	6-16	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155802	KC155802	23583225	ncbi-nuccore-srlv	SRLV	6-17	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155803	KC155803	23583225	ncbi-nuccore-srlv	SRLV	6-18	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155804	KC155804	23583225	ncbi-nuccore-srlv	SRLV	6-19	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155805	KC155805	23583225	ncbi-nuccore-srlv	SRLV	6-20	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155806	KC155806	23583225	ncbi-nuccore-srlv	SRLV	7-6	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155807	KC155807	23583225	ncbi-nuccore-srlv	SRLV	7-8	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155808	KC155808	23583225	ncbi-nuccore-srlv	SRLV	7-9	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155809	KC155809	23583225	ncbi-nuccore-srlv	SRLV	7-10	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155810	KC155810	23583225	ncbi-nuccore-srlv	SRLV	7-11	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155811	KC155811	23583225	ncbi-nuccore-srlv	SRLV	7-12	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155812	KC155812	23583225	ncbi-nuccore-srlv	SRLV	7-13	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155813	KC155813	23583225	ncbi-nuccore-srlv	SRLV	7-18	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155814	KC155814	23583225	ncbi-nuccore-srlv	SRLV	7-20	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155815	KC155815	23583225	ncbi-nuccore-srlv	SRLV	7-21	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155816	KC155816	23583225	ncbi-nuccore-srlv	SRLV	7-23	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155817	KC155817	23583225	ncbi-nuccore-srlv	SRLV	7-25	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155818	KC155818	23583225	ncbi-nuccore-srlv	SRLV	7-26	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC155819	KC155819	23583225	ncbi-nuccore-srlv	SRLV	9-31	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197179	KC197179	23811153	ncbi-nuccore-srlv	SRLV	Goat 10-1	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197180	KC197180	23811153	ncbi-nuccore-srlv	SRLV	Goat 10-5	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197181	KC197181	23811153	ncbi-nuccore-srlv	SRLV	Goat 10-6A	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197182	KC197182	23811153	ncbi-nuccore-srlv	SRLV	Sheep 10-11	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197183	KC197183	23811153	ncbi-nuccore-srlv	SRLV	Sheep 10-15	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197184	KC197184	23811153	ncbi-nuccore-srlv	SRLV	Sheep 10-12	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197185	KC197185	23811153	ncbi-nuccore-srlv	SRLV	Sheep 10-13A	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197186	KC197186	23811153	ncbi-nuccore-srlv	SRLV	Sheep 10-16	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197187	KC197187	23811153	ncbi-nuccore-srlv	SRLV	Sheep 10-17	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197191	KC197191	23811153	ncbi-nuccore-srlv	SRLV	Goat 12-7	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197192	KC197192	23811153	ncbi-nuccore-srlv	SRLV	Goat 12-8A	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197194	KC197194	23811153	ncbi-nuccore-srlv	SRLV	Sheep 12-10	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197195	KC197195	23811153	ncbi-nuccore-srlv	SRLV	Sheep 12-11	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197196	KC197196	23811153	ncbi-nuccore-srlv	SRLV	Sheep 12-12	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197197	KC197197	23811153	ncbi-nuccore-srlv	SRLV	Sheep 12-13	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197198	KC197198	23811153	ncbi-nuccore-srlv	SRLV	Sheep 12-15	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197199	KC197199	23811153	ncbi-nuccore-srlv	SRLV	Sheep 12-17	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KC197200	KC197200	23811153	ncbi-nuccore-srlv	SRLV	Sheep 12-18	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KF861573	KF861573	-	ncbi-nuccore-srlv	SRLV	21G-MG/Br	Brazil	1	A	2010
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KF861574	KF861574	-	ncbi-nuccore-srlv	SRLV	Br1163	Brazil	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641269	KJ641269	25462356	ncbi-nuccore-srlv	SRLV	2-17	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641270	KJ641270	25462356	ncbi-nuccore-srlv	SRLV	2-20	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641271	KJ641271	25462356	ncbi-nuccore-srlv	SRLV	2-25	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641272	KJ641272	25462356	ncbi-nuccore-srlv	SRLV	2-23	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641273	KJ641273	25462356	ncbi-nuccore-srlv	SRLV	2-21	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641274	KJ641274	25462356	ncbi-nuccore-srlv	SRLV	2-27	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641275	KJ641275	25462356	ncbi-nuccore-srlv	SRLV	2-24	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641276	KJ641276	25462356	ncbi-nuccore-srlv	SRLV	2-16	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641277	KJ641277	25462356	ncbi-nuccore-srlv	SRLV	2-29	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641278	KJ641278	25462356	ncbi-nuccore-srlv	SRLV	19-6	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641279	KJ641279	25462356	ncbi-nuccore-srlv	SRLV	7-11	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641280	KJ641280	25462356	ncbi-nuccore-srlv	SRLV	18-15	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641281	KJ641281	25462356	ncbi-nuccore-srlv	SRLV	18-10	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641282	KJ641282	25462356	ncbi-nuccore-srlv	SRLV	18-4	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641283	KJ641283	25462356	ncbi-nuccore-srlv	SRLV	20-2	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641284	KJ641284	25462356	ncbi-nuccore-srlv	SRLV	20-8	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641285	KJ641285	25462356	ncbi-nuccore-srlv	SRLV	7-1	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641286	KJ641286	25462356	ncbi-nuccore-srlv	SRLV	7-4	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641287	KJ641287	25462356	ncbi-nuccore-srlv	SRLV	7-6	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641288	KJ641288	25462356	ncbi-nuccore-srlv	SRLV	7-33	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641289	KJ641289	25462356	ncbi-nuccore-srlv	SRLV	7-19	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641290	KJ641290	25462356	ncbi-nuccore-srlv	SRLV	7-8	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641291	KJ641291	25462356	ncbi-nuccore-srlv	SRLV	7-12	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641292	KJ641292	25462356	ncbi-nuccore-srlv	SRLV	7-34	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641293	KJ641293	25462356	ncbi-nuccore-srlv	SRLV	7-32	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641294	KJ641294	25462356	ncbi-nuccore-srlv	SRLV	20-5	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641295	KJ641295	25462356	ncbi-nuccore-srlv	SRLV	20-15	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641296	KJ641296	25462356	ncbi-nuccore-srlv	SRLV	20-6	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641297	KJ641297	25462356	ncbi-nuccore-srlv	SRLV	7-15	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641298	KJ641298	25462356	ncbi-nuccore-srlv	SRLV	20-4	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641299	KJ641299	25462356	ncbi-nuccore-srlv	SRLV	20-3	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641300	KJ641300	25462356	ncbi-nuccore-srlv	SRLV	20-14	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641301	KJ641301	25462356	ncbi-nuccore-srlv	SRLV	20-13	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641302	KJ641302	25462356	ncbi-nuccore-srlv	SRLV	20-11	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641303	KJ641303	25462356	ncbi-nuccore-srlv	SRLV	20-12	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641304	KJ641304	25462356	ncbi-nuccore-srlv	SRLV	7-35	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641305	KJ641305	25462356	ncbi-nuccore-srlv	SRLV	7-36	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641306	KJ641306	25462356	ncbi-nuccore-srlv	SRLV	6-3	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641307	KJ641307	25462356	ncbi-nuccore-srlv	SRLV	21-M7	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641308	KJ641308	25462356	ncbi-nuccore-srlv	SRLV	21-M5	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641309	KJ641309	25462356	ncbi-nuccore-srlv	SRLV	21-M4	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641310	KJ641310	25462356	ncbi-nuccore-srlv	SRLV	21-M8	Canada	3	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641361	KJ641361	25462356	ncbi-nuccore-srlv	SRLV	3-27	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641362	KJ641362	25462356	ncbi-nuccore-srlv	SRLV	3-28	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641363	KJ641363	25462356	ncbi-nuccore-srlv	SRLV	8-14	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641364	KJ641364	25462356	ncbi-nuccore-srlv	SRLV	8-1	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641365	KJ641365	25462356	ncbi-nuccore-srlv	SRLV	11-5	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641366	KJ641366	25462356	ncbi-nuccore-srlv	SRLV	11-12	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641367	KJ641367	25462356	ncbi-nuccore-srlv	SRLV	13-13	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641368	KJ641368	25462356	ncbi-nuccore-srlv	SRLV	11-20	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641369	KJ641369	25462356	ncbi-nuccore-srlv	SRLV	11-15	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KJ641370	KJ641370	25462356	ncbi-nuccore-srlv	SRLV	11-4	Canada	1	A	2011
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KR011757	KR011757	-	ncbi-nuccore-srlv	SRLV	Sichuan	China	3	A	1992
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453988	KT453988	26517396	ncbi-refseqs-srlv	SRLV	g6221	Switzerland	4	A	2011
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453989	KT453989	26517396	ncbi-refseqs-srlv	SRLV	s7385	Switzerland	4	A	2011
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453990	KT453990	26517396	ncbi-refseqs-srlv	SRLV	s7631	Switzerland	4	A	2011
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT898826	KT898826	-	ncbi-refseqs-srlv	SRLV	Jord1	Jordan	0	A	2007
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KT921318	KT921318	-	ncbi-nuccore-srlv	SRLV	sh173	Jordan	0	A	2007
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KT921319	KT921319	-	ncbi-nuccore-srlv	SRLV	sh235	Jordan	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KT921320	KT921320	-	ncbi-nuccore-srlv	SRLV	sh301	Jordan	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170752	KU170752	-	ncbi-nuccore-srlv	SRLV	sh66	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170753	KU170753	-	ncbi-nuccore-srlv	SRLV	g96	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170754	KU170754	-	ncbi-nuccore-srlv	SRLV	sh98	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170755	KU170755	-	ncbi-nuccore-srlv	SRLV	sh99	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170756	KU170756	-	ncbi-nuccore-srlv	SRLV	g99	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170757	KU170757	-	ncbi-nuccore-srlv	SRLV	sh101	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170758	KU170758	-	ncbi-nuccore-srlv	SRLV	g216	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170759	KU170759	-	ncbi-nuccore-srlv	SRLV	sh245	Lebanon	1	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170760	KU170760	-	ncbi-nuccore-srlv	SRLV	sh248	Lebanon	0	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170761	KU170761	-	ncbi-nuccore-srlv	SRLV	sh250	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170762	KU170762	-	ncbi-nuccore-srlv	SRLV	sh258	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170763	KU170763	-	ncbi-nuccore-srlv	SRLV	sh298	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170764	KU170764	-	ncbi-nuccore-srlv	SRLV	sh343	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170765	KU170765	-	ncbi-nuccore-srlv	SRLV	sh348	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KU170766	KU170766	-	ncbi-nuccore-srlv	SRLV	sh357	Lebanon	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KX687991	KX687991	28331831	ncbi-nuccore-srlv	SRLV	Caev Arg Can	Argentina	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KX687992	KX687992	28331831	ncbi-nuccore-srlv	SRLV	Caev Arg LP	Argentina	1	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KY358787	KY358787	-	ncbi-refseqs-srlv	SRLV	USMARC-200303013-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KY358788	KY358788	-	ncbi-refseqs-srlv	SRLV	USMARC-199906011-2	United States	3	A	2003
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865009	KY865009	29505612	ncbi-nuccore-srlv	SRLV	2993	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865010	KY865010	29505612	ncbi-nuccore-srlv	SRLV	6	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865011	KY865011	29505612	ncbi-nuccore-srlv	SRLV	5616	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865012	KY865012	29505612	ncbi-nuccore-srlv	SRLV	8344	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865013	KY865013	29505612	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865014	KY865014	29505612	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865015	KY865015	29505612	ncbi-nuccore-srlv	SRLV	13	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865016	KY865016	29505612	ncbi-nuccore-srlv	SRLV	15	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865017	KY865017	29505612	ncbi-nuccore-srlv	SRLV	10	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865018	KY865018	29505612	ncbi-nuccore-srlv	SRLV	4106	Poland	2	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865020	KY865020	29505612	ncbi-nuccore-srlv	SRLV	2991'	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865021	KY865021	29505612	ncbi-nuccore-srlv	SRLV	1202	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865022	KY865022	29505612	ncbi-nuccore-srlv	SRLV	1202'	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865023	KY865023	29505612	ncbi-nuccore-srlv	SRLV	1203	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865024	KY865024	29505612	ncbi-nuccore-srlv	SRLV	2437	Poland	2	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865027	KY865027	29505612	ncbi-nuccore-srlv	SRLV	42	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865028	KY865028	29505612	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865029	KY865029	29505612	ncbi-nuccore-srlv	SRLV	11	Poland	2	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865030	KY865030	29505612	ncbi-nuccore-srlv	SRLV	2	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865031	KY865031	29505612	ncbi-nuccore-srlv	SRLV	5	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865032	KY865032	29505612	ncbi-nuccore-srlv	SRLV	4084	Poland	2	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/KY865033	KY865033	29505612	ncbi-nuccore-srlv	SRLV	5675'	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/L06906	L06906	2824836	ncbi-nuccore-srlv	SRLV	kv1772	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LC208636	LC208636	-	ncbi-nuccore-srlv	SRLV	12_G2	Japan	1	A	2014
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LC208641	LC208641	-	ncbi-nuccore-srlv	SRLV	44_G6	Japan	1	A	2014
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LC208646	LC208646	-	ncbi-nuccore-srlv	SRLV	63_G10	Japan	1	A	2014
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LC208647	LC208647	-	ncbi-nuccore-srlv	SRLV	73_G12	Japan	1	A	2014
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR723557	LR723557	-	ncbi-nuccore-srlv	SRLV	113_TR_2012	Italy	3	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR723582	LR723582	-	ncbi-nuccore-srlv	SRLV	134_SI_2012	Italy	1	A	2012
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732018	LR732018	-	ncbi-nuccore-srlv	SRLV	159_BA_2014	Italy	3	A	2014
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732257	LR732257	-	ncbi-nuccore-srlv	SRLV	223_CA_2016	Italy	3	A	2016
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732258	LR732258	-	ncbi-nuccore-srlv	SRLV	224_CA_2016	Italy	3	A	2016
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732726	LR732726	-	ncbi-nuccore-srlv	SRLV	232_UM_2017	Italy	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732727	LR732727	-	ncbi-nuccore-srlv	SRLV	235_UM_2017	Italy	1	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732728	LR732728	-	ncbi-nuccore-srlv	SRLV	237_PI_2017	Italy	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732735	LR732735	-	ncbi-nuccore-srlv	SRLV	244_MA_2017	Italy	1	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732736	LR732736	-	ncbi-nuccore-srlv	SRLV	245_MA_2017	Italy	1	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732740	LR732740	-	ncbi-nuccore-srlv	SRLV	249_PI_2017	Italy	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732741	LR732741	-	ncbi-nuccore-srlv	SRLV	250_UM_2017	Italy	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR732743	LR732743	-	ncbi-nuccore-srlv	SRLV	253_BA_2017	Italy	1	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR735208	LR735208	-	ncbi-nuccore-srlv	SRLV	297_LZ_2018	Italy	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR735210	LR735210	-	ncbi-nuccore-srlv	SRLV	300_UM_2018	Italy	1	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR735214	LR735214	-	ncbi-nuccore-srlv	SRLV	307_LZ_2018	Italy	1	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR735215	LR735215	-	ncbi-nuccore-srlv	SRLV	309_PI_2018	Italy	8	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR735233	LR735233	-	ncbi-nuccore-srlv	SRLV	324_UM_2019	Italy	3	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR735238	LR735238	-	ncbi-nuccore-srlv	SRLV	332_BA_2019	Italy	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR735239	LR735239	-	ncbi-nuccore-srlv	SRLV	333_BA_2019	Italy	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR735240	LR735240	-	ncbi-nuccore-srlv	SRLV	334_BA_2019	Italy	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/LR735697	LR735697	-	ncbi-nuccore-srlv	SRLV	179_UM_2015	Italy	1	A	2015
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M10608	M10608	2410140	ncbi-refseqs-srlv	SRLV	Icelandic 1514; Icelandic LV1-1	Iceland	1	A	1953
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M31646	M31646	2158181	ncbi-refseqs-srlv	SRLV	-	South Africa	1	A	1976
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M34193	M34193	2158181	ncbi-refseqs-srlv	SRLV	-	South Africa	1	A	1976
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M51543	M51543	2824836	ncbi-refseqs-srlv	SRLV	-	Iceland	1	A	1952
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/M60609	M60609	1847257	ncbi-nuccore-srlv	SRLV	Icelandic 1514	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M60610	M60610	1847257	ncbi-refseqs-srlv	SRLV	Icelandic 1514	Iceland	1	A	1949
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554403	MG554403	-	ncbi-refseqs-srlv	SRLV	SRLV002	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554404	MG554404	-	ncbi-refseqs-srlv	SRLV	SRLV003	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554405	MG554405	-	ncbi-refseqs-srlv	SRLV	SRLV004	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554406	MG554406	-	ncbi-refseqs-srlv	SRLV	SRLV005	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554407	MG554407	-	ncbi-refseqs-srlv	SRLV	SRLV006	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554408	MG554408	-	ncbi-refseqs-srlv	SRLV	SRLV007	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554409	MG554409	-	ncbi-refseqs-srlv	SRLV	SRLV009	Italy	1	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374283	MH374283	-	ncbi-refseqs-srlv	SRLV	SRLV024	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374284	MH374284	-	ncbi-refseqs-srlv	SRLV	SRLV025	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374285	MH374285	-	ncbi-refseqs-srlv	SRLV	SRLV026	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374286	MH374286	-	ncbi-refseqs-srlv	SRLV	SRLV032	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374287	MH374287	-	ncbi-refseqs-srlv	SRLV	SRLV038	Italy	18	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374291	MH374291	-	ncbi-refseqs-srlv	SRLV	SRLV_VdA	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790874	MH790874	30739201	ncbi-nuccore-srlv	SRLV	6922	Poland	1	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790875	MH790875	30739201	ncbi-nuccore-srlv	SRLV	8063	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790876	MH790876	30739201	ncbi-nuccore-srlv	SRLV	9179	Poland	1	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790877	MH790877	30739201	ncbi-nuccore-srlv	SRLV	7041	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790878	MH790878	30739201	ncbi-nuccore-srlv	SRLV	0090	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790879	MH790879	30739201	ncbi-nuccore-srlv	SRLV	7010	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790880	MH790880	30739201	ncbi-nuccore-srlv	SRLV	7020	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790881	MH790881	30739201	ncbi-nuccore-srlv	SRLV	6981	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790882	MH790882	30739201	ncbi-nuccore-srlv	SRLV	9155	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790883	MH790883	30739201	ncbi-nuccore-srlv	SRLV	1406	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790884	MH790884	30739201	ncbi-nuccore-srlv	SRLV	4742	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790885	MH790885	30739201	ncbi-nuccore-srlv	SRLV	1304	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790886	MH790886	30739201	ncbi-nuccore-srlv	SRLV	6969	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MH790887	MH790887	30739201	ncbi-nuccore-srlv	SRLV	1911	Poland	3	A	2018
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH916859	MH916859	-	ncbi-refseqs-srlv	SRLV	1150	United States	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348325	MK348325	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348326	MK348326	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348327	MK348327	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348328	MK348328	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348329	MK348329	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348330	MK348330	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348331	MK348331	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348332	MK348332	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348333	MK348333	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348334	MK348334	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348335	MK348335	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348336	MK348336	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348337	MK348337	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348338	MK348338	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348339	MK348339	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348340	MK348340	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348341	MK348341	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348342	MK348342	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348343	MK348343	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348344	MK348344	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348345	MK348345	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348346	MK348346	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348347	MK348347	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348348	MK348348	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348349	MK348349	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348350	MK348350	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348351	MK348351	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348352	MK348352	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348353	MK348353	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348354	MK348354	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348355	MK348355	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348356	MK348356	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348357	MK348357	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348358	MK348358	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348359	MK348359	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348360	MK348360	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348361	MK348361	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348362	MK348362	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348363	MK348363	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348364	MK348364	30889906	ncbi-nuccore-srlv	SRLV	1561	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348365	MK348365	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348366	MK348366	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348367	MK348367	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348368	MK348368	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348369	MK348369	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348370	MK348370	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348371	MK348371	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348372	MK348372	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348373	MK348373	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348374	MK348374	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348375	MK348375	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348376	MK348376	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348377	MK348377	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348378	MK348378	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348379	MK348379	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348380	MK348380	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348381	MK348381	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348382	MK348382	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348383	MK348383	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348384	MK348384	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348385	MK348385	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348386	MK348386	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348387	MK348387	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348388	MK348388	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348389	MK348389	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348390	MK348390	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348391	MK348391	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348392	MK348392	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348393	MK348393	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348394	MK348394	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348395	MK348395	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348396	MK348396	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348397	MK348397	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348398	MK348398	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348399	MK348399	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348400	MK348400	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348401	MK348401	30889906	ncbi-nuccore-srlv	SRLV	3085	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348402	MK348402	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348403	MK348403	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348404	MK348404	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348405	MK348405	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348406	MK348406	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348407	MK348407	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348408	MK348408	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348409	MK348409	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348410	MK348410	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348411	MK348411	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348412	MK348412	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348413	MK348413	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348414	MK348414	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348415	MK348415	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348416	MK348416	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348417	MK348417	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348418	MK348418	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348419	MK348419	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348420	MK348420	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348421	MK348421	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348422	MK348422	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348423	MK348423	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348424	MK348424	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348425	MK348425	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348426	MK348426	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348427	MK348427	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348428	MK348428	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MK348429	MK348429	30889906	ncbi-nuccore-srlv	SRLV	8370	Poland	3	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MP829730	MP829730	-	ncbi-nuccore-srlv	SRLV	-	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MT559603	MT559603	-	ncbi-nuccore-srlv	SRLV	SRLV_MN01	Mongolia	0	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MT559604	MT559604	-	ncbi-nuccore-srlv	SRLV	SRLV_MN02	Mongolia	0	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MT559605	MT559605	-	ncbi-nuccore-srlv	SRLV	SRLV_MN03	Mongolia	0	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MT559606	MT559606	-	ncbi-nuccore-srlv	SRLV	SRLV_MN04	Mongolia	0	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MT559607	MT559607	-	ncbi-nuccore-srlv	SRLV	SRLV_MN05	Mongolia	0	A	2018
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MT559608	MT559608	-	ncbi-nuccore-srlv	SRLV	RLV_MN06	Mongolia	0	A	2018
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993896	MT993896	-	ncbi-refseqs-srlv	SRLV	USMARC-200303013-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993897	MT993897	-	ncbi-refseqs-srlv	SRLV	USMARC-200303038-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993898	MT993898	-	ncbi-refseqs-srlv	SRLV	USMARC-200303332-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993899	MT993899	-	ncbi-refseqs-srlv	SRLV	USMARC-200103515-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993900	MT993900	-	ncbi-refseqs-srlv	SRLV	USMARC-200050064-r	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993901	MT993901	-	ncbi-refseqs-srlv	SRLV	USMARC-200323455-1	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993902	MT993902	-	ncbi-refseqs-srlv	SRLV	USMARC-200103342-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993903	MT993903	-	ncbi-refseqs-srlv	SRLV	USMARC-199835918-1	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993904	MT993904	-	ncbi-refseqs-srlv	SRLV	USMARC-200023230-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993905	MT993905	-	ncbi-refseqs-srlv	SRLV	USMARC-201373037-1	United States	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993906	MT993906	-	ncbi-refseqs-srlv	SRLV	USMARC-200117502-r	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993907	MT993907	-	ncbi-refseqs-srlv	SRLV	USMARC-200216049-r	United States	3	A	2005
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993908	MT993908	-	ncbi-refseqs-srlv	SRLV	USMARC-200212120-r	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993909	MT993909	-	ncbi-refseqs-srlv	SRLV	USMARC-200312013-r	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993910	MT993910	-	ncbi-refseqs-srlv	SRLV	USMARC-200312088-r	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993911	MT993911	-	ncbi-refseqs-srlv	SRLV	USMARC-199906011-2	United States	3	A	2003
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993912	MT993912	-	ncbi-refseqs-srlv	SRLV	USMARC-200106932-2	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993913	MT993913	-	ncbi-refseqs-srlv	SRLV	USMARC-200106929-2	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993914	MT993914	-	ncbi-refseqs-srlv	SRLV	USMARC-200016283-2	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993915	MT993915	-	ncbi-refseqs-srlv	SRLV	USMARC-200335185-2	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993916	MT993916	-	ncbi-refseqs-srlv	SRLV	USMARC-200177363-2	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993917	MT993917	-	ncbi-refseqs-srlv	SRLV	USMARC-199916128-2	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993918	MT993918	-	ncbi-refseqs-srlv	SRLV	USMARC-199916193-r	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MW248464	MW248464	-	ncbi-refseqs-srlv	SRLV	NM1111	China	0	A	2020
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ313871	MZ313871	-	ncbi-nuccore-srlv	SRLV	CMV-1	China	3	A	1992
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ313872	MZ313872	-	ncbi-nuccore-srlv	SRLV	XM-MDV30	China	3	A	1992
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ484405	MZ484405	34575988	ncbi-nuccore-srlv	SRLV	BEL-LX160316	Belgium	1	A	2016
+alignment/AL_SRLV_A/member/ncbi-refseqs-core/NC_001452	NC_001452	2824836	ncbi-refseqs-core	SRLV	NK	Iceland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/NC_001511	NC_001511	2158181	ncbi-nuccore-srlv	SRLV	-	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149652	OK149652	-	ncbi-nuccore-srlv	SRLV	1561MEC	Poland	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149653	OK149653	-	ncbi-nuccore-srlv	SRLV	1561PBL	Poland	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149654	OK149654	-	ncbi-nuccore-srlv	SRLV	8699MEC	Poland	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149655	OK149655	-	ncbi-nuccore-srlv	SRLV	8699PBL	Poland	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149656	OK149656	-	ncbi-nuccore-srlv	SRLV	4742MEC	Poland	1	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149657	OK149657	-	ncbi-nuccore-srlv	SRLV	4742PBL	Poland	4	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149658	OK149658	-	ncbi-nuccore-srlv	SRLV	5962MEC	Poland	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149659	OK149659	-	ncbi-nuccore-srlv	SRLV	5962PBL	Poland	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149660	OK149660	-	ncbi-nuccore-srlv	SRLV	3038MEC	Poland	4	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149661	OK149661	-	ncbi-nuccore-srlv	SRLV	3038PBL	Poland	4	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149662	OK149662	-	ncbi-nuccore-srlv	SRLV	5888MEC	Poland	4	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149663	OK149663	-	ncbi-nuccore-srlv	SRLV	5888PBL	Poland	1	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149664	OK149664	-	ncbi-nuccore-srlv	SRLV	5918PBL	Poland	4	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OK149665	OK149665	-	ncbi-nuccore-srlv	SRLV	5918MEC	Poland	4	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517045	OM517045	35458465	ncbi-nuccore-srlv	SRLV	goat2-1	Poland	3	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517046	OM517046	35458465	ncbi-nuccore-srlv	SRLV	goat2-2	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517047	OM517047	35458465	ncbi-nuccore-srlv	SRLV	goat2-3	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517048	OM517048	35458465	ncbi-nuccore-srlv	SRLV	goat2-4	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517049	OM517049	35458465	ncbi-nuccore-srlv	SRLV	goat2-5	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517050	OM517050	35458465	ncbi-nuccore-srlv	SRLV	goat2-6	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517051	OM517051	35458465	ncbi-nuccore-srlv	SRLV	goat3-1	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517052	OM517052	35458465	ncbi-nuccore-srlv	SRLV	goat3-2	Poland	0	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517053	OM517053	35458465	ncbi-nuccore-srlv	SRLV	goat3-3	Poland	0	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517054	OM517054	35458465	ncbi-nuccore-srlv	SRLV	goat3-4	Poland	3	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517055	OM517055	35458465	ncbi-nuccore-srlv	SRLV	goat3-5	Poland	3	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517056	OM517056	35458465	ncbi-nuccore-srlv	SRLV	goat3-6	Poland	3	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517057	OM517057	35458465	ncbi-nuccore-srlv	SRLV	goat4-1	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517058	OM517058	35458465	ncbi-nuccore-srlv	SRLV	goat4-2	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517059	OM517059	35458465	ncbi-nuccore-srlv	SRLV	goat4-3	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517060	OM517060	35458465	ncbi-nuccore-srlv	SRLV	goat4-4	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517061	OM517061	35458465	ncbi-nuccore-srlv	SRLV	goat4-5	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517062	OM517062	35458465	ncbi-nuccore-srlv	SRLV	goat4-6	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517063	OM517063	35458465	ncbi-nuccore-srlv	SRLV	goat5-1	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517064	OM517064	35458465	ncbi-nuccore-srlv	SRLV	goat5-2	Poland	0	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517065	OM517065	35458465	ncbi-nuccore-srlv	SRLV	goat5-3	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517066	OM517066	35458465	ncbi-nuccore-srlv	SRLV	goat5-4	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517067	OM517067	35458465	ncbi-nuccore-srlv	SRLV	goat5-5	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517068	OM517068	35458465	ncbi-nuccore-srlv	SRLV	goat6-1	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517069	OM517069	35458465	ncbi-nuccore-srlv	SRLV	goat6-2	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517070	OM517070	35458465	ncbi-nuccore-srlv	SRLV	goat6-3	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517071	OM517071	35458465	ncbi-nuccore-srlv	SRLV	goat6-4	Poland	0	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517072	OM517072	35458465	ncbi-nuccore-srlv	SRLV	goat6-5	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517073	OM517073	35458465	ncbi-nuccore-srlv	SRLV	goat6-6	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517074	OM517074	35458465	ncbi-nuccore-srlv	SRLV	goat7-1	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517075	OM517075	35458465	ncbi-nuccore-srlv	SRLV	goat7-2	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517076	OM517076	35458465	ncbi-nuccore-srlv	SRLV	goat7-3	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517077	OM517077	35458465	ncbi-nuccore-srlv	SRLV	goat7-4	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517078	OM517078	35458465	ncbi-nuccore-srlv	SRLV	goat7-5	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/OM517079	OM517079	35458465	ncbi-nuccore-srlv	SRLV	goat7-6	Poland	1	A	2019
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	SRLV	-	United Kingdon	1	A	1984
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/S55323	S55323	8382414	ncbi-nuccore-srlv	SRLV	-	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/X54379	X54379	-	ncbi-nuccore-srlv	SRLV	ZZV 1050	Netherlands	1	A	1982

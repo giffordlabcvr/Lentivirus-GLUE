@@ -1,0 +1,168 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=66;
+	taxlabels
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/A15114'[&collection_year="-",country="-",genotype="A",isolate="-",name="SRLV",pubmed_id="-",sequenceID="A15114",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AF338226'[&collection_year="-",country="-",genotype="A",isolate="S93",name="SRLV",pubmed_id="11462010",sequenceID="AF338226",source="ncbi-nuccore-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AF338227'[&collection_year="-",country="-",genotype="A",isolate="K1514",name="SRLV",pubmed_id="11462010",sequenceID="AF338227",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/EF445431'[&collection_year="-",country="United Kingdom",genotype="A",isolate="EV1",name="SRLV",pubmed_id="17675253",sequenceID="EF445431",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/L06906'[&collection_year="-",country="-",genotype="A",isolate="kv1772",name="SRLV",pubmed_id="2824836",sequenceID="L06906",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/M60609'[&collection_year="-",country="-",genotype="A",isolate="Icelandic 1514",name="SRLV",pubmed_id="1847257",sequenceID="M60609",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ313871'[&collection_year="1992",country="China",genotype="A",isolate="CMV-1",name="SRLV",pubmed_id="-",sequenceID="MZ313871",source="ncbi-nuccore-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ313872'[&collection_year="1992",country="China",genotype="A",isolate="XM-MDV30",name="SRLV",pubmed_id="-",sequenceID="MZ313872",source="ncbi-nuccore-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ484405'[&collection_year="2016",country="Belgium",genotype="A",isolate="BEL-LX160316",name="SRLV",pubmed_id="34575988",sequenceID="MZ484405",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/NC_001511'[&collection_year="-",country="-",genotype="A",isolate="-",name="SRLV",pubmed_id="2158181",sequenceID="NC_001511",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/S55323'[&collection_year="-",country="-",genotype="A",isolate="-",name="SRLV",pubmed_id="8382414",sequenceID="S55323",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/U51910'[&collection_year="1962",country="Iceland",genotype="A",isolate="KM1071",name="SRLV",pubmed_id="9654682",sequenceID="U51910",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-core/NC_001452'[&collection_year="-",country="Iceland",genotype="A",isolate="NK",name="SRLV",pubmed_id="2824836",sequenceID="NC_001452",source="ncbi-refseqs-core",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AF479638'[&collection_year="1996",country="Portugal",genotype="A",isolate="P1OLV",name="SRLV",pubmed_id="15284480",sequenceID="AF479638",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885'[&collection_year="1999",country="Switzerland",genotype="A",isolate="-",name="SRLV",pubmed_id="14967484",sequenceID="AY445885",source="ncbi-refseqs-srlv",subtype=4]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/HQ848062'[&collection_year="2005",country="Spain",genotype="A",isolate="697",name="SRLV",pubmed_id="21940116",sequenceID="HQ848062",source="ncbi-refseqs-srlv",subtype=4]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453988'[&collection_year="2011",country="Switzerland",genotype="A",isolate="g6221",name="SRLV",pubmed_id="26517396",sequenceID="KT453988",source="ncbi-refseqs-srlv",subtype=4]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453989'[&collection_year="2011",country="Switzerland",genotype="A",isolate="s7385",name="SRLV",pubmed_id="26517396",sequenceID="KT453989",source="ncbi-refseqs-srlv",subtype=4]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453990'[&collection_year="2011",country="Switzerland",genotype="A",isolate="s7631",name="SRLV",pubmed_id="26517396",sequenceID="KT453990",source="ncbi-refseqs-srlv",subtype=4]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT898826'[&collection_year="2007",country="Jordan",genotype="A",isolate="Jord1",name="SRLV",pubmed_id="-",sequenceID="KT898826",source="ncbi-refseqs-srlv",subtype=0]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KY358787'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200303013-1",name="SRLV",pubmed_id="-",sequenceID="KY358787",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KY358788'[&collection_year="2003",country="United States",genotype="A",isolate="USMARC-199906011-2",name="SRLV",pubmed_id="-",sequenceID="KY358788",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M10608'[&collection_year="1953",country="Iceland",genotype="A",isolate="Icelandic 1514; Icelandic LV1-1",name="SRLV",pubmed_id="2410140",sequenceID="M10608",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M31646'[&collection_year="1976",country="South Africa",genotype="A",isolate="-",name="SRLV",pubmed_id="2158181",sequenceID="M31646",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M34193'[&collection_year="1976",country="South Africa",genotype="A",isolate="-",name="SRLV",pubmed_id="2158181",sequenceID="M34193",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M51543'[&collection_year="1952",country="Iceland",genotype="A",isolate="-",name="SRLV",pubmed_id="2824836",sequenceID="M51543",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M60610'[&collection_year="1949",country="Iceland",genotype="A",isolate="Icelandic 1514",name="SRLV",pubmed_id="1847257",sequenceID="M60610",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554403'[&collection_year="2008",country="Italy",genotype="A",isolate="SRLV002",name="SRLV",pubmed_id="-",sequenceID="MG554403",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554404'[&collection_year="2008",country="Italy",genotype="A",isolate="SRLV003",name="SRLV",pubmed_id="-",sequenceID="MG554404",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554405'[&collection_year="2008",country="Italy",genotype="A",isolate="SRLV004",name="SRLV",pubmed_id="-",sequenceID="MG554405",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554406'[&collection_year="2008",country="Italy",genotype="A",isolate="SRLV005",name="SRLV",pubmed_id="-",sequenceID="MG554406",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554407'[&collection_year="2008",country="Italy",genotype="A",isolate="SRLV006",name="SRLV",pubmed_id="-",sequenceID="MG554407",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554408'[&collection_year="2008",country="Italy",genotype="A",isolate="SRLV007",name="SRLV",pubmed_id="-",sequenceID="MG554408",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554409'[&collection_year="2008",country="Italy",genotype="A",isolate="SRLV009",name="SRLV",pubmed_id="-",sequenceID="MG554409",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374283'[&collection_year="2017",country="Italy",genotype="A",isolate="SRLV024",name="SRLV",pubmed_id="-",sequenceID="MH374283",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374284'[&collection_year="2017",country="Italy",genotype="A",isolate="SRLV025",name="SRLV",pubmed_id="-",sequenceID="MH374284",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374285'[&collection_year="2017",country="Italy",genotype="A",isolate="SRLV026",name="SRLV",pubmed_id="-",sequenceID="MH374285",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374286'[&collection_year="2017",country="Italy",genotype="A",isolate="SRLV032",name="SRLV",pubmed_id="-",sequenceID="MH374286",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374287'[&collection_year="2017",country="Italy",genotype="A",isolate="SRLV038",name="SRLV",pubmed_id="-",sequenceID="MH374287",source="ncbi-refseqs-srlv",subtype=18]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374291'[&collection_year="2017",country="Italy",genotype="A",isolate="SRLV_VdA",name="SRLV",pubmed_id="-",sequenceID="MH374291",source="ncbi-refseqs-srlv",subtype=8]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH916859'[&collection_year="2017",country="United States",genotype="A",isolate="1150",name="SRLV",pubmed_id="-",sequenceID="MH916859",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993896'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200303013-1",name="SRLV",pubmed_id="-",sequenceID="MT993896",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993897'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200303038-1",name="SRLV",pubmed_id="-",sequenceID="MT993897",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993898'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200303332-1",name="SRLV",pubmed_id="-",sequenceID="MT993898",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993899'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200103515-1",name="SRLV",pubmed_id="-",sequenceID="MT993899",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993900'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200050064-r",name="SRLV",pubmed_id="-",sequenceID="MT993900",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993901'[&collection_year="2007",country="United States",genotype="A",isolate="USMARC-200323455-1",name="SRLV",pubmed_id="-",sequenceID="MT993901",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993902'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200103342-1",name="SRLV",pubmed_id="-",sequenceID="MT993902",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993903'[&collection_year="2007",country="United States",genotype="A",isolate="USMARC-199835918-1",name="SRLV",pubmed_id="-",sequenceID="MT993903",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993904'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200023230-1",name="SRLV",pubmed_id="-",sequenceID="MT993904",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993905'[&collection_year="2017",country="United States",genotype="A",isolate="USMARC-201373037-1",name="SRLV",pubmed_id="-",sequenceID="MT993905",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993906'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200117502-r",name="SRLV",pubmed_id="-",sequenceID="MT993906",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993907'[&collection_year="2005",country="United States",genotype="A",isolate="USMARC-200216049-r",name="SRLV",pubmed_id="-",sequenceID="MT993907",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993908'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200212120-r",name="SRLV",pubmed_id="-",sequenceID="MT993908",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993909'[&collection_year="2007",country="United States",genotype="A",isolate="USMARC-200312013-r",name="SRLV",pubmed_id="-",sequenceID="MT993909",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993910'[&collection_year="2007",country="United States",genotype="A",isolate="USMARC-200312088-r",name="SRLV",pubmed_id="-",sequenceID="MT993910",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993911'[&collection_year="2003",country="United States",genotype="A",isolate="USMARC-199906011-2",name="SRLV",pubmed_id="-",sequenceID="MT993911",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993912'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200106932-2",name="SRLV",pubmed_id="-",sequenceID="MT993912",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993913'[&collection_year="2004",country="United States",genotype="A",isolate="USMARC-200106929-2",name="SRLV",pubmed_id="-",sequenceID="MT993913",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993914'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200016283-2",name="SRLV",pubmed_id="-",sequenceID="MT993914",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993915'[&collection_year="2007",country="United States",genotype="A",isolate="USMARC-200335185-2",name="SRLV",pubmed_id="-",sequenceID="MT993915",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993916'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-200177363-2",name="SRLV",pubmed_id="-",sequenceID="MT993916",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993917'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-199916128-2",name="SRLV",pubmed_id="-",sequenceID="MT993917",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993918'[&collection_year="2006",country="United States",genotype="A",isolate="USMARC-199916193-r",name="SRLV",pubmed_id="-",sequenceID="MT993918",source="ncbi-refseqs-srlv",subtype=3]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MW248464'[&collection_year="2020",country="China",genotype="A",isolate="NM1111",name="SRLV",pubmed_id="-",sequenceID="MW248464",source="ncbi-refseqs-srlv",subtype=0]
+	'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/S51392'[&collection_year="1984",country="United Kingdon",genotype="A",isolate="-",name="SRLV",pubmed_id="1651983",sequenceID="S51392",source="ncbi-refseqs-srlv",subtype=1]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT898826':0.289969,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MW248464':0.123271)[&label=100]:0.430275,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AF479638':0.129481,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554409':0.128888)[&label=87]:0.016798,(('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ484405':0.155513,(('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/EF445431':7.84E-4,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/S51392':0.040763)[&label=100]:0.147364,(('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/NC_001511':1.0E-6,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M31646':1.0E-6)[&label=22]:1.0E-6,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M34193':1.0E-6)[&label=100]:0.150602)[&label=25]:0.02211)[&label=66]:0.022352,((('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374284':0.088895,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554407':0.102188,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374291':0.07977,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554408':0.067922,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554406':0.062801)[&label=78]:0.01229,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554404':0.021134,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554405':0.019769)[&label=100]:0.069621)[&label=24]:0.006749)[&label=36]:0.011525)[&label=26]:0.005462,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374283':0.003849,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374286':8.84E-4,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374285':0.001303)[&label=91]:0.003704)[&label=100]:0.084321,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554403':0.098528)[&label=23]:0.007099)[&label=62]:0.022492)[&label=100]:0.184475,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885':0.052141,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453989':0.009519,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453990':0.006046,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453988':0.012324)[&label=41]:0.001829)[&label=100]:0.02701)[&label=100]:0.12308,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/HQ848062':0.161864)[&label=100]:0.045998)[&label=88]:0.048874,((('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993916':0.023738,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993915':0.032363,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993914':0.019193)[&label=88]:0.01089,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993917':0.015005)[&label=75]:0.007066)[&label=100]:0.03144,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993912':0.01114,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KY358788':1.0E-6,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993911':1.0E-6)[&label=100]:0.023324,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993910':0.047515,((('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374287':0.244708,('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ313872':0.008273,'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ313871':0.009319)[&label=100]:0.062619)[&label=90]:0.024781,(((('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993908':0.011875,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993909':0.014818)[&label=96]:0.007922,((('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993896':1.0E-6,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KY358787':1.0E-6)[&label=100]:0.009437,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993906':0.005842,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993900':0.005995,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993918':0.039351)[&label=88]:0.003421)[&label=96]:0.018151,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993904':0.001342,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993905':0.014459)[&label=86]:0.003562,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993902':0.004914,(('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993903':0.008523,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993898':0.006749,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993897':0.00449)[&label=98]:0.003592)[&label=34]:3.93E-4,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993901':0.005784)[&label=16]:4.11E-4)[&label=12]:1.0E-6)[&label=30]:7.96E-4)[&label=44]:5.46E-4)[&label=41]:7.35E-4,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993899':0.00738)[&label=53]:0.005193)[&label=93]:0.015978,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993907':0.036957)[&label=100]:0.036707,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH916859':0.082027)[&label=50]:0.009727)[&label=44]:0.008153,'alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AF338226':0.06351)[&label=93]:0.02798)[&label=93]:0.045272)[&label=64]:0.007879)[&label=100]:0.138564,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993913':0.019339)[&label=69]:0.029002)[&label=100]:0.118636,('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/U51910':0.043279,(('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/M60609':0.00317,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M60610':0.003411)[&label=35]:0.001814,(('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/S55323':0.001305,('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/L06906':1.0E-6,'alignment/AL_SRLV_A/member/ncbi-refseqs-core/NC_001452':1.0E-6)[&label=98]:1.0E-6)[&label=100]:0.0035,('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AF338227':0.002241,('alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M51543':1.0E-6,('alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/A15114':1.0E-6,'alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M10608':1.0E-6)[&label=19]:1.0E-6)[&label=100]:4.33E-4)[&label=100]:0.003086)[&label=100]:0.005053)[&label=100]:0.026706)[&label=100]:0.119214)[&label=58]:0.020643)[&label=39]:0.012519)[&label=44]:0.018485)[&label=100]:0.023621);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="country";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

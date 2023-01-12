@@ -1,0 +1,65 @@
+taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/A15114	A15114	-	ncbi-nuccore-srlv	SRLV	-	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AF479638	AF479638	15284480	ncbi-refseqs-srlv	SRLV	P1OLV	Portugal	1	A	1996
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/AY101611	AY101611	-	ncbi-nuccore-srlv	SRLV	85/34	USA	3	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/AY445885	AY445885	14967484	ncbi-refseqs-srlv	SRLV	-	Switzerland	4	A	1999
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/HQ848062	HQ848062	21940116	ncbi-refseqs-srlv	SRLV	697	Spain	4	A	2005
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453988	KT453988	26517396	ncbi-refseqs-srlv	SRLV	g6221	Switzerland	4	A	2011
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453989	KT453989	26517396	ncbi-refseqs-srlv	SRLV	s7385	Switzerland	4	A	2011
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT453990	KT453990	26517396	ncbi-refseqs-srlv	SRLV	s7631	Switzerland	4	A	2011
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KT898826	KT898826	-	ncbi-refseqs-srlv	SRLV	Jord1	Jordan	0	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KY358787	KY358787	-	ncbi-refseqs-srlv	SRLV	USMARC-200303013-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/KY358788	KY358788	-	ncbi-refseqs-srlv	SRLV	USMARC-199906011-2	United States	3	A	2003
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/L06906	L06906	2824836	ncbi-nuccore-srlv	SRLV	kv1772	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M10608	M10608	2410140	ncbi-refseqs-srlv	SRLV	Icelandic 1514; Icelandic LV1-1	Iceland	1	A	1953
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M31646	M31646	2158181	ncbi-refseqs-srlv	SRLV	-	South Africa	1	A	1976
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M34193	M34193	2158181	ncbi-refseqs-srlv	SRLV	-	South Africa	1	A	1976
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M51543	M51543	2824836	ncbi-refseqs-srlv	SRLV	-	Iceland	1	A	1952
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/M60609	M60609	1847257	ncbi-nuccore-srlv	SRLV	Icelandic 1514	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/M60610	M60610	1847257	ncbi-refseqs-srlv	SRLV	Icelandic 1514	Iceland	1	A	1949
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554403	MG554403	-	ncbi-refseqs-srlv	SRLV	SRLV002	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554404	MG554404	-	ncbi-refseqs-srlv	SRLV	SRLV003	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554405	MG554405	-	ncbi-refseqs-srlv	SRLV	SRLV004	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554406	MG554406	-	ncbi-refseqs-srlv	SRLV	SRLV005	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554407	MG554407	-	ncbi-refseqs-srlv	SRLV	SRLV006	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554408	MG554408	-	ncbi-refseqs-srlv	SRLV	SRLV007	Italy	8	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MG554409	MG554409	-	ncbi-refseqs-srlv	SRLV	SRLV009	Italy	1	A	2008
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374283	MH374283	-	ncbi-refseqs-srlv	SRLV	SRLV024	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374284	MH374284	-	ncbi-refseqs-srlv	SRLV	SRLV025	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374285	MH374285	-	ncbi-refseqs-srlv	SRLV	SRLV026	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374286	MH374286	-	ncbi-refseqs-srlv	SRLV	SRLV032	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374287	MH374287	-	ncbi-refseqs-srlv	SRLV	SRLV038	Italy	18	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH374291	MH374291	-	ncbi-refseqs-srlv	SRLV	SRLV_VdA	Italy	8	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MH916859	MH916859	-	ncbi-refseqs-srlv	SRLV	1150	United States	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MP829730	MP829730	-	ncbi-nuccore-srlv	SRLV	-	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993896	MT993896	-	ncbi-refseqs-srlv	SRLV	USMARC-200303013-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993897	MT993897	-	ncbi-refseqs-srlv	SRLV	USMARC-200303038-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993898	MT993898	-	ncbi-refseqs-srlv	SRLV	USMARC-200303332-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993899	MT993899	-	ncbi-refseqs-srlv	SRLV	USMARC-200103515-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993900	MT993900	-	ncbi-refseqs-srlv	SRLV	USMARC-200050064-r	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993901	MT993901	-	ncbi-refseqs-srlv	SRLV	USMARC-200323455-1	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993902	MT993902	-	ncbi-refseqs-srlv	SRLV	USMARC-200103342-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993903	MT993903	-	ncbi-refseqs-srlv	SRLV	USMARC-199835918-1	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993904	MT993904	-	ncbi-refseqs-srlv	SRLV	USMARC-200023230-1	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993905	MT993905	-	ncbi-refseqs-srlv	SRLV	USMARC-201373037-1	United States	3	A	2017
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993906	MT993906	-	ncbi-refseqs-srlv	SRLV	USMARC-200117502-r	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993907	MT993907	-	ncbi-refseqs-srlv	SRLV	USMARC-200216049-r	United States	3	A	2005
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993908	MT993908	-	ncbi-refseqs-srlv	SRLV	USMARC-200212120-r	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993909	MT993909	-	ncbi-refseqs-srlv	SRLV	USMARC-200312013-r	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993910	MT993910	-	ncbi-refseqs-srlv	SRLV	USMARC-200312088-r	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993911	MT993911	-	ncbi-refseqs-srlv	SRLV	USMARC-199906011-2	United States	3	A	2003
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993912	MT993912	-	ncbi-refseqs-srlv	SRLV	USMARC-200106932-2	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993913	MT993913	-	ncbi-refseqs-srlv	SRLV	USMARC-200106929-2	United States	3	A	2004
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993914	MT993914	-	ncbi-refseqs-srlv	SRLV	USMARC-200016283-2	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993915	MT993915	-	ncbi-refseqs-srlv	SRLV	USMARC-200335185-2	United States	3	A	2007
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993916	MT993916	-	ncbi-refseqs-srlv	SRLV	USMARC-200177363-2	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993917	MT993917	-	ncbi-refseqs-srlv	SRLV	USMARC-199916128-2	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MT993918	MT993918	-	ncbi-refseqs-srlv	SRLV	USMARC-199916193-r	United States	3	A	2006
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/MW248464	MW248464	-	ncbi-refseqs-srlv	SRLV	NM1111	China	0	A	2020
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ313871	MZ313871	-	ncbi-nuccore-srlv	SRLV	CMV-1	China	3	A	1992
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ313872	MZ313872	-	ncbi-nuccore-srlv	SRLV	XM-MDV30	China	3	A	1992
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/MZ484405	MZ484405	34575988	ncbi-nuccore-srlv	SRLV	BEL-LX160316	Belgium	1	A	2016
+alignment/AL_SRLV_A/member/ncbi-refseqs-core/NC_001452	NC_001452	2824836	ncbi-refseqs-core	SRLV	NK	Iceland	1	A	-
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/NC_001511	NC_001511	2158181	ncbi-nuccore-srlv	SRLV	-	-	1	A	-
+alignment/AL_SRLV_A/member/ncbi-refseqs-srlv/S51392	S51392	1651983	ncbi-refseqs-srlv	SRLV	-	United Kingdon	1	A	1984
+alignment/AL_SRLV_A/member/ncbi-nuccore-srlv/S55323	S55323	8382414	ncbi-nuccore-srlv	SRLV	-	-	1	A	-
