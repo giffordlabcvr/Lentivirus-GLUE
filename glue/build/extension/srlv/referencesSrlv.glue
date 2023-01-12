@@ -67,7 +67,6 @@
       add segment 554 1879
       exit
 
-
     add feature-location matrix
     feature-location matrix
       add segment 554 1009
@@ -95,14 +94,15 @@
 
     add feature-location rt
     feature-location rt
-      add segment 2347 3378
+      add segment 2368 3399
       exit
 
     add feature-location in
     feature-location in
-      add segment 4204 5028
+      add segment 4225 5049
       exit
-
+      
+ 
     add feature-location vif
     feature-location vif
       add segment 5027 5716

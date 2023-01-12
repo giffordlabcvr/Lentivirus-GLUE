@@ -866,6 +866,16 @@
       add segment 2173 5046
       exit
 
+    add feature-location rt
+    feature-location rt
+      add segment 2347 3378
+      exit
+
+    add feature-location in
+    feature-location in
+      add segment 4204 5028
+      exit
+
     add feature-location vif
     feature-location vif
       add segment 5006 5695
