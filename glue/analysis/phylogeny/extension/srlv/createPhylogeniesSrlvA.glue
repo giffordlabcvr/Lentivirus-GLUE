@@ -52,7 +52,7 @@
     #  -o trees/tip/srlv-a/lenti-srlv-a-pol.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAenv \
-      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -w "fLocNotes.featureLoc.feature.name = 'env' and fLocNotes.ref_nt_coverage_pct >= 20" \
       -o trees/tip/srlv-a/lenti-srlv-a-env.tre NEWICK_BOOTSTRAPS
 
     #generate nucleotide phylogeny AL_SRLV_A -s alignmentColumnsSelectorSrlvAgenome \

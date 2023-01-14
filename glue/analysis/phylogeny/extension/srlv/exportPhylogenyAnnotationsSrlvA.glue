@@ -26,7 +26,7 @@
       and fLocNotes.ref_nt_coverage_pct >= 80" -f trees/tip/srlv-a/lenti-srlv-a-pol.figtree-annotations.tsv
 
     export figtree-annotation AL_SRLV_A -w "fLocNotes.featureLoc.feature.name = 'env'  \
-      and fLocNotes.ref_nt_coverage_pct >= 80" -f trees/tip/srlv-a/lenti-srlv-a-env.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/tip/srlv-a/lenti-srlv-a-env.figtree-annotations.tsv
 
     export figtree-annotation AL_SRLV_A -w "fLocNotes.featureLoc.feature.name = 'whole_genome'  \
       and fLocNotes.ref_nt_coverage_pct >= 80" -f trees/tip/srlv-a/lenti-srlv-a-genome.figtree-annotations.tsv

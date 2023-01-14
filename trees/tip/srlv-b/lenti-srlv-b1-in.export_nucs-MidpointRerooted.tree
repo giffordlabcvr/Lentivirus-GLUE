@@ -1,1 +1,169 @@
-((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454288:0.09612946990881177101,(((alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/AY900630:0.24576153756681987095,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/DL256644:0.00000100000050002909,alignment/AL_SRLV_B1/member/ncbi-refseqs-core/NC_001463:0.00000100000050002909)100:0.00000100000050002909)58:0.05760702355049734935,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/MH936675:0.00000100000050002909,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454239:0.00186664444520014973,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454238:0.01683798815418745265)79:0.00359007992528318550)23:0.00000100000050002909)58:0.03434838083809316212,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/GU120138:0.00303636646548236097,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749880:0.00151835256981090131,((alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749878:0.00000100000050002909,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749879:0.00151361961973311282)13:0.00000100000050002909,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749881:0.00000100000050002909,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT214469:0.00000100000050002909)24:0.00000100000050002909)69:0.00151378239116439274)58:0.00000100000050002909)81:0.03084816069495843749)90:0.01797076158962155820)45:0.00012842400921969296,((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641413:0.03127995894231236362,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641409:0.04990212889156125237,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641411:0.03991594934317584803)100:0.03464941406196902357)94:0.04188384054475394885,(((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641401:0.06731991535082483546,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641403:0.06804588603147662673)90:0.02822110145898493877,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641405:0.10383212617392321986,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641412:0.09454944131065566582,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/HM210570:0.08422622022050456347)17:0.01100033342355491092)18:0.00730656352390701876)7:0.00348395438101128680,((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641404:0.11724570564719867527,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH936674:0.05763578966456418123)46:0.02258464632116909468,(((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454259:0.09083426409641488786,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454272:0.06659206131865438860,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374289:0.07653846778944997653)64:0.01588252687791293430)7:0.00631843917762050893,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454276:0.09780981420471618337,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454281:0.07761643159134773429,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554410:0.07015481379525116690,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554413:0.03437541378328318187,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554411:0.02679436622917932137,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554412:0.03373647835152156216)97:0.02457598288379631360)100:0.05126285633030028960)50:0.01323473004019382060)36:0.00670554666634217561)14:0.01160846175932165984)2:0.00276894848860730677,(((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454253:0.10085287114767453598,((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454249:0.10653571995361539593,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454289:0.07145840925635708885)17:0.01603430178386640662,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374290:0.10374925029451712022)3:0.00112563139356117062)11:0.00587021463238112957,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454285:0.11588764178138691308,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454248:0.05616096597910877342)22:0.01484705873010653404)5:0.00931517052657227645,(((((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454254:0.13289102217089368563,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454282:0.08947446326053741517)43:0.02252254251275136523,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454252:0.07983333088362361274)18:0.01054384326897772443,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454263:0.09175301369210379920)12:0.01191764192646670162,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454264:0.00914718524706841125,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454265:0.00802185857142449603)100:0.06375583167151750719)4:0.00400888519590219313,((((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454262:0.08349550847419773270,((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454256:0.08738317446959907586,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454286:0.06694326814964161876,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454271:0.02361723559899371258)84:0.00842809625929024329)78:0.02632825545732128680,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454280:0.07126929943835458303)5:0.00132737317865812970)3:0.00586069684398635334,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454261:0.08021519215454227247)0:0.00599613763150632674,((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454257:0.08662307117144117663,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454260:0.07620761744893070344)26:0.01116678452877713917,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454266:0.05651814072225447294,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454267:0.09294262839054547032)24:0.01353053838434606880)12:0.02762996271624045333)2:0.00684182675168609495,((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454241:0.03750527923616968351,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454270:0.02392417896898540661)100:0.04320043716284052704,(((alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554402:0.16587048878202564905,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454283:0.15882313430898636897)99:0.09497208285783365067,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454275:0.06415007735194686034)3:0.00386945061225434182,((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454240:0.04231862702251017877,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454250:0.06603897524761960514)100:0.03877354499822322637,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454251:0.08627655557651976725,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454245:0.06869947378069785060,((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454235:0.01166533472302631359,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454236:0.01133630974003922015)94:0.01312592511306803073,(alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454234:0.00271578042349348951,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454237:0.00117413015882995831)72:0.00528917921676011135)100:0.04862470623333213504)37:0.01493078818358410317)15:0.00291179821847562231)10:0.00600284253402648404)0:0.00842541602091297949)0:0.00461955452015999635)1:0.00978499307335864085)0:0.00206602459972214138)1:0.00739627792901558379)24:0.01324930185709367013)48:0.01820007815557511677)21:0.01258785698185018592)45:0.01477460216444967736);
+#NEXUS
+begin taxa;
+	dimensions ntax=67;
+	taxlabels
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454234'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5056",name="SRLV",pubmed_id="14967484",sequenceID="AY454234",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454235'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5057",name="SRLV",pubmed_id="14967484",sequenceID="AY454235",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454236'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5058",name="SRLV",pubmed_id="14967484",sequenceID="AY454236",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454237'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5059",name="SRLV",pubmed_id="14967484",sequenceID="AY454237",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454238'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5397",name="SRLV",pubmed_id="14967484",sequenceID="AY454238",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454239'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5406",name="SRLV",pubmed_id="14967484",sequenceID="AY454239",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454240'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5472",name="SRLV",pubmed_id="14967484",sequenceID="AY454240",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454241'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5484",name="SRLV",pubmed_id="14967484",sequenceID="AY454241",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454245'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5526",name="SRLV",pubmed_id="14967484",sequenceID="AY454245",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454248'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5563",name="SRLV",pubmed_id="14967484",sequenceID="AY454248",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454249'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5564",name="SRLV",pubmed_id="14967484",sequenceID="AY454249",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454250'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5568",name="SRLV",pubmed_id="14967484",sequenceID="AY454250",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454251'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5570",name="SRLV",pubmed_id="14967484",sequenceID="AY454251",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454252'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5572",name="SRLV",pubmed_id="14967484",sequenceID="AY454252",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454253'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5574",name="SRLV",pubmed_id="14967484",sequenceID="AY454253",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454254'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5578",name="SRLV",pubmed_id="14967484",sequenceID="AY454254",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454256'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5591",name="SRLV",pubmed_id="14967484",sequenceID="AY454256",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454257'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5592",name="SRLV",pubmed_id="14967484",sequenceID="AY454257",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454259'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5638",name="SRLV",pubmed_id="14967484",sequenceID="AY454259",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454260'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5639",name="SRLV",pubmed_id="14967484",sequenceID="AY454260",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454261'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5645",name="SRLV",pubmed_id="14967484",sequenceID="AY454261",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454262'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5651",name="SRLV",pubmed_id="14967484",sequenceID="AY454262",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454263'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5652",name="SRLV",pubmed_id="14967484",sequenceID="AY454263",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454264'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5660",name="SRLV",pubmed_id="14967484",sequenceID="AY454264",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454265'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5661",name="SRLV",pubmed_id="14967484",sequenceID="AY454265",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454266'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5663",name="SRLV",pubmed_id="14967484",sequenceID="AY454266",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454267'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5666",name="SRLV",pubmed_id="14967484",sequenceID="AY454267",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454270'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5669",name="SRLV",pubmed_id="14967484",sequenceID="AY454270",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454271'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5673",name="SRLV",pubmed_id="14967484",sequenceID="AY454271",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454272'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5674",name="SRLV",pubmed_id="14967484",sequenceID="AY454272",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454275'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5686",name="SRLV",pubmed_id="14967484",sequenceID="AY454275",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454276'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5690",name="SRLV",pubmed_id="14967484",sequenceID="AY454276",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454280'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5700",name="SRLV",pubmed_id="14967484",sequenceID="AY454280",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454281'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5705",name="SRLV",pubmed_id="14967484",sequenceID="AY454281",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454282'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5717",name="SRLV",pubmed_id="14967484",sequenceID="AY454282",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454283'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5720",name="SRLV",pubmed_id="14967484",sequenceID="AY454283",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454285'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5723",name="SRLV",pubmed_id="14967484",sequenceID="AY454285",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454286'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5731",name="SRLV",pubmed_id="14967484",sequenceID="AY454286",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454288'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5775",name="SRLV",pubmed_id="14967484",sequenceID="AY454288",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454289'[&collection_year="1999",country="Switzerland",genotype="B",isolate="SNCR5776",name="SRLV",pubmed_id="14967484",sequenceID="AY454289",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/DL256644'[&collection_year="-",country="-",genotype="B",isolate="-",name="SRLV",pubmed_id="-",sequenceID="DL256644",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641401'[&collection_year="2011",country="Canada",genotype="B",isolate="3-23",name="SRLV",pubmed_id="25462356",sequenceID="KJ641401",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641403'[&collection_year="2011",country="Canada",genotype="B",isolate="3-21",name="SRLV",pubmed_id="25462356",sequenceID="KJ641403",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641404'[&collection_year="2011",country="Canada",genotype="B",isolate="3-27",name="SRLV",pubmed_id="25462356",sequenceID="KJ641404",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641405'[&collection_year="2011",country="Canada",genotype="B",isolate="4-40",name="SRLV",pubmed_id="25462356",sequenceID="KJ641405",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641409'[&collection_year="2011",country="Canada",genotype="B",isolate="5-13",name="SRLV",pubmed_id="25462356",sequenceID="KJ641409",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641411'[&collection_year="2011",country="Canada",genotype="B",isolate="11-18",name="SRLV",pubmed_id="25462356",sequenceID="KJ641411",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641412'[&collection_year="2011",country="Canada",genotype="B",isolate="4-12",name="SRLV",pubmed_id="25462356",sequenceID="KJ641412",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641413'[&collection_year="2011",country="Canada",genotype="B",isolate="16-24",name="SRLV",pubmed_id="25462356",sequenceID="KJ641413",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/MH936675'[&collection_year="2015",country="Italy",genotype="B",isolate="BRRN_CNPC",name="SRLV",pubmed_id="-",sequenceID="MH936675",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-core/NC_001463'[&collection_year="-",country="United States",genotype="B",isolate="Clements",name="SRLV",pubmed_id="2171210",sequenceID="NC_001463",source="ncbi-refseqs-core",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/AY900630'[&collection_year="1992",country="China",genotype="B",isolate="gansu",name="SRLV",pubmed_id="-",sequenceID="AY900630",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/GU120138'[&collection_year="2009",country="China",genotype="B",isolate="Shanxi",name="SRLV",pubmed_id="22566005",sequenceID="GU120138",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/HM210570'[&collection_year="2004",country="Mexico",genotype="B",isolate="FESC-752",name="SRLV",pubmed_id="20932787",sequenceID="HM210570",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT214469'[&collection_year="1993",country="China",genotype="B",isolate="Sichuan",name="SRLV",pubmed_id="-",sequenceID="KT214469",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749878'[&collection_year="1993",country="China",genotype="B",isolate="Shandong",name="SRLV",pubmed_id="-",sequenceID="KT749878",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749879'[&collection_year="1993",country="China",genotype="B",isolate="Shaanxi",name="SRLV",pubmed_id="-",sequenceID="KT749879",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749880'[&collection_year="-",country="China",genotype="B",isolate="guizhou",name="SRLV",pubmed_id="-",sequenceID="KT749880",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749881'[&collection_year="-",country="China",genotype="B",isolate="gs-35V",name="SRLV",pubmed_id="-",sequenceID="KT749881",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554402'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV001",name="SRLV",pubmed_id="-",sequenceID="MG554402",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554410'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV010",name="SRLV",pubmed_id="-",sequenceID="MG554410",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554411'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV014",name="SRLV",pubmed_id="-",sequenceID="MG554411",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554412'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV016",name="SRLV",pubmed_id="-",sequenceID="MG554412",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554413'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV017",name="SRLV",pubmed_id="-",sequenceID="MG554413",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374289'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV_Taccone",name="SRLV",pubmed_id="-",sequenceID="MH374289",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374290'[&collection_year="1989",country="Italy",genotype="B",isolate="SRLV_To1.89",name="SRLV",pubmed_id="-",sequenceID="MH374290",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH936674'[&collection_year="2015",country="Italy",genotype="B",isolate="BRMG CNPC",name="SRLV",pubmed_id="-",sequenceID="MH936674",source="ncbi-refseqs-srlv",subtype=1]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454288':0.096129,((('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/AY900630':0.245762,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/DL256644':1.0E-6,'alignment/AL_SRLV_B1/member/ncbi-refseqs-core/NC_001463':1.0E-6)[&label=100]:1.0E-6)[&label=58]:0.057607,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/MH936675':1.0E-6,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454239':0.001867,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454238':0.016838)[&label=79]:0.00359)[&label=23]:1.0E-6)[&label=58]:0.034348,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/GU120138':0.003036,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749880':0.001518,(('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749878':1.0E-6,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749879':0.001514)[&label=13]:1.0E-6,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749881':1.0E-6,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT214469':1.0E-6)[&label=24]:1.0E-6)[&label=69]:0.001514)[&label=58]:1.0E-6)[&label=81]:0.030848)[&label=90]:0.017971)[&label=45]:1.28E-4,(('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641413':0.03128,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641409':0.049902,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641411':0.039916)[&label=100]:0.034649)[&label=94]:0.041884,((('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641401':0.06732,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641403':0.068046)[&label=90]:0.028221,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641405':0.103832,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641412':0.094549,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/HM210570':0.084226)[&label=17]:0.011)[&label=18]:0.007307)[&label=7]:0.003484,(('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/KJ641404':0.117246,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH936674':0.057636)[&label=46]:0.022585,((('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454259':0.090834,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454272':0.066592,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374289':0.076538)[&label=64]:0.015883)[&label=7]:0.006318,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454276':0.09781,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454281':0.077616,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554410':0.070155,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554413':0.034375,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554411':0.026794,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554412':0.033736)[&label=97]:0.024576)[&label=100]:0.051263)[&label=50]:0.013235)[&label=36]:0.006706)[&label=14]:0.011608)[&label=2]:0.002769,((('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454253':0.100853,(('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454249':0.106536,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454289':0.071458)[&label=17]:0.016034,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374290':0.103749)[&label=3]:0.001126)[&label=11]:0.00587,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454285':0.115888,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454248':0.056161)[&label=22]:0.014847)[&label=5]:0.009315,((((('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454254':0.132891,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454282':0.089474)[&label=43]:0.022523,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454252':0.079833)[&label=18]:0.010544,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454263':0.091753)[&label=12]:0.011918,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454264':0.009147,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454265':0.008022)[&label=100]:0.063756)[&label=4]:0.004009,(((('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454262':0.083496,(('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454256':0.087383,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454286':0.066943,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454271':0.023617)[&label=84]:0.008428)[&label=78]:0.026328,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454280':0.071269)[&label=5]:0.001327)[&label=3]:0.005861,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454261':0.080215)[&label=0]:0.005996,(('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454257':0.086623,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454260':0.076208)[&label=26]:0.011167,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454266':0.056518,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454267':0.092943)[&label=24]:0.013531)[&label=12]:0.02763)[&label=2]:0.006842,(('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454241':0.037505,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454270':0.023924)[&label=100]:0.0432,((('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554402':0.16587,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454283':0.158823)[&label=99]:0.094972,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454275':0.06415)[&label=3]:0.003869,(('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454240':0.042319,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454250':0.066039)[&label=100]:0.038774,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454251':0.086277,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454245':0.068699,(('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454235':0.011665,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454236':0.011336)[&label=94]:0.013126,('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454234':0.002716,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/AY454237':0.001174)[&label=72]:0.005289)[&label=100]:0.048625)[&label=37]:0.014931)[&label=15]:0.002912)[&label=10]:0.006003)[&label=0]:0.008425)[&label=0]:0.00462)[&label=1]:0.009785)[&label=0]:0.002066)[&label=1]:0.007396)[&label=24]:0.013249)[&label=48]:0.0182)[&label=21]:0.012588)[&label=45]:0.014775);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="country";
+	set tipLabels.displayAttribute="sequenceID";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

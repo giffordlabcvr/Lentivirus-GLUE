@@ -1,1 +1,121 @@
-(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554402:0.179744877236950025885,((alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554410:0.05076581511788888501,((alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554412:0.03024715100782070926,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554411:0.03564185880868243200)56:0.01305415078945455255,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554413:0.05189640736538383287)98:0.02207464951610554893)100:0.02854237086808871643,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374289:0.08741437332803748961,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374290:0.08509777974299193026,((alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/HM210570:0.08369894247351217231,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH936674:0.07226114305684913641)71:0.01167831346360282720,(((alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/DL256644:0.00000100000050002909,alignment/AL_SRLV_B1/member/ncbi-refseqs-core/NC_001463:0.00000100000050002909)100:0.01972730624279392386,alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/MH936675:0.00034158712845823821)100:0.02887545525012319078,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT214469:0.00023352695347999067,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749880:0.00176682710888852222,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749878:0.00035252491703245036,((alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/AY900630:0.04145235047744214724,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/GU120138:0.00191810461034680642)97:0.00483876783723710506,(alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749879:0.00105790539024220578,alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749881:0.00035274105758038426)63:0.00000100000050002909)27:0.00035224566053894114)8:0.00000100000050002909)44:0.00189278563235748074)100:0.03396162977105013359)100:0.02687626022958035724)100:0.02204027297087075149)62:0.00898085475418615269)42:0.00432422436951284198):0.035024485533674085625);
+#NEXUS
+begin taxa;
+	dimensions ntax=19;
+	taxlabels
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/DL256644'[&collection_year="-",country="-",genotype="B",isolate="-",name="SRLV",pubmed_id="-",sequenceID="DL256644",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/MH936675'[&collection_year="2015",country="Italy",genotype="B",isolate="BRRN_CNPC",name="SRLV",pubmed_id="-",sequenceID="MH936675",source="ncbi-nuccore-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-core/NC_001463'[&collection_year="-",country="United States",genotype="B",isolate="Clements",name="SRLV",pubmed_id="2171210",sequenceID="NC_001463",source="ncbi-refseqs-core",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/AY900630'[&collection_year="1992",country="China",genotype="B",isolate="gansu",name="SRLV",pubmed_id="-",sequenceID="AY900630",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/GU120138'[&collection_year="2009",country="China",genotype="B",isolate="Shanxi",name="SRLV",pubmed_id="22566005",sequenceID="GU120138",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/HM210570'[&collection_year="2004",country="Mexico",genotype="B",isolate="FESC-752",name="SRLV",pubmed_id="20932787",sequenceID="HM210570",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT214469'[&collection_year="1993",country="China",genotype="B",isolate="Sichuan",name="SRLV",pubmed_id="-",sequenceID="KT214469",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749878'[&collection_year="1993",country="China",genotype="B",isolate="Shandong",name="SRLV",pubmed_id="-",sequenceID="KT749878",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749879'[&collection_year="1993",country="China",genotype="B",isolate="Shaanxi",name="SRLV",pubmed_id="-",sequenceID="KT749879",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749880'[&collection_year="-",country="China",genotype="B",isolate="guizhou",name="SRLV",pubmed_id="-",sequenceID="KT749880",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749881'[&collection_year="-",country="China",genotype="B",isolate="gs-35V",name="SRLV",pubmed_id="-",sequenceID="KT749881",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554402'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV001",name="SRLV",pubmed_id="-",sequenceID="MG554402",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554410'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV010",name="SRLV",pubmed_id="-",sequenceID="MG554410",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554411'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV014",name="SRLV",pubmed_id="-",sequenceID="MG554411",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554412'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV016",name="SRLV",pubmed_id="-",sequenceID="MG554412",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554413'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV017",name="SRLV",pubmed_id="-",sequenceID="MG554413",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374289'[&collection_year="-",country="Italy",genotype="B",isolate="SRLV_Taccone",name="SRLV",pubmed_id="-",sequenceID="MH374289",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374290'[&collection_year="1989",country="Italy",genotype="B",isolate="SRLV_To1.89",name="SRLV",pubmed_id="-",sequenceID="MH374290",source="ncbi-refseqs-srlv",subtype=1]
+	'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH936674'[&collection_year="2015",country="Italy",genotype="B",isolate="BRMG CNPC",name="SRLV",pubmed_id="-",sequenceID="MH936674",source="ncbi-refseqs-srlv",subtype=1]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554402':0.179745,(('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554410':0.050766,(('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554412':0.030247,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554411':0.035642)[&label=56]:0.013054,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MG554413':0.051896)[&label=98]:0.022075)[&label=100]:0.028542,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374289':0.087414,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH374290':0.085098,(('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/HM210570':0.083699,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/MH936674':0.072261)[&label=71]:0.011678,((('alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/DL256644':1.0E-6,'alignment/AL_SRLV_B1/member/ncbi-refseqs-core/NC_001463':1.0E-6)[&label=100]:0.019727,'alignment/AL_SRLV_B1/member/ncbi-nuccore-srlv/MH936675':3.42E-4)[&label=100]:0.028875,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT214469':2.34E-4,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749880':0.001767,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749878':3.53E-4,(('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/AY900630':0.041452,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/GU120138':0.001918)[&label=97]:0.004839,('alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749879':0.001058,'alignment/AL_SRLV_B1/member/ncbi-refseqs-srlv/KT749881':3.53E-4)[&label=63]:1.0E-6)[&label=27]:3.52E-4)[&label=8]:1.0E-6)[&label=44]:0.001893)[&label=100]:0.033962)[&label=100]:0.026876)[&label=100]:0.02204)[&label=62]:0.008981)[&label=42]:0.004324):0.035024);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="country";
+	set tipLabels.displayAttribute="country";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

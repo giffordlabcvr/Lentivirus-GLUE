@@ -59,7 +59,7 @@ begin figtree;
 	set nodeLabels.colorAttribute="User selection";
 	set nodeLabels.displayAttribute="label";
 	set nodeLabels.fontName="sansserif";
-	set nodeLabels.fontSize=8;
+	set nodeLabels.fontSize=10;
 	set nodeLabels.fontStyle=0;
 	set nodeLabels.isShown=true;
 	set nodeLabels.significantDigits=4;
