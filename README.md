@@ -50,10 +50,10 @@ are welcome to redistribute it under certain conditions. For details see
 GNU Affero General Public License v3: http://www.gnu.org/licenses/
 
 Mode path: /
-GLUE> run file buildLentivirusProject.glue
+GLUE> run file buildCoreProject.glue
 ```
 
-This will build the base project, which contains a minimal set of feature definitions, clade categories, reference sequences, and alignments.
+This will build the base or 'core' project, which contains a minimal set of feature definitions, clade categories, reference sequences, and alignments.
 
 ## Usage
 
