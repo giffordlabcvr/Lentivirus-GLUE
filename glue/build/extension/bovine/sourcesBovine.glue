@@ -1,6 +1,0 @@
- 
-  # Import GenBank sequences 
-  import source ../../../../../Sources/lentivirus/bovine/ncbi-refseqs-bovine/
-  import source ../../../../../Sources/lentivirus/bovine/ncbi-curated-biv/
-  import source ../../../../../Sources/lentivirus/bovine/ncbi-curated-jdv/
-
