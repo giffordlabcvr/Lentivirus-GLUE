@@ -14,10 +14,6 @@ Lentivirus-GLUE is a sequence-oriented resource for comparative genomic analysis
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Lentivirus Genome Features](#lentivirus-genome-features)
-- [Reference Sequences](#lentivirus-reference-sequences)
-- [Multiple Sequence Alignments](#multiple-sequence-alignments)
-- [Database Schema](#lentivirus-glue-database-schema)
 
 ## Key Features
 
