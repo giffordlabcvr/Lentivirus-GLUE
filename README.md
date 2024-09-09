@@ -6,6 +6,11 @@ Welcome to the GitHub repository for **Lentivirus-GLUE**!
 
 Lentivirus-GLUE is a sequence-oriented resource for comparative genomic analysis of lentiviruses (family *Retroviridae*, genus *Lentivirus*), developed using the **[GLUE](https://github.com/giffordlabcvr/gluetools)** software framework. 
 
+This **Lentivirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
+
+  - **[Lentivirus-GLUE-EVE](https://github.com/giffordlabcvr/Lentivirus-GLUE-ERV)**: extends Lentivirus-GLUE through the incorporation of endogenous lentiviruses.
+
+
 ## Table of Contents
 
 - [Key Features](#key-features)
