@@ -1,4 +1,4 @@
-# Lentivirus-GLUE: Phylogenomic Analysis of Lentivirus Virus
+# Lentivirus-GLUE: Phylogenomic Analysis of Lentiviruses
 
 <img src="md/Lentivirus-glue-logo.png" align="right" alt="" width="280" />
 
