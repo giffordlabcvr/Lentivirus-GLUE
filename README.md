@@ -8,7 +8,7 @@ Lentivirus-GLUE is a sequence-oriented resource for comparative genomic analysis
 
 This **Lentivirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
 
-  - **[Lentivirus-GLUE-EVE](https://github.com/giffordlabcvr/Lentivirus-GLUE-ERV)**: extends Lentivirus-GLUE through the incorporation of endogenous lentiviruses.
+  - **[Lentivirus-GLUE-ERV](https://github.com/giffordlabcvr/Lentivirus-GLUE-ERV)**: extends Lentivirus-GLUE through the incorporation of endogenous lentiviruses.
 
 
 ## Table of Contents
