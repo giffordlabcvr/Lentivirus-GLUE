@@ -22,6 +22,11 @@ This Lentivirus-GLUE base project can be extended with additional layers, includ
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Lentivirus Genome Features](#lentivirus-genome-features)
+- [Reference Sequences](#lentivirus-reference-sequences)
+- [Multiple Sequence Alignments](#multiple-sequence-alignments)
+- [Database Schema](#lentivirus-glue-database-schema)
+- [Publications](#related-publications)
 
 ## Key Features
 
@@ -54,6 +59,52 @@ GLUE> run file buildCoreProject.glue
 ```
 
 This will build the base or 'core' project, which contains a minimal set of feature definitions, clade categories, reference sequences, and alignments.
+
+## Lentivirus Genome Features
+
+This section provides background information on the virus-associated data items included in the project. 
+
+### Provirus and Genome Features
+
+In their integrated DNA form - referred to as a **provirus** - retrovirus genomes are flanked at either side by identical **long terminal repeat (LTR)** sequences, each of which is composed of distinct **U3**, **R**, and **U5** regions.
+
+![Lentivirus genome](md/lentivirus-genomes.png)
+
+Lentiviruses typically encode a range of ‘accessory’ genes in addition to the fundamental **gag**, **pol**, and **env** genes encoded by all retroviruses. Among these, the **rev** gene is thought to be encoded by all lentiviruses, while **tat** is encoded by all except SRLVs and FIVs. Numerous other accessory genes have been defined, but the evolutionary relationships between these genes are not well-characterized.
+
+A **standard set of genome features** for lentiviruses has been defined, reflecting current knowledge, and [incorporated into Lentivirus-GLUE](https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiFeatures.glue).
+
+## Lentivirus Reference Sequences
+
+Lentivirus-GLUE contains **reference sequences** for all known lentivirus species. These reference sequences are linked to auxiliary data in [tabular format](https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/tabular/core/lenti-reference-data.tsv).
+
+This project includes 'master' reference sequences for each lentivirus species:
+
+- **Primate group**: [HIV-1 (AF033819)](https://www.ncbi.nlm.nih.gov/nuccore/AF033819)
+- **Equine group**: [EIA Virus (AF016316)](https://www.ncbi.nlm.nih.gov/nuccore/AF016316), etc.
+- **Small Ruminant group**: [Small ruminant lentivirus (NC_001452)](https://www.ncbi.nlm.nih.gov/nuccore/NC_001452), etc.
+- **Feline group**: [FIV (M25381)](https://www.ncbi.nlm.nih.gov/nuccore/M25381), etc.
+- **Bovine group**: [BIV (M32690)](https://www.ncbi.nlm.nih.gov/nuccore/M32690), etc.
+
+Lentivirus genome features on master reference sequences can be found [here](https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiMasterReferences.glue).
+
+## Multiple Sequence Alignments (MSAs)
+
+Multiple sequence alignments (MSAs) are the fundamental tool for comparative genomic analysis. MSAs in Lentivirus-GLUE are linked using GLUE's **constrained MSA tree** data structure, where the coordinate space is defined by a reference sequence. Insertions relative to the reference are recorded and stored, ensuring sequence data integrity.
+
+An **alignment tree** links MSAs across taxonomic levels, using common reference sequences. The root alignment contains reference sequences for major clades, and child alignments inherit references from their parent.
+
+![Alignment tree](../assets/images/lentivirus-msa-tree.png)
+
+Example alignments include:
+
+1. **Root alignment**: [lentivirus-root-gagpol](https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/alignments/root/lentivirus-root-gagpol.aln.fna)
+2. **Genus-level alignments**: Available [here](https://github.com/giffordlabcvr/Lentivirus-GLUE/tree/master/alignments/internal/)
+
+## Lentivirus-GLUE Database Schema
+
+Lentivirus-GLUE extends GLUE's [core schema](http://glue-tools.cvr.gla.ac.uk/#/coreSchema) by incorporating additional fields in the sequence table and a project-specific custom table called 'isolate'. The isolate table links to the main 'sequence' table and contains information about viral isolates, including species, date, and location of sampling. Schema extensions are defined [here](https://github.com/giffordlabcvr/Lentivirus-GLUE/blob/master/glue/build/core/lentiSchemaExtensions.glue).
+
 
 ## Usage
 
