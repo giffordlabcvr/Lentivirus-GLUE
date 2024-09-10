@@ -1,10 +1,16 @@
-# Lentivirus-GLUE: Phylogenomic Analysis of Lentiviruses
+# Lentivirus-GLUE
 
-<img src="md/lentivirus-glue-logo.png" align="right" alt="" width="280" />
+<img src="md/lentivirus-glue-logo.png" align="right" alt="" width="280"/>
 
 Welcome to the GitHub repository for **Lentivirus-GLUE**!
 
+Lentiviruses (genus Lentivirus) are complex retroviruses (family Retroviridae) that cause chronic, persistent infections in mammals, including humans. They are best known as the genus of retroviruses that includes human immunodeficiency virus type 1 (HIV-1).
+
 Lentivirus-GLUE is a sequence-oriented resource for comparative genomic analysis of lentiviruses (family *Retroviridae*, genus *Lentivirus*), developed using the **[GLUE](https://github.com/giffordlabcvr/gluetools)** software framework. 
+
+GLUE is an open, integrated software toolkit that provides functionality for storage and interpretation of sequence data. It provides an extensible platform for implementing 'sequence-based resources' that represent the semantic links between sequences and other data items via a relational database. This minimises the requirement for labour-intensive pre-processing of data, and allows sequence-based analyses to be implemented in an efficient, standardised and reproducible way.
+
+## Extension layers 
 
 This **Lentivirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
 
@@ -13,7 +19,6 @@ This **Lentivirus-GLUE**  project can be extended with additional layers, openly
   - **[Lentivirus-GLUE-EIAV](https://github.com/giffordlabcvr/Lentivirus-GLUE-EIAV)**: equine infectious anemia virus (EIAV), all NCBI sequence data.
   - **[Lentivirus-GLUE-FIV](https://github.com/giffordlabcvr/Lentivirus-GLUE-FIV)**: feline immunodeficiency viruses (FIVs), all NCBI sequence data.
   - **[Lentivirus-GLUE-ERV](https://github.com/giffordlabcvr/Lentivirus-GLUE-ERV)**: adds lentivirus sequences that occur as endogenous retroviruses (ERVs).
-
 
 ## Table of Contents
 
