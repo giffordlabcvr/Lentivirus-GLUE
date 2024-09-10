@@ -1,6 +1,6 @@
 # Lentivirus-GLUE: Phylogenomic Analysis of Lentiviruses
 
-<img src="md/Lentivirus-glue-logo.png" align="right" alt="" width="280" />
+<img src="md/lentivirus-glue-logo.png" align="right" alt="" width="280" />
 
 Welcome to the GitHub repository for **Lentivirus-GLUE**!
 
