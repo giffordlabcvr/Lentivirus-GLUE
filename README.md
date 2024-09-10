@@ -4,7 +4,7 @@
 
 Welcome to the GitHub repository for **Lentivirus-GLUE**!
 
-Lentiviruses (genus Lentivirus) are complex retroviruses (family Retroviridae) that cause chronic, persistent infections in mammals, including humans. They are best known as the genus of retroviruses that includes human immunodeficiency virus type 1 (HIV-1).
+Lentiviruses (family *Retroviridae*, genus *Lentivirus*) are complex retroviruses that cause chronic, persistent infections in mammals, including humans. They are best known as the genus of retroviruses that includes human immunodeficiency virus type 1 (HIV-1).
 
 Lentivirus-GLUE is a sequence-oriented resource for comparative genomic analysis of lentiviruses (family *Retroviridae*, genus *Lentivirus*), developed using the **[GLUE](https://github.com/giffordlabcvr/gluetools)** software framework. 
 
