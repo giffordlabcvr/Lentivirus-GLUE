@@ -4,6 +4,7 @@
   create module -f modules/build/core/lentiGagPolTranslationModifier.xml
   create module -f modules/build/core/lentiTabularUtility.xml
   create module -f modules/build/core/lentiCompoundAligner.xml 
+  create module -f modules/build/core/lentiFeaturePresenceRecorder.xml
 
   # Importers 
   create module -f modules/build/core/unconstrainedAlignmentImporter.xml
