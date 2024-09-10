@@ -8,7 +8,7 @@ Lentivirus-GLUE is a sequence-oriented resource for comparative genomic analysis
 
 This **Lentivirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
 
-  - **[Lentivirus-GLUE-Primate](https://github.com/giffordlabcvr/Lentivirus-GLUE-Primate)**: all NCBI sequence data for primate lentiviruses, including HIV-1 and HIV-2.
+  - **[Lentivirus-GLUE-Primates](https://github.com/giffordlabcvr/Lentivirus-GLUE-Primates)**: all NCBI sequence data for primate lentiviruses, including HIV-1 and HIV-2.
   - **[Lentivirus-GLUE-SRLV](https://github.com/giffordlabcvr/Lentivirus-GLUE-SRLV)**: small ruminant lentiviruses (SRLVs), all NCBI sequence data plus curated metatdata.
   - **[Lentivirus-GLUE-EIAV](https://github.com/giffordlabcvr/Lentivirus-GLUE-EIAV)**: equine infectious anemia virus (EIAV), all NCBI sequence data.
   - **[Lentivirus-GLUE-FIV](https://github.com/giffordlabcvr/Lentivirus-GLUE-FIV)**: feline immunodeficiency viruses (FIVs), all NCBI sequence data.
