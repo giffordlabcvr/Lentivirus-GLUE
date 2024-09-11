@@ -15,7 +15,7 @@ GLUE is an open, integrated software toolkit that provides functionality for sto
 This **Lentivirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
 
   - **[Lentivirus-GLUE-Primates](https://github.com/giffordlabcvr/Lentivirus-GLUE-Primates)**: all NCBI sequence data for primate lentiviruses, including HIV-1 and HIV-2.
-  - **[Lentivirus-GLUE-SRLV](https://github.com/giffordlabcvr/Lentivirus-GLUE-SRLV)**: small ruminant lentiviruses (SRLVs), all NCBI sequence data plus curated metatdata.
+  - **[Lentivirus-GLUE-SRLV](https://github.com/giffordlabcvr/Lentivirus-GLUE-SRLV)**: small ruminant lentiviruses (SRLVs), all NCBI sequence data plus curated metatdata and analysis logic.
   - **[Lentivirus-GLUE-EIAV](https://github.com/giffordlabcvr/Lentivirus-GLUE-EIAV)**: equine infectious anemia virus (EIAV), all NCBI sequence data.
   - **[Lentivirus-GLUE-FIV](https://github.com/giffordlabcvr/Lentivirus-GLUE-FIV)**: feline immunodeficiency viruses (FIVs), all NCBI sequence data.
   - **[Lentivirus-GLUE-ERV](https://github.com/giffordlabcvr/Lentivirus-GLUE-ERV)**: adds lentivirus sequences that occur as endogenous retroviruses (ERVs).
