@@ -28,6 +28,7 @@ This **Lentivirus-GLUE**  project can be extended with additional layers, openly
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Data Sources](#data-sources)
 - [License](#license)
 - [Contact](#contact)
 
@@ -68,6 +69,10 @@ This will build the base or 'core' project, which contains a minimal set of feat
 GLUE contains an interactive command line environment focused on the development and use of GLUE projects by bioinformaticians. This provides a range of productivity-oriented features such as automatic command completion, command history and interactive paging through tabular data. 
 
 For detailed instructions on how to use Lentivirus-GLUE for your comparative genomic analysis, refer to the GLUE's [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
+
+## Data Sources
+
+Lentivirus-GLUE is constructed using sequence data obtained from [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore).
 
 ## Contributing
 
