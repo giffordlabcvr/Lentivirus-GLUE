@@ -45,24 +45,7 @@ This **Lentivirus-GLUE**  project can be extended with additional layers, openly
 
 ## Installation
 
-If you have not done so already, install the GLUE software framework by following the [installation instructions](http://glue-tools.cvr.gla.ac.uk/#/installation) on the GLUE web site: 
-
-Download the Lentivirus-GLUE repository, navigate into the top-level directory, and start the GLUE command line interpreter.
-
-At the GLUE command prompt, run the 'buildLentivirusProject.glue' file as follows:
-
-```
-GLUE Version 1.1.107
-Copyright (C) 2015-2020 The University of Glasgow
-This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
-are welcome to redistribute it under certain conditions. For details see
-GNU Affero General Public License v3: http://www.gnu.org/licenses/
-
-Mode path: /
-GLUE> run file buildCoreProject.glue
-```
-
-This will build the base or 'core' project, which contains a minimal set of feature definitions, clade categories, reference sequences, and alignments.
+Please see the **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Installation)**.
 
 ## Usage
 
