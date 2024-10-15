@@ -22,16 +22,6 @@ This **Lentivirus-GLUE**  project can be extended with additional layers, openly
   - **[Lentivirus-GLUE-FIV](https://github.com/giffordlabcvr/Lentivirus-GLUE-FIV)**: feline immunodeficiency viruses (FIVs), all NCBI sequence data.
   - **[Lentivirus-GLUE-ERV](https://github.com/giffordlabcvr/Lentivirus-GLUE-ERV)**: adds lentivirus sequences that occur as endogenous retroviruses (ERVs).
 
-## Table of Contents
-
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Data Sources](#data-sources)
-- [License](#license)
-- [Contact](#contact)
-
 ## Key Features
 
 - **GLUE Framework Integration**: Built on the GLUE software framework, Lentivirus-GLUE offers an extensible platform for efficient, standardized, and reproducible computational genomic analysis of Lentivirus virus.
@@ -41,7 +31,6 @@ This **Lentivirus-GLUE**  project can be extended with additional layers, openly
 - **Rich Annotations**: Annotated reference sequences enable rigorous comparative genomic analysis related to conservation, adaptation, structural context, and genotype-to-phenotype associations.
 
 - **Exploratory and operational**: The GLUE framework allows sequence-based resources to be used for exploratory work in a research setting, as well as operational work in a public or animal health setting.
-
 
 ## Installation
 
