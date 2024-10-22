@@ -1,12 +1,12 @@
-sequenceID	full_name	name	species	subgenus	subtype	genotype	clade	host_common_name	host_sci_name	isolate	year	country	pubmed_id
-M32690	Bovine immunodeficiency virus	BIV	BIV	Bovine	Main	NULL	Main	Domestic cow	Bos taurus	NK	NK	United Kingdom	NK
-AF016316	Equine infectious anemia virus	EIAV	EIAV	Equine	American	NULL	American	Domestic horse	Equus caballus	NK	NK	United States	NK
-M25381	Feline immunodeficiency virus	FIV	FIV	Feline	Main	NULL	Main	Domestic cat	Felis catus	NK	NK	United States	NK
-AF033819	Human immunodeficiency virus 1	HIV-1	HIV-1 	Primate	B	M	M	Human	Homo sapiens	HXB2	NK	United States	NK
-X05291	Human immunodeficiency virus 2	HIV-2	HIV-2	Primate	NULL	NULL	A	Human	Homo sapiens	NK	NK	NK	NK
-NC_001452	Small ruminant lentivirus genotype A	SRLV	SRLV	Ovine-Caprine	1	A	NK	Sheep	Ovis aries	NK	NK	Iceland	NK
-NC_001463	Small ruminant lentivirus genotype B	SRLV	SRLV	Ovine-Caprine	1	B	NK	Sheep	Capra hircus	Clements	1974	United States	NK
-JF502416	Small ruminant lentivirus genotypeB3	SRLV	SRLV	Ovine-Caprine	3	B	NK	Sheep	Capra hircus	Fonni	NK	Italy	NK
-EU293537	Small ruminant lentivirus genotype E1	SRLV	SRLV	Ovine-Caprine	1	E	NK	Sheep	Capra hircus	Roccaverano	NK	Italy	NK
-GQ381130	Small ruminant lentivirus genotype E2	SRLV	SRLV	Ovine-Caprine	2	E	NK	Sheep	Capra hircus	Seui	NK	Italy	NK
-AF322109	Small ruminant lentivirus genotype G	SRLV	SRLV	Ovine-Caprine	NK	C	NK	Sheep	Capra hircus	1GA	NK	Norway	NK
+sequenceID	full_name	species	subgenus	genotype	subtype	clade	host_common_name	host_sci_name	isolate	year	country	pubmed_id
+M32690	Bovine immunodeficiency virus	BIV	Bovine	M	Main	Main	Domestic cow	Bos taurus	NK	NK	United Kingdom	NK
+AF016316	Equine infectious anemia virus	EIAV	Equine	M	American	American	Domestic horse	Equus caballus	NK	NK	United States	NK
+M25381	Feline immunodeficiency virus	FIV	Feline	M	Main	Main	Domestic cat	Felis catus	NK	NK	United States	NK
+AF033819	Human immunodeficiency virus 1	HIV-1 	Primate	M	B	M	Human	Homo sapiens	HXB2	NK	United States	NK
+X05291	Human immunodeficiency virus 2	HIV-2	Primate	A	A	A	Human	Homo sapiens	NK	NK	NK	NK
+NC_001452	Small ruminant lentivirus genotype A	SRLV	Ovine-Caprine	A	A1	NK	Sheep	Ovis aries	NK	NK	Iceland	NK
+NC_001463	Small ruminant lentivirus genotype B	SRLV	Ovine-Caprine	B	B1	NK	Sheep	Capra hircus	Clements	1974	United States	NK
+JF502416	Small ruminant lentivirus genotypeB3	SRLV	Ovine-Caprine	B	B3	NK	Sheep	Capra hircus	Fonni	NK	Italy	NK
+EU293537	Small ruminant lentivirus genotype E1	SRLV	Ovine-Caprine	E	E1	NK	Sheep	Capra hircus	Roccaverano	NK	Italy	NK
+GQ381130	Small ruminant lentivirus genotype E2	SRLV	Ovine-Caprine	E	E2	NK	Sheep	Capra hircus	Seui	NK	Italy	NK
+AF322109	Small ruminant lentivirus genotype C	SRLV	Ovine-Caprine	C	C1	NK	Sheep	Capra hircus	1GA	NK	Norway	NK

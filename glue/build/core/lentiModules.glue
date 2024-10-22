@@ -3,15 +3,19 @@
   create module -f modules/build/core/tabularUtilityCsv.xml
   create module -f modules/build/core/tabularUtilityTab.xml
   create module -f modules/build/core/lentiTabularUtility.xml
-
-  create module -f modules/build/core/lentiGenbankXmlPopulator.xml
   create module -f modules/build/core/lentiGagPolTranslationModifier.xml
   create module -f modules/build/core/lentiCompoundAligner.xml 
   create module -f modules/build/core/lentiFeaturePresenceRecorder.xml
 
   # Importers 
   create module -f modules/build/core/unconstrainedAlignmentImporter.xml
+  create module -f modules/build/core/lentiGenbankXmlPopulator.xml
 
   # Exporters 
   create module -t fastaExporter
   create module -t fastaProteinExporter
+  
+  # Phylogeny  
+  create module -f modules/analysis/phylogeny/core/lentiNucsRaxmlPhylogenyGenerator.xml
+  create module -f modules/analysis/phylogeny/core/lentiPhylogenyImporter.xml
+  create module -f modules/analysis/phylogeny/core/lentiPhyloUtility.xml

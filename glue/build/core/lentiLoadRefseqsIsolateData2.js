@@ -8,7 +8,7 @@ glue.inMode("module/lentiTabularUtility", function() {
 
 _.each(loadResult, function(refSeqObj) {
 
-    //glue.log("INFO", "refSeqObj was:", refSeqObj);
+    glue.log("INFO", "refSeqObj was:", refSeqObj);
 	glue.inMode("custom-table-row/isolate_data/"+refSeqObj.sequenceID, function() {
 	
 		glue.command(["set", "field", "host_sci_name", refSeqObj.host_sci_name]);
@@ -20,10 +20,15 @@ _.each(loadResult, function(refSeqObj) {
 
 	glue.inMode("sequence/ncbi-refseqs-core/"+refSeqObj.sequenceID, function() {
 	
-		glue.command(["set", "field", "species", refSeqObj.name]);
-		glue.command(["set", "field", "full_name", refSeqObj.full_name]);
-		glue.command(["set", "field", "subgenus", refSeqObj.subgenus]);
-		
+		if (refSeqObj.species) {
+			glue.command(["set", "field", "species", refSeqObj.species]);
+		}
+		if (refSeqObj.full_name) {
+			glue.command(["set", "field", "full_name", refSeqObj.full_name]);
+		}
+		if (refSeqObj.subgenus) {
+			glue.command(["set", "field", "subgenus", refSeqObj.subgenus]);
+		}		
 		if (refSeqObj.clade) {
 			glue.command(["set", "field", "clade", refSeqObj.clade]);
 		}
