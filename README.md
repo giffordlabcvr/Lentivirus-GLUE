@@ -14,6 +14,8 @@ Lentivirus-GLUE provides a command line interface (CLI) and can be installed loc
 
 Please see the **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki)** for more details.
 
+* * * * * 
+
 ## Extension layers 
 
 This **Lentivirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
@@ -25,6 +27,8 @@ This **Lentivirus-GLUE**  project can be extended with additional layers, openly
   - **[Lentivirus-GLUE-Bovine](https://github.com/giffordlabcvr/Lentivirus-GLUE-Bovine)**: bovine immunodeficiency viruses (FIVs), all NCBI sequence data.
   - **[Lentivirus-GLUE-ERV](https://github.com/giffordlabcvr/Lentivirus-GLUE-ERV)**: adds lentivirus sequences that occur as endogenous retroviruses (ERVs).
 
+* * * * *
+
 ## Key Features
 
 - **GLUE Framework Integration**: Built on the GLUE software framework, Lentivirus-GLUE offers an extensible platform for efficient, standardized, and reproducible computational genomic analysis of Lentivirus virus.
@@ -35,9 +39,21 @@ This **Lentivirus-GLUE**  project can be extended with additional layers, openly
 
 - **Exploratory and operational**: The GLUE framework allows sequence-based resources to be used for exploratory work in a research setting, as well as operational work in a public or animal health setting.
 
-## Installation
+* * * * *
 
-Please see the **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Installation)**.
+Installation
+------------
+
+To install Lentivirus-GLUE, follow the instructions provided in the **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki)**.
+
+You can choose between:
+
+-   **[Docker-based installation](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Docker-Installation)** for ease of deployment.
+-   **[Native installation](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Native-Installation)** for traditional setup.
+
+Lentivirus-GLUE can be installed as a prebuilt database for quick setup or constructed from scratch for more customization.
+
+* * * * *
 
 ## Usage
 
@@ -45,9 +61,13 @@ GLUE contains an interactive command line environment focused on the development
 
 For detailed instructions on how to use Lentivirus-GLUE for your comparative genomic analysis, refer to the GLUE's [reference documentation](http://glue-tools.cvr.gla.ac.uk/).
 
+* * * * *
+
 ## Data Sources
 
 Lentivirus-GLUE is constructed using sequence data obtained from [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore).
+
+* * * * *
 
 ## Contributing
 
@@ -55,11 +75,16 @@ We welcome contributions from the community! If you're interested in contributin
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./md/code_of_conduct.md)
 
+* * * * *
+
 ## License
 
 The project is licensed under the [GNU Affero General Public License v. 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+* * * * *
 
 ## Contact
 
 For questions, issues, or feedback, please open an issue on the [GitHub repository](https://github.com/giffordlabcvr/Lentivirus-GLUE/issues).
 
+* * * * *
