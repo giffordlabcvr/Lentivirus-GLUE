@@ -4,11 +4,11 @@
 
 Welcome to the GitHub repository for **Lentivirus-GLUE**!
 
-Lentiviruses (family *Retroviridae*, genus *Lentivirus*) are complex retroviruses that cause chronic, persistent infections in mammals, including humans. They are best known as the genus of retroviruses that includes **human immunodeficiency virus type 1 (HIV-1)**.
+**Lentivirus-GLUE** is a sequence-oriented resource for comparative genomic analysis of lentiviruses (family *Retroviridae*, genus *Lentivirus*), developed using the **[GLUE](https://github.com/giffordlabcvr/gluetools)** software framework. 
 
-Lentivirus-GLUE is a sequence-oriented resource for comparative genomic analysis of lentiviruses (family *Retroviridae*, genus *Lentivirus*), developed using the **[GLUE](https://github.com/giffordlabcvr/gluetools)** software framework. 
+**Lentiviruses** (family *Retroviridae*, genus *Lentivirus*) are complex retroviruses that cause chronic, persistent infections in mammals, including humans. They are best known as the genus of retroviruses that includes **human immunodeficiency virus type 1 (HIV-1)**.
 
-GLUE is an open, integrated software toolkit that provides functionality for storage and interpretation of sequence data. It provides an extensible platform for implementing 'sequence-based resources' that represent the semantic links between sequences and other data items via a relational database. This minimises the requirement for labour-intensive pre-processing of data, and allows sequence-based analyses to be implemented in an efficient, standardised and reproducible way.
+**GLUE** is an open, integrated software toolkit that provides functionality for storage and interpretation of sequence data. It provides an extensible platform for implementing 'sequence-based resources' that represent the semantic links between sequences and other data items via a relational database. This minimises the requirement for labour-intensive pre-processing of data, and allows sequence-based analyses to be implemented in an efficient, standardised and reproducible way.
 
 Lentivirus-GLUE provides a command line interface (CLI) and can be installed locally, opting either for a **[Docker-based](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Docker-Installation)** or **[native installation](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Native-Installation)**.
 
