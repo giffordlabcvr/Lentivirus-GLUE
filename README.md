@@ -10,6 +10,8 @@ Lentivirus-GLUE is a sequence-oriented resource for comparative genomic analysis
 
 GLUE is an open, integrated software toolkit that provides functionality for storage and interpretation of sequence data. It provides an extensible platform for implementing 'sequence-based resources' that represent the semantic links between sequences and other data items via a relational database. This minimises the requirement for labour-intensive pre-processing of data, and allows sequence-based analyses to be implemented in an efficient, standardised and reproducible way.
 
+Lentivirus-GLUE provides a command line interface (CLI) and can be installed locally, opting either for a **[Docker-based](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Docker-Installation)** or **[native installation](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Native-Installation)**.
+
 Please see the **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki)** for more details.
 
 ## Extension layers 
