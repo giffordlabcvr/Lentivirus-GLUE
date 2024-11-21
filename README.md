@@ -1,6 +1,6 @@
 # Lentivirus-GLUE
 
-<img src="md/lentivirus-glue.png" align="right" alt="" width="260"/>
+<img src="md/lentivirus-glue.png" align="right" alt="" width="280"/>
 
 Welcome to the GitHub repository for **Lentivirus-GLUE**!
 
