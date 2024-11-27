@@ -587,7 +587,17 @@
     feature-location pol
       add segment 2267 5107
       exit
-           
+
+    add feature-location tat
+    feature-location tat
+      add segment 5120 5260
+      exit
+
+    add feature-location S2
+    feature-location S2
+      add segment 5271 5468
+      exit
+          
     add feature-location env
     feature-location env
       add segment 5312 7891
@@ -602,6 +612,12 @@
 	feature-location transmembrane
 	  add segment 6632 7891
 	  exit 
+
+    add feature-location rev
+    feature-location rev
+      add segment 5432 5518 --spliceIndex 1
+      add segment 7219 7626 --spliceIndex 2
+      exit
 
     add feature-location 3LTR
     feature-location 3LTR

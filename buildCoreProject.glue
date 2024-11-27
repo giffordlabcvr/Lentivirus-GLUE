@@ -3,7 +3,7 @@
   delete project lentivirus
 
   # Create Lentivirus project
-  create project lentivirus "A GLUE project for lentiviruses" --minVersion 0.1.66
+  create project lentivirus "A GLUE project for lentivirus comparative genomics" --minVersion 0.1.66
 
   # Create DB schema
   schema-project lentivirus
