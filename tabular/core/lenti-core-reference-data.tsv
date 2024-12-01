@@ -1,7 +1,7 @@
 sequenceID	full_name	species	subgenus	genotype	subtype	clade	host_common_name	host_sci_name	isolate	year	country	pubmed_id
 M32690	Bovine immunodeficiency virus	BIV	Bovine	M	Main	Main	Domestic cow	Bos taurus	NK	NK	United Kingdom	NK
 AF016316	Equine infectious anemia virus	EIAV	Equine	M	American	American	Domestic horse	Equus caballus	NK	NK	United States	NK
-M25381	Feline immunodeficiency virus	FIV	Feline	M	Main	Main	Domestic cat	Felis catus	NK	NK	United States	NK
+M25381	Feline immunodeficiency virus	FIV	Feline	Global Fca	Main	Main	Domestic cat	Felis catus	NK	NK	United States	NK
 AF033819	Human immunodeficiency virus 1	HIV-1 	Primate	M	B	M	Human	Homo sapiens	HXB2	NK	United States	NK
 X05291	Human immunodeficiency virus 2	HIV-2	Primate	A	A	A	Human	Homo sapiens	NK	NK	NK	NK
 NC_001452	Small ruminant lentivirus genotype A	SRLV	Ovine-Caprine	A	A1	NK	Sheep	Ovis aries	NK	NK	Iceland	NK
