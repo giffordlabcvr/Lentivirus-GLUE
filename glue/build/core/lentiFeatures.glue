@@ -201,6 +201,12 @@
 
   # Equine group unique accessory genes
 
+  create feature s1 -p whole_genome "s1 gene"
+  feature s1 set field displayName "s1"
+  feature s1 set metatag OWN_CODON_NUMBERING true
+  feature s1 set metatag INCLUDE_IN_SUMMARY true
+  feature s1 set metatag CODES_AMINO_ACIDS true
+
   create feature s2 -p whole_genome "s2 gene"
   feature s2 set field displayName "s2"
   feature s2 set metatag OWN_CODON_NUMBERING true
