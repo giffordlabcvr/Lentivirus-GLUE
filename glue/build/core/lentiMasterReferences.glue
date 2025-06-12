@@ -475,16 +475,6 @@
       add segment 5236 5991
       exit
 
-    add feature-location vpx
-    feature-location vpx
-      add segment 5344 5613
-      exit
-
-    add feature-location vpr
-    feature-location vpr
-      add segment 5682 5996
-      exit
-
     add feature-location env
     feature-location env
       add segment 6266 8836
